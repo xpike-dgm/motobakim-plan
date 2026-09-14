@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-`PHASE-1 / WORKSPACE DISCOVERY DELEGATED`
+`PHASE-1 / WORKSPACE REVIEW_REQUIRED`
 
 ## Current Objective
 
-01_WORKSPACE asamasinin ilk kullanici girdileri, baska bir AI oturumunda kontrollu prompt ile toplanacak. ChatGPT bu surecte proje mimari muhendisi ve yoneticisi olarak promptu, repository hafizasini ve kalite kontrolunu yonetecek.
+Delegated Phase-1 workspace synthesis kalite kontrolunden gecirildi ve `01_WORKSPACE` source-of-truth taslaklarina islendi. Gate 1 -> 2 gecisinden once kullanicinin duzeltilmis workspace belgelerini acikca onaylamasi gerekiyor.
 
 ## Completed
 
@@ -14,26 +14,22 @@
 - 8 asamali workflow ve phase gate sistemi kuruldu.
 - Belge status/otorite ayrimi tanimlandi.
 - `01_WORKSPACE` calisma alani iskeleti kuruldu.
-- `02_DISCOVERY` 5 + iteratif 30 soru sistemi ve synthesis alani kuruldu.
-- `03_DESIGN` ekran, navigasyon, state ve referans yonetimi kuruldu.
-- `04_TECH_STRATEGY` uzman roller/tartisma/judge alani kuruldu.
-- `05_ADR` gerekceli teknoloji karar sistemi kuruldu.
-- `06_DELIVERY_PLANNING` Epic -> Capability -> Feature -> User Flow -> Task yapisi kuruldu.
-- `07_AI_ARCHITECTURE` context routing, contract, validation, migration ve rollback calisma alani kuruldu.
-- `08_REPOSITORY_BOOTSTRAP` fiziksel mimari kurulum alani kuruldu.
-- Tekrarlanan belgeler icin `90_TEMPLATES` olusturuldu.
-- Tarihsel belgeler icin `99_ARCHIVE` ayrildi.
-- Workspace discovery icin `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` hazirlandi.
-- Kullanici-facing discovery sorularinin diger AI oturumlarina delege edilmesi DEC-0006 ile LOCKED hale getirildi.
+- Workspace discovery icin kontrollu diger-AI promptu hazirlandi.
+- Diger AI'dan gelen Phase-1 sentezi kullanici tarafindan bu sohbete getirildi.
+- `PROJECT_VISION.md` REVIEW taslagi dolduruldu.
+- `CONSTRAINTS.md` kalite kontroluyle duzeltildi; feature gereksinimleri constraint katmanindan ayrildi.
+- `ASSUMPTIONS.md` acik varsayimlarla dolduruldu.
+- `GLOSSARY.md` ilk domain terimleriyle dolduruldu.
+- Phase-1'den cikan 12 belirsizlik `OPEN_QUESTIONS.md` icine kaydedildi.
+- `DOCUMENT_REGISTRY.md` icinde `01_WORKSPACE/*` statusu `REVIEW` yapildi.
 
 ## In Progress
 
-- Kullanici, `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` promptunu baska bir AI'ya verecek.
-- O AI once 5 genel teknik olmayan soru soracak ve cevaplardan yapilandirilmis workspace discovery ciktisi uretecek.
+- Phase-1 workspace belgelerinin kullanici onayi.
 
 ## Not Started
 
-- 01 Workspace source-of-truth belgelerinin gercek kullanici verileriyle doldurulmasi
+- Gate 1 -> 2 gecisi
 - 02 Product discovery 30-soruluk batch'leri
 - 03 Design references
 - 04 Technology strategy debate
@@ -43,9 +39,15 @@
 - 08 Real repository bootstrap
 - Application coding
 
+## Quality-Control Notes
+
+- Delegated AI ciktisindaki arac/malzeme listesi, asamali/gorsel rehber, bakim gecmisi ve hatirlatma gibi maddeler `constraint` degil product requirement/boundary olarak siniflandirildi.
+- Tehlikeli/uzmanlik gerektiren islemler kullanici niyeti olarak korundu ancak guvenlik siniri cozulmeden kosulsuz urun politikasi sayilmadi.
+- Kullanici acik onayi olmadan `01_WORKSPACE` belgeleri `APPROVED` veya `LOCKED` yapilmayacak.
+
 ## Next Action
 
-Kullanici diger AI'dan aldigi 5 soru-cevap ve yapilandirilmis ciktisini bu sohbete getirecek. ChatGPT sonucu inceleyecek, confirmed/inferred/assumption ayrimini denetleyecek ve uygun bilgileri `01_WORKSPACE` source-of-truth belgelerine isleyecek.
+Kullanici Phase-1 duzeltilmis workspace sentezini onaylarsa `01_WORKSPACE` belgelerini `APPROVED` seviyesine getir, Gate 1 kontrolunu yap ve ancak bundan sonra Phase 2 icin 30-soruluk ilk discovery promptunu hazirla.
 
 ## Last Refreshed
 
