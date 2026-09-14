@@ -1,11 +1,12 @@
 # PROJECT VISION
 
-Status: REVIEW
+Status: APPROVED
 
 Bu belge Motobakim'in teknik olmayan yuksek seviye urun vizyonunu tutar.
 
 **Source:** Kullanici tarafindan geri getirilen Phase-1 delegated workspace synthesis, 2026-09-14.  
-**Authority note:** Icerikteki kullanici-kaynakli ifadeler mevcut calisma gercegi olarak korunur; belgenin tamami kullanici acik onayi verilene kadar `APPROVED` sayilmaz.
+**Approved by user:** 2026-09-14.  
+**Authority note:** Bu belge Phase 1 icin onayli source-of-truth'tur. Sonraki discovery yeni bilgi uretebilir; degisiklikler sessizce yapilmaz, kontrollu olarak islenir.
 
 ## Problem
 
@@ -34,7 +35,7 @@ Kullanicinin hedefi yalnizca islemi tamamlamak degil; neyi, neden ve nasil yapti
 - Bilgi genel olmaktan ziyade kullanicinin motosikletine uygun olmalidir.
 - Teknik degerler veya motosiklete ozel bilgiler uydurulmamalidir.
 - Islem oncesi gerekli hazirliklar, araclar ve malzemeler gorunur olmalidir.
-- Islemler asamali olarak anlatilmali; motosiklete ozel sokme/takma veya konum bilgisinde gerektiğinde gorsel yonlendirme kullanilmalidir.
+- Islemler asamali olarak anlatilmali; motosiklete ozel sokme/takma veya konum bilgisinde gerektiginde gorsel yonlendirme kullanilmalidir.
 - Guvenlik uyarilari urun deneyiminin bir parcasi olmalidir.
 - Tamamlanan bakim/islem gecmisi korunmali ve sonraki bakim ihtiyaclari takip edilebilmelidir.
 
@@ -46,6 +47,6 @@ Kullanicinin hedefi yalnizca islemi tamamlamak degil; neyi, neden ve nasil yapti
 
 **CONFIRMED** — Basarili deneyimde kullanici motosikletini tanimlar/secer, gerekli bakim veya yapmak istedigi islemi ve ilgili zamanlama bilgisini gorur, gerekli hazirligi yapar, adimlari zorlanmadan takip ederek islemi tamamlar; tamamlanan islem kaydedilir, gecmis korunur ve kullanici sirada ne oldugunu bilir.
 
-## Review Status
+## Approval
 
-Bu belge Phase 1 kalite kontrolunden gecirilmis bir `REVIEW` taslagidir. Kullanici acik onayi olmadan `APPROVED` veya `LOCKED` yapilmayacaktir.
+Phase 1 workspace sentezi kullanici tarafindan 2026-09-14 tarihinde acikca onaylanmistir. Belge `APPROVED` durumundadir; `LOCKED` degildir ve ileride yeni discovery kanitlariyla kontrollu olarak guncellenebilir.
