@@ -15,7 +15,7 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-007 | Deneyim seviyesine gore rehber gorunumu | Yeni kullaniciya ayrintili, deneyimliye hizli deneyim | Q007, Q014 | CANDIDATE |
 | FC-008 | Tek hareket + gorsel + basari kontrolu adim modeli | Her adimda eylem ve dogru sonucu anlamak | Q014-Q015 | CANDIDATE |
 | FC-009 | Readiness kontrol listeleri | Eksikleri ise baslamadan fark etmek | Q016-Q017 | CANDIDATE |
-| FC-010 | Risk ve stop-gate sistemi | Kritik kosullarda uygulamali ilerlemeyi durdurmak | Q018-Q021, Q034, Q045-Q053 | CANDIDATE |
+| FC-010 | Risk ve stop-gate sistemi | Kritik kosullarda application progression'i durdurmak | Q018-Q021, Q034, Q045-Q053 | CANDIDATE |
 | FC-011 | Kanit-temelli teshis akisi | Kesinlik taklidi yapmadan olasiliklari daraltmak | Q022-Q024, Q056-Q058 | CANDIDATE |
 | FC-012 | Adim ici yardim katmani | Takilinan adimda detayli yardim almak | Q025 | CANDIDATE |
 | FC-013 | Mismatch/modification akisi | Uygun olmayan rehberle devam etmemek | Q026, Q038-Q039 | CANDIDATE |
@@ -32,7 +32,7 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-024 | Reviewer guven/provenance gostergeleri | Insan incelemesi hakkinda guven sinyali gormek | Q040 | CANDIDATE |
 | FC-025 | Kategoriye ozel high-consequence readiness | Kritik sistemlerde ozel on kosul/stop-gate | Q046-Q050 | CANDIDATE |
 | FC-026 | Islem-bazli beceri/readiness degerlendirmesi | Oz-beyan yerine goreve ozel hazirligi anlamak | Q051-Q052 | CANDIDATE |
-| FC-027 | Ogrenme/hazirlik fallback | Eksik beceriyi kritik uygulama yerine guvenli hazirlikla tamamlamak | Q050-Q052 | CANDIDATE |
+| FC-027 | Ogrenme/hazirlik fallback | Eksik beceriyi kritik application yerine guvenli hazirlikla tamamlamak | Q050-Q052 | CANDIDATE |
 | FC-028 | Dogrulanmis gorsel fallback | Tam fotograf yoksa dogrulanmis sema/cizimle ilerlemek | Q054 | CANDIDATE |
 | FC-029 | Guvenli esdeger kontrolu | Alternatif arac/malzemenin gercekten uygun oldugunu anlamak | Q053-Q055 | CANDIDATE |
 | FC-030 | `Neden dogrulanamadi` + uzman handoff ozeti | Sonucsuz teshisi faydali kanit ozetiyle bitirmek | Q056-Q058 | CANDIDATE |
@@ -47,7 +47,7 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-039 | Yuksek gerilim / high-consequence learning gate | Risk, ekipman ve kritik kontrolleri ogretip safety dogrulanmadan uygulamaya gecmemek | Q068-Q069 | CANDIDATE |
 | FC-040 | Notification grouping + severity separation | Rutinleri ozetlemek, acil safety uyarilarini kaybetmemek | Q070-Q072 | CANDIDATE |
 | FC-041 | History edit trail | Yanlis kaydi duzeltirken eski/yeni deger, zaman ve nedeni korumak | Q073 | CANDIDATE |
-| FC-042 | Evidence-level labels | Kullanici beyanı, belgeli ve incelenmis kayitlari guven seviyeleriyle ayirmak | Q074, Q082 | CANDIDATE |
+| FC-042 | Evidence-level labels | Kullanici beyani, belgeli ve incelenmis kayitlari guven seviyeleriyle ayirmak | Q074, Q082 | CANDIDATE |
 | FC-043 | Belirsiz bakım takvimi | Modifiye/eksik veride uydurma aralik yerine uncertainty gostermek | Q075-Q077 | CANDIDATE |
 | FC-044 | Transparent time/cost estimates | Sureyi aralikla, maliyeti kalem/tarih/varsayimla aciklamak | Q078-Q079 | CANDIDATE |
 | FC-045 | Private notes -> explicit community contribution | Kisisel icerigi ozel tutup bilincli secimle topluluga katkida bulunmak | Q080 | CANDIDATE |
@@ -61,7 +61,27 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-053 | User data controls | Kendi motosiklet/kayit/not/fotografini goruntuleme, duzeltme ve silme | Q092-Q094 | CANDIDATE |
 | FC-054 | Free data portability | Kendi motosiklet/gecmis/not/fotograf verisini yeniden kullanilabilir export etmek | Q093 | CANDIDATE |
 | FC-055 | Transparent deletion state | Silme kapsam/geri alinmazlik ve silinen/bekleyen durumunu aciklamak | Q094 | CANDIDATE |
+| FC-056 | Readiness re-validation | Bloklanan readiness'i yeni fotograf/olcum/alternatif kontrol kanitiyla yeniden degerlendirmek | Q096-Q098 | CANDIDATE |
+| FC-057 | Block reason + remediation + resume | Eksik kosulu, nedenini, nasil tamamlanacagini ve sonra kaldigi yere donusu gostermek | Q097-Q098 | CANDIDATE |
+| FC-058 | Teaching-only content layer | Application gate kapali olsa bile guvenilir egitim/hazirlik bilgisini erisilebilir tutmak | Q099-Q104 | CANDIDATE |
+| FC-059 | Professional escalation support | `Yapamazsin` yerine eksik kosula dayali professional option, preparation ve result-check destegi sunmak | Q100-Q101 | CANDIDATE |
+| FC-060 | Aftermarket adapted guide coverage | Yaygin modifikasyonu ayristirip verified ise fabrika duzeninden farkli rehber sunmak | Q102 | CANDIDATE |
+| FC-061 | Custom modification evidence-gap fallback | Unique/custom durumda evidence gap + teaching-only bilgi + application hold sunmak | Q103-Q104 | CANDIDATE |
+| FC-062 | Community appeal / re-submit workflow | Moderation gerekcesini gormek, katkida duzeltme yapmak veya karara itiraz etmek | Q105 | CANDIDATE |
+| FC-063 | Graduated contributor trust controls | Tekrarlanan yanlista pre-review, kasitli tehlikeli tekrarda contribution restriction uygulamak | Q106, Q108 | CANDIDATE |
+| FC-064 | Unverified personal-experience status | Faydalı ama dogrulanamamis deneyimi official guide'dan ayri guven statusu ile tutmak | Q107 | CANDIDATE |
+| FC-065 | Evidence semantics view | User assertion/documented/reviewed/verified anlam ve dayanaklarini gorunur kilmak | Q109-Q110 | CANDIDATE |
+| FC-066 | Critical safety catch-up summary | Uzun sure ertelenmis veya birikmis kritik konulari zarar/aciliyet ve next action ile ozetlemek | Q111-Q113 | CANDIDATE |
+| FC-067 | Flexible premium value packaging candidates | Analysis/storage/multi-garage/personalization ve non-recurring one-time degerleri test etmek | Q114-Q115 | CANDIDATE |
+| FC-068 | Record-only owner mode/context | Guided repair kullanmadan history/reminder/document value sunmak ve sonradan rehbere gecis saglamak | Q117 | CANDIDATE |
+| FC-069 | Shared motorcycle collaboration | Owner-granted access, contributor attribution, edit trail, revoke ve private-note isolation saglamak | Q118-Q119 | CANDIDATE |
+| FC-070 | Ownership transfer preview | Secili vehicle history'yi aktarirken personal content'i ayirip transfer oncesi preview sunmak | Q120 | CANDIDATE |
+| FC-071 | Motorcycle archive lifecycle | Aktif garajdan kaldirip history'yi korumak ve yeniden active etmek | Q121 | CANDIDATE |
+| FC-072 | Critical guide freshness gate | Offline critical guide'da last verification'i gostermek ve stale application'i re-check'e kadar hold etmek | Q122 | CANDIDATE |
+| FC-073 | Progressive first-use guide preview | Account/permission/long-profile zorunlulugundan once guide value'yu gostermek | Q123 | CANDIDATE |
+| FC-074 | Turkey-first terminology presentation | Acik Turkce, alisilmis olcu birimleri ve deneyime gore terminology depth sunmak | Q124 | CANDIDATE |
+| FC-075 | Accessible active-repair guidance | Buyuk controls, contrast, non-color warnings, image descriptions, captions, voice/easy-touch interaction sunmak | Q125 | CANDIDATE |
 
 ## Important non-commitment
 
-Bu adaylar kullanici ihtiyacini temsil eder. MVP/sonraki faz, ekran yapisi, premium paket, moderation implementasyonu, offline teknik cozum, veri formati veya mimari bu asamada kararlastirilmaz.
+Bu adaylar kullanici ihtiyacini temsil eder. MVP/sonraki faz, ekran yapisi, premium paket, moderation implementasyonu, offline teknik cozum, veri formati, auth modeli, voice teknolojisi veya mimari bu asamada kararlastirilmaz.
