@@ -44,14 +44,16 @@ Kaniti veya kullanici onayi olmayan kabuller burada tutulur. Bu maddeler gercek 
 | ASM-027 | Reviewable explicit critical confirmations active repair safety'sini korurken kabul edilemez friction yaratmadan uygulanabilir. | Q151 critical confirmation istedi. | Q181-Q183 ve Q198-Q200 resume re-validation ihtiyacini destekliyor; gercek task usability/error-rate validation gerekir. | SUPPORTED |
 | ASM-028 | Persistence/cross-device/collaboration ihtiyacinda profile istemek daha genis hedef user base icin dogal kabul edilir. | Q155 profile trigger'i tanimladi. | Q175-Q177 ve Q201-Q203 continuity/failure beklentisini destekledi; hala broader segment validation gerekir. | SUPPORTED |
 | ASM-029 | Contributor identity kaldirilirken de-identified safety review trace korunmasi withdrawal beklentisi ile safety-learning ihtiyacini birlikte karsilayabilir. | Q130. | Q166-Q168 ve Q186-Q188 downstream trust semantics'i destekledi; privacy/legal/operational feasibility daha sonra degerlendirilmeli. | SUPPORTED |
-| ASM-030 | Basic trust/core history korunurken large media, advanced analysis ve extensive collaboration sustainable premium value yaratabilir. | Q144-Q146. | Q156-Q161 ve Q210-Q215 product boundary'yi guclendirdi; sustainability/WTP/business viability kaniti hala yoktur. | OPEN |
+| ASM-030 | Basic trust/core history korunurken large media, advanced analysis ve extensive collaboration sustainable premium value yaratabilir. | Q144-Q146. | Q156-Q161, Q210-Q215 ve Q216-Q245 product boundary'yi guclendirdi; sustainability/WTP/business viability kaniti hala yoktur. | OPEN |
 | ASM-031 | Attributed/disputed historical claims birden fazla ownership transfer boyunca kullanici tarafindan anlasilir kalabilir. | Q162-Q165 disputed/multi-transfer semantics istedi. | Q189-Q194 az sayida current state + event history modelini destekledi; real comprehension/information-overload validation gerekir. | SUPPORTED |
 | ASM-032 | Risk-adaptive evidence explanation, dusuk riskte bilgi kalabaligini azaltirken high-risk trust clarity'yi koruyabilir. | Q172-Q174. | Q207-Q209 explanation depth'in deneyime gore degisebilecegini ama trust-critical facts'in invariant kaldigini destekledi; real usability validation acik. | SUPPORTED |
 | ASM-033 | Local-to-profile transition'da scope preview + no-silent-loss + conflict review, duplicate/conflicting records'i kullanici guvenini bozmadan yonetebilir. | Q175-Q177. | Q201-Q203 cancel/failure/rollback beklentisini destekledi; real migration usability/technical feasibility acik. | SUPPORTED |
 | ASM-034 | Photo/check-question tabanli physical-state remapping, materially changed guide veya interrupted repair'da yeterli sayida durumda safe resume state'i yeniden kurabilir. | Q178-Q183. | Q195-Q200 bu behavior'in gerekli oldugunu guclendirdi fakat gercek dunya recognition/content reliability henuz kanitlanmadi. | OPEN |
 | ASM-035 | Withdrawn evidence'den etkilenmis kullanicilari interaction depth + safety/technical impact'e gore belirlemek gereksiz alarm yaratmadan yeterli correction reach-back saglayabilir. | Q166-Q168. | Q204-Q206 product-level signal hierarchy'yi destekledi; over/under-notification gercek kullanici validation'i acik. | SUPPORTED |
-| ASM-036 | Basic collaboration trust mekanizmalari ucretsiz kalirken premium deger participant/motorcycle scale ve richer coordination uzerinden kurulabilir. | Q210-Q215 basic trust vs advanced coordination ayrimi. | Commercial viability/WTP ve exact entitlement lifecycle Q-0065—Q-0069 ile/sonraki market validation'da netlesmeli. | SUPPORTED |
-| ASM-037 | `1 aktif motosiklet + 1 davetli + 1 secilmis tam rehber` free proposal, existing history/safety/active-work trust'ini retroactive kilitlemeden uygulanabilir. | Batch 07 supplemental user proposal. | Active motorcycle/guide switching, downgrade, existing-record write/resume ve collaboration lifecycle Q-0065—Q-0069 ile dogrulanmali. | OPEN |
+| ASM-036 | Basic collaboration trust mekanizmalari ucretsiz kalirken premium deger participant/motorcycle scale ve richer coordination uzerinden kurulabilir. | Q210-Q215 basic trust vs advanced coordination ayrimi. | Q237-Q244 downgrade/history-integrity davranisini destekledi; commercial viability/WTP hala validate edilmeli. | SUPPORTED |
+| ASM-037 | `1 aktif motosiklet + 1 davetli + 1 secilmis tam rehber` free proposal, existing history/safety/active-work trust'ini retroactive kilitlemeden uygulanabilir. | Batch 07 supplemental user proposal. | Q216-Q244 lifecycle/trust semantics'i destekledi. Exact wrong-guide correction window, pricing, quota ve broader market acceptance/business viability daha sonra validate edilmeli. | SUPPORTED |
+| ASM-038 | Historical essential evidence media ile optional expanded-media archive product-level olarak tutarli ayrilabilir. | Q157-Q158, Q232-Q245 essential evidence'in paywall/downgrade ile zayiflamamasini; optional large archive'in ayri commercial kosullara sahip olabilecegini soyluyor. | Gercek media categories, user comprehension, storage economics ve edge cases validation ister. | OPEN |
+| ASM-039 | Started physical work icin task categories boyunca yeterince acik ve tutarli bir `safe closure` criterion tanimlanabilir. | Q228-Q230 safe completion/stop/recovery access'ini entitlement'tan ayirdi; Q245 exact criterion'i testing'e birakti. | Task-specific safety acceptance criteria validation gerekir; technical implementation sonraki asamalara aittir. | OPEN |
 
 ## Evidence history
 
@@ -115,13 +117,20 @@ Kaniti veya kullanici onayi olmayan kabuller burada tutulur. Bu maddeler gercek 
 - ASM-031 — ASM-035 yeni OPEN assumptions olarak eklendi.
 
 ### Batch 07
-- **ASM-031 SUPPORTED — Q189-Q194:** Current claim state + event history ayrimi ve minimal status semantics product modelini destekledi.
-- **ASM-032 SUPPORTED — Q207-Q209:** Experience adaptation explanation depth'te olabilir; trust-critical facts ve mandatory checks invariant kalir.
-- **ASM-033 SUPPORTED — Q201-Q203:** Cancel/failure/rollback local source preservation ve partial-state transparency beklentileriyle guclendi.
-- **ASM-034 OPEN refinement — Q195-Q200:** Physical-state reconstruction zorunlu product behavior olarak guclendi; remapping feasibility kanitlanmadi.
-- **ASM-035 SUPPORTED — Q204-Q206:** Interaction-depth + risk affected-user reach-back modelini destekledi; actual notification performance acik.
-- **ASM-036 SUPPORTED — Q210-Q215:** Core trust vs scale/coordination premium boundary desteklendi.
-- **ASM-037 OPEN — supplemental note:** Exact free entitlement user proposal olarak kaydedildi; lifecycle edge case'leri acik.
+- ASM-031 SUPPORTED — Q189-Q194.
+- ASM-032 SUPPORTED — Q207-Q209.
+- ASM-033 SUPPORTED — Q201-Q203.
+- ASM-034 OPEN refinement — Q195-Q200; physical-state reconstruction behavior guclendi fakat feasibility kanitlanmadi.
+- ASM-035 SUPPORTED — Q204-Q206.
+- ASM-036 SUPPORTED — Q210-Q215.
+- ASM-037 OPEN — supplemental note; exact entitlement lifecycle acikti.
+
+### Batch 08
+- **ASM-030 OPEN refinement — Q216-Q245:** Monetization trust boundary daha da guclendi; sustainability/WTP/business viability hala kanitlanmadi.
+- **ASM-036 SUPPORTED — Q237-Q244:** Collaboration downgrade historical trust'i korur; paid value future scale/coordination'da kalabilir.
+- **ASM-037 SUPPORTED — Q216-Q244:** Active/inactive motorcycle, selected guide, downgrade, historical trust-maintenance ve active-repair continuity semantics'i yeterince tanimlandi; commercial viability/tuning acik.
+- **ASM-038 OPEN:** Essential historical evidence vs optional expanded media classification validation konusu olarak ayrildi.
+- **ASM-039 OPEN:** Safe-closure criterion task-level validation konusu olarak ayrildi.
 
 ## QC Note — assumption-ID protection
 
