@@ -11,61 +11,79 @@ Projede kullanilan domain terimlerinin tek anlamli sozlugu. `PROPOSED` terimler 
 |---|---|---|---|---|
 | MotoBakim | Kullanicinin kendi motosikletindeki bakim, mekanik ve elektriksel islemleri anlamasina, uygulamasina ve gecmis/sonraki ihtiyaclarini takip etmesine yardimci olmayi amaclayan urun. | USER | — | PROPOSED |
 | Motosiklete Ozel Bilgi | Genel motosiklet bilgisinden farkli olarak, kullanicinin gercek motosiklet konfigurasyonuna ve islemi etkileyen yil/versiyon/donanim farklarina uygun teknik bilgi ve yonlendirme. | USER | `genel bilgi` ile es anlamli kullanma | PROPOSED |
-| Dogrulanmis Bilgi | Kullanicinin motosiklet/varyantiyla eslesen guvenilir kaynaga dayanan; kaynak surumu ve ilgili sayfa/bolum kaniti gorulebilen ve kullanici beklentisine gore insan incelemesinden gecmis teknik bilgi. Kritik kaynak celiskisi cozulmemisse tek kesin deger gibi sunulmaz. | USER | `AI tahmini`, `internette cok tekrarlandi`, `yaklasik teknik deger` | PROPOSED |
-| Asamali Rehber | Bir islemi hazirliktan tamamlanmasina kadar mantikli adimlarla yonlendiren urun deneyimi. Yeni kullanici icin adim birimi tek hareket + ilgili gorsel + basari kontrolu seviyesine kadar inebilir. | USER | `tek parca makale`, atlamali `sokup geri takin` anlatimi | PROPOSED |
-| Gorsel Yonlendirme | Parcayi/konumu tanimak icin gercek/isaretli motosiklet fotografi; gizli baglantida cizim; hareket yonu/sira kritikse kisa video gibi desteklerin genel adi. Tam varyant fotografi yoksa dogrulanmis cizim/isaretli sema fallback olabilir; baska motosiklet gorseli ayniymis gibi sunulamaz. | USER | — | PROPOSED |
-| Bakim Gecmisi | Kullanicinin motosikleti uzerinde tamamladigi, yarim biraktigi veya disarida yaptirdigi bakim/ilgili islemlerin durum, kanit ve degisiklik iziyle izlenen kronolojik kaydi. | USER | Yalniz `tamamlanmis isler listesi` | PROPOSED |
-| Sonraki Bakim Ihtiyaci | Motosiklet icin ileride yapilmasi gereken bakim/servis ihtiyacinin uretici kilometre/sure araliklari, dogrulanmis tamamlanma kaydi ve dogrulanmis istisnalarla iliskili izlenmesi. | USER | Dogrulanmamis tahmini aralik | PROPOSED |
-| Yeni / Az Deneyimli Kullanici | Kendi motosikleti uzerindeki teknik islemlerde sinirli deneyimi olan ve hareket-bazli ayrintili gorsel anlatima ihtiyac duyabilen hedef kullanici grubu. | USER | `yeni motosiklet sahibi`ni otomatik deneyimsiz sayma | PROPOSED |
-| Deneyimli Kullanici | Bakim/teknik islemlerde deneyimi bulunan, kisa checklist ve teknik ayrintiya hizla ulasmak isteyen; safety ve kritik dogrulamayi yine koruyan hedef kullanici grubu. | USER | — | PROPOSED |
-| Motosiklet-Rehber Eslesmesi | Rehberin kullanicinin gercek motosikletinin yil/versiyon/donanim ve islemi etkileyen diger ozellikleriyle uygunlugunun yeterince kesinlestirilmis olmasi. Modifiye sistemde fabrika rehberi otomatik uygun sayilmaz. | USER + INFERRED | `marka/model benziyor` | PROPOSED |
-| Rehber Dali | Ayni islem icin yil, versiyon veya donanima bagli farkli adim yolunun ayri bicimde ele alinmasi. | USER | — | PROPOSED |
-| Ilgili Versiyon | Ayni marka/model/yil icinde islem adimini, gerekli malzemeyi veya safety kontrolunu degistiren ozellikler bakimindan kullanicinin motosikletiyle eslesen varyant. | USER | — | PROPOSED |
-| Kritik Dogrulama Adimi | Islemin guvenli ve dogru ilerledigini kanitlamak icin deneyim seviyesinden bagimsiz olarak atlanmamasi gereken kontrol. | USER | `opsiyonel kontrol` | PROPOSED |
-| Basari Kontrolu | Tek bir islem hareketinden sonra beklenen dogru sonucun gozlem, olcum veya baska kontrolle dogrulanmasi. | INFERRED | — | PROPOSED |
-| Durdurma Noktasi | Rehber-gercek motosiklet uyusmazligi, gerekli arac/olcum eksikligi, beklenmeyen fiziksel durum veya kritik sonucun dogrulanamamasi gibi nedenlerle uygulamali ilerlemenin kesilmesi gereken durum. | INFERRED | Sadece `uyari` | PROPOSED |
-| Guvenli Esdeger | Alternatif arac/sarf/yardimci ekipmanin gerekli olcu, uyum, dayanim, malzeme, islev ve safety ozelliklerini karsiladiginin dogrulanmis olmasi. | USER | `benzer gorunen alternatif` | PROPOSED |
-| Olasi Neden | Bir ariza belirtisini aciklayabilecek ancak gozlem veya olcumle henuz dogrulanmamis teshis adayi. | USER | `kesin teshis` | PROPOSED |
-| Neden Dogrulanamadi | Makul ve guvenli ayirt edici kontroller tamamlandigi halde arizanin belirli bir nedeninin yeterli kanitla dogrulanamadigini ifade eden teshis sonucu. | USER | `rastgele parca degistir` sonucu | PROPOSED |
-| Rehber Surumu | Kullanicinin bir islemi uygularken kullandigi rehber iceriginin belirli versiyonu; yarim/gecmis islemlerde izlenen referans. | INFERRED | — | PROPOSED |
-| Kritik Duzeltme | Mevcut rehber adimlarinin guvenli devamini etkileyebilecek ve eski akisin durdurulmasini gerektirebilecek kaynak/rehber degisikligi. | INFERRED | — | PROPOSED |
-| Rehber Askiya Alma | Kritik degisiklik, hata veya cozulmemis belirsizlik degerlendirilene kadar etkilenen uygulamali adimlarin ilerleme icin sunulmamasi. | INFERRED | — | PROPOSED |
-| Insan Incelemesi | Ilgili sistemde uygulamali deneyimi olan bir kisinin motosiklet uyumu, kaynaklar, gorseller, araclar, riskler ve son kontrol acisindan rehberi degerlendirmesi. | USER | Belirli sertifika/unvan zorunlulugu varsayma | PROPOSED |
-| Bagimsiz Ikinci Inceleme | Kritik rehberde ilk incelemeden ayri ikinci insan degerlendirmesi; kullanici acisindan ek guven sinyali. Tum kritik rehberlerde zorunlu oldugu karar degildir. | USER | `her kritik rehberde zorunlu iki reviewer` | PROPOSED |
-| Islem Readiness | Kullanicinin belirli bir is icin benzer deneyim, arac/olcum bilgisi, onceki kayitlar ve on kosul anlayisi acisindan uygulamali adima hazir olma durumu. | INFERRED | Global `deneyimliyim` beyanina indirgeme | PROPOSED |
-| Dogrulanmis Tamamlanma Kaydi | Bir bakim/islemin gercekten tamamlandigi ve gerekli son kontrollerinin dogrulandigi kayit; sonraki bakim zamanlamasinin dayandirildigi kayit. | INFERRED | `ertelendi`, `yarim`, `dogrulanamadi` | PROPOSED |
-| Dis Islem Kaydi | Servis veya baska biri tarafindan yapilan ve kaynagi belirtilerek motosiklet gecmisine eklenen islem kaydi. | INFERRED | — | PROPOSED |
-| Dogrulanmamis Dis Islem | Disarida yapildigi kaydedilen ancak yeterli kanit bulunmadigi icin dogrulanmis tamamlanmis islem gibi gosterilmemesi gereken kayit. | INFERRED | `fatura var = otomatik dogrulanmis` | PROPOSED |
-| Bakim Onceligi | Birden fazla gecikmis bakim arasinda safety/kullanim etkisi, gecikme miktari ve dogrulanmis kosullara gore gerekceli siralama. | USER | Sadece `en eski tarih` | PROPOSED |
-| Recovery / Guvenli Geri Donus | Hata, uyumsuzluk veya beklenmeyen durumda normal rehber akisini durdurup motosikleti guvenli hale getirme, kanit saklama ve uygun geri donus/profesyonel yardim yoluna ilerleme davranisi. | INFERRED | — | PROPOSED |
-| Kanit Duzeyi | Bir gecmis kaydi veya icerik iddiasinin kullanici beyani, belge/fotograf destegi veya inceleme gibi hangi kanit seviyesine dayandigini gorunur ifade eden urun kavrami. | USER | Tum kaynaklari tek `verified/unverified` ikiligine zorlamak | PROPOSED |
-| Belirsiz Bakim Takvimi | Guvenilir bakım araligi belirlenemediginde uydurma tarih/mesafe vermek yerine zamanlamanin kesin olmadigini acikca gosteren durum. | USER | Eski/uydurulmus araligi otomatik kullanma | PROPOSED |
-| Bakim Istisnasi | Genel bakim planindan belirli motosiklet ozelligi veya dogrulanmis kullanim kosulu nedeniyle gerekceli bicimde ayrilan kural. | USER | Sebepsiz genel `agir kullanim` katsayisi | PROPOSED |
-| Degisiklik Izi | Gecmis veya rehber bilgisinde eski/yeni deger, degisiklik zamani ve gerekce gibi tarihsel baglamin korunmasi. | USER | Sessiz overwrite | PROPOSED |
-| Topluluk Katkisi | Kullanicinin kisisel alanindan ayri, bilincli secimle diger kullanicilara sunulan bilgi, fotograf, deneyim veya duzeltme onerisi. | USER | Kisisel not/fotografin otomatik yayini | PROPOSED |
-| Resmi Rehber | Incelenmis ve urunun teknik yonlendirmesi olarak sunulan; topluluk deneyiminden acikca ayrilan rehber icerigi. | INFERRED | Community yorumu ile karistirma | PROPOSED |
-| Ticari Tarafsizlik | Sponsor, odeme veya satis hedefinin teknik uygunluk, rehber icerigi veya alternatiflerin gorunurlugunu degistirmemesi ilkesi. | INFERRED | `sponsorlu = teknik olarak en uygun` | PROPOSED |
-| Yol Kenari Kullanim Baglami | Garaj disi/acil durumda hizli belirti taramasi, oncelikli safety kontrolleri, kisa gorsel yonlendirme ve belirsizlik gorunurlugu ihtiyacinin arttigi kullanim durumu. | INFERRED | `safety adimlarini kisaltma modu` | PROPOSED |
-| Cevrimdisi Islem Baglami | Baglanti olmadiginda indirilmis rehber, gorsel, safety uyarisi, kalinan adim ve kullanici gecmisi gibi islem surekliligi icin gereken urun baglami. | USER | — | PROPOSED |
-| Veri Tasinabilirligi | Kullanicinin kendi motosiklet, tarihli islem, not ve fotograf verilerini anlasilir ve yeniden kullanilabilir bicimde urun disina alabilme beklentisi. | USER | Belirli teknik dosya formatini varsayma | PROPOSED |
-| Guven Kirici Davranis / Trust-breaker | Uydurulmus teknik bilgi, gizlenen tehlike, hesaplar arasi veri karismasi, gecmisin sessiz kaybi veya reklam/ticari etkinin rehberi degistirmesi gibi kullanicinin urune teknik guvenini sona erdirebilecek davranis sinifi. | USER + INFERRED | — | PROPOSED |
-| Readiness Yeniden Dogrulama | Readiness sonucu kullaniciyi durdurdugunda, salt oz-beyanla gate'i asmak yerine fotograf, olcum veya alternatif kontrol gibi yeni kanitla eksik kosulu yeniden degerlendirme davranisi. | USER | `ben yapabilirim` = override | PROPOSED |
-| Override Edilemez Safety Gate | Kullanici kendisini yeterli gorse bile motosiklet/teknik bilgi, ekipman, ortam veya kritik pre-check eksiginde uygulamali ilerlemeyi kapali tutan urun kosulu. | USER | Serbest override | PROPOSED |
-| Ogretici Icerik / Teaching-only Content | Bir sistem veya islemi ogrenmeye yarayan fakat belirli motosiklete uygulanabilir talimat olarak sunulmayan bilgi. Uygulamali adim gate'li olsa da erisilebilir kalabilir. | USER | `bu motosiklete uygula` talimati | PROPOSED |
-| Profesyonel Escalation | Belirli islemde gerekli kosullar karsilanmadiginda kullaniciyi kalici yetersiz ilan etmeden profesyonel yardim secenegini sunan; ogrenme, belirti kaydi ve hazirlik destegini koruyan urun durumu. | USER + INFERRED | `sen bunu yapamazsin` | PROPOSED |
-| Dogrulanmamis Kisisel Deneyim | Belirli motosiklette gozlemlenen fakat teknik olarak dogrulanmadigi icin resmi islem adimi statusu tasimayan community contribution. | USER | Resmi rehber adimi | PROPOSED |
-| Contribution On Incelemesi | Tekrarlanan yanlis contribution gecmisinde yeni katkilarin dogrudan yayinlanmak yerine review'dan gecirilmesi durumu. | USER | Otomatik kalici yasak | PROPOSED |
-| Kullanici Beyani | Kisinin kendisinin girdigi, ek bagimsiz kanit zorunlulugu tasimayan bilgi seviyesi. | USER | `verified` | PROPOSED |
-| Belgeli | Kullanici beyanina ek supporting evidence tasiyan bilgi seviyesi. | USER | `reviewed` ile otomatik ayni sayma | PROPOSED |
-| Incelenmis | Sunulan kanitin bir kontrol surecinden gectigini gosteren evidence seviyesi; tek basina motosiklet/islem uygunlugunun teyidi anlamina gelmez. | USER | `verified` ile otomatik ayni sayma | PROPOSED |
-| Dogrulanmis — Semantik Rafine | Kaynak, ilgili motosiklet/islem uygunlugu, inceleme zamani ve karar gorunurlugunu iceren; fakat mutlak sonuc garantisi vermeyen guven ifadesi. | USER | `kesin sonuc`, `her versiyonda ayni` | PROPOSED |
-| Kritik Safety Ozeti | Acik kritik konulari routine reminder'lardan ayirip zarar/aciliyet, gecikme ve onerilen ilk kontrol baglamiyla gosteren urun davranisi. | USER | Notification spam | PROPOSED |
-| Paylasilan Motosiklet / Shared Motorcycle | Ayni motosiklet gecmisine birden fazla yetkili kisinin katkida bulundugu; attribution, edit trail, izin ve private-content sinirlarinin korundugu kullanim baglami. | USER + INFERRED | Anonim ortak kayit | PROPOSED |
-| Ownership Transfer | Motosiklet satis/devrinde secilmis bakım history/kanitinin yeni sahibine aktarilmasi ile eski sahibin kisisel iceriginin ayrilmasi sureci. | USER | Tum kisisel icerigin otomatik devri | PROPOSED |
-| Arsivlenmis Motosiklet | Aktif garajda olmayan fakat gecmisi korunmus, aranabilir ve yeniden aktive edilebilir motosiklet durumu. | USER | `silinmis motosiklet` | PROPOSED |
-| Kritik Rehber Guncellik Siniri | Offline kritik rehberin son dogrulama zamanindan sonra uygulamali ilerlemenin yeniden online kontrol gerektirdigi product-safety esigi kavrami. Sayisal degeri henuz belirlenmemistir. | USER + INFERRED | Sabit gun/hafta varsayma | PROPOSED |
-| Progressive First-use | Hesap/izin/uzun profil zorunlulugundan once kullanicinin motosiklet secip rehber deneyiminin degerini hizla gorebilmesi beklentisi. | INFERRED | Zorunlu uzun onboarding | PROPOSED |
+| Dogrulanmis Bilgi | Kullanicinin motosiklet/varyantiyla eslesen guvenilir kaynaga dayanan; kaynak surumu ve ilgili sayfa/bolum kaniti gorulebilen ve insan incelemesinden gecmis teknik bilgi. Kritik source conflict cozulmemisse tek kesin deger gibi sunulmaz. | USER | `AI tahmini`, `internette cok tekrarlandi` | PROPOSED |
+| Asamali Rehber | Bir islemi hazirliktan tamamlanmasina kadar mantikli adimlarla yonlendiren urun deneyimi; yeni kullanici icin tek hareket + ilgili gorsel + basari kontrolu seviyesine inebilir. | USER | Atlamali anlatim | PROPOSED |
+| Gorsel Yonlendirme | Parcayi/konumu tanimak icin gercek/isaretli fotograf; gizli baglantida cizim; hareket/sira kritikse video gibi desteklerin genel adi. | USER | — | PROPOSED |
+| Bakim Gecmisi | Tamamlanan, yarim birakilan veya disarida yaptirilan bakım/islemlerin durum, kanit ve degisiklik iziyle kronolojik kaydi. | USER | Yalniz `tamamlanmis isler listesi` | PROPOSED |
+| Sonraki Bakim Ihtiyaci | Uretici km/sure araliklari, dogrulanmis completion kaydi ve verified exceptions ile iliskili gelecek bakım ihtiyaci. | USER | Uydurma tahmini aralik | PROPOSED |
+| Yeni / Az Deneyimli Kullanici | Teknik islemlerde sinirli deneyimi olan ve hareket-bazli ayrintili gorsel anlatima ihtiyac duyabilen hedef kullanici. | USER | `yeni motosiklet sahibi`ni otomatik deneyimsiz sayma | PROPOSED |
+| Deneyimli Kullanici | Kisa checklist ve technical detail'e hizli ulasmak isteyen; safety/kritik dogrulamayi yine koruyan kullanici. | USER | — | PROPOSED |
+| Motosiklet-Rehber Eslesmesi | Rehberin kullanicinin gercek motosikletinin yil/versiyon/donanim ve islemi etkileyen diger ozellikleriyle yeterli uygunlukta olmasi. | USER + INFERRED | `marka/model benziyor` | PROPOSED |
+| Rehber Dali | Ayni islem icin yil/versiyon/donanima bagli farkli adim yolunun ayri ele alinmasi. | USER | — | PROPOSED |
+| Ilgili Versiyon | Islem adimi, gerekli malzeme veya safety kontrolunu degistiren ozellikler acisindan gercek motosikletle eslesen varyant. | USER | — | PROPOSED |
+| Kritik Dogrulama Adimi | Islemin guvenli/dogru ilerledigini kanitlamak icin deneyim seviyesinden bagimsiz atlanmamasi gereken kontrol. | USER | Opsiyonel kontrol | PROPOSED |
+| Basari Kontrolu | Tek bir islem hareketi sonrasi beklenen dogru sonucun gozlem/olcum/baska kontrolle teyidi. | INFERRED | — | PROPOSED |
+| Durdurma Noktasi | Mismatch, kritik arac/olcum eksigi veya sonucun dogrulanamamasi gibi nedenlerle application progression'in kesildigi durum. | INFERRED | Sadece `uyari` | PROPOSED |
+| Guvenli Esdeger | Alternatif arac/sarf/ekipmanin gerekli olcu, uyum, dayanim, malzeme, islev ve safety ozelliklerini karsiladigi dogrulanmis secenek. | USER | Benzer gorunen alternatif | PROPOSED |
+| Olasi Neden | Ariza belirtisini aciklayabilecek fakat henuz kanitla dogrulanmamis diagnosis candidate. | USER | Kesin teshis | PROPOSED |
+| Neden Dogrulanamadi | Makul guvenli kontroller sonunda belirli neden yeterli kanitla dogrulanamadiginda kullanilan diagnosis sonucu. | USER | Rastgele parca degisimi | PROPOSED |
+| Rehber Surumu | Bir islemin uygulandigi belirli guide version; yarim/gecmis iste referans. | INFERRED | — | PROPOSED |
+| Kritik Duzeltme | Mevcut guide progression'ini guvenli bicimde etkileyip eski akisin durmasini gerektirebilecek degisiklik. | INFERRED | — | PROPOSED |
+| Rehber Askiya Alma | Kritik degisiklik/hata/belirsizlik incelenene kadar etkilenen application adimlarinin sunulmamasi. | INFERRED | — | PROPOSED |
+| Insan Incelemesi | Ilgili sistemde uygulamali deneyimi olan kisinin uyum/kaynak/gorsel/arac/risk/son-kontrol acilarindan rehberi degerlendirmesi. | USER | Sertifika/unvan zorunlulugu varsayma | PROPOSED |
+| Bagimsiz Ikinci Inceleme | Ilk review'dan ayri ikinci insan degerlendirmesi; ek guven sinyali, evrensel zorunluluk degil. | USER | Her kritik rehberde zorunlu iki reviewer | PROPOSED |
+| Islem Readiness | Kullanicinin belirli is icin deneyim, arac/olcum bilgisi ve on-kosul anlayisi acisindan application'a hazir olma durumu. | INFERRED | Global `deneyimliyim` | PROPOSED |
+| Dogrulanmis Tamamlanma Kaydi | Islemin gercekten tamamlandigina ve gerekli son kontrollerin yapildigina dayanak olan history kaydi. | INFERRED | `ertelendi`, `yarim` | PROPOSED |
+| Dis Islem Kaydi | Servis veya baska biri tarafindan yapilan ve provenance ile history'ye eklenen islem kaydi. | INFERRED | — | PROPOSED |
+| Dogrulanmamis Dis Islem | Yapildigi bildirilen fakat yeterli kanit olmadigi icin verified completion gibi sunulmayan dis islem. | INFERRED | `fatura = verified` | PROPOSED |
+| Bakim Onceligi | Gecikmis islemleri safety/kullanim etkisi, gecikme ve verified conditions ile gerekceli siralama. | USER | Sadece `en eski tarih` | PROPOSED |
+| Recovery / Guvenli Geri Donus | Hata/mismatch/beklenmeyen durumda normal akisi durdurup motosikleti guvenli hale getirme ve uygun yardim yoluna ilerleme. | INFERRED | — | PROPOSED |
+| Kanit Duzeyi | Bir kayit veya content claim'in kullanici beyani, belge/fotograf veya review gibi hangi kanita dayandigini anlatan product concept. | USER | Tek `verified/unverified` ikiligi | PROPOSED |
+| Belirsiz Bakim Takvimi | Reliable interval bulunamadiginda uydurma tarih/mesafe yerine uncertainty'nin acik gosterildigi durum. | USER | Eski/uydurulmus interval | PROPOSED |
+| Bakim Istisnasi | Genel planin verified motorcycle feature veya usage condition nedeniyle gerekceli olarak degistigi kural. | USER | Sebepsiz `agir kullanim` katsayisi | PROPOSED |
+| Degisiklik Izi | Eski/yeni deger, degisiklik zamani ve gerekce gibi tarihsel audit context. | USER | Sessiz overwrite | PROPOSED |
+| Topluluk Katkisi | Kisisel alandan ayri, explicit secimle diger kullanicilara sunulan bilgi/fotograf/deneyim/duzeltme. | USER | Kisisel notun otomatik yayini | PROPOSED |
+| Resmi Rehber | Incelenmis ve urunun technical guidance'i olarak sunulan; community deneyiminden ayrilan rehber. | INFERRED | Community yorumu | PROPOSED |
+| Ticari Tarafsizlik | Sponsor/odeme/satis hedefinin technical fit, guide content veya alternatives visibility'yi degistirmemesi ilkesi. | INFERRED | `sponsorlu = en uygun` | PROPOSED |
+| Yol Kenari Kullanim Baglami | Garaj disinda hizli diagnosis, safety-first kontrol ve belirsizlik gorunurlugu ihtiyacinin arttigi context. | INFERRED | Safety'yi kisaltma modu | PROPOSED |
+| Cevrimdisi Islem Baglami | Baglanti yokken indirilmis guide/gorsel/safety/progress/history ile islem surekliligi. | USER | — | PROPOSED |
+| Veri Tasinabilirligi | Kullanicinin kendi motorcycle/history/note/photo verisini anlasilir ve yeniden kullanilabilir bicimde disari alma beklentisi. | USER | Belirli teknik format varsayma | PROPOSED |
+| Guven Kirici Davranis / Trust-breaker | Uydurma bilgi, gizlenen risk, cross-account data mix, silent history loss veya commercial influence gibi trust'i bozan davranis sinifi. | USER + INFERRED | — | PROPOSED |
+| Readiness Yeniden Dogrulama | Readiness blokajini salt oz-beyanla degil yeni fotograf/olcum/alternatif kontrol kanitiyla yeniden degerlendirme. | USER | `ben yapabilirim` = override | PROPOSED |
+| Override Edilemez Safety Gate | Critical match/info/equipment/environment/pre-check eksiginde user self-assertion'dan bagimsiz application'i kapali tutan kosul. | USER | Serbest override | PROPOSED |
+| Ogretici Icerik / Teaching-only Content | Sistemi/konuyu ogreten fakat belirli motosiklete current application instruction olarak sunulmayan bilgi. | USER | `bu motosiklete uygula` | PROPOSED |
+| Profesyonel Escalation | Belirli islemde dis yardimi secenek olarak sunan fakat kullaniciyi kalici yetersiz ilan etmeyen product state. | USER + INFERRED | `sen yapamazsin` | PROPOSED |
+| Dogrulanmamis Kisisel Deneyim | Teknik olarak verify edilmedigi icin official step statusu tasimayan community experience. | USER | Resmi rehber adimi | PROPOSED |
+| Contribution On Incelemesi | Tekrarlanan yanlis contribution sonrasi yeni katkilarin publish oncesi review'a alinmasi. | USER | Otomatik permanent ban | PROPOSED |
+| Kullanici Beyani | Kisinin kendisinin girdigi, ek bagimsiz kanit zorunlulugu tasimayan evidence level. | USER | Verified | PROPOSED |
+| Belgeli | Kullanici beyanina supporting evidence eklenmis level. | USER | Reviewed ile otomatik ayni | PROPOSED |
+| Incelenmis | Sunulan kanitin bir review surecinden gectigini gosteren level; tek basina motorcycle/application fit teyidi degil. | USER | Verified ile ayni | PROPOSED |
+| Dogrulanmis — Semantik Rafine | Hangi claim'in kaynak/evidence/review ile teyit edildigini anlatan; mutlak sonuc garantisi vermeyen ifade. | USER | `kesin sonuc`, `her versiyonda ayni` | PROPOSED |
+| Kritik Safety Ozeti | Kritik acik konulari routine reminders'dan ayirip zarar/aciliyet, gecikme ve ilk action ile gosteren davranis. | USER | Notification spam | PROPOSED |
+| Paylasilan Motosiklet / Shared Motorcycle | Birden fazla yetkili kisinin katkida bulundugu; attribution/edit trail/permission/private-content sinirlari korunan context. | USER + INFERRED | Anonim ortak kayit | PROPOSED |
+| Ownership Transfer | Motosiklet devrinde secilmis vehicle history ile eski owner personal content'inin ayrildigi surec. | USER | Tum personal content'in otomatik devri | PROPOSED |
+| Arsivlenmis Motosiklet | Active garage'da olmayan fakat history'si korunmus ve yeniden active edilebilir motorcycle state. | USER | Silinmis motosiklet | PROPOSED |
+| Kritik Rehber Guncellik Siniri | Application-critical guide claim'inin yeniden online check gerektirdigi freshness gate kavrami; numeric degeri belirlenmemis. | USER + INFERRED | Sabit gun/hafta varsayma | PROPOSED |
+| Progressive First-use | Account/permission/long-profile zorunlulugundan once segmentin kendi ilk product value'sunu gorebilmesi. | INFERRED | Zorunlu uzun onboarding | PROPOSED |
+| Self-remediation | Blocked readiness sonrasi external help'ten once eksik kosulu learning/preparation/equipment/new evidence ile giderme yolu. | USER | Professional help tek cikis | PROPOSED |
+| Re-entry Validation | Daha once stop edilmis application'a geri donmeden ilgili equipment/match/critical checks'in yeniden dogrulanmasi. | USER | Onceki stop'u sadece beyanla silme | PROPOSED |
+| Professional Recommendation | Mandatory closure olmayan, kullanicinin degerlendirebilecegi external-help onerisi. | USER | `application kesin kapali` ile ayni | PROPOSED |
+| Mandatory Application Closure | Unverified critical condition nedeniyle motorcycle-facing application steps'in acilamadigi safety state. | USER | Tavsiye seviyesi | PROPOSED |
+| Independent Transferred Record | Kaynak owner kopyasindan ayri olarak baskasina aktarilmis ve kaynak deletion'dan otomatik etkilenmemesi beklenen record. | USER + INFERRED | Kaynakla ayni mutable kopya | PROPOSED |
+| De-identified Review Trace | Contribution withdrawal sonrasi contributor identity olmadan safety/review history amaciyla korunabilecek inceleme izi. | USER | Public contribution'in aynen tutulmasi | PROPOSED |
+| Context-specific Evidence Semantics | Ortak evidence vocabulary korunurken hangi claim'in verify edildiginin domain'e gore ayrilmasi. | USER + INFERRED | Tek global `verified` anlami | PROPOSED |
+| Partial-history Disclosure | Ownership transfer'da aktarılan kayitlarin complete history olmadigini, covered period ve gaps ile aciklama. | USER | `tam history` izlenimi | PROPOSED |
+| Historical Correction Proposal | Transfer sonrasi record'u silent overwrite etmek yerine attributed/reviewable duzeltme veya yeni bilgi onerisi. | USER | Sessiz degistirme | PROPOSED |
+| Record-only Owner | Ana degeri guide uygulamak yerine history, maintenance schedule ve reminder tracking'den alan owner context'i. | USER | Self-service kullanmak zorunda | PROPOSED |
+| Hobby Helper | Baskasinin motosikletinde owner izniyle yardim eden fakat paid professional service rolu tasimayan contributor. | USER | Professional ile ayni rol | PROPOSED |
+| Paid Service Record | Actor/evidence yaninda service/document information da tasiyan ucretli islem kaydi. | USER | Rol = otomatik verified | PROPOSED |
+| Core Completion Boundary | Free user'in temel islemi guvenli bicimde bastan sona tamamlamasi icin paywall disinda kalmasi gereken product-value siniri. | USER + INFERRED | Dolayli paywall | PROPOSED |
+| Reasonable History | Temel bakım gecmisini anlamli bicimde tutmaya yetecek ve core'dan cikarilmamasi beklenen history capacity kavrami; exact miktar yok. | USER | Numeric quota varsayma | PROPOSED |
+| Critical Freshness Scope | Eski kalmasi application safety/accuracy'yi etkiledigi icin re-check gerektiren claim kategorileri. | USER + INFERRED | Tum eski icerigi ayni gate'lemek | PROPOSED |
+| Stale Teaching-only Reference | Current application instruction olmayan fakat learning/risk/history icin erisilebilir kalan eski guide content. | USER | Current instruction gibi sunma | PROPOSED |
+| Reviewable Critical Confirmation | Voice/easy interaction yanlis anlasilsa bile explicit ve sonradan incelenebilir safety-critical teyit. | USER + INFERRED | Tek voice input | PROPOSED |
+| Account-light Preview | Persistence/collaboration baslamadan once product value'nun account zorunlulugu olmadan sinirli deneyimi. | INFERRED | Unlimited accountless usage | PROPOSED |
 
 ## Approval Note
 
-Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-04 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
+Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-05 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
