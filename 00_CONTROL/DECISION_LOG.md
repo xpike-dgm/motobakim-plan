@@ -54,3 +54,13 @@ Asamalar `00_CONTROL/PHASE_GATES.md` kosullari saglanmadan atlanmayacak.
 **Status:** LOCKED
 
 Ham kanit, sentez, tartisma ve kesin karar farkli katmanlarda tutulacak. Discovery ham Q&A kayitlari urun gercegi yerine gecmez; tech debate karari kilitlemez; kesin teknoloji/mimari kararlar ADR ile kayda girer.
+
+---
+
+## DEC-0006 — User-Facing Discovery Is Delegated to Other AI Sessions
+**Date:** 2026-09-14  
+**Status:** LOCKED
+
+ChatGPT proje mimari muhendisi ve yoneticisi olarak discovery sorularini dogrudan kullaniciya sormak yerine, diger AI oturumlarinda kullanilacak kontrollu promptlari hazirlayacak. Kullanici bu promptlari diger AI'lara verecek; alinan cevaplar/sonuclar daha sonra ChatGPT tarafindan repository source-of-truth sistemine islenecek ve kalite/uyumluluk acisindan kontrol edilecek.
+
+Ilk uygulama promptu: `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md`.
