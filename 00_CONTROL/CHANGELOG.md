@@ -22,6 +22,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `08_REPOSITORY_BOOTSTRAP` fiziksel kurulum/CI/quality gate yapisi olusturuldu.
 - `90_TEMPLATES` standardize belge sablonlari ve `99_ARCHIVE` tarihsel kayit alani eklendi.
 
+### Scalability Structure
+- Ekranlar icin `03_DESIGN/SCREEN_SPECS/` tekil kayit alani eklendi.
+- Teknik tartismalar icin `04_TECH_STRATEGY/DEBATES/` eklendi.
+- ADR'ler icin `05_ADR/RECORDS/` eklendi.
+- Planlama kayitlari `EPICS/`, `CAPABILITIES/`, `FEATURES/`, `FLOWS/`, `TASKS/` olarak ayrildi; kataloglar index olarak konumlandirildi.
+- AI mimarisi icin `CONTRACTS/`, `CONTEXT_PACKS/`, `RULES/` tekil kayit alanlari eklendi.
+- Bootstrap completion kanitlari icin `08_REPOSITORY_BOOTSTRAP/EVIDENCE/` eklendi.
+- Capability, context pack, decision entry ve review checklist sablonlari eklendi.
+
 ### Decision Changes
 - DEC-0003 SUPERSEDED yapildi.
 - DEC-0004 ile sekiz asamali workflow LOCKED hale getirildi.
