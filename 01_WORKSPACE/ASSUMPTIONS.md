@@ -1,8 +1,11 @@
 # ASSUMPTIONS
 
-Status: REVIEW
+Status: APPROVED
 
 Kaniti veya kullanici onayi olmayan kabuller burada tutulur. Bu maddeler gercek gibi kullanilamaz ve discovery sirasinda dogrulanmalidir.
+
+**Approved registry by user:** 2026-09-14  
+**Important:** Belgenin `APPROVED` olmasi, icindeki `OPEN` varsayimlarin dogrulandigi anlamina gelmez.
 
 | ID | Assumption | Why It Exists | Validation Needed | Status |
 |---|---|---|---|---|
@@ -11,3 +14,7 @@ Kaniti veya kullanici onayi olmayan kabuller burada tutulur. Bu maddeler gercek 
 | ASM-003 | Uygulama, kullanicinin sonraki bakim ihtiyacini yeterince dogru belirleyebilir. | Siradaki bakimin ve zamanlamanin gosterilmesi isteniyor; belirleme kriterleri henuz bilinmiyor. | Zaman, kilometre, kullanim, gecmis islem, parca durumu veya baska hangi urun sinyallerinin gerekli oldugunu netlestir. | OPEN |
 | ASM-004 | Metinsel ve gorsel asamali rehber, genis bir islem yelpazesinde deneyimsiz kullanici icin yeterli olabilir. | Urunun temel hedefi hic bilmeyen kullaniciyi da yonlendirmek. | Hangi islem kategorilerinde ek destek, kontrol, uzman yardimi veya farkli anlatim bicimi gerekir? | OPEN |
 | ASM-005 | Uzmanlik gerektiren veya tehlikeli sayilabilecek islemler, kabul edilebilir bir guvenlik modeli icinde self-service rehber olarak sunulabilir. | Kullanici bu islemlerin de anlatilmasini istiyor; urun guvenlik siniri henuz tasarlanmadi. | Hangi islemler sunulabilir, hangilerinde durdurma/uzmana yonlendirme gerekir ve hangi kosullarda? | OPEN |
+
+## Approval Note
+
+Bu belge mevcut varsayimlarin dogru siniflandirilmis kaydi olarak onaylanmistir. Her varsayim, kullanici cevabi veya yetkili karar sureci ile ayri ayri dogrulanmadan `CONFIRMED` sayilamaz.
