@@ -1,13 +1,13 @@
 # QUESTION PROGRESS
 
-Status: BATCH_03_PREPARATION
+Status: BATCH_03_READY
 
 | Batch | Question Range | Status | Session File | Synthesis Updated |
 |---|---:|---|---|---|
 | General | 1-5 | COMPLETED_APPROVED_BASELINE | `SESSIONS/SESSION-000_GENERAL_BASELINE.md` | Phase-1 workspace approved |
 | Batch 01 | 6-35 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` | Yes — working DRAFT synthesis |
 | Batch 02 | 36-65 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-002_BATCH_02_Q036_Q065.md` | Yes — working DRAFT synthesis |
-| Batch 03 | 66-95 | PREPARING | pending | No |
+| Batch 03 | 66-95 | READY | pending | No |
 
 Toplam sorulan: 65
 Toplam cevaplanan: 65
@@ -29,3 +29,7 @@ Toplam cevaplanan: 65
 Q001-Q005 icin ham soru-cevap transkripti repository'de bulunmuyor; kullanici diger AI'nin yapilandirilmis sentezini getirdi ve duzeltilmis Phase-1 baseline'i acikca onayladi.
 
 Q006-Q035 ham kaniti `SESSION-001_BATCH_01_Q006_Q035.md`, Q036-Q065 ham kaniti `SESSION-002_BATCH_02_Q036_Q065.md` icinde korunur. Sonraki batch'lerde de `RAW Q&A — VERBATIM` zorunludur.
+
+## Next
+
+`BATCH_03_AI_PROMPT.md` ile Q066-Q095 baska AI oturumunda sorulacak. Batch 04, Batch 03 portable handoff paketi kalite kontrolunden gecmeden hazirlanmayacak.
