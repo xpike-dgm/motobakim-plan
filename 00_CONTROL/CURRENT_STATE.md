@@ -4,11 +4,11 @@ Bu dosya, yeni bir sohbet veya AI oturumunda projenin nerede kaldigini hizla yen
 
 ## Current Phase
 
-`PHASE-0 / MEMORY SYSTEM BOOTSTRAP`
+`PHASE-0 / MEMORY SYSTEM READY`
 
 ## Current Objective
 
-Yalnizca kalici AI hafiza yonetim sistemini kurmak.
+Kalici AI hafiza yonetim sistemi kuruldu. Kullanici yeni bir asama baslatana kadar baska proje calismasi yapma.
 
 ## Explicit User Direction
 
@@ -16,17 +16,22 @@ Yalnizca kalici AI hafiza yonetim sistemini kurmak.
 - GitHub deposu: `xpike-dgm/motobakim-plan`
 - Yeni sohbetlerde proje baglami sohbet hafizasina guvenmeden repository uzerinden yeniden kurulacak.
 - Her anlamli asama sonunda hafiza dosyalari guncellenecek ve tazelenecek.
-- Su anda yalnizca hafiza yonetimi kurulacak; urun kesfi, teknik secim, tasarim, proje asamalari veya nihai mimari henuz baslatilmayacak.
+- Su anda yalnizca hafiza yonetimi kurulmasi istendi; urun kesfi, teknik secim, tasarim, proje asamalari veya nihai mimari henuz baslatilmadi.
 
 ## Completed
 
 - Repository erisimi dogrulandi.
-- `00_CONTROL/AI_START_HERE.md` olusturuldu.
-- Kalici hafiza kontrol katmani baslatildi.
+- Yeni AI oturumu bootstrap protokolu kuruldu.
+- Bilgi otoritesi/source-of-truth kurali tanimlandi.
+- Kalici karar kaydi kuruldu.
+- Acik soru/celiski kaydi kuruldu.
+- Hafiza changelog'u kuruldu.
+- Oturumlar arasi handoff mekanizmasi kuruldu.
+- Hafiza yenileme ve yazma protokolu tanimlandi.
 
 ## In Progress
 
-- Hafiza source-of-truth dosyalarinin kurulmasi.
+Yok.
 
 ## Not Started
 
@@ -39,7 +44,7 @@ Yalnizca kalici AI hafiza yonetim sistemini kurmak.
 
 ## Next Action
 
-Hafiza yonetim dosyalari tamamlandiktan sonra kullanicinin yeni talimatini bekle.
+Kullanicinin sonraki talimatini bekle. Yeni bir asama baslatildiginda once `00_CONTROL/MEMORY_PROTOCOL.md` kurallarina gore hafizayi yukle ve is sonunda tekrar tazele.
 
 ## Last Refreshed
 
