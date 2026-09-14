@@ -1,6 +1,6 @@
 # QUESTION PROGRESS
 
-Status: BATCH_08_READY
+Status: GATE_2_REVIEW_REQUIRED
 
 | Batch | Question Range | Status | Session File | Synthesis Updated |
 |---|---:|---|---|---|
@@ -11,62 +11,60 @@ Status: BATCH_08_READY
 | Batch 04 | 96-125 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-004_BATCH_04_Q096_Q125.md` | Yes — working DRAFT synthesis |
 | Batch 05 | 126-155 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-005_BATCH_05_Q126_Q155.md` | Yes — working DRAFT synthesis |
 | Batch 06 | 156-185 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-006_BATCH_06_Q156_Q185.md` | Yes — working DRAFT synthesis |
-| Batch 07 | 186-215 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` | Yes — `PRODUCT_MASTER` + Batch 07 synthesis delta |
-| Batch 08 | 216-245 | READY | pending | No |
+| Batch 07 | 186-215 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` | Yes — `PRODUCT_MASTER` + Batch 07 delta |
+| Batch 08 | 216-245 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-008_BATCH_08_Q216_Q245.md` | Yes — Batch 08 delta + Gate 2 review |
 
-Toplam sorulan: 215
-Toplam cevaplanan: 215
+Toplam sorulan: 245
+Toplam cevaplanan: 245
 
-## Batch 07 QC
+## Batch 08 QC
 
-- RAW Q&A Q186-Q215 ve supplemental user note repository'ye verbatim kaydedildi.
-- Portable package'teki `ANSWERED/SUPPORTED` candidates automatic kabul edilmedi; raw user evidence ile yeniden degerlendirildi.
-- Q186-Q188 contributor withdrawal'in transferred/independent record'i automatic silmemesi; source access/provenance/visibility/trust ayrimi ve remaining-evidence re-review davranisini netlestirdi.
-- Q189-Q194 disputed claim'e new evidence, resolution threshold, correction/extension relation ve current-state vs event-history semantics'ini netlestirdi.
-- Q195-Q200 materially changed guide + long interruption recovery'de current physical state reconstruction ve critical re-validation ihtiyacini guclendirdi; automatic reversal/nearest-step guessing kabul edilmedi.
-- Q201-Q203 migration cancel/failure/rollback'ta local source preservation, partial-state transparency ve non-destructive conflict review beklentisini netlestirdi.
-- Q204-Q206 affected-user reach-back'i interaction depth + risk ile ayirdi; exact notification channel/SLA secilmedi.
-- Q207-Q209 beginner/experienced adaptation'in explanation depth/speed'de olabilecegini; trust-critical facts ve mandatory checks'in invariant kaldigini netlestirdi.
-- Q210-Q215 basic collaboration trust ile advanced scale/coordination value'yu ayirdi; attribution/revoke/provenance/history integrity premium trust feature'i yapilmadi.
-- Supplemental note yeni free-tier proposal getirdi: `1 active motorcycle + 1 invitee + basic history/warnings + user-selected 1 full guide`; additional motorcycles/guides paid; existing records not locked. Bu APPROVED/LOCKED degil.
-- Earlier Q159/Q161 broad free multi-bike interpretation ve Q065/Q087/Q145 core-guide interpretation ile new proposal arasindaki refinement tension `02_DISCOVERY/CONFLICTS.md` icinde CONF-001/CONF-002 olarak kaydedildi.
-- Exact price, tier, participant quota, guide quota implementation veya commercial viability karari yapilmadi.
+- RAW Q&A Q216-Q245 repository'ye verbatim kaydedildi.
+- Portable package'teki `ANSWERED/PARTIALLY_ANSWERED/READY CANDIDATE` onerileri automatic gate karari olarak kabul edilmedi; raw user evidence ile yeniden degerlendirildi.
+- Q216-Q221 free active-motorcycle switch/inactive lifecycle'i netlestirdi: history/evidence/export/correction access devam; routine reminders susabilir; historical safety/correction reach-back devam eder; reactivation current km/use ve physical-state revalidation ister.
+- Q222-Q227 selected full-guide lifecycle'i netlestirdi: account-level single selected guide current working proposal; completion/bike switch new right yaratmaz; reuse/corrections/history access korunur; user-fault olmayan invalidation replacement hakki yaratabilir. Exact wrong-selection correction window validation konusu olarak kaldi.
+- Q228-Q230 entitlement change sirasinda started physical work'un safe completion/stop/recovery guidance'inin paywall'a takilamayacagini netlestirdi; bu continuity new paid activity hakki yaratmaz.
+- Q231-Q236 `existing records stay unlocked` minimumunu read/basic search/export/provenance/evidence/correction/dispute/error flag/own-evidence withdrawal + existing-claim supporting/correcting evidence olarak genisletti; unrelated new routine activity ayri tutuldu.
+- Q237-Q240 inactive/shared collaboration ve premium downgrade history-integrity davranisini netlestirdi; prior attribution/evidence/approvals/correction trail korunur, new routine/advanced activity durabilir.
+- Q241-Q244 retroactive historical lock, trust-metadata hiding, critical safety paywall ve mid-repair paywall'i explicit trust-breakers olarak guclendirdi.
+- Q245 exact price, wrong-guide correction timing, media quota ve safe-closure criterion'i testing/validation topic olarak ayirdi; revenue guarantee cikarmadi.
+- User answers icindeki external links raw evidence olarak korundu; external source verification veya technology/business implementation karari yapilmadi.
+- `CONFLICTS.md` CONF-001/CONF-002 Batch 08 evidence ile `RESOLVED_REFINEMENT` yapildi; final commercial tier approval verilmedi.
+- `SYNTHESIS/BATCH_08_DELTA.md` Batch 08 additive product rules/journeys/features/non-goals/glossary'i yakaladi.
+- `GATE_2_REVIEW.md` discovery saturation ve Gate 2 readiness degerlendirmesini olusturdu.
 
-## Open-question result after Batch 07
+## Open-question result after Batch 08
 
-ANSWERED in this QC:
-- Q-0050
-- Q-0056
-- Q-0057
-- Q-0058
-- Q-0059
-- Q-0060
-- Q-0061
-- Q-0062
-- Q-0063
-- Q-0064
+Product-definition evidence acisindan Q-0065, Q-0067, Q-0068 ve Q-0069 yeterince cevaplandi.
 
-New narrowed OPEN questions from the supplemental entitlement proposal:
-- Q-0065 — free `1 active motorcycle` lifecycle
-- Q-0066 — free `1 selected full guide` lifecycle
-- Q-0067 — active repair continuity during entitlement change
-- Q-0068 — minimum meaning of `existing records stay unlocked`
-- Q-0069 — inactive/shared collaboration lifecycle
+Q-0066'nin product semantics'i de yeterince cevaplandi; exact wrong-selection correction window validation parametresi olarak kaldi.
 
-## Synthesis Note
+Yeni 30-soruluk broad discovery batch'i gerektiren substantive product gap tespit edilmedi.
 
-- `PRODUCT_MASTER.md` Batch 07 evidence ile guncellendi.
-- `BATCH_07_DELTA.md` business-rule/journey/feature/non-goal/glossary additions'i additive olarak yakaladi.
-- Canonical tablolara final consolidation Batch 08/saturation review sonrasinda yapilacak; bu, ham evidence veya onceki synthesis'i sessizce silmez.
+Remaining non-blocking validation topics:
+- exact wrong-guide-selection correction window,
+- essential historical evidence vs optional large-media classification detail,
+- task categories boyunca `safe closure` acceptance criterion,
+- price/quota/subscription/WTP/business sustainability,
+- feasibility assumptions already tracked in `01_WORKSPACE/ASSUMPTIONS.md`.
+
+## Saturation / Gate Review
+
+Discovery coverage HIGH. `02_DISCOVERY/GATE_2_REVIEW.md` recommendation'i `READY_FOR_USER_APPROVAL` durumundadir.
+
+Bu recommendation Gate 2 pass degildir. User explicit approval vermeden:
+- Discovery APPROVED yapilmaz,
+- Gate 2 -> 3 gecilmez,
+- Phase 3 Design baslatilmaz.
 
 ## Provenance Note
 
 Q001-Q005 ham Q&A repository'de yoktur; corrected Phase-1 baseline user tarafindan onaylanmistir.
 
-Q006-Q215 raw evidence ilgili `SESSION-*` dosyalarinda verbatim korunur. Sonraki batch'lerde `RAW Q&A — VERBATIM` zorunludur.
+Q006-Q245 raw evidence ilgili `SESSION-*` dosyalarinda verbatim korunur.
 
 ## Next
 
-`BATCH_08_AI_PROMPT.md` ile Q216-Q245 baska AI oturumunda sorulacak. Bu batch esas olarak entitlement lifecycle'i ve monetization trust edge case'lerini kapatmaya odaklanacak.
+Batch 09 automatic hazirlanmayacak.
 
-Batch 08 sonrasinda yeni substantive gaps yoksa ana proje yoneticisi **discovery saturation + Gate 2 review** yapacak; Gate 2 -> 3 otomatik gecilmeyecek ve user approval olmadan Design baslatilmayacak.
+Siradaki adim user'in `02_DISCOVERY/GATE_2_REVIEW.md` ve Phase 2 synthesis icin approval / targeted revision / broad continuation kararidir.
