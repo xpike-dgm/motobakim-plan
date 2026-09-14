@@ -1,13 +1,15 @@
 # CONSTRAINTS
 
-Status: REVIEW
+Status: APPROVED
 
 Bu dosya, degistirilmesi zor veya proje boyunca korunmasi gereken yuksek seviye sinirlari tutar. Normal feature gereksinimleri burada listelenmez.
+
+**Approved by user:** 2026-09-14
 
 | ID | Constraint | Source | Status | Notes |
 |---|---|---|---|---|
 | CON-001 | Sunulan teknik bilgi kullanicinin gercek motosiklet konfigurasyonuna yeterince uygun olmalidir; genel bilgi motosiklete ozel bilgi gibi sunulamaz. | USER | CONFIRMED | Hangi motosiklet kimlik/variant bilgilerinin gerekli oldugu discovery'de netlesecek. |
-| CON-002 | Teknik degerler ve motosiklete ozel bilgiler uydurulamaz; urun dogrulanmis/güvenilir bilgi hedefini korumalidir. | USER | CONFIRMED | `Dogrulanmis bilgi` standardinin kaynagi ve seviyesi henuz tanimli degildir. |
+| CON-002 | Teknik degerler ve motosiklete ozel bilgiler uydurulamaz; urun dogrulanmis/guvenilir bilgi hedefini korumalidir. | USER | CONFIRMED | `Dogrulanmis bilgi` standardinin kaynagi ve seviyesi henuz tanimli degildir. |
 | CON-003 | Rehber deneyimi, ilgili risk ve guvenlik uyarilarini kullanicidan saklamamalidir. | USER | CONFIRMED | Uyari seviyeleri ve durdurma kosullari discovery/sonraki guvenlik planlamasinda netlesecek. |
 | CON-004 | Urunun ana rehber deneyimi, hic bilmeyen veya az deneyimli bir kullanicinin neyi neden yaptigini anlayabilecegi aciklik hedefini korumalidir. | USER | CONFIRMED | Bu hedef her islem turunun gercekte tek basina yapilabilir oldugu anlamina gelmez. |
 
@@ -23,3 +25,7 @@ Delegated AI ciktisindaki su maddeler constraint olarak kabul edilmedi; bunlar u
 - Uzmanlik gerektiren/tehlikeli islemlerin kapsama alinmasi istegi
 
 Son madde ayrica acik bir guvenlik/kapsam sorusu olarak izlenmektedir; henuz kosulsuz urun politikasi degildir.
+
+## Approval Note
+
+Bu constraint registry kullanici tarafindan Phase 1 kapsaminda onaylanmistir. Belgenin kendisi `APPROVED`; acik kalan ayrintilar discovery sirasinda netlestirilecektir.
