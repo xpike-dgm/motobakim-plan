@@ -2,35 +2,40 @@
 
 ## Current Phase
 
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 04 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 05 READY`
 
 ## Current Objective
 
-Batch 03 (Q066-Q095) tamamlandi, ham kanit repository'ye verbatim kaydedildi ve working DRAFT urun sentezleri kalite kontrolunden gecirilerek guncellendi. Siradaki is yeni bir AI oturumunda Q096-Q125 arasindaki Batch 04 sorularini sormaktir.
+Batch 04 (Q096-Q125) tamamlandi, ham kanit repository'ye verbatim kaydedildi ve working DRAFT urun sentezleri kalite kontrolunden gecirilerek guncellendi. Siradaki is yeni bir AI oturumunda Q126-Q155 arasindaki Batch 05 sorularini sormaktir.
 
 ## Completed
 
 - Kalici AI hafiza sistemi ve 8 asamali workflow kuruldu.
 - Phase 1 workspace baseline kullanici tarafindan APPROVED edildi; Gate 1 -> 2 tamamlandi.
-- Batch 01 Q006-Q035, Batch 02 Q036-Q065 ve Batch 03 Q066-Q095 tamamlandi; raw evidence repository'de korunuyor.
-- `SESSION-003_BATCH_03_Q066_Q095.md` ile Batch 03 ham Q&A verbatim kaydedildi.
-- Batch 03 portable paketteki classification/resolution adaylari otomatik kabul edilmedi; ham cevaplara gore yeniden degerlendirildi.
-- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 03 kanitiyla guncellendi.
-- `ASSUMPTIONS.md`: ASM-008 ve ASM-017 RESOLVED; ASM-018 SUPPORTED; ASM-013 OPEN; ASM-019 — ASM-021 yeni OPEN varsayimlar eklendi.
-- `GLOSSARY.md` Batch 03 domain kavramlariyla rafine edildi.
-- `OPEN_QUESTIONS.md`: Q-0002, Q-0010, Q-0021 — Q-0025, Q-0028 ve Q-0029 ANSWERED; kalan ve yeni bosluklar OPEN olarak korundu.
-- `02_DISCOVERY/BATCH_04_AI_PROMPT.md` Q096-Q125 icin hazirlandi.
+- Batch 01 Q006-Q035, Batch 02 Q036-Q065, Batch 03 Q066-Q095 ve Batch 04 Q096-Q125 tamamlandi; raw evidence repository'de korunuyor.
+- `SESSION-004_BATCH_04_Q096_Q125.md` ile Batch 04 ham Q&A verbatim kaydedildi.
+- Batch 04 portable paketteki classification/resolution adaylari otomatik kabul edilmedi; ham cevaplara gore yeniden degerlendirildi.
+- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 04 kanitiyla guncellendi.
+- `ASSUMPTIONS.md`: ASM-016 SUPPORTED, ASM-020 RESOLVED, ASM-021 CHALLENGED; ASM-022 — ASM-025 yeni OPEN varsayimlar eklendi.
+- `GLOSSARY.md` readiness re-validation, override-edilemez safety gate, teaching-only content, professional escalation, moderation/evidence, shared motorcycle, ownership transfer, archive, freshness ve first-use terimleriyle rafine edildi.
+- `OPEN_QUESTIONS.md`: Q-0030, Q-0031, Q-0032, Q-0033, Q-0034, Q-0037, Q-0038, Q-0039, Q-0040, Q-0041 ANSWERED; daha dar kalan bosluklar OPEN tutuldu.
+- `02_DISCOVERY/BATCH_05_AI_PROMPT.md` Q126-Q155 icin hazirlandi.
 
-## Batch 03 Quality-Control Notes
+## Batch 04 Quality-Control Notes
 
-- Phase-1 ve Batch 01-02 ile dogrudan celiski yok.
-- Q066-Q067 observable feature/fotograf yaklaşimi product expectation'dir; her motosiklette teknik feasibility garantisi degildir.
-- Q068-Q069 high-consequence kapsami kosulsuz self-service izni degildir.
-- Q070 haftalik reminder tercihi global LOCKED cadence degildir.
-- Q074 fatura/fotograf automatic verified evidence yapilmadi.
-- Q087 premium value examples final package/pricing karari degildir.
-- Q090 roadside short guidance kritik safety'yi kisaltma izni degildir.
-- Q093/Q094 export format, retention veya deletion timing secmez.
+- Phase-1 ve Batch 01-03 kanitiyla dogrudan conflict yok.
+- Readiness itirazi serbest override degil; evidence-based re-validation olarak yorumlandi.
+- Teaching-only bilgi ile belirli motosiklete uygulanabilir application instruction ayrildi.
+- Professional escalation kullanicinin kalici yetersizligi olarak yorumlanmadi; exact trigger acik tutuldu.
+- Q102 common aftermarket coverage beklentisi feasibility garantisi yapilmadi.
+- Q109-Q110 evidence semantics global tek taxonomy olarak kilitlenmedi.
+- Q114-Q115 final premium package/pricing karari degildir.
+- Q116-Q119 professional/service target statusunu belirlemedi.
+- Q120 selective transfer'da completeness trust sorusu acik tutuldu.
+- Q122 sayisal freshness threshold belirlemedi.
+- Q123 teknik authentication/identity modelini belirlemedi.
+- Q124 Turkiye-first expectation global scope lock yapilmadi.
+- Q125 belirli voice/speech teknolojisi secmedi.
 
 ## Current Discovery Coverage
 
@@ -40,34 +45,37 @@ Yuksek gelisen alanlar:
 - Safety/stop-gates
 - Maintenance tracking/history
 - Content provenance/lifecycle
-- Notifications baseline
-- Community/moderation baseline
+- Notification baseline + critical catch-up
+- Community/moderation baseline + appeal/enforcement
 - Commercial neutrality
-- Data ownership
+- Data ownership baseline
+- Shared motorcycle expectations
 - Offline/roadside context
+- First-use baseline
+- Accessibility/localization baseline
 - Non-goal/trust boundaries
 
 Orta veya acik kalan alanlar:
-- Broader user segmentation
-- First-use/onboarding
-- Readiness override / professional escalation
-- Modifiye motosiklet coverage depth
-- Community moderation disputes / evidence taxonomy
+- Professional escalation exact trigger
 - Premium packaging model
-- Shared motorcycle / ownership transfer lifecycle
-- Accessibility/localization
-- Offline stale/recall edge cases
+- Broader segment prioritization/motivations
+- Professional/service target scope
+- Data lifecycle deletion/withdrawal/export provenance edge cases
+- Context-specific evidence taxonomy
+- Selective ownership-transfer completeness
+- Critical freshness semantics
+- Active-repair voice/easy-touch safety edge cases
 
 Coverage sinyali discovery completion veya Gate 2 -> 3 onayi degildir.
 
 ## In Progress
 
-Yok. Batch 04 promptu hazir.
+Yok. Batch 05 promptu hazir.
 
 ## Not Started
 
-- Batch 04 Q096-Q125 cevaplarinin toplanmasi
-- Batch 04 ham session kaydi ve synthesis update
+- Batch 05 Q126-Q155 cevaplarinin toplanmasi
+- Batch 05 ham session kaydi ve synthesis update
 - Sonraki discovery batch'leri
 - Gate 2 -> 3
 - Design references
@@ -80,9 +88,9 @@ Yok. Batch 04 promptu hazir.
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_04_AI_PROMPT.md` metnini yeni bir AI sohbetine verecek. Diger AI ilk mesajinda sadece Q096-Q125 arasindaki 30 teknik olmayan soruyu soracak. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 04` uretecek ve duracak.
+Kullanici `02_DISCOVERY/BATCH_05_AI_PROMPT.md` metnini yeni bir AI sohbetine verecek. Diger AI ilk mesajinda sadece Q126-Q155 arasindaki 30 teknik olmayan soruyu soracak. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 05` uretecek ve duracak.
 
-Kullanici paketin tamamini ana proje yoneticisi sohbetine geri getirecek. Batch 05 ancak Batch 04 ham kanit ve sentezi kalite kontrolunden gecirildikten sonra hazirlanacak. Phase 3'e gecilmeyecek.
+Kullanici paketin tamamini ana proje yoneticisi sohbetine geri getirecek. Batch 06 ancak Batch 05 ham kanit ve sentezi kalite kontrolunden gecirildikten sonra hazirlanacak. Phase 3'e gecilmeyecek.
 
 ## Last Refreshed
 
