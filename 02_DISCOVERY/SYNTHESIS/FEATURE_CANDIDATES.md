@@ -2,7 +2,7 @@
 
 Status: DRAFT
 
-Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunlar henuz kesin kapsam, teknik task veya mimari karar degildir.
+Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunlar henuz kesin kapsam, technical task veya architecture karari degildir.
 
 | ID | Candidate | User Value | Evidence | Status |
 |---|---|---|---|---|
@@ -55,33 +55,52 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-047 | Community provenance indicators | Kaynak, motosiklet, review status ve tarihi gormek | Q082 | CANDIDATE |
 | FC-048 | Dangerous community content response | Tehlikeli icerigi kaldirip resmi rehber etkisini ve kullanici uyarisini yonetmek | Q083 | CANDIDATE |
 | FC-049 | Commercial-neutral service/parts support | Servis veya satin alma yardimini teknik uygunluk kararindan ayri tutmak | Q085-Q088 | CANDIDATE |
-| FC-050 | Premium convenience candidates | Gelismis analiz, ek depolama, coklu garaj gibi core-disinda ucretli degerleri test etmek | Q087 | CANDIDATE |
+| FC-050 | Premium convenience candidates | Gelismis analiz, ek depolama ve benzeri core-disinda ucretli degerleri test etmek | Q087 | CANDIDATE |
 | FC-051 | Roadside quick guidance context | Garaj disinda hizli tarama, safety-first ve kisa gorsel adim sunmak | Q090 | CANDIDATE |
 | FC-052 | Offline downloaded work context | Rehber/gorsel/safety/progress/history baglamini offline korumak | Q091 | CANDIDATE |
 | FC-053 | User data controls | Kendi motosiklet/kayit/not/fotografini goruntuleme, duzeltme ve silme | Q092-Q094 | CANDIDATE |
-| FC-054 | Free data portability | Kendi motosiklet/gecmis/not/fotograf verisini yeniden kullanilabilir export etmek | Q093 | CANDIDATE |
+| FC-054 | Free data portability | Kendi verisini yeniden kullanilabilir export etmek | Q093 | CANDIDATE |
 | FC-055 | Transparent deletion state | Silme kapsam/geri alinmazlik ve silinen/bekleyen durumunu aciklamak | Q094 | CANDIDATE |
-| FC-056 | Readiness re-validation | Bloklanan readiness'i yeni fotograf/olcum/alternatif kontrol kanitiyla yeniden degerlendirmek | Q096-Q098 | CANDIDATE |
-| FC-057 | Block reason + remediation + resume | Eksik kosulu, nedenini, nasil tamamlanacagini ve sonra kaldigi yere donusu gostermek | Q097-Q098 | CANDIDATE |
-| FC-058 | Teaching-only content layer | Application gate kapali olsa bile guvenilir egitim/hazirlik bilgisini erisilebilir tutmak | Q099-Q104 | CANDIDATE |
-| FC-059 | Professional escalation support | `Yapamazsin` yerine eksik kosula dayali professional option, preparation ve result-check destegi sunmak | Q100-Q101 | CANDIDATE |
-| FC-060 | Aftermarket adapted guide coverage | Yaygin modifikasyonu ayristirip verified ise fabrika duzeninden farkli rehber sunmak | Q102 | CANDIDATE |
-| FC-061 | Custom modification evidence-gap fallback | Unique/custom durumda evidence gap + teaching-only bilgi + application hold sunmak | Q103-Q104 | CANDIDATE |
-| FC-062 | Community appeal / re-submit workflow | Moderation gerekcesini gormek, katkida duzeltme yapmak veya karara itiraz etmek | Q105 | CANDIDATE |
-| FC-063 | Graduated contributor trust controls | Tekrarlanan yanlista pre-review, kasitli tehlikeli tekrarda contribution restriction uygulamak | Q106, Q108 | CANDIDATE |
-| FC-064 | Unverified personal-experience status | Faydalı ama dogrulanamamis deneyimi official guide'dan ayri guven statusu ile tutmak | Q107 | CANDIDATE |
-| FC-065 | Evidence semantics view | User assertion/documented/reviewed/verified anlam ve dayanaklarini gorunur kilmak | Q109-Q110 | CANDIDATE |
-| FC-066 | Critical safety catch-up summary | Uzun sure ertelenmis veya birikmis kritik konulari zarar/aciliyet ve next action ile ozetlemek | Q111-Q113 | CANDIDATE |
-| FC-067 | Flexible premium value packaging candidates | Analysis/storage/multi-garage/personalization ve non-recurring one-time degerleri test etmek | Q114-Q115 | CANDIDATE |
-| FC-068 | Record-only owner mode/context | Guided repair kullanmadan history/reminder/document value sunmak ve sonradan rehbere gecis saglamak | Q117 | CANDIDATE |
-| FC-069 | Shared motorcycle collaboration | Owner-granted access, contributor attribution, edit trail, revoke ve private-note isolation saglamak | Q118-Q119 | CANDIDATE |
-| FC-070 | Ownership transfer preview | Secili vehicle history'yi aktarirken personal content'i ayirip transfer oncesi preview sunmak | Q120 | CANDIDATE |
-| FC-071 | Motorcycle archive lifecycle | Aktif garajdan kaldirip history'yi korumak ve yeniden active etmek | Q121 | CANDIDATE |
-| FC-072 | Critical guide freshness gate | Offline critical guide'da last verification'i gostermek ve stale application'i re-check'e kadar hold etmek | Q122 | CANDIDATE |
-| FC-073 | Progressive first-use guide preview | Account/permission/long-profile zorunlulugundan once guide value'yu gostermek | Q123 | CANDIDATE |
-| FC-074 | Turkey-first terminology presentation | Acik Turkce, alisilmis olcu birimleri ve deneyime gore terminology depth sunmak | Q124 | CANDIDATE |
-| FC-075 | Accessible active-repair guidance | Buyuk controls, contrast, non-color warnings, image descriptions, captions, voice/easy-touch interaction sunmak | Q125 | CANDIDATE |
+| FC-056 | Readiness re-validation | Bloklanan readiness'i yeni evidence ile yeniden degerlendirmek | Q096-Q098 | CANDIDATE |
+| FC-057 | Block reason + remediation + resume | Eksik kosul/neden/remediation/re-check ve kaldigi yere donusu gostermek | Q097-Q098 | CANDIDATE |
+| FC-058 | Teaching-only content layer | Application gate kapali olsa bile guvenilir education/preparation content'i erisilebilir tutmak | Q099-Q104 | CANDIDATE |
+| FC-059 | Professional escalation support | Eksik kosula dayali professional option + preparation/result-check sunmak | Q100-Q101 | CANDIDATE |
+| FC-060 | Aftermarket adapted guide coverage | Common modification verified ise factory'den farkli adapted guide sunmak | Q102 | CANDIDATE |
+| FC-061 | Custom modification evidence-gap fallback | Unique/custom durumda evidence gap + teaching-only + application hold sunmak | Q103-Q104 | CANDIDATE |
+| FC-062 | Community appeal / re-submit workflow | Moderation gerekcesi, duzeltme veya appeal yolu | Q105 | CANDIDATE |
+| FC-063 | Graduated contributor trust controls | Repeated wrong -> pre-review; intentional danger -> contribution restriction | Q106, Q108 | CANDIDATE |
+| FC-064 | Unverified personal-experience status | Faydalı ama unverifiable experience'i official guide'dan ayri tutmak | Q107 | CANDIDATE |
+| FC-065 | Evidence semantics view | User assertion/documented/reviewed/verified meaning ve basis'i gormek | Q109-Q110 | CANDIDATE |
+| FC-066 | Critical safety catch-up summary | Ignored/accumulated critical topics'i harm/urgency/next-action ile ozetlemek | Q111-Q113 | CANDIDATE |
+| FC-067 | Flexible premium packaging candidates | Analysis/storage/personalization ve non-recurring one-time values'i test etmek | Q114-Q115 | CANDIDATE |
+| FC-068 | Record-only owner context | Guide kullanmadan history/reminder/document value ve later guide transition | Q117 | CANDIDATE |
+| FC-069 | Shared motorcycle collaboration | Owner access, attribution, edit trail, revoke, private-note isolation | Q118-Q119 | CANDIDATE |
+| FC-070 | Ownership transfer preview | Selected vehicle history aktarirken personal content'i ayirip preview sunmak | Q120 | CANDIDATE |
+| FC-071 | Motorcycle archive lifecycle | Active garage'dan kaldirip history'yi korumak ve reactivate etmek | Q121 | CANDIDATE |
+| FC-072 | Critical guide freshness gate | Last verification + stale application hold | Q122 | CANDIDATE |
+| FC-073 | Progressive first-use preview | Account/permission/long-profile oncesi product value gostermek | Q123 | CANDIDATE |
+| FC-074 | Turkey-first terminology presentation | Clear Turkish, familiar units, experience-based terminology depth | Q124 | CANDIDATE |
+| FC-075 | Accessible active-repair guidance | Contrast, non-color warnings, image descriptions, captions, voice/easy-touch | Q125 | CANDIDATE |
+| FC-076 | Self-remediation + re-entry path | Blocked readiness'ta learning/preparation/equipment/re-validation ile same guide'a guvenli donus | Q126-Q127 | CANDIDATE |
+| FC-077 | Professional recommendation vs mandatory closure states | Optional external support ile mandatory critical gate'i acikca ayirmak | Q128 | CANDIDATE |
+| FC-078 | Actual motorcycle deletion scope preview | Linked history/photo/measurement/reminder scope'u delete oncesi gostermek | Q129 | CANDIDATE |
+| FC-079 | Independent transferred-record preservation | Source owner deletion'inin previously transferred independent records'i otomatik silmemesi | Q129 | CANDIDATE |
+| FC-080 | Community contribution withdrawal | Public content/personal info removal + de-identified review trace + affected-guide re-review | Q130 | CANDIDATE |
+| FC-081 | Provenance-rich export | Export'ta source, evidence level, significant corrections ve dates'i korumak | Q131 | CANDIDATE |
+| FC-082 | Context-specific evidence explanation | Ortak labels ile birlikte context'e gore `hangi claim verify edildi` aciklamasi | Q132-Q134 | CANDIDATE |
+| FC-083 | Partial-history transfer disclosure | Selected/incomplete history, covered period ve gaps'i new owner'a aciklamak | Q135-Q136 | CANDIDATE |
+| FC-084 | Post-transfer correction proposal | Former owner'in silent overwrite yerine attributed correction/new-info proposal sunmasi | Q137 | CANDIDATE |
+| FC-085 | Owner-first professional collaboration | Professional/hobby contributions'i desteklerken owner-first flow'u sade tutmak | Q138-Q140 | CANDIDATE |
+| FC-086 | Segment-aware minimum value | Beginner/experienced/record-only/multi/shared/helper icin farkli minimum product value | Q141-Q143 | CANDIDATE |
+| FC-087 | Core-completion paywall guard | Safety visuals, required steps, reasonable history ve export'un premium olmamasini korumak | Q145 | CANDIDATE |
+| FC-088 | Basic multi-bike core + advanced garage premium candidate | Basit multi-bike separation'i core, advanced comparison/collaboration'i premium adayi tutmak | Q146 | CANDIDATE |
+| FC-089 | Claim-sensitive freshness model | Safety notice/technical value/changeable procedure gibi claims icin freshness gate | Q147-Q149 | CANDIDATE |
+| FC-090 | Stale teaching-reference mode | Stale critical guide'i teaching/reference olarak ayri tutup application'i close etmek | Q148-Q149 | CANDIDATE |
+| FC-091 | Reviewable critical confirmations | Voice/easy interaction'da energy isolation/stability/critical connection/completion icin explicit confirmation | Q150-Q152 | CANDIDATE |
+| FC-092 | Record-only first-use path | Rehber aramadan motorcycle add + latest record + next maintenance value | Q153 | CANDIDATE |
+| FC-093 | Shared/multi-bike first-use path | Motorcycle separation ve actor attribution value'yu erken gostermek | Q154 | CANDIDATE |
+| FC-094 | Value-triggered profile transition | Persistent record/cross-device/collaboration ihtiyacinda profile istemek ve local-data fate'i aciklamak | Q155 | CANDIDATE |
 
 ## Important non-commitment
 
-Bu adaylar kullanici ihtiyacini temsil eder. MVP/sonraki faz, ekran yapisi, premium paket, moderation implementasyonu, offline teknik cozum, veri formati, auth modeli, voice teknolojisi veya mimari bu asamada kararlastirilmaz.
+Bu adaylar user need'i temsil eder. MVP/phase priority, screen structure, premium package/price, technical data model, auth/sync, voice stack, offline implementation veya architecture bu asamada kararlastirilmaz.
