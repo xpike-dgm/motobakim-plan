@@ -9,170 +9,209 @@ Bu belge discovery boyunca surekli rafine edilen teknik olmayan ana urun sentezi
 - Phase-1 approved workspace baseline
 - `SESSION-001_BATCH_01_Q006_Q035.md`
 - `SESSION-002_BATCH_02_Q036_Q065.md`
+- `SESSION-003_BATCH_03_Q066_Q095.md`
 
 ## Product Model — Current Working Synthesis
 
 ### 1. Entry modes
 
-**CONFIRMED — Q006, Q012, Q022**
+**CONFIRMED — Q006, Q012, Q022, Q090**
 
-Kullanici urune iki ana durumda gelebilir:
-- yapmak istedigi islemi biliyor olabilir ama parca adi/sira/hazirlik konusunda yardima ihtiyac duyabilir,
-- yalniz bir belirtiyi biliyor olabilir ve belirtiden guvenli teshis akisi uzerinden uygun isleme yonlendirilmek isteyebilir.
-
-Belirti aramasi gunluk dil, motosiklet bolgesi ve isaretli gorsel gibi farkli giris yollarini desteklemelidir.
+Kullanici urune yapmak istedigi islemi bilerek veya yalniz bir belirtiyle gelebilir. Belirti girisi gunluk dil, motosiklet bolgesi veya isaretli gorsel uzerinden ilerleyebilir. Garaj disi/yol-kenari baglaminda hizli belirti taramasi, once safety kontrolu, kisa gorsel adimlar ve suruse devam belirsizliginin gizlenmemesi beklenir.
 
 ### 2. Motorcycle-guide fit and variant certainty
 
-**CONFIRMED — Q008-Q009, Q019, Q021, Q026, Q036-Q039**
+**CONFIRMED — Q008-Q009, Q019, Q021, Q026, Q036-Q039, Q066-Q067**
 
-Rehber, kullanicinin gercek motosikletiyle yeterli eslesme kurulmadan motosiklete ozelmis gibi sunulmamalidir. Marka/model/yil yaninda motor hacmi, donanim, ABS gibi islemi etkileyen ozellikler ve gerektiginde motosiklet fotograflari kullanilabilir. Kullanicidan teknik kimlikleri ezbere bilmesi beklenmemelidir.
+Rehber kullanicinin gercek motosikletiyle yeterli eslesme kurulmadan motosiklete ozelmis gibi sunulamaz. Marka/model/yil, motor hacmi, donanim, islemi etkileyen ABS benzeri ozellikler ve gerektiginde farkli acilardan motosiklet fotograflari kullanilabilir.
 
-Ayni model/yilda bir fark islem adimini, gerekli malzemeyi veya guvenlik kontrolunu degistiriyorsa ilgili versiyon kesinlesmeden rehber baslamamalidir. Bu kural, sabit ve evrensel bir kimlik alanlari listesinden daha ust bir urun ilkesidir.
+Kullanici ek teknik kimlik kodlarini ezbere bilmek veya etiket/parca kodu/belge aramak zorunda birakilmak istemiyor. Urun gorunur donanim ve kullaniciya anlasilir ozelliklerle ilgili versiyonu ayristirmaya calismalidir. Bunlar yetmezse hangi ayrimin eksik oldugu gorunur olmali ve versiyona ozel uygulamali adimlar baslamamalidir.
 
-Sonradan degistirilmis sistemde fabrika rehberi otomatik uygun sayilamaz. Modifikasyon kullaniciya sorulmali ve gerekirse gorsel ayrimla anlasilmaya calisilmalidir. Fabrika/modifiye durumu veya ilgili versiyon belirlenemiyorsa buna bagli kritik uygulamali adimlar baslamamalidir.
+Bu, fotograflarin/observable ozelliklerin gercek dunyada her motosikleti ayirabildigi feasibility iddiasi degildir. Product safety fallback belirsizlikte stop-gate'tir.
+
+Sonradan degistirilmis sistemde fabrika rehberi otomatik uygun sayilamaz. Modifikasyon kullanicidan ve gerekirse gorsel ayristirmadan anlasilmaya calisilir; uygunluk dogrulanamazsa ilgili kritik uygulamali adimlar acilmaz.
 
 ### 3. Trust, provenance and content lifecycle
 
-**CONFIRMED — Q010-Q011, Q040-Q044**
+**CONFIRMED — Q010-Q011, Q040-Q044, Q073-Q074, Q081-Q083**
 
-Dogrulanmis teknik bilgi:
-- motosiklet/varyantla uyumlu guvenilir teknik kaynaga dayanmalidir,
-- kaynak surumu ve ilgili sayfa/bolum kanitini gosterebilmelidir,
-- insan incelemesi icermelidir.
+Dogrulanmis teknik bilgi motosiklet/varyantla uyumlu guvenilir kaynaga dayanmalidir; kaynak surumu ve ilgili bolum kaniti gorulebilmelidir. Insan incelemesinde ilgili sistemde uygulamali deneyim ve uyum/kaynak/gorsel/arac/risk/son-kontrol degerlendirmesi beklenir. Kritik rehberde bagimsiz ikinci inceleme ek guven sinyalidir fakat her kritik rehberde zorunlu iki-reviewer politikasi olarak kilitlenmemistir.
 
-Insan incelemesinde ilgili sistemde uygulamali deneyim; motosiklet uyumu, kaynaklar, gorseller, araclar, riskler ve son kontrolun degerlendirilmesi beklenir. Kritik rehberlerde bagimsiz ikinci inceleme kullanici icin ek guven sinyalidir; bunun her kritik rehberde zorunlu politika oldugu henuz karar degildir.
+Kaynaklar icin tek evrensel hiyerarsi beklenmez; uygulanabilirlik, guncellik ve belgenin amaci onemlidir. Kritik update/hata/celiski durumunda yeniden inceleme, etkilenen adimi askiya alma/durdurma, kullaniciya etkilenen adim + gerekli kontrol + yardim yolu ile uyari ve tarihsel rehber surumunu koruma beklenir.
 
-Kaynaklar icin tek evrensel hiyerarsi beklenmez. Kullanicinin motosikletine uygulanabilen guncel uretici duzeltmesi once degerlendirilmeli; belge tarihi ve amaci gorunur olmalidir.
+Kullanici tarafindan gonderilen duzeltme onerisi resmi rehbere dogrudan giremez; kaynak, motosiklete uygunluk ve safety etkisi incelenmeli, kabul edilirse degisen adim ve gerekce yeni surumde gorunmelidir.
 
-Kaynak guncellenirse rehber yeniden incelenmeli. Kritik degisiklik degerlendirilene kadar ilgili adimlar askiya alinabilir. Kritik hata ortaya cikarsa etkilenen rehber durdurulmali, kullanicilar uyarilmali; etkilenen adim, gerekli kontrol ve yardim yolu belirtilmelidir. Eski rehber surumleri tarihsel islem kayitlari icin korunmalidir.
+### 4. Guide detail and visual model
 
-Cozulemeyen kritik kaynak celiskisinde celismeyen hazirlik/guvenlik bilgileri gosterilebilir; fakat kritik islem veya deger icin uygulamali yonlendirme verilmemelidir.
+**CONFIRMED — Q007, Q014-Q015, Q054, Q090**
 
-### 4. Guide detail model
+Yeni/az deneyimli kullanici icin temel rehber birimi `tek hareket + ilgili gorsel + basari kontrolu` seviyesinde ayrintili olabilir. Deneyimli kullanici kisa checklist ve teknik detaya hizli erisim ister. Safety ve kritik dogrulama deneyim seviyesine gore azaltilamaz.
 
-**CONFIRMED — Q007, Q014-Q015, Q054**
+Gorsel beklenti: gercek/isaretli fotograf, gizli baglantida cizim, hareket/sira kritikse kisa video, safety/olcum/kontrol icin acik metin. Tam varyant fotografi yoksa dogrulanmis cizim/isaretli sema fallback olabilir; baska motosikletin gorseli ayniymis gibi sunulamaz.
 
-Yeni/az deneyimli kullanici icin temel rehber birimi `tek hareket + ilgili gorsel + basari kontrolu` seviyesinde ayrintili olmalidir. Uzun teori ana akisi kesmemeli; gerekce ve ileri teknik ayrinti acilabilir olmalidir.
-
-Deneyimli kullanici ayni islemin kisa kontrol listesine ve teknik ayrintilarina daha hizli ulasmak ister. Guvenlik uyarilari ve kritik dogrulama adimlari deneyim seviyesine gore azaltilmamalidir.
-
-Gorsel beklenti:
-- parcayi/konumu bulmak icin gercek ve isaretlenmis motosiklet fotografi,
-- gizli baglanti/yerlesim icin cizim,
-- hareket yonu veya sira kritikse kisa video,
-- guvenlik, olcum ve kontrol icin acik metin.
-
-Tam varyant fotografi yoksa tam motosiklete ait dogrulanmis cizim veya acik isaretli sema kabul edilebilir. Baska motosikletin fotografi kullanicinin motosikletiymis gibi gosterilmemeli; farklar belirsizse gorsele dayali adim baslamamalidir.
+Yol-kenari baglaminda anlatim daha kisa/hizli olabilir fakat bu safety kontrollerinin azaltilmasi anlamina gelmez.
 
 ### 5. Readiness before starting
 
 **CONFIRMED — Q013, Q016-Q017, Q021, Q050-Q053**
 
-Kullanici isleme baslamadan once amac, uygunluk, zorluk/risk, yaklasik sure, gerekli arac/parca, ozel ekipman, tahmini maliyet ve motosikletin islem boyunca kullanilabilir kalip kalmayacagini gormek ister.
+Kullanici baslamadan amac, uygunluk, zorluk/risk, sure, maliyet, arac/parca/ekipman ve motosikletin kullanilabilirlik durumunu gormek ister. Zorunlu eksikler motosiklet yari sokulmeden once gorunur olmalidir.
 
-Hazirlik kontrol listeleri zorunlu eksikleri motosiklet yari sokulmeden once gostermelidir.
+Readiness yalniz `deneyimliyim` oz-beyanina dayanamaz. Benzer is gecmisi, arac/olcum bilgisi, onceki islem kayitlari ve on kosullari anlama dikkate alinmalidir. Guvenle ogrenilebilen eksiklik hazirlik/ogrenme yoluna yonlendirebilir; ciddi sonucu veya uzman dogrulamasi gerektiren eksiklik kritik uygulama adimini kapatir.
 
-Readiness yalniz `deneyimliyim` oz-beyanina dayanmamalidir. Benzer isleri tamamlama gecmisi, arac/olcum bilgisi, onceki islem kayitlari ve isin on kosullarini anlama dikkate alinmalidir. Eksik beceri guvenli bicimde ogrenilebiliyorsa kullanici temel hazirliga yonlendirilebilir; hatanin sonucu ciddi veya dogrulamasi uzmanlik gerektiriyorsa kritik uygulama adimi acilmamalidir.
-
-Ozel ekipman eksiginde sadece islev ve guvenlik ozellikleri dogrulanmis basit yardimci araclara alternatif dusunulebilir. Hassas olcum, dogru sikma veya guvenli kaldirma icin zorunlu ekipman yoksa islem ertelenmelidir.
+Readiness degerlendirmesinde yanlis engelleme/override siniri discovery'de hala aciktir.
 
 ### 6. Safety and conditional high-consequence guidance
 
-**CONFIRMED — Q018-Q021, Q034, Q045-Q050, Q052-Q053**
+**CONFIRMED — Q018-Q021, Q034, Q045-Q053, Q068-Q069**
 
-Kullanici butun sistemleri ogrenebilmek ister; urun siniri salt kategori adina gore `goster/gosterme` ikiligine indirgenmemelidir. Ancak motosiklet uyumu, gerekli ekipman, beceri, guvenli calisma kosulu veya sonucun guvenligi dogrulanamiyorsa uygulama kullaniciyi tek basina uygulamali ilerletmemelidir.
+Kullanici butun sistemleri ogrenebilmek ister; high-consequence kategori adi tek basina mutlak kapsam disi nedeni degildir. Ancak motosiklet uyumu, gerekli ekipman, beceri, guvenli calisma kosulu veya kritik sonucun dogrulanabilirligi yoksa uygulamali ilerleme acilmaz.
 
-Kategori ornekleri:
-- **Fren:** dogru malzeme, uygun arac ve son kontrol yontemi gerekli; hasar, kaçak, uyumsuzluk veya dogrulanamayan fren sonucu durdurma nedenidir.
-- **Direksiyon/on takim:** guvenli destek, uygun araclar ve son kontrol on kosuldur; hasar, bosluk veya montaj sonucu belirsizse surus onerilmemelidir.
-- **Yakit:** yangin/kacak riski, guvenli ortam, uygun baglantilar ve kontrol yontemi net olmali; yakit kokusu, sizinti veya belirsizlikte islem durmalidir.
-- **Kaldirma/destekleme:** uygun sehpa, saglam zemin, dogru destek noktasi ve devrilmeye karsi onlem dogrulanmadan tasiyici/tekerlek sokumune gecilmemelidir.
-- **Motor ici:** dogrulanmis rehber, temiz ortam, ozel arac, olcum becerisi ve yeniden montaj kontrolleri gerekir; kritik kosul eksikse yalniz hazirlik/ogrenme kismi gosterilmelidir.
+Batch 02 fren, direksiyon/on takim, yakit, kaldirma/destekleme ve motor-ici islemler icin somut kosullar tanimladi. Batch 03 yuksek gerilim, airbag-benzeri, basincli ve cok sicak sistemlerin de ogrenme kapsami disinda tutulmamasini; riskler, gerekli bilgi, ekipman, hazirlik ve kritik kontroller ogretilmeden ve motosiklete ozel safety kosullari dogrulanmadan uygulamali adima gecilmemesini CONFIRMED etti.
 
-Yuksek gerilim ve diger yuksek-sonuclu alanlarin kategoriye ozel ayrintilari discovery'de hala aciktir.
+Profesyonel yardima gecisin tam product siniri ve override davranisi hala aciktir.
 
 ### 7. Safe equivalents
 
 **CONFIRMED — Q017, Q053, Q055**
 
-Bir alternatif arac/sarf/yardimci ekipman yalniz gerekli olcu, uyum, dayanim, malzeme, islev ve guvenlik gerekliliklerini karsiliyorsa `guvenli esdeger` olarak onerilebilir. Benzer gorunmek yeterli degildir. Hassas olcum, dogru sikma ve guvenli kaldirma gibi kritik fonksiyonlarda zorunlu ekipman yoksa islem ertelenmelidir.
+Alternatif arac/sarf/ekipman sadece gerekli olcu, uyum, dayanim, malzeme, islev ve safety ozellikleri dogrulanmissa guvenli esdeger sayilabilir. Hassas olcum, dogru sikma ve guvenli kaldirma gibi kritik fonksiyonlarda zorunlu ekipman yoksa islem ertelenir.
 
 ### 8. Diagnosis before repair
 
-**CONFIRMED — Q022-Q024, Q056-Q058**
+**CONFIRMED — Q022-Q024, Q056-Q058, Q090**
 
-Teshis kanit toplayarak belirsizligi azaltan bir yolculuktur. Bir nedenin `en olasi` olarak one cikmasi icin birden fazla ayirt edici belirti ve guvenli kontrol ayni nedeni desteklemeli, diger olasiliklar da degerlendirilmis olmalidir. Tek genel belirti yeterli degildir.
+Teshis, kanit toplayarak belirsizligi azaltan surectir. `En olasi` neden icin birden fazla ayirt edici belirti/kontrol ayni nedeni desteklemeli ve alternatifler degerlendirilmelidir. Esit olasiliklarda ayristirici kontroller surer; rastgele parca degisimi onerilmez. Makul kontroller sonunda neden dogrulanamazsa `Neden dogrulanamadi` sonucu, yapilan kontroller ve guvenli kullanim belirsizligiyle kapanabilir; ozet uzmana aktarilabilir.
 
-Benzer derecede guclu birden fazla neden kalirsa bunlar ayri gosterilmeli ve aralarini ayiracak guvenli kontroller onerilmelidir. Sonuclar hala esit ise rastgele parca degisimine yonlendirilmemelidir.
-
-Makul kontroller sonrasinda neden hala dogrulanamiyorsa yolculuk `Neden dogrulanamadi` sonucu ile bitebilir. Yapilan kontroller ozetlenmeli, guvenli kullanim konusundaki belirsizlik aciklanmali ve bu ozet uzmana aktarilabilmelidir.
+Yol kenarinda da suruse devam kararindaki belirsizlik gizlenmemelidir.
 
 ### 9. Recovery and mismatch
 
-**CONFIRMED — Q025-Q027, Q038-Q039**
+**CONFIRMED — Q025-Q027, Q038-Q039, Q066-Q067**
 
-Kullanici adimda takildiginda yakin plan, isaretleme, hareket yonu, sik hata bilgisi ve gerektiginde video/aciklama acabilmelidir.
+Takilma durumunda yakin plan, isaretleme, hareket yonu, sik hatalar ve gerekirse video/aciklama acilabilir. Rehber gercek motosiklet/modifikasyon/versiyonla uyusmazsa normal ilerleme durur; fark kaydedilir ve uygunluk yeniden belirlenir. Fotograf/observable ozellikler de yeterli degilse eksik ayrim aciklanir ve yanlis varyanta ait uygulamali adim gosterilmez.
 
-Rehber gercek motosikletle veya modifiye durumla uyusmazsa normal ilerleme durmali, fark kaydedilmeli ve varyant/uygunluk yeniden belirlenmelidir. Belirsizlik kritik adimla ilgiliyse sonraki uygulamali adim acilmamalidir.
-
-Hata/beklenmeyen davranista urun, guvenliyse motosikleti emniyete alma ve dokunulmamasi gereken alanlari aciklamali; fotograf/not gibi kanitlari saklayip guvenli geri donus veya profesyonel yardim yolunu gostermelidir.
+Hata/beklenmeyen davranista emniyete alma, dokunulmaması gereken alan, kanit kaydi ve guvenli geri donus/profesyonel yardim yolu beklenir.
 
 ### 10. Guide versioning and critical corrections
 
-**CONFIRMED — Q028-Q030, Q042-Q043, Q059-Q060**
+**CONFIRMED — Q028-Q030, Q042-Q043, Q059-Q060, Q081-Q083**
 
-Yarim kalan islemde kullanilan rehber surumu korunur. Yeni surum yayimlanirsa devam etmeden once farklar gosterilmelidir. Kritik duzeltme varsa eski adimlarla devam durmali; motosikletin mevcut fiziksel durumu yeni rehberle yeniden eslestirilirken kullanicinin ilerlemesi ve notlari korunmalidir.
+Yarim iste rehber surumu korunur. Yeni surum varsa farklar devamdan once gosterilir; kritik duzeltmede eski akista ilerleme durur ve mevcut fiziksel durum yeni rehberle yeniden eslestirilirken ilerleme/notlar korunur.
 
-Tamamlanmis gecmis kayit yeni rehber nedeniyle silinmez veya sessizce degistirilmez. Kullanilan rehber surumu korunur; geri cekilme/duzeltme nedeni ve gerekiyorsa yeniden kontrol uyarisi kayda eklenebilir.
+Gecmis kayit yeni rehber nedeniyle sessizce degistirilmez. Kullanilan rehber surumu korunur; geri cekilme/duzeltme nedeni ve gerekiyorsa yeniden kontrol uyarisi eklenir. Community kaynakli tehlikeli bir hata resmi rehberi etkilediyse ilgili adim da durdurulup etkilenen kullanicilar uyarilmalidir.
 
-### 11. Maintenance and repair history
+### 11. Maintenance/repair history, evidence and edit trail
 
-**CONFIRMED — Q029-Q030, Q033, Q062-Q063**
+**CONFIRMED — Q029-Q030, Q033, Q062-Q063, Q073-Q074**
 
-Her motosikletin bilgisi, gecmisi, rehberleri ve hatirlatmalari birbirinden ayrilmalidir. Aktif motosiklet her zaman anlasilir olmali ve motosikletler arasi gecis kolay olmalidir.
+Her motosikletin gecmis/rehber/hatirlatma baglami ayridir. Dis islem provenance ile kaydedilebilir; tarih, kilometre, yapilan is, fatura, fotograf/not gibi kanitlar eklenebilir.
 
-Disarida yapilan islem `serviste yapildi` / `baskasi yapti` provenance'i ile kaydedilebilmelidir; tarih, kilometre, yapilan is, fatura ve not eklenebilir. Kaniti olmayan dis kayit dogrulanmis islem gibi sunulmamalidir. Faturanin tek basina otomatik dogrulama anlamina geldigi kanitlanmamistir.
+Hatalı kayit duzeltilebilmelidir; eski ve yeni bilgi, degisiklik zamani ve nedeni korunmalidir. Duzeltme bakim takvimini etkiliyorsa etkisi kullaniciya gosterilmelidir.
 
-Yanlis/eksik eski kaydin nasil duzeltilecegi ve duzeltme izinin nasil korunacagi hala aciktir.
+Kullanici beyanı, belgeli islem ve ayrica incelenmis kayit ayni sey gibi gosterilmemeli; evidence level gorunur olmalidir. Fatura veya fotograf tek basina otomatik `verified` statusu olarak tanimlanmamistir.
 
-### 12. Next maintenance, usage conditions and reminders
+### 12. Next maintenance, exceptions and uncertainty
 
-**CONFIRMED — Q031-Q033, Q061, Q064**
+**CONFIRMED — Q031-Q033, Q061, Q064, Q075-Q077**
 
-Bakim zamanlamasinda motosiklete uygun uretici kilometre ve sure araliklari temel alinmali; hangisi once dolarsa izlenmelidir. Kullanim kosullari istege bagli sorulabilir; yalniz motosiklete uygun dogrulanmis bilgi bu kosulun bakim araligini degistirdigini soyluyorsa zamanlama degistirilmelidir. Hangi kosulun bakimi neden one cektigi gorunur olmalidir.
+Bakim zamanlamasinda motosiklete uygun uretici kilometre/sure araliklari temel alinmali ve once dolan izlenmelidir. Kullanim kosulu sadece motosiklete uygun dogrulanmis bilgi destekliyorsa araligi degistirebilir; gerekce gorunur olmalidir.
 
-Birden fazla bakim gecikmisse once guvenligi veya kullanimi etkileyen isler, sonra gecikme miktari ve kullanilabilir dogrulanmis kullanim kosullari dikkate alinmalidir. Onceligin nedeni aciklanmali; en eski tarih otomatik olarak en onemli sayilmamalidir.
+Modifiye/yeni parcanin guvenilir bakım araligi bilinmiyorsa MotoBakim sure uydurmamali veya eski araligi otomatik kullanmamalidir; eksik bilgi ve `belirsiz bakim takvimi` gorunur olmalidir. Dogrulanmis ozel istisna genel planla birlikte ve neden gecerli olduguyla sunulmalidir.
 
-Notification cadence'in bu oncelige gore tam nasil degisecegi hala aciktir.
+Kullanici kullanim kosulunu vermediyse bu eksiklik gizlenmez. Gecerli standart plan varsa gosterilir; eksik bilgi kolayca sorulur ve cevap geldikten sonra takvim yeniden degerlendirilir.
 
-### 13. Monetization trust boundary
+### 13. Notification behavior
 
-**CONFIRMED — Q065**
+**CONFIRMED — Q032-Q033, Q064, Q070-Q072**
 
-Kullanici lisansli ileri icerik, zengin gorseller ve ek kolayliklar icin odemeyi makul gorebilir. Temel dogrulanmis rehberler, kritik guvenlik bilgisi, bakim kaydi ve temel hatirlatmalarin ucretsiz kalmasini bekler. Guvenlik uyarilarinin ucret arkasinda gizlenmesi guven bozucudur.
+Onemli fakat acil olmayan konuda kullanici ilk gorunmede, zamani yaklasirken ve gecikince haftada en fazla bir ozet tercih eder; ayni rutin uyariyi her gun almak istemez. Rutin bakim ve kayit hatirlatmalari gruplanabilir. Surus guvenligini etkileyen acil uyarilar ayri ve belirgin olmali, diger bildirimler arasinda kaybolmamalidir.
 
-Bu, abonelik/tekil satin alma/fiyat/paket modeli karari degildir.
+Rutin bildirimler kapatilabilir/ertelenebilir. Kritik safety bilgisi telefon bildirimi susturulsa bile uygulama icinde ve ilgili isleme baslamadan once gorunur kalmalidir.
 
-### 14. Product non-goal direction
+Bu cadence mevcut kullanici tercihidir; tum kullanicilar icin nihai LOCKED politika degildir. Kritik uyari uzun sure gormezden gelinirse ne olacagi hala aciktir.
 
-**CONFIRMED — Q035, Q065**
+### 14. Time and cost estimate trust boundary
 
-MotoBakim:
-- dogrulanmamis teknik deger uydurmamali,
-- belirsiz arizayi kesin teshis gibi sunmamali,
-- tehlikeli bir isin kullanici tarafindan kesin basariyla tamamlanacagini garanti etmemeli,
-- kritik guvenlik bilgisini ucret duvarinin arkasina saklamamalidir.
+**CONFIRMED — Q013, Q078-Q079**
 
-Ilgisiz sosyal/ticari ozelliklerin temel rehberlik deneyimini golgelememesi beklenir; sosyal/ticari ozelliklerin tumunun kapsam disi oldugu henuz kanitlanmamistir.
+Yaklasik sure, hazirlik ve gun planlamasi icin deneyime gore bir aralik olarak faydalidir. Sikismis baglanti, hasar veya ek sokme gibi belirsizliklerde kesin bitis saati vaadi verilmemelidir.
+
+Maliyet tahmininde parca, sarf, arac ve varsa iscilik ayri gosterilmeli; dahil olmayan kalemler, fiyat tarihi ve varsayimlar gorunur olmalidir.
+
+### 15. Community contribution and moderation
+
+**CONFIRMED — Q080-Q084**
+
+Kisisel not/fotograflar varsayilan olarak kullaniciya ozel kalmalidir. Community'ye katkı ayri ve acik secim olmali; paylasim oncesi kisisel bilgiler ayiklanmalidir.
+
+Community duzeltme onerisi resmi rehbere dogrudan giremez; kaynagi, motosiklete uygunlugu ve safety etkisi incelenir. Community ipucu/fotografi/yonteminde kaynak, hangi motosiklette uygulandigi, inceleme durumu ve tarih gorunur olmalidir. Kullanici deneyimi ile dogrulanmis/resmi rehber acikca ayrilmalidir.
+
+Tehlikeli community icerigi hizla gorunumden kaldirilip incelenmeli; resmi rehberi etkilemisse ilgili adim durdurulmali, duzeltme kaydedilmeli ve o rehberi kullananlar uyarilmalidir. Soru-cevap/deneyimler resmi rehberin numarali adimlarina karismayan ayri community alaninda durmalidir.
+
+Moderation itirazlari ve `faydali ama dogrulanamamis` contribution statusu hala aciktir.
+
+### 16. Commercial neutrality and monetization
+
+**CONFIRMED — Q065, Q085-Q088**
+
+MotoBakim'in onceligi kullanicinin islemi kendisinin yapabilmesidir. Servis/usta listelemek veya parca/arac satin alma secenekleri sunmak core self-service rehberin yerini almamalidir.
+
+Teknik uygunluk olcutleri satin alma/sponsor yuzeylerinden once gelmelidir. Sponsorlu teklif acikca isaretlenmeli; odeme teknik uygunluk kararini degistirmemelidir. Gizli reklam, ucretli urunu `en uygun` gostermek, alternatif saklamak veya rehberi satis hedefine gore degistirmek guven kiricidir.
+
+Motora uygun ayrintili rehber, safety bilgisi ve temel bakım takibi ucretsiz kalmalidir. Gelismis analiz, ek depolama ve coklu garaj yonetimi premium deger ornekleridir; final paket/model karari degildir.
+
+### 17. User motivation
+
+**CONFIRMED FOR CURRENT USER — Q089**
+
+Mevcut kullanicinin oncelik sirasi:
+1. motosikletindeki islemi kendisi tamamlamak,
+2. ne yaptigini ogrenip bagimsizlasmak,
+3. masrafi azaltmak,
+4. zaman kazanmak,
+5. surecten keyif almak.
+
+Bu siralama tum hedef kullanicilara genellenmis bir segment gercegi degildir; daha genis user-context discovery aciktir.
+
+### 18. Offline and constrained-context continuity
+
+**CONFIRMED — Q090-Q091**
+
+Indirilmis motosiklete ozel rehberler, gorseller, safety uyarilari, kalinan adim ve kullanicinin kendi gecmisi internet zayif/yokken erisilebilir kalmalidir. Icerigin surumu ve guncellik durumu gorunmelidir.
+
+Offline rehber sonradan geri cekilmis/kritik duzeltilmisken kullanicinin baglantisiz oldugu edge case hala aciktir.
+
+### 19. Data ownership and account isolation
+
+**CONFIRMED — Q092-Q095**
+
+Kullanici kendi motosiklet/kayitlarini gorebilmeli ve duzeltebilmeli; not/fotograf ekleyip silebilmelidir. Bir hesaptaki verinin baska hesapta gorunmesi kabul edilmez.
+
+Motosiklet bilgileri, tarihli islemler, notlar ve fotograflar anlasilir ve yeniden kullanilabilir bicimde disa aktarilabilmeli; kullanicinin kendi verisini almasi premium olmamalidir.
+
+Silme oncesi kapsam ve geri alinmazlik gorunur olmalidir; sonrasinda neyin silindigi/ne bekledigi anlasilmalidir. Belirli teknik format, retention veya silme suresi bu asamada secilmemistir.
+
+### 20. Trust-breakers / product non-goal direction
+
+**CONFIRMED — Q035, Q065, Q088, Q095**
+
+MotoBakim'in teknik guvenini bozan davranislar:
+- uydurulmus/dogrulanmamis teknik bilgi,
+- tehlikeyi gizleyen adim,
+- belirsiz arizayi kesin teshis gibi sunmak,
+- tehlikeli isin basarisini garanti etmek,
+- kritik safety bilgisini ucret arkasina saklamak,
+- hesaplar arasi veri karismasi,
+- gecmisin sessizce kaybolmasi/yeniden yazilmasi,
+- gizli reklam veya ticari etkinin rehber/teknik uygunluk kararini degistirmesi.
 
 ## Working Interpretations — INFERRED, NOT DECIDED
 
-- Rehber-motosiklet eslesmesi ve modifikasyon uygunlugu, uygulamali ilerleme icin guvenlik kapisi gibi davranabilir.
-- Readiness genel kullanici seviyesi degil, islem bazli bir durum olabilir.
-- Sonucsuz teshis de degerli bir sonuc olabilir; kanit ozeti kontrollu escalation saglayabilir.
-- Icerik yasam dongusu (review, update, suspension, recall) kullanici guveninin gorunur parcasi olabilir.
-- Rehber surumu ve gecmis islem arasinda kalici provenance bagi gerekebilir.
-- Monetization'in guvenilir teknik rehberligi etkilememesi urun stratejisinin temel guven siniri olabilir.
+- `Belirsizligi acikca gostermek` varyant, teshis, bakım takvimi, tahmin ve yol-kenari kararlarinda yatay guven ilkesi olabilir.
+- Auditability; rehber surumu, gecmis duzeltmesi, fiyat varsayimi, moderation ve veri lifecycle'da yatay product principle olabilir.
+- Community icerigi authoritative source-of-truth'un alternatifi degil, ayri provenance/review statulu ikincil bilgi katmani olabilir.
+- Offline continuity sadece convenience degil, safety baglaminin korunmasi olabilir.
+- Teknik dogruluk, veri izolasyonu ve ticari tarafsizlik birlikte ana guven modelini olusturabilir.
 
 Bu yorumlar discovery ilerledikce test edilmeye devam edecektir.
