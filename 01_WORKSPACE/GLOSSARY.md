@@ -49,7 +49,23 @@ Projede kullanilan domain terimlerinin tek anlamli sozlugu. `PROPOSED` terimler 
 | Cevrimdisi Islem Baglami | Baglanti olmadiginda indirilmis rehber, gorsel, safety uyarisi, kalinan adim ve kullanici gecmisi gibi islem surekliligi icin gereken urun baglami. | USER | — | PROPOSED |
 | Veri Tasinabilirligi | Kullanicinin kendi motosiklet, tarihli islem, not ve fotograf verilerini anlasilir ve yeniden kullanilabilir bicimde urun disina alabilme beklentisi. | USER | Belirli teknik dosya formatini varsayma | PROPOSED |
 | Guven Kirici Davranis / Trust-breaker | Uydurulmus teknik bilgi, gizlenen tehlike, hesaplar arasi veri karismasi, gecmisin sessiz kaybi veya reklam/ticari etkinin rehberi degistirmesi gibi kullanicinin urune teknik guvenini sona erdirebilecek davranis sinifi. | USER + INFERRED | — | PROPOSED |
+| Readiness Yeniden Dogrulama | Readiness sonucu kullaniciyi durdurdugunda, salt oz-beyanla gate'i asmak yerine fotograf, olcum veya alternatif kontrol gibi yeni kanitla eksik kosulu yeniden degerlendirme davranisi. | USER | `ben yapabilirim` = override | PROPOSED |
+| Override Edilemez Safety Gate | Kullanici kendisini yeterli gorse bile motosiklet/teknik bilgi, ekipman, ortam veya kritik pre-check eksiginde uygulamali ilerlemeyi kapali tutan urun kosulu. | USER | Serbest override | PROPOSED |
+| Ogretici Icerik / Teaching-only Content | Bir sistem veya islemi ogrenmeye yarayan fakat belirli motosiklete uygulanabilir talimat olarak sunulmayan bilgi. Uygulamali adim gate'li olsa da erisilebilir kalabilir. | USER | `bu motosiklete uygula` talimati | PROPOSED |
+| Profesyonel Escalation | Belirli islemde gerekli kosullar karsilanmadiginda kullaniciyi kalici yetersiz ilan etmeden profesyonel yardim secenegini sunan; ogrenme, belirti kaydi ve hazirlik destegini koruyan urun durumu. | USER + INFERRED | `sen bunu yapamazsin` | PROPOSED |
+| Dogrulanmamis Kisisel Deneyim | Belirli motosiklette gozlemlenen fakat teknik olarak dogrulanmadigi icin resmi islem adimi statusu tasimayan community contribution. | USER | Resmi rehber adimi | PROPOSED |
+| Contribution On Incelemesi | Tekrarlanan yanlis contribution gecmisinde yeni katkilarin dogrudan yayinlanmak yerine review'dan gecirilmesi durumu. | USER | Otomatik kalici yasak | PROPOSED |
+| Kullanici Beyani | Kisinin kendisinin girdigi, ek bagimsiz kanit zorunlulugu tasimayan bilgi seviyesi. | USER | `verified` | PROPOSED |
+| Belgeli | Kullanici beyanina ek supporting evidence tasiyan bilgi seviyesi. | USER | `reviewed` ile otomatik ayni sayma | PROPOSED |
+| Incelenmis | Sunulan kanitin bir kontrol surecinden gectigini gosteren evidence seviyesi; tek basina motosiklet/islem uygunlugunun teyidi anlamina gelmez. | USER | `verified` ile otomatik ayni sayma | PROPOSED |
+| Dogrulanmis — Semantik Rafine | Kaynak, ilgili motosiklet/islem uygunlugu, inceleme zamani ve karar gorunurlugunu iceren; fakat mutlak sonuc garantisi vermeyen guven ifadesi. | USER | `kesin sonuc`, `her versiyonda ayni` | PROPOSED |
+| Kritik Safety Ozeti | Acik kritik konulari routine reminder'lardan ayirip zarar/aciliyet, gecikme ve onerilen ilk kontrol baglamiyla gosteren urun davranisi. | USER | Notification spam | PROPOSED |
+| Paylasilan Motosiklet / Shared Motorcycle | Ayni motosiklet gecmisine birden fazla yetkili kisinin katkida bulundugu; attribution, edit trail, izin ve private-content sinirlarinin korundugu kullanim baglami. | USER + INFERRED | Anonim ortak kayit | PROPOSED |
+| Ownership Transfer | Motosiklet satis/devrinde secilmis bakım history/kanitinin yeni sahibine aktarilmasi ile eski sahibin kisisel iceriginin ayrilmasi sureci. | USER | Tum kisisel icerigin otomatik devri | PROPOSED |
+| Arsivlenmis Motosiklet | Aktif garajda olmayan fakat gecmisi korunmus, aranabilir ve yeniden aktive edilebilir motosiklet durumu. | USER | `silinmis motosiklet` | PROPOSED |
+| Kritik Rehber Guncellik Siniri | Offline kritik rehberin son dogrulama zamanindan sonra uygulamali ilerlemenin yeniden online kontrol gerektirdigi product-safety esigi kavrami. Sayisal degeri henuz belirlenmemistir. | USER + INFERRED | Sabit gun/hafta varsayma | PROPOSED |
+| Progressive First-use | Hesap/izin/uzun profil zorunlulugundan once kullanicinin motosiklet secip rehber deneyiminin degerini hizla gorebilmesi beklentisi. | INFERRED | Zorunlu uzun onboarding | PROPOSED |
 
 ## Approval Note
 
-Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-03 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
+Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-04 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
