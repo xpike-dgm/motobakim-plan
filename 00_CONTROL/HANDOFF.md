@@ -10,35 +10,42 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 04 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 05 READY`
 
 ## What Just Happened
 
-Batch 03 portable handoff package ana yonetici sohbetine getirildi. Q066-Q095 ham cevaplari `02_DISCOVERY/SESSIONS/SESSION-003_BATCH_03_Q066_Q095.md` icine verbatim kaydedildi. Delegated AI'nin CONFIRMED/INFERRED/ASSUMPTION ve ANSWERED/RESOLVED adaylari ham kullanici kanitina gore yeniden degerlendirildi.
+Batch 04 portable handoff package ana yonetici sohbetine getirildi. Q096-Q125 ham cevaplari `02_DISCOVERY/SESSIONS/SESSION-004_BATCH_04_Q096_Q125.md` icine verbatim kaydedildi. Delegated AI'nin CONFIRMED/INFERRED/ASSUMPTION ve ANSWERED/RESOLVED adaylari ham kullanici kanitina gore yeniden degerlendirildi.
 
-Batch 03 ile su urun alanlari derinlesti:
-- teknik kimlik/belge zorunlulugu olmadan observable feature + fotografla variant ayristirma beklentisi; belirsizlikte stop-gate,
-- yuksek gerilim/basincli/yuksek-sicaklik high-consequence alanlarda conditional learning/application,
-- notification cadence/grouping/user control,
-- gecmis edit trail ve evidence-level gorunurlugu,
-- maintenance uncertainty ve dogrulanmis istisna davranisi,
-- sure/maliyet tahmin transparency,
-- community contribution/moderation ve resmi rehber ayrimi,
-- commercial neutrality,
-- kullanici motivasyonu,
-- roadside/offline continuity,
-- data ownership/export/delete/account isolation,
-- trust-breaker davranislari.
+Batch 04 ile su urun alanlari derinlesti:
+- readiness false-positive durumunda serbest override yerine evidence-based re-validation,
+- non-overrideable safety gates,
+- teaching-only content ile motosiklete uygulanabilir application instruction ayrimi,
+- professional escalation dili ve devam eden preparation/diagnosis support,
+- common aftermarket vs unique/custom modification coverage,
+- community appeal/re-submit ve graduated contributor controls,
+- evidence-label temel semantigi,
+- ignored/multiple critical notifications ve catch-up summary,
+- recurring vs one-time premium value ipuclari,
+- record-only/shared/hobby adjacent user contexts,
+- shared motorcycle attribution/permission,
+- ownership transfer/archive,
+- offline critical freshness gate,
+- progressive first-use,
+- Turkiye-first terminology ve accessibility needs.
 
-## Batch 03 QC Protections
+## Batch 04 QC Protections
 
-- Q066-Q067 `fotograf her motoru kesin ayirir` feasibility karari degildir; urun beklentisi + belirsizlik stop-gate'tir.
-- Q068-Q069 high-consequence kategorilerin herkese kosulsuz self-service acilmasi anlamina gelmez.
-- Q070 haftalik ozet mevcut kullanici tercihidir; global LOCKED cadence degildir.
-- Q074 fatura/fotograf vb. tek basina automatic verified status yapilmadi.
-- Q087 premium ornekleri final paket/fiyatlandirma karari degildir.
-- Q090 kisa roadside anlatim safety kontrolunu azaltma izni degildir.
-- Q093 teknik export formati, Q094 retention/silme suresi secmez.
+- Q096-Q098 readiness override degil, re-validation evidence modelidir.
+- Q099-Q104 teaching content'in application instruction gibi sunulmasina izin vermez.
+- Q102 visual aftermarket identification expectation'dir; technical feasibility garantisi degildir.
+- Q109-Q110 temel evidence semantics verir; global tek taxonomy final karari degildir.
+- Q114-Q115 final pricing/package/entitlement modeli secmez.
+- Q116-Q119 professional/service target statusunu kapatmaz.
+- Q120 selective transfer preference'dir; parsiyel history completeness hala aciktir.
+- Q122 sayisal freshness threshold vermez.
+- Q123 technical auth/identity modelini secmez.
+- Q124 global market scope'u kilitlemez.
+- Q125 belirli voice/speech implementation secmez.
 
 ## Evidence and Working Synthesis
 
@@ -46,6 +53,7 @@ Batch 03 ile su urun alanlari derinlesti:
   - `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md`
   - `02_DISCOVERY/SESSIONS/SESSION-002_BATCH_02_Q036_Q065.md`
   - `02_DISCOVERY/SESSIONS/SESSION-003_BATCH_03_Q066_Q095.md`
+  - `02_DISCOVERY/SESSIONS/SESSION-004_BATCH_04_Q096_Q125.md`
 - Working DRAFT synthesis:
   - `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
   - `USER_TYPES.md`
@@ -58,23 +66,24 @@ Batch 03 ile su urun alanlari derinlesti:
   - `01_WORKSPACE/GLOSSARY.md`
 - Open gaps:
   - `00_CONTROL/OPEN_QUESTIONS.md`
+- Next delegated prompt:
+  - `02_DISCOVERY/BATCH_05_AI_PROMPT.md`
 
 ## Current Open Focus
 
-- High-consequence professional escalation / uygulamali stop siniri
-- Readiness false-positive / false-negative ve override
-- Modifiye motosikletlerde beklenen coverage
-- Community moderation itiraz/edge case'leri
-- Evidence-level / reviewed / verified language siniri
-- Kritik notification escalation edge case'leri
-- Premium package/model tercihi
-- Broader user segmentation ve professional/servis target siniri
-- Shared motorcycle / collaboration
-- Language / units / accessibility expectations
-- Motorcycle sale/transfer/archive
-- Offline stale/recall behavior
-- First-use/onboarding ve account beklentisi
-- Data lifecycle edge case'leri
+- Professional escalation exact trigger ve self-service'e geri donus
+- Premium recurring/one-time/hybrid packaging expectation
+- Broader segment prioritization/motivations
+- Professional/service target user siniri
+- Data lifecycle: real delete, community withdrawal, export provenance
+- Context-specific evidence taxonomy
+- Selective ownership-transfer completeness
+- Critical freshness expiry semantics
+- Active-repair voice/easy-touch safety confirmation
+
+## Answered in Batch 04 QC
+
+Q-0030, Q-0031, Q-0032, Q-0033, Q-0034, Q-0037, Q-0038, Q-0039, Q-0040, Q-0041.
 
 ## Locked Process Decisions
 
@@ -100,13 +109,13 @@ Batch 03 ile su urun alanlari derinlesti:
 10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
 11. `02_DISCOVERY/QUESTION_PROGRESS.md`
 12. `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-13. `02_DISCOVERY/BATCH_04_AI_PROMPT.md`
+13. `02_DISCOVERY/BATCH_05_AI_PROMPT.md`
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_04_AI_PROMPT.md` promptunu yeni AI sohbetine verir. Diger AI ilk mesajinda sadece Q096-Q125 arasindaki 30 teknik olmayan soruyu sorar. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 04` uretip durur.
+Kullanici `02_DISCOVERY/BATCH_05_AI_PROMPT.md` promptunu yeni AI sohbetine verir. Diger AI ilk mesajinda sadece Q126-Q155 arasindaki 30 teknik olmayan soruyu sorar. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 05` uretip durur.
 
-Kullanici paketin tamamini ana yonetici sohbetine getirir. Batch 05, Batch 04 ham kanit ve synthesis kalite kontrolunden gecmeden hazirlanmaz. Phase 3'e gecilmez.
+Kullanici paketin tamamini ana yonetici sohbetine getirir. Batch 06, Batch 05 ham kanit ve synthesis kalite kontrolunden gecmeden hazirlanmaz. Phase 3'e gecilmez.
 
 ## Last Updated
 2026-09-14
