@@ -10,12 +10,22 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-1 / WORKSPACE DISCOVERY DELEGATED`
+`PHASE-1 / WORKSPACE REVIEW_REQUIRED`
 
 ## What Just Happened
-Sekiz asamali planlama iskeleti hazir. Kullanici, discovery sorularini ChatGPT'nin dogrudan sormasini istemiyor; ChatGPT kontrollu promptlari hazirlayacak ve kullanici bunlari baska AI oturumlarina verecek. Bu karar DEC-0006 ile LOCKED kayda alindi.
+Kullanici, diger AI oturumundan Phase-1 workspace synthesis ciktisini geri getirdi. Proje yoneticisi ciktinin siniflandirmasini denetledi ve `01_WORKSPACE` source-of-truth taslaklarina isledi.
 
-`01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` olusturuldu. Bu prompt diger AI'ya ilk 5 genel, teknik olmayan soruyu sorduracak; cevaplardan PROJECT_VISION, CONSTRAINTS, ASSUMPTIONS, GLOSSARY ve OPEN QUESTIONS adaylari uretecek. Diger AI kendiliginden 30 soruluk discovery turuna gecmeyecek.
+Onemli duzeltme: delegated AI'nin bircok feature gereksinimini `constraint` olarak siniflandirdigi tespit edildi. Constraint katmani yalnizca motosiklete ozel/dogrulanmis bilgi, guvenlik uyarilarini saklamama ve deneyimsiz kullanici icin anlasilabilirlik gibi yuksek seviye sinirlarla tutuldu. Arac/malzeme listesi, asamali/gorsel rehber, gecmis ve hatirlatmalar product requirement/boundary olarak ayrildi.
+
+Tehlikeli veya uzmanlik gerektiren islemlerin anlatilmasi kullanici niyeti olarak korundu; ancak guvenlik siniri cozulmeden kosulsuz urun politikasi yapilmadi. Bu konu `OPEN_QUESTIONS.md` icinde izleniyor.
+
+## Workspace Status
+- `01_WORKSPACE/PROJECT_VISION.md` — REVIEW
+- `01_WORKSPACE/CONSTRAINTS.md` — REVIEW
+- `01_WORKSPACE/ASSUMPTIONS.md` — REVIEW
+- `01_WORKSPACE/GLOSSARY.md` — REVIEW
+- `00_CONTROL/OPEN_QUESTIONS.md` — Phase-1'den 12 aktif urun sorusu eklendi
+- `00_CONTROL/DOCUMENT_REGISTRY.md` — `01_WORKSPACE/*` = REVIEW
 
 ## Locked Process Decisions
 - GitHub kalici proje hafizasidir.
@@ -34,10 +44,14 @@ Sekiz asamali planlama iskeleti hazir. Kullanici, discovery sorularini ChatGPT'n
 6. `00_CONTROL/WORKFLOW_MAP.md`
 7. `00_CONTROL/PHASE_GATES.md`
 8. `00_CONTROL/DOCUMENT_REGISTRY.md`
-9. Aktif prompt: `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md`
+9. `01_WORKSPACE/README.md`
+10. `01_WORKSPACE/PROJECT_VISION.md`
+11. `01_WORKSPACE/CONSTRAINTS.md`
+12. `01_WORKSPACE/ASSUMPTIONS.md`
+13. `01_WORKSPACE/GLOSSARY.md`
 
 ## Next Action
-Kullanici baska AI'dan aldigi 5 soru-cevap ve yapilandirilmis workspace ciktisini geri getirecek. ChatGPT kalite kontrolu yapip bilgileri ilgili source-of-truth dosyalarina isleyecek.
+Kullanicidan Phase-1 workspace taslaklari icin acik onay al. Onay gelirse belgeleri `APPROVED` yap, Gate 1 -> 2 kontrolunu tamamla ve ancak sonra Phase 2 ilk 30-soruluk discovery promptunu hazirla.
 
 ## Last Updated
 2026-09-14
