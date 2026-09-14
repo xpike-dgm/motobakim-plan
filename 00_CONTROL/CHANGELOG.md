@@ -40,21 +40,36 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Batch 03 Q066-Q095 promptu hazirlandi.
 
 ### Product Discovery — Batch 03 Complete
-- Kullanici `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 03` dosyasini ana yonetici sohbetine getirdi.
-- Q066-Q095 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-003_BATCH_03_Q066_Q095.md` icine verbatim kaydedildi.
-- Phase-1 ve Batch 01-02 kanitiyla dogrudan celiski tespit edilmedi.
-- Q066-Q067, kullanicinin teknik kimlik/belge aramak istemedigi ve observable ozellik/fotograf yetersizse variant-specific uygulamali adimlarin acilmamasi beklentisini CONFIRMED etti; fotografin her gercek motosiklette teknik olarak yeterli olacagi feasibility gercegi yapilmadi.
-- Q068-Q069 yuksek gerilim/basincli/yuksek-sicaklik gibi high-consequence alanlarin kategori olarak dislanmamasini fakat motosiklete ozel safety kosullari dogrulanmadan uygulamali progression olmamasini CONFIRMED etti.
-- Notification grouping/cadence/user control, history edit trail/evidence levels, maintenance uncertainty/istisnalar, sure-maliyet transparency, community/moderation, commercial neutrality, roadside/offline, data ownership/export/delete ve trust-breaker'lar derinlesti.
-- Q070 haftalik ozet tercihinin tek kullanici kaniti oldugu korundu; global LOCKED notification policy yapilmadi.
-- Q074 evidence ornekleri global automatic verification taxonomy yapilmadi.
-- Q087 premium deger ornekleri final premium package/model karari yapilmadi.
-- `OPEN_QUESTIONS.md`: Q-0002, Q-0010, Q-0021 — Q-0025, Q-0028 ve Q-0029 ANSWERED; high-consequence professional escalation, premium packaging, broader segmentation ve yeni edge case'ler OPEN olarak korundu.
-- `ASSUMPTIONS.md`: ASM-008 ve ASM-017 RESOLVED; ASM-018 SUPPORTED; ASM-013 OPEN; ASM-019 — ASM-021 yeni OPEN varsayimlar eklendi.
-- `GLOSSARY.md` evidence level, belirsiz bakım takvimi, bakım istisnasi, degisiklik izi, community contribution, resmi rehber, ticari tarafsizlik, roadside/offline, data portability ve trust-breaker terimleriyle rafine edildi.
-- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 03 kanitiyla guncellendi.
-- `QUESTION_PROGRESS.md` Batch 03 complete / Batch 04 ready yapildi.
-- `02_DISCOVERY/BATCH_04_AI_PROMPT.md` Q096-Q125 icin adaptif olarak hazirlandi.
+- Q066-Q095 raw Q&A `SESSION-003_BATCH_03_Q066_Q095.md` icine verbatim kaydedildi.
+- Onceki kanitla dogrudan conflict tespit edilmedi.
+- Observable feature + fotografla variant ayristirma, high-consequence conditional learning/application, notification grouping/cadence, history edit trail/evidence levels, maintenance uncertainty, time/cost transparency, community/moderation, commercial neutrality, roadside/offline, data ownership/export/delete ve trust-breaker alanlari derinlesti.
+- Q070 haftalik ozet global LOCKED policy yapilmadi; Q074 automatic verification taxonomy yapilmadi; Q087 final premium package sayilmadi.
+- Open questions, assumptions, glossary ve tum working synthesis dosyalari guncellendi.
+- Batch 04 Q096-Q125 promptu hazirlandi.
+
+### Product Discovery — Batch 04 Complete
+- Kullanici `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 04` icerigini ana yonetici sohbetine getirdi.
+- Q096-Q125 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-004_BATCH_04_Q096_Q125.md` icine verbatim kaydedildi.
+- Portable paketteki `ANSWERED/RESOLVED` ve assumption status adaylari otomatik kabul edilmedi; ham kullanici cevaplari uzerinden yeniden kalite kontrolu yapildi.
+- Readiness false-positive durumunda serbest override yerine fotograf/olcum/alternatif kontrolle evidence-based re-validation ve non-overrideable safety gate beklentileri CONFIRMED edildi.
+- Teaching-only content ile belirli motosiklete uygulanabilir application instruction ayrimi guclendi; high-consequence application ilk fiziksel mudahaleden once ve yeni risk/mismatch aninda gate'leniyor.
+- Professional escalation'in `sen yapamazsin` diliyle sunulmamasi, eksik kosul/remediation/retry yoluna dayanmasi ve diagnosis/preparation/result-check desteginin devam etmesi kaydedildi; exact escalation trigger OPEN tutuldu.
+- Common aftermarket icin verified adapted guide beklentisi; custom/unique durumda evidence gap + teaching-only bilgi + application hold davranisi kaydedildi. Bunun technical coverage feasibility'si varsayim olarak acik kaldi.
+- Community moderation removal reason, appeal/re-submit, pre-review, repeated dangerous contribution restriction ve `dogrulanmamis kisisel deneyim` statuleri eklendi.
+- Q109-Q110 ile `kullanici beyani / belgeli / incelenmis / dogrulanmis` temel product semantigi netlesti; tum domainlerde zorunlu tek global taxonomy olarak kilitlenmedi.
+- Kritik reminder'larda app-ici safety summary, harm/urgency siralamasi ve uzun aradan donuste catch-up summary beklentileri eklendi.
+- Premium adaylar analysis/storage/multi-garage/personalization ile genisledi; non-recurring optional value icin one-time payment tercihi kaydedildi; final pricing/package modeli secilmedi.
+- Record-only owner, shared-family/hobby helper adjacent user context'leri eklendi; core focus bireysel self-service rider olarak korundu; professional/service target statusu OPEN kaldi.
+- Shared motorcycle icin owner permission, contributor attribution, edit trail, revocable access ve private-note isolation beklentileri kaydedildi.
+- Ownership transfer'da secili vehicle history transferi, personal content privacy ve preview; archive'da reversible history-preserving state beklentileri kaydedildi. Parsiyel transfer completeness acik kaldi.
+- Critical offline guide last-verification ve freshness-limit sonrasi online re-check'e kadar application hold beklentisi kaydedildi; sayisal threshold secilmedi.
+- Progressive first-use, Turkiye-first terminology/unit expectation ve accessibility/dirty-hands/voice-easy-touch ihtiyaclari discovery'ye eklendi; teknik auth/voice/UI cozumleri secilmedi.
+- `OPEN_QUESTIONS.md`: Q-0030, Q-0031, Q-0032, Q-0033, Q-0034, Q-0037, Q-0038, Q-0039, Q-0040, Q-0041 ANSWERED; Q-0004, Q-0026, Q-0027, Q-0035, Q-0036 ve yeni Q-0042 — Q-0045 OPEN.
+- `ASSUMPTIONS.md`: ASM-016 SUPPORTED, ASM-020 RESOLVED, ASM-021 CHALLENGED; ASM-022 — ASM-025 yeni OPEN varsayimlar eklendi.
+- `GLOSSARY.md` Batch 04 domain terimleriyle rafine edildi.
+- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 04 kanitiyla guncellendi.
+- `QUESTION_PROGRESS.md` Batch 04 complete / Batch 05 ready yapildi.
+- `02_DISCOVERY/BATCH_05_AI_PROMPT.md` Q126-Q155 icin adaptif olarak hazirlandi.
 
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 04 READY` olarak guncellenecek. Batch 05, Batch 04 ham kanit ve synthesis kalite kontrolunden gecmeden hazirlanmayacak; Phase 3'e gecilmeyecek.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 05 READY`. Batch 06, Batch 05 ham kanit ve synthesis kalite kontrolunden gecmeden hazirlanmayacak; Gate 2 -> 3 otomatik gecilmeyecek.
