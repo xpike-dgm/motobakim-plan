@@ -1,40 +1,56 @@
 # SOURCE OF TRUTH
 
-Bu dosya, proje hafizasinda hangi bilginin hangi otorite seviyesinde kabul edilecegini tanimlar.
+Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 
-## Authority Order
-
-Bir bilgi birbiriyle celisirse su oncelik sirasi kullanilir:
+## Genel Otorite Sirasi
 
 1. Kullanicinin en yeni ve acik talimati
-2. `LOCKED` durumundaki karar kayitlari
-3. `APPROVED` source-of-truth dokumanlari
-4. `CURRENT_STATE.md`
-5. Diger repository dokumanlari
-6. Gecmis sohbetler
-7. AI'nin kendi hatirladigi veya cikarsadigi bilgiler
+2. `LOCKED` kararlar / ADR'ler / onayli referanslar
+3. `APPROVED` source-of-truth belgeleri
+4. `00_CONTROL/CURRENT_STATE.md`
+5. Diger aktif repository belgeleri
+6. Ham kanit / tartisma kayitlari
+7. Gecmis sohbetler
+8. AI'nin kendi hatirladigi, varsaydigi veya cikarsadigi bilgi
 
-## Memory Rule
+## Global Kontrol Kaynaklari
 
-ChatGPT kendi dahili hafizasini kalici proje gercegi olarak kabul etmez. Yeni sohbetlerde proje durumu repository uzerinden yeniden kurulur.
+- `AI_START_HERE.md` — oturum bootstrap protokolu
+- `CURRENT_STATE.md` — guncel durum
+- `DECISION_LOG.md` — surec ve proje yonetim kararlari
+- `OPEN_QUESTIONS.md` — cozulmemis celiski/belirsizlikler
+- `WORKFLOW_MAP.md` — 8 asamanin sirasi
+- `PHASE_GATES.md` — asamalar arasi gecis kosullari
+- `DOCUMENT_REGISTRY.md` — ana belgelerin status kaydi
+- `CHANGELOG.md` — hafiza/source-of-truth degisiklik izi
+- `HANDOFF.md` — yeni AI icin kisa devir ozeti
 
-## Canonical Memory Files
+## Asama Bazli Otorite
 
-- `00_CONTROL/AI_START_HERE.md` — yeni oturum protokolu
-- `00_CONTROL/CURRENT_STATE.md` — en guncel proje durumu
-- `00_CONTROL/DECISION_LOG.md` — kalici kararlar
-- `00_CONTROL/OPEN_QUESTIONS.md` — cozulmemis belirsizlikler ve celiskiler
-- `00_CONTROL/CHANGELOG.md` — hafiza ve karar degisikliklerinin kronolojik izi
-- `00_CONTROL/HANDOFF.md` — yeni sohbet/AI icin kisa devir ozeti
+### 01 Workspace
+`PROJECT_VISION.md`, `CONSTRAINTS.md`, `ASSUMPTIONS.md`, `GLOSSARY.md`. Varsayimlar gercek sayilmaz.
 
-## Mutation Rule
+### 02 Discovery
+`SESSIONS/` ham kanittir. Otoriter urun sentezi `SYNTHESIS/` altindaki APPROVED belgelerden gelir.
 
-Yeni bilgi geldiginde sadece ilgili source-of-truth dosyasi guncellenir. Ayni gercegin farkli dosyalarda bagimsiz ve celisebilecek kopyalari olusturulmaz.
+### 03 Design
+Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md`; gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
 
-## Refresh Rule
+### 04 Tech Strategy
+Tartisma ve oneridir. Tek basina kesin teknoloji karari olamaz.
 
-Her anlamli kilometre tasinda `CURRENT_STATE.md`, `DECISION_LOG.md`, `OPEN_QUESTIONS.md`, `CHANGELOG.md` ve gerekiyorsa `HANDOFF.md` kontrol edilip guncellenir.
+### 05 ADR
+Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler sonraki teknik planlamayi baglar.
+
+### 06 Delivery Planning
+Onayli epic/capability/feature/flow/task ve dependency haritalarinin otoritesidir.
+
+### 07 AI Architecture
+Kodlama sirasinda AI davranisi, context routing, module boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
+
+### 08 Repository Bootstrap
+Kesinlesen mimarinin fiziksel kurulum plani ve completion kanitlarinin otoritesidir.
 
 ## No Silent Rewrite
 
-Daha once kabul edilmis bir bilgi degisiyorsa eski kayit iz birakmadan silinmez. Karar gecmisi korunur ve yeni karar tarafindan gecersiz kilindigi belirtilir.
+Kabul edilmis bilgi degisiyorsa eski karar iz birakmadan silinmez. Yeni kayit eskisini SUPERSEDED yapar ve degisiklik changelog'a islenir.

@@ -1,41 +1,33 @@
-# Motobakim Plan
+# Motobakim Plan — AI-Native Planning Repository
 
-Bu repository su anda yalnizca Motobakim projesinin **kalici AI hafiza yonetimi** icin kullaniliyor.
+Bu repository Motobakim mobil uygulamasinin kod deposu degildir. Uygulama kodlanmadan once urun bilgisini, tasarimi, teknoloji kararlarini, teslimat planini ve AI-native gelistirme mimarisini kontrollu bicimde olusturmak icin kullanilan kalici planlama ve proje-hafiza deposudur.
 
-## Amac
+## Degismez Ilke
 
-Yeni bir ChatGPT veya AI oturumu onceki sohbetleri bilmese bile repository icindeki kontrol dosyalarini okuyarak:
+Sohbet gecmisi source-of-truth degildir. Yeni bir AI oturumu proje baglamini bu repository'den yeniden kurar.
 
-- projenin nerede kaldigini,
-- hangi kararlarin kesinlestigini,
-- hangi konularin henuz acik oldugunu,
-- bir onceki oturumdan ne devralmasi gerektigini
+Ilk okunacak belge: `00_CONTROL/AI_START_HERE.md`.
 
-yeniden anlayabilmelidir.
+## 8 Asamali Surec
 
-## Temel ilke
+1. `01_WORKSPACE/` — AI calisma sistemi, vizyon, kisit, varsayim ve ortak dil
+2. `02_DISCOVERY/` — teknik olmayan iteratif urun kesfi
+3. `03_DESIGN/` — ekran/state envanteri ve onayli referans tasarimlar
+4. `04_TECH_STRATEGY/` — uzman AI teknoloji tartismasi ve judge sentezi
+5. `05_ADR/` — teknoloji/mimari kararlarinin gerekceleriyle kilitlenmesi
+6. `06_DELIVERY_PLANNING/` — Epic -> Capability -> Feature -> User Flow -> Task
+7. `07_AI_ARCHITECTURE/` — yeni AI'nin guvenli task uygulamasini saglayan gelistirme mimarisi
+8. `08_REPOSITORY_BOOTSTRAP/` — kesinlesen mimarinin gercek uygulama repository'sine kurulmasi
 
-> Sohbet hafizasi source of truth degildir. Kalici proje hafizasi GitHub repository icinde tutulur.
+Destek klasorleri:
+- `00_CONTROL/` — kalici hafiza, durum, karar, phase gate ve source-of-truth yonetimi
+- `90_TEMPLATES/` — standardize belge sablonlari
+- `99_ARCHIVE/` — aktif otorite olmayan tarihsel belgeler
 
-## Yeni oturum baslangici
+## Phase Gate Modeli
 
-Her yeni oturum once su dosyadan baslamalidir:
+Bir klasorun mevcut olmasi o asamanin tamamlandigi anlamina gelmez. Gecis kosullari `00_CONTROL/PHASE_GATES.md`, belge durumlari `00_CONTROL/DOCUMENT_REGISTRY.md` tarafindan izlenir.
 
-`00_CONTROL/AI_START_HERE.md`
+## Mevcut Durum
 
-## Hafiza cekirdegi
-
-- `00_CONTROL/AI_START_HERE.md`
-- `00_CONTROL/CURRENT_STATE.md`
-- `00_CONTROL/SOURCE_OF_TRUTH.md`
-- `00_CONTROL/DECISION_LOG.md`
-- `00_CONTROL/OPEN_QUESTIONS.md`
-- `00_CONTROL/HANDOFF.md`
-- `00_CONTROL/MEMORY_PROTOCOL.md`
-- `00_CONTROL/CHANGELOG.md`
-
-## Mevcut kapsam
-
-`PHASE-0 / MEMORY SYSTEM READY`
-
-Su anda urun kesfi, UI tasarimi, teknoloji secimi, uygulama mimarisi, task planlama veya kodlama yapilmiyor. Bu calismalar ancak kullanicinin sonraki acik talimatiyla baslatilacak.
+8 asamanin calisma iskeleti kuruldu. Urun kesfi, tasarim, teknoloji secimi, ADR, task parcala(ma), nihai mimari ve uygulama kodlama henuz yapilmadi.

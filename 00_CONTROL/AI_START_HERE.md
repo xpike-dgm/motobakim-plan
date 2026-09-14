@@ -2,81 +2,73 @@
 
 Bu dosya Motobakim projesine ilk kez giren veya yeni bir sohbet/agent oturumunda calisan her AI icin zorunlu baslangic protokoludur.
 
-## 1. Temel kural
+## 1. Temel Kural
 
-Sohbet gecmisi, model hafizasi veya varsayimlar **source of truth degildir**. Proje gercegi bu repodaki kontrollu dokumanlardan okunur.
+Sohbet gecmisi, model hafizasi veya AI varsayimlari source-of-truth degildir. Proje gercegi bu repository'deki kontrollu belgelerden okunur.
 
-Bir bilgi sohbet ile repo arasinda celisiyorsa, kullanicidan gelen en yeni acik talep disinda repo kaydi esas alinir ve celiski `00_CONTROL/OPEN_QUESTIONS.md` veya `00_CONTROL/DECISION_LOG.md` icinde gorunur hale getirilir.
-
-## 2. Her yeni oturumda zorunlu okuma sirasi
+## 2. Her Yeni Oturumda Zorunlu Okuma Sirasi
 
 1. `00_CONTROL/CURRENT_STATE.md`
 2. `00_CONTROL/SOURCE_OF_TRUTH.md`
 3. `00_CONTROL/DECISION_LOG.md`
 4. `00_CONTROL/OPEN_QUESTIONS.md`
-5. Yurutulecek isin ilgili klasor README/protokol dosyalari
-6. Yalnizca gerekliyse ilgili urun, tasarim, teknoloji, mimari veya task belgeleri
+5. `00_CONTROL/WORKFLOW_MAP.md`
+6. `00_CONTROL/PHASE_GATES.md`
+7. `00_CONTROL/DOCUMENT_REGISTRY.md`
+8. Aktif asamanin `README.md` ve protokol belgeleri
+9. Yalnizca mevcut is icin gerekli detay belgeleri
 
-Tum repository'yi refleks olarak okumak yerine **minimum yeterli baglam** ilkesi uygulanir.
+Tum repository'yi refleks olarak okumak yerine minimum yeterli baglam ilkesi uygulanir.
 
-## 3. Calismaya baslamadan once
+## 3. Calismaya Baslamadan Once
 
-AI su sorularin cevabini repo icinden belirlemelidir:
-
-- Su an hangi fazdayiz?
+AI repo icinden sunlari belirlemelidir:
+- Su an hangi asamadayiz?
 - Bu oturumun amaci nedir?
-- Hangi kararlar `LOCKED`, hangileri `APPROVED`, `PROPOSED`, `SUPERSEDED` veya `DEPRECATED`?
-- Bu is hangi dosyalari degistirebilir?
-- Hangi bilgiler henuz bilinmiyor?
-- Mevcut bir karari sessizce gecersiz kilacak miyim?
+- Bir sonraki phase gate nedir?
+- Hangi belgeler APPROVED/LOCKED, hangileri EMPTY/DRAFT/REVIEW?
+- Hangi dosyalar bu isin girdisi, hangileri ciktisi?
+- Hangi bilgiler bilinmiyor veya celiskili?
 
-Bu sorulardan biri cevapsizsa AI tahminde bulunup bunu gercek gibi yazmamalidir.
+Cevabi bilinmeyen konu tahmin edilip gercek gibi yazilamaz.
 
-## 4. Karar durumlari
+## 4. Belge / Karar Durumlari
 
-Projede kararlar su durumlarla izlenir:
+`EMPTY` — yapisi var, henuz bilgi yok.
+`DRAFT` — calisma halinde.
+`REVIEW` — kontrol/onay bekliyor.
+`PROPOSED` — karar adayi.
+`APPROVED` — kullanilmasi onaylandi.
+`LOCKED` — acik degisiklik karari olmadan degistirilemez.
+`SUPERSEDED` — daha yeni kayit tarafindan gecersiz kilindi.
+`ARCHIVED` / `DEPRECATED` — aktif kaynak degil.
 
-- `PROPOSED` — onerilmis, henuz kabul edilmemis
-- `APPROVED` — kullanilmasi onaylanmis, fakat ileride kontrollu degisebilir
-- `LOCKED` — acik karar olmadan degistirilemez
-- `SUPERSEDED` — daha yeni bir karar tarafindan gecersiz kilinmis
-- `DEPRECATED` — artik kullanilmamali, tarihsel kayit olarak tutulur
+## 5. Kanit ile Karari Karistirma
 
-AI, `LOCKED` bir karari kullanicinin acik onayi olmadan degistiremez.
+- `02_DISCOVERY/SESSIONS/` ham soru-cevap kanitidir; urun source-of-truth'u `02_DISCOVERY/SYNTHESIS/` belgeleridir.
+- `04_TECH_STRATEGY/` arguman ve oneridir; teknoloji karari ancak `05_ADR/` ile APPROVED/LOCKED olur.
+- Tasarim adaylari otorite degildir; `03_DESIGN/REFERENCE_INDEX.md` icinde APPROVED/LOCKED referanslar otoritedir.
+- Planlama task'i kod degisikligi yetkisi vermez; task execution kurallari 07. asamada kesinlesir.
 
-## 5. Celiski protokolu
+## 6. Celiski Protokolu
 
-Yeni bilgi mevcut bilgiyle celisirse:
+Yeni bilgi mevcut bilgiyle celisirse eski bilgiyi sessizce silme. Celiski kaydedilir, kaynaklar karsilastirilir, gerekirse `OPEN_QUESTIONS.md` acilir. Kullanici veya yetkili karar mekanizmasi netlestirdikten sonra source-of-truth guncellenir, eski kayit SUPERSEDED yapilir ve `CHANGELOG.md` guncellenir.
 
-1. Eski bilgiyi sessizce silme.
-2. Celiskinin kaynagini tespit et.
-3. Gerekirse `OPEN_QUESTIONS.md` icine kaydet.
-4. Kullanici net karar verdiginde `DECISION_LOG.md` guncelle.
-5. Etkilenen source-of-truth dosyalarini guncelle.
-6. Eski karari `SUPERSEDED` olarak isaretle.
-7. `CHANGELOG.md` kaydi ekle.
+## 7. Phase Disiplini
 
-## 6. Her anlamli calisma sonunda zorunlu hafiza tazeleme
+AI bir sonraki asamaya kendiliginden gecemez. `PHASE_GATES.md` kosullari saglanmali ve mevcut talimat o asamayi kapsamalidir. Ornegin urun kesfi devam ederken framework secilmez; teknoloji tartismasi sirasinda ADR kilitlenmis varsayilmaz; bootstrap tamamlanmadan feature kodlamaya baslanmaz.
 
-Bir faz, discovery batch'i, tasarim onayi, teknik karar, planlama karari veya mimari degisiklik tamamlandiginda AI en az su kontrolleri yapmalidir:
+## 8. Her Anlamli Calisma Sonunda Hafiza Tazeleme
 
-- `CURRENT_STATE.md` guncel mi?
-- Yeni karar `DECISION_LOG.md` icinde mi?
-- Yeni belirsizlik `OPEN_QUESTIONS.md` icinde mi?
-- Kalici urun bilgisi ilgili source-of-truth dosyasina islendi mi?
-- `CHANGELOG.md` guncellendi mi?
-- Sonraki AI'nin bilmesi gereken baglam acik mi?
+En az su belgeler kontrol edilir:
+- `CURRENT_STATE.md`
+- `DECISION_LOG.md`
+- `OPEN_QUESTIONS.md`
+- `DOCUMENT_REGISTRY.md`
+- Ilgili asamanin source-of-truth belgeleri
+- `CHANGELOG.md`
+- `HANDOFF.md`
 
-## 7. Yasak davranislar
+## 9. Proje Yonetim Modeli
 
-- Onaylanmamis teknik tercihi kesin karar gibi yazmak
-- Ayni bilginin birden fazla dosyada farkli versiyonlarini yasatmak
-- Kullanici cevabini yorumlayarak kapsam genisletmek ve bunu onayli karar gibi kaydetmek
-- Eski kararlari iz birakmadan silmek
-- 300+ discovery cevabini her task icin ham baglam olarak kullanmak
-- Bir tasarim referansini onay almadan `LOCKED` yapmak
-- Uygulama kodu yazmaya, teknoloji secimleri kesinlesmeden baslamak
-
-## 8. Proje yonetim modeli
-
-ChatGPT bu surecte proje mimari muhendisi ve yoneticisi rolunu yurutecek; diger AI'lar uzman, tartisma katilimcisi, reviewer veya implementer olarak kullanilabilecek. Nihai proje gercegi sohbetlerde degil bu repository'de tutulacaktir.
+ChatGPT proje mimari muhendisi ve yoneticisi olarak sureci koordine eder. Diger AI'lar uzman, tartisma katilimcisi, reviewer veya implementer olabilir. Nihai proje gercegi sohbetlerde degil bu repository'de tutulur.
