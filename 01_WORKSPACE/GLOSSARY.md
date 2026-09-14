@@ -1,8 +1,11 @@
 # GLOSSARY
 
-Status: REVIEW
+Status: APPROVED
 
 Projede kullanilan domain terimlerinin tek anlamli sozlugu. `PROPOSED` terimler sonraki discovery sirasinda netlestirilebilir.
+
+**Approved registry by user:** 2026-09-14  
+**Important:** Belgenin `APPROVED` olmasi, her `PROPOSED` terimin nihai/LOCKED oldugu anlamina gelmez.
 
 | Term | Canonical Meaning | Source Class | Synonyms / Avoid | Status |
 |---|---|---|---|---|
@@ -14,4 +17,8 @@ Projede kullanilan domain terimlerinin tek anlamli sozlugu. `PROPOSED` terimler 
 | Bakim Gecmisi | Kullanicinin motosikleti uzerinde tamamladigi bakim ve ilgili islemlerin kronolojik kaydi. | USER | — | PROPOSED |
 | Sonraki Bakim Ihtiyaci | Motosiklet icin ileride yapilmasi gereken bakim/servis ihtiyacinin ne oldugu ve ne zaman gundeme geldigi kavrami. | USER | — | PROPOSED |
 | Yeni / Az Deneyimli Kullanici | Kendi motosikleti uzerindeki teknik islemlerde sinirli deneyimi olan hedef kullanici grubu. | INFERRED | `yeni motosiklet sahibi` ifadesini otomatik olarak deneyimsiz kabul etme | PROPOSED |
-| Deneyimli Kullanici | Bakim veya teknik islemlerde deneyimi bulunan ancak motosiklete ozel dogru bilgi, rehber ve takip desteği isteyen hedef kullanici grubu. | INFERRED | — | PROPOSED |
+| Deneyimli Kullanici | Bakim veya teknik islemlerde deneyimi bulunan ancak motosiklete ozel dogru bilgi, rehber ve takip destegi isteyen hedef kullanici grubu. | INFERRED | — | PROPOSED |
+
+## Approval Note
+
+Bu glossary registry Phase 1 icin onaylanmistir. Discovery yeni terimler ekleyebilir veya mevcut `PROPOSED` anlamlari netlestirebilir; degisiklikler izlenebilir sekilde yapilir.
