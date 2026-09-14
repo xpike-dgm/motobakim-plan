@@ -10,51 +10,54 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 02 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 03 READY`
 
 ## What Just Happened
 
-Batch 01 (Q006-Q035) portable discovery handoff paketi kullanici tarafindan ana yonetici sohbetine getirildi.
+Batch 02 portable handoff package ana yonetici sohbetine getirildi. Q036-Q065 ham cevaplari `02_DISCOVERY/SESSIONS/SESSION-002_BATCH_02_Q036_Q065.md` icine verbatim kaydedildi ve delegated AI'nin siniflandirma/resolution adaylari ham kullanici kanitina gore yeniden kontrol edildi.
 
-Ana proje yoneticisi:
-- RAW Q&A'nin tam oldugunu kontrol etti,
-- Q006-Q035'i `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` icine verbatim kaydetti,
-- delegated AI'nin confirmed/inferred/assumption ve open-question resolution adaylarini yeniden denetledi,
-- Phase-1 baseline ile dogrudan celiski bulmadi,
-- Q020 cevabinin yarim kalmis olabilecegini kanit kalitesi notu olarak kaydetti,
-- urun sentez dosyalarini DRAFT olarak doldurdu,
-- assumptions ve glossary registry'lerini yeni kanitla rafine etti,
-- gercekten cevaplanan eski open question'lari ANSWERED yapti,
-- kismi/yeni bosluklari OPEN olarak korudu,
-- Batch 02 promptunu hazirladi.
+Batch 02 ile motosiklet/varyant eslesmesi, modifikasyonlar, content review lifecycle, yuksek-sonuclu islem kosullari, islem-bazli readiness, guvenli esdeger, teshis kanit esigi, rehber surum degisikligi, coklu motosiklet, dis islem kaydi, bakim onceligi ve ilk monetization guven siniri derinlesti.
 
-## Key Product Learnings from Batch 01
+Onemli QC korumalari:
+- Q036 evrensel sabit kimlik seti degildir.
+- Q040 tum kritik rehberlerde zorunlu iki reviewer karari degildir.
+- Q045 tum yuksek riskli islemlerin kosulsuz self-service acilmasi degildir.
+- Q056 sabit sayisal teshis testi esigi degildir.
+- Q063 fatura = otomatik dogrulanmis dis islem degildir.
+- Q065 fiyatlandirma/paket modeli secmez.
 
-- Motosiklet-rehber eslesmesi, yil/versiyon/donanim farklarini dikkate alan kritik bir guvenlik kapisidir.
-- Dogrulanmis bilgi; uygun uretici kaynagi, belge surumu, sayfa/bolum kaniti, insan incelemesi ve kaynak celiskisi yonetimi beklentisini icerir.
-- Yeni ve deneyimli kullanici ayni guvenlik standardini korur ancak anlatim derinligi/hizi farklasir.
-- Rehber adimi yeni kullanici icin tek hareket + gorsel + basari kontrolu seviyesine inebilir.
-- Readiness, stop-gate, teshis-kanit akisi, mismatch/recovery, yarim islem devamligi ve zengin bakim gecmisi urunun onemli davranislaridir.
-- Maintenance takip ve reminder mantiginin ana beklentileri netlesti; istisnalar hala acik.
-- Monetization ve moderation/content governance hala dusuk kapsamadadir.
+`OPEN_QUESTIONS.md` guncellendi. Q-0003, Q-0013 — Q-0019 ve Q-0020 yeterli kanitla ANSWERED; daha dar acik bosluklar korunuyor.
 
-## Evidence and Synthesis
+Batch 03 promptu hazir:
+`02_DISCOVERY/BATCH_03_AI_PROMPT.md`
 
-- Raw evidence: `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md`
-- Working synthesis:
-  - `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-  - `02_DISCOVERY/SYNTHESIS/USER_TYPES.md`
-  - `02_DISCOVERY/SYNTHESIS/USER_JOURNEYS.md`
-  - `02_DISCOVERY/SYNTHESIS/BUSINESS_RULES.md`
-  - `02_DISCOVERY/SYNTHESIS/FEATURE_CANDIDATES.md`
-  - `02_DISCOVERY/SYNTHESIS/NON_GOALS.md`
-- Batch 02 prompt: `02_DISCOVERY/BATCH_02_AI_PROMPT.md`
+Soru araligi: Q066-Q095.
 
-## Open Questions
+## Key Current Sources
 
-Aktif sorular: Q-0002, Q-0003, Q-0004, Q-0010, Q-0013 — Q-0024.
+- `01_WORKSPACE/PROJECT_VISION.md` — APPROVED baseline
+- `01_WORKSPACE/CONSTRAINTS.md` — APPROVED baseline
+- `01_WORKSPACE/ASSUMPTIONS.md` — APPROVED registry; tekil statusler discovery ile guncelleniyor
+- `01_WORKSPACE/GLOSSARY.md` — APPROVED registry; terimler PROPOSED
+- `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` — raw evidence
+- `02_DISCOVERY/SESSIONS/SESSION-002_BATCH_02_Q036_Q065.md` — raw evidence
+- `02_DISCOVERY/SYNTHESIS/*` — working DRAFT synthesis
+- `00_CONTROL/OPEN_QUESTIONS.md` — current unresolved discovery gaps
 
-Answered after Batch 01: Q-0001, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009, Q-0011, Q-0012.
+## Current Open Focus
+
+- Varyant kimligi friendly bilgiler/fotografla kesinlesmezse ek kanit
+- Yuksek gerilim ve diger kapsanmayan high-consequence kategoriler
+- Notification cadence / coklu gecikme
+- Gecmis kaydi duzeltme izi ve dis islem kanit seviyesi
+- Kullanici/topluluk katkisi ve moderation
+- Sosyal/ticari urun siniri
+- Bakim istisnalari / degistirilmis parca / eksik kosul bilgisi
+- Yaklasik sure ve maliyet tahmini
+- Ucretli model paketleme / sponsor-ticari guven
+- Kullanici motivasyonlari ve kullanim baglamlari
+- Kullanici verisi uzerinde urun kontrolu
+- Zayif/olmayan baglantida beklenen urun devamlıligi
 
 ## Locked Process Decisions
 
@@ -73,18 +76,19 @@ Answered after Batch 01: Q-0001, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009, Q-0011,
 3. `00_CONTROL/SOURCE_OF_TRUTH.md`
 4. `00_CONTROL/DECISION_LOG.md`
 5. `00_CONTROL/OPEN_QUESTIONS.md`
-6. `00_CONTROL/PHASE_GATES.md`
-7. `02_DISCOVERY/README.md`
-8. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
-9. `02_DISCOVERY/QUESTION_PROGRESS.md`
-10. `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-11. `02_DISCOVERY/BATCH_02_AI_PROMPT.md`
+6. `00_CONTROL/WORKFLOW_MAP.md`
+7. `00_CONTROL/PHASE_GATES.md`
+8. `00_CONTROL/DOCUMENT_REGISTRY.md`
+9. `02_DISCOVERY/README.md`
+10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
+11. `02_DISCOVERY/QUESTION_PROGRESS.md`
+12. `02_DISCOVERY/BATCH_03_AI_PROMPT.md`
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_02_AI_PROMPT.md` promptunu yeni AI sohbetine verir. AI Q036-Q065 arasinda tam 30 teknik olmayan soru sorar ve cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 02` uretip durur.
+Kullanici `02_DISCOVERY/BATCH_03_AI_PROMPT.md` promptunu yeni bir AI sohbetine verir. Diger AI ilk mesajinda sadece Q066-Q095 arasindaki 30 teknik olmayan soruyu sorar. Kullanici cevapladiktan sonra AI `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 03` uretir ve durur.
 
-Paket ana yonetici sohbetine geri gelmeden Batch 03 hazirlanmaz ve Phase 3'e gecilmez.
+Kullanici paketin TAMAMINI ana proje yoneticisi sohbetine geri getirir. Batch 04, Batch 03 kalite kontrolunden once hazirlanmaz; Phase 3'e gecilmez.
 
 ## Last Updated
 2026-09-14
