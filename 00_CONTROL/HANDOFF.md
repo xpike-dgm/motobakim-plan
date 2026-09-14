@@ -10,39 +10,47 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 07 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 08 READY`
 
 ## What Just Happened
 
-Batch 06 portable package ana yonetici sohbetine getirildi. Q156-Q185 raw answers `02_DISCOVERY/SESSIONS/SESSION-006_BATCH_06_Q156_Q185.md` icine verbatim kaydedildi. Delegated AI'nin status/assumption/resolution adaylari automatic kabul edilmedi; raw user evidence ile QC yapildi.
+Batch 07 portable package ana yonetici sohbetine getirildi. Q186-Q215 raw answers ve supplemental user note `02_DISCOVERY/SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` icine verbatim kaydedildi. Delegated AI'nin status/assumption/resolution adaylari automatic kabul edilmedi; raw user evidence ile QC yapildi.
 
-Batch 06 ile su alanlar netlesti:
-- reasonable/core history'nin minimum longitudinal trust fields'i,
-- expanded evidence archive ile basic history ayrimi,
-- basic multi-bike motorcycle isolation vs advanced garage,
-- disputed transfer corrections ve repeated ownership periods,
-- partial-history `complete history` trust siniri,
-- withdrawn community evidence downstream re-review ve safety correction reach-back,
-- shared record owner/contributor evidence/access lifecycle ayrimi,
-- risk-adaptive evidence disclosure,
-- local-to-profile migration continuity/conflict trust,
-- materially changed guide mid-repair physical-state remapping,
-- interruption sonrasi resume revalidation,
-- paid-service evidence vs owner observation dispute.
+Batch 07 ile su alanlar kapandi/guclendi:
+- contributor evidence withdrawal vs independent/transferred records,
+- disputed claim + new independent evidence resolution,
+- current claim state vs claim event history,
+- material guide change sonrasi physical-state recovery,
+- long interruption state-drift revalidation,
+- profile migration cancel/failure/rollback,
+- affected-user correction reach-back,
+- beginner/experienced trust-detail adaptation,
+- basic shared-bike trust vs premium extensive collaboration,
+- advanced garage vs basic shared-trust boundary.
 
-## Batch 06 QC Protections
+## Supplemental Monetization Proposal
 
-- Portable package'in ASM-026—ASM-030 meanings'i repository canonical IDs ile uyusmadigi icin assumption IDs yeniden kullanilmadi.
-- `Reasonable history` numeric quota degil product trust scope'udur.
-- Expanded storage core history deletion/gizleme yoluyla yaratilmadi.
-- Q163 `degistirilemez iz` specific immutable ledger/event sourcing karari yapilmadi.
-- Withdrawn community evidence automatic entire-guide invalidation degil; dependency-aware re-review'dur.
-- Owner deletion baska contributor/independent record'u automatic silme yetkisi sayilmadi.
-- Q174 `acilir bolum` final UI component karari yapilmadi.
-- Q175 `write/read` technical transaction/sync architecture karari yapilmadi.
-- Photo-based physical-state remapping computer-vision guarantee veya vendor secimi yapmadi.
-- Active-repair resume old confirmation'lari automatic valid saymaz.
-- Paid-service document professional authority nedeniyle automatic truth olmaz.
+User'in guncel **PROPOSED** preference'i:
+
+`Free: 1 active motorcycle + 1 invitee + basic history/warnings + user-selected 1 full guide. Additional motorcycles/guides paid; existing records not locked.`
+
+Bu APPROVED/LOCKED degildir.
+
+Earlier broad free multi-bike/core-guide evidence ile iki refinement tension `02_DISCOVERY/CONFLICTS.md` icinde CONF-001/CONF-002 olarak kaydedildi.
+
+## Batch 07 QC Protections
+
+- Withdrawal independent transferred history'yi automatic silmez.
+- Source access, provenance history, visibility ve current trust ayni kavram sayilmadi.
+- New evidence prior dispute'i silent delete etmez; resolution review+sufficiency ister.
+- Historical current-state semantics technical enum/schema karari yapilmadi.
+- Material guide change automatic reversal/nearest-step guessing'e izin vermez.
+- Long interruption `user says unchanged` ile critical rechecks'i atlatmaz.
+- Migration rollback/safe failure technical sync/transaction architecture secmez.
+- Correction reach-back exact notification channel/SLA secmez.
+- Experience adaptation trust-critical facts'i gizlemez.
+- Basic attribution/revoke/history-integrity premium trust feature'i yapilmadi.
+- `1 active bike + 1 invitee + 1 guide` exact tier/pricing policy olarak kilitlenmedi.
 
 ## Evidence and Working Synthesis
 
@@ -53,43 +61,44 @@ Raw evidence:
 - `SESSION-004_BATCH_04_Q096_Q125.md`
 - `SESSION-005_BATCH_05_Q126_Q155.md`
 - `SESSION-006_BATCH_06_Q156_Q185.md`
+- `SESSION-007_BATCH_07_Q186_Q215.md`
 
 Working DRAFT synthesis:
 - `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-- `USER_TYPES.md`
-- `USER_JOURNEYS.md`
-- `BUSINESS_RULES.md`
-- `FEATURE_CANDIDATES.md`
-- `NON_GOALS.md`
+- `02_DISCOVERY/SYNTHESIS/BATCH_07_DELTA.md`
+- existing `USER_TYPES.md`, `USER_JOURNEYS.md`, `BUSINESS_RULES.md`, `FEATURE_CANDIDATES.md`, `NON_GOALS.md`
 
-Assumptions/glossary:
+Assumptions:
 - `01_WORKSPACE/ASSUMPTIONS.md`
-- `01_WORKSPACE/GLOSSARY.md`
+
+Conflicts/refinements:
+- `02_DISCOVERY/CONFLICTS.md`
 
 Current gaps:
-- `00_CONTROL/OPEN_QUESTIONS.md` — Q-0050, Q-0056 — Q-0064
+- `00_CONTROL/OPEN_QUESTIONS.md` — Q-0065 — Q-0069
 
 Next prompt:
-- `02_DISCOVERY/BATCH_07_AI_PROMPT.md` — Q186-Q215
+- `02_DISCOVERY/BATCH_08_AI_PROMPT.md` — Q216-Q245
 
-## Answered in Batch 06 QC
+## Answered in Batch 07 QC
 
-Q-0046, Q-0047, Q-0048, Q-0049, Q-0051, Q-0052, Q-0053, Q-0054, Q-0055.
-
-Q-0050 narrowed and remains OPEN.
+Q-0050, Q-0056, Q-0057, Q-0058, Q-0059, Q-0060, Q-0061, Q-0062, Q-0063, Q-0064.
 
 ## Current Open Focus
 
-- Contributor evidence withdrawal vs independent/transferred copies
-- Disputed claim new-evidence resolution
-- Minimum historical claim-state semantics
-- Recovery from old-guide physical changes no longer recommended
-- Long interruption saved context vs current physical reality
-- Profile migration cancel/failure/rollback
-- Withdrawn evidence affected-user boundary
-- Beginner/experienced evidence-detail adaptation
-- Core invited collaboration vs premium extensive collaboration
-- Advanced garage/core shared-trust overlap
+- Free `1 active motorcycle` lifecycle
+- Free `1 selected full guide` lifecycle
+- Active physical repair continuity if entitlement changes
+- Minimum product meaning of `existing records stay unlocked`
+- Inactive/shared collaboration lifecycle after downgrade/switch
+
+## Saturation Direction
+
+Intended Batch 07 trust/recovery areas are HIGH coverage. Batch 08 is a narrow entitlement-lifecycle closure batch.
+
+If Batch 08 closes Q-0065—Q-0069 without creating new substantive product gaps, the next action is **discovery saturation + Gate 2 readiness review**, not automatic Batch 09.
+
+Gate 2 -> 3 still requires project-manager/user approval; Design does not start automatically.
 
 ## Locked Process Decisions
 
@@ -115,13 +124,15 @@ Q-0050 narrowed and remains OPEN.
 10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
 11. `02_DISCOVERY/QUESTION_PROGRESS.md`
 12. `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-13. `02_DISCOVERY/BATCH_07_AI_PROMPT.md`
+13. `02_DISCOVERY/SYNTHESIS/BATCH_07_DELTA.md`
+14. `02_DISCOVERY/CONFLICTS.md`
+15. `02_DISCOVERY/BATCH_08_AI_PROMPT.md`
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_07_AI_PROMPT.md` promptunu yeni AI sohbetine verir. Diger AI sadece Q186-Q215 30 teknik olmayan soruyu sorar; cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 07` uretir ve durur.
+Kullanici `02_DISCOVERY/BATCH_08_AI_PROMPT.md` promptunu yeni AI sohbetine verir. Diger AI yalniz Q216-Q245 30 teknik olmayan entitlement-lifecycle sorusunu sorar; cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 08` uretir ve durur.
 
-Batch 08, Batch 07 raw evidence + QC tamamlanmadan hazirlanmaz. Phase 3'e gecilmez.
+Batch 08 QC tamamlanmadan Gate 2 review yapilmaz; Phase 3'e gecilmez.
 
 ## Last Updated
 2026-09-15
