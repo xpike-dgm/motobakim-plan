@@ -102,5 +102,24 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `QUESTION_PROGRESS.md` 215/215; Batch 07 complete / Batch 08 ready yapildi.
 - `02_DISCOVERY/BATCH_08_AI_PROMPT.md` Q216-Q245 entitlement-lifecycle closure icin hazirlandi.
 
+### Product Discovery — Batch 08 Complete / Gate 2 Review
+- User `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 08` icerigini ana yonetici sohbetine getirdi.
+- Q216-Q245 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-008_BATCH_08_Q216_Q245.md` icine verbatim kaydedildi. User cevaplarindaki Google Play/RevenueCat links raw evidence olarak korundu; external verification veya billing/business implementation karari yapilmadi.
+- Delegated `ANSWERED/PARTIALLY_ANSWERED/READY CANDIDATE` adaylari automatic gate karari olarak kabul edilmedi; raw user evidence ile QC yapildi.
+- One-active-motorcycle lifecycle netlesti: inactive history/evidence/export/correction/trust access'i korunur; routine reminders susabilir; historical critical safety reach-back ve required recheck/safe-recovery entitlement'tan bagimsiz devam eder; reactivation current km/use ve physical state revalidation ister.
+- One-selected-full-guide lifecycle netlesti: account-level current working proposal; bike switch/completion automatic new free right yaratmaz; reuse/history/corrections korunur; user-fault olmayan invalidation replacement selection hakki acabilir. Exact wrong-selection correction window validation topic olarak kaldi.
+- Started physical work entitlement change nedeniyle paywall'a takilamaz; safe completion/stop/recovery icin required relevant guidance korunur ve new paid activity entitlement'i yaratmaz.
+- `Existing records stay unlocked` read/basic-search/export/provenance/evidence/correction/dispute/error-flag/own-evidence-withdrawal ve existing-claim trust-maintenance behavior'larini kapsayacak sekilde netlesti. Unrelated new routine activity ayri monetizable new activity olabilir.
+- Collaboration downgrade historical attribution/evidence/approvals/correction trail'i korur; new routine/advanced activity durabilir; owner revoke authority devam eder.
+- Retroactive historical lock, trust-metadata hiding, critical safety correction paywall ve mid-repair paywall explicit trust-breakers olarak guclendi.
+- `CONFLICTS.md` CONF-001/CONF-002 `RESOLVED_REFINEMENT` yapildi; final commercial tier approval verilmedi.
+- `SYNTHESIS/BATCH_08_DELTA.md` additive product rules/journeys/features/non-goals/glossary'i kaydetti.
+- `OPEN_QUESTIONS.md`: Q-0065 — Q-0069 ANSWERED; active product-definition questions kalmadi. Kalan konular non-blocking validation/strategy topics olarak ayrildi.
+- `ASSUMPTIONS.md`: ASM-037 SUPPORTED; ASM-038/ASM-039 new OPEN validation assumptions; commercial sustainability assumptions unresolved kaldi.
+- `QUESTION_PROGRESS.md`: 245/245; Batch 08 `COMPLETED_QC_PASSED`; automatic Batch 09 hazirlanmadi.
+- `02_DISCOVERY/GATE_2_REVIEW.md` olusturuldu; recommendation `READY_FOR_USER_APPROVAL`.
+- `DOCUMENT_REGISTRY.md`: Product Discovery `REVIEW` durumuna tasindi.
+- `CURRENT_STATE.md`: `PHASE-2 / PRODUCT DISCOVERY — GATE 2 REVIEW REQUIRED`.
+
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 08 READY`. Batch 08 sonrasinda yeni substantive product gaps kalmazsa automatic Batch 09 yerine discovery saturation + Gate 2 readiness review yapilacak. Gate 2 -> 3 ve Design user approval olmadan baslatilmayacak.
+Durum `PHASE-2 / PRODUCT DISCOVERY — GATE 2 REVIEW REQUIRED`. Discovery saturation HIGH ve substantive product-definition blocker tespit edilmedi. Gate 2 -> 3 user explicit approval bekliyor; Design henuz baslatilmadi.
