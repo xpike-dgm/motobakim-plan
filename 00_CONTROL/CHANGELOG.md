@@ -37,7 +37,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - DEC-0008 eklendi.
 - `01_WORKSPACE/PROJECT_VISION.md` `APPROVED` yapildi.
 - `01_WORKSPACE/CONSTRAINTS.md` `APPROVED` yapildi.
-- `01_WORKSPACE/ASSUMPTIONS.md` registry `APPROVED` yapildi; tekil varsayimlar `OPEN` kaldi.
+- `01_WORKSPACE/ASSUMPTIONS.md` registry `APPROVED` yapildi; tekil varsayimlar ayrica izlenir.
 - `01_WORKSPACE/GLOSSARY.md` registry `APPROVED` yapildi; `PROPOSED` terimler nihai sayilmadi.
 - `DOCUMENT_REGISTRY.md` icinde `01_WORKSPACE/*` = `APPROVED` oldu.
 - Gate 1 -> 2 tamamlandi.
@@ -46,10 +46,21 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `02_DISCOVERY/SESSIONS/SESSION-000_GENERAL_BASELINE.md` olusturuldu.
 - Q001-Q005 ham transkriptinin repository'de bulunmadigi provenance limitation olarak kaydedildi.
 - Sonraki batch'lerde `RAW Q&A — VERBATIM` portable handoff paketinin zorunlu parcasi yapildi.
-- `02_DISCOVERY/QUESTION_PROGRESS.md` Batch 01 icin guncellendi.
-- `02_DISCOVERY/BATCH_01_AI_PROMPT.md` olusturuldu.
-- Batch 01 soru araligi Q006-Q035 olarak belirlendi.
-- Batch 01 ciktisinda raw Q&A, confirmed facts, inferred findings, assumptions, open-question resolution map, conflicts, glossary candidates, synthesis delta, next-batch focus ve saturation sinyali zorunlu hale getirildi.
+- `02_DISCOVERY/BATCH_01_AI_PROMPT.md` olusturuldu; soru araligi Q006-Q035 olarak belirlendi.
+
+### Product Discovery — Batch 01 Complete
+- Kullanici `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 01` dosyasini ana yonetici sohbetine getirdi.
+- Q006-Q035 raw Q&A eksiksiz yakalandi ve `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` icine verbatim kaydedildi.
+- Q020 cevabinin noktalı virgul ile biterek eksik kalmis olabilecegi kanit kalitesi notu olarak kaydedildi; eksik kisim varsayilmadi.
+- Phase-1 baseline ile dogrudan celiski tespit edilmedi.
+- Delegated AI'nin CONFIRMED / INFERRED / ASSUMPTION ve open-question resolution adaylari ana proje yoneticisi tarafindan yeniden degerlendirildi.
+- `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md` Batch 01 calisma senteziyle dolduruldu.
+- `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` DRAFT sentezleri olusturuldu.
+- `01_WORKSPACE/ASSUMPTIONS.md` Batch 01 kanitiyla rafine edildi: ASM-001 ve ASM-002 RESOLVED; ASM-003/005 SUPPORTED; ASM-004 CHALLENGED; ASM-006 — ASM-012 OPEN eklendi.
+- `01_WORKSPACE/GLOSSARY.md` yeni kanitla rafine edildi ve yeni PROPOSED domain terimleri eklendi.
+- `OPEN_QUESTIONS.md` kalite kontroluyle guncellendi: Q-0001, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009, Q-0011, Q-0012 ANSWERED; kismi ve yeni bosluklar Q-0002, Q-0003, Q-0004, Q-0010, Q-0013 — Q-0024 olarak OPEN tutuldu.
+- `QUESTION_PROGRESS.md` Batch 01 tamamlandi / Batch 02 hazir durumuna getirildi.
+- `02_DISCOVERY/BATCH_02_AI_PROMPT.md` Q036-Q065 icin, Batch 01'de ogrenilenleri tekrar etmeyecek sekilde adaptif olarak hazirlandi.
 
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 01 READY` olarak guncellendi. Kullanici Batch 01 promptunu yeni AI sohbetine verecek ve tamamlanan portable handoff paketini ana proje yoneticisine geri getirecek.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 02 READY` olarak guncellendi. Batch 03, Batch 02 ham kanit ve sentezi kalite kontrolunden gecmeden hazirlanmayacak; Phase 3'e gecilmeyecek.
