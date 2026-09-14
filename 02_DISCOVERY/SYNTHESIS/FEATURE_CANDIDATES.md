@@ -6,44 +6,62 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 
 | ID | Candidate | User Value | Evidence | Status |
 |---|---|---|---|---|
-| FC-001 | Motosiklet/varyant tanimlama ve rehber eslesme kontrolu | Yanlis yil/versiyon/donanim adimlarinin dogruymus gibi sunulmasini engellemek | Q008-Q009, Q026, Q036-Q039 | CANDIDATE |
-| FC-002 | Rehber varyant dallari | Ayni islemde yil/versiyon/donanim farklarini dogru adimlarla ele almak | Q009, Q037 | CANDIDATE |
-| FC-003 | Kaynak/provenance goruntuleme | Teknik bilginin hangi belge/surum/bolume dayandigini gorebilmek | Q010-Q011, Q041-Q044 | CANDIDATE |
-| FC-004 | Kaynak celiskisi gorunumu ve critical hold | Celisen teknik bilgileri kaynaklariyla karsilastirabilmek ve cozulmeyen kritik farkta uygulamali ilerlemeyi durdurmak | Q011, Q044 | CANDIDATE |
-| FC-005 | Gunluk dille belirti arama + motosiklet bolgesi/gorsel uzerinden bulma | Parca veya islem adini bilmeden dogru yolculuga girebilmek | Q012 | CANDIDATE |
-| FC-006 | Islem karar karti / onizleme | Baslamadan amac, uygunluk, zorluk, risk, sure, maliyet, arac/parca ve kullanilabilirlik bilgisini gormek | Q013 | CANDIDATE |
-| FC-007 | Deneyim seviyesine gore rehber gorunumu | Yeni kullaniciya ayrintili, deneyimli kullaniciya hizli anlatim sunarken guvenlik standardini korumak | Q007, Q014 | CANDIDATE |
-| FC-008 | Tek hareket + gorsel + basari kontrolu adim modeli | Her adimda ne yapilacagini ve dogru sonucunun ne oldugunu anlamak | Q014-Q015 | CANDIDATE |
-| FC-009 | Readiness kontrol listeleri | Isleme baslamadan arac/parca/sarf/PPE eksikligini fark etmek ve yari sokulmus durumda kalmamak | Q016-Q017 | CANDIDATE |
-| FC-010 | Risk ve stop-gate sistemi | Kritik kosullarda kullaniciyi sadece uyarmak yerine ilerlemeyi durdurmak | Q018-Q021, Q034, Q045-Q053 | CANDIDATE |
-| FC-011 | Kanit-temelli teshis akisi | Belirtiden kesinlik taklidi yapmadan guvenli kontrollerle olasiliklari daraltmak | Q022-Q024, Q056-Q058 | CANDIDATE |
-| FC-012 | Adim ici yardim katmani | Takilinan adimda yakin plan, hareket yonu, sik hata ve detayli video/aciklama acmak | Q025 | CANDIDATE |
-| FC-013 | `Benim motorum farkli` mismatch akisi | Rehber-gercek motosiklet uyusmazliginda ilerlemeyi durdurup dogru varyanta donmek | Q026, Q038-Q039 | CANDIDATE |
-| FC-014 | Recovery / guvenli geri donus akisi | Hata veya beklenmeyen durumda motosikleti emniyete almak, kanit saklamak ve yardim yoluna gecmek | Q027 | CANDIDATE |
-| FC-015 | Devam eden islem oturumu | Yarim kalan islemin adim, sokulu parca, olcum, fotograf, not ve rehber surumu baglamini korumak | Q028, Q059 | CANDIDATE |
-| FC-016 | Zengin bakim/islem gecmisi | Aylar sonra ne yapildigini, neden yapildigini ve sonucunu kanitlarla gorebilmek | Q029-Q030 | CANDIDATE |
-| FC-017 | Dogrulanmis tamamlanma ve provenance durumlari | Yarim/doğrulanamayan/ertelenen/disarida yapilan islemleri tamamlandi durumundan ayirmak | Q029, Q033, Q063 | CANDIDATE |
-| FC-018 | Uretici tabanli sonraki bakim takibi | Kilometre/sure ve dogrulanmis tamamlanma kaydina gore siradaki bakimi izlemek | Q031, Q033, Q061 | CANDIDATE |
-| FC-019 | Aciklanabilir ve ayarlanabilir hatirlatmalar | Hangi motosiklet/islem icin neden bildirim geldigini bilmek ve sikligini kontrol etmek | Q032-Q033, Q064 | CANDIDATE |
-| FC-020 | Gecmis rehber surumu iliskisi | Gecmis/yarim islemin hangi rehber surumuyle yapildigini korumak | Q028-Q030, Q059-Q060 | CANDIDATE |
-| FC-021 | Kullanici-dostu varyant ayristirma | Teknik kodlari ezbere istemeden motor hacmi/donanim/ilgili ozellik ve gerekirse gorselle dogru versiyona ulasmak | Q036-Q039 | CANDIDATE |
-| FC-022 | Modifikasyon profili / uygunluk kontrolu | Sonradan degistirilmis sistemde fabrika rehberini yanlislikla uygulamamak | Q038-Q039 | CANDIDATE |
-| FC-023 | Icerik review / yeniden inceleme / recall yasam dongusu | Guncellenen kaynak, kritik hata veya celiski durumunda guvenli icerik davranisi saglamak | Q040-Q044 | CANDIDATE |
-| FC-024 | Reviewer guven/provenance gostergeleri | Rehberin hangi insan inceleme kapsamindan gectigini kullanici guveninin parcasi yapmak | Q040 | CANDIDATE |
-| FC-025 | Kategoriye ozel high-consequence readiness | Fren, direksiyon, yakit, kaldirma, motor ici vb. islemlerde ozel on kosul ve stop-gate uygulamak | Q046-Q050 | CANDIDATE |
-| FC-026 | Islem-bazli beceri/readiness degerlendirmesi | Sadece genel deneyim beyanina degil, is gecmisi/arac/olcum/on-kosul anlayisina gore uygun rehber seviyesine gecmek | Q051-Q052 | CANDIDATE |
-| FC-027 | Ogrenme/hazirlik fallback yolu | Eksik beceri guvenli bicimde ogrenilebiliyorsa kritik uygulama yerine hazirlik egitimine donmek | Q050-Q052 | CANDIDATE |
-| FC-028 | Dogrulanmis gorsel fallback | Tam varyant fotografi yoksa dogrulanmis cizim/isaretli sema kullanmak, belirsizlikte gorsel adimi kapatmak | Q054 | CANDIDATE |
-| FC-029 | Guvenli esdeger kontrolu | Alternatif arac/sarf/ekipmanin gerekli fonksiyonel ve guvenlik kriterlerini karsiladigini aciklamak | Q053-Q055 | CANDIDATE |
-| FC-030 | `Neden dogrulanamadi` teshis sonucu ve uzman handoff ozeti | Sonucsuz teshiste sahte kesinlik yerine yapilan kontrolleri ve belirsizligi tasinabilir ozetlemek | Q056-Q058 | CANDIDATE |
-| FC-031 | Rehber surumu fark karsilastirmasi | Yarim iste yeni surum geldiyse kritik degisiklikleri devamdan once gormek | Q059 | CANDIDATE |
-| FC-032 | Rehber geri cekme / yeniden kontrol uyarisi | Gecmis islem kullanilan rehber sonradan hatali bulunursa tarihsel kaydi koruyup gerekli kontrolu bildirmek | Q043, Q060 | CANDIDATE |
-| FC-033 | Kullanim kosulu tabanli dogrulanmis bakim istisnalari | Yalniz motosiklete ozel kaynak destekliyorsa agir kullanim vb. kosullar nedeniyle bakimi gerekceli one almak | Q061 | CANDIDATE |
-| FC-034 | Coklu motosiklet yonetimi | Her motosikletin gecmis/rehber/hatirlatmalarini ayri ve aktif baglami belirgin tutmak | Q062 | CANDIDATE |
-| FC-035 | Dis servis/islem kaydi ve guven seviyesi | Baska biri tarafindan yapilan isi provenance ve kanitlarla kaydetmek, kanitsiz kaydi dogrulanmis gibi gostermemek | Q063 | CANDIDATE |
-| FC-036 | Gecikmis bakim onceliklendirme | Birden fazla gecikmis isi guvenlik/kullanim etkisi ve gerekceyle siralamak | Q064 | CANDIDATE |
-| FC-037 | Ucretsiz temel + premium zenginlestirme siniri | Kritik guvenlik ve temel bakim yeteneklerini ucretsiz korurken lisansli/zengin icerik ve kolayliklari ucretli deger adayi yapmak | Q065 | CANDIDATE |
+| FC-001 | Motosiklet/varyant tanimlama ve rehber eslesme kontrolu | Yanlis varyant adimlarini engellemek | Q008-Q009, Q026, Q036-Q039 | CANDIDATE |
+| FC-002 | Rehber varyant dallari | Yil/versiyon/donanim farklarini dogru adimlarla ele almak | Q009, Q037 | CANDIDATE |
+| FC-003 | Kaynak/provenance goruntuleme | Teknik bilginin belge/surum/bolum dayanagini gormek | Q010-Q011, Q041-Q044 | CANDIDATE |
+| FC-004 | Kaynak celiskisi gorunumu ve critical hold | Cozulmeyen kritik farkta sahte kesinlikten kacinmak | Q011, Q044 | CANDIDATE |
+| FC-005 | Gunluk dille belirti arama + bolge/gorsel bulma | Islem/parca adini bilmeden dogru yolculuga girmek | Q012 | CANDIDATE |
+| FC-006 | Islem karar onizlemesi | Baslamadan uygunluk/risk/sure/maliyet/arac-parca bilgisini gormek | Q013 | CANDIDATE |
+| FC-007 | Deneyim seviyesine gore rehber gorunumu | Yeni kullaniciya ayrintili, deneyimliye hizli deneyim | Q007, Q014 | CANDIDATE |
+| FC-008 | Tek hareket + gorsel + basari kontrolu adim modeli | Her adimda eylem ve dogru sonucu anlamak | Q014-Q015 | CANDIDATE |
+| FC-009 | Readiness kontrol listeleri | Eksikleri ise baslamadan fark etmek | Q016-Q017 | CANDIDATE |
+| FC-010 | Risk ve stop-gate sistemi | Kritik kosullarda uygulamali ilerlemeyi durdurmak | Q018-Q021, Q034, Q045-Q053 | CANDIDATE |
+| FC-011 | Kanit-temelli teshis akisi | Kesinlik taklidi yapmadan olasiliklari daraltmak | Q022-Q024, Q056-Q058 | CANDIDATE |
+| FC-012 | Adim ici yardim katmani | Takilinan adimda detayli yardim almak | Q025 | CANDIDATE |
+| FC-013 | Mismatch/modification akisi | Uygun olmayan rehberle devam etmemek | Q026, Q038-Q039 | CANDIDATE |
+| FC-014 | Recovery / guvenli geri donus | Hata durumunda motosikleti emniyete alip yardim yoluna gecmek | Q027 | CANDIDATE |
+| FC-015 | Devam eden islem oturumu | Yarim isin tum fiziksel/olcum/not baglamini korumak | Q028, Q059 | CANDIDATE |
+| FC-016 | Zengin bakım/islem gecmisi | Aylar sonra ne/neden/nasil yapildigini kanitlarla gormek | Q029-Q030 | CANDIDATE |
+| FC-017 | Completion + provenance durumlari | Yarim/dogrulanamadi/ertelendi/disarida yapildi ayrimini korumak | Q029, Q033, Q063 | CANDIDATE |
+| FC-018 | Uretici tabanli sonraki bakım takibi | Dogrulanmis km/sure ve completion kaydiyla planlamak | Q031, Q033, Q061 | CANDIDATE |
+| FC-019 | Aciklanabilir ve ayarlanabilir reminders | Neden bildirim geldigini bilmek ve rutini kontrol etmek | Q032-Q033, Q064 | CANDIDATE |
+| FC-020 | Gecmis rehber surumu iliskisi | Hangi surumle islem yapildigini korumak | Q028-Q030, Q059-Q060 | CANDIDATE |
+| FC-021 | Kullanici-dostu varyant ayristirma | Teknik kod ezberi olmadan observable ozellik/gorselle eslesmek | Q036-Q039 | CANDIDATE |
+| FC-022 | Modifikasyon uygunluk kontrolu | Fabrika rehberini modifiye sisteme yanlis uygulamamak | Q038-Q039 | CANDIDATE |
+| FC-023 | Icerik review/re-review/recall yasam dongusu | Guncelleme/hata/celiski durumunda guvenli content davranisi | Q040-Q044 | CANDIDATE |
+| FC-024 | Reviewer guven/provenance gostergeleri | Insan incelemesi hakkinda guven sinyali gormek | Q040 | CANDIDATE |
+| FC-025 | Kategoriye ozel high-consequence readiness | Kritik sistemlerde ozel on kosul/stop-gate | Q046-Q050 | CANDIDATE |
+| FC-026 | Islem-bazli beceri/readiness degerlendirmesi | Oz-beyan yerine goreve ozel hazirligi anlamak | Q051-Q052 | CANDIDATE |
+| FC-027 | Ogrenme/hazirlik fallback | Eksik beceriyi kritik uygulama yerine guvenli hazirlikla tamamlamak | Q050-Q052 | CANDIDATE |
+| FC-028 | Dogrulanmis gorsel fallback | Tam fotograf yoksa dogrulanmis sema/cizimle ilerlemek | Q054 | CANDIDATE |
+| FC-029 | Guvenli esdeger kontrolu | Alternatif arac/malzemenin gercekten uygun oldugunu anlamak | Q053-Q055 | CANDIDATE |
+| FC-030 | `Neden dogrulanamadi` + uzman handoff ozeti | Sonucsuz teshisi faydali kanit ozetiyle bitirmek | Q056-Q058 | CANDIDATE |
+| FC-031 | Rehber surumu fark karsilastirmasi | Yarim iste kritik yeni degisikligi devamdan once gormek | Q059 | CANDIDATE |
+| FC-032 | Rehber geri cekme / yeniden kontrol uyarisi | Gecmis islemde sonradan bulunan hatayi guvenle yonetmek | Q043, Q060 | CANDIDATE |
+| FC-033 | Dogrulanmis bakım istisnalari | Yalniz kaynak destekliyorsa kosula gore plan degistirmek | Q061 | CANDIDATE |
+| FC-034 | Coklu motosiklet yonetimi | Motor baglamlarini karistirmadan yonetmek | Q062 | CANDIDATE |
+| FC-035 | Dis servis/islem kaydi ve guven seviyesi | Dis isi provenance/evidence ile kaydetmek | Q063 | CANDIDATE |
+| FC-036 | Gecikmis bakım onceliklendirme | Coklu gecikmis isi safety etkisiyle gerekceli siralamak | Q064 | CANDIDATE |
+| FC-037 | Ucretsiz core + premium zenginlestirme siniri | Core guveni korurken ek kolayliklari ucretli deger yapmak | Q065 | CANDIDATE |
+| FC-038 | Fotograf/observable evidence tabanli variant finder + unresolved hold | Belge/kod aramadan versiyonu bulmaya calismak; bulunamazsa yanlis adimi acmamak | Q066-Q067 | CANDIDATE |
+| FC-039 | Yuksek gerilim / high-consequence learning gate | Risk, ekipman ve kritik kontrolleri ogretip safety dogrulanmadan uygulamaya gecmemek | Q068-Q069 | CANDIDATE |
+| FC-040 | Notification grouping + severity separation | Rutinleri ozetlemek, acil safety uyarilarini kaybetmemek | Q070-Q072 | CANDIDATE |
+| FC-041 | History edit trail | Yanlis kaydi duzeltirken eski/yeni deger, zaman ve nedeni korumak | Q073 | CANDIDATE |
+| FC-042 | Evidence-level labels | Kullanici beyanı, belgeli ve incelenmis kayitlari guven seviyeleriyle ayirmak | Q074, Q082 | CANDIDATE |
+| FC-043 | Belirsiz bakım takvimi | Modifiye/eksik veride uydurma aralik yerine uncertainty gostermek | Q075-Q077 | CANDIDATE |
+| FC-044 | Transparent time/cost estimates | Sureyi aralikla, maliyeti kalem/tarih/varsayimla aciklamak | Q078-Q079 | CANDIDATE |
+| FC-045 | Private notes -> explicit community contribution | Kisisel icerigi ozel tutup bilincli secimle topluluga katkida bulunmak | Q080 | CANDIDATE |
+| FC-046 | Community contribution review/moderation | Duzeltme/ipuclarini resmi rehberden ayirip incelemek | Q081-Q084 | CANDIDATE |
+| FC-047 | Community provenance indicators | Kaynak, motosiklet, review status ve tarihi gormek | Q082 | CANDIDATE |
+| FC-048 | Dangerous community content response | Tehlikeli icerigi kaldirip resmi rehber etkisini ve kullanici uyarisini yonetmek | Q083 | CANDIDATE |
+| FC-049 | Commercial-neutral service/parts support | Servis veya satin alma yardimini teknik uygunluk kararindan ayri tutmak | Q085-Q088 | CANDIDATE |
+| FC-050 | Premium convenience candidates | Gelismis analiz, ek depolama, coklu garaj gibi core-disinda ucretli degerleri test etmek | Q087 | CANDIDATE |
+| FC-051 | Roadside quick guidance context | Garaj disinda hizli tarama, safety-first ve kisa gorsel adim sunmak | Q090 | CANDIDATE |
+| FC-052 | Offline downloaded work context | Rehber/gorsel/safety/progress/history baglamini offline korumak | Q091 | CANDIDATE |
+| FC-053 | User data controls | Kendi motosiklet/kayit/not/fotografini goruntuleme, duzeltme ve silme | Q092-Q094 | CANDIDATE |
+| FC-054 | Free data portability | Kendi motosiklet/gecmis/not/fotograf verisini yeniden kullanilabilir export etmek | Q093 | CANDIDATE |
+| FC-055 | Transparent deletion state | Silme kapsam/geri alinmazlik ve silinen/bekleyen durumunu aciklamak | Q094 | CANDIDATE |
 
 ## Important non-commitment
 
-Bu adaylar kullanici ihtiyacini temsil eder. Hangi ozelliklerin MVP/sonraki faz oldugu, ekran yapisi, premium model veya teknik uygulanma bicimi bu asamada kararlastirilmaz.
+Bu adaylar kullanici ihtiyacini temsil eder. MVP/sonraki faz, ekran yapisi, premium paket, moderation implementasyonu, offline teknik cozum, veri formati veya mimari bu asamada kararlastirilmaz.
