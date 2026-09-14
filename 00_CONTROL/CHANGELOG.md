@@ -47,26 +47,39 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Batch 05 Q126-Q155 promptu hazirlandi.
 
 ### Product Discovery — Batch 05 Complete
-- User `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 05` icerigini ana yonetici sohbetine getirdi.
-- Q126-Q155 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-005_BATCH_05_Q126_Q155.md` icine verbatim kaydedildi.
-- Portable package'teki `ANSWERED/RESOLVED/SUPPORTED/CHALLENGED` candidates automatic kabul edilmedi; raw user evidence ile QC yapildi.
-- Professional escalation semantics netlesti: assessment error check -> self-remediation -> re-validation; professional help optional support, unverified critical condition mandatory application closure; condition yeniden saglanip relevant checks verify edilince self-service re-entry mumkun.
-- Actual motorcycle deletion expectation netlesti: delete-oncesi linked data scope preview; user's own copy linked data removal; previously transferred independent records automatic etkilenmez. Bu legal/technical deletion architecture karari yapilmadi.
-- Community contribution withdrawal: public content/personal information removal, de-identified safety review trace expectation ve withdrawn published correction'da affected-guide re-review kaydedildi; privacy/legal feasibility acik kaldi.
-- Export provenance zenginlesti: source/provenance, evidence level, important corrections ve dates standard export expectation oldu.
-- Evidence semantics common vocabulary + context-specific claim olarak rafine edildi. Verified maintenance record `islem yapildi` evidence claim'i olup perfect workmanship guarantee degil; verified technical guide source + motorcycle fit + application-step suitability claim'ini tasir. High-trust context'te label-only yeterli olmayabilir.
-- Selective transfer explicit partial/incomplete history olarak tanimlandi; covered period/gaps visible, private non-transferred content protected, transfer-sonrasi correction silent overwrite degil attributed/reviewable proposal modelinde.
-- Professional/service scope kapandi: initial direct target owner; professional/service/hobby helper owner-invited collaboration participant olabilir; professional complexity owner-first experience'i domine etmemeli; paid role automatic verified status yaratmaz.
-- Segment priority netlesti: beginner + experienced self-service owner first priority; basic record tracking first-version value; advanced shared/work-management later deepen edilebilir.
-- Premium boundary rafine edildi: basic multi-bike separation ve reasonable history core; large media archive, advanced comparative analysis ve extensive collaboration premium candidate. `Multi-garage premium` eski genis yorumu daraltildi. Final price/tier/business viability secilmedi.
-- Freshness semantics claim/risk-sensitive hale geldi: safety notices, technical values ve changeable procedure order application-critical; stale teaching/reference kalabilir fakat current instruction gibi gorunemez; critical application online re-check'e kadar kapanabilir. Numeric TTL yok.
-- Active-repair accessibility safety invariants netlesti: voice/easy-touch/hands-free convenience safety warning, motorcycle fit, technical value, stop/post-check veya critical confirmation'i kaldiramaz. Energy isolation, stability, critical connection ve completion explicit/reviewable confirmation ister.
-- Record-only/shared/multi-bike first-use ve profile transition triggers netlesti; persistent record, cross-device continuation veya collaboration profile istemeyi gerekcelendirebilir. Technical auth/sync modeli secilmedi.
-- `OPEN_QUESTIONS.md`: Q-0004, Q-0026, Q-0027, Q-0035, Q-0036, Q-0042, Q-0043, Q-0044, Q-0045 ANSWERED; yeni narrow gaps Q-0046 — Q-0055 acildi.
-- `ASSUMPTIONS.md`: ASM-022 RESOLVED; ASM-019/023/024/025 SUPPORTED; ASM-021 CHALLENGED korundu; ASM-026 — ASM-030 yeni OPEN assumptions.
-- `GLOSSARY.md`, `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 05 kanitiyla guncellendi.
-- `QUESTION_PROGRESS.md` Batch 05 complete / Batch 06 ready yapildi.
-- `02_DISCOVERY/BATCH_06_AI_PROMPT.md` Q156-Q185 icin adaptif olarak hazirlandi.
+- Q126-Q155 raw Q&A `SESSION-005_BATCH_05_Q126_Q155.md` icine verbatim kaydedildi.
+- Portable package'teki status candidates automatic kabul edilmedi; raw evidence ile QC yapildi.
+- Professional escalation semantics: assessment error check -> self-remediation -> re-validation; optional professional support vs mandatory critical closure ayrildi.
+- Actual deletion, community withdrawal, provenance-rich export, context-specific evidence semantics, selective-transfer transparency, owner-first professional collaboration, segment priority, free-core/premium boundary, freshness, active-repair accessibility ve profile triggers rafine edildi.
+- Basic multi-bike separation + reasonable history core olarak netlesti; old broad `multi-garage premium` yorumu daraltildi.
+- Q-0004, Q-0026, Q-0027, Q-0035, Q-0036, Q-0042, Q-0043, Q-0044, Q-0045 ANSWERED; Q-0046 — Q-0055 acildi.
+- `ASSUMPTIONS.md`, `GLOSSARY.md` ve tum working synthesis dosyalari guncellendi.
+- Batch 06 Q156-Q185 promptu hazirlandi.
+
+## 2026-09-15
+
+### Product Discovery — Batch 06 Complete
+- User `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 06` icerigini ana yonetici sohbetine getirdi.
+- Q156-Q185 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-006_BATCH_06_Q156_Q185.md` icine verbatim kaydedildi.
+- Portable package'teki `ANSWERED/SUPPORTED` candidates automatic kabul edilmedi; raw user evidence ile QC yapildi.
+- Portable Batch 06 package assumption candidates `ASM-026 — ASM-030` numaralarini repository canonical registry'den farkli anlamlarda kullaniyordu. Canonical IDs sessizce yeniden yazilmadi; evidence mevcut assumptions'a dogru baglandi ve new assumptions ASM-031'den devam ettirildi.
+- Core history product boundary netlesti: motorcycle, operation, date, mileage, actor, outcome, important safety notes, evidence level ve correction continuity core'da korunur; old basic records storage pressure nedeniyle silinmez.
+- Expanded storage high-volume/high-resolution photos, long videos ve broad document archive degerine ayrildi; premium boundary existing basic history/safety evidence access veya export'u bozamaz.
+- Basic multi-bike separation motorcycle-isolation invariant'i olarak netlesti; advanced garage cross-bike analysis, bulk planning, richer collaboration ve large-archive search degerinde baslar.
+- Ownership transfer/history trust derinlesti: rejected correction accepted record'u overwrite etmez; disputed claim provenance ile kalir; repeated transfers owner/period/coverage/gaps ile ayrilir; partial periods complete history diye sunulamaz.
+- Q163'teki `degistirilemez iz` product historical-integrity expectation'i olarak korundu; immutable ledger/event sourcing/database architecture karari yapilmadi.
+- Withdrawn community evidence dependent official guide/claim icin dependency-aware re-review tetikler. Independent evidence yeterliyse claim review sonrasi kalabilir; yetersizse verification/application korunmaz. Safety/technical/applied-critical impact correction reach-back gerektirebilir.
+- Shared collaboration'da motorcycle record lifecycle, contributor evidence lifecycle ve historical attribution ayrildi. Owner delete baska contributor'in independent data'sini sessizce silemez; contributor evidence withdrawal trust re-evaluation tetikler. Independent transferred-copy edge case OPEN kaldı.
+- Evidence explanation risk-adaptive hale geldi: low-risk concise label; high-risk/disputed context explicit claim/motorcycle/evidence/reviewer/uncertainty. Q174'teki UI wording final component karari yapilmadi.
+- Account-light -> profile transition trust-preserving migration olarak rafine edildi: scope preview, no silent loss, conflict review, no silent overwrite. Technical sync/transaction architecture secilmedi.
+- Material guide change mid-repair current physical motorcycle state ile new guide arasinda physical-state remapping gerektirir; photo-based expectation computer-vision guarantee veya vendor karari yapilmadi.
+- Active-repair interruption resume semantics last-viewed-step degil last-known-safe state + current physical/safety re-validation olarak netlesti.
+- Paid-service document vs owner evidence dispute iki source claim olarak korunur; unresolved completion maintenance counter veya future guide decisions'a verified fact olarak aktarilmaz.
+- `OPEN_QUESTIONS.md`: Q-0046, Q-0047, Q-0048, Q-0049, Q-0051, Q-0052, Q-0053, Q-0054, Q-0055 ANSWERED; Q-0050 narrowed OPEN; Q-0056 — Q-0064 yeni OPEN gaps.
+- `ASSUMPTIONS.md`: ASM-026/027/028/029 SUPPORTED; ASM-030 OPEN; ASM-031 — ASM-035 new OPEN.
+- `GLOSSARY.md`, `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 06 kanitiyla guncellendi.
+- `QUESTION_PROGRESS.md` Batch 06 complete / Batch 07 ready yapildi.
+- `02_DISCOVERY/BATCH_07_AI_PROMPT.md` Q186-Q215 icin adaptif olarak hazirlandi.
 
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 06 READY`. Batch 07, Batch 06 raw evidence ve synthesis QC tamamlanmadan hazirlanmayacak; Gate 2 -> 3 otomatik gecilmeyecek.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 07 READY`. Batch 08, Batch 07 raw evidence ve synthesis QC tamamlanmadan hazirlanmayacak; Gate 2 -> 3 otomatik gecilmeyecek.
