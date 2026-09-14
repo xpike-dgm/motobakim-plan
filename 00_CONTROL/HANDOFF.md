@@ -10,30 +10,37 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-1 / WORKSPACE REVIEW_REQUIRED`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 01 READY`
 
 ## What Just Happened
-Kullanici, diger AI oturumundan Phase-1 workspace synthesis ciktisini geri getirdi. Proje yoneticisi ciktinin siniflandirmasini denetledi ve `01_WORKSPACE` source-of-truth taslaklarina isledi.
+Kullanici kalite kontrolunden gecirilmis Phase-1 workspace sentezini acikca onayladi. Gate 1 -> 2 tamamlandi ve DEC-0008 ile kayda alindi.
 
-Onemli duzeltme: delegated AI'nin bircok feature gereksinimini `constraint` olarak siniflandirdigi tespit edildi. Constraint katmani yalnizca motosiklete ozel/dogrulanmis bilgi, guvenlik uyarilarini saklamama ve deneyimsiz kullanici icin anlasilabilirlik gibi yuksek seviye sinirlarla tutuldu. Arac/malzeme listesi, asamali/gorsel rehber, gecmis ve hatirlatmalar product requirement/boundary olarak ayrildi.
+`01_WORKSPACE` source-of-truth belgeleri `APPROVED` durumuna getirildi. Assumption registry'nin onayli olmasi icindeki OPEN varsayimlari dogrulanmis yapmaz; glossary registry'nin onayli olmasi PROPOSED terimleri LOCKED yapmaz.
 
-Tehlikeli veya uzmanlik gerektiren islemlerin anlatilmasi kullanici niyeti olarak korundu; ancak guvenlik siniri cozulmeden kosulsuz urun politikasi yapilmadi. Bu konu `OPEN_QUESTIONS.md` icinde izleniyor.
+Ilk 5 genel discovery sorusunun ham soru-cevap transkripti repository'ye getirilmemisti. Bu provenance limitation `02_DISCOVERY/SESSIONS/SESSION-000_GENERAL_BASELINE.md` icinde kayitlidir. Sonraki tum batch'lerde portable handoff paketinin `RAW Q&A — VERBATIM` bolumu zorunludur.
 
-## Workspace Status
-- `01_WORKSPACE/PROJECT_VISION.md` — REVIEW
-- `01_WORKSPACE/CONSTRAINTS.md` — REVIEW
-- `01_WORKSPACE/ASSUMPTIONS.md` — REVIEW
-- `01_WORKSPACE/GLOSSARY.md` — REVIEW
-- `00_CONTROL/OPEN_QUESTIONS.md` — Phase-1'den 12 aktif urun sorusu eklendi
-- `00_CONTROL/DOCUMENT_REGISTRY.md` — `01_WORKSPACE/*` = REVIEW
+Ilk 30 soruluk Product Discovery promptu hazir:
+`02_DISCOVERY/BATCH_01_AI_PROMPT.md`
+
+Soru araligi: Q006-Q035.
+
+## Approved Workspace Sources
+- `01_WORKSPACE/PROJECT_VISION.md` — APPROVED
+- `01_WORKSPACE/CONSTRAINTS.md` — APPROVED
+- `01_WORKSPACE/ASSUMPTIONS.md` — APPROVED registry; assumptions OPEN
+- `01_WORKSPACE/GLOSSARY.md` — APPROVED registry; terms may remain PROPOSED
+
+## Active Open Questions
+`00_CONTROL/OPEN_QUESTIONS.md` icindeki Q-0001 — Q-0012 aktiftir.
 
 ## Locked Process Decisions
 - GitHub kalici proje hafizasidir.
 - 8 asamali sira korunur.
 - Phase gate saglanmadan sonraki asamaya gecilmez.
 - Ham kanit, sentez ve karar ayridir.
-- ChatGPT sureci proje mimari muhendisi/yoneticisi olarak koordine eder.
-- Kullanici-facing discovery soru oturumlari diger AI'lara kontrollu promptlarla delege edilir.
+- ChatGPT proje mimari muhendisi/yoneticisi olarak koordine eder.
+- Kullanici-facing discovery oturumlari diger AI'lara kontrollu promptlarla delege edilir.
+- Proje capi ortak chat talimatlari gecerlidir.
 
 ## Required First Reads
 1. `00_CONTROL/AI_START_HERE.md`
@@ -44,14 +51,15 @@ Tehlikeli veya uzmanlik gerektiren islemlerin anlatilmasi kullanici niyeti olara
 6. `00_CONTROL/WORKFLOW_MAP.md`
 7. `00_CONTROL/PHASE_GATES.md`
 8. `00_CONTROL/DOCUMENT_REGISTRY.md`
-9. `01_WORKSPACE/README.md`
-10. `01_WORKSPACE/PROJECT_VISION.md`
-11. `01_WORKSPACE/CONSTRAINTS.md`
-12. `01_WORKSPACE/ASSUMPTIONS.md`
-13. `01_WORKSPACE/GLOSSARY.md`
+9. `02_DISCOVERY/README.md`
+10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
+11. `02_DISCOVERY/QUESTION_PROGRESS.md`
+12. `02_DISCOVERY/BATCH_01_AI_PROMPT.md`
 
 ## Next Action
-Kullanicidan Phase-1 workspace taslaklari icin acik onay al. Onay gelirse belgeleri `APPROVED` yap, Gate 1 -> 2 kontrolunu tamamla ve ancak sonra Phase 2 ilk 30-soruluk discovery promptunu hazirla.
+Kullanici `02_DISCOVERY/BATCH_01_AI_PROMPT.md` promptunu yeni bir AI sohbetine verir. Diger AI ilk mesajinda sadece Q006-Q035 arasindaki 30 teknik olmayan soruyu sorar. Kullanici cevapladiktan sonra AI portable discovery handoff package uretir.
+
+Kullanici paketin TAMAMINI ana proje yoneticisi sohbetine geri getirir. Paket gelmeden Batch 02 hazirlanmaz ve Phase 3'e gecilmez.
 
 ## Last Updated
 2026-09-14
