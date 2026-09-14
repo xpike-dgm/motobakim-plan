@@ -2,216 +2,202 @@
 
 Status: DRAFT
 
-Kullanicilarin teknik implementasyon detayindan bagimsiz uc uca urun yolculuklari.
+Kullanicilarin teknik implementasyon detayindan bagimsiz uc uca product journeys.
 
 ## J-001 — Known task -> prepare -> execute -> verify -> record
-**Evidence:** Q006, Q013-Q021, Q029-Q030, Q050-Q053, Q096-Q099
-1. Kullanici yapmak istedigi islemi bilir.
-2. Motosiklet/rehber eslesmesi ve readiness dogrulanir.
-3. Amac, uygunluk, risk, sure/maliyet, arac/parca/ekipman ve kullanilabilirlik gorulur.
-4. Zorunlu eksik/kritik beceri eksigi varsa application adimi acilmaz; sebep ve remediation gosterilir.
-5. Rehber ihtiyac duyulan ayrinti/hizi sunar; safety/kritik dogrulama degismez.
-6. Kritik adimlarda gorsel/olcum/basari kontrolu bulunur.
-7. Yeni risk/mismatch olusursa uygulamali progression o noktada durur.
-8. Son kontrollerden sonra yalniz dogrulanabilen completion gecmise kaydedilir.
+**Evidence:** Q006, Q013-Q021, Q029-Q030, Q050-Q053, Q096-Q099, Q126-Q128
+1. User yapmak istedigi islemi bilir.
+2. Motorcycle/guide fit ve task-specific readiness degerlendirilir.
+3. Risk, duration/cost, tools/parts/equipment ve use impact gorulur.
+4. Eksik condition varsa reason + self-remediation + re-validation yolu sunulur.
+5. Critical missing condition application'i kapatir; professional help optional support olabilir.
+6. Kosul saglanip yeniden verified olunca ayni guide'a geri donulebilir.
+7. Guide experience-level'a gore detail/hiz sunar; safety invariants degismez.
+8. Critical steps visual/measurement/success checks ile ilerler.
+9. New risk/mismatch olusursa progression durur.
+10. Verified completion history'ye kaydedilir.
 
 ## J-002 — Symptom -> evidence-guided diagnosis -> repair guide
 **Evidence:** Q012, Q022-Q024, Q056-Q058
-1. Belirti gunluk dil/bolge/gorselle ifade edilir.
-2. Tehlike kontrolu yapilir.
-3. Guvenli ayirt edici kontroller sunulur.
-4. Olasiliklar evidence status ile daralir.
-5. `En olasi` icin birden fazla ayirt edici kanit ve alternatiflerin degerlendirilmesi gerekir.
-6. Yeterli kanit varsa onarim rehberine gecilir.
-7. Sonuc yoksa `Neden dogrulanamadi`, kontrol ozeti ve guvenli kullanim belirsizligiyle kapanabilir; uzman handoff'u mumkundur.
+1. Symptom daily language/area/visual ile ifade edilir.
+2. Immediate danger check yapilir.
+3. Safe distinguishing checks evidence toplar.
+4. Possibilities certainty taklidi yapmadan daralir.
+5. Yeterli evidence varsa repair guide'a gecilir.
+6. Evidence yetersizse `Neden dogrulanamadi` sonucu + handoff summary mumkundur.
 
-## J-003 — Guide mismatch / modification / variant uncertainty
-**Evidence:** Q019, Q025-Q026, Q036-Q039, Q066-Q067, Q102-Q104
-1. Rehber-gercek motosiklet uyusmazligi veya modifikasyon ihtimali ortaya cikar.
-2. Normal application progression durur.
-3. Kullanici-dostu ozellikler, gorunur donanim ve fotograflarla ayrim denenir.
-4. Versiyon/modifikasyon yeterince belirlenirse uygun rehber eslesmesi kurulur.
-5. Yaygin aftermarket icin verified adapted guide varsa ona gecilir.
-6. Unique/custom durumda uygunluk dogrulanamiyorsa eksik evidence aciklanir; teaching-only genel bilgi kalabilir.
-7. Zarar verebilecek sokme/baglama/ayar adimlari dogrulanana kadar acilmaz.
+## J-003 — Variant/modification mismatch -> resolve or teaching-only fallback
+**Evidence:** Q026, Q036-Q039, Q066-Q067, Q102-Q104
+1. Guide physical motorcycle ile mismatch verir.
+2. Application durur.
+3. Observable features/photos ile distinction denenir.
+4. Common aftermarket verified ise adapted guide'a gecilir.
+5. Unique/custom fit unresolved ise missing evidence gosterilir.
+6. Teaching-only general content kalabilir; risky application kapanir.
 
-## J-004 — User gets stuck on matching guide
-**Evidence:** Q025
-1. Kullanici adimi anlayamaz/uygulayamaz.
-2. Yakin plan, isaretleme, hareket yonu ve sik hatalar acilir.
-3. Gerekirse detayli video/aciklama sunulur.
-4. Uyum hala yoksa ilerleme durdurulabilir.
+## J-004 — Readiness stop -> self-remediation -> re-validation -> re-entry
+**Evidence:** Q050-Q053, Q096-Q098, Q126-Q128
+1. User critical readiness condition'i karsilamaz.
+2. False-positive possibility kontrol edilir.
+3. Learning/preparation/equipment acquisition yolu sunulur.
+4. New photo/measurement/alternative evidence ile re-validation yapilir.
+5. User assertion tek basina gate'i acmaz.
+6. Equipment + motorcycle fit + critical checks yeniden verified olunca same guide resume edilir.
+7. Professional recommendation ile mandatory closure ayrica ifade edilir.
 
-## J-005 — Mistake / unexpected behavior -> safe recovery
-**Evidence:** Q027
-1. Normal ilerleme durur.
-2. Guvenliyse motosikleti emniyete alma ve dokunulmaması gereken alanlar aciklanir.
-3. Fotograf/not kaniti saklanir.
-4. Uygunsa guvenli geri donus; degilse profesyonel yardim yolu gosterilir.
+## J-005 — High-consequence learning -> conditional application / professional option
+**Evidence:** Q068-Q069, Q099-Q101, Q126-Q128
+1. User high-consequence topic'i ogrenmek ister.
+2. Risks, prerequisite knowledge, equipment ve critical checks teaching layer'da aciklanir.
+3. First physical intervention'dan once mandatory conditions verify edilir.
+4. Unverified critical condition application'i kapatir.
+5. Professional help option olabilir; tek exit olmak zorunda degildir.
+6. Self-remediation/re-validation ve eventual self-service re-entry korunur.
 
-## J-006 — Pause work -> guide changes -> resume safely
-**Evidence:** Q028, Q042, Q059
-1. Islem baglami ve rehber surumu korunur.
-2. Donuste surum farklari gosterilir.
-3. Kritik duzeltmede eski akis durur.
-4. Mevcut fiziksel durum yeni rehberle yeniden eslestirilir; ilerleme/notlar korunur.
-5. `Devam etmeden once` safety kontrolu yapilir.
+## J-006 — User gets stuck / mistake / unexpected behavior -> recovery
+**Evidence:** Q025-Q027
+1. Normal progression durur.
+2. More detail/visual/motion guidance acilir.
+3. Motorcycle safe state'e alinmaya calisilir.
+4. Evidence captured olur.
+5. Safe return veya professional help yolu sunulur.
 
-## J-007 — Maintenance due -> prioritize -> remind -> perform/record/postpone
+## J-007 — Pause work -> version/freshness check -> resume safely
+**Evidence:** Q028, Q042-Q043, Q059-Q060, Q122, Q147-Q149
+1. Work state, physical context ve guide version korunur.
+2. Return'de version/freshness kontrol edilir.
+3. Critical change/stale state varsa old application devam etmez.
+4. Teaching/reference content kalabilir.
+5. Current motorcycle physical state current guide ile yeniden fit edilir.
+6. Verified current path ile resume edilir.
+
+## J-008 — Maintenance due -> prioritize -> remind -> perform/record/postpone
 **Evidence:** Q031-Q033, Q061, Q064, Q070-Q072, Q075-Q077, Q111-Q113
-1. Dogrulanmis uretici km/sure plani ve completion kaydi kullanilir.
-2. Dogrulanmis istisna/kullanim kosulu varsa gerekcesiyle plan degisir.
-3. Veri eksikse belirsizlik gizlenmez.
-4. Coklu gecikmis is safety/kullanim etkisi ve gerekceyle onceliklenir.
-5. Routine reminders gruplanabilir/ertelenebilir; kritik safety ayri gorunur.
-6. Kritik konu uzun sure aciksa app icinde belirgin safety summary ve ilk action gosterilir.
-7. Uzun aradan donuste notification flood yerine catch-up summary sunulur.
-8. Erteleme completion sayilmaz; verified completion sonraki hesabi ilerletir.
+1. Verified manufacturer plan + completion history kullanilir.
+2. Verified exceptions gerekcesiyle plan degistirir.
+3. Missing/uncertain interval hidden edilmez.
+4. Multiple due items harm/urgency/use impact ile siralanir.
+5. Routine reminders group/postpone olabilir.
+6. Critical safety ayrı gorunur.
+7. Long absence catch-up summary ile toparlanir.
+8. Postponement completion sayilmaz.
 
-## J-008 — Review/correct historical work
-**Evidence:** Q029-Q030, Q043, Q060, Q073-Q074, Q109-Q110
-1. Kullanici gecmis islemi acar.
-2. Islem nedeni, tarih/km, parca/malzeme, olcum/son kontrol, fotograf/not, yapan kisi ve rehber surumu gorulur.
-3. Hata varsa kayit duzeltilir fakat eski/yeni deger, zaman ve neden korunur.
-4. Duzeltmenin bakım planina etkisi gosterilir.
-5. Evidence level gorunur olur; `verified` mutlak garanti gibi sunulmaz.
-6. Rehber geri cekildiyse tarihsel kayit sessizce yeniden yazilmaz.
+## J-009 — Review/correct historical work
+**Evidence:** Q029-Q030, Q073-Q074, Q109-Q110, Q132-Q134
+1. User history record'u acar.
+2. Work, actor, date/km, evidence, guide version gorulur.
+3. Wrong entry correction old/new/time/reason iziyle yapilir.
+4. Evidence label context-specific claim'i anlatir.
+5. High-trust disputed context'te what/why/how verified ve remaining uncertainty aciklanir.
 
-## J-009 — Content critical error / unresolved source conflict
-**Evidence:** Q041-Q044, Q081-Q083
-1. Kaynak guncellenir, kritik hata/uyusmazlik bulunur veya community duzeltmesi gelir.
-2. Etkilenen application adimi yeniden inceleme bitene kadar askiya alinir/durdurulur.
-3. Celismeyen teaching/preparation/safety bilgisi gosterilebilir.
-4. Belirsizlik ve kaynak baglami aciklanir.
-5. Etkilenen kullanicilar gerekli kontrol/yardim yoluyla uyarilir.
-6. Kabul edilen degisiklik gerekcesiyle yeni surum yayimlanir; tarihsel surum korunur.
+## J-010 — External service/hobby contribution -> evidence-aware history
+**Evidence:** Q063, Q109-Q110, Q138-Q140
+1. Owner baska bir actor tarafindan yapilan isi record eder/davet eder.
+2. Hobby helper ve paid service ayrilir.
+3. Actor attribution + evidence kaydedilir.
+4. Paid service ek service/document context tasir.
+5. Role alone verified status yaratmaz.
 
-## J-010 — Task-specific readiness -> re-validate -> learn/stop/resume
-**Evidence:** Q050-Q053, Q096-Q099
-1. Kullanici ileri bir islem acmak ister.
-2. Goreve ozel readiness sinyalleri ve zorunlu safety kosullari degerlendirilir.
-3. Eksik kosul varsa neden, nasil tamamlanacagi ve nasil yeniden kontrol edilecegi gosterilir.
-4. Kullanici sonucu yanlis bulursa fotograf/olcum/alternatif kontrolle re-validation isteyebilir.
-5. Salt `yapabilirim` beyani safety gate'i kaldirmaz.
-6. Guvenle ogrenilebilen eksiklik teaching/preparation yoluna gider.
-7. Kosul tamamlaninca kullanici onceki rehber baglamina geri donebilir.
+## J-011 — Community contribution -> review -> publish/hold -> appeal/withdraw
+**Evidence:** Q080-Q084, Q105-Q108, Q130
+1. Personal content default-private kalir.
+2. Explicit community contribution yapilir.
+3. Provenance/review status official guide'dan ayri tutulur.
+4. Problem varsa reason + correction/re-submit/appeal yolu sunulur.
+5. Repeated harmful behavior pre-review/restriction'a gidebilir.
+6. Contribution withdrawal public content/personal info'yu kaldirir.
+7. De-identified safety review trace gerekirse kalabilir.
+8. Withdrawn correction guide'i etkilediyse re-review tetiklenir.
 
-## J-011 — Multi-motorcycle context switching
-**Evidence:** Q062
-1. Her motosikletin bilgisi/gecmisi/rehberi/reminder baglami ayri kalir.
-2. Kullanici motorlar arasinda kolay gecer.
-3. Aktif motosiklet her zaman anlasilir olur.
-4. Kayitlar birbirine karismaz.
+## J-012 — Commercial support without technical influence
+**Evidence:** Q085-Q088, Q114-Q115, Q144-Q146
+1. Technical fit first gelir.
+2. Commercial/sponsor surface explicit isaretlenir.
+3. Core completion/safety/history/export paywall olmaz.
+4. Premium convenience/capacity/analysis core'dan ayrilir.
+5. Recurring vs one-time value product expectation olarak ayrisabilir.
 
-## J-012 — Add external/service work to history
-**Evidence:** Q063, Q074, Q109-Q110
-1. Kullanici serviste/baska biri tarafindan yapilan isi ekler.
-2. Provenance belirtilir.
-3. Tarih/km/islem/fatura/fotograf/not gibi destekler eklenebilir.
-4. Evidence level gorunur olur; kanit yoksa verified completion gibi sunulmaz.
-5. Context-specific evidence taxonomy hala discovery konusudur.
+## J-013 — Multi-motorcycle context switching
+**Evidence:** Q062, Q141, Q146, Q154
+1. Motorcycle contexts separate tutulur.
+2. Active motorcycle clear olur.
+3. Basic multi-bike separation core value'dur.
+4. Advanced analysis/collaboration premium candidate olabilir.
 
-## J-013 — High-consequence learning -> conditional application -> professional option
-**Evidence:** Q068-Q069, Q099-Q101
-1. Kullanici high-consequence sistemi ogrenmek ister.
-2. Riskler, gerekli bilgi, ekipman, hazirlik ve kritik kontroller teaching katmaninda aciklanir.
-3. Ilk fiziksel mudahaleden once application kosullari dogrulanir.
-4. Kosul dogrulanamiyorsa application kapanir; teaching/preparation devam eder.
-5. Profesyonel yardim gerekiyorsa eksik kosulla gerekcelendirilir; `sen yapamazsin` dili kullanilmaz.
-6. Diagnosis capture, fotograf, preparation ve result-check destegi profesyonel yolda da kalir.
-7. Exact escalation trigger aciktir.
+## J-014 — Shared motorcycle collaboration
+**Evidence:** Q118-Q119, Q138-Q141, Q154
+1. Owner access grants contribution.
+2. Actor attribution/time/edit trail gorunur.
+3. Private notes automatic share edilmez.
+4. Access revocable olur.
+5. Professional-oriented complexity owner-first flow'u domine etmez.
 
-## J-014 — Community contribution -> review -> publish/hold -> appeal
-**Evidence:** Q080-Q084, Q105-Q108
-1. Kisisel not/fotograf default-private kalir.
-2. Kullanici explicit secimle community katkisi yapar; personal info ayiklanir.
-3. Katki resmi rehberden ayri provenance/review status ile tutulur.
-4. Kaldirma varsa somut gerekce, ilgili kural ve sorunlu bolum gosterilir.
-5. Kullanici duzeltip yeniden gonderebilir veya itiraz edebilir.
-6. Tekrarlanan yanlista contribution pre-review'a alinabilir; kasitli/surekli tehlikeli tekrarda paylasim yetkisi kisitlanabilir.
-7. Faydalı ama teknik olarak dogrulanamayan deneyim `dogrulanmamis kisisel deneyim` olarak kalabilir.
-8. Tehlikeli icerige maruz kalan kullanicilar gerekiyorsa uyarilir.
+## J-015 — Ownership transfer -> partial-history disclosure -> corrections
+**Evidence:** Q120, Q135-Q137
+1. Owner transfer edilecek records/evidence'i secer.
+2. Personal notes/private photos default-private kalir.
+3. New owner `owner-selected / incomplete history` oldugunu gorur.
+4. Covered period ve visible gaps aciklanir.
+5. Gaps completed maintenance gibi yorumlanmaz.
+6. Former owner later correction proposal sunabilir.
+7. Current owner attribution/time gorur ve review/accept edebilir.
+8. Prior version/evidence trail korunur.
 
-## J-015 — Commercial support without technical influence
-**Evidence:** Q085-Q088, Q114-Q115
-1. Kullanici teknik uygunluk kriterini gorur.
-2. Servis/usta veya satin alma secenekleri core rehberin ardindan destek yuzeyi olarak gorulebilir.
-3. Sponsorlu teklif acikca isaretlenir.
-4. Odeme/sponsorluk teknik uygunluk kararini veya alternatifleri degistiremez.
-5. Premium deger core safety/guide/data portability disinda convenience/analysis/capacity etrafinda kalir.
-6. Final recurring/one-time/hybrid model aciktir.
+## J-016 — Archive -> restore / actual delete
+**Evidence:** Q121, Q129
+1. Archive active garage'dan cikarir, history'yi korur, reversible'dir.
+2. Actual delete oncesi affected linked data scope gosterilir.
+3. Confirmation sonrasi owner'in own copy linked data'si silinir.
+4. Previously transferred independent records otomatik etkilenmez.
 
-## J-016 — Roadside / offline continuity -> stale critical hold
-**Evidence:** Q090-Q091, Q122
-1. Kullanici garaj disinda sorun yasar.
-2. Hizli belirti taramasi ve oncelikli safety kontrolleriyle baslar.
-3. Indirilmis rehber/gorsel/safety/progress/history offline acilir.
-4. Icerik surumu ve son dogrulama zamani gorulur.
-5. Critical freshness limit asilmissa teaching/reference erisimi kalabilir ancak application online re-check'e kadar kapanabilir.
-6. Suruse devam belirsizligi saklanmaz.
+## J-017 — User data export
+**Evidence:** Q093, Q131
+1. User kendi verisini export eder.
+2. Export premium olmaz.
+3. Record content yaninda source/provenance, evidence level, important corrections ve dates bulunur.
+4. Technical format bu asamada belirlenmez.
 
-## J-017 — User data view/edit/export/delete
-**Evidence:** Q092-Q094
-1. Kullanici motosiklet/kayit/not/fotograf verisini gorur ve duzeltebilir.
-2. Not/fotograf ekleyebilir veya silebilir.
-3. Kendi verisini anlasilir, yeniden kullanilabilir bicimde export eder; export premium olmaz.
-4. Silme oncesi kapsam ve geri alinmazlik aciklanir.
-5. Silinen/bekleyen durum anlasilir olur.
-6. Baska hesap verileri etkilenemez.
+## J-018 — Roadside / offline continuity -> stale critical hold
+**Evidence:** Q090-Q091, Q122, Q147-Q149
+1. Downloaded guide/visual/safety/progress/history offline acilir.
+2. Version/last-check visibility bulunur.
+3. Conceptual teaching stale olsa da reference olarak kalabilir.
+4. Critical freshness verify edilemiyorsa motorcycle-facing application kapanir.
+5. Learning/preparation/local record devam eder.
+6. Connection gelince current version check yapilir ve resume edilir.
 
-## J-018 — Shared motorcycle collaboration
-**Evidence:** Q116, Q118-Q119
-1. Owner baska bir kisiye motosiklet kaydina katkida bulunma izni verir.
-2. Islem yapan kisi kendi attribution'i ile kayit ekler.
-3. Yapan kisi, zaman ve edit trail gorunur olur.
-4. Baskasinin kaydi sessizce overwrite edilemez.
-5. Private notes diger katilimcilara otomatik acilmaz.
-6. Owner izinleri geri alabilir.
+## J-019 — Accessible active repair
+**Evidence:** Q124-Q125, Q150-Q152
+1. Clear Turkish/familiar units/appropriate detail sunulur.
+2. Text/visual/audio/large/easy controls alternative channels saglar.
+3. Risk/direction/location/value/stop warning multiple modalities ile iletilebilir.
+4. Critical confirmation easy interaction ugruna kaldirilmaz.
+5. Energy isolation/stability/critical connection/completion explicit reviewable confirmation ister.
 
-## J-019 — Record-only owner -> later guided repair
-**Evidence:** Q117
-1. Kullanici kendi tamirini yapmak istemeden history/reminder odakli baslar.
-2. Belge/fotograf, yaklaşan bakım ve motosiklet ayrimi degeri alir.
-3. Daha sonra belirli bir kayit veya ihtiyaçtan guided repair'e gecmek isterse mevcut motorcycle/history context'i kullanilir.
+## J-020 — Record-only first use -> later guided repair
+**Evidence:** Q117, Q153
+1. User motorcycle ekler.
+2. Recent work record eder ve upcoming maintenance value'yu gorur.
+3. Guide aramak zorunda degildir.
+4. Later same motorcycle/history context'ten guided repair'e gecebilir.
 
-## J-020 — Ownership transfer
-**Evidence:** Q120
-1. Owner motosikleti satar/devreder.
-2. Aktarilacak vehicle-history kayitlarini ve kanitlari secer.
-3. Personal notes ve kimlik/konum iceren fotograflar default-private kalir.
-4. Transfer oncesi preview yapilir.
-5. Parsiyel transferin yeni sahibine completeness olarak nasil anlatilacagi aciktir.
+## J-021 — Account-light first use -> persistence/profile transition
+**Evidence:** Q123, Q153-Q155
+1. Segment-specific first value account zorunlulugundan once gorulur.
+2. User first real record'u kalici saklamak, cross-device devam etmek veya collaborator invite etmek ister.
+3. Profile ihtiyaci gerekcelendirilir.
+4. Existing local data'ya ne olacagi onceden anlatilir.
+5. Technical identity/sync solution sonraki asamaya aittir.
 
-## J-021 — Archive motorcycle -> restore later
-**Evidence:** Q121
-1. Kullanici motosikleti aktif garajdan kaldirmak ister ama history'yi silmek istemez.
-2. `Archive` motosikleti aktif listeden cikarir, history'yi korur.
-3. Kullanici daha sonra arayip acabilir.
-4. Isterse yeniden active hale getirir.
-5. Archive delete ile karistirilmaz.
+## Open Journey Gaps
 
-## J-022 — First use -> experience guide value -> defer account/permissions
-**Evidence:** Q123
-1. Kullanici ilk acilista motosikletini secer.
-2. Rehber deneyiminin nasil calistigini hizla gorur.
-3. Account creation, notification permission ve uzun profil ilk degerden once zorunlu olmaz.
-4. Kayit/esitleme veya ilgili ihtiyac ortaya ciktiginda gerekli commitment istenir.
-
-## J-023 — Accessible active-repair consumption
-**Evidence:** Q124-Q125
-1. Kullanici acik Turkce, alisilmis birimler ve deneyimine uygun terminoloji derinligiyle rehberi okur.
-2. Buyuk yazi/dugme, high contrast ve non-color-only warnings bilgi erisimini destekler.
-3. Image descriptions ve video captions alternatif bilgi kanali saglar.
-4. Kirli/mesgul ellerde voice/easy-touch adim ilerleme degeri vardir.
-5. Safety-critical confirmation'in alternatif etkileşimde nasil korunacagi aciktir.
-
-## Open journey gaps
-
-- Professional escalation exact trigger, self-remediation ile professional path arasindaki ayrim ve self-service'e geri donus
-- Professional/servis kullanicisinin target user mi collaboration participant mi oldugu
-- Gercek delete, community contribution withdrawal ve export provenance lifecycle
-- Selective ownership transfer'da eksik history'nin yeni sahibe nasil anlatilacagi
-- Evidence labels'in technical guide / history / community / external service baglamlarinda ayrisma ihtiyaci
-- Critical freshness expiry'nin hangi rehberlerde ve hangi product semantigiyle uygulanacagi
-- Active-repair voice/easy-touch safety confirmations
-- Premium packaging (model henuz secilmedi)
+- Basic history vs expanded premium storage value boundary.
+- Basic multi-bike vs advanced garage value boundary.
+- Transfer correction disagreement / multiple ownership transfers.
+- Withdrawn community evidence downstream effects.
+- Shared/collaborative deletion ownership edge cases.
+- Evidence explanation depth by risk.
+- Local-data transition trust during profile creation.
+- Mid-repair materially changed guide after re-check.
+- Active-repair interruption/re-entry.
+- Paid-service evidence vs owner-observation dispute.
