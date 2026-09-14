@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-`PHASE-1 / WORKSPACE READY_TO_START`
+`PHASE-1 / WORKSPACE DISCOVERY DELEGATED`
 
 ## Current Objective
 
-Sekiz asamali planlama sureci icin gerekli repository calisma iskeleti tamamlandi. Siradaki gercek calisma 01_WORKSPACE source-of-truth belgelerinin doldurulmasidir.
+01_WORKSPACE asamasinin ilk kullanici girdileri, baska bir AI oturumunda kontrollu prompt ile toplanacak. ChatGPT bu surecte proje mimari muhendisi ve yoneticisi olarak promptu, repository hafizasini ve kalite kontrolunu yonetecek.
 
 ## Completed
 
@@ -23,15 +23,18 @@ Sekiz asamali planlama sureci icin gerekli repository calisma iskeleti tamamland
 - `08_REPOSITORY_BOOTSTRAP` fiziksel mimari kurulum alani kuruldu.
 - Tekrarlanan belgeler icin `90_TEMPLATES` olusturuldu.
 - Tarihsel belgeler icin `99_ARCHIVE` ayrildi.
+- Workspace discovery icin `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` hazirlandi.
+- Kullanici-facing discovery sorularinin diger AI oturumlarina delege edilmesi DEC-0006 ile LOCKED hale getirildi.
 
 ## In Progress
 
-Yok. Dosya iskeleti hazir; 01. asamanin icerigi henuz doldurulmadi.
+- Kullanici, `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` promptunu baska bir AI'ya verecek.
+- O AI once 5 genel teknik olmayan soru soracak ve cevaplardan yapilandirilmis workspace discovery ciktisi uretecek.
 
 ## Not Started
 
-- 01 Workspace icerik calismasi
-- 02 Product discovery
+- 01 Workspace source-of-truth belgelerinin gercek kullanici verileriyle doldurulmasi
+- 02 Product discovery 30-soruluk batch'leri
 - 03 Design references
 - 04 Technology strategy debate
 - 05 ADR decisions
@@ -42,7 +45,7 @@ Yok. Dosya iskeleti hazir; 01. asamanin icerigi henuz doldurulmadi.
 
 ## Next Action
 
-Kullanici talimatiyla 01_WORKSPACE asamasini baslat. Once `01_WORKSPACE/README.md` ve `INFORMATION_RULES.md` oku; urunle ilgili bilinmeyenleri varsayma.
+Kullanici diger AI'dan aldigi 5 soru-cevap ve yapilandirilmis ciktisini bu sohbete getirecek. ChatGPT sonucu inceleyecek, confirmed/inferred/assumption ayrimini denetleyecek ve uygun bilgileri `01_WORKSPACE` source-of-truth belgelerine isleyecek.
 
 ## Last Refreshed
 
