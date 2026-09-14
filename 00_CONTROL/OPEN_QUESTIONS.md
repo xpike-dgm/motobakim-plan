@@ -10,47 +10,21 @@ Bu dosya proje hafizasinda henuz kesinlesmemis urun sorularini tutar. Bir AI bur
 
 ---
 
-## Aktif Sorular
+## Aktif Product-Definition Sorulari
 
-### Q-0065 — Ucretsiz `1 aktif motosiklet` entitlement lifecycle
-**Status:** OPEN  
-**Opened:** 2026-09-15  
-**Context:** Q159-Q161, Q210-Q215, Batch 07 supplemental user note  
-**Question:** Ucretsiz plan `1 aktif motosiklet` ile sinirlanirsa kullanici aktif motosikleti degistirdiginde onceki motosikletin existing history, reminders, evidence, safety/correction bilgisi ve yarim islemleri hangi product-level haklarla kalmalidir?  
-**Impact:** Monetization trust, motorcycle lifecycle ve no-retroactive-lock principle.  
-**Resolution so far:** Latest user note `1 aktif motosiklet`i PROPOSED free entitlement olarak oneriyor ve mevcut kayitlarin kilitlenmemesini istiyor. Read/edit/resume/reminder ayrintisi henuz net degil.
+**Yok.** Batch 08 QC sonrasinda yeni 30-soruluk broad discovery batch'i gerektiren substantive product-definition gap tespit edilmedi.
 
-### Q-0066 — Ucretsiz `1 secilmis tam rehber` lifecycle
-**Status:** OPEN  
-**Opened:** 2026-09-15  
-**Context:** Q065, Q087, Q145, Batch 07 supplemental user note  
-**Question:** Ucretsiz kullanicinin sectigi `1 tam rehber` ne zaman/secimle degisebilir; tamamlanan, daha once kullanilan, safety correction alan veya yarim kalmis rehberlere erisim sonradan nasil korunmalidir?  
-**Impact:** Core-completion boundary, safety reach-back ve monetization trust.  
-**Resolution so far:** User proposal bir tam rehberin free olmasini, additional guides'in paid olabilmesini oneriyor; guide-selection lifecycle ve historical/safety access acik.
+Bu durum Gate 2'nin otomatik gectigi anlamina gelmez. `02_DISCOVERY/GATE_2_REVIEW.md` user approval beklemektedir.
 
-### Q-0067 — Entitlement degisikligi sirasinda aktif fiziksel islem continuity
-**Status:** OPEN  
-**Opened:** 2026-09-15  
-**Context:** Q178-Q183, Q195-Q200, Batch 07 supplemental user note  
-**Question:** Kullanici bir motosiklet/guide free-active entitlement disina cikarken fiziksel isleme baslamis veya yarida birakmissa safe completion/recovery, critical correction ve resume haklari hangi noktaya kadar paywall'dan bagimsiz kalmalidir?  
-**Impact:** Safety, active-repair continuity ve indirect paywall riski.  
-**Resolution so far:** Existing history ve critical safety trust kilitlenmemeli; aktif physical-work continuity icin exact product boundary acik.
+## Non-blocking Validation / Strategy Topics
 
-### Q-0068 — `Mevcut kayitlar kilitlenmez` ifadesinin minimum anlami
-**Status:** OPEN  
-**Opened:** 2026-09-15  
-**Context:** Q156-Q158, Q186-Q194, Q210-Q215, Batch 07 supplemental user note  
-**Question:** Paid entitlement sona erdiginde veya motorcycle/guide inactive oldugunda existing records icin read, export, evidence/provenance, correction/dispute, edit/add ve reminder davranislarindan hangileri kesinlikle korunmali; hangileri yeni premium value sayilabilir?  
-**Impact:** Historical trust ve monetization boundary.  
-**Resolution so far:** Existing record/history access, safety info, attribution/provenance ve export'un zayiflamamasi yonunde guclu kanit var; write/correction/new contribution ayrintisi acik.
+Bunlar product definition'i eksik birakmayan fakat sonraki validation/strategy/feasibility calismalarinda ele alinmasi gereken konulardir:
 
-### Q-0069 — Inactive motorcycle/shared collaboration lifecycle
-**Status:** OPEN  
-**Opened:** 2026-09-15  
-**Context:** Q118-Q121, Q169-Q171, Q210-Q215, Batch 07 supplemental user note  
-**Question:** Bir motorcycle free-active scope disina alinirsa veya collaboration entitlement daralirsa mevcut invitee access, prior contributions, private evidence, correction reach-back ve revoke davranislari nasil devam etmelidir?  
-**Impact:** Collaboration trust, entitlement downgrade ve historical integrity.  
-**Resolution so far:** Attribution/revoke/private-content separation/historical integrity premium trust feature'i olamaz; inactive/downgrade lifecycle detayi acik.
+- Exact wrong-free-guide selection correction window.
+- Essential historical evidence media ile optional expanded-media archive classification detail.
+- Task categories boyunca `safe closure` acceptance criterion.
+- Exact price, quota, subscription/tier structure, willingness-to-pay ve business sustainability.
+- Real-world content coverage, reviewer availability, visual/physical-state recognition ve readiness-signal feasibility.
 
 ---
 
@@ -104,7 +78,7 @@ Detayli ham kanit `02_DISCOVERY/SESSIONS/` altinda, onceki resolution tarihcesi 
 - **Q-0044 ANSWERED — Q147-Q149:** Freshness application-critical claim'lerde gate; stale teaching/reference kalabilir; numeric threshold yok.
 - **Q-0045 ANSWERED — Q150-Q152:** Active-repair accessibility safety invariants'i kaldiramaz.
 - **Q-0046 ANSWERED — Q156-Q158:** Core history motorcycle/work/date/km/actor/outcome/safety/evidence/correction continuity'yi korur; expanded storage high-volume media'da baslar; premium basic history/safety evidence'i silemez/gizleyemez.
-- **Q-0047 ANSWERED — Q159-Q161:** Motorcycle contexts birbirini etkilememeli; advanced garage cross-bike analysis/bulk planning/richer collaboration/archive-search value'da baslar. Free simultaneous-active entitlement Batch 07 supplemental proposal nedeniyle Q-0065'te yeniden daraltilmistir.
+- **Q-0047 ANSWERED — Q159-Q161:** Motorcycle contexts birbirini etkilememeli; advanced garage cross-bike analysis/bulk planning/richer collaboration/archive-search value'da baslar. Free simultaneous-active entitlement Batch 07/08 ile one-active proposal olarak daraltilmistir; inactive trust korunur.
 - **Q-0048 ANSWERED — Q162-Q165:** Rejected correction/disputed claim silent overwrite yapmaz; repeated transfers owner/period/coverage/gaps ile ayrilir ve partial history complete diye sunulmaz.
 - **Q-0049 ANSWERED — Q166-Q168:** Withdrawn community evidence dependent guide/claim'i re-review eder; remaining independent evidence yeterliyse claim kalabilir, yetersizse verification/application korunmaz; safety/technical impact correction reach-back gerektirebilir.
 - **Q-0050 ANSWERED — Q186-Q188:** Contributor withdrawal transferred/independent record'i otomatik silmez; source access, provenance, visibility ve trust state ayridir. Withdrawn evidence degerlendirmeden cikarilir; remaining independent evidence yeterliyse record review sonrasi kullanilabilir kalabilir.
@@ -120,8 +94,13 @@ Detayli ham kanit `02_DISCOVERY/SESSIONS/` altinda, onceki resolution tarihcesi 
 - **Q-0060 ANSWERED — Q201-Q203:** Cancel/failure durumunda local/source records korunur; partial profile state success gibi sunulmaz; conflicts non-destructive review/rollback/correction ile ele alinir.
 - **Q-0061 ANSWERED — Q204-Q206:** Affected-user strength viewer < relevant-step interaction < applied/evidence/completion seklinde artar; correction risk/severity reach-back gucunu da belirler.
 - **Q-0062 ANSWERED — Q207-Q209:** Beginner/experienced farki explanation depth/speed'de olabilir; source, fit, uncertainty/conflict, critical change, safety ve mandatory checks high-risk/disputed context'te invariant kalir.
-- **Q-0063 ANSWERED — Q210-Q212, Q215:** Basic shared-bike trust invitation/limited permission/attribution/revoke/provenance'i korur; advanced collaboration more participants/richer roles/tasks/approvals/coordination'da baslar. Exact free participant entitlement proposal Q-0069 lifecycle'inda daraltilir.
+- **Q-0063 ANSWERED — Q210-Q212, Q215:** Basic shared-bike trust invitation/limited permission/attribution/revoke/provenance'i korur; advanced collaboration more participants/richer roles/tasks/approvals/coordination'da baslar.
 - **Q-0064 ANSWERED — Q213-Q215:** Bulk planning, cross-bike comparison, advanced archive search ve richer permissions advanced garage value'dur; attribution/revoke/isolation/history integrity/safety/existing-history access payment statusuyla zayiflayamaz.
+- **Q-0065 ANSWERED — Q216-Q221, Q240-Q244:** Free one-active-motorcycle lifecycle: inactive history/evidence/export/correction access korunur; routine reminders susabilir; historical critical safety reach-back ve required recheck/recovery entitlement'tan bagimsiz devam eder; reactivation current context revalidation ister.
+- **Q-0066 ANSWERED — Q222-Q227, Q243-Q245:** Current working one-selected-full-guide lifecycle: account-level right; bike switch/completion automatic new right yaratmaz; reuse/history/corrections korunur; user-fault olmayan invalidation replacement selection hakki acabilir. Exact wrong-selection correction window validation topic'tir.
+- **Q-0067 ANSWERED — Q228-Q230, Q240-Q244:** Started physical work entitlement change nedeniyle paywall ortasinda kalamaz; safe completion/stop/recovery icin gereken related guidance korunur ve bu new paid activity entitlement'i yaratmaz.
+- **Q-0068 ANSWERED — Q231-Q236, Q241-Q244:** `Existing records stay unlocked` read/basic-search/export/provenance/evidence/correction/dispute/error-flag/own-evidence withdrawal ve existing-claim trust-maintenance'i kapsar; payment state trust metadata'yi azaltamaz; unrelated new routine activity ayri gated olabilir.
+- **Q-0069 ANSWERED — Q237-Q240:** Inactive/downgraded collaboration prior contributions/trust-maintenance, attribution/evidence/approvals/correction trail'i korur; new routine/advanced activity durabilir; owner revoke authority devam eder.
 
 ---
 
