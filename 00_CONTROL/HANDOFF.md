@@ -10,30 +10,54 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 01 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 02 READY`
 
 ## What Just Happened
-Kullanici kalite kontrolunden gecirilmis Phase-1 workspace sentezini acikca onayladi. Gate 1 -> 2 tamamlandi ve DEC-0008 ile kayda alindi.
 
-`01_WORKSPACE` source-of-truth belgeleri `APPROVED` durumuna getirildi. Assumption registry'nin onayli olmasi icindeki OPEN varsayimlari dogrulanmis yapmaz; glossary registry'nin onayli olmasi PROPOSED terimleri LOCKED yapmaz.
+Batch 01 (Q006-Q035) portable discovery handoff paketi kullanici tarafindan ana yonetici sohbetine getirildi.
 
-Ilk 5 genel discovery sorusunun ham soru-cevap transkripti repository'ye getirilmemisti. Bu provenance limitation `02_DISCOVERY/SESSIONS/SESSION-000_GENERAL_BASELINE.md` icinde kayitlidir. Sonraki tum batch'lerde portable handoff paketinin `RAW Q&A — VERBATIM` bolumu zorunludur.
+Ana proje yoneticisi:
+- RAW Q&A'nin tam oldugunu kontrol etti,
+- Q006-Q035'i `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` icine verbatim kaydetti,
+- delegated AI'nin confirmed/inferred/assumption ve open-question resolution adaylarini yeniden denetledi,
+- Phase-1 baseline ile dogrudan celiski bulmadi,
+- Q020 cevabinin yarim kalmis olabilecegini kanit kalitesi notu olarak kaydetti,
+- urun sentez dosyalarini DRAFT olarak doldurdu,
+- assumptions ve glossary registry'lerini yeni kanitla rafine etti,
+- gercekten cevaplanan eski open question'lari ANSWERED yapti,
+- kismi/yeni bosluklari OPEN olarak korudu,
+- Batch 02 promptunu hazirladi.
 
-Ilk 30 soruluk Product Discovery promptu hazir:
-`02_DISCOVERY/BATCH_01_AI_PROMPT.md`
+## Key Product Learnings from Batch 01
 
-Soru araligi: Q006-Q035.
+- Motosiklet-rehber eslesmesi, yil/versiyon/donanim farklarini dikkate alan kritik bir guvenlik kapisidir.
+- Dogrulanmis bilgi; uygun uretici kaynagi, belge surumu, sayfa/bolum kaniti, insan incelemesi ve kaynak celiskisi yonetimi beklentisini icerir.
+- Yeni ve deneyimli kullanici ayni guvenlik standardini korur ancak anlatim derinligi/hizi farklasir.
+- Rehber adimi yeni kullanici icin tek hareket + gorsel + basari kontrolu seviyesine inebilir.
+- Readiness, stop-gate, teshis-kanit akisi, mismatch/recovery, yarim islem devamligi ve zengin bakim gecmisi urunun onemli davranislaridir.
+- Maintenance takip ve reminder mantiginin ana beklentileri netlesti; istisnalar hala acik.
+- Monetization ve moderation/content governance hala dusuk kapsamadadir.
 
-## Approved Workspace Sources
-- `01_WORKSPACE/PROJECT_VISION.md` — APPROVED
-- `01_WORKSPACE/CONSTRAINTS.md` — APPROVED
-- `01_WORKSPACE/ASSUMPTIONS.md` — APPROVED registry; assumptions OPEN
-- `01_WORKSPACE/GLOSSARY.md` — APPROVED registry; terms may remain PROPOSED
+## Evidence and Synthesis
 
-## Active Open Questions
-`00_CONTROL/OPEN_QUESTIONS.md` icindeki Q-0001 — Q-0012 aktiftir.
+- Raw evidence: `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md`
+- Working synthesis:
+  - `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
+  - `02_DISCOVERY/SYNTHESIS/USER_TYPES.md`
+  - `02_DISCOVERY/SYNTHESIS/USER_JOURNEYS.md`
+  - `02_DISCOVERY/SYNTHESIS/BUSINESS_RULES.md`
+  - `02_DISCOVERY/SYNTHESIS/FEATURE_CANDIDATES.md`
+  - `02_DISCOVERY/SYNTHESIS/NON_GOALS.md`
+- Batch 02 prompt: `02_DISCOVERY/BATCH_02_AI_PROMPT.md`
+
+## Open Questions
+
+Aktif sorular: Q-0002, Q-0003, Q-0004, Q-0010, Q-0013 — Q-0024.
+
+Answered after Batch 01: Q-0001, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009, Q-0011, Q-0012.
 
 ## Locked Process Decisions
+
 - GitHub kalici proje hafizasidir.
 - 8 asamali sira korunur.
 - Phase gate saglanmadan sonraki asamaya gecilmez.
@@ -43,23 +67,24 @@ Soru araligi: Q006-Q035.
 - Proje capi ortak chat talimatlari gecerlidir.
 
 ## Required First Reads
+
 1. `00_CONTROL/AI_START_HERE.md`
 2. `00_CONTROL/CURRENT_STATE.md`
 3. `00_CONTROL/SOURCE_OF_TRUTH.md`
 4. `00_CONTROL/DECISION_LOG.md`
 5. `00_CONTROL/OPEN_QUESTIONS.md`
-6. `00_CONTROL/WORKFLOW_MAP.md`
-7. `00_CONTROL/PHASE_GATES.md`
-8. `00_CONTROL/DOCUMENT_REGISTRY.md`
-9. `02_DISCOVERY/README.md`
-10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
-11. `02_DISCOVERY/QUESTION_PROGRESS.md`
-12. `02_DISCOVERY/BATCH_01_AI_PROMPT.md`
+6. `00_CONTROL/PHASE_GATES.md`
+7. `02_DISCOVERY/README.md`
+8. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
+9. `02_DISCOVERY/QUESTION_PROGRESS.md`
+10. `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
+11. `02_DISCOVERY/BATCH_02_AI_PROMPT.md`
 
 ## Next Action
-Kullanici `02_DISCOVERY/BATCH_01_AI_PROMPT.md` promptunu yeni bir AI sohbetine verir. Diger AI ilk mesajinda sadece Q006-Q035 arasindaki 30 teknik olmayan soruyu sorar. Kullanici cevapladiktan sonra AI portable discovery handoff package uretir.
 
-Kullanici paketin TAMAMINI ana proje yoneticisi sohbetine geri getirir. Paket gelmeden Batch 02 hazirlanmaz ve Phase 3'e gecilmez.
+Kullanici `02_DISCOVERY/BATCH_02_AI_PROMPT.md` promptunu yeni AI sohbetine verir. AI Q036-Q065 arasinda tam 30 teknik olmayan soru sorar ve cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 02` uretip durur.
+
+Paket ana yonetici sohbetine geri gelmeden Batch 03 hazirlanmaz ve Phase 3'e gecilmez.
 
 ## Last Updated
 2026-09-14
