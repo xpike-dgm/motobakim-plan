@@ -8,7 +8,7 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 |---|---|---|
 | Hafiza / kontrol | `00_CONTROL/*` | APPROVED |
 | Calisma sistemi | `01_WORKSPACE/*` | APPROVED |
-| Urun kesfi | `02_DISCOVERY/*` | DRAFT |
+| Urun kesfi | `02_DISCOVERY/*` | REVIEW |
 | Tasarim | `03_DESIGN/*` | EMPTY |
 | Teknoloji tartismasi | `04_TECH_STRATEGY/*` | EMPTY |
 | ADR | `05_ADR/*` | EMPTY |
@@ -18,6 +18,6 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 
 `01_WORKSPACE` Phase-1 sentezi kullanici tarafindan 2026-09-14 tarihinde acikca onaylandi ve Gate 1 -> 2 gecisi tamamlandi.
 
-`02_DISCOVERY` ilk 30 soruluk batch hazirligi basladigi icin `DRAFT` durumundadir. Discovery synthesis belgeleri kullanici/yonetici review ve gerekli gate onayi olmadan `APPROVED` sayilmaz.
+`02_DISCOVERY` Q006-Q245 raw evidence ve working synthesis ile discovery saturation review seviyesine ulasti. `02_DISCOVERY/GATE_2_REVIEW.md` recommendation'i `READY_FOR_USER_APPROVAL` durumundadir. User approval olmadan discovery `APPROVED` sayilmaz ve Gate 2 -> 3 gecilmez.
 
-Bu tablo her gate gecisinde guncellenir.
+Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
