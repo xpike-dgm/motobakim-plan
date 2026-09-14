@@ -4,37 +4,60 @@ Status: DRAFT
 
 | ID | User Type | Goals | Needs | Restrictions | Evidence |
 |---|---|---|---|---|---|
-| UT-001 | Yeni / az deneyimli kendi-bakimini-yapan kullanici | Islemi neyi/neden yaptigini anlayarak guvenle tamamlamak; parca/adimlari dogru tanimak; zamanla bagimsizlasmak | Her hareket icin aciklama, gercek/isaretli gorsel, basari kontrolu, acilabilir ileri ayrinti, hazirlik, recovery ve gerekirse sesli/kolay etkileşim destegi | Safety/kritik dogrulama atlanamaz; rehber eslesmesi veya readiness belirsizse kritik application acilmaz | Q006-Q007, Q014-Q021, Q025-Q027, Q050-Q052, Q089, Q096-Q101, Q125 |
-| UT-002 | Deneyimli kendi-bakimini-yapan kullanici | Dogru teknik bilgiye ve islem kontrolune hizla ulasmak; gereksiz anlatimla yavaslamamak; islemi kendisi tamamlamak | Kisa checklist, teknik ayrintiya hizli erisim, kaynak/provenance, kritik olcum ve kontroller | Hizlandirilmis deneyim safety veya kritik dogrulamayi kaldiramaz; yalniz `deneyimliyim` beyanı belirli is icin readiness kaniti degildir | Q007, Q010-Q011, Q014, Q021, Q051-Q052, Q096-Q098 |
-| UT-003 | Kayit / takip odakli motosiklet sahibi | Kendi tamirini yapmasa da bakım gecmisini, belgeleri, fotograflari, yaklaşan islemleri ve reminders'i duzenli tutmak | Zengin history, next-maintenance tracking, belge/fotograf saklama, reminders, motosikletler arasi ayrim ve isterse sonradan guided repair'e gecis | Uygulamali rehberi kullanmak zorunda degildir; history/provenance guveni korunmalidir | Q117 |
-| UT-004 | Paylasilan motosiklet katilimcisi / hobby helper | Aile/arkadas/baska owner motosikletinde izinli sekilde islem veya kayit katkisi yapmak | Owner-granted access, actor attribution, edit trail, private-note isolation, revocable access | Baskasinin kaydini sessizce degistiremez; personal content izinsiz acilmaz | Q116, Q118-Q119 |
+| UT-001 | Yeni / az deneyimli self-service owner | Islemi ogrenerek ve ne yaptigini anlayarak guvenli tamamlamak; zamanla bagimsizlasmak | Ayrintili hareket+gorsel+basari kontrolu, preparation, recovery, terminology help | Safety/kritik dogrulama atlanamaz; readiness/match belirsizse application kapanir | Q006-Q007, Q014-Q021, Q050-Q052, Q089, Q141-Q143 |
+| UT-002 | Deneyimli self-service owner | Dogru technical info ve kontrollere hizla ulasip islemi verimli tamamlamak | Kisa verified steps/checklist, technical detail, provenance, critical measurements | Speed safety ve critical confirmation'i azaltamaz; oz-beyan readiness kaniti degildir | Q007, Q010-Q011, Q014, Q051-Q052, Q141-Q143 |
+| UT-003 | Record-only owner | Kendi tamirini yapmasa da history, docs/photos, upcoming maintenance ve reminders'i duzenli tutmak | Easy record entry, maintenance schedule/history, evidence/provenance, later optional guide transition | Guide kullanmak zorunda degildir; history trust ve data control korunur | Q117, Q141-Q143, Q153 |
+| UT-004 | Multi-bike owner | Birden fazla motosikleti karistirmadan takip etmek | Ayrik motorcycle contexts, history/reminders, active bike clarity | Birkaç motosikleti basic ayirmak core expectation'dir | Q062, Q116, Q141, Q146, Q154 |
+| UT-005 | Shared-family participant | Ayni motosiklette yetkili ve izlenebilir katkida bulunmak | Owner permission, attribution, edit trail, private-note isolation | Baskasinin kaydi sessizce degistirilemez; access revocable | Q116, Q118-Q119, Q141, Q154 |
+| UT-006 | Hobby helper | Baska owner'in motosikletinde izinli sekilde yardim edip kayit katkisi yapmak | Actor attribution, evidence, owner-controlled collaboration | Professional rol ile ayni sayilmaz; rol verified status yaratmaz | Q116, Q118-Q119, Q138-Q141 |
+| UT-007 | Paid service / professional contributor | Owner'in davetiyle service record/evidence katkisi yapmak | Service/document context, attribution, evidence | Initial direct target degildir; professional forms/terms owner-first experience'i domine etmemeli; rol automatic verified degildir | Q138-Q140 |
 
-## Core-priority note
+## Core Priority
 
-**CONFIRMED — Q116:** MotoBakim'in ana odağı bireysel surucunun kendi motosikletindeki islemi ogrenip yapmasidir. UT-003 ve UT-004 anlamli supported user types/context'lerdir; core priority'de UT-001/UT-002 ile otomatik esitlenmezler.
+**CONFIRMED — Q141-Q143**
 
-Profesyonel usta/servisin dogrudan target user olup olmadigi henuz belirlenmemistir.
+Ilk product priority:
+1. UT-001 yeni/az deneyimli self-service owner,
+2. UT-002 deneyimli self-service owner,
+3. temel record/history tracking.
 
-## Cross-cutting user states / contexts
+UT-003–UT-007 desteklenen adjacent context'lerdir. Advanced shared/work-on-behalf-of-others management daha sonra derinlestirilebilir. Ayrı professional business-management product gelecekte dusunulebilir; ilk owner-first product scope'u degistirmemelidir.
 
-Bunlar ayri persona olmak zorunda degildir; ayni kullanicinin farkli yolculuk anlari olabilir:
+## Segment Minimum Value
 
-- **Known-task state — CONFIRMED (Q006):** Yapmak istedigi islemi bilir ama parca adi, hazirlik veya sira konusunda yardim ister.
-- **Symptom-first state — CONFIRMED (Q006, Q012, Q022):** Yalniz belirtiyi bilir ve kanit-temelli teshis yoluyla uygun isleme ulasmak ister.
-- **Interrupted-work state — CONFIRMED (Q028, Q059):** Islem yarida kalmistir; baglam ve rehber surumu korunarak guvenli devam beklenir.
-- **Mismatch/modification state — CONFIRMED (Q026, Q038-Q039, Q066-Q067, Q102-Q104):** Rehber, gercek motosiklet veya modifiye durumla eslesmez; application uygunluk yeniden kurulana kadar durabilir, teaching-only bilgi kalabilir.
-- **Recovery state — CONFIRMED (Q025-Q027):** Kullanici takilir, hata yapar veya beklenmeyen durum olusur; guvenli geri donus/yardim yoluna ihtiyac duyar.
-- **Task-specific readiness state — CONFIRMED (Q050-Q052):** Ayni kullanici bir is icin hazir, baska is icin hazir olmayabilir.
-- **Readiness challenged / re-validation state — CONFIRMED (Q096-Q098):** Kullanici blokajı yanlis bulabilir; serbest override yerine yeni kanitla re-validation bekler.
-- **Professional-escalation state — CONFIRMED (Q100-Q101):** Belirli islemde kosullar karsilanmadigi icin profesyonel yardim dusunulebilir; kullanici yine teaching, diagnosis capture, preparation ve result-check degeri almaya devam eder.
-- **Multi-motorcycle owner state — CONFIRMED (Q062, Q116):** Birden fazla motosikletin gecmis/rehber/reminder baglami ayri tutulur.
-- **Roadside / constrained-context state — CONFIRMED (Q090-Q091):** Garaj disinda hizli tarama, oncelikli safety kontrolu, kisa gorsel anlatim ve offline sureklilik degeri artar.
-- **Community contributor state — CONFIRMED AS POSSIBLE PRODUCT BEHAVIOR (Q080-Q084, Q105-Q108):** Kullanici kisisel icerigi ozel tutabilir veya bilincli secimle community katkisi yapabilir; moderation/appeal/review statuleri olabilir.
-- **Data-owner state — CONFIRMED (Q092-Q094):** Kullanici kendi motosiklet/gecmis/not/fotograf verisini goruntuleme, duzeltme, silme ve export kontrolu bekler.
-- **Ownership-transfer state — CONFIRMED (Q120):** Kullanici motosiklet satis/devrinde secili vehicle history'yi aktarirken personal content'i ayirmak ister.
-- **Archived-motorcycle state — CONFIRMED (Q121):** Motosiklet aktif garajdan cikmistir fakat history korunur ve yeniden aktive edilebilir.
+**CONFIRMED — Q141-Q142**
 
-## Current user motivation evidence
+- Beginner: learning + safe application.
+- Experienced: speed + accuracy.
+- Record-only: reliable history/schedule.
+- Multi-bike: data/context separation.
+- Shared-family: authorized/attributed records.
+- Hobby helper: named contribution.
+- Paid service: actor + service/document evidence context.
+
+Cost advantage hicbir grupta technical accuracy'nin onune gecmemelidir.
+
+## Cross-cutting States / Contexts
+
+Bunlar ayri persona olmak zorunda degildir:
+
+- **Known-task** — Q006.
+- **Symptom-first** — Q006, Q012, Q022.
+- **Interrupted-work** — Q028, Q059.
+- **Mismatch/modification** — Q026, Q038-Q039, Q066-Q067, Q102-Q104.
+- **Recovery** — Q025-Q027.
+- **Task-specific readiness** — Q050-Q052.
+- **Readiness challenged / re-validation** — Q096-Q098, Q126-Q128.
+- **Professional recommendation / mandatory closure** — Q100-Q101, Q126-Q128.
+- **Roadside/offline** — Q090-Q091, Q147-Q149.
+- **Community contributor** — Q080-Q084, Q105-Q108, Q130.
+- **Data-owner** — Q092-Q094, Q129-Q131.
+- **Ownership-transfer** — Q120, Q135-Q137.
+- **Archived motorcycle** — Q121.
+- **Active-repair accessibility** — Q125, Q150-Q152.
+- **Account-light first-use -> persistence trigger** — Q123, Q153-Q155.
+
+## Current User Motivation Evidence
 
 **CONFIRMED FOR CURRENT USER — Q089:**
 1. Islemi kendi tamamlamak
@@ -43,14 +66,12 @@ Bunlar ayri persona olmak zorunda degildir; ayni kullanicinin farkli yolculuk an
 4. Zaman kazanmak
 5. Surecten keyif almak
 
-Bu siralama tum hedef kullanicilara genellenemez.
+Batch 05 segment refinement bu siralamanin tum user types'a aynen uygulanmadigini CONFIRMED etti.
 
-## Current segmentation interpretation
+## Current Segmentation Interpretation
 
-**INFERRED, NOT FINAL:** Deneyim seviyesi tek global `acemi/deneyimli` etiketinden ibaret olmayabilir. Readiness islem bazli degisebilir. Normal garaj, roadside/offline, record-only, collaboration, community contribution ve ownership lifecycle gibi baglamlar ayni kisinin urunden beklentisini degistirebilir.
+**INFERRED, NOT FINAL:** Global `beginner/experienced` etiketi tek basina yeterli olmayabilir. Task-specific readiness, current context, ownership/collaboration state ve user's first-value intent ayni kisinin product experience'ini degistirebilir.
 
-## Open segmentation questions
+## Open Segmentation / Validation Questions
 
-- Core self-service owner, record-only owner, shared-family/hobby helper ve multi-bike owner motivasyon/first-use farklari nasil olmalidir?
-- Profesyonel usta/servis dogrudan target user mi yoksa collaboration participant mi?
-- Adjacent user types core owner deneyimini hangi noktada degistirmemelidir?
+Product-level priority yeterince net. Market size, willingness-to-pay, segment frequency ve acquisition potential bu discovery kullanici cevabindan cikmaz; ileride ayri research/validation gerekir.
