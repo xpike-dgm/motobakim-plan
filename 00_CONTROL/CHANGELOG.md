@@ -14,45 +14,42 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Kritik belge durumlari icin `DOCUMENT_REGISTRY.md` eklendi.
 - `01_WORKSPACE` ortak bilgi calisma alani olusturuldu.
 - `02_DISCOVERY` soru batch, conflict ve synthesis yapisi olusturuldu.
-- `03_DESIGN` screen catalog, navigation, state matrix ve reference index yapisi olusturuldu.
-- `04_TECH_STRATEGY` uzman roller, evaluation, debate, judge ve risk yapisi olusturuldu.
-- `05_ADR` karar kaydi alani olusturuldu.
-- `06_DELIVERY_PLANNING` Epic -> Capability -> Feature -> User Flow -> Task yapisi olusturuldu.
-- `07_AI_ARCHITECTURE` AI guvenli gelistirme mimarisi calisma belgeleri olusturuldu.
-- `08_REPOSITORY_BOOTSTRAP` fiziksel kurulum/CI/quality gate yapisi olusturuldu.
-- `90_TEMPLATES` standardize belge sablonlari ve `99_ARCHIVE` tarihsel kayit alani eklendi.
+- `03_DESIGN`, `04_TECH_STRATEGY`, `05_ADR`, `06_DELIVERY_PLANNING`, `07_AI_ARCHITECTURE`, `08_REPOSITORY_BOOTSTRAP` iskeletleri kuruldu.
+- Tekil kayit alanlari, template'ler ve archive alani eklendi.
 
-### Scalability Structure
-- Ekranlar icin `03_DESIGN/SCREEN_SPECS/` tekil kayit alani eklendi.
-- Teknik tartismalar icin `04_TECH_STRATEGY/DEBATES/` eklendi.
-- ADR'ler icin `05_ADR/RECORDS/` eklendi.
-- Planlama kayitlari `EPICS/`, `CAPABILITIES/`, `FEATURES/`, `FLOWS/`, `TASKS/` olarak ayrildi; kataloglar index olarak konumlandirildi.
-- AI mimarisi icin `CONTRACTS/`, `CONTEXT_PACKS/`, `RULES/` tekil kayit alanlari eklendi.
-- Bootstrap completion kanitlari icin `08_REPOSITORY_BOOTSTRAP/EVIDENCE/` eklendi.
-- Capability, context pack, decision entry ve review checklist sablonlari eklendi.
-
-### Decision Changes
-- DEC-0003 SUPERSEDED yapildi.
+### Process Decisions
 - DEC-0004 ile sekiz asamali workflow LOCKED hale getirildi.
 - DEC-0005 ile kanit/sentez/karar ayrimi LOCKED hale getirildi.
-- DEC-0006 ile kullanici-facing discovery soru oturumlarinin diger AI'lara kontrollu promptlarla delege edilmesi LOCKED hale getirildi.
+- DEC-0006 ile kullanici-facing discovery oturumlarinin diger AI'lara kontrollu promptlarla delege edilmesi LOCKED hale getirildi.
+- DEC-0007 ile proje capi ortak chat talimatlari LOCKED hale getirildi.
 
-### Phase 1 Delegation
+### Phase 1 Delegation and Review
 - `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` olusturuldu.
-- Prompt ilk 5 genel, teknik olmayan soruyu kapsayacak sekilde sinirlandi.
-- Diger AI'nin cevaplardan PROJECT_VISION, CONSTRAINTS, ASSUMPTIONS, GLOSSARY ve OPEN QUESTIONS adaylari cikarmasi tanimlandi.
-- Diger AI'nin kendiliginden 30 soruluk discovery turuna gecmesi yasaklandi; kontrol proje yoneticisinde tutuldu.
+- Ilk 5 genel, teknik olmayan soru baska AI oturumunda soruldu.
+- Kullanici yapilandirilmis Phase-1 sentezini ana yonetici sohbetine getirdi.
+- `PROJECT_VISION`, `CONSTRAINTS`, `ASSUMPTIONS`, `GLOSSARY` kalite kontrolunden gecirildi.
+- Feature gereksinimleri constraint katmanindan ayrildi.
+- Tehlikeli/uzmanlik gerektiren islemler kullanici niyeti olarak korundu; kosulsuz urun politikasi yapilmadi.
+- 12 acik urun sorusu `OPEN_QUESTIONS.md` icine kaydedildi.
 
-### Phase 1 Workspace Synthesis Review
-- Kullanici diger AI'dan gelen yapilandirilmis Phase-1 sentezini geri getirdi.
-- `01_WORKSPACE/PROJECT_VISION.md` `REVIEW` durumunda gercek urun vizyonuyla dolduruldu.
-- `01_WORKSPACE/CONSTRAINTS.md` yeniden siniflandirildi; normal feature gereksinimleri constraint katmanindan ayrildi.
-- `01_WORKSPACE/ASSUMPTIONS.md` 5 acik varsayimla dolduruldu.
-- `01_WORKSPACE/GLOSSARY.md` ilk domain terimleriyle dolduruldu.
-- 12 acik urun sorusu `00_CONTROL/OPEN_QUESTIONS.md` icine eklendi.
-- Tehlikeli/uzmanlik gerektiren islemlerin kapsanmasi kullanici niyeti olarak korundu ancak guvenlik siniri cozulmeden kosulsuz urun politikasi yapilmadi.
-- `DOCUMENT_REGISTRY.md` icinde `01_WORKSPACE/*` statusu `REVIEW` yapildi.
-- `CURRENT_STATE.md` ve `HANDOFF.md`, `PHASE-1 / WORKSPACE REVIEW_REQUIRED` durumuna tazelendi.
+### Phase 1 Approval / Gate 1 -> 2
+- Kullanici duzeltilmis Phase-1 workspace sentezini acikca onayladi.
+- DEC-0008 eklendi.
+- `01_WORKSPACE/PROJECT_VISION.md` `APPROVED` yapildi.
+- `01_WORKSPACE/CONSTRAINTS.md` `APPROVED` yapildi.
+- `01_WORKSPACE/ASSUMPTIONS.md` registry `APPROVED` yapildi; tekil varsayimlar `OPEN` kaldi.
+- `01_WORKSPACE/GLOSSARY.md` registry `APPROVED` yapildi; `PROPOSED` terimler nihai sayilmadi.
+- `DOCUMENT_REGISTRY.md` icinde `01_WORKSPACE/*` = `APPROVED` oldu.
+- Gate 1 -> 2 tamamlandi.
+
+### Phase 2 Product Discovery Start
+- `02_DISCOVERY/SESSIONS/SESSION-000_GENERAL_BASELINE.md` olusturuldu.
+- Q001-Q005 ham transkriptinin repository'de bulunmadigi provenance limitation olarak kaydedildi.
+- Sonraki batch'lerde `RAW Q&A — VERBATIM` portable handoff paketinin zorunlu parcasi yapildi.
+- `02_DISCOVERY/QUESTION_PROGRESS.md` Batch 01 icin guncellendi.
+- `02_DISCOVERY/BATCH_01_AI_PROMPT.md` olusturuldu.
+- Batch 01 soru araligi Q006-Q035 olarak belirlendi.
+- Batch 01 ciktisinda raw Q&A, confirmed facts, inferred findings, assumptions, open-question resolution map, conflicts, glossary candidates, synthesis delta, next-batch focus ve saturation sinyali zorunlu hale getirildi.
 
 ### Current State
-Phase 1 workspace belgeleri kullanici onayi bekliyor. Gate 1 -> 2 henuz gecilmedi ve Phase 2 discovery baslatilmadi.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 01 READY` olarak guncellendi. Kullanici Batch 01 promptunu yeni AI sohbetine verecek ve tamamlanan portable handoff paketini ana proje yoneticisine geri getirecek.
