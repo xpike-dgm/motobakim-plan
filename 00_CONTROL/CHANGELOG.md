@@ -35,6 +35,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - DEC-0003 SUPERSEDED yapildi.
 - DEC-0004 ile sekiz asamali workflow LOCKED hale getirildi.
 - DEC-0005 ile kanit/sentez/karar ayrimi LOCKED hale getirildi.
+- DEC-0006 ile kullanici-facing discovery soru oturumlarinin diger AI'lara kontrollu promptlarla delege edilmesi LOCKED hale getirildi.
+
+### Phase 1 Delegation
+- `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md` olusturuldu.
+- Prompt ilk 5 genel, teknik olmayan soruyu kapsayacak sekilde sinirlandi.
+- Diger AI'nin cevaplardan PROJECT_VISION, CONSTRAINTS, ASSUMPTIONS, GLOSSARY ve OPEN QUESTIONS adaylari cikarmasi tanimlandi.
+- Diger AI'nin kendiliginden 30 soruluk discovery turuna gecmesi yasaklandi; kontrol proje yoneticisinde tutuldu.
 
 ### Current State
-Durum `PHASE-1 / WORKSPACE READY_TO_START` olarak guncellendi. Uygulama urun kesfi veya teknik karar sureci henuz baslamadi.
+Durum `PHASE-1 / WORKSPACE DISCOVERY DELEGATED` olarak guncellendi. Kullanici diger AI oturumundan ilk workspace discovery ciktisini getirecek; ChatGPT bunu kalite kontrolunden gecirip source-of-truth belgelerine isleyecek.
