@@ -2,39 +2,41 @@
 
 ## Current Phase
 
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 06 READY`
+`PHASE-2 / PRODUCT DISCOVERY — BATCH 07 READY`
 
 ## Current Objective
 
-Batch 05 (Q126-Q155) tamamlandi, ham evidence repository'ye verbatim kaydedildi ve working DRAFT product synthesis kalite kontrolunden gecirilerek guncellendi. Siradaki is yeni AI oturumunda Q156-Q185 Batch 06 sorularini sormaktir.
+Batch 06 (Q156-Q185) tamamlandi, raw evidence repository'ye verbatim kaydedildi ve working DRAFT product synthesis kalite kontrolunden gecirilerek guncellendi. Siradaki is yeni AI oturumunda Q186-Q215 Batch 07 sorularini sormaktir.
 
 ## Completed
 
 - Kalici AI memory system ve 8-phase workflow aktif.
 - Phase 1 workspace baseline user tarafindan APPROVED; Gate 1 -> 2 tamamlandi.
-- Batch 01 Q006-Q035, Batch 02 Q036-Q065, Batch 03 Q066-Q095, Batch 04 Q096-Q125 ve Batch 05 Q126-Q155 tamamlandi; raw evidence korunuyor.
-- `SESSION-005_BATCH_05_Q126_Q155.md` ile Batch 05 verbatim evidence kaydedildi.
-- Batch 05 delegated classification/resolution adaylari otomatik kabul edilmedi; raw answers uzerinden QC yapildi.
-- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 05 ile rafine edildi.
-- `ASSUMPTIONS.md`: ASM-022 RESOLVED; ASM-019/023/024/025 SUPPORTED; ASM-021 CHALLENGED olarak korundu; ASM-026 — ASM-030 yeni OPEN assumptions.
-- `GLOSSARY.md` Batch 05 domain concepts ile guncellendi.
-- `OPEN_QUESTIONS.md`: Q-0004, Q-0026, Q-0027, Q-0035, Q-0036, Q-0042, Q-0043, Q-0044, Q-0045 ANSWERED; Q-0046 — Q-0055 yeni narrowed OPEN gaps.
-- `02_DISCOVERY/BATCH_06_AI_PROMPT.md` Q156-Q185 icin hazirlandi.
+- Batch 01 Q006-Q035, Batch 02 Q036-Q065, Batch 03 Q066-Q095, Batch 04 Q096-Q125, Batch 05 Q126-Q155 ve Batch 06 Q156-Q185 tamamlandi; raw evidence korunuyor.
+- `SESSION-006_BATCH_06_Q156_Q185.md` ile Batch 06 verbatim evidence kaydedildi.
+- Batch 06 delegated classification/resolution adaylari automatic kabul edilmedi; raw answers uzerinden QC yapildi.
+- Portable Batch 06 assumption IDs canonical registry ile celistigi icin sessizce yeniden kullanilmadi; evidence canonical assumptions'a dogru baglandi.
+- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 06 ile rafine edildi.
+- `ASSUMPTIONS.md`: ASM-026/027/028/029 SUPPORTED; ASM-030 OPEN korundu; ASM-031 — ASM-035 yeni OPEN assumptions.
+- `GLOSSARY.md` Batch 06 history/evidence/recovery kavramlariyla guncellendi.
+- `OPEN_QUESTIONS.md`: Q-0046, Q-0047, Q-0048, Q-0049, Q-0051, Q-0052, Q-0053, Q-0054, Q-0055 ANSWERED; Q-0050 narrowed OPEN; Q-0056 — Q-0064 yeni OPEN gaps.
+- `02_DISCOVERY/BATCH_07_AI_PROMPT.md` Q186-Q215 icin hazirlandi.
 
-## Batch 05 Quality-Control Notes
+## Batch 06 Quality-Control Notes
 
 - Previous reliable context ile direct conflict yok.
-- Professional recommendation optional support; unverified critical condition mandatory application closure olarak ayrildi.
-- Self-service re-entry evidence-gated; user assertion previous stop'u kaldirmaz.
-- Actual deletion legal retention/technical deletion architecture karari degildir.
-- Community withdrawal de-identified review trace user expectation'dir; legal/privacy feasibility henuz belirlenmedi.
-- Evidence labels common vocabulary tasiyabilir fakat verified claim context-specific'tir; `verified` perfect workmanship/outcome guarantee degildir.
-- Selective ownership transfer complete history gibi sunulamaz; covered period/gaps visible, private untransferred content hidden, corrections silent overwrite degil proposal/review modelidir.
-- Initial direct target owner'dir; professional/service invited contributor context olabilir. Ayrı professional work-management product future possibility'dir.
-- Premium synthesis rafine edildi: basic multi-bike separation + reasonable history core; large media/advanced comparative analysis/extensive collaboration premium candidate. Final package/price/business viability yok.
-- Freshness gate claim/risk sensitive; numeric TTL yok.
-- Active-repair voice/easy-touch safety warnings, fit, values, stop/post-check ve critical confirmations'i kaldiramaz.
-- Q151 `ekran`, Q154 `kartlar` final UI/component karari olarak alinmadi.
+- Core history exact quota degil longitudinal trust fields + safety/evidence/correction continuity olarak tanimlandi.
+- Expanded storage high-volume/high-resolution media value; premium existing core history/safety evidence'i gizleyemez veya silemez.
+- Basic multi-bike separation premium entitlement degil motorcycle-isolation invariant'i olarak guclendi.
+- Ownership history repeated transfers owner/period/coverage/gaps ile aciklanir; partial transfers complete history olarak birlestirilemez.
+- Q163 `degistirilemez iz` technical immutable-ledger/event-sourcing karari yapilmadi.
+- Community evidence withdrawal automatic global invalidation degil; dependent claim/guide re-review + remaining independent evidence evaluation'dir.
+- Shared data'da owner record lifecycle, contributor evidence lifecycle ve historical attribution ayrildi; transferred-independent-copy edge case acik tutuldu.
+- Evidence disclosure risk-adaptive: low-risk concise, high-risk explicit; Q174 wording'i final UI component karari yapilmadi.
+- Local-to-profile transition trust expectation'i technical sync/transaction architecture karari yapilmadi.
+- Physical-state remapping product expectation'dir; computer vision feasibility guarantee degildir.
+- Active repair resume last viewed step'e donus degil last-known-safe state + current revalidation'dir.
+- Paid service document role authority yaratmaz; unresolved completion verified fact olarak kullanilamaz.
 
 ## Current Discovery Coverage
 
@@ -43,41 +45,45 @@ Yuksek gelisen alanlar:
 - Safety/readiness/stop/re-entry semantics
 - Variant/modification fit
 - Maintenance/history/provenance
-- Content review/recall/community governance
-- Evidence language baseline + context-specific semantics
-- Notifications/catch-up
+- Core history vs expanded evidence archive
+- Multi-bike isolation vs advanced garage
+- Ownership transfer/repeated-transfer trust
+- Content review/recall/community withdrawal
+- Evidence language + risk-adaptive disclosure
+- Shared motorcycle/collaboration baseline
+- External-service dispute semantics
+- Notifications/correction reach-back baseline
 - Commercial neutrality + free-core boundary
 - User segmentation/product priority
-- Shared motorcycle/professional-adjacent collaboration
-- Ownership transfer/archive/delete baseline
-- Offline/freshness semantics
-- First-use/profile triggers
+- Offline/freshness + changed-guide recovery
+- First-use/profile migration baseline
 - Accessibility/active-repair safety
+- Active-repair interruption/resume
 - Non-goal/trust boundaries
 
 Narrowed OPEN edge cases:
-- Basic history vs expanded storage
-- Basic multi-bike vs advanced garage
-- Transfer correction disagreement / repeated ownership transfer
-- Withdrawn community evidence downstream effects
-- Shared/collaborative deletion ownership
-- Evidence explanation depth by risk
-- Local-data continuity during profile transition
-- Mid-repair material guide change after re-check
-- Active-repair interruption/re-entry
-- Paid-service evidence vs owner observation dispute
+- Contributor evidence withdrawal vs independent/transferred copies
+- Disputed claim new-evidence resolution
+- Minimum historical claim-state semantics
+- Recovery from old-guide physical changes no longer recommended
+- Long interruption saved-state vs physical reality
+- Profile migration cancel/failure/rollback
+- Exact affected-user correction boundary
+- Beginner/experienced evidence-detail adaptation
+- Core invited collaboration vs premium extensive collaboration
+- Advanced garage/core shared-trust overlap
 
 Coverage signal Phase 2 completion veya Gate 2 -> 3 onayi degildir.
 
 ## In Progress
 
-Yok. Batch 06 promptu hazir.
+Yok. Batch 07 promptu hazir.
 
 ## Not Started
 
-- Batch 06 Q156-Q185 answers
-- Batch 06 raw session + QC + synthesis update
-- Batch 07+ gerekiyorsa further discovery
+- Batch 07 Q186-Q215 answers
+- Batch 07 raw session + QC + synthesis update
+- Batch 08+ gerekiyorsa further discovery
 - Gate 2 -> 3
 - Design phase
 - Technology strategy debate
@@ -89,10 +95,10 @@ Yok. Batch 06 promptu hazir.
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_06_AI_PROMPT.md` metnini yeni AI sohbetine verecek. Diger AI ilk mesajinda sadece Q156-Q185 arasindaki 30 teknik olmayan soruyu soracak. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 06` uretip duracak.
+Kullanici `02_DISCOVERY/BATCH_07_AI_PROMPT.md` metnini yeni AI sohbetine verecek. Diger AI ilk mesajinda sadece Q186-Q215 arasindaki 30 teknik olmayan soruyu soracak. Cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 07` uretip duracak.
 
-Kullanici paketin tamamini ana proje yoneticisi sohbetine geri getirecek. Batch 07 ancak Batch 06 raw evidence ve synthesis kalite kontrolunden sonra hazirlanacak. Phase 3'e gecilmeyecek.
+Kullanici paketin tamamini ana proje yoneticisi sohbetine geri getirecek. Batch 08 ancak Batch 07 raw evidence ve synthesis kalite kontrolunden sonra hazirlanacak. Phase 3'e gecilmeyecek.
 
 ## Last Refreshed
 
-2026-09-14
+2026-09-15
