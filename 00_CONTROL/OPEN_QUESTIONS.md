@@ -1,11 +1,8 @@
 # OPEN QUESTIONS
 
-Bu dosya, proje hafizasinda henuz kesinlesmemis konulari, celiskileri ve ileride cevaplanmasi gereken sorulari tutar.
-
-Bir AI burada bulunan bir konuyu kendi varsayimiyla kapatamaz. Kesin cevap kullanicidan veya yetkili karar surecinden gelmelidir.
+Bu dosya proje hafizasinda henuz kesinlesmemis urun sorularini tutar. Bir AI buradaki konuyu kendi varsayimiyla kapatamaz.
 
 ## Status Values
-
 - `OPEN`
 - `BLOCKED`
 - `ANSWERED`
@@ -15,264 +12,139 @@ Bir AI burada bulunan bir konuyu kendi varsayimiyla kapatamaz. Kesin cevap kulla
 
 ## Aktif Sorular
 
-### Q-0004 — High-consequence islemlerde profesyonel yardim / uygulamali stop siniri
+### Q-0046 — Basic history ile expanded storage arasindaki urun siniri
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Batch 01-04 safety discovery; Q068-Q069, Q096-Q101  
-**Question:** Uygulamali akis safety/readiness nedeniyle durdugunda hangi durumda once kullaniciya self-remediation + re-validation yolu sunulmali, hangi durumda profesyonel yardim ozellikle onerilmeli ve profesyonel yardimdan sonra self-service'e geri donus nasil beklenir?  
-**Impact:** Urun guvenligi ve self-service siniri.  
-**Resolution so far:** Ilk fiziksel mudahaleden once zorunlu kosullar dogrulanmali; yeni risk/uyusmazlik cikarsa akis durmali. Teaching/preparation erisilebilir kalir. Profesyonel yardim `sen yapamazsin` diliyle degil eksik kosulla gerekcelendirilmeli; fakat exact escalation trigger hala aciktir.
+**Context:** Q114-Q115, Q144-Q146  
+**Question:** Ucretsiz core icinde kalmasi gereken `makul/yeterli gecmis` hangi product value'yu mutlaka korumali; premium expanded media/storage hangi niteliksel farkta baslar?  
+**Impact:** Core-free boundary ve monetization trust.  
+**Resolution so far:** Temel history, islemi tamamlamak icin gereken evidence ve data export paywall olamaz. Cok buyuk medya arsivi premium adayi olabilir. Sayisal kota/fiyat henuz yok.
 
-### Q-0026 — Ucretli model / paketleme
+### Q-0047 — Basic multi-bike ile advanced garage arasindaki fark
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q065, Q087-Q088, Q114-Q115  
-**Question:** Ucretsiz core korunurken recurring degerler ile tek-seferlik degerler nasil ayrilmali; abonelik, one-time veya hybrid paket kullanici acisindan hangi kosullarda makul olur?  
-**Impact:** Ticari strateji.  
-**Resolution so far:** Motora uygun ayrintili rehber, kritik safety, temel bakım takibi ve kullanicinin kendi verisini almasi ucretsiz olmali. Gelismis analiz, ek depolama, coklu garaj, kisilestirme premium adayi; yazdirilabilir detayli arsiv veya kisilestirilmis ogrenme araci gibi surekli maliyet yaratmayan optional value icin one-time odeme makul olabilir. Final model secilmedi.
+**Context:** Q062, Q114, Q141, Q146  
+**Question:** Birden fazla motosikleti temel olarak ayri tutmak core iken `advanced multi-garage` hangi ek product value ile premium adayi olur?  
+**Impact:** User scope ve premium boundary.  
+**Resolution so far:** Birkaç motosikleti ayri tutmak core beklentidir; advanced comparative analysis ve kapsamli collaboration premium adayi olabilir.
 
-### Q-0027 — Kullanici motivasyonlari ve segment farklari
+### Q-0048 — Transfer sonrasi duzeltme uyusmazligi ve coklu devir
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q089, Q116-Q117  
-**Question:** Core self-service owner, record-only owner, shared-family user, multi-bike owner ve hobby helper gibi desteklenen baglamlarda ana motivasyonlar ve first-use beklentileri nasil farklasmali; hangi segment product priority'de merkezde kalmali?  
-**Impact:** User segmentation ve prioritization.  
-**Resolution so far:** Core odak bireysel surucunun kendi islemini ogrenip yapmasidir. Multi-bike, shared-family, baskasinin motorunda calisan hobby user ve record-only owner anlamli adjacent context'lerdir. Mevcut kullanici motivasyon sirasi tum segmentlere genellenemez.
+**Context:** Q120, Q135-Q137  
+**Question:** Eski sahibin duzeltme onerisi yeni sahip tarafindan reddedilirse veya motosiklet birden fazla kez el degistirirse farkli tarihsel iddialar/provenance nasil anlasilir kalmalidir?  
+**Impact:** Ownership-history trust.  
+**Resolution so far:** Transfer partial-history olarak isaretlenir; eski kayit sessizce overwrite edilmez; correction proposal attribution/time/prior version/evidence iziyle sunulur.
 
-### Q-0035 — Veri lifecycle edge case'leri
+### Q-0049 — Geri cekilen community contribution'in downstream etkisi
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q080, Q092-Q094, Q120-Q121  
-**Question:** Bir motosiklet gercekten silindiginde bagli history ne olmali; community'ye yayinlanan katki sonradan geri cekilebilir mi; export'ta evidence/provenance/edit trail ne kadar korunmali?  
-**Impact:** User ownership ve tarihsel guven.  
-**Resolution so far:** Archive silmeden ayridir ve reversible'dir. Transferde personal content default-private kalir. Silme kapsam/geri alinmazlik onceden aciklanmali; export ucretsiz ve yeniden kullanilabilir olmalidir. Bu edge case'lerin detaylari aciktir.
+**Context:** Q081-Q083, Q105-Q108, Q130  
+**Question:** Geri cekilen bir contribution daha once bir official guide, claim veya baska kullanici kararini etkilediyse hangi transparency/re-review ve kullanici uyarisi beklenir?  
+**Impact:** Content lifecycle ve community trust.  
+**Resolution so far:** Public contribution kaldirilir, personal info silinir; de-identified safety review trace korunabilir. Geri cekilen published correction affected guide icin re-review gerektirir.
 
-### Q-0036 — Profesyonel/servis kullanicilarinin hedef kapsam siniri
+### Q-0050 — Shared/collaborative kayitta deletion ownership siniri
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q116-Q119  
-**Question:** Profesyonel usta/servis MotoBakim'in dogrudan target user'i mi, yoksa owner/hobby user deneyimini destekleyen collaboration participant mi; profesyonel ihtiyaclar core owner urununu hangi noktada degistirmemeli?  
-**Impact:** User types ve scope.  
-**Resolution so far:** Baskasinin motosikletinde calisan hobby user ve record-only owner anlamli supported context'lerdir. Shared bike icin owner permission, attribution ve revocable access beklenir. Profesyonel servis target statusu hala aciktir.
+**Context:** Q118-Q121, Q129  
+**Question:** Owner kendi motosiklet/kaydini silmek isterken baska bir collaborator'in bagimsiz contribution veya aktarilmis kaydi varsa hangi kaydin kime ait oldugu ve neyin silinebilecegi product-level olarak nasil anlasilmalidir?  
+**Impact:** Data ownership ve collaboration trust.  
+**Resolution so far:** Owner'in kendi kopyasindaki bagli veriler silinebilir; baska kisilere aktarilmis independent records otomatik etkilenmez.
 
-### Q-0042 — Evidence taxonomy'nin baglama gore ayrismasi
+### Q-0051 — Evidence explanation depth by risk
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q074, Q082, Q109-Q110  
-**Question:** `Kullanici beyani / belgeli / incelenmis / dogrulanmis` etiketleri bakım kaydi, dis servis kaydi, community icerigi ve resmi teknik rehberde ayni semantigi mi tasimali; hangi baglamlarda farkli guven dili gerekir?  
-**Impact:** Trust language ve provenance consistency.  
-**Resolution so far:** Etiketlerin temel kullanici anlamlari netlesti. `Dogrulanmis`, kaynak + ilgili motosiklet/islem uygunlugu + inceleme tarihi/karar gorunurlugu bekler ve mutlak garanti degildir. Global tek taxonomy henuz kilitlenmedi.
+**Context:** Q109-Q110, Q132-Q134  
+**Question:** Hangi dusuk-risk baglamlarda kisa evidence label yeterli, hangi high-trust/high-risk baglamlarda `neyin hangi kanitla dogrulandigi ve neyin dogrulanmadigi` acik cümleyle zorunlu olmalidir?  
+**Impact:** Trust clarity ve information overload dengesi.  
+**Resolution so far:** Safety warnings, technical values, ownership transfer ve disputed records'ta label tek basina yeterli degildir.
 
-### Q-0043 — Selective ownership transfer ve history butunlugu
+### Q-0052 — Account-light first-use'tan kalici profile geciste local-data trust
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q120  
-**Question:** Kullanici yeni sahibe yalniz sectigi bakım kayitlarini aktarabiliyorsa, yeni sahibin eksik history'yi tam history sanmamasi icin urun hangi seffafligi saglamali?  
-**Impact:** Ownership transfer trust.  
-**Resolution so far:** Kisisel notlar/kimlik veya konum iceren fotograflar default-private; transfer oncesi preview beklenir. Parsiyel transferin completeness semantigi aciktir.
+**Context:** Q123, Q153-Q155  
+**Question:** Kullanici ilk real record'u saklamak, cross-device devam etmek veya collaboration baslatmak icin profile gecerken mevcut local history'nin korunmasi/aktarilmasi hakkinda hangi guvenceyi bekler?  
+**Impact:** First-use continuity ve user trust.  
+**Resolution so far:** Profile isteme nedeni ve mevcut local data'ya ne olacagi onceden aciklanmalidir. Teknik sync/auth cozumleri bu asamada secilmez.
 
-### Q-0044 — Kritik rehber freshness semantigi
+### Q-0053 — Mid-repair online re-check sonrasi kritik guide degisikligi
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q091, Q122; ASM-023  
-**Question:** Hangi tur kritik rehberlerde freshness expiry mantigi beklenir; stale fakat teaching-only icerik nasil davranmali ve online re-check mumkun olmadiginda kullaniciya hangi secenek/belirsizlik sunulmalidir?  
-**Impact:** Offline safety continuity.  
-**Resolution so far:** Kritik rehberde son dogrulama zamani gorunmeli; guncellik siniri asildiysa application steps online kontrol edilene kadar kapanabilir. Belirli sure/esik henuz yok.
+**Context:** Q028, Q059-Q060, Q122, Q147-Q149  
+**Question:** Kullanici yarim islemi offline stale guide ile durdurmusken online re-check sonrasi guide materially degismisse mevcut fiziksel motosiklet durumuyla yeni guide arasinda nasil guvenli gecis bekler?  
+**Impact:** Interrupted work + freshness safety.  
+**Resolution so far:** Kritik degisiklikte eski akis devam etmez; mevcut physical state yeni guide ile yeniden eslestirilir ve ilerleme/notlar korunur. Freshness senaryosundaki user-facing ayrinti aciktir.
 
-### Q-0045 — Aktif tamirde erisilebilirlik ve alternatif etkileşim safety siniri
+### Q-0054 — Active repair interruption ve dikkat kaybi sonrasi geri donus
 **Status:** OPEN  
 **Opened:** 2026-09-14  
-**Context:** Q125; ASM-025  
-**Question:** Sesli/minimum-dokunuslu rehber, eldiven/kirli el, gurultu veya ekrana bakamama durumunda nasil yardim etmeli; hangi safety-critical teyitler alternatif etkileşimde de atlanamamali?  
-**Impact:** Product accessibility ve active-repair usability.  
-**Resolution so far:** Buyuk yazi/dugme, yuksek kontrast, renk-disinda uyari, gorsel aciklama, altyazi, sesli adim ve kolay dokunus beklentileri CONFIRMED. Kritik confirmation edge case'i acik.
+**Context:** Q028, Q150-Q152  
+**Question:** Telefon kapanir, kullanici uygulamadan ayrilir veya dikkati dagilirsa kritik step state'e geri donmeden once hangi resume/re-confirmation davranisi beklenir?  
+**Impact:** Active-repair safety ve recovery.  
+**Resolution so far:** Interrupted-work baglami korunur; critical confirmations kolaylik ugruna atlanamaz.
+
+### Q-0055 — Paid service evidence ile owner observation celiskisi
+**Status:** OPEN  
+**Opened:** 2026-09-14  
+**Context:** Q063, Q109-Q110, Q133-Q140  
+**Question:** Ucretli servis belgesi belirli bir islemin yapildigini soylerken owner gozlemi/kaniti bununla celisirse iki iddia hangi evidence status ve dispute semantigiyle yan yana tutulmalidir?  
+**Impact:** External-service history trust.  
+**Resolution so far:** Paid role otomatik verified degildir; yapan kisi, service/document info ve evidence gorunur olmalidir.
 
 ---
 
-## Answered Questions
+## Answered Questions — Current Register
 
-### Q-0001 — Dogrulanmis teknik bilgi standardi
-**Status:** ANSWERED  
-**Evidence:** Q010-Q011  
-**Resolution:** Motosiklet/varyantla uyumlu guvenilir teknik kaynak, belge surumu/sayfa-bolum kaniti ve insan incelemesi beklenir; kritik kaynak celiskisi cozulmeden tek deger secilmez.
+Detayli ham kanit `02_DISCOVERY/SESSIONS/` altinda, onceki resolution tarihcesi `00_CONTROL/CHANGELOG.md` icindedir.
 
-### Q-0002 — Kullanici acisindan motosiklet varyanti kimlik kaniti
-**Status:** ANSWERED  
-**Evidence:** Q036-Q039, Q066-Q067  
-**Resolution:** Kullanici teknik kod/belge avina zorlanmamalidir. Observable ozellik ve fotograflarla ayrim denenir; yetmezse eksik ayrim gorunur olur ve versiyona ozel application acilmaz. Bu feasibility garantisi degildir.
-
-### Q-0003 — Teknik mudahale kapsaminin ust ve alt siniri
-**Status:** ANSWERED  
-**Evidence:** Q020, Q034, Q045-Q052  
-**Resolution:** Kullanici tum sistemleri ogrenebilmek ister; urun siniri mutlak kategori yasagindan cok motosiklet uyumu, ekipman/beceri/calisma kosulu ve sonucun dogrulanabilirligine dayanir.
-
-### Q-0005 — Deneyim seviyesine gore rehber farkliligi
-**Status:** ANSWERED  
-**Evidence:** Q007, Q014  
-**Resolution:** Yeni kullanici ayrintili gorsel/hareket anlatimi; deneyimli kullanici kisa checklist/teknik detay ister. Safety ve kritik dogrulama ayni kalir.
-
-### Q-0006 — `Guvenle yapilabilir` olcutu
-**Status:** ANSWERED  
-**Evidence:** Q017-Q021, Q034  
-**Resolution:** Dogru motosiklet-rehber eslesmesi, dogrulanmis kaynak, hazir arac/parca/ekipman, anlasilmis riskler ve kritik sonucun dogrulanabilirligi gerekir.
-
-### Q-0007 — Gorsel anlatim gereksinimleri
-**Status:** ANSWERED  
-**Evidence:** Q014-Q015, Q025  
-**Resolution:** Gercek/isaretli fotograf, uygun yerde cizim/video, acik safety/olcum metni ve basari kontrolu beklenir.
-
-### Q-0008 — Bakim zamanlamasi kriterleri
-**Status:** ANSWERED  
-**Evidence:** Q031, Q033  
-**Resolution:** Motosiklete uygun uretici km/sure araliklari ve dogrulanmis completion kaydi temel alinmali; dogrulanmamis aralik uretilmemeli.
-
-### Q-0009 — Bakim gecmisi veri beklentisi
-**Status:** ANSWERED  
-**Evidence:** Q029-Q030  
-**Resolution:** Islem/neden, tarih/km, parca/malzeme, olcum/kontroller, fotograf/not, sorun, yapan kisi ve rehber surumu gibi zengin history beklenir.
-
-### Q-0010 — Hatirlatma cadence, grouping ve kullanici kontrolu
-**Status:** ANSWERED  
-**Evidence:** Q032-Q033, Q064, Q070-Q072  
-**Resolution:** Rutinler gruplanabilir/kapatilabilir/ertelenebilir; acil safety ayrilir ve app icinde korunur. Mevcut kullanici gecikmis routine konuda haftada en fazla bir ozet tercih eder.
-
-### Q-0011 — Ariza teshisi ve onarim rehberligi ayrimi
-**Status:** ANSWERED  
-**Evidence:** Q012, Q022-Q024  
-**Resolution:** Teshis kanit toplar; yeterli kanitla repair guide'a gecer, olasi neden kesin teshis gibi sunulmaz.
-
-### Q-0012 — Islem sirasinda beklenmeyen durum
-**Status:** ANSWERED  
-**Evidence:** Q025-Q028  
-**Resolution:** Takilma/uyumsuzluk/hata normal ilerlemeyi durdurabilir; recovery, kanit kaydi ve profesyonel yardim yolu beklenir.
-
-### Q-0013 — Icerik governance ve insan incelemesi
-**Status:** ANSWERED  
-**Evidence:** Q040-Q044  
-**Resolution:** Uygulamali deneyimli insan incelemesi, content lifecycle re-review/hold/recall ve tarihsel surum korunmasi beklenir; ikinci review ek guvendir fakat evrensel zorunluluk degildir.
-
-### Q-0014 — Modifikasyon ve fabrika disi degisikliklerin etkisi
-**Status:** ANSWERED  
-**Evidence:** Q038-Q039  
-**Resolution:** Modifiye sistemde fabrika rehberi otomatik uygun sayilamaz; uygunluk belirlenmeden kritik adim baslamaz.
-
-### Q-0015 — Gorsel icerik bulunamadiginda fallback
-**Status:** ANSWERED  
-**Evidence:** Q054  
-**Resolution:** Dogrulanmis cizim/sema fallback olabilir; baska motosiklet gorseli ayniymis gibi sunulamaz.
-
-### Q-0016 — Guvenli esdeger arac/malzeme kriteri
-**Status:** ANSWERED  
-**Evidence:** Q053, Q055  
-**Resolution:** Esdeger olcu/uyum/dayanim/malzeme/islev/safety gerekliliklerini karsilamali; kritik ekipman eksiginde islem ertelenebilir.
-
-### Q-0017 — Teshiste yeterli kanit esigi
-**Status:** ANSWERED  
-**Evidence:** Q056-Q058  
-**Resolution:** Birden fazla ayirt edici kanit ve alternatif degerlendirmesi gerekir; belirsizlik surerse `Neden dogrulanamadi` ile kapanabilir.
-
-### Q-0018 — Kullanici beceri/readiness degerlendirmesi
-**Status:** ANSWERED  
-**Evidence:** Q050-Q052  
-**Resolution:** Oz-beyan tek basina yeterli degildir; gorev bazli deneyim/arac/olcum/on-kosul anlayisi dikkate alinir.
-
-### Q-0019 — Rehber surumu degistiginde davranis
-**Status:** ANSWERED  
-**Evidence:** Q059-Q060  
-**Resolution:** Yarim iste surum farklari gosterilir, kritik duzeltmede eski akis durur; tarihsel kayit sessizce yeniden yazilmaz.
-
-### Q-0020 — Monetization baseline
-**Status:** ANSWERED  
-**Evidence:** Q065  
-**Resolution:** Ileri kolayliklar premium olabilir; temel dogrulanmis rehber, kritik safety, bakım kaydi ve temel reminders ucretsiz beklenir.
-
-### Q-0021 — Kullanici katkisi / moderation baseline
-**Status:** ANSWERED  
-**Evidence:** Q080-Q084  
-**Resolution:** Community explicit opt-in, provenance/review statuslu ve resmi rehberden ayridir; tehlikeli icerik kaldirilip etkisi yonetilir.
-
-### Q-0022 — Gecmis duzeltme ve dis islem kanit baseline
-**Status:** ANSWERED  
-**Evidence:** Q073-Q074  
-**Resolution:** Edit trail korunur; farkli evidence seviyeleri ayni guven statusu gibi sunulmaz.
-
-### Q-0023 — Sosyal/ticari ozelliklerin urun siniri
-**Status:** ANSWERED  
-**Evidence:** Q084-Q086, Q088  
-**Resolution:** Community/resmi rehber ayrilir; servis/satin alma self-service core'un yerini almaz ve ticari etki teknik uygunlugu degistiremez.
-
-### Q-0024 — Bakim istisnalari ve eksik kosul bilgisi
-**Status:** ANSWERED  
-**Evidence:** Q061, Q075-Q077  
-**Resolution:** Dogrulanmamis modifiye-parca araligi uydurulmaz; verified istisna gerekcesiyle uygulanir; eksik kullanim kosulu gizlenmez.
-
-### Q-0025 — Islem suresi ve maliyet tahmininin guven siniri
-**Status:** ANSWERED  
-**Evidence:** Q078-Q079  
-**Resolution:** Sure aralik ve belirsizlikle, maliyet kalem/tarih/varsayim gorunurlugu ile sunulmalidir.
-
-### Q-0028 — Kullanici verisi uzerinde kontrol
-**Status:** ANSWERED  
-**Evidence:** Q092-Q094  
-**Resolution:** Kullanici kendi verisini gorur/duzeltir/ekler/siler/export eder; export premium degildir ve cross-account veri karismasi kabul edilmez.
-
-### Q-0029 — Zayif/olmayan baglanti durumunda temel deneyim
-**Status:** ANSWERED  
-**Evidence:** Q090-Q091  
-**Resolution:** Indirilmis rehber/gorsel/safety/progress/history offline erisilebilir; surum/guncellik gorunur ve roadside belirsizlik gizlenmez.
-
-### Q-0030 — Readiness yanlis engelleme ve override siniri
-**Status:** ANSWERED  
-**Evidence:** Q096-Q098  
-**Resolution:** False-positive durumunda eksik kosul ve gerekce gorunur olur, kullanici fotograf/olcum/alternatif kontrol gibi yeni kanitla re-validation yapabilir. Salt `yapabilirim` beyanı safety gate'i gecemez; varyant, kritik bilgi, ekipman, guvenli ortam ve zorunlu pre-check eksigi override edilemez.
-
-### Q-0031 — Modifiye motosikletlerde kapsama beklentisi
-**Status:** ANSWERED  
-**Evidence:** Q102-Q104  
-**Resolution:** Yaygin aftermarket degisikliklar uygunluk dogrulanirsa uyarlanmis rehbere dahil edilebilir. Nadir/custom durumda hangi kanitin eksik oldugu aciklanir; teaching-only guvenilir genel bilgi kalabilir, zarar verebilecek application adimlari dogrulanana kadar acilmaz.
-
-### Q-0032 — Community moderation itiraz ve uyusmazliklari
-**Status:** ANSWERED  
-**Evidence:** Q105-Q108  
-**Resolution:** Kaldirma gerekceli/saygili ve itiraz edilebilir olmali; correction/re-submit yolu bulunmali. Tekrarlanan yanlista pre-review, kasitli/surekli tehlikeli tekrarda contribution restriction olabilir. Faydalı ama dogrulanamamis deneyim `dogrulanmamis kisisel deneyim` olarak resmi rehberden ayri kalabilir.
-
-### Q-0033 — Kanit duzeyi etiketlerinin temel semantigi
-**Status:** ANSWERED  
-**Evidence:** Q109-Q110  
-**Resolution:** `Kullanici beyani` kullanicinin girdisidir; `belgeli` destekleyici kanit tasir; `incelenmis` kanitin kontrol edildigini; `dogrulanmis` ise kaynak + ilgili motosiklet/islem uygunlugu + inceleme tarihi/karar gorunurlugunu ifade etmelidir. Mutlak garanti degildir. Baglamsal taxonomy Q-0042'de aciktir.
-
-### Q-0034 — Kritik bildirimlerde istisnai escalation
-**Status:** ANSWERED  
-**Evidence:** Q111-Q113  
-**Resolution:** Kritik konu routine reminders arasinda kaybolmaz; app acilisinda safety ozeti ve gecikmenin sonucu gorunur. Birden cok kritik konu zarar/aciliyetle siralanir; uzun aradan donuste notification flood yerine kritik safety -> geciken bakım -> kayitlar sirali catch-up summary beklenir.
-
-### Q-0037 — Paylasilan motosiklet / ortak calisma
-**Status:** ANSWERED  
-**Evidence:** Q118-Q119  
-**Resolution:** Owner access izni verir; contributor kendi kimligiyle kayit ekler; attribution, zaman ve edit trail gorunur; izin geri alinabilir; baskasinin kaydi sessizce degistirilemez ve private notes izinsiz acilmaz.
-
-### Q-0038 — Dil, olcu birimi ve erisilebilirlik beklentileri
-**Status:** ANSWERED  
-**Evidence:** Q124-Q125  
-**Resolution:** Turkiye odakli acik Turkce, alisilmis olcu birimleri, deneyime gore terminoloji derinligi; buyuk yazi/dugme, yuksek kontrast, non-color-only warning, image description, caption, voice steps ve kolay dokunus beklentileri vardir. Global expansion karari degildir.
-
-### Q-0039 — Motosiklet satma/devretme/arsivleme
-**Status:** ANSWERED  
-**Evidence:** Q120-Q121  
-**Resolution:** Secili bakım history/kanit transfer edilebilir; personal note ve kimlik/konum iceren fotograflar default-private ve transfer preview'lu olmalidir. Archive aktif garajdan cikarir fakat history'yi korur ve reversible'dir; delete ile ayni degildir.
-
-### Q-0040 — Offline stale/recall durumunda temel guvenli davranis
-**Status:** ANSWERED  
-**Evidence:** Q122  
-**Resolution:** Kritik offline rehberde son dogrulama zamani gorunmeli; guncellik siniri asildiysa application adimlari baglanti kurulup re-check edilene kadar acilmayabilir. Sayisal freshness policy Q-0044'te aciktir.
-
-### Q-0041 — Ilk kullanim / onboarding ve hesap beklentisi
-**Status:** ANSWERED  
-**Evidence:** Q123  
-**Resolution:** Kullanici ilk acilista motosikletini secip rehber deneyimini hizla gormek ister; account creation, notification permission ve uzun profil ilk degerden once zorunlu olmamali, kayit/sync ihtiyacinda istenmelidir. Teknik auth modeli secilmemistir.
+- **Q-0001 ANSWERED — Q010-Q011:** Dogrulanmis teknik bilgi motosiklet/varyantla uyumlu kaynak + provenance + insan incelemesine dayanir; kritik source conflict cozulmeden tek deger secilmez.
+- **Q-0002 ANSWERED — Q036-Q039, Q066-Q067:** Kullanici teknik kod avina zorlanmaz; observable evidence denenir, yetersizse variant-specific application kapanir.
+- **Q-0003 ANSWERED — Q020, Q034, Q045-Q052:** Kapsam kategori yasagindan cok dogrulanmis kosullar ve stop-gates ile sinirlanir.
+- **Q-0004 ANSWERED — Q126-Q128:** Blocked readiness'ta once re-evaluation + self-remediation + re-validation; professional help destek secenegidir, kritik unverified condition ise mandatory application closure'dur. Kosul yeniden saglanip dogrulaninca self-service'e donulebilir.
+- **Q-0005 ANSWERED — Q007, Q014:** Beginner detailed, experienced fast view; safety ayni kalir.
+- **Q-0006 ANSWERED — Q017-Q021, Q034:** Guvenli application icin match, kaynak, arac/ekipman, risk anlayisi ve sonucu dogrulayabilme gerekir.
+- **Q-0007 ANSWERED — Q014-Q015, Q025:** Fotograf/cizim/video/metin ve basari kontrolu gorsel rehber modelini tanimlar.
+- **Q-0008 ANSWERED — Q031, Q033:** Manufacturer km/sure + verified completion; uydurma interval yok.
+- **Q-0009 ANSWERED — Q029-Q030:** Zengin history ve provenance korunur.
+- **Q-0010 ANSWERED — Q032-Q033, Q064, Q070-Q072:** Routine cadence/grouping/user control; critical safety app icinde kalir.
+- **Q-0011 ANSWERED — Q012, Q022-Q024:** Evidence-guided diagnosis repair guide'dan ayridir.
+- **Q-0012 ANSWERED — Q025-Q028:** Unexpected state recovery/stop/evidence/handoff gerektirir.
+- **Q-0013 ANSWERED — Q040-Q044:** Human review ve content lifecycle/review/recall modeli.
+- **Q-0014 ANSWERED — Q038-Q039:** Modified system fabrika rehberine otomatik eslesmez.
+- **Q-0015 ANSWERED — Q054:** Verified visual fallback; wrong-bike visual yok.
+- **Q-0016 ANSWERED — Q053-Q055:** Safe equivalent ancak islev/safety gereklilikleri dogrulanirsa.
+- **Q-0017 ANSWERED — Q056-Q058:** Diagnosis evidence threshold sabit sayi degil; unresolved result mumkun.
+- **Q-0018 ANSWERED — Q050-Q052:** Task-specific readiness oz-beyandan fazlasini gerektirir.
+- **Q-0019 ANSWERED — Q059-Q060:** Guide version change yarim/gecmis isi sessizce yeniden yazmaz.
+- **Q-0020 ANSWERED — Q065:** Core safety/guide/history/reminders free baseline.
+- **Q-0021 ANSWERED — Q080-Q084:** Community opt-in, provenance/review statuslu ve official guide'dan ayridir.
+- **Q-0022 ANSWERED — Q073-Q074:** History edit trail + evidence levels korunur.
+- **Q-0023 ANSWERED — Q084-Q088:** Social/commercial support core'u golgelemez; technical neutrality korunur.
+- **Q-0024 ANSWERED — Q061, Q075-Q077:** Maintenance exceptions verified olmalidir; uncertainty gizlenmez.
+- **Q-0025 ANSWERED — Q078-Q079:** Time/cost estimate uncertainty/assumptions ile sunulur.
+- **Q-0026 ANSWERED — Q144-Q146:** Recurring service value ile one-time optional value ayrisabilir; core guide/safety/reasonable history/export/basic multi-bike paywall olamaz. Final price/package secilmedi.
+- **Q-0027 ANSWERED — Q141-Q143, Q153-Q155:** Priority beginner+experienced self-service owner; basic record tracking first-version value; adjacent segment values ve first-use farklari tanimli.
+- **Q-0028 ANSWERED — Q092-Q094:** User data control/export/delete baseline.
+- **Q-0029 ANSWERED — Q090-Q091:** Offline/roadside continuity baseline.
+- **Q-0030 ANSWERED — Q096-Q098:** Readiness challenge = evidence-based re-validation, serbest override degil.
+- **Q-0031 ANSWERED — Q102-Q104:** Common aftermarket adapted guide; custom durumda teaching-only + evidence gap fallback.
+- **Q-0032 ANSWERED — Q105-Q108:** Moderation reason/appeal/re-submit/pre-review/restriction ve unverified personal-experience statusu.
+- **Q-0033 ANSWERED — Q109-Q110:** Evidence labels temel semantigi ve `verified != guarantee`.
+- **Q-0034 ANSWERED — Q111-Q113:** Critical reminder escalation/catch-up summary.
+- **Q-0035 ANSWERED — Q129-Q131:** Delete kendi bagli kopyasini kapsar; independent transferred records etkilenmez; community withdrawal public/personal data'yi kaldirir, de-identified safety trace kalabilir; export provenance/evidence/edit history tasir.
+- **Q-0036 ANSWERED — Q138-Q140:** Initial direct target owner; professional/service/hobby helper invited collaboration context; separate work-management product later olabilir.
+- **Q-0037 ANSWERED — Q118-Q119:** Shared motorcycle permission/attribution/edit trail/private-note isolation.
+- **Q-0038 ANSWERED — Q124-Q125:** Turkiye-first language/units + accessibility baseline.
+- **Q-0039 ANSWERED — Q120-Q121:** Selective transfer + archive lifecycle baseline.
+- **Q-0040 ANSWERED — Q122:** Offline stale critical guide application re-check'e kadar kapanabilir.
+- **Q-0041 ANSWERED — Q123:** First value account/permission zorunlulugundan once gorulebilir.
+- **Q-0042 ANSWERED — Q132-Q134:** Common evidence vocabulary + context-specific verified claim; high-trust durumda explicit claim/evidence/unverified explanation gerekir.
+- **Q-0043 ANSWERED — Q135-Q137:** Selective transfer partial/incomplete olarak isaretlenir; covered period/gaps gorunur; private content korunur; post-transfer correction proposal attributed/reviewable olur.
+- **Q-0044 ANSWERED — Q147-Q149:** Freshness application-critical claim'lerde gate'tir; stale teaching/reference kalabilir; long-offline durumda critical application re-check'e kadar kapali kalir. Numeric threshold yok.
+- **Q-0045 ANSWERED — Q150-Q152:** Active-repair accessibility alternate modalities kullanabilir fakat match/value/stop/post-check/critical confirmation safety invariants'i kaldiramaz.
 
 ---
 
 ## Kullanim Kurali
-
-Yeni bir belirsizlik ortaya ciktiginda ayni format kullanilir. Soru ancak kullanici cevabi veya yetkili karar sureciyle `ANSWERED` yapilir. Genis bir soru cevaplandiginda daha dar yeni sorular acilabilir; eski cevap sessizce silinmez.
+Yeni belirsizlik ayni formatta eklenir. Soru yalniz kullanici kaniti veya yetkili karar sureciyle `ANSWERED` yapilir. Genis bir soru kapaninca daha dar edge-case sorusu acilabilir; eski cevap sessizce silinmez.
