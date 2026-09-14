@@ -15,7 +15,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `01_WORKSPACE` ortak bilgi calisma alani olusturuldu.
 - `02_DISCOVERY` soru batch, conflict ve synthesis yapisi olusturuldu.
 - `03_DESIGN` screen catalog, navigation, state matrix ve reference index yapisi olusturuldu.
-- `04_TECH_STRATEGY` uzman rolleri, evaluation, debate, judge ve risk yapisi olusturuldu.
+- `04_TECH_STRATEGY` uzman roller, evaluation, debate, judge ve risk yapisi olusturuldu.
 - `05_ADR` karar kaydi alani olusturuldu.
 - `06_DELIVERY_PLANNING` Epic -> Capability -> Feature -> User Flow -> Task yapisi olusturuldu.
 - `07_AI_ARCHITECTURE` AI guvenli gelistirme mimarisi calisma belgeleri olusturuldu.
@@ -43,5 +43,16 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Diger AI'nin cevaplardan PROJECT_VISION, CONSTRAINTS, ASSUMPTIONS, GLOSSARY ve OPEN QUESTIONS adaylari cikarmasi tanimlandi.
 - Diger AI'nin kendiliginden 30 soruluk discovery turuna gecmesi yasaklandi; kontrol proje yoneticisinde tutuldu.
 
+### Phase 1 Workspace Synthesis Review
+- Kullanici diger AI'dan gelen yapilandirilmis Phase-1 sentezini geri getirdi.
+- `01_WORKSPACE/PROJECT_VISION.md` `REVIEW` durumunda gercek urun vizyonuyla dolduruldu.
+- `01_WORKSPACE/CONSTRAINTS.md` yeniden siniflandirildi; normal feature gereksinimleri constraint katmanindan ayrildi.
+- `01_WORKSPACE/ASSUMPTIONS.md` 5 acik varsayimla dolduruldu.
+- `01_WORKSPACE/GLOSSARY.md` ilk domain terimleriyle dolduruldu.
+- 12 acik urun sorusu `00_CONTROL/OPEN_QUESTIONS.md` icine eklendi.
+- Tehlikeli/uzmanlik gerektiren islemlerin kapsanmasi kullanici niyeti olarak korundu ancak guvenlik siniri cozulmeden kosulsuz urun politikasi yapilmadi.
+- `DOCUMENT_REGISTRY.md` icinde `01_WORKSPACE/*` statusu `REVIEW` yapildi.
+- `CURRENT_STATE.md` ve `HANDOFF.md`, `PHASE-1 / WORKSPACE REVIEW_REQUIRED` durumuna tazelendi.
+
 ### Current State
-Durum `PHASE-1 / WORKSPACE DISCOVERY DELEGATED` olarak guncellendi. Kullanici diger AI oturumundan ilk workspace discovery ciktisini getirecek; ChatGPT bunu kalite kontrolunden gecirip source-of-truth belgelerine isleyecek.
+Phase 1 workspace belgeleri kullanici onayi bekliyor. Gate 1 -> 2 henuz gecilmedi ve Phase 2 discovery baslatilmadi.
