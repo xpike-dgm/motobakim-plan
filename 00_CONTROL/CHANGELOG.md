@@ -69,7 +69,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Ownership transfer/history trust derinlesti: rejected correction accepted record'u overwrite etmez; disputed claim provenance ile kalir; repeated transfers owner/period/coverage/gaps ile ayrilir; partial periods complete history diye sunulamaz.
 - Q163'teki `degistirilemez iz` product historical-integrity expectation'i olarak korundu; immutable ledger/event sourcing/database architecture karari yapilmadi.
 - Withdrawn community evidence dependent official guide/claim icin dependency-aware re-review tetikler. Independent evidence yeterliyse claim review sonrasi kalabilir; yetersizse verification/application korunmaz. Safety/technical/applied-critical impact correction reach-back gerektirebilir.
-- Shared collaboration'da motorcycle record lifecycle, contributor evidence lifecycle ve historical attribution ayrildi. Owner delete baska contributor'in independent data'sini sessizce silemez; contributor evidence withdrawal trust re-evaluation tetikler. Independent transferred-copy edge case OPEN kaldı.
+- Shared collaboration'da motorcycle record lifecycle, contributor evidence lifecycle ve historical attribution ayrildi. Owner delete baska contributor'in independent data'sini sessizce silemez; contributor evidence withdrawal trust re-evaluation tetikler. Independent transferred-copy edge case OPEN kaldi.
 - Evidence explanation risk-adaptive hale geldi: low-risk concise label; high-risk/disputed context explicit claim/motorcycle/evidence/reviewer/uncertainty. Q174'teki UI wording final component karari yapilmadi.
 - Account-light -> profile transition trust-preserving migration olarak rafine edildi: scope preview, no silent loss, conflict review, no silent overwrite. Technical sync/transaction architecture secilmedi.
 - Material guide change mid-repair current physical motorcycle state ile new guide arasinda physical-state remapping gerektirir; photo-based expectation computer-vision guarantee veya vendor karari yapilmadi.
@@ -81,5 +81,26 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `QUESTION_PROGRESS.md` Batch 06 complete / Batch 07 ready yapildi.
 - `02_DISCOVERY/BATCH_07_AI_PROMPT.md` Q186-Q215 icin adaptif olarak hazirlandi.
 
+### Product Discovery — Batch 07 Complete
+- User `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 07` icerigini ana yonetici sohbetine getirdi.
+- Q186-Q215 raw Q&A ve supplemental user note `02_DISCOVERY/SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` icine verbatim kaydedildi.
+- Delegated `ANSWERED/SUPPORTED` candidates automatic kabul edilmedi; raw user evidence ile QC yapildi.
+- Contributor evidence withdrawal semantics netlesti: independent/transferred record automatic silinmez; source access, provenance history, visibility ve current trust ayridir; withdrawn evidence evaluation'dan cikarilir ve remaining independent evidence ile claim yeniden review edilir.
+- Disputed claim resolution netlesti: new evidence prior dispute'i silent delete etmez; resolution review + evidence sufficiency gerektirir; prior disagreement ve resolution reason history'de kalir; new information correction/extension olarak prior claim'e baglanabilir.
+- Historical claim semantics az sayida current-state meaning + ayrintili claim-event history modeline daraldi. Candidate meanings accepted/disputed/insufficient-evidence/superseded; technical enum/schema karari yapilmadi.
+- Material guide change/long interruption recovery current physical state reconstruction ve critical re-validation'a dayandirildi. Automatic reversal, nearest-step guessing veya `user says unchanged` ile critical recheck bypass kabul edilmedi.
+- Profile migration cancel/failure/rollback local source preservation, partial-state transparency ve non-destructive conflict review ile netlesti; technical sync/transaction architecture secilmedi.
+- Correction reach-back interaction depth + risk ile ayristirildi; exact channel/SLA secilmedi.
+- Beginner/experienced trust adaptation explanation depth/speed'e sinirlandi; high-risk source/fit/uncertainty/conflict/safety ve mandatory checks invariant kaldi.
+- Basic shared-bike trust attribution/revoke/private-content separation/provenance/history integrity olarak netlesti; advanced collaboration participant/role/task/approval/bulk-coordination scale'inda ayrisabilir.
+- Batch 07 supplemental user note yeni PROPOSED entitlement preference getirdi: free `1 active motorcycle + 1 invitee + basic history/warnings + user-selected 1 full guide`; additional motorcycles/guides paid; existing records not locked.
+- Bu proposal APPROVED/LOCKED yapilmadi. Q159/Q161 broad free multi-bike interpretation ve Q065/Q087/Q145 core-guide interpretation ile refinement tensions `02_DISCOVERY/CONFLICTS.md` icinde CONF-001/CONF-002 olarak kaydedildi.
+- `OPEN_QUESTIONS.md`: Q-0050 ve Q-0056 — Q-0064 ANSWERED; entitlement lifecycle icin Q-0065 — Q-0069 OPEN.
+- `ASSUMPTIONS.md`: ASM-031/032/033/035/036 SUPPORTED; ASM-034 OPEN refinement; ASM-037 new OPEN.
+- `PRODUCT_MASTER.md` Batch 07 evidence ile guncellendi.
+- `02_DISCOVERY/SYNTHESIS/BATCH_07_DELTA.md` business-rule/journey/feature/non-goal/glossary additions'i additive olarak kaydetti.
+- `QUESTION_PROGRESS.md` 215/215; Batch 07 complete / Batch 08 ready yapildi.
+- `02_DISCOVERY/BATCH_08_AI_PROMPT.md` Q216-Q245 entitlement-lifecycle closure icin hazirlandi.
+
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 07 READY`. Batch 08, Batch 07 raw evidence ve synthesis QC tamamlanmadan hazirlanmayacak; Gate 2 -> 3 otomatik gecilmeyecek.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 08 READY`. Batch 08 sonrasinda yeni substantive product gaps kalmazsa automatic Batch 09 yerine discovery saturation + Gate 2 readiness review yapilacak. Gate 2 -> 3 ve Design user approval olmadan baslatilmayacak.
