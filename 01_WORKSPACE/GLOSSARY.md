@@ -72,18 +72,28 @@ Projede kullanilan domain terimlerinin tek anlamli sozlugu. `PROPOSED` terimler 
 | Independent Transferred Record | Kaynak owner kopyasindan ayri olarak baskasina aktarilmis ve kaynak deletion'dan otomatik etkilenmemesi beklenen record. | USER + INFERRED | Kaynakla ayni mutable kopya | PROPOSED |
 | De-identified Review Trace | Contribution withdrawal sonrasi contributor identity olmadan safety/review history amaciyla korunabilecek inceleme izi. | USER | Public contribution'in aynen tutulmasi | PROPOSED |
 | Context-specific Evidence Semantics | Ortak evidence vocabulary korunurken hangi claim'in verify edildiginin domain'e gore ayrilmasi. | USER + INFERRED | Tek global `verified` anlami | PROPOSED |
-| Partial-history Disclosure | Ownership transfer'da aktarılan kayitlarin complete history olmadigini, covered period ve gaps ile aciklama. | USER | `tam history` izlenimi | PROPOSED |
+| Partial-history Disclosure | Ownership transfer'da aktarilan kayitlarin complete history olmadigini, covered period ve gaps ile aciklama. | USER | `tam history` izlenimi | PROPOSED |
 | Historical Correction Proposal | Transfer sonrasi record'u silent overwrite etmek yerine attributed/reviewable duzeltme veya yeni bilgi onerisi. | USER | Sessiz degistirme | PROPOSED |
 | Record-only Owner | Ana degeri guide uygulamak yerine history, maintenance schedule ve reminder tracking'den alan owner context'i. | USER | Self-service kullanmak zorunda | PROPOSED |
 | Hobby Helper | Baskasinin motosikletinde owner izniyle yardim eden fakat paid professional service rolu tasimayan contributor. | USER | Professional ile ayni rol | PROPOSED |
 | Paid Service Record | Actor/evidence yaninda service/document information da tasiyan ucretli islem kaydi. | USER | Rol = otomatik verified | PROPOSED |
 | Core Completion Boundary | Free user'in temel islemi guvenli bicimde bastan sona tamamlamasi icin paywall disinda kalmasi gereken product-value siniri. | USER + INFERRED | Dolayli paywall | PROPOSED |
-| Reasonable History | Temel bakım gecmisini anlamli bicimde tutmaya yetecek ve core'dan cikarilmamasi beklenen history capacity kavrami; exact miktar yok. | USER | Numeric quota varsayma | PROPOSED |
+| Reasonable History | Core kullanimin longitudinal trust'ini koruyan motorcycle, work, date/km, actor, outcome, safety notes, evidence level ve correction history kapsamidir; exact numeric quota degildir. | USER | Sadece `bir miktar kayit` | PROPOSED |
 | Critical Freshness Scope | Eski kalmasi application safety/accuracy'yi etkiledigi icin re-check gerektiren claim kategorileri. | USER + INFERRED | Tum eski icerigi ayni gate'lemek | PROPOSED |
 | Stale Teaching-only Reference | Current application instruction olmayan fakat learning/risk/history icin erisilebilir kalan eski guide content. | USER | Current instruction gibi sunma | PROPOSED |
 | Reviewable Critical Confirmation | Voice/easy interaction yanlis anlasilsa bile explicit ve sonradan incelenebilir safety-critical teyit. | USER + INFERRED | Tek voice input | PROPOSED |
 | Account-light Preview | Persistence/collaboration baslamadan once product value'nun account zorunlulugu olmadan sinirli deneyimi. | INFERRED | Unlimited accountless usage | PROPOSED |
+| Expanded Evidence Archive | Islemi anlamak/dogrulamak icin gereken temel kanitin otesindeki high-volume/high-resolution photo, long video ve genis document archive degeri. | USER + INFERRED | Basic history ile ayni sayma | PROPOSED |
+| Motorcycle Isolation | Bir motosikletin history, mileage, reminders ve active-work state'inin diger motosikleti etkilememesi ilkesi. | USER + INFERRED | Cross-bike state karismasi | PROPOSED |
+| Advanced Garage | Basic motorcycle isolation'in otesindeki cross-bike analysis, bulk planning, richer collaboration ve large-archive search degeri. | USER | Basit multi-bike ayrimi | PROPOSED |
+| Disputed Historical Claim | Ayni tarihsel olay hakkinda provenance'i korunan ve unresolved bicimde yan yana bulunan celisen iddialar. | USER + INFERRED | Tek tarafi sessizce truth yapmak | PROPOSED |
+| Transfer Coverage | Ownership transfer ile gelen history'nin hangi owner/donem/kayitlari kapsadigini ve hangi donemlerin bilinmedigini gosteren kapsam. | USER + INFERRED | Partial history'yi complete gostermek | PROPOSED |
+| Evidence Withdrawal Trace | Supporting evidence geri cekildiginde historical claim ile withdrawal arasindaki baglantinin gorunur kalmasi. | USER + INFERRED | Kanit yokken eski verified statusu gizlice koruma | PROPOSED |
+| Risk-Adaptive Evidence Explanation | Evidence/provenance ayrintisinin risk, safety impact ve dispute seviyesine gore farkli derinlikte sunulmasi. | USER + INFERRED | Her yerde ayni uzunlukta trust metni | PROPOSED |
+| Physical-State Remapping | Interrupted veya materially changed guide durumunda motosikletin mevcut fiziksel halinin devamdan once guvenli bir guide noktasina yeniden eslestirilmesi. | USER + INFERRED | Sadece son gorulen step'e donmek | PROPOSED |
+| Resume Revalidation | Active-repair interruption sonrasi current safety/physical conditions ve last completed step'in yeniden dogrulanmasi. | USER + INFERRED | Onceki confirmation'i otomatik tasimak | PROPOSED |
+| Disputed Service Completion | Service document ile owner evidence/observation celistigi icin islemin gercekten tamamlanip tamamlanmadiginin unresolved kaldigi history state. | USER + INFERRED | Belge var = kesin tamamlandi | PROPOSED |
 
 ## Approval Note
 
-Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-05 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
+Bu glossary registry Phase 1 icin onaylanmistir. Batch 01-06 kullanici kanitlari terimleri rafine etmistir. Terimler `PROPOSED` kalir; nihai/LOCKED terminoloji karari henuz verilmemistir.
