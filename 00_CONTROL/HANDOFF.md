@@ -10,49 +10,27 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-2 / PRODUCT DISCOVERY — BATCH 08 READY`
+`PHASE-2 / PRODUCT DISCOVERY — GATE 2 REVIEW REQUIRED`
 
 ## What Just Happened
 
-Batch 07 portable package ana yonetici sohbetine getirildi. Q186-Q215 raw answers ve supplemental user note `02_DISCOVERY/SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` icine verbatim kaydedildi. Delegated AI'nin status/assumption/resolution adaylari automatic kabul edilmedi; raw user evidence ile QC yapildi.
+Batch 08 portable package ana yonetici sohbetine getirildi. Q216-Q245 raw answers `02_DISCOVERY/SESSIONS/SESSION-008_BATCH_08_Q216_Q245.md` icine verbatim kaydedildi. Delegated AI'nin status/gate-readiness adaylari automatic kabul edilmedi; raw user evidence ile QC yapildi.
 
-Batch 07 ile su alanlar kapandi/guclendi:
-- contributor evidence withdrawal vs independent/transferred records,
-- disputed claim + new independent evidence resolution,
-- current claim state vs claim event history,
-- material guide change sonrasi physical-state recovery,
-- long interruption state-drift revalidation,
-- profile migration cancel/failure/rollback,
-- affected-user correction reach-back,
-- beginner/experienced trust-detail adaptation,
-- basic shared-bike trust vs premium extensive collaboration,
-- advanced garage vs basic shared-trust boundary.
+Batch 08 ile entitlement lifecycle netlesti:
+- free current proposal: one active motorcycle; inactive motorcycles historical trust access'ini korur,
+- inactive routine reminders vs critical historical safety reach-back ayrildi,
+- one selected full-guide lifecycle ve guide invalidation replacement expectation'i,
+- entitlement change during active physical work safe-completion/recovery continuity,
+- `existing records unlocked` minimum semantics,
+- historical trust-maintenance writes vs new premium activity,
+- collaboration downgrade/inactive history-integrity behavior,
+- premium downgrade retroactive trust-loss non-goal'i.
 
-## Supplemental Monetization Proposal
+`CONFLICTS.md` CONF-001/CONF-002 Batch 08 evidence ile `RESOLVED_REFINEMENT` yapildi; monetization proposal final APPROVED/LOCKED tier karari degildir.
 
-User'in guncel **PROPOSED** preference'i:
+`02_DISCOVERY/GATE_2_REVIEW.md` discovery saturation recommendation'ini `READY_FOR_USER_APPROVAL` olarak kaydetti. Automatic Batch 09 hazirlanmadi.
 
-`Free: 1 active motorcycle + 1 invitee + basic history/warnings + user-selected 1 full guide. Additional motorcycles/guides paid; existing records not locked.`
-
-Bu APPROVED/LOCKED degildir.
-
-Earlier broad free multi-bike/core-guide evidence ile iki refinement tension `02_DISCOVERY/CONFLICTS.md` icinde CONF-001/CONF-002 olarak kaydedildi.
-
-## Batch 07 QC Protections
-
-- Withdrawal independent transferred history'yi automatic silmez.
-- Source access, provenance history, visibility ve current trust ayni kavram sayilmadi.
-- New evidence prior dispute'i silent delete etmez; resolution review+sufficiency ister.
-- Historical current-state semantics technical enum/schema karari yapilmadi.
-- Material guide change automatic reversal/nearest-step guessing'e izin vermez.
-- Long interruption `user says unchanged` ile critical rechecks'i atlatmaz.
-- Migration rollback/safe failure technical sync/transaction architecture secmez.
-- Correction reach-back exact notification channel/SLA secmez.
-- Experience adaptation trust-critical facts'i gizlemez.
-- Basic attribution/revoke/history-integrity premium trust feature'i yapilmadi.
-- `1 active bike + 1 invitee + 1 guide` exact tier/pricing policy olarak kilitlenmedi.
-
-## Evidence and Working Synthesis
+## Current Evidence and Synthesis
 
 Raw evidence:
 - `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md`
@@ -62,43 +40,42 @@ Raw evidence:
 - `SESSION-005_BATCH_05_Q126_Q155.md`
 - `SESSION-006_BATCH_06_Q156_Q185.md`
 - `SESSION-007_BATCH_07_Q186_Q215.md`
+- `SESSION-008_BATCH_08_Q216_Q245.md`
 
-Working DRAFT synthesis:
+Working synthesis:
 - `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-- `02_DISCOVERY/SYNTHESIS/BATCH_07_DELTA.md`
-- existing `USER_TYPES.md`, `USER_JOURNEYS.md`, `BUSINESS_RULES.md`, `FEATURE_CANDIDATES.md`, `NON_GOALS.md`
+- `USER_TYPES.md`
+- `USER_JOURNEYS.md`
+- `BUSINESS_RULES.md`
+- `FEATURE_CANDIDATES.md`
+- `NON_GOALS.md`
+- `BATCH_07_DELTA.md`
+- `BATCH_08_DELTA.md`
 
-Assumptions:
+Gate review:
+- `02_DISCOVERY/GATE_2_REVIEW.md`
+
+Assumptions/glossary:
 - `01_WORKSPACE/ASSUMPTIONS.md`
+- `01_WORKSPACE/GLOSSARY.md`
 
-Conflicts/refinements:
-- `02_DISCOVERY/CONFLICTS.md`
+## Batch 08 QC Protections
 
-Current gaps:
-- `00_CONTROL/OPEN_QUESTIONS.md` — Q-0065 — Q-0069
+- One-active-motorcycle proposal inactive data deletion/lock sonucu yapilmadi.
+- One-selected-guide proposal completion ortasinda paywall veya historical safety lock sonucu yapilmadi.
+- Started physical repair new-entitlement creation degil safe-continuity exception'i olarak tutuldu.
+- Historical trust-maintenance write'lari unrelated new routine activity'den ayrildi.
+- Historical essential evidence ile optional expanded media distinction'i exact quota/policy karari yapilmadi.
+- External links in user answers raw evidence olarak korundu; Google Play/RevenueCat external verification veya billing decision yapilmadi.
+- Price, subscription cadence, quota, wrong-guide correction exact timing ve safe-closure threshold final karara donusturulmedi.
 
-Next prompt:
-- `02_DISCOVERY/BATCH_08_AI_PROMPT.md` — Q216-Q245
+## Gate 2 Readiness
 
-## Answered in Batch 07 QC
+`GATE_2_REVIEW.md` conclusion: **READY_FOR_USER_APPROVAL**.
 
-Q-0050, Q-0056, Q-0057, Q-0058, Q-0059, Q-0060, Q-0061, Q-0062, Q-0063, Q-0064.
+No substantive product-definition blocker currently identified. Remaining items are validation/strategy/feasibility topics.
 
-## Current Open Focus
-
-- Free `1 active motorcycle` lifecycle
-- Free `1 selected full guide` lifecycle
-- Active physical repair continuity if entitlement changes
-- Minimum product meaning of `existing records stay unlocked`
-- Inactive/shared collaboration lifecycle after downgrade/switch
-
-## Saturation Direction
-
-Intended Batch 07 trust/recovery areas are HIGH coverage. Batch 08 is a narrow entitlement-lifecycle closure batch.
-
-If Batch 08 closes Q-0065—Q-0069 without creating new substantive product gaps, the next action is **discovery saturation + Gate 2 readiness review**, not automatic Batch 09.
-
-Gate 2 -> 3 still requires project-manager/user approval; Design does not start automatically.
+This is NOT Gate 2 pass yet.
 
 ## Locked Process Decisions
 
@@ -124,15 +101,17 @@ Gate 2 -> 3 still requires project-manager/user approval; Design does not start 
 10. `02_DISCOVERY/DISCOVERY_PROTOCOL.md`
 11. `02_DISCOVERY/QUESTION_PROGRESS.md`
 12. `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md`
-13. `02_DISCOVERY/SYNTHESIS/BATCH_07_DELTA.md`
-14. `02_DISCOVERY/CONFLICTS.md`
-15. `02_DISCOVERY/BATCH_08_AI_PROMPT.md`
+13. `02_DISCOVERY/SYNTHESIS/BATCH_08_DELTA.md`
+14. `02_DISCOVERY/GATE_2_REVIEW.md`
 
 ## Next Action
 
-Kullanici `02_DISCOVERY/BATCH_08_AI_PROMPT.md` promptunu yeni AI sohbetine verir. Diger AI yalniz Q216-Q245 30 teknik olmayan entitlement-lifecycle sorusunu sorar; cevaplardan sonra `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 08` uretir ve durur.
+User Phase 2 review icin su kararlardan birini verir:
+- APPROVE PHASE 2 / PASS GATE 2 -> 3
+- REQUEST TARGETED REVISION
+- CONTINUE BROAD DISCOVERY
 
-Batch 08 QC tamamlanmadan Gate 2 review yapilmaz; Phase 3'e gecilmez.
+User approval olmadan Design phase baslatilmaz.
 
 ## Last Updated
 2026-09-15
