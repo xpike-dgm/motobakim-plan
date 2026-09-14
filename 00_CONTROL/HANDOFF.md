@@ -16,29 +16,31 @@ ChatGPT proje mimari muhendisi ve yoneticisi olarak sureci koordine ediyor.
 
 ## Current Phase
 
-`PHASE-0 / MEMORY SYSTEM BOOTSTRAP`
+`PHASE-0 / MEMORY SYSTEM READY`
 
 ## Current Scope
 
-Yalnizca AI hafiza yonetim sistemi kuruluyor.
+Kalici AI hafiza yonetim sistemi hazir. Kullanici yeni bir asama baslatana kadar urun, tasarim, teknoloji, nihai mimari veya kodlama calismasi yapilmayacak.
 
 ## Important Locked Decisions
 
 - Proje hafizasi sohbet gecmisinde degil GitHub repository'de tutulacak.
 - Yeni AI oturumu repository uzerinden baglami yeniden kuracak.
 - Her anlamli asama sonunda hafiza dosyalari tazelenecek.
-- Su anda urun, tasarim, teknik mimari veya kodlama calismasi yapilmayacak.
+- ChatGPT proje mimari muhendisi ve yoneticisi rolunde olacak.
 
 ## Required First Reads
 
-1. `00_CONTROL/CURRENT_STATE.md`
-2. `00_CONTROL/SOURCE_OF_TRUTH.md`
-3. `00_CONTROL/DECISION_LOG.md`
-4. `00_CONTROL/OPEN_QUESTIONS.md`
+1. `00_CONTROL/AI_START_HERE.md`
+2. `00_CONTROL/CURRENT_STATE.md`
+3. `00_CONTROL/SOURCE_OF_TRUTH.md`
+4. `00_CONTROL/DECISION_LOG.md`
+5. `00_CONTROL/OPEN_QUESTIONS.md`
+6. `00_CONTROL/MEMORY_PROTOCOL.md`
 
 ## Next Instruction
 
-Hafiza sistemi tamamlandiktan sonra kullanicinin verecegi sonraki asama talimatini bekle.
+Kullanicinin sonraki talimatini bekle. Yeni asamaya gecildiginde once yukaridaki hafiza cekirdegini oku; is sonunda hafizayi tekrar tazele.
 
 ## Last Updated
 
