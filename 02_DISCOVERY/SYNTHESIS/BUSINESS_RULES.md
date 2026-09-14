@@ -115,13 +115,13 @@ Bu kurallar kullanici kanitindan turetilen teknik olmayan urun davranis kurallar
 | BR-107 | Large readable controls, contrast, non-color warning, image description, captions, voice/easy-touch accessibility needs'dir. | Accessibility | Implementation secilmedi | Q125 | CONFIRMED |
 | BR-108 | Blocked readiness'ta professional help'ten once assessment error check + learning/preparation/equipment/self-remediation + re-validation yolu sunulmalidir. | Readiness/escalation | External support tek cikis degil | Q126 | CONFIRMED |
 | BR-109 | Safety stop sonrasi same self-service guide'a donus ancak missing condition saglanip equipment, motorcycle fit ve critical checks yeniden verified olursa mumkundur. | Re-entry validation | User assertion yeterli degil | Q127 | CONFIRMED |
-| BR-110 | Professional recommendation optional support'tur; unverified critical condition nedeniyle application closure mandatory safety gate'tir. | Escalation semantics | Long duration option olabilir; uncertain technical value gate'tir | Q128 | CONFIRMED |
+| BR-110 | Professional recommendation optional support'tur; unverified critical condition nedeniyle application closure mandatory safety gate'tir. | Escalation semantics | — | Q128 | CONFIRMED |
 | BR-111 | Actual motorcycle deletion oncesi linked history/photo/measurement/reminder scope gosterilmeli; confirmed delete user's own copy linked data'sini kaldirmali, independent transferred records'i otomatik silmemelidir. | Data lifecycle | Legal/backup implementation karari degil | Q129 | CONFIRMED |
 | BR-112 | Community contribution withdrawal public content/personal info'yu kaldirmali; de-identified safety review trace korunabilir ve withdrawn correction affected guide re-review gerektirebilir. | Community lifecycle | Legal anonymization karari degil | Q130 | CONFIRMED |
 | BR-113 | Data export content yaninda source/provenance, evidence level, important corrections ve dates'i standard olarak tasimalidir. | Data portability | Technical format secilmedi | Q131 | CONFIRMED |
 | BR-114 | Evidence vocabulary'nin basic logic'i tutarli kalmali fakat `hangi claim review/verify edildi` context'e gore aciklanmalidir. | Evidence semantics | Tek global claim anlami yok | Q132 | CONFIRMED |
 | BR-115 | Verified maintenance record islemin yapildigina evidence oldugunu soyler, perfect workmanship guarantee etmez; verified technical guide source + motorcycle fit + application-step suitability claim'ini tasir. | Evidence semantics | — | Q133 | CONFIRMED |
-| BR-116 | Safety value, technical value, ownership transfer ve disputed record gibi high-trust baglamlarda label yaninda verified/unverified claim acik cümleyle anlatilmalidir. | Trust communication | Detail depth sonraki discovery'de rafine | Q134 | CONFIRMED |
+| BR-116 | Safety value, technical value, ownership transfer ve disputed record gibi high-trust baglamlarda label yaninda verified/unverified claim acik cümleyle anlatilmalidir. | Trust communication | Detail depth rafine edildi | Q134 | CONFIRMED |
 | BR-117 | Selective transfer explicitly incomplete/owner-selected history olarak isaretlenmeli; covered period ve visible gaps shown olmali, gaps completed maintenance gibi yorumlanmamalidir. | Ownership transfer | Private untransferred content acilmaz | Q135-Q136 | CONFIRMED |
 | BR-118 | Transfer sonrasi historical record silent overwrite edilemez; former owner correction proposal attribution/time ile sunulabilir ve prior version/evidence trail korunmalidir. | Ownership history | Current owner review/accept expectation'i var | Q137 | CONFIRMED |
 | BR-119 | Initial direct target owner'dir; professional/service owner-invited contributor olabilir ve professional-oriented complexity owner first-use'u domine etmemelidir. | User scope | Ayrı work-management product ileride olabilir | Q138-Q139 | CONFIRMED |
@@ -136,16 +136,35 @@ Bu kurallar kullanici kanitindan turetilen teknik olmayan urun davranis kurallar
 | BR-128 | Record-only first-use user rehber aramaya zorlanmadan motorcycle ekleyip latest work record ederek upcoming maintenance value'yu erken gorebilmelidir. | First-use | — | Q153 | CONFIRMED |
 | BR-129 | Shared/multi-bike first-use'ta motorcycle separation ve actor attribution erken anlasilmali; persistent shared record/cross-device continuity oncesi ownership kurulmalidir. | First-use/collaboration | `card` specific UI karari degil | Q154 | CONFIRMED |
 | BR-130 | First real record'u kalici saklama, cross-device continue veya collaborator invite etme profile gecis icin natural trigger olabilir; profile reason ve existing local data fate onceden aciklanmalidir. | First-use/profile | Technical auth/sync karari degil | Q155 | CONFIRMED |
+| BR-131 | Core history motorcycle, operation, date, mileage, actor, outcome, important safety notes, evidence level ve correction history'yi korumalidir; old basic records yalniz space acmak icin silinmemelidir. | Core history | Numeric quota karari degil | Q156 | CONFIRMED |
+| BR-132 | Islemi anlamak/dogrulamak icin gerekli evidence core'dur; high-volume high-resolution photos, long videos ve genis document archive expanded-storage value olabilir. | Storage boundary | Exact quota yok | Q157 | CONFIRMED |
+| BR-133 | Premium/storage limit existing core history veya safety-critical evidence'i gizleyemez/silemez; basic history access ve export devam etmelidir. | Monetization/storage trust | New large uploads yonetilebilir | Q158 | CONFIRMED |
+| BR-134 | Her motorcycle'in history, mileage, reminders ve active-work state'i diger motorcycles'tan independent olmalidir. | Motorcycle isolation | Entitlement'a bagli olmamali | Q159-Q161 | CONFIRMED |
+| BR-135 | Advanced garage basic isolation degil; cross-bike analysis, bulk planning, richer collaboration ve large-archive search gibi extra value'da baslamalidir. | Advanced garage | Final premium packaging degil | Q160-Q161 | CONFIRMED |
+| BR-136 | Transfer correction rejected ise original accepted record ve disputed proposal ayri claims olarak kalmali; silent overwrite yapilmamalidir. | Ownership history dispute | — | Q162-Q163 | CONFIRMED |
+| BR-137 | Repeated transfers owner/period/coverage/gaps provenance'i korumali; partial periods complete history gibi merge edilmemelidir. | Ownership transfer | — | Q164-Q165 | CONFIRMED |
+| BR-138 | Important historical claim actor/time/evidence/correction/dispute context'i izlenebilir tutmali; gereksiz personal info later owners'a acilmamalidir. | History trust/privacy | Technical immutability architecture karari degil | Q163 | CONFIRMED |
+| BR-139 | Withdrawn community evidence downstream guide/claim'i desteklediyse re-review gerekir; remaining independent evidence yeterli degilse affected verification/application korunamaz. | Content dependency | Withdrawal automatic global invalidation degil | Q166-Q168 | CONFIRMED |
+| BR-140 | Withdrawal safety warning, technical value veya applied critical step'i etkiliyorsa affected users correction/re-review bilgisi almayi bekler; narrative-only change ayni severity degildir. | Correction reach-back | Exact affected-user boundary acik | Q167 | CONFIRMED |
+| BR-141 | Owner deletion collaborator'in independent evidence'ini sessizce silmemeli; motorcycle record, contributor evidence ve historical attribution lifecycle'lari ayrisabilmelidir. | Shared data ownership | Cross-transfer copy edge case acik | Q169-Q171 | CONFIRMED |
+| BR-142 | Contributor own evidence'i geri cekebilir; linked history'de withdrawal trace kalmali ve claim trust yeniden degerlendirilmelidir. | Evidence withdrawal | Numeric score zorunlu degil | Q170 | CONFIRMED |
+| BR-143 | Access revoke future viewing/adding'i durdurabilir; prior attributed operation records actor/time ile history'de kalabilir. | Collaboration access lifecycle | Evidence visibility ayri yonetilebilir | Q171 | CONFIRMED |
+| BR-144 | Low-risk routine note/simple photo description short evidence label ile sunulabilir; deeper provenance on demand olabilir. | Evidence disclosure | — | Q172, Q174 | CONFIRMED |
+| BR-145 | Brake/steering/electrical safety, critical technical values ve disputed maintenance gibi high-risk contexts claim, motorcycle, evidence, reviewer ve unresolved uncertainty'yi explicit gostermelidir. | Evidence disclosure | — | Q173 | CONFIRMED |
+| BR-146 | Trust first-level result/evidence level/source type/date/uncertainty'yi gostermeli; full docs/review chain/versions/rationale deeper detail olabilir. | Information hierarchy | Final UI component karari degil | Q174 | CONFIRMED |
+| BR-147 | Local-to-profile transition oncesi transfer scope visible olmali; local records successful transition confirmed edilmeden silent loss olmamali; conflicts user review'u istemelidir. | Profile migration trust | Technical sync/transaction karari degil | Q175-Q177 | CONFIRMED |
+| BR-148 | Material guide change mid-repair'da change/safety/stop impact shown olmali ve current physical motorcycle state new guide'a remap edilmeden continuation olmamalidir. | Guide-change recovery | Photo/CV implementation karari degil | Q178-Q180 | CONFIRMED |
+| BR-149 | Active-repair interruption sonrasi motorcycle/guide/last definite step/current step/photos/safety/preparation context korunmali; previous critical confirmations automatic valid sayilmamalidir. | Resume safety | — | Q181-Q183 | CONFIRMED |
+| BR-150 | Paid-service document ile owner evidence celisirse claims separate/disputed kalmali; unresolved completion maintenance counter'i veya future guide decisions'i verified fact gibi ilerletemez. | External service dispute | — | Q184-Q185 | CONFIRMED |
 
 ## Rules needing more discovery
 
-- Basic history vs expanded premium storage value boundary.
-- Basic multi-bike vs advanced garage value boundary.
-- Transfer correction disagreement ve multiple ownership transfers.
-- Withdrawn community evidence'in downstream official-guide/claim etkisi.
-- Shared/collaborative deletion ownership edge cases.
-- Evidence explanation depth by risk ve information-overload siniri.
-- Profile transition sirasinda local-data continuity trust.
-- Mid-repair materially changed guide after freshness re-check.
-- Active-repair interruption/re-entry confirmations.
-- Paid-service evidence ile owner observation dispute semantics.
+- Contributor evidence withdrawal'in previously transferred/independent copies ile product-level iliskisi.
+- Disputed historical/service claim'e yeni independent evidence geldiginde resolution states.
+- Historical claim states icin minimum semantik set.
+- Material guide change'de old guide ile yapilmis artik onerilmeyen physical changes recovery.
+- Long interruption'da saved context vs current physical reality trust boundary.
+- Profile migration cancel/rollback expectations.
+- Withdrawn evidence icin `affected user` boundary.
+- Evidence detail depth'in beginner/experienced adaptation'i safety explicitness'i azaltmadan nasil olmali.
+- Core invited collaboration ile premium extensive collaboration siniri.
