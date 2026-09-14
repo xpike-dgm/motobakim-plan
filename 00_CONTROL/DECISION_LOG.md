@@ -74,3 +74,21 @@ Ilk uygulama promptu: `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md`.
 Motobakim projesindeki tum AI sohbetleri ortak bir proje baglami ve davranis kurallariyla calisacak. Bu genel kurallar `00_CONTROL/PROJECT_CHAT_INSTRUCTIONS.md` dosyasinda tutulacak.
 
 Her sohbetin ozel gorev promptu rol ve gorevi belirler; genel proje talimati ozel promptun yerine gecmez. Bir AI'ya acikca repository yazma veya karar kilitleme yetkisi verilmedikce AI source-of-truth dosyalarini degistirmeyecek ve kararlarin durumunu LOCKED/APPROVED yapmayacak.
+
+---
+
+## DEC-0008 — Phase 1 Workspace Approved and Gate 1 Passed
+**Date:** 2026-09-14  
+**Status:** APPROVED
+
+Kullanici, kalite kontrolunden gecirilmis Phase-1 workspace sentezini acikca onayladi.
+
+Bunun sonucunda:
+- `01_WORKSPACE/PROJECT_VISION.md` APPROVED
+- `01_WORKSPACE/CONSTRAINTS.md` APPROVED
+- `01_WORKSPACE/ASSUMPTIONS.md` registry olarak APPROVED; tekil varsayimlar OPEN kalir
+- `01_WORKSPACE/GLOSSARY.md` registry olarak APPROVED; PROPOSED terimler nihai/LOCKED sayilmaz
+- Gate 1 -> 2 kosullari saglanmis kabul edilir
+- Phase 2 teknik olmayan Product Discovery baslatilabilir
+
+Bu karar Phase-1 urun bilgisini `LOCKED` yapmaz; yeni discovery kanitlari kontrollu degisiklik uretebilir.
