@@ -100,6 +100,19 @@ Discovery sirasinda ortaya cikan kullanici degeri odakli ozellik adaylari. Bunla
 | FC-092 | Record-only first-use path | Rehber aramadan motorcycle add + latest record + next maintenance value | Q153 | CANDIDATE |
 | FC-093 | Shared/multi-bike first-use path | Motorcycle separation ve actor attribution value'yu erken gostermek | Q154 | CANDIDATE |
 | FC-094 | Value-triggered profile transition | Persistent record/cross-device/collaboration ihtiyacinda profile istemek ve local-data fate'i aciklamak | Q155 | CANDIDATE |
+| FC-095 | Core history preservation guard | Basic longitudinal history fields'i storage pressure nedeniyle kaybetmemek | Q156 | CANDIDATE |
+| FC-096 | Expanded evidence archive | Core evidence'in otesinde high-volume photo/video/document archive value sunmak | Q157-Q158 | CANDIDATE |
+| FC-097 | Motorcycle isolation invariant | Each motorcycle history/km/reminder/active work state'ini independent tutmak | Q159-Q161 | CANDIDATE |
+| FC-098 | Advanced garage workflows | Cross-bike analysis, bulk planning, richer collaboration ve archive search | Q160 | CANDIDATE |
+| FC-099 | Disputed historical claims | Accepted record ile rejected correction/disputed claim'i provenance ile ayri tutmak | Q162-Q165 | CANDIDATE |
+| FC-100 | Multi-transfer coverage view | Ownership periods, transferred scope ve unknown gaps'i history trust ile gostermek | Q164-Q165 | CANDIDATE |
+| FC-101 | Downstream evidence-withdrawal re-review | Withdrawn community evidence'e bagli guide/claim'leri remaining evidence ile yeniden degerlendirmek | Q166-Q168 | CANDIDATE |
+| FC-102 | Safety correction reach-back | Withdrawn evidence safety/technical/applied-critical content'i etkilerse affected users'a correction/re-review bilgisi vermek | Q167 | CANDIDATE |
+| FC-103 | Shared evidence lifecycle controls | Owner record deletion, contributor evidence withdrawal ve access revoke etkilerini ayri yonetmek | Q169-Q171 | CANDIDATE |
+| FC-104 | Risk-adaptive evidence disclosure | Low-risk concise label, high-risk explicit claim/evidence/reviewer/uncertainty explanation | Q172-Q174 | CANDIDATE |
+| FC-105 | Trust-preserving local-to-profile migration | Scope preview, no-silent-loss ve user-reviewed conflict handling | Q175-Q177 | CANDIDATE |
+| FC-106 | Physical-state remapping | Material guide change veya interrupted repair'da current physical state'i safe guide point'e yeniden eslemek | Q178-Q183 | CANDIDATE |
+| FC-107 | Disputed service-completion state | Service document-owner observation conflict'ini unresolved tutup maintenance/future decisions'a certainty aktarmamak | Q184-Q185 | CANDIDATE |
 
 ## Important non-commitment
 
