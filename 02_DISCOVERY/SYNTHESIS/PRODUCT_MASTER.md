@@ -2,224 +2,257 @@
 
 Status: DRAFT
 
-Bu belge discovery boyunca surekli rafine edilen teknik olmayan ana urun sentezidir. Ham Q&A yerine gecmez; kanit dosyalari `02_DISCOVERY/SESSIONS/` altindadir.
+Bu belge discovery boyunca rafine edilen teknik olmayan ana urun sentezidir. Ham Q&A yerine gecmez; kanit `02_DISCOVERY/SESSIONS/` altindadir.
 
 ## Current Evidence Base
-
 - Phase-1 approved workspace baseline
 - `SESSION-001_BATCH_01_Q006_Q035.md`
 - `SESSION-002_BATCH_02_Q036_Q065.md`
 - `SESSION-003_BATCH_03_Q066_Q095.md`
 - `SESSION-004_BATCH_04_Q096_Q125.md`
+- `SESSION-005_BATCH_05_Q126_Q155.md`
 
 ## Product Model — Current Working Synthesis
 
-### 1. Entry modes and first value
+### 1. Core product identity and priority
 
-**CONFIRMED — Q006, Q012, Q022, Q090, Q123**
+**CONFIRMED — Phase 1, Q006-Q007, Q089, Q116-Q117, Q138-Q143**
 
-Kullanici urune yapmak istedigi islemi bilerek veya yalniz bir belirtiyle gelebilir. Belirti girisi gunluk dil, motosiklet bolgesi veya isaretli gorsel uzerinden ilerleyebilir. Yol-kenari baglaminda hizli belirti taramasi, once safety kontrolu, kisa gorsel adimlar ve suruse devam belirsizliginin gizlenmemesi beklenir.
+MotoBakim'in birincil hedefi, bireysel motosiklet sahibinin kendi motosikletindeki bakım, mekanik ve elektriksel islemleri neyi/neden/nasil yaptigini anlayarak guvenli bicimde tamamlayabilmesidir.
 
-Ilk kullanimda kullanici motosikletini secip rehber deneyiminin nasil calistigini hizla gormek ister. Account creation, notification permission veya uzun profil ilk degerden once zorunlu olmamali; kayit/esitleme gibi ihtiyac ortaya ciktiginda istenmelidir. Bu bir teknik auth karari degildir.
+Ilk product priority:
+1. yeni/az deneyimli self-service owner,
+2. deneyimli self-service owner,
+3. temel record/history tracking ihtiyaci.
 
-### 2. Motorcycle-guide fit, variant certainty and modification fit
+Record-only owner, multi-bike owner, shared-family context ve hobby helper anlamli desteklenen baglamlardir. Professional/servis ilk urunun dogrudan ana target'i degildir; owner davetiyle contribution/collaboration participant olabilir. Ayrı professional work-management product ileride dusunulebilir fakat owner-first self-service deneyimini degistirmemelidir.
 
-**CONFIRMED — Q008-Q009, Q019, Q021, Q026, Q036-Q039, Q066-Q067, Q102-Q104**
+### 2. Entry modes and segment-specific first value
 
-Rehber kullanicinin gercek motosikletiyle yeterli eslesme kurulmadan motosiklete ozelmis gibi sunulamaz. Marka/model/yil, motor hacmi, donanim, islemi etkileyen ozellikler, gorunur donanim ve gerektiginde farkli acilardan fotograflar kullanilabilir.
+**CONFIRMED — Q006, Q012, Q022, Q090, Q123, Q153-Q155**
 
-Kullanici teknik kimlik kodlarini ezbere bilmek veya etiket/parca kodu/belge aramak zorunda birakilmak istemiyor. Observable kanit yetmezse hangi ayrimin eksik oldugu gorunur olmali ve versiyona ozel application adimlari baslamamalidir. Bu, gorsel ayristirmanin her motosiklette teknik olarak yeterli oldugu iddiasi degildir.
+Kullanici:
+- yapmak istedigi islemi bilerek,
+- yalniz bir belirtiyle,
+- yalniz history/reminder tutmak icin,
+- multi/shared motorcycle baglamiyla gelebilir.
 
-Sonradan degistirilmis sistemde fabrika rehberi otomatik uygun sayilamaz. Yaygin aftermarket degisikliklar gorsel/observable olarak ayristirilip uygunlugu dogrulanirsa motosiklete ozel rehbere dahil edilebilir; fabrika ve modifiye sokme/takma farklari acik olmali. Nadir/custom modifikasyonda dogrulanmis rehber yoksa hangi ozelligin neden dogrulanamadigi, hangi kanitin eksik oldugu ve rehber olusturmak icin hangi bilgi gerektigi gosterilebilir. Guvenilir genel bilgi `ogretici, bu motosiklete uygulama talimati degil` ayrimiyla kalabilir; zarar verebilecek sokme/baglama/ayar application adimlari dogrulanana kadar acilmaz.
+Self-service first-use'ta motosiklet secilip guide value hizla gorulmelidir. Record-only user ilk dakikada motosikletini ekleyip son islemini kaydetmeli ve approaching maintenance value'yu anlayabilmelidir. Shared/multi-bike user motosiklet ayrimini ve contribution attribution'ini erken gorebilmelidir.
 
-### 3. Trust, provenance and content lifecycle
+Account/profile ilk degerden once zorunlu olmamali. Ilk real record'u kalici saklama, cross-device devam veya collaboration baslatma ihtiyaci profile gecis icin dogal product trigger'dir. Kullaniciya neden profile ihtiyac oldugu ve mevcut local data'ya ne olacagi onceden aciklanmalidir. Teknik auth/sync modeli bu asamada secilmez.
 
-**CONFIRMED — Q010-Q011, Q040-Q044, Q073-Q074, Q081-Q083, Q109-Q110**
+### 3. Motorcycle-guide fit, variant certainty and modification fit
 
-Dogrulanmis teknik bilgi motosiklet/varyantla uyumlu guvenilir kaynaga dayanmalidir; kaynak surumu ve ilgili bolum kaniti gorulebilmelidir. Insan incelemesinde ilgili sistemde uygulamali deneyim ve uyum/kaynak/gorsel/arac/risk/son-kontrol degerlendirmesi beklenir. Kritik rehberde bagimsiz ikinci inceleme ek guven sinyalidir fakat her kritik rehberde zorunlu iki-reviewer politikasi olarak kilitlenmemistir.
+**CONFIRMED — Q008-Q009, Q019, Q026, Q036-Q039, Q066-Q067, Q102-Q104**
 
-Kaynak update/hata/celiski durumunda yeniden inceleme, etkilenen application adimini askiya alma/durdurma, kullaniciya gerekli kontrol/yardim yolu ile uyari ve tarihsel rehber surumunu koruma beklenir. Community duzeltme onerisi resmi rehbere dogrudan giremez; kaynak, motosiklet uygunlugu ve safety etkisi incelenmeli, kabul edilirse degisen adim ve gerekce yeni surumde gorunmelidir.
+Guide, gercek motosikletle yeterli fit kurulmadan motosiklete ozel application instruction gibi sunulamaz. Marka/model/yil, motor hacmi, donanim, relevant features, visible hardware ve fotograflar kullanilabilir. Kullanici technical code/document scavenger hunt'a zorlanmamalidir.
 
-Kanit dili product-level olarak ayrisir: `kullanici beyani` kullanicinin girdisi; `belgeli` supporting evidence tasiyan; `incelenmis` kaniti kontrol edilmis; `dogrulanmis` ise kaynak, ilgili motosiklet/islem uygunlugu, inceleme tarihi ve karar gorunurlugu bulunan bilgiyi ifade etmelidir. `Dogrulanmis`, `kesin sonuc verir` veya `her versiyonda aynidir` demek degildir. Bu etiketlerin tum domainlerde birebir ayni global taxonomy olmasi henuz karar degildir.
+Observable evidence yetersizse eksik ayrim gosterilir ve variant-specific application kapanir. Bu visual identification'in her motosiklette teknik olarak yeterli oldugu feasibility iddiasi degildir.
 
-### 4. Guide detail, accessibility and active-repair use
+Modified system'de factory guide otomatik uygun sayilmaz. Common aftermarket degisiklik verified fit varsa adapted guide'a dahil edilebilir. Unique/custom modification'da evidence gap aciklanabilir ve teaching-only bilgi kalabilir; zarar verebilecek application adimlari fit dogrulanana kadar acilmaz.
 
-**CONFIRMED — Q007, Q014-Q015, Q054, Q090, Q124-Q125**
+### 4. Trust, provenance and evidence semantics
 
-Yeni/az deneyimli kullanici icin temel rehber birimi `tek hareket + ilgili gorsel + basari kontrolu` seviyesinde ayrintili olabilir. Deneyimli kullanici ayni dogrulanmis bilginin daha kisa checklist/teknik gorunumune hizla ulasmak ister. Safety ve kritik dogrulama deneyim seviyesine gore azaltilamaz.
+**CONFIRMED — Q010-Q011, Q040-Q044, Q073-Q074, Q109-Q110, Q132-Q134**
 
-Gorsel beklenti gercek/isaretli fotograf, gizli baglantida cizim, hareket/sira kritikse kisa video ve safety/olcum/kontrol icin acik metindir. Tam varyant fotografi yoksa dogrulanmis cizim/isaretli sema fallback olabilir; baska motosikletin gorseli ayniymis gibi sunulamaz.
+Verified technical information reliable source + motorcycle/application fit + review/provenance gerektirir. Source version/relevant section, review context ve applicable claim gorulebilmelidir.
 
-Turkiye icin acik Turkce, alisilmis olcu birimleri ve anlasilir terminoloji beklenir. Erisilebilirlik ihtiyaclari buyuk yazi/dugmeler, yuksek kontrast, yalniz renge dayanmayan uyarilar, gorsel aciklamasi, video altyazisi, sesli adimlar ve kirli/mesgul ellerle kolay etkileşimdir. Belirli voice technology veya UI tasarimi bu asamada secilmemistir.
+Evidence vocabulary'nin temel mantigi tutarlidir:
+- `Kullanici beyani`: kisinin girdigi bilgi,
+- `Belgeli`: supporting evidence tasir,
+- `Incelenmis`: kanit review'dan gecmistir,
+- `Dogrulanmis`: belirli claim yeterli source/evidence/review ile teyit edilmistir.
 
-### 5. Readiness, re-validation and resume
+Ancak `verified` claim'i context-specific'tir. Verified maintenance record `islemin yapildigina yeterli evidence var` anlamina gelir; perfect workmanship guarantee degildir. Verified technical guide ise source + motorcycle fit + application-step suitability claim'ini tasir.
 
-**CONFIRMED — Q013, Q016-Q017, Q021, Q050-Q053, Q096-Q098**
+Safety value, technical value, ownership transfer ve disputed record gibi high-trust baglamlarda label tek basina yeterli olmayabilir; `neyin hangi kanit/review ile dogrulandigi ve neyin dogrulanmadigi` acikca anlatilmalidir.
 
-Kullanici baslamadan amac, uygunluk, zorluk/risk, sure, maliyet, arac/parca/ekipman ve motosikletin kullanilabilirlik durumunu gormek ister. Zorunlu eksikler motosiklet yari sokulmeden once gorunur olmalidir.
+### 5. Guide detail and experience adaptation
 
-Readiness yalniz `deneyimliyim` oz-beyanina dayanamaz. Benzer is gecmisi, arac/olcum bilgisi, onceki islem kayitlari ve on kosullari anlama dikkate alinabilir. Guvenle ogrenilebilen eksiklik hazirlik/ogrenme yoluna yonlendirebilir; ciddi sonucu veya uzman dogrulamasi gerektiren eksiklik kritik application adimini kapatir.
+**CONFIRMED — Q007, Q014-Q015, Q025, Q054**
 
-Readiness kullaniciyi durdurdugunda hangi kosulun eksik oldugu, neden gerektigi, nasil saglanacagi ve nasil yeniden kontrol edilecegi gosterilmelidir. Kullanici degerlendirmeyi yanlis bulursa salt `yapabilirim` diyerek gate'i gecemez; fotograf, olcum veya alternatif kontrol gibi yeni kanitla re-validation yapabilmelidir. Hazirlik tamamlaninca rehber baglamina kaldigi yerden donebilmelidir.
+Beginner icin temel unit `tek hareket + ilgili gorsel + basari kontrolu` seviyesine inebilir. Experienced user ayni verified content'in short checklist/technical-detail gorunumune hizla ulasmak ister. Safety ve critical verification deneyim seviyesine gore azaltilamaz.
 
-Dogru motosiklet versiyonu, kritik teknik bilgi, gerekli ekipman, guvenli calisma ortami veya zorunlu pre-check eksikse application adimi acilmaz.
+Visual model: actual/marked photo, hidden connection icin drawing, sequence/motion kritikse short video, safety/measurement/check icin explicit text. Wrong-bike visual ayniymis gibi kullanilamaz; verified drawing/schema fallback olabilir.
 
-### 6. Teaching vs application and high-consequence guidance
+### 6. Readiness, self-remediation, re-validation and re-entry
 
-**CONFIRMED — Q018-Q021, Q034, Q045-Q053, Q068-Q069, Q099-Q101**
+**CONFIRMED — Q013, Q016-Q017, Q050-Q053, Q096-Q098, Q126-Q128**
 
-High-consequence kategori adi tek basina mutlak kapsam disi nedeni degildir. Kullanici fren, direksiyon, yakit, kaldirma, motor ici, yuksek gerilim, basincli veya yuksek sicaklik gibi sistemleri ogrenebilmek ister. Ancak motosiklet uyumu, gerekli ekipman/beceri, guvenli ortam veya kritik sonucun dogrulanabilirligi yoksa application progression acilmaz.
+Readiness yalniz `deneyimliyim/yapabilirim` beyanina dayanamaz. Eksik kosul varsa:
+1. once assessment'in yanlis olup olmadigi kontrol edilebilir,
+2. learning/preparation/equipment acquisition/self-remediation yolu sunulur,
+3. yeni photo/measurement/alternative check ile re-validation yapilabilir,
+4. kosul saglaninca equipment + motorcycle fit + critical checks yeniden dogrulanarak ayni guide'a donulebilir.
 
-`Ogretici icerik` ile `gercek motosiklete uygulanabilir talimat` farkli guven seviyeleridir. Teaching content erisilebilir kalabilir. Gercek motosiklete ilk fiziksel mudahaleden once zorunlu kosullar kontrol edilmeli; islem sirasinda yeni risk, mismatch veya dogrulanamayan kosul ortaya cikarsa uygulamali akis o noktada durmalidir.
+Professional recommendation ile mandatory application closure ayni sey degildir. Professional help kullanicinin degerlendirebilecegi option olabilir. Unverified critical condition ise user preference'dan bagimsiz mandatory safety gate'tir. Self-assertion onceki stop kararini kaldiramaz.
 
-Profesyonel yardim `sen bunu yapamazsin` diliyle sunulmamalidir. Urun hangi kosulun dogrulanamadigini, kullanicinin bunu nasil tamamlayip yeniden deneyebilecegini anlatmali; belirti kaydi, fotograf, hazirlik, islemi anlama ve result-check destegi profesyonel yolu secse bile surmelidir. Exact professional-escalation trigger hala discovery konusudur.
+### 7. Teaching vs application and high-consequence guidance
 
-### 7. Safe equivalents
+**CONFIRMED — Q018-Q021, Q034, Q045-Q053, Q068-Q069, Q099-Q101, Q126-Q128**
 
-**CONFIRMED — Q017, Q053, Q055**
+High-consequence category adi tek basina content'i kapsam disi yapmaz. Teaching content okunabilir kalabilir. Gercek motorcycle-facing application ise fit/equipment/environment/critical information/result verification gibi zorunlu kosullara baglidir.
 
-Alternatif arac/sarf/ekipman sadece gerekli olcu, uyum, dayanim, malzeme, islev ve safety ozellikleri dogrulanmissa guvenli esdeger sayilabilir. Hassas olcum, dogru sikma ve guvenli kaldirma gibi kritik fonksiyonlarda zorunlu ekipman yoksa islem ertelenir.
+First physical intervention'dan once required conditions kontrol edilir; islem sirasinda yeni risk/mismatch ortaya cikarsa application o noktada durur.
+
+Professional help `sen yapamazsin` diliyle sunulmaz. Hangi kosulun dogrulanmadigi, nasil giderilebilecegi ve re-entry yolu aciklanir. Symptom capture, photo, preparation, learning ve result-check destegi external help secilse bile devam eder.
 
 ### 8. Diagnosis before repair
 
-**CONFIRMED — Q022-Q024, Q056-Q058, Q090**
+**CONFIRMED — Q012, Q022-Q024, Q056-Q058, Q090**
 
-Teshis, kanit toplayarak belirsizligi azaltan surectir. `En olasi` neden icin birden fazla ayirt edici belirti/kontrol ayni nedeni desteklemeli ve alternatifler degerlendirilmelidir. Esit olasiliklarda ayristirici kontroller surer; rastgele parca degisimi onerilmez. Makul kontroller sonunda neden dogrulanamazsa `Neden dogrulanamadi` sonucu, yapilan kontroller ve guvenli kullanim belirsizligiyle kapanabilir; ozet uzmana aktarilabilir.
+Diagnosis kanit toplayarak belirsizligi azaltir. `En olasi` claim'i icin birden fazla ayirt edici evidence ve alternatives evaluation gerekir. Equal possibilities ayrica tutulur; random parts replacement onerilmez. Makul checks sonunda neden belirlenemezse `Neden dogrulanamadi` sonucu, performed checks ve safe-use uncertainty ile kapanabilir.
 
-### 9. Recovery and mismatch
+### 9. Recovery, interruption and version changes
 
-**CONFIRMED — Q025-Q027, Q038-Q039, Q066-Q067, Q096-Q101**
+**CONFIRMED — Q025-Q028, Q042-Q043, Q059-Q060, Q096-Q101**
 
-Takilma durumunda yakin plan, isaretleme, hareket yonu, sik hatalar ve gerekirse video/aciklama acilabilir. Rehber gercek motosiklet/modifikasyon/versiyonla uyusmazsa normal ilerleme durur; fark kaydedilir ve uygunluk yeniden belirlenir.
+User stuck/mismatch/error durumunda normal progression gerekirse durur. More detail, safe recovery, evidence capture ve external help yolu sunulur. Interrupted work'te last step, removed parts, measurements, photos/notes ve guide version korunur.
 
-Readiness/mismatch blokajinda urun sebebi gostermeli, self-remediation/re-validation yolunu aciklamali ve hazirlik tamamlaninca kaldigi baglama donusu desteklemelidir. Recovery veya profesyonel escalation, diger dogrulanmis self-service rehberlerin erisimini gereksiz yere kapatmamalidir.
+Guide change yarim ise sessizce uygulanmaz. Critical correction varsa old flow durur; current physical motorcycle state new guide ile yeniden fit edilirken progress/notes korunur.
 
-### 10. Guide versioning, recall and critical corrections
+### 10. Content review, correction, recall and community boundary
 
-**CONFIRMED — Q028-Q030, Q042-Q043, Q059-Q060, Q081-Q083, Q122**
+**CONFIRMED — Q040-Q044, Q080-Q084, Q105-Q108, Q130**
 
-Yarim iste rehber surumu korunur. Yeni surum varsa farklar devamdan once gosterilir; kritik duzeltmede eski akista ilerleme durur ve mevcut fiziksel durum yeni rehberle yeniden eslestirilirken ilerleme/notlar korunur.
+Official guide human review ve source/provenance tasir. Community contribution explicit opt-in ve official guide'dan ayri status/provenance ile sunulur. Correction official guide'a direct yazilmaz; source, motorcycle fit ve safety effect review edilir.
 
-Gecmis kayit yeni rehber nedeniyle sessizce degistirilmez. Kullanilan rehber surumu korunur; geri cekilme/duzeltme nedeni ve gerekiyorsa yeniden kontrol uyarisi eklenir.
+Moderation reason explicit/respectful olmali; correction/re-submit/appeal yolu olabilir. Repeated wrong contribution pre-review'a, intentional/repeated dangerous contribution sharing restriction'a gidebilir. Unverified useful experience `unverified personal experience` olarak kalabilir fakat official step olamaz.
 
-Offline kritik rehberde son dogrulama zamani gorunmelidir. Bir product freshness limiti asilmissa, baglanti kurulup rehber yeniden kontrol edilene kadar application adimlarinin kapanmasi beklenir. Bu limitin sayisal degeri veya hangi rehberlere uygulanacagi henuz belirlenmemistir.
+Contribution withdrawal'da public content kaldirilmali ve contributor personal information silinmelidir. Safety review history gerekiyorsa de-identified trace product expectation olarak kabul edilebilir; bu legal/technical implementation karari degildir. Withdrawn published correction affected guide re-review gerektirebilir.
 
-### 11. Maintenance/repair history, evidence and edit trail
+### 11. Maintenance/history and edit trail
 
-**CONFIRMED — Q029-Q030, Q033, Q062-Q063, Q073-Q074, Q109-Q110**
+**CONFIRMED — Q029-Q033, Q062-Q064, Q073-Q077, Q109-Q110, Q131-Q134**
 
-Her motosikletin gecmis/rehber/reminder baglami ayridir. Dis islem provenance ile kaydedilebilir; tarih, kilometre, islem, fatura, fotograf/not gibi kanitlar eklenebilir.
+History rich ve auditable olmalidir: date/km, work/reason, parts/materials, measurements/checks, photos/notes, actor ve guide version gibi context korunur. Wrong record duzeltilebilir fakat old/new value, time ve reason kaybolmaz.
 
-Hatalı kayit duzeltilebilir; eski ve yeni bilgi, degisiklik zamani ve nedeni korunur. Duzeltme bakım takvimini etkiliyorsa etkisi gosterilir. Kullanici beyani, belgeli, incelenmis ve dogrulanmis ifadeleri ayni guven statusu gibi kullanilmamalidir.
+External service/hobby work provenance ile kaydedilir. Paid role otomatik `verified` sayilmaz. Export standard olarak source/provenance, evidence level, significant corrections ve dates'i tasimalidir; data export core right'tir, premium olamaz.
 
-### 12. Next maintenance, exceptions and uncertainty
+### 12. Maintenance timing and uncertainty
 
 **CONFIRMED — Q031-Q033, Q061, Q064, Q075-Q077**
 
-Bakim zamanlamasinda motosiklete uygun uretici kilometre/sure araliklari temel alinmali ve once dolan izlenmelidir. Kullanim kosulu sadece motosiklete uygun dogrulanmis bilgi destekliyorsa araligi degistirebilir; gerekce gorunur olmalidir.
+Manufacturer motorcycle-specific km/time intervals ve verified completion kaydi baseline'dir. Verified exception varsa gerekcesiyle apply edilir. Modified/new part interval unknown ise old interval otomatik kullanilmaz veya new interval uydurulmaz; uncertainty gorunur olur.
 
-Modifiye/yeni parcanin guvenilir bakım araligi bilinmiyorsa MotoBakim sure uydurmamali veya eski araligi otomatik kullanmamalidir; `belirsiz bakım takvimi` gorunur olmalidir. Dogrulanmis ozel istisna genel planla birlikte ve neden gecerli olduguyla sunulmalidir.
+Multiple overdue work harm/use impact + delay + verified conditions ile explainable priority alir.
 
-### 13. Notification behavior and critical catch-up
+### 13. Notifications and catch-up
 
-**CONFIRMED — Q032-Q033, Q064, Q070-Q072, Q111-Q113**
+**CONFIRMED — Q032-Q033, Q070-Q072, Q111-Q113**
 
-Rutin bakım/kayit reminders gruplanabilir, kapatilabilir veya ertelenebilir. Mevcut kullanici onemli fakat acil olmayan gecikmis konuda gunluk tekrar yerine haftada en fazla bir ozet tercih eder; bu tum kullanicilar icin LOCKED cadence degildir.
+Routine reminders group/disable/postpone edilebilir. Current user important-nonurgent overdue item icin daily spam yerine weekly-at-most summary tercih etmektedir; global locked cadence degildir.
 
-Surus safety'sini etkileyen acil uyari ayri ve belirgin olmali; kritik safety bilgisi telefon bildirimi susturulsa bile app icinde ve ilgili islem oncesi gorunur kalmalidir.
+Critical safety routine reminders arasinda kaybolmaz. App acilisinda safety summary, delay consequence ve direct next action gorunur. Multiple critical items harm/urgency ile siralanir. Long absence sonrasi notification storm yerine single catch-up summary beklenir.
 
-Uzun sure ertelenen kritik konu routine reminders arasinda kaybolmamalidir. App acilisinda belirgin safety ozeti, gecikmenin sonucu ve ilgili kontrol/isleme dogrudan yol beklenir. Birden cok kritik konu olasi zarar ve aciliyete gore siralanmali; `neden once bu`, `ne zamandir acik`, `simdi hangi kontrol` bilgisi gorunmelidir. Uzun aradan donen kullanici eski notification'larin tek tek yagmasi yerine kritik safety -> geciken bakım -> kayitlar sirali tek catch-up ozeti bekler.
-
-### 14. Time and cost estimate trust boundary
+### 14. Time/cost estimate trust boundary
 
 **CONFIRMED — Q013, Q078-Q079**
 
-Yaklasik sure deneyime gore aralik olarak faydalidir; hasar/sikisma/ek sokme gibi belirsizliklerde kesin bitis vaadi verilmemelidir. Maliyet tahmininde parca, sarf, arac ve varsa iscilik ayri gosterilmeli; dahil olmayan kalemler, fiyat tarihi ve varsayimlar gorunur olmalidir.
+Time exact promise degil range + uncertainty olarak; cost part/consumable/tool/labor components + exclusions + price date + assumptions ile sunulmalidir.
 
-### 15. Community contribution and moderation
+### 15. Commercial neutrality and free-core boundary
 
-**CONFIRMED — Q080-Q084, Q105-Q108**
+**CONFIRMED — Q065, Q085-Q088, Q114-Q115, Q144-Q146**
 
-Kisisel not/fotograflar default-private kalmalidir. Community contribution ayri explicit secim olmali ve personal info paylasim oncesi ayiklanmalidir. Community icerigi kaynak, motosiklet, review status ve tarih bilgisiyle resmi rehberden ayrilir.
+Commercial/sponsor influence technical fit'i, alternatives visibility'yi veya guide content'i degistiremez.
 
-Moderation yalniz `sil/birak` degildir. Kaldirma nedeni somut/saygili olmali, ilgili kural ve sorunlu bolum gosterilmeli; contributor duzeltip yeniden gonderebilmeli veya itiraz edebilmelidir. Tekrarlanan yanlis katkida pre-review, kasitli/surekli tehlikeli tekrarda contribution restriction olabilir. Teknik olarak dogrulanamayan fakat faydali deneyim `dogrulanmamis kisisel deneyim` olarak, motosiklet ve gozlem baglamiyla resmi rehberden ayri sunulabilir; safety-riskli oneriler review bitmeden yayinlanmamalidir.
+Free core en az sunlari korumali:
+- motorcycle-specific core guide,
+- required safety warnings/visuals/checks,
+- operation completion icin gereken steps,
+- basic/reasonable maintenance history,
+- user data export,
+- birkaç motosikleti ayri tutabilme.
 
-Tehlikeli contribution hizla gizlenmeli; gerekiyorsa icerige maruz kalan kullanicilar uyarilmali ve olay kaydedilmelidir.
+Large media archive, advanced comparative analysis, ongoing advanced analytics ve extensive collaboration premium candidate olabilir. Ongoing service value subscription-like; ongoing service gerektirmeyen optional personalization/print output one-time-like hissedilebilir. Bu product expectation final price/package/business viability karari degildir.
 
-### 16. Commercial neutrality and monetization
+### 16. User segmentation minimum value
 
-**CONFIRMED — Q065, Q085-Q088, Q114-Q115**
+**CONFIRMED — Q141-Q143**
 
-MotoBakim'in onceligi kullanicinin islemi kendisinin yapabilmesidir. Servis/usta listesi veya parca/arac satin alma core self-service rehberin yerini almamalidir. Teknik uygunluk kriteri ticari yuzeyden once gelmeli; sponsorlu teklif acikca isaretlenmeli ve odeme teknik uygunluk kararini degistirmemelidir.
+- Beginner owner: learning + safe detailed application.
+- Experienced owner: speed + accuracy + verified concise guidance.
+- Record-only owner: history + maintenance schedule/reminder.
+- Multi-bike owner: motorcycle contexts clearly separated.
+- Shared-family context: authorized, attributed records.
+- Hobby helper: actor-attributed contribution.
 
-Motora uygun ayrintili rehber, safety bilgisi, temel bakım takibi ve kullanicinin kendi verisini almasi ucretsiz kalmalidir. Gelismis history analysis, ek fotograf depolama, multi-garage management ve optional personalization premium deger adaylaridir. Surekli hizmet maliyeti yaratmayan optional degerlerde, ornegin yazdirilabilir ayrintili bakım arsivi veya kisilestirilmis ogrenme aracinda, one-time odeme mevcut kullanici icin makul olabilir. Final subscription/one-time/hybrid paket karari yoktur.
+Accuracy hicbir segmentte cost reduction'dan dusuk priority olmamalidir.
 
-### 17. User scope and motivation
+### 17. Shared motorcycle, hobby helper and paid service
 
-**CONFIRMED — Q089, Q116-Q117**
+**CONFIRMED — Q118-Q119, Q138-Q140**
 
-Core identity bireysel surucunun kendi motosikletindeki islemi ogrenip yapmasidir. Mevcut kullanicinin motivasyon sirasi: self-service completion -> ogrenip bagimsizlasma -> masraf azaltma -> zaman -> keyif.
+Owner access grants collaboration. Actor, timestamp, evidence ve edits visible olmali; private notes automatic share edilmemeli ve permission revocable olmalidir. Hobby help ile paid service same record type gibi gorunmemeli; paid service ek olarak service/document info tasiyabilir. Role itself verification claim yaratmaz.
 
-Multi-bike owners, ailece/shared motorcycle kullananlar, baskasinin motosikletinde islem yapan hobby users ve yalniz history/reminder takip eden record-only owners anlamli supported context'lerdir. Record-only user rehber kullanmasa da history, next maintenance, belge/fotograf saklama, reminders ve motosikletler arasi ayrimdan deger almali ve isterse sonradan uygulamali rehbere gecebilmelidir.
+### 18. Ownership transfer and archive
 
-Profesyonel usta/servisin dogrudan target user olup olmadigi hala aciktir.
+**CONFIRMED — Q120-Q121, Q135-Q137**
 
-### 18. Shared motorcycle and collaboration expectations
+Selective transfer acikca `owner-selected / incomplete history` olarak represented edilmelidir. Covered period ve visible gaps gosterilir; gap `maintenance completed` gibi yorumlanmamalidir. Non-transferred private note/photo content acilmaz.
 
-**CONFIRMED — Q118-Q119**
+Transfer sonrasi record silent overwrite edilmez. Former owner correction/new-info proposal sunabilir; current owner attribution/time gorur ve review/accept edebilir; prior version/evidence trail korunur.
 
-Baskasinin motosikletinde calisan kisi icin owner access izni vermelidir. Islem yapan contributor kendi kimligiyle kayit eklemeli; kimin neyi beyan ettigi, kayit zamani ve sonraki edit trail gorunmelidir. Baskasinin kaydi sessizce degistirilememeli ve izin geri alinabilmelidir. Ortak kullanim private notes'u izinsiz acmamalidir.
+Archive delete degildir: active garage'dan cikarir, history'yi korur, reversible'dir.
 
-Bu product expectation teknik permission/auth modelini secmez.
+### 19. Actual deletion and data ownership
 
-### 19. Ownership transfer, archive and long-term lifecycle
+**CONFIRMED — Q092-Q095, Q129-Q131**
 
-**CONFIRMED — Q120-Q121**
+Actual motorcycle deletion oncesi affected history/photos/measurements/reminders kapsamı gosterilmelidir. Confirmation sonrasi user'in kendi copy'sindeki linked data birlikte silinmesi beklenir. Daha once baskasina transferred independent record otomatik etkilenmemelidir.
 
-Motosiklet satis/devrinde kullanici sectigi islem tarihleri, kilometre ve bakım kanitlarini yeni sahibe aktarabilmek ister. Personal notes, konum/kimlik iceren fotograflar default-private kalmali; transfer oncesi preview olmalidir. Parsiyel transferin new-owner history completeness semantigi hala aciktir.
+Bu product expectation legal retention/backup purge/technical implementation karari degildir.
 
-`Archive`, aktif garajdan cikarma ama history'yi koruma ve daha sonra yeniden active etme davranisidir. Archive, delete ile karistirilmamalidir.
+### 20. Offline/freshness semantics
 
-### 20. Offline and constrained-context continuity
+**CONFIRMED — Q090-Q091, Q122, Q147-Q149**
 
-**CONFIRMED — Q090-Q091, Q122**
+Offline downloaded content accessible olabilir fakat access ile application authorization ayni sey degildir.
 
-Indirilmis motosiklete ozel rehber, gorsel, safety warning, kalinan adim ve personal history internet zayif/yokken erisilebilir kalmalidir. Icerik surumu, son dogrulama ve guncellik durumu gorunmelidir.
+Freshness application-critical ozellikle:
+- safety notice,
+- technical value,
+- changeable procedure order
+claim'lerinde anlamlidir.
 
-Offline erisilebilirlik ile application yetkisi ayni sey degildir. Kritik guide stale limit'i asilmissa teaching/reference erisimi kalabilirken application progression online re-check'e kadar kapanabilir. Exact freshness semantics aciktir.
+Old conceptual teaching tek basina application stop nedeni degildir; source/last-check date yine gorunmelidir. Stale critical content teaching/reference olarak kalabilir fakat current instruction gibi gorunemez. Critical freshness verify edilemiyorsa motorcycle-facing application online re-check'e kadar kapanir. Learning/preparation/local records offline devam edebilir. Numeric TTL/threshold secilmemistir.
 
-### 21. Data ownership and account isolation
+### 21. Localization and active-repair accessibility
 
-**CONFIRMED — Q092-Q095, Q118-Q121**
+**CONFIRMED — Q124-Q125, Q150-Q152**
 
-Kullanici kendi motosiklet/kayit/not/fotograf verisini gorebilmeli, duzeltebilmeli, ekleyip silebilmelidir. Bir hesabin verisinin baska hesapta gorunmesi kabul edilmez. Kendi verisini anlasilir ve yeniden kullanilabilir bicimde export etmesi premium olmamalidir.
+Turkiye-first expectation: clear Turkish, familiar units, understandable terms; beginner explanation depth ve experienced concise view.
 
-Silme oncesi kapsam ve geri alinmazlik gorunur olmali; sonrasinda neyin silindigi/ne bekledigi anlasilmalidir. Shared motorcycle ve transfer durumlarinda personal/private content ile motorcycle history ayrisabilmelidir. Gercek deletion, community withdrawal ve export provenance edge case'leri aciktir.
+Accessibility: large readable controls/text, high contrast, warnings not color-only, image descriptions, captions, voice/easy-touch/hands-free support.
 
-### 22. Trust-breakers / product non-goal direction
+Convenience safety invariant'i kaldiramaz. Safety warning, motorcycle fit, technical value, stop condition ve post-operation check atlanamaz. Energy isolation, motorcycle stability, critical connection confirmation ve operation completion gibi critical decisions misheard voice command'a birakilamaz; explicit/reviewable confirmation gerekir. Alternate modality same critical control'u baska yoldan yaptirmali, kontrolu kaldirmamalidir.
 
-**CONFIRMED — Q035, Q065, Q088, Q095, Q096-Q110, Q122**
+### 22. Trust-breakers / non-goal direction
 
-MotoBakim'in teknik guvenini bozan davranislar:
-- uydurulmus/dogrulanmamis teknik bilgi,
-- tehlikeyi gizlemek veya safety gate'i yalniz oz-beyanla gecirmek,
-- belirsiz arizayi kesin teshis gibi sunmak,
-- tehlikeli isin basarisini garanti etmek,
-- teaching-level bilgiyi dogrulanmamis motosiklet application talimati gibi sunmak,
-- kritik safety bilgisini paywall arkasina saklamak,
-- cross-account veri karismasi veya gecmisin sessiz kaybi/overwrite'i,
-- community deneyimini resmi rehber gibi gostermek,
-- gizli reklam/ticari etkinin rehber veya teknik uygunluk kararini degistirmesi,
-- kritik stale rehberi yeniden kontrol gerektigi halde uygulamali olarak acik tutmak.
+**CONFIRMED — Q035, Q065, Q088, Q095, Q096-Q110, Q122, Q126-Q152**
+
+Trust-breaking behavior includes:
+- fabricated/unverified technical certainty,
+- hidden danger or self-assertion bypass of critical gate,
+- false definitive diagnosis,
+- dangerous-work success guarantee,
+- teaching content masquerading as current motorcycle application instruction,
+- critical safety/core completion behind paywall,
+- silent history/provenance overwrite/loss,
+- cross-account data mixing,
+- community content masquerading as official guidance,
+- commercial influence on technical recommendation,
+- stale critical application left open without required re-check,
+- accessibility shortcut removing critical confirmation.
 
 ## Working Interpretations — INFERRED, NOT DECIDED
 
-- `Belirsizligi acikca gostermek` varyant, teshis, maintenance, estimate, roadside ve stale-content kararlarinda yatay guven ilkesi olabilir.
-- `Teaching vs application` ayrimi product architecture'in temel guven semantigi olabilir; ayni icerik bilgilendirici olarak erisilebilirken application gate'li olabilir.
-- Auditability; rehber surumu, history edit, evidence label, moderation, collaboration ve ownership lifecycle'da yatay product principle olabilir.
-- Readiness itirazi serbest override degil, evidence-based re-validation modeli olabilir.
-- Community authoritative source-of-truth'un alternatifi degil, ayri provenance/review statulu ikincil bilgi katmani olabilir.
-- Offline continuity convenience degil, safety baglaminin korunmasi olabilir; ancak stale critical application ayrica gate'lenebilir.
-- Teknik dogruluk, safety gating, veri izolasyonu, auditability ve ticari tarafsizlik birlikte ana guven modelini olusturabilir.
+- `Teaching vs application` yatay product trust principle olabilir.
+- `Evidence-gated re-entry` readiness/recovery modelinin ortak semantigi olabilir.
+- Auditability guide version, history, moderation, collaboration, ownership transfer ve export boyunca ortak principle olabilir.
+- `Verified` kelimesinden cok `hangi claim verify edildi` product trust acisindan esastir.
+- Offline continuity safety context preservation'dir; stale application authorization ayri gate'tir.
+- Owner-first core ile professional/collaboration support birbirinden ayrilabilir.
 
 Bu yorumlar discovery ilerledikce test edilmeye devam edecektir.
