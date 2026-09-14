@@ -49,18 +49,30 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `02_DISCOVERY/BATCH_01_AI_PROMPT.md` olusturuldu; soru araligi Q006-Q035 olarak belirlendi.
 
 ### Product Discovery — Batch 01 Complete
-- Kullanici `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 01` dosyasini ana yonetici sohbetine getirdi.
-- Q006-Q035 raw Q&A eksiksiz yakalandi ve `02_DISCOVERY/SESSIONS/SESSION-001_BATCH_01_Q006_Q035.md` icine verbatim kaydedildi.
-- Q020 cevabinin noktalı virgul ile biterek eksik kalmis olabilecegi kanit kalitesi notu olarak kaydedildi; eksik kisim varsayilmadi.
+- Q006-Q035 raw Q&A `SESSION-001_BATCH_01_Q006_Q035.md` icine verbatim kaydedildi.
 - Phase-1 baseline ile dogrudan celiski tespit edilmedi.
-- Delegated AI'nin CONFIRMED / INFERRED / ASSUMPTION ve open-question resolution adaylari ana proje yoneticisi tarafindan yeniden degerlendirildi.
-- `02_DISCOVERY/SYNTHESIS/PRODUCT_MASTER.md` Batch 01 calisma senteziyle dolduruldu.
-- `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` DRAFT sentezleri olusturuldu.
-- `01_WORKSPACE/ASSUMPTIONS.md` Batch 01 kanitiyla rafine edildi: ASM-001 ve ASM-002 RESOLVED; ASM-003/005 SUPPORTED; ASM-004 CHALLENGED; ASM-006 — ASM-012 OPEN eklendi.
-- `01_WORKSPACE/GLOSSARY.md` yeni kanitla rafine edildi ve yeni PROPOSED domain terimleri eklendi.
-- `OPEN_QUESTIONS.md` kalite kontroluyle guncellendi: Q-0001, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009, Q-0011, Q-0012 ANSWERED; kismi ve yeni bosluklar Q-0002, Q-0003, Q-0004, Q-0010, Q-0013 — Q-0024 olarak OPEN tutuldu.
-- `QUESTION_PROGRESS.md` Batch 01 tamamlandi / Batch 02 hazir durumuna getirildi.
-- `02_DISCOVERY/BATCH_02_AI_PROMPT.md` Q036-Q065 icin, Batch 01'de ogrenilenleri tekrar etmeyecek sekilde adaptif olarak hazirlandi.
+- Delegated AI'nin siniflandirma ve resolution adaylari ana proje yoneticisi tarafindan yeniden degerlendirildi.
+- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` DRAFT sentezleri olusturuldu.
+- `ASSUMPTIONS` ve `GLOSSARY` Batch 01 kanitiyla rafine edildi.
+- Open questions yeniden duzenlendi ve `BATCH_02_AI_PROMPT.md` Q036-Q065 icin adaptif olarak hazirlandi.
+
+### Product Discovery — Batch 02 Complete
+- Kullanici `PORTABLE DISCOVERY HANDOFF PACKAGE — BATCH 02` dosyasini ana yonetici sohbetine getirdi.
+- Q036-Q065 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-002_BATCH_02_Q036_Q065.md` icine verbatim kaydedildi.
+- Phase-1 ve Batch-01 kanitiyla dogrudan celiski tespit edilmedi.
+- Portable paketteki `ANSWERED/RESOLVED` adaylari otomatik kabul edilmedi; ham kanit uzerinden yeniden degerlendirildi.
+- Q036'daki kimlik alanlari evrensel sabit set olarak kilitlenmedi; islem/malzeme/guvenlik farki yaratan ilgili versiyonun kesinlesmesi ust ilke olarak korundu.
+- Q040'taki bagimsiz ikinci inceleme `guven sinyali` olarak kaydedildi; tum kritik rehberlerde zorunlu iki-reviewer politikasi yapilmadi.
+- Q045 tum sistemleri ogrenme istegi kosulsuz self-service iznine genisletilmedi.
+- Q056 sabit nicel teshis kanit esigine donusturulmedi.
+- Q063'te fatura tek basina otomatik dogrulanmis dis islem kaniti sayilmadi.
+- Q065 ucretli/ucretsiz deger sinirini netlestirdi fakat fiyatlandirma/paketleme modeli secilmedi.
+- `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 02 ile guncellendi.
+- `ASSUMPTIONS.md`: ASM-006, ASM-009, ASM-010, ASM-011, ASM-012 RESOLVED; ASM-013 — ASM-018 yeni acik varsayimlar olarak eklendi.
+- `GLOSSARY.md` content lifecycle, readiness, dis islem, bakim onceligi ve benzeri terimlerle rafine edildi.
+- `OPEN_QUESTIONS.md`: Q-0003, Q-0013 — Q-0019 ve Q-0020 ANSWERED yapildi; kismi ve yeni bosluklar dar acik sorularla korundu.
+- `QUESTION_PROGRESS.md` Batch 02 tamamlandi / Batch 03 hazir durumuna getirildi.
+- `02_DISCOVERY/BATCH_03_AI_PROMPT.md` Q066-Q095 icin adaptif olarak hazirlandi.
 
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 02 READY` olarak guncellendi. Batch 03, Batch 02 ham kanit ve sentezi kalite kontrolunden gecmeden hazirlanmayacak; Phase 3'e gecilmeyecek.
+Durum `PHASE-2 / PRODUCT DISCOVERY — BATCH 03 READY` olarak guncellendi. Batch 04, Batch 03 ham kanit ve sentezi kalite kontrolunden gecmeden hazirlanmayacak; Phase 3'e gecilmeyecek.
