@@ -1,6 +1,6 @@
 # QUESTION PROGRESS
 
-Status: BATCH_07_READY
+Status: BATCH_08_READY
 
 | Batch | Question Range | Status | Session File | Synthesis Updated |
 |---|---:|---|---|---|
@@ -11,42 +11,62 @@ Status: BATCH_07_READY
 | Batch 04 | 96-125 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-004_BATCH_04_Q096_Q125.md` | Yes — working DRAFT synthesis |
 | Batch 05 | 126-155 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-005_BATCH_05_Q126_Q155.md` | Yes — working DRAFT synthesis |
 | Batch 06 | 156-185 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-006_BATCH_06_Q156_Q185.md` | Yes — working DRAFT synthesis |
-| Batch 07 | 186-215 | READY | pending | No |
+| Batch 07 | 186-215 | COMPLETED_QC_PASSED | `SESSIONS/SESSION-007_BATCH_07_Q186_Q215.md` | Yes — `PRODUCT_MASTER` + Batch 07 synthesis delta |
+| Batch 08 | 216-245 | READY | pending | No |
 
-Toplam sorulan: 185
-Toplam cevaplanan: 185
+Toplam sorulan: 215
+Toplam cevaplanan: 215
 
-## Batch 06 QC
+## Batch 07 QC
 
-- RAW Q&A Q156-Q185 repository'ye verbatim kaydedildi.
-- Previous approved baseline + Batch 01-05 evidence ile direct conflict tespit edilmedi.
+- RAW Q&A Q186-Q215 ve supplemental user note repository'ye verbatim kaydedildi.
 - Portable package'teki `ANSWERED/SUPPORTED` candidates automatic kabul edilmedi; raw user evidence ile yeniden degerlendirildi.
-- Portable package'in ASM-026—ASM-030 anlamlari repository canonical assumption ID'leriyle uyusmuyordu; ID'ler yeniden kullanilmadi. Evidence mevcut canonical assumptions'a baglandi ve yeni assumptions ASM-031'den devam ettirildi.
-- Q156-Q158 core history'nin longitudinal trust fields'ini ve expanded high-volume media boundary'sini netlestirdi; numeric quota belirlenmedi.
-- Q159-Q161 basic motorcycle isolation'i core invariant olarak guclendirdi; advanced garage cross-bike analysis/bulk planning/richer collaboration/archive-search value olarak ayrildi.
-- Q162-Q165 transfer dispute/repeated-transfer semantics'i netlestirdi; `immutable trace` technical storage architecture karari yapilmadi.
-- Q166-Q168 withdrawn community evidence icin dependency-aware re-review ve safety/technical impact'a gore correction reach-back beklentisini netlestirdi; exact affected-user boundary acik kaldi.
-- Q169-Q171 motorcycle record ownership, contributor evidence lifecycle ve historical attribution'i ayirdi; independent transferred-copy edge case'i acik tutuldu.
-- Q172-Q174 evidence explanation risk-adaptive hale geldi; `acilir bolum` final UI component karari sayilmadi.
-- Q175-Q177 local-to-profile transition scope preview/no-silent-loss/conflict review expectation'ini netlestirdi; technical sync/transaction solution secilmedi.
-- Q178-Q180 materially changed guide mid-repair recovery'de physical-state remapping expectation'ini netlestirdi; computer-vision implementation garantisi yapilmadi.
-- Q181-Q183 resume semantics'i `last viewed step` degil last-known-safe state + current re-validation olarak netlestirdi.
-- Q184-Q185 disputed paid-service completion'ın maintenance counter/future guide decisions'a verified fact olarak aktarilmamasini netlestirdi.
+- Q186-Q188 contributor withdrawal'in transferred/independent record'i automatic silmemesi; source access/provenance/visibility/trust ayrimi ve remaining-evidence re-review davranisini netlestirdi.
+- Q189-Q194 disputed claim'e new evidence, resolution threshold, correction/extension relation ve current-state vs event-history semantics'ini netlestirdi.
+- Q195-Q200 materially changed guide + long interruption recovery'de current physical state reconstruction ve critical re-validation ihtiyacini guclendirdi; automatic reversal/nearest-step guessing kabul edilmedi.
+- Q201-Q203 migration cancel/failure/rollback'ta local source preservation, partial-state transparency ve non-destructive conflict review beklentisini netlestirdi.
+- Q204-Q206 affected-user reach-back'i interaction depth + risk ile ayirdi; exact notification channel/SLA secilmedi.
+- Q207-Q209 beginner/experienced adaptation'in explanation depth/speed'de olabilecegini; trust-critical facts ve mandatory checks'in invariant kaldigini netlestirdi.
+- Q210-Q215 basic collaboration trust ile advanced scale/coordination value'yu ayirdi; attribution/revoke/provenance/history integrity premium trust feature'i yapilmadi.
+- Supplemental note yeni free-tier proposal getirdi: `1 active motorcycle + 1 invitee + basic history/warnings + user-selected 1 full guide`; additional motorcycles/guides paid; existing records not locked. Bu APPROVED/LOCKED degil.
+- Earlier Q159/Q161 broad free multi-bike interpretation ve Q065/Q087/Q145 core-guide interpretation ile new proposal arasindaki refinement tension `02_DISCOVERY/CONFLICTS.md` icinde CONF-001/CONF-002 olarak kaydedildi.
+- Exact price, tier, participant quota, guide quota implementation veya commercial viability karari yapilmadi.
 
-## Open-question result after Batch 06
+## Open-question result after Batch 07
 
-ANSWERED in this QC: Q-0046, Q-0047, Q-0048, Q-0049, Q-0051, Q-0052, Q-0053, Q-0054, Q-0055.
+ANSWERED in this QC:
+- Q-0050
+- Q-0056
+- Q-0057
+- Q-0058
+- Q-0059
+- Q-0060
+- Q-0061
+- Q-0062
+- Q-0063
+- Q-0064
 
-Q-0050 narrowed and remains OPEN.
+New narrowed OPEN questions from the supplemental entitlement proposal:
+- Q-0065 — free `1 active motorcycle` lifecycle
+- Q-0066 — free `1 selected full guide` lifecycle
+- Q-0067 — active repair continuity during entitlement change
+- Q-0068 — minimum meaning of `existing records stay unlocked`
+- Q-0069 — inactive/shared collaboration lifecycle
 
-New OPEN questions: Q-0056 — Q-0064.
+## Synthesis Note
+
+- `PRODUCT_MASTER.md` Batch 07 evidence ile guncellendi.
+- `BATCH_07_DELTA.md` business-rule/journey/feature/non-goal/glossary additions'i additive olarak yakaladi.
+- Canonical tablolara final consolidation Batch 08/saturation review sonrasinda yapilacak; bu, ham evidence veya onceki synthesis'i sessizce silmez.
 
 ## Provenance Note
 
 Q001-Q005 ham Q&A repository'de yoktur; corrected Phase-1 baseline user tarafindan onaylanmistir.
 
-Q006-Q185 raw evidence ilgili `SESSION-*` dosyalarinda verbatim korunur. Sonraki batch'lerde `RAW Q&A — VERBATIM` zorunludur.
+Q006-Q215 raw evidence ilgili `SESSION-*` dosyalarinda verbatim korunur. Sonraki batch'lerde `RAW Q&A — VERBATIM` zorunludur.
 
 ## Next
 
-`BATCH_07_AI_PROMPT.md` ile Q186-Q215 baska AI oturumunda sorulacak. Batch 08, Batch 07 portable package ana proje yoneticisi kalite kontrolunden gecmeden hazirlanmayacak. Phase 3'e gecilmeyecek.
+`BATCH_08_AI_PROMPT.md` ile Q216-Q245 baska AI oturumunda sorulacak. Bu batch esas olarak entitlement lifecycle'i ve monetization trust edge case'lerini kapatmaya odaklanacak.
+
+Batch 08 sonrasinda yeni substantive gaps yoksa ana proje yoneticisi **discovery saturation + Gate 2 review** yapacak; Gate 2 -> 3 otomatik gecilmeyecek ve user approval olmadan Design baslatilmayacak.
