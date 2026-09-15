@@ -1,15 +1,21 @@
 # KAVRIVA SCREEN FAMILY + SPECS — MAIN-MANAGER REVIEW
 
-Status: REVIEW
+Status: APPROVED
 Date: 2026-09-15
 Source package: `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
 Uploaded package SHA-256: `97bb6ff594d397ed7ce3c3e8b97ad8aeb805cf5212b379ed5e0298f7e825f285`
 
 ## Result
 
-`PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED`
+`PASS_WITH_REFINEMENTS — APPROVED WORKING SPECS`
 
 Delegated package approved `SCR-001` — `SCR-038` architecture'i 9 anlamli screen family'ye ayiriyor, tum 38 context icin per-screen specification veriyor ve approved Phase-2 / Phase-3 authority sinirlarini koruyor.
+
+User navigation review sirasinda original 1/2/3 options yerine yeni bir shell refinement onerdi ve acikca onayladi:
+
+**Garaj · Bakim · AI Usta · Gecmis · Topluluk**
+
+Main-manager bu selection'i approved architecture ve simplicity constraints ile QA ederek kabul etti. Canonical navigation source: `GLOBAL_NAVIGATION.md`.
 
 ## What Passed
 
@@ -34,59 +40,80 @@ Delegated package approved `SCR-001` — `SCR-038` architecture'i 9 anlamli scre
 
 ## Main-Manager Refinement 01 — Preferences Must Not Depend on Profile
 
-Package language/unit ve accessibility modality controls icin hybrid/app-level preference placement onermektedir.
+Language/unit preference veya accessibility support:
+- profile/account acmaya bagli tasarlanamaz,
+- account-light/local use'da kullanilabilir olmalidir,
+- profile varsa persistence icin kullanilabilir fakat access prerequisite olamaz.
 
-Constraint:
-- language/unit preference veya accessibility support, profile/account acmaya bagliymis gibi tasarlanamaz,
-- account-light/local use bu temel presentation/accessibility davranislarindan yararlanabilmelidir,
-- profile varsa preference persistence icin kullanilabilir; fakat product access prerequisite olamaz.
+## User Navigation Decision — Approved Five-Tab Shell
 
-Bu refinement product requirement eklemez; approved first-value/account-light ve accessibility semantics'ini korur.
+Approved bottom bar:
+1. Garaj
+2. Bakim
+3. AI Usta — center / primary-assistance entry
+4. Gecmis
+5. Topluluk
 
-## Main-Manager Refinement 02 — Navigation Choice Requires User Preference
+### Why this passes QA
 
-Delegated package uc PROPOSED global shell sunuyor:
+Bu shell capability'leri tek bir dashboard'a yigmak yerine uzun omurlu ana product responsibilities'i ayirir.
 
-### Option 1 — Motorcycle-Context-First
-Motor merkezde; task, symptom, maintenance ve history motor context icinden acilir.
-Risk: `SCR-005` fazla entry toplarsa dashboard/card-stack hissi geri gelebilir.
+- Garaj motorcycle context/lifecycle responsibility'sini tasir.
+- Bakim maintenance/reminder responsibility'sini tasir.
+- AI Usta known-task + symptom-first assistance'in merkezi entry'sidir.
+- Gecmis longitudinal history/evidence/trust responsibility'sini tasir.
+- Topluluk community Q&A/experience'i official guide authority'sinden ayri tasir.
 
-### Option 2 — Task-First Launcher
-Once `ne yapmak istiyorsun?`; motorcycle context header'da.
-Risk: launcher zamanla feature menu/dashboard'a donebilir ve maintenance/history ikincil hissedebilir.
+### AI Usta constraint
 
-### Option 3 — Focused Hybrid Shell
-Compact motorcycle context + uc ana alan:
-- Yap / Coz
-- Bakim
-- Gecmis
+`AI Usta` bir UX role/entry label'idir; bu karar LLM/provider/backend architecture secmez.
 
-Lifecycle/profile/collaboration/community contextual kalir.
-Delegated recommendation: Option 3.
-Main-manager assessment: **Option 3 en guclu candidate**, cunku approved UX simplicity principle'i ve onceki dashboard-clutter feedback'i ile en iyi uyumu gosteriyor.
+AI Usta:
+- kendi basina technical source-of-truth degildir,
+- verified sources/guides yerine gecmez,
+- fit/readiness/safety gates'i bypass edemez,
+- unsupported technical value veya definitive diagnosis uyduramaz,
+- approved `SCR-009` / `SCR-019` ve downstream flows'a kontrollu yonlendirme yapar.
 
-Option 3 hala APPROVED degildir; explicit user selection gerekir.
+Exact interaction formu sonraki visual-reference work'te rafine edilir.
+
+## Controlled SCR-005 Refinement
+
+5-tab shell sonrasinda `SCR-005` eski broad action-hub rolunde tum capability'leri ayni anda tasimayacak.
+
+Working refinement:
+- Garaj = motorcycle context / switching / lifecycle emphasis,
+- AI Usta = known task + symptom primary entry,
+- Bakim = maintenance primary entry,
+- Gecmis = history primary entry,
+- Topluluk = community primary entry.
+
+Bu capability silme degil, approved interactions'in daha sade global shell'e dagitilmasidir.
 
 ## Surface Recommendations
 
-Package'in ambiguous contexts icin sheet/full-screen/modal/state-family onerileri mantikli ve `PROPOSED` kalmalidir. Bu turda exact modality user'a tek tek secim olarak yuklenmeyecek; screen-by-screen visual-reference planning sirasinda consequence ve complexity'ye gore QA edilebilir.
+Delegated package'in ambiguous sheet/full-screen/modal/state-family onerileri **PROPOSED** kalir ve exact production modality sayilmaz.
 
 Ozellikle:
-- `SCR-037` permanent paywall route degil contextual gate/state family olarak korunmali,
-- `SCR-038` permanent social feed'e donusmemeli,
-- `SCR-015` recovery normal navigation destination olmamali,
-- `SCR-012` readiness hold dead-end olmamali.
+- `SCR-037` permanent paywall route degil contextual gate/state family,
+- `SCR-038` permanent social feed degil,
+- `SCR-015` recovery normal navigation destination degil,
+- `SCR-012` readiness hold dead-end degil.
 
 ## Approval Boundary
 
-Bu review:
-- delegated screen-family/spec paketini QA'den gecirir,
-- package'i otomatik APPROVED/LOCKED yapmaz,
-- global navigation shell'i secmez,
-- visual generation'a yetki vermez,
-- Gate 3 -> 4'u gecirmez.
+APPROVED working specs:
+- 9-family grouping,
+- per-SCR hierarchy/action/trust/safety specifications,
+- five-tab global navigation responsibility split,
+- language/unit/accessibility profile-independence refinement.
 
-User navigation shell secimini yaptiktan sonra main-manager:
-1. selected shell'i controlled decision olarak kaydeder,
-2. screen-family/spec package'i gerekli refinement'lerle APPROVED working spec seviyesine tasiyabilir,
-3. family-based visual-reference planning/generation promptunu hazirlayabilir.
+Still open:
+- exact ambiguous surface modalities,
+- AI Usta structured vs conversational interaction shape,
+- active-guide bottom-bar visibility,
+- first post-onboarding landing tab,
+- final production component/token/iconography,
+- technology/pricing.
+
+This review does NOT pass Gate 3 -> 4. Screen-by-screen visual references still require controlled generation + user approval.
