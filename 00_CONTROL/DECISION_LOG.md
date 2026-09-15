@@ -157,9 +157,6 @@ Bu karar:
 - screen inventory/navigation/state coverage zorunlulugunu kaldirmaz,
 - technology/backend architecture veya implementation karari vermez.
 
-Current first prompt:
-`03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`.
-
 ---
 
 ## DEC-0012 — Kavriva Approved as Working Consumer-Facing Brand Name
@@ -182,12 +179,7 @@ Bunun sonucunda:
 - `Motobakim` / `MotoBakim` internal project/repository codename olarak kalabilir,
 - brand name LOCKED degildir; daha yeni explicit user karari controlled supersession yapabilir.
 
-Bu karar:
-- legal trademark clearance DEGILDIR,
-- registrability/infringement sonucu DEGILDIR,
-- domain/handle availability veya ownership garantisi DEGILDIR.
-
-Comprehensive trademark similarity clearance, priority domain/handle verification ve gerekirse hear/write recall validation high-cost public brand commitment / launch oncesi ayri validation konusu olarak kalir.
+Bu karar legal trademark clearance, registrability/infringement sonucu veya domain/handle availability garantisi degildir.
 
 ---
 
@@ -201,25 +193,35 @@ Bunun sonucunda:
 - `03_DESIGN/LOGO_DIRECTION.md` approved working logo-direction source'udur,
 - `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md` delegated evidence/handoff katmanidir,
 - `03_DESIGN/KAVRIVA_LOGO_REVIEW.md` main-manager QA kaydidir,
-- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-BRAND-001` L05A working direction'i APPROVED referans olarak kaydeder,
-- Anchor Screen Visual Exploration — Round 2, Kavriva + L05A brand visual-DNA ile baslatilabilir.
+- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-BRAND-001` L05A working direction'i APPROVED referans olarak kaydeder.
 
-Approval scope bilincli olarak dardir. APPROVED olan:
-- L05A concept direction,
-- `precision fit / controlled alignment` semantic intent,
-- precise/geometric/modular/controlled/restrained-angular visual-DNA,
-- subsequent UI exploration'da bu direction'in reference olarak kullanilmasi.
+Approval scope concept/direction seviyesindedir. Generated PNG production-ready vector asset, exact paths/proportions, final wordmark typography, final palette, launcher-icon spec veya trademark/legal clearance degildir.
 
-APPROVED olmayan:
-- generated PNG'nin production-ready vector asset olmasi,
-- exact vector paths/proportions/corner treatment,
-- final wordmark typography,
-- final color palette,
-- final launcher-icon safe area/background,
-- trademark/legal uniqueness veya clearance.
+Future refinement speed/racing treatment eklememeli, rewind/back-arrow ambiguity'sini artirmamali, small-size negative-space separation'i korumali ve `Kavriva` wordmark'inda `r` ile iki `v` acik kalmalidir.
 
-Future refinement:
-- speed/racing treatment eklememeli,
-- rewind/back-arrow ambiguity'sini artirmamali,
-- small-size negative-space separation'i korumali,
-- `Kavriva` wordmark'inda `r` ve iki `v` acik kalmali.
+---
+
+## DEC-0014 — U04 Approved as Working Kavriva Anchor UX Structure
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici, repeated anchor-screen UX clutter feedback'i sonrasinda yapilan controlled UX Structure Calibration turunda `U04 — Progressive Detail` yapisini acikca secti (`U04`). Main-manager delegated handoff'u QA ederek structure'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+
+Bunun sonucunda:
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` approved working anchor-UX source'udur,
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md` delegated evidence/handoff katmanidir,
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md` main-manager QA kaydidir,
+- `03_DESIGN/REFERENCE_INDEX.md` icinde U04 working anchor hierarchy APPROVED reference olarak kaydedilebilir,
+- sonraki visual-style exploration U04 hierarchy'sini sabit tutmak zorundadir.
+
+Approved U04 principle:
+**Accessible does not mean simultaneously prominent.**
+
+Working hierarchy task-first'tur: compact context/progress -> step title -> quiet trust label -> dominant visual + one annotation -> concise instruction -> integrated critical safety -> collapsed detail affordance -> one dominant completion CTA -> lower-emphasis visible recovery path.
+
+Approval scope bilincli olarak dardir. Bu karar:
+- U04'u tum Kavriva ekranlari icin universal template yapmaz,
+- final screen catalog/navigation/state architecture karari degildir,
+- final component system, font, palette, exact spacing veya implementation karari degildir.
+
+Visual-style exploration hierarchy order'ini, visible-vs-on-demand semantics'i, CTA placement logic'ini, critical-safety visibility'ni, trust visibility'ni, recovery emphasis'ini veya progressive-disclosure behavior'ini degistiremez.
