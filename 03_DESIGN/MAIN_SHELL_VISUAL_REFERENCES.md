@@ -2,7 +2,6 @@
 
 Status: APPROVED WORKING VISUAL REFERENCE SET
 Approved by: USER acceptance + main-manager QA — 2026-09-15
-Decision: DEC-0019
 Reference: `REF-SHELL-001`
 Evidence: `KAVRIVA_MAIN_SHELL_VISUALS_01_HANDOFF.md`
 Review: `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
@@ -120,6 +119,10 @@ The repository records provenance but does not currently store these PNG binarie
 - Generated motorcycle imagery cannot be used as technical evidence.
 - Active physical-work bottom-bar behavior remains open.
 - First post-onboarding landing tab remains open.
+
+## Approval Boundary
+
+This working approval is based on the explicit user feedback `hepsi iyi` plus `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md` QA. It is intentionally scoped to root-level visual references and does not create a production component/token decision.
 
 ## Next Visual Family
 
