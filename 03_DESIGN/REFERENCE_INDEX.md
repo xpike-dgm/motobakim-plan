@@ -8,6 +8,8 @@ Status: ACTIVE
 | `REF-UX-001` | Anchor screen / normal application-ready structure | `03_DESIGN/ANCHOR_UX_STRUCTURE.md` | `U04 — Progressive Detail / UX Calibration 01` | APPROVED | — |
 | `REF-VISUAL-001` | Anchor screen / working visual direction | `03_DESIGN/ANCHOR_VISUAL_STYLE.md` | `V10 — Signature Kavriva / Visual Style 01` | APPROVED | — |
 | `REF-ARCH-001` | Full-app working screen / transition / critical-state architecture | `03_DESIGN/SCREEN_CATALOG.md` + `NAVIGATION_MAP.md` + `STATE_MATRIX.md` | `Screen Inventory 01 + Main-Manager Refinement` | APPROVED | — |
+| `REF-NAV-001` | Global navigation shell | `03_DESIGN/GLOBAL_NAVIGATION.md` | `5-tab: Garaj / Bakim / AI Usta / Gecmis / Topluluk` | APPROVED | Earlier proposed 1/2/3 shell options |
+| `REF-SPEC-001` | Full-app working screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | `Screen Family + Specs 01 + DEC-0017 refinement` | APPROVED | — |
 
 ## Reference Semantics
 
@@ -15,34 +17,17 @@ Status: ACTIVE
 
 Authorizes L05A as the **working logo direction / brand visual-DNA reference** for Phase-3 design exploration.
 
-It does NOT make the generated PNG:
-- a production-ready vector master,
-- final exact geometry,
-- final wordmark typography,
-- final color palette,
-- final launcher-icon specification,
-- trademark-cleared artwork.
-
-Exact reviewed visual provenance is recorded in `LOGO_DIRECTION.md` and `KAVRIVA_LOGO_REVIEW.md` including its SHA-256. The repository does not currently store the PNG binary; visual-generation sessions requiring exact fidelity must receive the user-supplied selected image as an attachment.
+It does NOT make the generated PNG a production-ready vector master, final exact geometry, final wordmark typography, final color palette, final launcher-icon specification or trademark-cleared artwork.
 
 ### REF-UX-001
 
-Authorizes U04 as the **working anchor-screen UX hierarchy** for Phase-3 visual-style calibration.
+Authorizes U04 as the **working anchor-screen UX hierarchy**.
 
-It means:
-- task-first progressive-detail hierarchy is approved for the anchor fixture,
-- accessible information does not need simultaneous high prominence,
-- visual-style exploration must preserve U04 hierarchy and progressive-disclosure behavior.
-
-It does NOT mean:
-- every Kavriva screen must use U04,
-- final screen catalog/navigation/state architecture is decided by U04,
-- final visual style, font, palette or component system is approved,
-- exact generated U04 screenshot geometry is a production specification.
+It means task-first progressive-detail hierarchy is approved for the active-guide anchor fixture. It does NOT mean every Kavriva screen must use U04 or exact generated geometry is production specification.
 
 ### REF-VISUAL-001
 
-Authorizes V10 as the **working Kavriva anchor visual direction** for Phase-3 screen/spec/reference work.
+Authorizes V10 as the **working Kavriva visual direction** for downstream screen/reference work.
 
 Working signals:
 - clean near-white canvas,
@@ -55,37 +40,57 @@ Working signals:
 - restrained L05A use,
 - calm technical credibility.
 
-It does NOT approve/finalize:
-- exact HEX values as production tokens,
-- exact font/type scale,
-- exact spacing/radii,
-- final icon family,
-- dark theme,
-- responsive behavior,
-- generated motorcycle imagery as verified motorcycle-specific evidence,
-- U04 as a universal layout for every Kavriva screen.
+It does NOT approve exact HEX/font/spacing/radii, final icon family, dark theme, responsive behavior or generated mechanical imagery as verified evidence.
 
-QA constraint: shield/check trust/safety iconography in the selected screenshot is not canonical final component language and must not imply official safety certification or guaranteed correctness.
+QA constraint: shield/check trust/safety iconography is not canonical final component language.
 
 ### REF-ARCH-001
 
-Authorizes the user-approved **working full-app screen architecture** for Phase-3 downstream design work.
+Authorizes user-approved working full-app screen architecture:
+- `SCREEN_CATALOG.md`,
+- `NAVIGATION_MAP.md`,
+- `STATE_MATRIX.md`,
+- `DESIGN_PRINCIPLES.md`,
+- `SCREEN_COVERAGE_TRACEABILITY.md`.
 
-Canonical architecture sources:
-- `SCREEN_CATALOG.md` — 38 product interaction contexts,
-- `NAVIGATION_MAP.md` — product-level transitions,
-- `STATE_MATRIX.md` — critical state coverage,
-- `DESIGN_PRINCIPLES.md` — approved working screen-level principles,
-- `SCREEN_COVERAGE_TRACEABILITY.md` — journey/rule coverage.
+It does NOT mean 38 permanent routes or exact surface implementation.
 
-This reference means those contexts, transitions and invariants are valid inputs for screen-family/spec work.
+DEC-0017 later refines global entry distribution without removing approved contexts.
 
-It does NOT mean:
-- 38 permanent implementation routes are required,
-- every candidate is a full screen,
-- final bottom navigation/home shell is decided,
-- exact sheet/modal/inline choices are locked,
-- final MVP scope is decided,
-- component library or technology is decided.
+### REF-NAV-001
 
-Yalnizca APPROVED veya LOCKED referanslar sonraki asamalar icin otorite kabul edilir.
+Authorizes the working 5-tab bottom navigation shell:
+
+**Garaj · Bakim · AI Usta · Gecmis · Topluluk**
+
+Responsibilities:
+- Garaj = motorcycle context/lifecycle,
+- Bakim = maintenance/reminders,
+- AI Usta = known-task + symptom-first assistance entry,
+- Gecmis = history/evidence/trust,
+- Topluluk = community experiences/contribution.
+
+`AI Usta` is a UX role/entry label, not an approved technical AI architecture. It cannot bypass fit/readiness/safety/trust rules.
+
+Not finalized by this reference:
+- exact icons/animation,
+- AI Usta exact conversational/structured interaction model,
+- active-guide bottom-bar visibility,
+- first post-onboarding landing tab,
+- platform routing implementation.
+
+### REF-SPEC-001
+
+Authorizes:
+- 9 screen-family grouping,
+- `SCR-001` — `SCR-038` working UX specifications,
+- default-view simplicity hierarchy,
+- per-context trust/safety/action rules,
+- profile-independent language/unit/accessibility refinement,
+- controlled `SCR-005` refinement under the five-tab shell.
+
+Exact ambiguous surface modality recommendations remain PROPOSED unless later explicitly approved.
+
+## Authority Rule
+
+Yalnizca APPROVED veya LOCKED references downstream authority kabul edilir.
