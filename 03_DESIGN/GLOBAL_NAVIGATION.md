@@ -3,6 +3,7 @@
 Status: APPROVED
 Approved by: USER — 2026-09-15
 Decision: DEC-0017
+AI Usta root refinement: DEC-0018 / `REF-AIUSTA-001`
 Phase: Phase 3 — Design
 
 ## Approved Bottom Navigation
@@ -66,7 +67,30 @@ AI Usta:
 - unsupported technical value veya definitive diagnosis uyduramaz,
 - application instruction'i approved guide/diagnosis/readiness semantics disinda acamaz.
 
-Exact interaction formu — conversational chat, structured assistant, search+prompt veya hybrid — sonraki visual/spec refinement'ta kontrollu tasarlanir. User'in `AI Usta` tab karari tek basina free-form chatbot UX'i kilitlemez.
+### Approved AI Usta Root Structure
+
+DEC-0018 ile root interaction shape netlestirildi:
+**A1 — Guided Split**.
+
+Canonical:
+- `AI_USTA_UX_STRUCTURE.md`
+- `REF-AIUSTA-001`
+
+Root hierarchy:
+- compact selected motorcycle context,
+- `Nasil yardimci olayim?`,
+- `Bir is yapmak istiyorum`,
+- `Motorda bir sorun var`,
+- optional low-prominence help,
+- bottom bar with AI Usta selected.
+
+A1 root:
+- free-form technical-answer chat home degildir,
+- chat transcript/history surface degildir,
+- root composer gerektirmez,
+- two intents bulky card-stack'e donusturulmez.
+
+Natural-language task/symptom capture downstream `SCR-009` / `SCR-019` icinde kullanilabilir; technical authority degismez.
 
 ### Gecmis
 Primary meaning:
@@ -147,11 +171,13 @@ APPROVED:
 - five-tab bottom navigation concept,
 - tab labels/order,
 - center AI Usta role,
-- tab-level product responsibility boundaries.
+- tab-level product responsibility boundaries,
+- AI Usta A1 root interaction structure via DEC-0018 / `REF-AIUSTA-001`.
 
 NOT FINALIZED:
 - exact icon family,
-- AI Usta exact interaction form,
+- visual treatment of A1 intents,
+- optional conversational capabilities beyond A1 root,
 - active-repair bottom-bar visibility,
 - first landing tab,
 - platform-specific navigation implementation,
