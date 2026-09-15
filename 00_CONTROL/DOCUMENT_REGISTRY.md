@@ -37,13 +37,15 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` — approved QA record
 - `MAIN_SHELL_VISUAL_REFERENCES.md` — R01–R05 approved working root visual family
 - `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md` — root-set main-manager QA
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`
+- `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` — D01–D05 approved working visual family
+- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md` — guide-family main-manager QA
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`
 
 Current Phase-3 task:
-**Guide Discovery / Fit / Preparation visual references — SCR-009–SCR-013**.
+**Active Application / Safety / Recovery visual references — SCR-014–SCR-018**.
 
 Active prompt:
-`03_DESIGN/PHASE3_GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES_AI_PROMPT.md`.
+`03_DESIGN/PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`.
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 
