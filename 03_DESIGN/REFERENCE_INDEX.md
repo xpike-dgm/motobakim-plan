@@ -10,6 +10,7 @@ Status: ACTIVE
 | `REF-ARCH-001` | Full-app working screen / transition / critical-state architecture | `03_DESIGN/SCREEN_CATALOG.md` + `NAVIGATION_MAP.md` + `STATE_MATRIX.md` | `Screen Inventory 01 + Main-Manager Refinement` | APPROVED | — |
 | `REF-NAV-001` | Global navigation shell | `03_DESIGN/GLOBAL_NAVIGATION.md` | `5-tab: Garaj / Bakim / AI Usta / Gecmis / Topluluk` | APPROVED | Earlier proposed 1/2/3 shell options |
 | `REF-SPEC-001` | Full-app working screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | `Screen Family + Specs 01 + DEC-0017 refinement` | APPROVED | — |
+| `REF-AIUSTA-001` | AI Usta root / known-task vs symptom entry structure | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | `A1 — Guided Split / AI Usta UX Structure 01` | APPROVED | Earlier A1-A4 candidates |
 
 ## Reference Semantics
 
@@ -74,10 +75,11 @@ Responsibilities:
 
 Not finalized by this reference:
 - exact icons/animation,
-- AI Usta exact conversational/structured interaction model,
 - active-guide bottom-bar visibility,
 - first post-onboarding landing tab,
 - platform routing implementation.
+
+AI Usta root interaction shape is separately authorized by `REF-AIUSTA-001`.
 
 ### REF-SPEC-001
 
@@ -90,6 +92,31 @@ Authorizes:
 - controlled `SCR-005` refinement under the five-tab shell.
 
 Exact ambiguous surface modality recommendations remain PROPOSED unless later explicitly approved.
+
+### REF-AIUSTA-001
+
+Authorizes **A1 — Guided Split** as the working AI Usta root interaction structure.
+
+Approved hierarchy:
+- compact selected motorcycle context,
+- `Nasil yardimci olayim?`,
+- `Bir is yapmak istiyorum`,
+- `Motorda bir sorun var`,
+- optional low-prominence help,
+- fixed five-tab bottom navigation with AI Usta selected.
+
+Routing:
+- known-task -> `SCR-009`,
+- symptom-first -> `SCR-019`.
+
+This reference does NOT authorize:
+- a free-form technical-answer chatbot home,
+- unsupported technical values or diagnosis,
+- fit/readiness/safety bypass,
+- LLM/provider/backend architecture,
+- final production icon/color/font/spacing tokens.
+
+Visual-reference work must keep the root low-clutter and must not turn the two intents into a bulky card stack.
 
 ## Authority Rule
 
