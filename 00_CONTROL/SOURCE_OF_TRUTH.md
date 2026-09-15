@@ -31,7 +31,7 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 `PROJECT_VISION.md`, `CONSTRAINTS.md`, `ASSUMPTIONS.md`, `GLOSSARY.md`. Varsayimlar gercek sayilmaz.
 
 ### 02 Discovery
-`SESSIONS/` ham kanittir. Otoriter urun sentezi `SYNTHESIS/` altindaki APPROVED belgelerden gelir.
+`SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Bu belge onaylanan synthesis snapshot'ini ve hangi blob'larin birlikte okunacagini tanimlar. Working synthesis dosyalarinin sonraki degisiklikleri, controlled approval/supersession olmadan approved snapshot'i otomatik degistirmez.
 
 ### 03 Design
 Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md`; gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
