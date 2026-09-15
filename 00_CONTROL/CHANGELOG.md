@@ -107,7 +107,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Q216-Q245 raw Q&A `02_DISCOVERY/SESSIONS/SESSION-008_BATCH_08_Q216_Q245.md` icine verbatim kaydedildi. User cevaplarindaki Google Play/RevenueCat links raw evidence olarak korundu; external verification veya billing/business implementation karari yapilmadi.
 - Delegated `ANSWERED/PARTIALLY_ANSWERED/READY CANDIDATE` adaylari automatic gate karari olarak kabul edilmedi; raw user evidence ile QC yapildi.
 - One-active-motorcycle lifecycle netlesti: inactive history/evidence/export/correction/trust access'i korunur; routine reminders susabilir; historical critical safety reach-back ve required recheck/safe-recovery entitlement'tan bagimsiz devam eder; reactivation current km/use ve physical state revalidation ister.
-- One-selected-full-guide lifecycle netlesti: account-level current working proposal; bike switch/completion automatic new free right yaratmaz; reuse/history/corrections korunur; user-fault olmayan invalidation replacement selection hakki acabilir. Exact wrong-selection correction window validation topic olarak kaldi.
+- One-selected-full-guide lifecycle netlesti: account-level current working proposal; bike switch/completion automatic new right yaratmaz; reuse/history/corrections korunur; user-fault olmayan invalidation replacement selection hakki acabilir. Exact wrong-selection correction window validation topic olarak kaldi.
 - Started physical work entitlement change nedeniyle paywall'a takilamaz; safe completion/stop/recovery icin required relevant guidance korunur ve new paid activity entitlement'i yaratmaz.
 - `Existing records stay unlocked` read/basic-search/export/provenance/evidence/correction/dispute/error-flag/own-evidence-withdrawal ve existing-claim trust-maintenance behavior'larini kapsayacak sekilde netlesti. Unrelated new routine activity ayri monetizable new activity olabilir.
 - Collaboration downgrade historical attribution/evidence/approvals/correction trail'i korur; new routine/advanced activity durabilir; owner revoke authority devam eder.
@@ -183,5 +183,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Generic motorcycle silhouette, wrench+gear, shield+check, AI sparkle/brain ve racing-flame cliche-first direction'lardan kacinma kurali eklendi.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA LOGO EXPLORATION READY`.
 
+### Kavriva L05A Logo Direction Selected / QA Passed
+- User Kavriva logo portable handoff package'ini ve selected Round-02 `L05A — The Precision Fit` visual'ini ana yonetici sohbetine getirdi.
+- Delegated handoff `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md` icinde verbatim korunuyor.
+- Main-manager reviewed selected visual: `Kavriva_L05A.png`, `1448 x 1086`, SHA-256 `0dcbcd704014a0cec8a6f40a9fe6917ffe954ca4123e3b1a723aed8c222ea98d`.
+- `03_DESIGN/KAVRIVA_LOGO_REVIEW.md` main-manager QA sonucu: `PASS_WITH_CONSTRAINTS`.
+- QA strengths: monochrome/small-icon potential, modular/precision semantics, category-cliche avoidance, readable Kavriva wordmark presentation.
+- QA risks: rewind/back-arrow ambiguity, racing/performance drift, small-size negative-space collapse, generated typography not production-ready.
+- DEC-0013 `L05A Approved as Working Kavriva Logo Direction` APPROVED.
+- `03_DESIGN/LOGO_DIRECTION.md` canonical working logo-direction source olarak olusturuldu.
+- `03_DESIGN/REFERENCE_INDEX.md`: `REF-BRAND-001` L05A direction APPROVED olarak kaydedildi.
+- Approval concept/direction seviyesinde; exact vector paths, final font/palette/app-icon geometry ve trademark/legal uniqueness onaylanmadi.
+- Selected PNG binary repository'de tutulmuyor; exact visual-fidelity isteyen delegated generation session'a user image'i attachment olarak verilmelidir.
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` Kavriva + L05A icin olusturuldu.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL R2 READY`.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — KAVRIVA LOGO EXPLORATION READY`. Siradaki adim `03_DESIGN/PHASE3_LOGO_EXPLORATION_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; user favorites + Round 02 refinement sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA LOGO 01` paketini ana proje yoneticisine geri getirmektir.
+Durum `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL R2 READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` promptunu vermek ve reviewed `Kavriva_L05A.png` image'ini ayni sohbete attach etmektir. User 10 UI direction arasindan preference verdikten sonra `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL R2` ana proje yoneticisine geri getirilir; full screen inventory bundan sonra acilir.
