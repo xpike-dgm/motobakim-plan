@@ -34,11 +34,28 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 `SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Bu belge onaylanan synthesis snapshot'ini ve hangi blob'larin birlikte okunacagini tanimlar. Working synthesis dosyalarinin sonraki degisiklikleri, controlled approval/supersession olmadan approved snapshot'i otomatik degistirmez.
 
 ### 03 Design
-Approved working consumer-facing brand name source'u `03_DESIGN/BRAND_NAME.md` dosyasidir.
+Approved working consumer-facing brand name source'u:
+- `03_DESIGN/BRAND_NAME.md`
+- DEC-0012
 
-Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md`; gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
+Approved working logo-direction source'u:
+- `03_DESIGN/LOGO_DIRECTION.md`
+- DEC-0013
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-BRAND-001`
 
-`BRAND_NAME_01_HANDOFF.md` ve `BRAND_NAME_REVIEW.md` naming evidence/review katmanidir; approved name karari `BRAND_NAME.md` ve DEC-0012 ile kayda girer. Naming research legal trademark clearance yerine gecmez.
+Logo evidence / review:
+- `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_LOGO_REVIEW.md`
+
+L05A approval concept/direction seviyesindedir; generated PNG production vector asset, final font/palette/app-icon geometry veya trademark-cleared mark degildir.
+
+Ekran gercegi daha sonra `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md` ile kurulur. Gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
+
+Naming evidence / review:
+- `BRAND_NAME_01_HANDOFF.md`
+- `BRAND_NAME_REVIEW.md`
+
+Naming research legal trademark clearance yerine gecmez.
 
 ### 04 Tech Strategy
 Tartisma ve oneridir. Tek basina kesin teknoloji karari olamaz.
