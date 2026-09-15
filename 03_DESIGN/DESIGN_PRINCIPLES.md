@@ -1,10 +1,11 @@
 # DESIGN PRINCIPLES
 
-Status: REVIEW
-Scope: Phase-3 screen/state architecture candidate
+Status: APPROVED
+Approved by: USER — 2026-09-15
+Scope: Phase-3 screen/state architecture
 Source: approved Phase-2 product truth + approved L05A/U04/V10 references + screen-inventory QA
 
-Bu ilkeler screen-level design principles adaylaridir. Final component system, exact visual tokens veya implementation kararları değildir. Explicit user approval olmadan APPROVED/LOCKED olmaz.
+Bu ilkeler working screen-level design principles'dir. Final component system, exact visual tokens veya implementation kararlari degildir.
 
 ## DP-01 — Context Determines Prominence
 
@@ -82,7 +83,7 @@ L05A/V10 precision character identity saglar; fiziksel instruction, safety meani
 
 ## DP-15 — Community Content Must Stay Semantically Separate
 
-Published community Q&A/experience, official numbered guide adimlariyla ayni authority treatment'ini kullanamaz. Source/motorcycle/review status/date ve unverified status gerektiğinde anlasilir olmali; user community content'i official instruction sanmamalidir.
+Published community Q&A/experience, official numbered guide adimlariyla ayni authority treatment'ini kullanamaz. Source/motorcycle/review status/date ve unverified status gerektiginde anlasilir olmali; user community content'i official instruction sanmamalidir.
 
 ## DP-16 — Do Not Invent a Settings Megascreen by Convention
 
@@ -98,4 +99,6 @@ Notification control, language/units ve accessibility preference placement'i sou
 
 ## Approval Boundary
 
-Status `REVIEW`. These principles may inform the next specification proposal only after explicit user approval of the screen inventory architecture.
+These principles are APPROVED as working Phase-3 screen/spec guidance.
+
+They do NOT finalize the component library, exact copy, exact icons, color tokens, responsive rules, dark theme or technical implementation.
