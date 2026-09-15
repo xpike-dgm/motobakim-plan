@@ -2,13 +2,15 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — BRAND NAMING READY`
+`PHASE-3 / DESIGN — BRAND NAME DECISION REQUIRED`
 
 ## Current Objective
 
-Phase-2 Product Discovery APPROVED ve Gate 2 -> 3 PASSED. Kullanici ilk anchor-screen visual exploration denemesini yeterli bulmadi ve UI gorsellerini yeniden uretmeden once uygulamanin gercek consumer-facing adinin, ardindan logosunun belirlenmesini istedi.
+Phase-2 Product Discovery APPROVED ve Gate 2 -> 3 PASSED. User brand naming exploration'i tamamladi ve `Kavriva`yi favori olarak secti. Second-pass validation Kavriva icin anlamli `Kavira/Kaviva` benzerlik riskleri buldu. Main-manager QA bu riski spot-check ile destekledi.
 
-Siradaki is brand naming exploration + preliminary real-world collision research'tur. `Motobakim` su anda yalniz internal project codename/placeholder olarak kalir.
+Siradaki is logo degildir. Once user, Kavriva'yi bu collision/confusion riskini bilerek **working consumer-facing brand name** olarak acikca onaylamali veya naming'i yeniden acmalidir.
+
+`Motobakim` user brand karari verilene kadar internal project codename/placeholder olarak kalir.
 
 ## Completed
 
@@ -16,11 +18,32 @@ Siradaki is brand naming exploration + preliminary real-world collision research
 - Phase 1 workspace baseline APPROVED; Gate 1 -> 2 tamamlandi.
 - Phase 2 Product Discovery Q006-Q245 + 8 adaptive batch tamamlandi ve APPROVED snapshot olusturuldu.
 - Gate 2 -> 3 PASSED; Phase 3 Design aktif.
-- DEC-0010 anchor-first visual calibration karari yeni user instruction nedeniyle SUPERSEDED.
+- DEC-0010 anchor-first visual calibration karari SUPERSEDED.
 - Ilk 10 anchor visual direction user tarafindan begenilmedi; hicbiri reference authority olmadi.
 - DEC-0011 `Phase 3 Brand Identity Before UI Visual Calibration` APPROVED.
-- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` olusturuldu.
-- `03_DESIGN/README.md` brand-first sequence ile guncellendi.
+- Brand naming exploration + user favorite selection + second-pass validation tamamlandi.
+- `Kavriva` current user favorite.
+- Delegated portable package `03_DESIGN/BRAND_NAME_01_HANDOFF.md` icinde korundu.
+- Main-manager QA `03_DESIGN/BRAND_NAME_REVIEW.md` icinde kaydedildi.
+
+## Kavriva Status
+
+`PROPOSED_CONDITIONAL — USER FAVORITE / COLLISION RISK`
+
+Confirmed / re-checked risk signals:
+- `Kavira Software` active Turkish software brand,
+- `Kavira` mobile app / digital brand use,
+- close spelling `KAVIVA` trademark activity,
+- plausible hear/write confusion: Kavriva -> Kavira / Kaviva.
+
+These are not legal trademark-clearance results.
+
+Still unverified:
+- comprehensive trademark similarity clearance,
+- domain purchase availability/price,
+- social handle availability,
+- real-user hear/write recall performance,
+- cross-language negative associations.
 
 ## Approved Phase-2 Source for Design
 
@@ -34,24 +57,24 @@ okumalidir.
 
 ## Current Phase 3 Sequence
 
-1. Brand naming exploration + preliminary collision research.
-2. User selects 1-3 favorites; second-pass name validation.
-3. User-approved brand name -> logo exploration.
-4. Logo selection / brand visual-DNA calibration.
-5. Anchor screen visual exploration yeniden; selected name/logo kullanilir.
-6. Full screen inventory + navigation + critical state coverage.
-7. Design principles / screen specs.
-8. Screen-by-screen visual references + user approval.
-9. Gate 3 -> 4 readiness review.
+1. Brand naming exploration + preliminary collision research. **DONE**
+2. User favorites + second-pass name validation. **DONE**
+3. Explicit user brand-name approval / reopen naming. **CURRENT**
+4. Approved working name -> logo exploration.
+5. Logo selection / brand visual-DNA calibration.
+6. Anchor screen visual exploration yeniden; selected name/logo kullanilir.
+7. Full screen inventory + navigation + critical state coverage.
+8. Design principles / screen specs.
+9. Screen-by-screen visual references + user approval.
+10. Gate 3 -> 4 readiness review.
 
 ## Brand Naming Rules
 
-- `Motobakim` current internal codename/placeholder'dir; final consumer brand degildir.
+- User favorite != APPROVED brand name.
+- Preliminary collision research legal trademark clearance degildir.
+- Main-manager QA + explicit user approval olmadan logo exploration baslamaz.
+- Trademark/legal clearance public launch/brand investment oncesi ayri validation konusu olarak kalabilir.
 - Naming product scope'u maintenance-reminder seviyesine daraltmamalidir.
-- Turkish pronunciation/readability onemlidir; future international extensibility degerlendirilir.
-- Preliminary name/domain/app collision research legal trademark clearance degildir.
-- Web research yapilmayan availability uydurulamaz.
-- User secimi + main-manager QA olmadan brand name APPROVED/LOCKED sayilmaz.
 
 ## Previous Visual Exploration Status
 
@@ -59,8 +82,7 @@ Ilk anchor-screen 10-variant exploration user tarafindan begenilmedi.
 
 - Hicbir visual reference approved degildir.
 - `REFERENCE_INDEX.md` authority kazanmis reference icermiyor.
-- Bu feedback yeni brand-first sequencing'in gerekcesidir.
-- Anchor visual exploration name+logo sonrasinda yeniden yapilacaktir.
+- Anchor visual exploration selected brand name + logo sonrasinda yeniden yapilacaktir.
 
 ## Phase 3 Rules
 
@@ -74,14 +96,11 @@ Ilk anchor-screen 10-variant exploration user tarafindan begenilmedi.
 
 ## In Progress
 
-Yok. Brand naming delegation promptu hazir.
+User brand-name decision.
 
 ## Not Started
 
-- Brand naming candidate generation
-- Preliminary collision research
-- User name selection
-- Second-pass name validation
+- Approved working consumer brand name
 - Logo exploration
 - User logo selection / brand visual DNA
 - Anchor visual exploration round 2
@@ -100,26 +119,18 @@ Yok. Brand naming delegation promptu hazir.
 
 ## Current Prompt Status
 
-- **USE NOW:** `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`
-- **DO NOT USE NOW:** `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` — deferred until name + logo.
-- **DO NOT USE NOW:** `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` — deferred until brand/anchor calibration.
+- Brand naming prompt completed.
+- **DO NOT USE YET:** logo exploration prompt — not created until explicit name approval.
+- **DEFERRED:** `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` — name + logo sonrasi.
+- **DEFERRED:** `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` — brand/anchor calibration sonrasi.
 
 ## Next Action
 
-Kullanici `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` metnini yeni AI sohbetine verir.
+User chooses one:
+- explicitly approve `Kavriva` as the working consumer-facing brand name despite the known preliminary collision/confusion risk; or
+- reopen naming and request a lower-collision shortlist.
 
-Diger AI:
-- approved product snapshot'i okur,
-- naming criteria + 6 naming territory cikarir,
-- minimum 36 candidate uretir,
-- top 12'yi derin degerlendirir,
-- web erisimi varsa preliminary real-world collision/domain/app-brand research yapar,
-- final 5 + strategist recommendation verir,
-- kullanicidan 1-3 favorite ister.
-
-User favorites sonrasi ayni AI second-pass validation yapar ve `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01` uretip durur.
-
-Kullanici portable package'i ana proje yoneticisine getirir. Main-manager QA ve user approval sonrasi logo promptu hazirlanir.
+If Kavriva is approved, main manager records the decision and prepares the controlled logo-exploration prompt. Logo generation does not begin before that approval.
 
 ## Last Refreshed
 
