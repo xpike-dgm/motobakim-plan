@@ -1,25 +1,23 @@
 # 03 — DESIGN
 
-Amac: Discovery source-of-truth'undan urunun marka kimligini, ekran/state envanterini ve user-approved visual reference sistemini kontrollu sirayla olusturmaktir.
+Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved visual direction'larini, ekran/state envanterini ve reference sistemini kontrollu sirayla olusturmaktir.
 
-## Current Phase 3 sequence
+## Current Phase 3 Sequence
 
-User'in 2026-09-15 tarihli explicit onayi ile naming tamamlanmis ve current sequence su hale gelmistir:
+1. Brand naming exploration — **DONE**
+2. Brand-name selection + second-pass validation — **DONE**
+3. Kavriva explicit brand-name approval — **DONE**
+4. Logo exploration Round 01 + Round 02 — **DONE**
+5. Logo selection / main-manager QA — **DONE: L05A working direction**
+6. **Anchor Screen Visual Exploration — Round 2 — CURRENT / READY**
+7. Full screen inventory + navigation + critical state coverage
+8. Design principles / screen specs
+9. Screen-by-screen visual references + user approval
+10. Gate 3 -> 4 readiness review
 
-1. **Brand naming exploration** — approved product truth'tan consumer-facing isim adaylari uret; preliminary collision/domain/app-brand research yap. **DONE**
-2. **Brand-name selection + second-pass validation** — user favorite secimi ve deeper preliminary validation. **DONE**
-3. **Explicit brand-name approval** — `Kavriva` working consumer-facing brand olarak user tarafindan APPROVED. **DONE**
-4. **Logo exploration** — approved `Kavriva` uzerinden form-first logo directions. **CURRENT / READY**
-5. **Logo selection / brand visual DNA** — user preference + main-manager QA; logo/reference authority controlled kaydedilir.
-6. **Anchor visual exploration — round 2** — selected name/logo/brand DNA ile core anchor screen visual directions yeniden uretilir.
-7. **Screen inventory + navigation + state coverage** — approved Phase-2 product truth'tan full screen catalog, transition map ve critical state matrix cikar.
-8. **Design principles / screen specs** — brand DNA + product trust/safety rules ile screen-level specs rafine edilir.
-9. **Screen-by-screen visual references** — inventory/state coverage uzerinden gerekli reference visuals uretilir ve user approval alinir.
-10. **Gate 3 -> 4 readiness review**.
+Screen inventory/state coverage zorunlulugu kaldirilmamistir; brand/UI visual calibration sonrasina planli olarak alinmistir.
 
-Bu sira screen inventory/state coverage zorunlulugunu kaldirmaz; yalniz UI visual direction'i marka kimligi belirlendikten sonra kalibre eder.
-
-## Approved working brand name
+## Approved Working Brand
 
 **Kavriva**
 
@@ -29,76 +27,99 @@ Canonical source:
 - `BRAND_NAME.md`
 - DEC-0012
 
-`Motobakim` / `MotoBakim` internal project/repository codename olarak kalabilir.
+Naming approval legal trademark clearance degildir. Known Kavira/Kaviva similarity risks launch-risk validation olarak korunur.
 
-Known preliminary naming risks user approval ile kabul edilmis fakat cozulmus sayilmamistir:
-- `Kavira Software` similarity,
-- `Kavira` digital/mobile use,
-- close spelling `KAVIVA` trademark activity,
-- hear/write confusion possibility.
+## Approved Working Logo Direction
 
-Naming approval legal trademark clearance degildir. Formal similarity clearance ve priority domain/handle verification later launch-risk validation topics olarak kalir.
+**L05A — The Precision Fit**
 
-## Logo exploration rule
+Status: `APPROVED WORKING DIRECTION`
 
-Current prompt:
-- **USE NOW:** `PHASE3_LOGO_EXPLORATION_AI_PROMPT.md`
+Canonical source:
+- `LOGO_DIRECTION.md`
+- `KAVRIVA_LOGO_REVIEW.md`
+- DEC-0013
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`
 
-Round 01:
-- 10 distinct logo directions,
-- 10 separate images,
-- form-first / monochrome,
-- symbol + wordmark relationship,
-- app-icon scale potential,
-- no final color palette decision.
+Approved direction semantics:
+- precision fit / controlled alignment,
+- precise,
+- geometric,
+- modular,
+- controlled,
+- restrained angularity,
+- deliberate rather than fast,
+- calm technical credibility.
 
-Critical wordmark constraint:
-- `Kavriva` icindeki `r` ve ikinci `v` okunabilir kalmali; logo `Kavira` / `Kaviva` confusion riskini artirmamali.
+Not approved yet:
+- production vector master,
+- exact geometry/proportions/corner treatment,
+- final wordmark font,
+- final color palette,
+- final launcher-icon spec,
+- trademark/legal uniqueness.
 
-Avoid cliche-first dependence on:
-- generic motorcycle silhouette,
-- wrench + gear,
-- shield + checkmark,
-- AI sparkle/brain/robot,
-- racing flame/speed imagery.
+Critical constraints:
+- speed/racing treatment yok,
+- rewind/back-arrow ambiguity artmamali,
+- small-size negative-space separation korunmali,
+- `Kavriva` wordmark'inda `r` ve iki `v` acik kalmali.
 
-Generated image production-ready vector asset veya trademark-safe mark sayilmaz.
+## Reviewed Logo Visual
 
-## Naming artifacts
+Main-manager chat'te reviewed user-supplied image:
+- `Kavriva_L05A.png`
+- `1448 x 1086`
+- SHA-256: `0dcbcd704014a0cec8a6f40a9fe6917ffe954ca4123e3b1a723aed8c222ea98d`
 
-- `BRAND_NAME.md` — APPROVED working brand source.
-- `BRAND_NAME_01_HANDOFF.md` — delegated naming package / evidence handoff.
-- `BRAND_NAME_REVIEW.md` — main-manager QC.
-- `PHASE3_BRAND_NAMING_AI_PROMPT.md` — COMPLETED.
+Binary PNG repository'de tutulmuyor. Exact visual fidelity gerektiren delegated generation session'a selected image attachment olarak verilmelidir.
 
-## Previous anchor exploration status
+## Current Anchor-R2 Task
 
-Ilk anchor-screen 10-variant visual exploration denemesi user tarafindan begenilmedi.
+Use now:
+- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md`
 
-- Hicbir varyant APPROVED/LOCKED degildir.
-- `REFERENCE_INDEX.md` authority kazanmamistir.
-- Deneme yalniz tarihsel design exploration feedback'idir.
-- Kavriva logo direction secildikten sonra anchor visual exploration yeniden yapilacaktir.
+User promptla birlikte selected L05A image'i attach etmelidir.
 
-## Coverage rule
+Round 2:
+- single anchor: `Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`,
+- same fixed content/state,
+- 10 separate UI images,
+- Kavriva + L05A direction,
+- genuinely different typography/density/hierarchy/image/surface/color directions,
+- safety/trust/progress/recovery/success semantics invariant,
+- no full-app design.
 
-Sadece happy-path ekranlari degil loading, empty, error, permission, offline, safety hold, teaching-only, uncertainty/dispute, critical correction, interrupted/recovery, inactive-entitlement, migration/conflict ve downgrade gibi critical states de inventory/state phase'inde kapsanmalidir.
+Round-2 user selection sonrasi delegated AI:
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL R2`
+uretir ve DURUR.
 
-## Current prompts
+## Previous Anchor Exploration
 
-- `PHASE3_BRAND_NAMING_AI_PROMPT.md` — COMPLETED.
-- **`PHASE3_LOGO_EXPLORATION_AI_PROMPT.md` — USE NOW.**
-- `PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` — DEFERRED; approved/QA-ed logo direction sonrasinda revise edilecek.
-- `PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` — DEFERRED; brand/anchor calibration sonrasi.
-- Preserved initial inventory prompt: `PHASE3_SCREEN_INVENTORY_AI_PROMPT_DEFERRED_V1.md`.
+Brand identity oncesindeki ilk 10-image anchor exploration user tarafindan begenilmedi.
 
-## Scope restrictions
+- Hicbir prior variant APPROVED/LOCKED degildir.
+- Prior visual DNA authority degildir.
+- Current Round 2 temiz Kavriva + L05A calibration'dir.
+
+## Design Reference Authority
+
+`REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references sonraki design calismalari icin otoritedir.
+
+Current approved reference:
+- `REF-BRAND-001` -> L05A working logo direction.
+
+## Coverage Rule
+
+Inventory/state phase'inde happy path disinda loading, empty, error, permission, offline, safety hold, teaching-only, uncertainty/dispute, critical correction, interrupted/recovery, inactive-entitlement, migration/conflict ve downgrade states kapsanmalidir.
+
+## Scope Restrictions
 
 Design asamasi:
 - Product Discovery requirement'larini sessizce degistiremez.
 - Technology/backend/database/API/auth/sync/framework secemez.
 - Final pricing/tier/quota karari veremez.
-- Naming research veya generated logo legal trademark guarantee veremez.
-- User approval olmadan logo/UI artifacts APPROVED/LOCKED ilan edilemez.
+- Generated visual'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
+- Logo selection'i production-ready/trademark-safe asset ilan edemez.
 
-Gate 3 -> 4 icin screen catalog, navigation map, important state coverage ve yeterli user-approved visual references yine gereklidir.
+Gate 3 -> 4 icin screen catalog, navigation map, critical state coverage ve yeterli user-approved visual references gereklidir.
