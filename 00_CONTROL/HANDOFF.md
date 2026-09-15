@@ -10,87 +10,103 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — SCREEN FAMILY + SPECIFICATIONS READY`
+`PHASE-3 / DESIGN — SCREEN FAMILY + SPECS REVIEW / NAVIGATION DECISION REQUIRED`
 
 ## What Just Happened
 
-User, main-manager QA'den gecmis Screen Inventory 01 architecture'ini explicit olarak onayladi:
+User delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01` paketini ana yonetici sohbetine getirdi.
 
-> onaylıyorum
+Package:
+- approved `SCR-001` — `SCR-038` architecture'i 9 screen family'ye ayiriyor,
+- tum 38 context icin UX specifications veriyor,
+- 3 PROPOSED global navigation shell sunuyor,
+- ambiguous surface treatment'lari PROPOSED degerlendiriyor,
+- cross-cutting control placement ve trust/safety semantic ayrimini tanimliyor,
+- mockup/technology/pricing karari vermiyor.
 
-DEC-0016 olusturuldu ve working Phase-3 screen architecture APPROVED oldu.
+Main-manager QA:
+`PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED`
 
-Approved architecture:
-- `03_DESIGN/SCREEN_CATALOG.md`
-- `03_DESIGN/NAVIGATION_MAP.md`
-- `03_DESIGN/STATE_MATRIX.md`
-- `03_DESIGN/DESIGN_PRINCIPLES.md`
-- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`
+Review:
+- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md`
 
-Current catalog `SCR-001` — `SCR-038` product interaction context'lerini kapsar.
+Uploaded package SHA-256:
+`97bb6ff594d397ed7ce3c3e8b97ad8aeb805cf5212b379ed5e0298f7e825f285`
 
-Important: 38 context = 38 permanent route DEGIL.
+## Screen Families — Working Candidate
+
+- FAM-01 First Use / Motorcycle Context
+- FAM-02 Guide Discovery / Fit / Preparation
+- FAM-03 Active Application / Safety / Recovery
+- FAM-04 Diagnosis
+- FAM-05 Maintenance / Reminder
+- FAM-06 History / Evidence / Trust
+- FAM-07 Motorcycle Lifecycle / Entitlement
+- FAM-08 Profile / Collaboration
+- FAM-09 Community
+
+All `SCR-001` — `SCR-038` have coverage.
+
+## Main-Manager Refinement
+
+Language/unit ve accessibility support profile/account prerequisite olarak tasarlanamaz. Account-light/local use bu presentation/accessibility behavior'larindan yararlanabilmelidir.
+
+## Current User Decision Needed — Global Navigation
+
+### Option 1 — Motorcycle-Context-First
+Motor merkezde; task/symptom/maintenance/history motor context icinden.
+Risk: context hub tekrar dashboard/card-stack'e donebilir.
+
+### Option 2 — Task-First Launcher
+Once `ne yapmak istiyorsun?`; motor context header'da.
+Risk: launcher zamanla feature menu'ye donebilir, maintenance/history ikincil hissedebilir.
+
+### Option 3 — Focused Hybrid
+Compact active motorcycle context + uc ana alan:
+- `Yap / Coz`
+- `Bakim`
+- `Gecmis`
+
+Lifecycle/profile/collaboration/community contextual kalir.
+
+Delegated recommendation: Option 3.
+Main-manager recommendation: **Option 3**.
+
+User explicit selection yapmadan global navigation APPROVED olmaz.
 
 ## Existing Approved Design References
 
-- Brand: **Kavriva** — DEC-0012.
-- Logo: **L05A — The Precision Fit** — `REF-BRAND-001`, DEC-0013.
-- Anchor UX: **U04 — Progressive Detail** — `REF-UX-001`, DEC-0014.
-- Anchor visual: **V10 — Signature Kavriva** — `REF-VISUAL-001`, DEC-0015.
-- Screen/state architecture: **Screen Inventory 01 + refinement** — `REF-ARCH-001`, DEC-0016.
+- Brand: Kavriva — DEC-0012.
+- Logo: L05A — `REF-BRAND-001`, DEC-0013.
+- Anchor UX: U04 — `REF-UX-001`, DEC-0014.
+- Anchor visual: V10 — `REF-VISUAL-001`, DEC-0015.
+- Screen/state architecture: `REF-ARCH-001`, DEC-0016.
 
-Core UX principle:
+Core principle:
 **Accessible does not mean simultaneously prominent.**
 
-## Architecture Approval Boundaries
-
-Still NOT decided:
-- final global nav shell / bottom tabs,
-- exact full-screen vs sheet/modal/inline mapping,
-- final component library,
-- exact font/color/spacing/radius tokens,
-- generic Settings screen,
-- exact notification/accessibility/language preference placement,
-- final MVP scope/priority,
-- pricing/tier/quota,
-- technology/backend/database/API/auth/sync/framework.
-
-`SCR-037` entitlement gate remains a surface/state-family candidate, not guaranteed permanent route.
-`SCR-038` community Q&A/experiences remains separate from official guide authority.
-
-## Current Task
-
-**USE NOW:**
-`03_DESIGN/PHASE3_SCREEN_FAMILY_SPEC_AI_PROMPT.md`
-
-Delegated AI must:
-- group SCR-001 — SCR-038 into 6–9 understandable screen families,
-- define family UX principles,
-- write per-screen specifications for all 38 contexts,
-- propose up to 3 global navigation shell options without locking one,
-- review ambiguous screen/sheet/modal/inline treatments,
-- propose cross-cutting control placement,
-- define trust/safety semantic separation,
-- audit all approved screens/states,
-- produce no mockups/images,
-- make no technology/pricing decisions.
-
-Expected output:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
-
-Then delegated AI must STOP.
-
-## Next Sequence
+## Current Sequence
 
 1. Brand naming — DONE.
 2. Logo — DONE.
 3. Anchor UX — DONE.
 4. Anchor visual — DONE.
 5. Screen inventory/navigation/state architecture — DONE / APPROVED.
-6. **Screen-family principles + screen specifications — CURRENT.**
-7. Screen-by-screen visual references + user approval.
-8. Gate 3 -> 4 readiness review.
+6. Screen-family principles + screen specifications — MAIN-MANAGER QA DONE / USER NAVIGATION DECISION REQUIRED.
+7. Screen-by-screen visual references — BLOCKED pending current decision.
+8. Gate 3 -> 4 review.
+
+## Next Action
+
+Ask user to choose 1 / 2 / 3 for global navigation.
+
+Recommended simple choice:
+**3 — Focused Hybrid**.
+
+If user approves 3:
+- record controlled navigation decision,
+- approve screen-family/spec package with QA refinement as working specs,
+- prepare family-based visual-reference planning/generation prompt.
 
 No Phase 4 transition yet.
 
