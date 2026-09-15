@@ -12,13 +12,13 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 6. Anchor visual R2 attempt — **NOT ACCEPTED / DEPRECATED: UX clutter feedback**
 7. Anchor UX Structure Calibration — **DONE**
 8. U04 selection + main-manager QA — **DONE: U04 working anchor hierarchy**
-9. **Visual-style exploration — U04 UX structure fixed — CURRENT / READY**
-10. Full screen inventory + navigation + critical state coverage
+9. Visual-style exploration with U04 fixed — **DONE: V10 working visual direction**
+10. **Full screen inventory + navigation + critical state coverage — CURRENT / READY**
 11. Design principles / screen specs
 12. Screen-by-screen visual references + user approval
 13. Gate 3 -> 4 readiness review
 
-Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style artik ayni anda degistirilmez; hierarchy once secilir, sonra visual character ayni hierarchy uzerinde kalibre edilir.
+Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style artik ayni anda degistirilmez; hierarchy once secilir, visual character ayni hierarchy uzerinde kalibre edilir ve full-app screen/state architecture bundan sonra kurulur.
 
 ## Approved Working Brand
 
@@ -58,7 +58,6 @@ Not approved yet:
 - production vector master,
 - exact geometry/proportions/corner treatment,
 - final wordmark font,
-- final color palette,
 - final launcher-icon spec,
 - trademark/legal uniqueness.
 
@@ -91,45 +90,59 @@ Default task-first hierarchy:
 
 U04 is an anchor calibration structure only. It is NOT a universal template for every screen and is NOT the final screen catalog/navigation/state architecture.
 
-## Visual Style — Current Task
+## Approved Working Anchor Visual Direction
+
+**V10 — Signature Kavriva**
+
+Status: `APPROVED WORKING VISUAL DIRECTION`
+
+Canonical source:
+- `ANCHOR_VISUAL_STYLE.md`
+- `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
+- DEC-0015
+- `REFERENCE_INDEX.md` -> `REF-VISUAL-001`
+
+Working visual-DNA:
+- clean near-white canvas,
+- deep graphite/navy text,
+- restrained electric-blue accent,
+- realistic inspection-focused imagery,
+- moderate rounding,
+- low decorative noise,
+- strong typographic hierarchy,
+- restrained L05A presence,
+- calm technical credibility.
+
+Important constraints:
+- handoff'taki exact HEX values final production token DEGILDIR,
+- shield/check trust/safety iconography final canonical component semantics DEGILDIR,
+- generated motorcycle image verified motorcycle-specific evidence DEGILDIR,
+- exact font/spacing/radii/responsive behavior henuz final degildir,
+- V10 visual direction universal layout degildir.
+
+## Current Screen Inventory Task
 
 **USE NOW:**
-- `PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md`
+- `PHASE3_SCREEN_INVENTORY_AI_PROMPT.md`
 
-Required attachments to the delegated visual-generation chat:
-- `Kavriva_L05A.png`
-- actual selected `Kavriva_U04_Progressive-Detail.png`
+Bu tur image/mockup generation yapmaz. Approved Phase-2 product truth'tan:
+- candidate screen catalog,
+- navigation/transition map,
+- critical state matrix,
+- journey/business-rule traceability,
+- proposed screen-level design principles,
+- design gaps/ambiguities
 
-The selected U04 image was referenced by a non-portable local `file:///` path in the delegated handoff. Repository canonical truth is the semantic U04 hierarchy; exact visual fidelity requires the actual screenshot attachment.
+cikarir.
 
-### UX Freeze
+### Critical rule
 
-Across all 10 visual-style variants, these must stay fixed:
-- hierarchy order,
-- visible-vs-on-demand semantics,
-- element-count logic,
-- CTA placement logic,
-- critical-safety visibility,
-- compact trust visibility,
-- recovery emphasis,
-- progressive-disclosure behavior.
+U04 ve V10 screen inventory icin reference'tir; tum screen'lere universal template olarak kopyalanmaz.
 
-Only these may vary:
-- typography character,
-- palette family,
-- imagery treatment,
-- contrast strategy,
-- surface/depth language,
-- micro-shape/corner language,
-- icon character,
-- visual polish.
-
-Anti-clutter still applies:
-- no card-per-semantic,
-- no nested cards,
-- no KPI/metric-chip dashboard,
-- no equal-weight multiple CTAs,
-- no oversized logo or repeated logo geometry.
+Inventory phase:
+- screen inflation yapmamalidir,
+- screen vs sheet/modal vs inline-state ayrimini gereksiz yere kilitlememelidir,
+- happy path disinda safety hold, teaching-only, mismatch, insufficient evidence, dispute, critical correction, interruption/resume, material guide change, recovery, offline/stale, inactive entitlement, collaboration revoke, transfer/archive/delete ve migration-conflict states'ini kapsamalidir.
 
 ## Previous UX Feedback
 
@@ -140,11 +153,12 @@ Earlier anchor-screen outputs were judged crowded / dashboard-like because UX hi
 
 That approach is deprecated.
 
-## Deprecated Prompts
+## Deprecated / Completed Prompts
 
 - `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — **DEPRECATED / DO NOT USE**.
 - Historical V1: `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`.
 - UX structure calibration prompt — COMPLETED.
+- Anchor visual-style exploration prompt — COMPLETED.
 
 ## Design Reference Authority
 
@@ -153,8 +167,7 @@ That approach is deprecated.
 Current approved references:
 - `REF-BRAND-001` -> L05A working logo direction.
 - `REF-UX-001` -> U04 working anchor UX hierarchy.
-
-Henuz approved anchor **visual style** yoktur.
+- `REF-VISUAL-001` -> V10 working anchor visual direction.
 
 ## Coverage Rule
 
@@ -165,10 +178,11 @@ Inventory/state phase'inde happy path disinda loading, empty, error, permission,
 Design asamasi:
 - Product Discovery requirement'larini sessizce degistiremez.
 - UX simplification product semantics'i kaldiramaz.
-- Visual style UX hierarchy'yi degistiremez.
+- U04'u universal full-app layout yapamaz.
+- V10'u exact final design-system token/component karari yapamaz.
 - Technology/backend/database/API/auth/sync/framework secemez.
 - Final pricing/tier/quota karari veremez.
-- Generated visual reference'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
+- Generated/reference artifact'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
 - Logo selection'i production-ready/trademark-safe asset ilan edemez.
 
 Gate 3 -> 4 icin screen catalog, navigation map, critical state coverage ve yeterli user-approved visual references gereklidir.
