@@ -10,121 +10,87 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — SCREEN INVENTORY REVIEW REQUIRED`
+`PHASE-3 / DESIGN — SCREEN FAMILY + SPECIFICATIONS READY`
 
 ## What Just Happened
 
-User delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` paketini ana yonetici sohbetine getirdi.
+User, main-manager QA'den gecmis Screen Inventory 01 architecture'ini explicit olarak onayladi:
 
-Package:
-- Phase-3 full screen inventory + navigation + critical-state coverage,
-- 37 delegated candidate interaction contexts,
-- product transition map,
-- critical-state matrix,
-- journey/business-rule traceability,
-- proposed design principles,
-- design gaps / premature-decision protections.
+> onaylıyorum
 
-Main-manager package'i current control docs, approved Phase-2 snapshot ve approved Phase-3 references ile QA etti.
+DEC-0016 olusturuldu ve working Phase-3 screen architecture APPROVED oldu.
 
-Result:
-`PASS_WITH_REFINEMENTS — USER APPROVAL REQUIRED`
+Approved architecture:
+- `03_DESIGN/SCREEN_CATALOG.md`
+- `03_DESIGN/NAVIGATION_MAP.md`
+- `03_DESIGN/STATE_MATRIX.md`
+- `03_DESIGN/DESIGN_PRINCIPLES.md`
+- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`
 
-## Main-Manager Refinement
+Current catalog `SCR-001` — `SCR-038` product interaction context'lerini kapsar.
 
-Delegated package community contribution/moderation lifecycle'ini kapsiyordu fakat published community Q&A/experience consumption icin ayri product context allocation'i yoktu.
+Important: 38 context = 38 permanent route DEGIL.
 
-Confirmed product rules/community feature evidence nedeniyle candidate eklendi:
+## Existing Approved Design References
 
-`SCR-038 — Community Experiences / Q&A`
+- Brand: **Kavriva** — DEC-0012.
+- Logo: **L05A — The Precision Fit** — `REF-BRAND-001`, DEC-0013.
+- Anchor UX: **U04 — Progressive Detail** — `REF-UX-001`, DEC-0014.
+- Anchor visual: **V10 — Signature Kavriva** — `REF-VISUAL-001`, DEC-0015.
+- Screen/state architecture: **Screen Inventory 01 + refinement** — `REF-ARCH-001`, DEC-0016.
 
-Purpose:
-- community Q&A/experiences'i official numbered guide'dan ayri tutmak,
-- source/motorcycle/review status/date semantics'ini tasimak,
-- unverified personal experience'i official/verified guidance gibi gostermemek.
-
-Bu candidate permanent route karari degildir; full screen/contextual area/list+detail family classification'i screen-spec asamasinda netlesebilir.
-
-## Canonical Review Artifacts
-
-- `03_DESIGN/SCREEN_INVENTORY_REVIEW.md` — main-manager QA
-- `03_DESIGN/SCREEN_CATALOG.md` — REVIEW
-- `03_DESIGN/NAVIGATION_MAP.md` — REVIEW
-- `03_DESIGN/STATE_MATRIX.md` — REVIEW
-- `03_DESIGN/DESIGN_PRINCIPLES.md` — REVIEW
-- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md` — REVIEW
-
-Current catalog: `SCR-001` — `SCR-038` product interaction context candidates.
-
-Important: this does NOT mean 38 permanent routes.
-
-## Approved Existing Design References
-
-### Brand
-**Kavriva** — APPROVED working consumer-facing brand.
-
-### Logo
-**L05A — The Precision Fit** — APPROVED working direction.
-
-Reference: `REF-BRAND-001`.
-
-### Anchor UX
-**U04 — Progressive Detail** — APPROVED working anchor hierarchy.
-
-Reference: `REF-UX-001`.
-
-Core principle:
+Core UX principle:
 **Accessible does not mean simultaneously prominent.**
 
-### Anchor visual
-**V10 — Signature Kavriva** — APPROVED working visual direction.
+## Architecture Approval Boundaries
 
-Reference: `REF-VISUAL-001`.
+Still NOT decided:
+- final global nav shell / bottom tabs,
+- exact full-screen vs sheet/modal/inline mapping,
+- final component library,
+- exact font/color/spacing/radius tokens,
+- generic Settings screen,
+- exact notification/accessibility/language preference placement,
+- final MVP scope/priority,
+- pricing/tier/quota,
+- technology/backend/database/API/auth/sync/framework.
 
-V10 exact HEX/font/spacing/icon/photo semantics production spec degildir; shield/check canonical trust badge degildir.
+`SCR-037` entitlement gate remains a surface/state-family candidate, not guaranteed permanent route.
+`SCR-038` community Q&A/experiences remains separate from official guide authority.
 
-## Screen Architecture Protections
+## Current Task
 
-- `SCR-*` candidate = product context, not guaranteed route.
-- Full-screen vs sheet/modal/inline remains open where source does not decide.
-- U04 universal full-app layout degildir.
-- V10 visual character universal layout degildir.
-- Global tab/home/drawer shell henuz decided degil.
-- Generic Settings screen convention ile uydurulmayacak.
-- Routine notification control, accessibility preference and language/unit preference placement screen-spec asamasinda cozulmeli.
-- Technology/backend/database/API/auth/sync/framework karari yok.
-- Final pricing/tier/quota karari yok.
+**USE NOW:**
+`03_DESIGN/PHASE3_SCREEN_FAMILY_SPEC_AI_PROMPT.md`
 
-## Important Candidate Distinctions
+Delegated AI must:
+- group SCR-001 — SCR-038 into 6–9 understandable screen families,
+- define family UX principles,
+- write per-screen specifications for all 38 contexts,
+- propose up to 3 global navigation shell options without locking one,
+- review ambiguous screen/sheet/modal/inline treatments,
+- propose cross-cutting control placement,
+- define trust/safety semantic separation,
+- audit all approved screens/states,
+- produce no mockups/images,
+- make no technology/pricing decisions.
 
-- `SCR-018` = guided-work completion / partial / safe-closure boundary.
-- `SCR-027` = standalone self/hobby/service work recording.
-- `SCR-037` = new-activity entitlement gate surface/state family; guaranteed permanent route degil.
-- `SCR-038` = separate community reading/Q&A context; official guide authority'sine karisamaz.
+Expected output:
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
 
-## Current Sequence
+Then delegated AI must STOP.
+
+## Next Sequence
 
 1. Brand naming — DONE.
-2. Naming validation — DONE.
-3. Kavriva approval — DONE.
-4. Logo exploration — DONE.
-5. L05A selection + QA — DONE.
-6. Earlier anchor visual attempt — DEPRECATED due to UX clutter.
-7. UX Structure Calibration — DONE.
-8. U04 selection + QA — DONE.
-9. V10 visual direction selection + QA — DONE.
-10. Screen inventory/navigation/state coverage — **MAIN-MANAGER QA DONE / USER REVIEW REQUIRED.**
-11. Screen-family principles + screen specifications — BLOCKED pending approval.
-12. Screen-by-screen visual references + user approval.
-13. Gate 3 -> 4 review.
-
-## Current User Decision Needed
-
-User should review the main-manager QA result and explicitly:
-- approve the screen inventory architecture,
-- or request changes.
-
-Approval gelirse canonical REVIEW artifacts APPROVED working design architecture seviyesine tasinir ve controlled `Screen-Family Principles + Screen Specifications` promptu hazirlanir.
+2. Logo — DONE.
+3. Anchor UX — DONE.
+4. Anchor visual — DONE.
+5. Screen inventory/navigation/state architecture — DONE / APPROVED.
+6. **Screen-family principles + screen specifications — CURRENT.**
+7. Screen-by-screen visual references + user approval.
+8. Gate 3 -> 4 readiness review.
 
 No Phase 4 transition yet.
 
