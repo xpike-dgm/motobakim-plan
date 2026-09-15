@@ -18,9 +18,10 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 12. Global five-tab navigation — **DONE / USER APPROVED**
 13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
 14. Five-tab main-shell root visual references — **DONE / R01–R05 APPROVED WORKING SET**
-15. **Guide Discovery / Fit / Preparation visual references — CURRENT / READY**
-16. Remaining critical screen/state visual references
-17. Gate 3 -> 4 readiness review
+15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS**
+16. **Active Application / Safety / Recovery visual references — CURRENT / READY**
+17. Remaining critical screen/state visual references
+18. Gate 3 -> 4 readiness review
 
 ## Approved Working References
 
@@ -33,17 +34,13 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - Screen-family / UX specs: **REF-SPEC-001**, DEC-0017.
 - AI Usta root UX: **A1 — Guided Split**, `REF-AIUSTA-001`, DEC-0018.
 - Five-tab root visual family: **R01–R05**, `REF-SHELL-001`.
+- Guide Discovery / Fit / Preparation visual family: **D01–D05**, `REF-GUIDE-001`.
 
 ## Approved Global Navigation
 
 Bottom bar:
 
 **Garaj · Bakim · AI Usta · Gecmis · Topluluk**
-
-Canonical:
-- `GLOBAL_NAVIGATION.md`
-- `REF-NAV-001`
-- DEC-0017
 
 Responsibilities:
 - Garaj -> selected motorcycle context / switching / lifecycle,
@@ -56,30 +53,14 @@ Responsibilities:
 
 ## Approved AI Usta Root UX
 
-Canonical:
-- `AI_USTA_UX_STRUCTURE.md`
-- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
-- `REF-AIUSTA-001`
-- DEC-0018
+Direction: **A1 — Guided Split** (`REF-AIUSTA-001`).
 
-Direction:
-**A1 — Guided Split**
-
-Target:
-**1 context + 1 prompt + 2 paths.**
-
-Root:
-- compact selected motorcycle context,
-- `Nasil yardimci olayim?`,
-- `Bir is yapmak istiyorum`,
-- `Motorda bir sorun var`,
-- optional low-prominence help,
-- fixed five-tab nav with AI Usta selected.
+Target: **1 context + 1 prompt + 2 paths.**
 
 Known-task -> `SCR-009`.
 Symptom-first -> `SCR-019`.
 
-A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmaz.
+A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmez.
 
 ## Approved Five-Tab Root Visual Family
 
@@ -87,9 +68,6 @@ Canonical:
 - `MAIN_SHELL_VISUAL_REFERENCES.md`
 - `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
 - `REF-SHELL-001`
-
-User feedback:
-> hepsi iyi
 
 Approved working set:
 - R01 Garaj
@@ -99,19 +77,40 @@ Approved working set:
 - R05 Topluluk
 
 Root-set constraints:
-- exact bottom-tab icons are NOT canonical; screenshots contain icon inconsistencies,
-- R03 motorcycle crop is optional visual treatment, not required A1 structure,
+- exact bottom-tab icons are NOT canonical,
+- R03 motorcycle crop is optional visual treatment,
 - R05 contribution CTA prominence is not a permanent engagement rule,
 - community wording cannot imply unsupported verification/authenticity,
 - generated motorcycle imagery is not technical evidence,
 - exact fonts/colors/spacing/radii/header geometry remain non-final.
 
-## Approved Working Screen Families / Specs
+## Approved Guide Discovery / Fit / Preparation Visual Family
 
 Canonical:
-- `SCREEN_FAMILY_SPECS.md`
-- `SCREEN_FAMILY_SPEC_REVIEW.md`
-- `REF-SPEC-001`
+- `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
+- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
+- `REF-GUIDE-001`
+
+Working set:
+- D01 `SCR-009 Known Task Find / Select`
+- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
+- D03 `SCR-011 Preparation / Readiness`
+- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
+- D05 `SCR-013 Teaching-Only Topic View`
+
+Required constraints:
+- D03 `Uygulamaya hazir` only after actual mandatory/critical readiness verification,
+- generated preparation examples are not technical truth,
+- D02 confirmed-fit copy needs real supporting evidence,
+- D01–D05 blue K-like generated mark is NOT approved; L05A remains logo authority,
+- D01/D02 visible bottom bar and D03–D05 reduced navigation are not final routing decisions.
+
+Continuity:
+- AI Usta `Bir is yapmak istiyorum` -> D01/D02,
+- Bakim item/detail -> explicit `Bakimi yap` / `Rehberi ac` -> same guide system,
+- no sixth `Rehberler` tab.
+
+## Approved Working Screen Families / Specs
 
 Families:
 - FAM-01 First Use / Motorcycle Context
@@ -124,40 +123,40 @@ Families:
 - FAM-08 Profile / Collaboration
 - FAM-09 Community
 
-Controlled refinement:
-- `SCR-005` broad action-hub degil; Garaj / motorcycle-context responsibility'sine daraltilmistir.
-- task/symptom primary entry AI Usta,
-- maintenance primary entry Bakim,
-- history primary entry Gecmis,
-- community primary entry Topluluk.
+Canonical:
+- `SCREEN_FAMILY_SPECS.md`
+- `SCREEN_FAMILY_SPEC_REVIEW.md`
+- `REF-SPEC-001`
 
-This preserves approved capabilities while reducing dashboard/card-stack pressure.
-
-## Current Task — Guide Discovery / Fit / Preparation Visual References
+## Current Task — Active Application / Safety / Recovery Visual References
 
 **USE NOW:**
-`PHASE3_GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES_AI_PROMPT.md`
+`PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
 
-This round generates exactly 5 separate visuals:
-- D01 `SCR-009 Known Task Find / Select`
-- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
-- D03 `SCR-011 Preparation & Readiness`
-- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
-- D05 `SCR-013 Teaching-Only Topic View`
+Family:
+- E01 = existing approved V10 / `SCR-014 Active Guide Step` — **do not redesign**,
+- E02 = `SCR-015 Problem / Mismatch / Recovery`,
+- E03 = `SCR-016 Resume Revalidation`,
+- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
+- E05 = `SCR-018 Completion / Safe Closure / Record`.
 
-Required visual attachments:
+Delegated session generates only E02–E05 as new images. U04/V10 remain direct authority for E01.
+
+Required attachments:
 - `Kavriva_L05A.png`
-- selected V10 screenshot
-- `R02-Bakim.png`
-- `R03-AI-Usta.png`
+- selected/reviewed V10 active-guide screenshot
+- `D03-SCR-011-Preparation-Readiness.png`
+- `D04-SCR-012-Readiness-Hold-Recheck.png`
+- `D05-SCR-013-Teaching-Only.png`
 
-Key continuity requirement:
-- AI Usta `Bir is yapmak istiyorum` -> D01,
-- Bakim item/detail -> explicit `Bakimi yap` / `Rehberi ac` -> D01/D02,
-- no sixth `Rehberler` bottom tab,
-- fit/readiness/safety gates remain authoritative.
-
-U04 is NOT copied literally into these screens; U04 remains direct authority for `SCR-014 Active Guide Step` only.
+Important protections:
+- do not redraw L05A into the D-series blue K drift,
+- no continue-anyway recovery,
+- saved UI progress is not current physical proof,
+- guide change does not auto-reverse or guess the next step,
+- completion cannot coerce partial/unresolved work into success,
+- safe closure cannot be paywalled,
+- active-work bottom-bar behavior remains PROPOSED until explicitly decided.
 
 ## Core Design Protections
 
@@ -173,7 +172,7 @@ U04 is NOT copied literally into these screens; U04 remains direct authority for
 
 ## Still Open
 
-- active physical work sirasinda bottom-bar visibility,
+- active physical work sirasinda exact bottom-bar visibility,
 - first post-onboarding landing tab,
 - ambiguous full-screen/sheet/modal/inline treatment'lar,
 - final production iconography/tokens/components/dark mode,
@@ -191,4 +190,4 @@ Phase 3:
 
 ## Gate 3 -> 4
 
-Approved screen/state architecture, navigation, working specs, AI Usta root UX and five-tab root visual family mevcut. Ancak remaining critical screen/state visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
+Approved screen/state architecture, navigation, working specs, AI Usta root UX, five-tab root visual family and Guide Discovery/Fit/Preparation visual family mevcut. Remaining critical screen/state visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
