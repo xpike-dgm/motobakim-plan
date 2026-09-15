@@ -10,19 +10,48 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — BRAND NAMING READY`
+`PHASE-3 / DESIGN — BRAND NAME DECISION REQUIRED`
 
 ## What Just Happened
 
-User Phase 3 anchor-screen icin uretilen ilk 10 visual direction'i yeterli bulmadigini belirtti. UI visual exploration'a devam etmeden once uygulamanin gercek consumer-facing adinin, sonra logosunun belirlenmesini istedi.
+User delegated brand-naming session'dan `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01` paketini ana yonetici sohbetine getirdi.
 
-Bunun sonucunda:
-- ilk anchor visual denemesi APPROVED reference olmadi,
-- DEC-0010 SUPERSEDED,
-- DEC-0011 `Phase 3 Brand Identity Before UI Visual Calibration` APPROVED,
-- `Motobakim` internal codename/placeholder olarak tutuldu,
-- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` olusturuldu,
-- Phase 3 sequence brand -> logo -> anchor visuals -> inventory olarak guncellendi.
+Package icinde:
+- user favorite: `Kavriva`,
+- user wording: `kavriva iyi`,
+- second-pass validation,
+- near-name collision/confusion findings (`Kavira`, `Kaviva`),
+- domain/handle preliminary signals,
+- logo-brief input candidates
+bulunuyor.
+
+Package `03_DESIGN/BRAND_NAME_01_HANDOFF.md` icinde raw handoff olarak korunuyor.
+
+Main-manager QA `03_DESIGN/BRAND_NAME_REVIEW.md` icinde kaydedildi.
+
+## Current Name Status
+
+`Kavriva` = `PROPOSED_CONDITIONAL — USER FAVORITE / COLLISION RISK`
+
+Important distinction:
+- favorite != APPROVED brand name,
+- preliminary collision research != trademark/legal clearance,
+- logo exploration explicit user name approval olmadan baslamaz.
+
+Main-manager spot-check independently supported these risk signals:
+- active Turkish `Kavira Software` brand,
+- `Kavira` mobile-app/digital brand use,
+- close `KAVIVA` trademark activity.
+
+This evidence does NOT establish infringement or registrability outcome.
+
+## Still Unverified
+
+- Comprehensive trademark similarity clearance / relevant classes
+- Domain purchase availability and price
+- Social handle availability
+- Real-user hear/write recall performance
+- Cross-language negative associations
 
 ## Canonical Product Truth for Brand/Design
 
@@ -37,51 +66,27 @@ Nuances:
 
 ## Current Phase 3 Sequence
 
-1. Brand naming exploration + preliminary collision research.
-2. User selects 1-3 favorites; second-pass validation.
-3. User-approved brand name -> logo exploration.
-4. Logo selection / brand visual DNA.
-5. Anchor-screen visual exploration round 2 with selected name/logo.
-6. Full screen inventory + navigation + critical state coverage.
-7. Design principles / screen specs.
-8. Screen-by-screen visual references + approval.
-9. Gate 3 -> 4 review.
-
-## Current Prompt
-
-**USE NOW**
-- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`
-
-**DEFERRED**
-- `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md`
-- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md`
-
-## Naming Prompt Behavior
-
-Delegated AI must:
-- read approved product source,
-- derive naming criteria,
-- create 6 distinct naming territories,
-- generate at least 36 candidate names,
-- rank a top-12,
-- if web access exists, perform preliminary exact-name/app/automotive/domain collision research,
-- produce final-5 + one strategist recommendation,
-- ask user for 1-3 favorites,
-- after favorites, run second-pass validation,
-- produce `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01`,
-- stop before logo generation.
-
-Preliminary collision research is NOT legal trademark clearance.
+1. Brand naming exploration + preliminary collision research — DONE.
+2. User favorite + second-pass validation — DONE.
+3. Explicit user brand-name approval or reopen naming — CURRENT.
+4. Approved working name -> logo exploration.
+5. Logo selection / brand visual DNA.
+6. Anchor-screen visual exploration round 2 with selected name/logo.
+7. Full screen inventory + navigation + critical state coverage.
+8. Design principles / screen specs.
+9. Screen-by-screen visual references + approval.
+10. Gate 3 -> 4 review.
 
 ## Previous Visual Attempt
 
-User feedback: first 10 anchor images were not liked enough to select a direction.
+First 10 anchor images were not approved; no visual reference authority exists. UI visuals will be regenerated only after brand name + logo.
 
-Therefore:
-- no reference is approved,
-- no visual DNA is canonical,
-- no screen/UI style should be inferred from that attempt,
-- anchor visuals will be regenerated after brand name + logo selection.
+## Current Prompt Status
+
+- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` — completed.
+- Logo prompt — NOT CREATED / WAITING FOR NAME APPROVAL.
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` — DEFERRED.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` — DEFERRED.
 
 ## Locked / Approved Process Decisions
 
@@ -92,6 +97,8 @@ Therefore:
 - DEC-0009 Phase 2 APPROVED / Gate 2 -> 3 PASSED.
 - DEC-0010 anchor-first sequence — SUPERSEDED.
 - DEC-0011 brand identity before UI visual calibration — APPROVED.
+
+No new APPROVED name decision exists yet.
 
 ## Required First Reads
 
@@ -104,15 +111,16 @@ Therefore:
 7. `00_CONTROL/DOCUMENT_REGISTRY.md`
 8. `03_DESIGN/README.md`
 9. `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`
-10. `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`
+10. `03_DESIGN/BRAND_NAME_01_HANDOFF.md`
+11. `03_DESIGN/BRAND_NAME_REVIEW.md`
 
 ## Next Action
 
-User yeni AI sohbetine `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` metnini aynen verir.
+User must explicitly choose:
+- approve `Kavriva` as the working consumer-facing brand name while accepting the current preliminary collision/confusion risk and leaving formal clearance for later validation; or
+- reopen naming for a lower-collision shortlist.
 
-User finalist name secimlerini yaptiktan sonra diger AI second-pass validation + portable package uretir. User bu paketi ana proje yoneticisine getirir.
-
-Main-manager QA + explicit user name approval sonrasi logo exploration promptu hazirlanir.
+If approved, main manager records the name decision and prepares the logo-exploration prompt. Do not generate logo before this choice.
 
 ## Last Updated
 2026-09-15
