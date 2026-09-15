@@ -16,8 +16,8 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 10. Full screen inventory + navigation + critical state coverage — **DONE / USER APPROVED**
 11. Screen-family principles + screen specifications — **DONE / APPROVED WORKING SPECS**
 12. Global five-tab navigation — **DONE / USER APPROVED**
-13. **AI Usta UX Structure Calibration — CURRENT / READY**
-14. Five-tab main-shell + family-based visual references + user approval
+13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
+14. **Five-tab main-shell root visual references — CURRENT / READY**
 15. Remaining critical screen/state visual references
 16. Gate 3 -> 4 readiness review
 
@@ -30,6 +30,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - Screen/state architecture: **REF-ARCH-001**, DEC-0016.
 - Global navigation: **REF-NAV-001**, DEC-0017.
 - Screen-family / UX specs: **REF-SPEC-001**, DEC-0017.
+- AI Usta root UX: **A1 — Guided Split**, `REF-AIUSTA-001`, DEC-0018.
 
 ## Approved Global Navigation
 
@@ -50,6 +51,33 @@ Responsibilities:
 - Topluluk -> community Q&A/experience/contribution.
 
 `AI Usta` is a UX role/entry label, not a technology/LLM architecture decision.
+
+## Approved AI Usta Root UX
+
+Canonical:
+- `AI_USTA_UX_STRUCTURE.md`
+- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+- `REF-AIUSTA-001`
+- DEC-0018
+
+Direction:
+**A1 — Guided Split**
+
+Target:
+**1 context + 1 prompt + 2 paths.**
+
+Root:
+- compact selected motorcycle context,
+- `Nasil yardimci olayim?`,
+- `Bir is yapmak istiyorum`,
+- `Motorda bir sorun var`,
+- optional low-prominence help,
+- fixed five-tab nav with AI Usta selected.
+
+Known-task -> `SCR-009`.
+Symptom-first -> `SCR-019`.
+
+A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmez.
 
 ## Approved Working Screen Families / Specs
 
@@ -78,24 +106,26 @@ Controlled refinement:
 
 This preserves approved capabilities while reducing dashboard/card-stack pressure.
 
-## Current Task — AI Usta UX Structure Calibration
+## Current Task — Five-Tab Main-Shell Root Visual References
 
 **USE NOW:**
-`PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md`
+`PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Reason:
-AI Usta center tab olarak approved, fakat exact interaction shape henuz approved degil.
+This round generates exactly 5 separate root visuals:
+- R01 Garaj,
+- R02 Bakim,
+- R03 AI Usta — A1 fixed,
+- R04 Gecmis,
+- R05 Topluluk.
 
-Calibration compares 4 structures:
-- A1 Guided Split,
-- A2 Hybrid Prompt + Guided Intents,
-- A3 Conversation-Led / Structured Handoff,
-- A4 Compact Assistant Launcher.
+Required attachments in delegated visual chat:
+- selected `Kavriva_L05A.png`,
+- selected `Kavriva_V10_Signature-Kavriva.png`.
 
 Goal:
-known-task ve symptom-first journeys'i en dusuk cognitive load ile ayirip approved flows'a safe handoff yapmak.
+approved five-tab shell'i ve root responsibilities'i tek coherent visual family olarak test etmek; full app'i bir anda cizmemek.
 
-This step intentionally separates UX structure from polished visual style.
+User reviews only these five roots before deeper visual generation.
 
 ## Core Design Protections
 
@@ -104,17 +134,18 @@ This step intentionally separates UX structure from polished visual style.
 - V10 visual DNA'dir, universal layout/token system degildir.
 - Shield/check generic trust/safety/certification badge degildir.
 - AI Usta technical source-of-truth olamaz ve fit/readiness/safety gates'i bypass edemez.
+- A1 two-intent root bulky card-stack olamaz.
 - Language/unit/accessibility support profile prerequisite olamaz.
 - Generic Settings megascreen, dashboard/KPI home, marketplace home veya permanent social feed convention ile uydurulmaz.
 
 ## Still Open
 
-- AI Usta exact structured/conversational interaction model,
 - active physical work sirasinda bottom-bar visibility,
 - first post-onboarding landing tab,
 - ambiguous full-screen/sheet/modal/inline treatment'lar,
 - final production iconography/tokens/components/dark mode,
-- exact claim/evidence visual vocabulary.
+- exact claim/evidence visual vocabulary,
+- optional AI Usta conversational capabilities beyond A1 root.
 
 ## Scope Restrictions
 
@@ -126,4 +157,4 @@ Phase 3:
 
 ## Gate 3 -> 4
 
-Approved screen/state architecture, navigation ve working specs mevcut. Ancak yeterli screen-by-screen approved visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
+Approved screen/state architecture, navigation, working specs ve AI Usta root UX mevcut. Ancak yeterli screen-by-screen approved visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
