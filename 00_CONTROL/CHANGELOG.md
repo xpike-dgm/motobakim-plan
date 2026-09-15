@@ -121,5 +121,22 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `DOCUMENT_REGISTRY.md`: Product Discovery `REVIEW` durumuna tasindi.
 - `CURRENT_STATE.md`: `PHASE-2 / PRODUCT DISCOVERY — GATE 2 REVIEW REQUIRED`.
 
+### Phase 2 Approval / Gate 2 -> 3
+- User Phase-2 Product Discovery synthesis'ini acikca onayladi ve Gate 2 -> 3 gecisini kabul etti.
+- `02_DISCOVERY/GATE_2_REVIEW.md` APPROVED / PASSED yapildi.
+- `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` canonical approved Phase-2 snapshot olarak olusturuldu; component blob SHA'lariyla approval snapshot'i freeze edildi.
+- `00_CONTROL/SOURCE_OF_TRUTH.md` Phase-2 product truth entry point'i olarak approved snapshot'a yonlendirildi.
+- DEC-0009 `Phase 2 Product Discovery Approved and Gate 2 Passed` APPROVED olarak kaydedildi.
+- `DOCUMENT_REGISTRY.md`: Product Discovery APPROVED, Design DRAFT.
+- `QUESTION_PROGRESS.md`: `DISCOVERY_APPROVED_GATE_2_PASSED`, 245/245.
+- Phase-2 approval PROPOSED monetization direction'i final pricing/tier policy'ye donusturmedi; validation/feasibility assumptions acik kaldi.
+
+### Phase 3 Design Start
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — SCREEN INVENTORY READY`.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` olusturuldu.
+- Phase 3 ilk adimi screen catalog + navigation + state coverage olarak belirlendi; mockup/visual reference generation sonraki adima birakildi.
+- Delegated Design AI repository'ye yazmayacak, approved product behavior'i degistirmeyecek, technology/backend architecture veya final pricing karari vermeyecek.
+- Gate 3 -> 4 screen catalog/navigation/important states ve user-approved visual references yeterli olmadan degerlendirilmeyecek.
+
 ### Current State
-Durum `PHASE-2 / PRODUCT DISCOVERY — GATE 2 REVIEW REQUIRED`. Discovery saturation HIGH ve substantive product-definition blocker tespit edilmedi. Gate 2 -> 3 user explicit approval bekliyor; Design henuz baslatilmadi.
+Durum `PHASE-3 / DESIGN — SCREEN INVENTORY READY`. Siradaki adim `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` promptunu yeni AI sohbetine verip `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` ciktisini ana proje yoneticisine geri getirmektir.
