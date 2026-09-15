@@ -12,6 +12,7 @@ Status: ACTIVE
 | `REF-SPEC-001` | Full-app working screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | `Screen Family + Specs 01 + DEC-0017 refinement` | APPROVED | — |
 | `REF-AIUSTA-001` | AI Usta root / known-task vs symptom entry structure | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | `A1 — Guided Split / AI Usta UX Structure 01` | APPROVED | Earlier A1-A4 candidates |
 | `REF-SHELL-001` | Five-tab root visual family | `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` | `R01 Garaj / R02 Bakim / R03 AI Usta / R04 Gecmis / R05 Topluluk` | APPROVED | — |
+| `REF-GUIDE-001` | Guide discovery / fit / preparation visual family | `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` | `D01–D05 / SCR-009–SCR-013` | APPROVED | — |
 
 ## Reference Semantics
 
@@ -151,6 +152,26 @@ This reference does NOT approve:
 - first post-onboarding landing tab.
 
 Image provenance and SHA-256 values are recorded in `MAIN_SHELL_VISUAL_REFERENCES.md`; PNG binaries are not stored in this repository.
+
+### REF-GUIDE-001
+
+Authorizes the user-accepted **D01–D05 guide discovery / fit / preparation family** as a working Phase-3 reference set.
+
+Approved working behavior:
+- D01 task discovery does not imply fit,
+- D02 makes scope/applicability/trust meaning understandable without guarantee semantics,
+- D03 distinguishes preparation/readiness before physical work,
+- D04 blocks application with remediation + recheck rather than bypass,
+- D05 preserves teaching/reference while application is closed.
+
+Required constraints:
+- D03 `Uygulamaya hazir` is valid only after all mandatory/critical readiness conditions are actually verified,
+- generated example tools/materials/optional items are not technical source-of-truth,
+- D02 fit/trust copy is fixture-dependent and cannot be shown without supporting evidence,
+- D01–D05 blue K-like generated mark is NOT a new logo direction; L05A remains brand authority,
+- D01/D02 visible bottom bar and D03–D05 reduced navigation do not finalize routing/navigation visibility.
+
+Image provenance and SHA-256 values are recorded in `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`; PNG binaries are not stored in this repository.
 
 ## Authority Rule
 
