@@ -34,26 +34,27 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 `SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Bu belge onaylanan synthesis snapshot'ini ve hangi blob'larin birlikte okunacagini tanimlar. Working synthesis dosyalarinin sonraki degisiklikleri, controlled approval/supersession olmadan approved snapshot'i otomatik degistirmez.
 
 ### 03 Design
-Approved working consumer-facing brand name source'u:
+
+Approved working consumer-facing brand name:
 - `03_DESIGN/BRAND_NAME.md`
 - DEC-0012
 
-Approved working logo-direction source'u:
+Approved working logo direction:
 - `03_DESIGN/LOGO_DIRECTION.md`
 - DEC-0013
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-BRAND-001`
 
-Approved working anchor-UX source'u:
+Approved working anchor UX:
 - `03_DESIGN/ANCHOR_UX_STRUCTURE.md`
 - DEC-0014
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001`
 
-Approved working anchor visual-direction source'u:
+Approved working anchor visual direction:
 - `03_DESIGN/ANCHOR_VISUAL_STYLE.md`
 - DEC-0015
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-VISUAL-001`
 
-Approved working screen/state architecture source'u:
+Approved working screen/state architecture:
 - `03_DESIGN/SCREEN_CATALOG.md`
 - `03_DESIGN/NAVIGATION_MAP.md`
 - `03_DESIGN/STATE_MATRIX.md`
@@ -62,33 +63,38 @@ Approved working screen/state architecture source'u:
 - DEC-0016
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`
 
-Logo evidence / review:
-- `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_LOGO_REVIEW.md`
+Approved global navigation shell:
+- `03_DESIGN/GLOBAL_NAVIGATION.md`
+- DEC-0017
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-NAV-001`
 
-Anchor UX evidence / review:
-- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+Approved working screen-family / UX specifications:
+- `03_DESIGN/SCREEN_FAMILY_SPECS.md`
+- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md`
+- DEC-0017
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SPEC-001`
 
-Anchor visual evidence / review:
-- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
+Evidence / review artifacts:
+- `KAVRIVA_LOGO_01_HANDOFF.md`
+- `KAVRIVA_LOGO_REVIEW.md`
+- `KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
+- `KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+- `KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`
+- `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
+- `SCREEN_INVENTORY_REVIEW.md`
+- `SCREEN_FAMILY_SPEC_REVIEW.md`
 
-Screen inventory evidence / review:
-- `03_DESIGN/SCREEN_INVENTORY_REVIEW.md`
-- delegated portable package provenance recorded there.
+Authority boundaries:
+- L05A concept/direction authority'dir; production vector/font/palette/trademark clearance degildir.
+- U04 active-guide anchor hierarchy authority'dir; universal full-app template degildir.
+- V10 visual-DNA authority'dir; exact HEX/font/icon/spacing veya universal layout degildir.
+- Screen architecture `SCR-001` — `SCR-038` product interaction contexts'ini tanimlar; permanent route count degildir.
+- Five-tab navigation approved: **Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
+- `AI Usta` UX role/entry label'idir; LLM/provider/backend/AI architecture karari degildir ve product trust/safety gates'i bypass edemez.
+- Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.
+- Language/unit/accessibility support profile/account prerequisite olamaz.
 
-L05A approval concept/direction seviyesindedir; generated PNG production vector asset, final font/palette/app-icon geometry veya trademark-cleared mark degildir.
-
-U04 approval anchor calibration hierarchy seviyesindedir; universal full-app template degildir.
-
-V10 approval working visual-direction seviyesindedir; exact HEX values, final font/type scale, final icon family, responsive rules, production photography veya universal full-app layout degildir. Selected V10 screenshot'taki shield/check trust/safety iconography canonical component semantics sayilmaz.
-
-Screen architecture approval working product-interaction architecture seviyesindedir. `SCR-001` — `SCR-038` permanent route count degildir; exact screen/sheet/modal/inline mapping, final global navigation shell, final component system ve implementation henuz belirlenmemistir.
-
-Naming evidence / review:
-- `BRAND_NAME_01_HANDOFF.md`
-- `BRAND_NAME_REVIEW.md`
+Ekran/gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references ile kurulur.
 
 Naming research legal trademark clearance yerine gecmez.
 
@@ -102,11 +108,11 @@ Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler so
 Onayli epic/capability/feature/flow/task ve dependency haritalarinin otoritesidir.
 
 ### 07 AI Architecture
-Kodlama sirasinda AI davranisi, context routing, modul boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
+Kodlama sirasinda AI davranisi, context routing, module boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
 
 ### 08 Repository Bootstrap
 Kesinlesen mimarinin fiziksel kurulum plani ve completion kanitlarinin otoritesidir.
 
 ## No Silent Rewrite
 
-Kabul edilmis bilgi degisiyorsa eski karar iz birakmadan silinmez. Yeni kayit eskisini SUPERSEDED yapar ve degisiklik changelog'a islenir.
+Kabul edilmis bilgi degisiyorsa eski karar iz birakmadan silinmez. Yeni kayit eskisini SUPERSEDED/refined eder ve degisiklik changelog'a islenir.
