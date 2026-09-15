@@ -7,6 +7,7 @@ Status: ACTIVE
 | `REF-BRAND-001` | Kavriva brand / working logo direction | `03_DESIGN/LOGO_DIRECTION.md` | `L05A — The Precision Fit / Round 2` | APPROVED | — |
 | `REF-UX-001` | Anchor screen / normal application-ready structure | `03_DESIGN/ANCHOR_UX_STRUCTURE.md` | `U04 — Progressive Detail / UX Calibration 01` | APPROVED | — |
 | `REF-VISUAL-001` | Anchor screen / working visual direction | `03_DESIGN/ANCHOR_VISUAL_STYLE.md` | `V10 — Signature Kavriva / Visual Style 01` | APPROVED | — |
+| `REF-ARCH-001` | Full-app working screen / transition / critical-state architecture | `03_DESIGN/SCREEN_CATALOG.md` + `NAVIGATION_MAP.md` + `STATE_MATRIX.md` | `Screen Inventory 01 + Main-Manager Refinement` | APPROVED | — |
 
 ## Reference Semantics
 
@@ -35,15 +36,13 @@ It means:
 
 It does NOT mean:
 - every Kavriva screen must use U04,
-- final screen catalog/navigation/state architecture is decided,
+- final screen catalog/navigation/state architecture is decided by U04,
 - final visual style, font, palette or component system is approved,
 - exact generated U04 screenshot geometry is a production specification.
 
-The delegated handoff contained a non-portable local `file:///` image path. The repository stores the semantic hierarchy and QA result, not the selected U04 PNG binary. Exact visual-fidelity generation should receive the actual U04 screenshot as an attachment when available.
-
 ### REF-VISUAL-001
 
-Authorizes V10 as the **working Kavriva anchor visual direction** for Phase-3 screen inventory and later screen-spec/reference work.
+Authorizes V10 as the **working Kavriva anchor visual direction** for Phase-3 screen/spec/reference work.
 
 Working signals:
 - clean near-white canvas,
@@ -68,6 +67,25 @@ It does NOT approve/finalize:
 
 QA constraint: shield/check trust/safety iconography in the selected screenshot is not canonical final component language and must not imply official safety certification or guaranteed correctness.
 
-Reviewed user-supplied V10 image provenance is recorded in `ANCHOR_VISUAL_STYLE.md` and `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`. PNG binary is not stored in repository.
+### REF-ARCH-001
+
+Authorizes the user-approved **working full-app screen architecture** for Phase-3 downstream design work.
+
+Canonical architecture sources:
+- `SCREEN_CATALOG.md` — 38 product interaction contexts,
+- `NAVIGATION_MAP.md` — product-level transitions,
+- `STATE_MATRIX.md` — critical state coverage,
+- `DESIGN_PRINCIPLES.md` — approved working screen-level principles,
+- `SCREEN_COVERAGE_TRACEABILITY.md` — journey/rule coverage.
+
+This reference means those contexts, transitions and invariants are valid inputs for screen-family/spec work.
+
+It does NOT mean:
+- 38 permanent implementation routes are required,
+- every candidate is a full screen,
+- final bottom navigation/home shell is decided,
+- exact sheet/modal/inline choices are locked,
+- final MVP scope is decided,
+- component library or technology is decided.
 
 Yalnizca APPROVED veya LOCKED referanslar sonraki asamalar icin otorite kabul edilir.
