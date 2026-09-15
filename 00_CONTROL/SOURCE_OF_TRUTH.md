@@ -79,9 +79,19 @@ Approved working AI Usta root UX structure:
 - DEC-0018
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-AIUSTA-001`
 
+Approved working five-tab root visual family:
+- `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SHELL-001`
+- approval evidence: explicit user feedback `hepsi iyi`
+
 AI Usta evidence / review:
 - `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+
+Main-shell evidence / review:
+- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
 
 Other evidence / review artifacts:
 - `KAVRIVA_LOGO_01_HANDOFF.md`
@@ -102,6 +112,9 @@ Authority boundaries:
 - `AI Usta` UX role/entry label'idir; LLM/provider/backend/AI architecture karari degildir ve product trust/safety gates'i bypass edemez.
 - AI Usta root structure approved: **A1 — Guided Split**; compact motorcycle context + `Nasil yardimci olayim?` + `Bir is yapmak istiyorum` / `Motorda bir sorun var`. Known-task `SCR-009`, symptom-first `SCR-019` flow'una controlled handoff yapar.
 - A1 root free-form technical-answer/chat-home authority'si vermez; unsupported diagnosis/value/specification uretimi veya fit/readiness/safety bypass'i yasaktir.
+- `REF-SHELL-001` R01–R05 root visual family'yi working reference yapar; exact icon glyphs, production tokens, exact header geometry, R03 decorative image requirement'i ve R05 contribution CTA prominence'i final yapmaz.
+- Generated motorcycle imagery identity/fit/diagnosis evidence degildir.
+- Community wording gercekte desteklenmeyen authenticity/verification iddiasi yaratamaz.
 - Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.
 - Language/unit/accessibility support profile/account prerequisite olamaz.
 
