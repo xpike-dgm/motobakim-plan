@@ -74,7 +74,16 @@ Approved working screen-family / UX specifications:
 - DEC-0017
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SPEC-001`
 
-Evidence / review artifacts:
+Approved working AI Usta root UX structure:
+- `03_DESIGN/AI_USTA_UX_STRUCTURE.md`
+- DEC-0018
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-AIUSTA-001`
+
+AI Usta evidence / review:
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+
+Other evidence / review artifacts:
 - `KAVRIVA_LOGO_01_HANDOFF.md`
 - `KAVRIVA_LOGO_REVIEW.md`
 - `KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
@@ -91,6 +100,8 @@ Authority boundaries:
 - Screen architecture `SCR-001` — `SCR-038` product interaction contexts'ini tanimlar; permanent route count degildir.
 - Five-tab navigation approved: **Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
 - `AI Usta` UX role/entry label'idir; LLM/provider/backend/AI architecture karari degildir ve product trust/safety gates'i bypass edemez.
+- AI Usta root structure approved: **A1 — Guided Split**; compact motorcycle context + `Nasil yardimci olayim?` + `Bir is yapmak istiyorum` / `Motorda bir sorun var`. Known-task `SCR-009`, symptom-first `SCR-019` flow'una controlled handoff yapar.
+- A1 root free-form technical-answer/chat-home authority'si vermez; unsupported diagnosis/value/specification uretimi veya fit/readiness/safety bypass'i yasaktir.
 - Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.
 - Language/unit/accessibility support profile/account prerequisite olamaz.
 
