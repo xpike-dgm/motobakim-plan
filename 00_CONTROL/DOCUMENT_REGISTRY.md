@@ -33,13 +33,15 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `GLOBAL_NAVIGATION.md` — 5-tab bottom bar
 - `SCREEN_FAMILY_SPECS.md` — working UX specs
 - `SCREEN_FAMILY_SPEC_REVIEW.md` — approved QA record
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`
+- `AI_USTA_UX_STRUCTURE.md` — A1 Guided Split working AI Usta root UX
+- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` — approved QA record
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`
 
 Current Phase-3 task:
-**AI Usta UX Structure Calibration**.
+**Five-tab main-shell root visual references**.
 
 Active prompt:
-`03_DESIGN/PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md`.
+`03_DESIGN/PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md`.
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 
