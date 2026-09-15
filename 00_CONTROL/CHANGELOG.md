@@ -163,5 +163,25 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Anchor visual ve screen-inventory promptlari name+logo sonrasina DEFERRED edildi.
 - `03_DESIGN/README.md`, `CURRENT_STATE.md` ve `HANDOFF.md` brand-first sequence ile yenilendi.
 
+### Kavriva Naming Handoff / Main-Manager QA
+- Delegated naming session `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01` paketini uretip durdu.
+- User favorite `Kavriva`; favorite wording approval olarak otomatik yorumlanmadi.
+- Portable package `03_DESIGN/BRAND_NAME_01_HANDOFF.md` icinde korundu.
+- Main-manager QA `03_DESIGN/BRAND_NAME_REVIEW.md` icinde kaydedildi.
+- `Kavira Software`, `Kavira` mobile/digital use ve close `KAVIVA` trademark activity nedeniyle preliminary collision/confusion risk signal'i korundu.
+- State `PHASE-3 / DESIGN — BRAND NAME DECISION REQUIRED` yapildi; explicit user approval olmadan logo promptu baslatilmadi.
+
+### Kavriva Approved / Logo Exploration Ready
+- User `kavrivayı onaylıyorum` diyerek Kavriva'yi bilinen preliminary collision/confusion risklerini kabul ederek acikca onayladi.
+- DEC-0012 `Kavriva Approved as Working Consumer-Facing Brand Name` APPROVED olarak kaydedildi.
+- `03_DESIGN/BRAND_NAME.md` APPROVED working brand source-of-truth olarak olusturuldu.
+- `00_CONTROL/SOURCE_OF_TRUTH.md` Design otoritesi Kavriva brand source'unu isaret edecek sekilde guncellendi.
+- Trademark/registrability/infringement sonucu verilmedi; formal similarity clearance + priority domain/handle verification later launch-risk validation olarak acik kaldi.
+- `03_DESIGN/PHASE3_LOGO_EXPLORATION_AI_PROMPT.md` olusturuldu.
+- Logo Round 01 form-first/monochrome; L01-L10 10 distinct separate image, then user selection + selected-direction refinement olarak tanimlandi.
+- `Kavriva` wordmark icin `r` ve second `v` legibility explicit constraint yapildi; Kavira/Kaviva confusion'i artiran treatment yasaklandi.
+- Generic motorcycle silhouette, wrench+gear, shield+check, AI sparkle/brain ve racing-flame cliche-first direction'lardan kacinma kurali eklendi.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA LOGO EXPLORATION READY`.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — BRAND NAMING READY`. Siradaki adim `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; naming exploration + user favorite selection + second-pass validation sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01` paketini ana proje yoneticisine geri getirmektir.
+Durum `PHASE-3 / DESIGN — KAVRIVA LOGO EXPLORATION READY`. Siradaki adim `03_DESIGN/PHASE3_LOGO_EXPLORATION_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; user favorites + Round 02 refinement sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA LOGO 01` paketini ana proje yoneticisine geri getirmektir.
