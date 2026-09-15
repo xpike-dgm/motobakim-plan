@@ -1,6 +1,7 @@
 # STATE MATRIX
 
-Status: REVIEW
+Status: APPROVED
+Approved by: USER — 2026-09-15
 Review source: `03_DESIGN/SCREEN_INVENTORY_REVIEW.md`
 
 Bu matris critical product states'i screen contexts'e baglar. Presentation mode kolonlari implementation karari degil, screen-spec asamasi icin aday treatment'tir.
@@ -20,7 +21,7 @@ Bu matris critical product states'i screen contexts'e baglar. Presentation mode 
 | Variant mismatch / uncertain fit | 003,004,010,011,014,015 | Nearby variant never guessed as correct | Blocking + re-evidence |
 | Missing readiness prerequisite | 011,012,014 | Condition/reason/remediation/recheck visible | Hold flow candidate |
 | Evidence insufficient | 003,004,020,021,028,036,038 | Uncertainty preserved; no false verification | Inline/result state |
-| Diagnosis unresolved | 021 | `Neden doğrulanamadı` valid outcome | Full result state |
+| Diagnosis unresolved | 021 | `Neden dogrulanamadi` valid outcome | Full result state |
 | Disputed history / claim | 025,026,028 | Claims/source/evidence separated | Record-detail state |
 | Evidence withdrawal / re-review | 026,028,029,036 | Withdrawn evidence removed from current evaluation; historical trace remains | Detail + status transition |
 | Critical correction | 005,014,016,026,029 | Reach-back proportional to impact; active work may stop | Dedicated action context |
@@ -67,4 +68,6 @@ Still open:
 
 ## Approval Boundary
 
-Status remains `REVIEW`. Explicit user approval is required before this matrix becomes approved Phase-3 state architecture.
+This matrix is APPROVED as the **working Phase-3 critical-state architecture**.
+
+Presentation treatment, exact component choice and technical state implementation remain open.
