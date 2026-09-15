@@ -114,4 +114,34 @@ Bu karar:
 - `PROPOSED` monetization direction'i final pricing/tier policy'ye donusturmez,
 - open feasibility/validation assumptions'i fact yapmaz.
 
-Phase 3 Design, approved product snapshot'tan screen/navigation/state inventory turetecek; teknoloji/backend architecture veya implementation karari vermeyecektir.
+Phase 3 Design approved product snapshot'tan ilerleyecek; teknoloji/backend architecture veya implementation karari vermeyecektir.
+
+---
+
+## DEC-0010 — Phase 3 Begins with Anchor Visual Calibration
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici, ilk screen-inventory promptunu henuz baska AI'ya gondermeden Phase 3 icindeki sirayi acikca degistirdi.
+
+Phase 3'te once:
+1. Motobakim'in core degerini temsil eden tek bir anchor screen icin ayni content/state ile 10 farkli visual direction uretilecek,
+2. kullanici favori visual direction veya hybrid visual DNA'yi sececek,
+3. secim QA edilip PROPOSED design direction olarak kaydedilecek,
+4. ardindan full screen inventory + navigation + state coverage yapilacak,
+5. secilen visual DNA inventory/state coverage uzerinden screen-by-screen yayilacak.
+
+Ilk anchor calibration fixture:
+`Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`.
+
+Bu karar:
+- Phase 2 product truth'u degistirmez,
+- screen inventory/navigation/state coverage zorunlulugunu kaldirmaz,
+- Gate 3 -> 4 kriterlerini dusurmez,
+- ilk 10 visual direction'dan hicbirini user secimi ve QA olmadan APPROVED/LOCKED yapmaz,
+- technology veya implementation karari vermez.
+
+Current first prompt:
+`03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md`.
+
+Onceki screen-inventory promptu ilk adim olmaktan DEFERRED edilmis ve tarihsel kopyasi korunmustur.
