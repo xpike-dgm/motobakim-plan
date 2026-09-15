@@ -1,6 +1,6 @@
 # DECISION LOG
 
-Kalici ve kullanici tarafindan onaylanmis surec/proje yonetim kararlarinin kaydi.
+Kalici ve kullanici tarafindan onaylanmis surec/proje yonetim kararlari kaydi.
 
 Status: `PROPOSED`, `APPROVED`, `LOCKED`, `SUPERSEDED`, `DEPRECATED`.
 
@@ -271,7 +271,7 @@ Required refinement constraints:
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici, delegated Screen Inventory 01 paketi + main-manager `PASS_WITH_REFINEMENTS` QA sonucundan sonra ekran planina devam edilmesini acikca onayladi (`onaylıyorum`).
+Kullanici, delegated Screen Inventory 01 paketi + main-manager `PASS_WITH_REFINEMENTS` QA sonucundan sonra ekran planina devam edilmesini acikca onayladi (`onayliyorum`).
 
 Bunun sonucunda Phase-3 working architecture olarak sunlar APPROVED:
 - `03_DESIGN/SCREEN_CATALOG.md` — `SCR-001` — `SCR-038` product interaction contexts,
@@ -293,3 +293,60 @@ Approval semantics bilincli olarak working-architecture seviyesindedir. Bu karar
 - Gate 3 -> 4'u otomatik gecirmez.
 
 Next authorized Phase-3 task: **Screen-Family Principles + Screen Specifications**.
+
+---
+
+## DEC-0017 — Five-Tab Bottom Navigation + Screen-Family Specs Approved
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici screen-family/spec QA sonrasinda global navigation icin yeni bir explicit preference verdi: capability'leri tek bir ana sayfada toplamak yerine 5 bottom-bar destination kullanmak ve ortadaki ana yardim entry'sini `AI Usta` yapmak. Ardindan su shell'i acikca onayladi:
+
+**Garaj · Bakim · AI Usta · Gecmis · Topluluk**
+
+Bunun sonucunda:
+- `03_DESIGN/GLOBAL_NAVIGATION.md` APPROVED global navigation source-of-truth'tur,
+- `03_DESIGN/SCREEN_FAMILY_SPECS.md` APPROVED working screen-family/spec source'udur,
+- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md` APPROVED review record'dur,
+- 9-family grouping ve per-SCR hierarchy/action/trust/safety specs downstream visual-reference work icin authority olabilir.
+
+### Tab responsibility
+
+- **Garaj:** selected motorcycle context, switching ve lifecycle.
+- **Bakim:** maintenance plan/reminders/catch-up.
+- **AI Usta:** known-task + symptom-first assistance'in merkezi entry'si.
+- **Gecmis:** longitudinal history/evidence/trust/correction/export.
+- **Topluluk:** community Q&A/experiences/contribution/moderation; official guide authority'sinden ayri.
+
+### AI Usta authority boundary
+
+`AI Usta` UX role/entry label'idir; bu karar LLM/provider/backend/AI architecture secmez.
+
+AI Usta:
+- verified technical source-of-truth yerine gecemez,
+- motorcycle fit/readiness/safety gates'i bypass edemez,
+- unsupported technical value veya definitive diagnosis uyduramaz,
+- approved known-task / diagnosis / guide flows'a controlled entry saglar.
+
+Exact interaction formu — structured assistant, conversational UI, search/prompt veya hybrid — daha sonra controlled design work ile belirlenir.
+
+### Controlled SCR-005 refinement
+
+5-tab shell ile `SCR-005` broad action-hub rolunden Garaj / selected-motorcycle context responsibility'sine daralir. Known-task + symptom primary entry `AI Usta`, maintenance `Bakim`, history `Gecmis`, community `Topluluk` tablarina dagitilir. Bu capability removal degil, previous dashboard/card-stack riskini azaltan navigation refinement'tir.
+
+### Additional QA constraint
+
+Language/unit preference ve accessibility support profile/account prerequisite olamaz; account-light/local use'da da kullanilabilir olmalidir.
+
+### Still not finalized
+
+Bu karar:
+- exact icon/font/spacing/animation'i,
+- active-repair sirasinda bottom-bar visibility'sini,
+- first post-onboarding landing tab'ini,
+- exact ambiguous sheet/modal/full-screen mappings'i,
+- final component/token system'i,
+- pricing veya technology architecture'ini
+final yapmaz.
+
+Next authorized Phase-3 task: **five-tab shell uzerinde family-based screen visual references**.
