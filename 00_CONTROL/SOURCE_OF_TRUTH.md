@@ -85,6 +85,12 @@ Approved working five-tab root visual family:
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SHELL-001`
 - approval evidence: explicit user feedback `hepsi iyi`
 
+Approved working Guide Discovery / Fit / Preparation visual family:
+- `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-GUIDE-001`
+- acceptance evidence: user feedback `geneol olarak iyi`
+
 AI Usta evidence / review:
 - `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
@@ -92,6 +98,10 @@ AI Usta evidence / review:
 Main-shell evidence / review:
 - `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
+
+Guide-family evidence / review:
+- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
 
 Other evidence / review artifacts:
 - `KAVRIVA_LOGO_01_HANDOFF.md`
@@ -113,6 +123,12 @@ Authority boundaries:
 - AI Usta root structure approved: **A1 — Guided Split**; compact motorcycle context + `Nasil yardimci olayim?` + `Bir is yapmak istiyorum` / `Motorda bir sorun var`. Known-task `SCR-009`, symptom-first `SCR-019` flow'una controlled handoff yapar.
 - A1 root free-form technical-answer/chat-home authority'si vermez; unsupported diagnosis/value/specification uretimi veya fit/readiness/safety bypass'i yasaktir.
 - `REF-SHELL-001` R01–R05 root visual family'yi working reference yapar; exact icon glyphs, production tokens, exact header geometry, R03 decorative image requirement'i ve R05 contribution CTA prominence'i final yapmaz.
+- `REF-GUIDE-001` D01–D05 Guide Discovery / Fit / Preparation visual family'yi working reference yapar.
+- D03 `Uygulamaya hazir` statusu yalniz mandatory/critical readiness gercekten dogrulanmissa kullanilabilir; pending/unknown/stale/failed critical condition ready sayilamaz.
+- D01–D05'te image generation tarafindan uretilen blue K-like mark yeni logo authority DEGILDIR; L05A `REF-BRAND-001` gecerlidir.
+- D03 generated tools/materials/optional examples technical truth DEGILDIR; production requirement classification task-specific validated source'tan gelmelidir.
+- D02 fit/trust fixture copy real evidence olmadan kullanilamaz.
+- D01/D02 visible bottom bar ve D03–D05 reduced navigation exact routing/navigation karari degildir.
 - Generated motorcycle imagery identity/fit/diagnosis evidence degildir.
 - Community wording gercekte desteklenmeyen authenticity/verification iddiasi yaratamaz.
 - Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.
