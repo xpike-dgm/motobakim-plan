@@ -34,7 +34,11 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 `SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Bu belge onaylanan synthesis snapshot'ini ve hangi blob'larin birlikte okunacagini tanimlar. Working synthesis dosyalarinin sonraki degisiklikleri, controlled approval/supersession olmadan approved snapshot'i otomatik degistirmez.
 
 ### 03 Design
+Approved working consumer-facing brand name source'u `03_DESIGN/BRAND_NAME.md` dosyasidir.
+
 Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md`; gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
+
+`BRAND_NAME_01_HANDOFF.md` ve `BRAND_NAME_REVIEW.md` naming evidence/review katmanidir; approved name karari `BRAND_NAME.md` ve DEC-0012 ile kayda girer. Naming research legal trademark clearance yerine gecmez.
 
 ### 04 Tech Strategy
 Tartisma ve oneridir. Tek basina kesin teknoloji karari olamaz.
