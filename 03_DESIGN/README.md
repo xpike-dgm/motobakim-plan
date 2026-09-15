@@ -10,15 +10,15 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 4. Logo exploration Round 01 + Round 02 — **DONE**
 5. Logo selection / main-manager QA — **DONE: L05A working direction**
 6. Anchor visual R2 attempt — **NOT ACCEPTED / DEPRECATED: UX clutter feedback**
-7. **Anchor UX Structure Calibration — CURRENT / READY**
-8. Selected UX hierarchy QA
-9. Visual-style exploration — selected UX structure fixed
+7. Anchor UX Structure Calibration — **DONE**
+8. U04 selection + main-manager QA — **DONE: U04 working anchor hierarchy**
+9. **Visual-style exploration — U04 UX structure fixed — CURRENT / READY**
 10. Full screen inventory + navigation + critical state coverage
 11. Design principles / screen specs
 12. Screen-by-screen visual references + user approval
 13. Gate 3 -> 4 readiness review
 
-Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style'in ayni anda degistirilmesi artik yasaktir; once hierarchy, sonra visual character kalibre edilir.
+Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style artik ayni anda degistirilmez; hierarchy once secilir, sonra visual character ayni hierarchy uzerinde kalibre edilir.
 
 ## Approved Working Brand
 
@@ -62,97 +62,99 @@ Not approved yet:
 - final launcher-icon spec,
 - trademark/legal uniqueness.
 
-## User UX Feedback
+## Approved Working Anchor UX Structure
+
+**U04 — Progressive Detail**
+
+Status: `APPROVED WORKING ANCHOR UX STRUCTURE`
+
+Canonical source:
+- `ANCHOR_UX_STRUCTURE.md`
+- `KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+- DEC-0014
+- `REFERENCE_INDEX.md` -> `REF-UX-001`
+
+Core principle:
+**Accessible does not mean simultaneously prominent.**
+
+Default task-first hierarchy:
+1. compact brand/context/progress,
+2. step title,
+3. quiet trust label,
+4. one dominant visual,
+5. one annotation,
+6. concise instruction,
+7. integrated critical safety,
+8. collapsed flat detail affordance,
+9. one dominant completion CTA,
+10. lower-emphasis visible recovery path.
+
+U04 is an anchor calibration structure only. It is NOT a universal template for every screen and is NOT the final screen catalog/navigation/state architecture.
+
+## Visual Style — Current Task
+
+**USE NOW:**
+- `PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md`
+
+Required attachments to the delegated visual-generation chat:
+- `Kavriva_L05A.png`
+- actual selected `Kavriva_U04_Progressive-Detail.png`
+
+The selected U04 image was referenced by a non-portable local `file:///` path in the delegated handoff. Repository canonical truth is the semantic U04 hierarchy; exact visual fidelity requires the actual screenshot attachment.
+
+### UX Freeze
+
+Across all 10 visual-style variants, these must stay fixed:
+- hierarchy order,
+- visible-vs-on-demand semantics,
+- element-count logic,
+- CTA placement logic,
+- critical-safety visibility,
+- compact trust visibility,
+- recovery emphasis,
+- progressive-disclosure behavior.
+
+Only these may vary:
+- typography character,
+- palette family,
+- imagery treatment,
+- contrast strategy,
+- surface/depth language,
+- micro-shape/corner language,
+- icon character,
+- visual polish.
+
+Anti-clutter still applies:
+- no card-per-semantic,
+- no nested cards,
+- no KPI/metric-chip dashboard,
+- no equal-weight multiple CTAs,
+- no oversized logo or repeated logo geometry.
+
+## Previous UX Feedback
 
 Evidence:
 - `ANCHOR_UX_FEEDBACK_01.md`
 
-User anchor-screen outputs'i UX olarak karisik buldu ve benzer problemin onceki visual-generation turunda da oldugunu belirtti.
+Earlier anchor-screen outputs were judged crowded / dashboard-like because UX hierarchy and visual styling were varied together and too many semantics were forced into simultaneously prominent blocks.
 
-Main-manager diagnosis:
-- UX hierarchy + visual style ayni turda varyasyonlandi,
-- safety/trust/progress/visual/instruction/success/recovery/detail gibi semantic'ler ayni anda buyuk gorunur blocks olmaya zorlandi,
-- image-generation sonucunda card-stack/dashboard hissi tekrarlandi.
+That approach is deprecated.
 
-Bu diagnosis user feedback'ten turetilmis manager yorumudur; final UX truth degildir.
+## Deprecated Prompts
 
-## UX Simplification Principle
-
-**Accessible != simultaneously prominent.**
-
-Approved product semantics korunur; fakat tum semantics ayni anda ayri buyuk cards olmak zorunda degildir.
-
-Progressive disclosure izinlidir:
-- trust/provenance -> compact affordance,
-- extra explanation -> on-demand,
-- success confirmation -> primary action semantics'ine entegre olabilir,
-- recovery -> gorunur ama lower-emphasis,
-- motorcycle context -> compact,
-- safety -> step criticality'sine gore integrated high-clarity treatment.
-
-Primary UX goal:
-User ilk bakista su uc soruyu cevaplayabilmelidir:
-1. Ne yapacagim?
-2. Nereye bakacagim?
-3. Bitirince neye basacagim?
-
-## Current UX Calibration Task
-
-**USE NOW:**
-- `PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md`
-
-Selected `Kavriva_L05A.png` image'i ayni delegated sohbetine attach edilmelidir.
-
-Round:
-- U01-U05 5 separate UX structure image,
-- neutral / monochrome,
-- same semantics,
-- progressive disclosure,
-- no card-per-semantic,
-- no dashboard/KPI-chip treatment,
-- maximum 1 dominant content surface + 1 primary action zone,
-- user selects clearest 1-2 structures.
-
-User selection sonrasi delegated AI:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR UX STRUCTURE 01`
-uretir ve DURUR.
-
-## Visual Style — Only After UX Selection
-
-UX hierarchy main-manager QA'den gectikten sonra yeni visual-style promptu hazirlanir.
-
-O turda selected UX structure SABIT kalir:
-- information hierarchy degismez,
-- element count logic degismez,
-- primary CTA placement logic degismez,
-- progressive disclosure degismez.
-
-Yalniz:
-- typography character,
-- palette family,
-- imagery treatment,
-- surface depth,
-- micro-shape language,
-- visual polish
-varyasyonlanir.
-
-## Deprecated Prompt
-
-`PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — **DEPRECATED / DO NOT USE**.
-
-Reason: user-reported repeated UX clutter.
-
-Historical V1:
-- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`
+- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — **DEPRECATED / DO NOT USE**.
+- Historical V1: `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`.
+- UX structure calibration prompt — COMPLETED.
 
 ## Design Reference Authority
 
 `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references sonraki design calismalari icin otoritedir.
 
-Current approved reference:
+Current approved references:
 - `REF-BRAND-001` -> L05A working logo direction.
+- `REF-UX-001` -> U04 working anchor UX hierarchy.
 
-Henuz approved anchor UX veya UI visual reference yoktur.
+Henuz approved anchor **visual style** yoktur.
 
 ## Coverage Rule
 
@@ -163,9 +165,10 @@ Inventory/state phase'inde happy path disinda loading, empty, error, permission,
 Design asamasi:
 - Product Discovery requirement'larini sessizce degistiremez.
 - UX simplification product semantics'i kaldiramaz.
+- Visual style UX hierarchy'yi degistiremez.
 - Technology/backend/database/API/auth/sync/framework secemez.
 - Final pricing/tier/quota karari veremez.
-- Generated UX/visual reference'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
+- Generated visual reference'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
 - Logo selection'i production-ready/trademark-safe asset ilan edemez.
 
 Gate 3 -> 4 icin screen catalog, navigation map, critical state coverage ve yeterli user-approved visual references gereklidir.
