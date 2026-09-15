@@ -1,6 +1,6 @@
 # 03 — DESIGN
 
-Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved UX/visual direction'larini, ekran/state envanterini ve reference sistemini kontrollu sirayla olusturmaktir.
+Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved UX/visual direction'larini, ekran/state mimarisini ve screen specifications'i kontrollu sirayla olusturmaktir.
 
 ## Current Phase 3 Sequence
 
@@ -13,120 +13,78 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 7. Anchor UX Structure Calibration — **DONE**
 8. U04 selection + main-manager QA — **DONE: U04 working anchor hierarchy**
 9. Visual-style exploration with U04 fixed — **DONE: V10 working visual direction**
-10. Full screen inventory + navigation + critical state coverage — **MAIN-MANAGER QA DONE / USER REVIEW REQUIRED**
-11. Screen-family principles + screen specifications — **BLOCKED pending inventory approval**
+10. Full screen inventory + navigation + critical state coverage — **DONE / USER APPROVED**
+11. **Screen-family principles + screen specifications — CURRENT / READY**
 12. Screen-by-screen visual references + user approval
 13. Gate 3 -> 4 readiness review
 
 ## Approved Working References
 
-### Brand
-**Kavriva** — APPROVED working consumer-facing brand.
+- Brand: **Kavriva** — `BRAND_NAME.md`, DEC-0012.
+- Logo: **L05A — The Precision Fit** — `REF-BRAND-001`, DEC-0013.
+- Anchor UX: **U04 — Progressive Detail** — `REF-UX-001`, DEC-0014.
+- Anchor visual: **V10 — Signature Kavriva** — `REF-VISUAL-001`, DEC-0015.
+- Screen/state architecture: **Screen Inventory 01 + refinement** — `REF-ARCH-001`, DEC-0016.
+
+## Approved Working Screen Architecture
 
 Canonical:
-- `BRAND_NAME.md`
-- DEC-0012
-
-### Logo
-**L05A — The Precision Fit** — APPROVED working direction.
-
-Canonical:
-- `LOGO_DIRECTION.md`
-- DEC-0013
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`
-
-### Anchor UX
-**U04 — Progressive Detail** — APPROVED working anchor UX.
-
-Canonical:
-- `ANCHOR_UX_STRUCTURE.md`
-- DEC-0014
-- `REFERENCE_INDEX.md` -> `REF-UX-001`
-
-Core principle:
-**Accessible does not mean simultaneously prominent.**
-
-### Anchor Visual
-**V10 — Signature Kavriva** — APPROVED working visual direction.
-
-Canonical:
-- `ANCHOR_VISUAL_STYLE.md`
-- DEC-0015
-- `REFERENCE_INDEX.md` -> `REF-VISUAL-001`
-
-Important V10 constraints:
-- exact HEX values final production tokens degil,
-- shield/check canonical trust/safety badge degil,
-- generated mechanical image verified motorcycle-specific evidence degil,
-- exact font/spacing/radii/responsive/dark-theme behavior final degil,
-- V10 universal full-app layout degil.
-
-## Screen Inventory — Current Review Set
-
-Main-manager review:
+- `SCREEN_CATALOG.md`
+- `NAVIGATION_MAP.md`
+- `STATE_MATRIX.md`
+- `DESIGN_PRINCIPLES.md`
+- `SCREEN_COVERAGE_TRACEABILITY.md`
 - `SCREEN_INVENTORY_REVIEW.md`
-- result: `PASS_WITH_REFINEMENTS — USER APPROVAL REQUIRED`
 
-Canonical review artifacts:
-- `SCREEN_CATALOG.md` — REVIEW
-- `NAVIGATION_MAP.md` — REVIEW
-- `STATE_MATRIX.md` — REVIEW
-- `DESIGN_PRINCIPLES.md` — REVIEW
-- `SCREEN_COVERAGE_TRACEABILITY.md` — REVIEW
+Current catalog:
+`SCR-001` — `SCR-038`.
 
-Current candidate inventory:
-- delegated baseline: `SCR-001` — `SCR-037`,
-- main-manager coverage addition: `SCR-038 — Community Experiences / Q&A`.
+These are product interaction contexts, not guaranteed permanent routes.
 
-`SCR-*` IDs product interaction contexts'tir; permanent route sayisi degildir.
-
-## Main-Manager Screen Inventory QA Notes
-
-Passed:
-- known-task, symptom-first, record-only, interruption/recovery, maintenance, history/dispute, inactive motorcycle, transfer/archive/delete, collaboration, migration ve entitlement-preserved-access coverage,
-- critical states including teaching-only, safety hold, mismatch, insufficient evidence, material guide change, partial/unresolved, re-review, downgrade,
-- U04/V10'un universal template'e donusturulmemesi,
-- global navigation / technical routing / technology / pricing finalization yapilmamasi.
-
-Refinement:
-- community contribution/moderation vardi fakat published community Q&A/experience consumption context'i allocation almamisti; `SCR-038` eklendi.
-
-Explicitly still open design mappings:
-- global nav shell,
-- full-screen vs sheet/modal/inline,
-- notification control placement,
-- accessibility modality preference placement,
+Still open for screen-family/spec work:
+- global navigation shell,
+- exact full-screen vs sheet/modal/inline mapping,
+- routine notification control placement,
 - language/unit preference placement if user-configurable,
-- historical claim-state visual vocabulary.
+- accessibility modality preference placement,
+- exact historical trust/claim visual vocabulary,
+- exact correction reach-back channel/cadence.
 
-Generic Settings screen source olmadan uydurulmaz.
+Generic Settings megascreen, dashboard/KPI home, marketplace home veya social feed convention ile uydurulmaz.
 
-## Design Reference Authority
+## Current Task
 
-`REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references gorsel/UX authority'dir.
+**USE NOW:**
+`PHASE3_SCREEN_FAMILY_SPEC_AI_PROMPT.md`
 
-Current approved references:
-- `REF-BRAND-001` -> L05A,
-- `REF-UX-001` -> U04 anchor hierarchy,
-- `REF-VISUAL-001` -> V10 working visual direction.
+Bu tur:
+- `SCR-*` context'lerini 6–9 anlamli family'ye ayirir,
+- family-level UX principles cikarir,
+- SCR-001 — SCR-038 icin tek tek screen specification yazar,
+- global navigation shell icin en fazla 3 PROPOSED option sunar,
+- ambiguous surface treatments'i PROPOSED olarak degerlendirir,
+- cross-cutting control placement ve trust/safety semantics'i rafine eder,
+- mockup/image URETMEZ.
 
-Screen architecture artifacts henuz `REVIEW`; user approval sonrasi source-of-truth authority seviyesine tasinabilir.
+## Core Design Protections
+
+- **Accessible does not mean simultaneously prominent.**
+- U04 active-guide anchor authority'dir; universal full-app layout degildir.
+- V10 visual-DNA reference'tir; universal layout/exact token system degildir.
+- Shield/check generic trust/safety/certification badge degildir.
+- Product semantics visual simplicity ugruna kaldirilamaz.
+- Safety, provenance, uncertainty, recovery ve historical truth gereken context'te korunur.
+- Screen/state architecture user approval olmadan degistirilemez; refinement controlled change ister.
 
 ## Scope Restrictions
 
-Design asamasi:
-- Product Discovery requirement'larini sessizce degistiremez.
-- U04'u universal layout yapamaz.
-- V10'u exact final component/token system yapamaz.
-- `SCR-*` count'u route count gibi yorumlayamaz.
-- Technology/backend/database/API/auth/sync/framework secemez.
-- Final pricing/tier/quota karari veremez.
-- Screen inventory user approval olmadan APPROVED/LOCKED ilan edilemez.
+Phase 3:
+- technology/backend/database/API/auth/sync/framework secemez,
+- pricing/tier/quota finalize edemez,
+- final production component library secemez,
+- mockup/reference user + main-manager review olmadan authority yapamaz,
+- Gate 3 -> 4 kosullari tamamlanmadan Phase 4'e gecemez.
 
-Gate 3 -> 4 icin approved screen catalog, navigation map, important state coverage ve yeterli approved visual references gerekir.
+## Gate 3 -> 4
 
-## Current Next Action
-
-User main-manager QA'den gecmis Screen Inventory architecture'i approve eder veya degisiklik ister.
-
-Approval gelmeden screen-family/spec delegation promptu ACTIVE yapilmaz.
+Gate 3 icin approved screen catalog/navigation/important states ve approved visual references gerekir. Bunlarin buyuk kismi mevcut olsa da screen specifications ve yeterli screen-by-screen visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
