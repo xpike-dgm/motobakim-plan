@@ -10,27 +10,29 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — KAVRIVA ANCHOR UX STRUCTURE CALIBRATION READY`
+`PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`
 
 ## What Just Happened
 
 Kavriva brand name ve L05A working logo direction daha once onaylandi.
 
-User, logo sonrasi anchor-screen visual generation sonuclarini UX acisindan karisik / kalabalik buldu ve ayni problemin onceki visual-generation turunda da oldugunu belirtti. User bunun prompt kaynakli olabilecegini soyledi.
+User anchor UX Structure Calibration turunda **U04 — Progressive Detail** yapisini secti:
 
-Raw feedback:
-- `03_DESIGN/ANCHOR_UX_FEEDBACK_01.md`
+> U04
 
-Main-manager diagnosis:
-- onceki promptlar UX hierarchy ile visual style'i ayni anda degistirdi,
-- bircok product semantic'i ayni anda buyuk visible blocks olarak zorladigi icin card-stack/dashboard hissi uretti,
-- `visible` ile `accessible` ayrimi yeterince kurulmadı.
+Delegated package ana yonetici sohbetine getirildi ve repository'ye kaydedildi:
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
 
-Operational correction:
-- eski Anchor Visual R2 promptu DEPRECATED,
-- once UX structure calibration,
-- user structure secimi + QA,
-- sonra selected UX sabit tutularak visual-style exploration.
+Main-manager QA sonucu:
+- `PASS_WITH_CONSTRAINTS`
+- review: `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+
+Bunun sonucunda:
+- DEC-0014 U04 working anchor UX structure APPROVED,
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` canonical working anchor hierarchy source,
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001` APPROVED,
+- visual-style exploration acildi,
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` olusturuldu.
 
 ## Approved Brand
 
@@ -51,24 +53,86 @@ Source:
 
 Logo direction production vector/font/palette/trademark-safe asset degildir.
 
-## Current UX Correction Principle
+## Approved Working Anchor UX
 
-**Accessible != simultaneously prominent.**
+**U04 — Progressive Detail** — APPROVED working anchor UX structure.
 
-Approved semantics korunur; tum semantics'in ayni anda ayri card/panel olarak gorunmesi gerekmez.
+Source:
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md`
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+- DEC-0014
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001`
 
-Progressive-disclosure examples:
-- provenance/trust -> compact info affordance,
-- extra explanation -> on-demand,
-- success confirmation -> primary completion action'a entegre olabilir,
-- recovery -> gorunur ama lower emphasis,
-- motorcycle context -> compact line,
-- critical safety -> contextual integrated warning.
+Core principle:
+**Accessible does not mean simultaneously prominent.**
 
-Primary anchor UX ilk bakista su sorulari cevaplamalidir:
-1. Ne yapacagim?
-2. Nereye bakacagim?
-3. Bitirince neye basacagim?
+Working hierarchy:
+1. compact brand/motorcycle/progress context,
+2. step title,
+3. quiet trust label,
+4. one dominant task visual,
+5. one focus annotation,
+6. concise instruction,
+7. integrated critical safety note,
+8. collapsed flat detail affordance,
+9. one dominant completion CTA,
+10. lower-emphasis visible recovery path.
+
+U04 is an anchor calibration hierarchy, NOT the universal layout for all Kavriva screens.
+
+## Why This Matters
+
+Earlier visual-generation rounds repeated the same problem:
+- too many semantics were simultaneously prominent,
+- card-per-semantic treatment appeared,
+- result felt like dashboard/card stack,
+- UX hierarchy and visual style were being changed at the same time.
+
+That approach is now deprecated.
+
+Current rule:
+**freeze UX first, then vary visual style.**
+
+## Current Visual-Style Task
+
+**USE NOW**
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md`
+
+The delegated chat should receive two image attachments:
+1. reviewed `Kavriva_L05A.png`,
+2. selected actual `Kavriva_U04_Progressive-Detail.png` screenshot.
+
+The U04 handoff included a Windows-local `file:///` link; that path is not portable and the repository does not store the PNG binary. Exact visual-fidelity work must use the actual screenshot attachment.
+
+## UX Freeze During Visual Exploration
+
+Must NOT change across V01-V10:
+- hierarchy order,
+- element-count logic,
+- visible-vs-on-demand semantics,
+- primary CTA placement logic,
+- critical-safety visibility,
+- compact trust visibility,
+- recovery emphasis,
+- progressive-disclosure behavior.
+
+May change:
+- typography character,
+- palette family,
+- image treatment,
+- contrast,
+- surface/depth language,
+- micro-shape/corner language,
+- icon character,
+- visual polish.
+
+No:
+- new cards/panels,
+- nested cards,
+- KPI chips,
+- equal-weight multiple CTAs,
+- new navigation patterns,
+- oversized logo or logo-shape cloning.
 
 ## Current Phase 3 Sequence
 
@@ -77,51 +141,41 @@ Primary anchor UX ilk bakista su sorulari cevaplamalidir:
 3. Kavriva approval — DONE.
 4. Logo exploration — DONE.
 5. L05A selection + QA — DONE.
-6. Anchor Visual R2 attempt — NOT ACCEPTED / DEPRECATED due to UX clutter.
-7. **Anchor UX Structure Calibration — CURRENT / READY.**
-8. User UX structure selection + main-manager QA.
-9. Visual-style exploration with selected UX fixed.
+6. Earlier Anchor Visual R2 — NOT ACCEPTED / DEPRECATED due to UX clutter.
+7. UX Structure Calibration — DONE.
+8. U04 selection + QA — DONE.
+9. **Visual-style exploration with U04 fixed — CURRENT / READY.**
 10. Full screen inventory + navigation + critical state coverage.
 11. Design principles / screen specs.
 12. Screen-by-screen references + approval.
 13. Gate 3 -> 4 review.
 
-## Current Prompt
-
-**USE NOW**
-- `03_DESIGN/PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md`
-
-User ayni delegated chat'e reviewed `Kavriva_L05A.png` image'ini attach etmelidir.
-
-Delegated AI:
-- U01-U05 5 separate neutral UX structure image uretir,
-- visual polish yerine hierarchy/cognitive load test eder,
-- card-per-semantic / dashboard / nested-card clutter yapmaz,
-- user'dan en rahat 1-2 structure'i ister,
-- user selection sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR UX STRUCTURE 01` uretip DURUR.
-
-## Deprecated
-
-- `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — DO NOT USE.
-- Full historical copy: `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`.
-
 ## Important Protections
 
-- UX simplification approved product semantics'i silemez.
-- Safety/trust/recovery accessible kalir; prominence step context'e gore ayarlanabilir.
-- No UI visual direction currently approved.
-- Full screen inventory/navigation/state coverage henuz baslamadi ve atlanmayacak.
-- Technology/backend/database/API/auth/sync/framework kararlari yok.
+- Approved product semantics cannot be removed for visual simplicity.
+- Safety remains visible when critical.
+- Trust remains compact but visible.
+- Recovery remains visible but secondary.
+- U04 approval does not establish the full-app screen catalog.
+- No visual style is approved yet.
+- Full screen inventory/navigation/state coverage is still mandatory after visual-style selection + QA.
+- No technology/backend/database/API/auth/sync/framework decisions are allowed here.
 
 ## Next Action
 
-User yeni AI sohbetine:
-1. `PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md` icerigini aynen verir,
-2. selected `Kavriva_L05A.png` gorselini attach eder.
+User opens a new AI chat and provides:
+1. `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md`,
+2. `Kavriva_L05A.png`,
+3. `Kavriva_U04_Progressive-Detail.png`.
 
-User en sade UX structure'i sectikten sonra portable UX handoff ana proje yoneticisine geri getirilir.
+Delegated AI generates 10 separate images with U04 frozen, then asks for 1-3 favorites/hybrid preference.
 
-Main-manager QA olmadan 10-style visual exploration'a gecilmez.
+After user selection it produces:
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL STYLE 01`
+
+and stops.
+
+Main-manager QA is required before full screen inventory begins.
 
 ## Last Updated
 2026-09-15
