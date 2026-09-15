@@ -17,9 +17,10 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 11. Screen-family principles + screen specifications — **DONE / APPROVED WORKING SPECS**
 12. Global five-tab navigation — **DONE / USER APPROVED**
 13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
-14. **Five-tab main-shell root visual references — CURRENT / READY**
-15. Remaining critical screen/state visual references
-16. Gate 3 -> 4 readiness review
+14. Five-tab main-shell root visual references — **DONE / R01–R05 APPROVED WORKING SET**
+15. **Guide Discovery / Fit / Preparation visual references — CURRENT / READY**
+16. Remaining critical screen/state visual references
+17. Gate 3 -> 4 readiness review
 
 ## Approved Working References
 
@@ -31,6 +32,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - Global navigation: **REF-NAV-001**, DEC-0017.
 - Screen-family / UX specs: **REF-SPEC-001**, DEC-0017.
 - AI Usta root UX: **A1 — Guided Split**, `REF-AIUSTA-001`, DEC-0018.
+- Five-tab root visual family: **R01–R05**, `REF-SHELL-001`.
 
 ## Approved Global Navigation
 
@@ -77,7 +79,32 @@ Root:
 Known-task -> `SCR-009`.
 Symptom-first -> `SCR-019`.
 
-A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmez.
+A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmaz.
+
+## Approved Five-Tab Root Visual Family
+
+Canonical:
+- `MAIN_SHELL_VISUAL_REFERENCES.md`
+- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
+- `REF-SHELL-001`
+
+User feedback:
+> hepsi iyi
+
+Approved working set:
+- R01 Garaj
+- R02 Bakim
+- R03 AI Usta
+- R04 Gecmis
+- R05 Topluluk
+
+Root-set constraints:
+- exact bottom-tab icons are NOT canonical; screenshots contain icon inconsistencies,
+- R03 motorcycle crop is optional visual treatment, not required A1 structure,
+- R05 contribution CTA prominence is not a permanent engagement rule,
+- community wording cannot imply unsupported verification/authenticity,
+- generated motorcycle imagery is not technical evidence,
+- exact fonts/colors/spacing/radii/header geometry remain non-final.
 
 ## Approved Working Screen Families / Specs
 
@@ -106,26 +133,31 @@ Controlled refinement:
 
 This preserves approved capabilities while reducing dashboard/card-stack pressure.
 
-## Current Task — Five-Tab Main-Shell Root Visual References
+## Current Task — Guide Discovery / Fit / Preparation Visual References
 
 **USE NOW:**
-`PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md`
+`PHASE3_GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES_AI_PROMPT.md`
 
-This round generates exactly 5 separate root visuals:
-- R01 Garaj,
-- R02 Bakim,
-- R03 AI Usta — A1 fixed,
-- R04 Gecmis,
-- R05 Topluluk.
+This round generates exactly 5 separate visuals:
+- D01 `SCR-009 Known Task Find / Select`
+- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
+- D03 `SCR-011 Preparation & Readiness`
+- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
+- D05 `SCR-013 Teaching-Only Topic View`
 
-Required attachments in delegated visual chat:
-- selected `Kavriva_L05A.png`,
-- selected `Kavriva_V10_Signature-Kavriva.png`.
+Required visual attachments:
+- `Kavriva_L05A.png`
+- selected V10 screenshot
+- `R02-Bakim.png`
+- `R03-AI-Usta.png`
 
-Goal:
-approved five-tab shell'i ve root responsibilities'i tek coherent visual family olarak test etmek; full app'i bir anda cizmemek.
+Key continuity requirement:
+- AI Usta `Bir is yapmak istiyorum` -> D01,
+- Bakim item/detail -> explicit `Bakimi yap` / `Rehberi ac` -> D01/D02,
+- no sixth `Rehberler` bottom tab,
+- fit/readiness/safety gates remain authoritative.
 
-User reviews only these five roots before deeper visual generation.
+U04 is NOT copied literally into these screens; U04 remains direct authority for `SCR-014 Active Guide Step` only.
 
 ## Core Design Protections
 
@@ -137,6 +169,7 @@ User reviews only these five roots before deeper visual generation.
 - A1 two-intent root bulky card-stack olamaz.
 - Language/unit/accessibility support profile prerequisite olamaz.
 - Generic Settings megascreen, dashboard/KPI home, marketplace home veya permanent social feed convention ile uydurulmaz.
+- Bakim reminder listesi dead-end olamaz; ilgili is icin guide flow'a explicit action gerekir.
 
 ## Still Open
 
@@ -145,7 +178,8 @@ User reviews only these five roots before deeper visual generation.
 - ambiguous full-screen/sheet/modal/inline treatment'lar,
 - final production iconography/tokens/components/dark mode,
 - exact claim/evidence visual vocabulary,
-- optional AI Usta conversational capabilities beyond A1 root.
+- optional AI Usta conversational capabilities beyond A1 root,
+- exact community contribution CTA weight.
 
 ## Scope Restrictions
 
@@ -157,4 +191,4 @@ Phase 3:
 
 ## Gate 3 -> 4
 
-Approved screen/state architecture, navigation, working specs ve AI Usta root UX mevcut. Ancak yeterli screen-by-screen approved visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
+Approved screen/state architecture, navigation, working specs, AI Usta root UX and five-tab root visual family mevcut. Ancak remaining critical screen/state visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
