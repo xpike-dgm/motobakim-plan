@@ -2,7 +2,7 @@
 
 Status: APPROVED WORKING SPECS
 Approved by controlled main-manager integration after USER navigation decision — 2026-09-15
-Decision: DEC-0017
+Decision: DEC-0017; AI Usta root refinement: DEC-0018
 Review: `SCREEN_FAMILY_SPEC_REVIEW.md`
 Source package: `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
 
@@ -20,7 +20,7 @@ working Phase-3 authority yapar.
 Approval su konulari final yapmaz:
 - exact full-screen/sheet/modal/inline mapping,
 - production components/tokens,
-- exact AI Usta interaction form,
+- AI Usta A1 root disindaki optional conversational capability'ler,
 - pricing/technology/backend/AI implementation,
 - Gate 3 -> 4.
 
@@ -29,6 +29,7 @@ Approval su konulari final yapmaz:
 Language/unit preferences ve accessibility support profile/account prerequisite olamaz. Account-light/local use bu presentation/accessibility behavior'larindan yararlanabilmelidir. Profile varsa persistence saglayabilir; access prerequisite olamaz.
 
 Global navigation authority: `GLOBAL_NAVIGATION.md`.
+AI Usta root authority: `AI_USTA_UX_STRUCTURE.md` / `REF-AIUSTA-001`.
 
 ## Screen Families
 
@@ -135,6 +136,27 @@ Detailed authority: `GLOBAL_NAVIGATION.md`.
 
 Bu refinement product capability'yi silmez; ayni approved contexts'i daha sade global navigation'a dagitir ve previous dashboard/card-stack riskini azaltir.
 
+## AI Usta Root Refinement — DEC-0018
+
+AI Usta root UX structure separately approved:
+**A1 — Guided Split**.
+
+Canonical authority:
+- `AI_USTA_UX_STRUCTURE.md`
+- `REF-AIUSTA-001`
+
+Root target:
+**1 context + 1 prompt + 2 paths.**
+
+- compact selected motorcycle context,
+- `Nasil yardimci olayim?`,
+- `Bir is yapmak istiyorum` -> `SCR-009`,
+- `Motorda bir sorun var` -> `SCR-019`,
+- optional low-prominence help,
+- fixed five-tab nav.
+
+A1 root free-form technical-answer chat home degildir ve two-intent choices bulky card-stack'e donusturulmez.
+
 ## Cross-Cutting Control Placement
 
 Working guidance:
@@ -171,15 +193,15 @@ Rules:
 - U04 DIRECT only for `SCR-014`; other contexts use principle-level adaptation where relevant.
 - V10 is visual DNA, not universal layout.
 - Garaj/Bakim/Gecmis/Topluluk roots can require different density and composition.
-- AI Usta exact UX shape remains open; its product authority boundary is defined in `GLOBAL_NAVIGATION.md`.
+- AI Usta root A1 hierarchy fixed by `AI_USTA_UX_STRUCTURE.md`; visual treatment can refine typography/spacing/intent presentation without changing routing/authority.
 
 ## Open Design Decisions Carried Forward
 
 Still open for visual-reference / later controlled work:
 - exact ambiguous surface modalities,
-- AI Usta structured-vs-conversational interaction shape,
 - active-repair bottom-bar visibility,
 - first post-onboarding landing tab,
+- optional AI Usta conversational capabilities beyond A1 root,
 - exact claim/evidence visual vocabulary,
 - final iconography,
 - notification preference detail,
