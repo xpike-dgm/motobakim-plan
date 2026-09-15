@@ -48,6 +48,11 @@ Approved working anchor-UX source'u:
 - DEC-0014
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001`
 
+Approved working anchor visual-direction source'u:
+- `03_DESIGN/ANCHOR_VISUAL_STYLE.md`
+- DEC-0015
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-VISUAL-001`
+
 Logo evidence / review:
 - `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_LOGO_REVIEW.md`
@@ -56,11 +61,17 @@ Anchor UX evidence / review:
 - `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
 
+Anchor visual evidence / review:
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
+
 L05A approval concept/direction seviyesindedir; generated PNG production vector asset, final font/palette/app-icon geometry veya trademark-cleared mark degildir.
 
 U04 approval anchor calibration hierarchy seviyesindedir; final screen catalog/navigation/state architecture veya universal full-app template degildir.
 
-Ekran gercegi daha sonra `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md` ile kurulur. Gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
+V10 approval working visual-direction seviyesindedir; exact HEX values, final font/type scale, final icon family, responsive rules, production photography veya universal full-app layout degildir. Selected V10 screenshot'taki shield/check trust/safety iconography canonical component semantics sayilmaz.
+
+Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md` ile kurulur. Gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
 
 Naming evidence / review:
 - `BRAND_NAME_01_HANDOFF.md`
