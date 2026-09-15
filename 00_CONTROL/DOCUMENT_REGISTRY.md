@@ -20,14 +20,20 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 
 `02_DISCOVERY` Q006-Q245 raw evidence + approved synthesis snapshot ile 2026-09-15 tarihinde kullanici tarafindan APPROVED edildi. Canonical entry point: `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`. Gate 2 -> 3 PASSED.
 
-`03_DESIGN` aktif asamadir. Brand `Kavriva`, L05A working logo direction, U04 working anchor UX ve V10 working visual direction APPROVED reference seviyesindedir. Full screen inventory/navigation/state artifacts main-manager QA'den gecmis ve `REVIEW` durumuna tasinmistir:
-- `03_DESIGN/SCREEN_CATALOG.md`
-- `03_DESIGN/NAVIGATION_MAP.md`
-- `03_DESIGN/STATE_MATRIX.md`
-- `03_DESIGN/DESIGN_PRINCIPLES.md`
-- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md`
-- `03_DESIGN/SCREEN_INVENTORY_REVIEW.md`
+`03_DESIGN` aktif asamadir ve Phase-3 butunu tamamlanmadigi icin registry seviyesi `REVIEW` kalir. Bununla birlikte asagidaki design artifacts tekil olarak APPROVED working authority'dir:
+- `BRAND_NAME.md` — Kavriva
+- `LOGO_DIRECTION.md` — L05A
+- `ANCHOR_UX_STRUCTURE.md` — U04
+- `ANCHOR_VISUAL_STYLE.md` — V10
+- `SCREEN_CATALOG.md`
+- `NAVIGATION_MAP.md`
+- `STATE_MATRIX.md`
+- `DESIGN_PRINCIPLES.md`
+- `SCREEN_COVERAGE_TRACEABILITY.md`
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`
 
-Screen architecture explicit user approval beklemektedir. User approval olmadan screen-family/spec asamasina authority gecisi veya Gate 3 -> 4 yapilmaz.
+Current Phase-3 task: Screen-Family Principles + Screen Specifications.
+
+Phase 4'e Gate 3 saglanmadan gecilmez.
 
 Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
