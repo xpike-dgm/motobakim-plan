@@ -10,19 +10,21 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — ANCHOR VISUAL EXPLORATION READY`
+`PHASE-3 / DESIGN — BRAND NAMING READY`
 
 ## What Just Happened
 
-User, daha once hazirlanan `PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` promptunu henuz baska AI'ya gondermedigini ve Phase 3'te once tek bir sayfa icin 10 ayri visual direction gorup begendigi yonden ilerlemek istedigini acikca belirtti.
+User Phase 3 anchor-screen icin uretilen ilk 10 visual direction'i yeterli bulmadigini belirtti. UI visual exploration'a devam etmeden once uygulamanin gercek consumer-facing adinin, sonra logosunun belirlenmesini istedi.
 
-Bu yeni explicit instruction mevcut Phase-3 sequencing'i rafine etti:
-- full screen inventory ilk adim olmaktan cikarildi,
-- ilk adim anchor visual calibration oldu,
-- eski inventory promptu silinmedi; DEFERRED edildi ve tarihsel V1 kopyasi korundu,
-- DEC-0010 APPROVED olarak kaydedildi.
+Bunun sonucunda:
+- ilk anchor visual denemesi APPROVED reference olmadi,
+- DEC-0010 SUPERSEDED,
+- DEC-0011 `Phase 3 Brand Identity Before UI Visual Calibration` APPROVED,
+- `Motobakim` internal codename/placeholder olarak tutuldu,
+- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` olusturuldu,
+- Phase 3 sequence brand -> logo -> anchor visuals -> inventory olarak guncellendi.
 
-## Canonical Product Truth for Design
+## Canonical Product Truth for Brand/Design
 
 Primary entry point:
 - `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`
@@ -31,73 +33,55 @@ Nuances:
 - Phase-2 snapshot APPROVED, LOCKED degil.
 - `PROPOSED` monetization final pricing/tier policy degil.
 - Open feasibility/validation assumptions fact degil.
-- Raw evidence yalniz hedefli ambiguity durumunda acilir.
+- Naming urunu yalniz maintenance/reminder app seviyesine daraltmamalidir.
 
-## Current Design Sequence
+## Current Phase 3 Sequence
 
-1. Anchor visual exploration: same content/state, 10 distinct image directions.
-2. User selects 1-3 favorites or a hybrid visual DNA.
-3. Main manager QA: preference -> PROPOSED design-direction candidates.
-4. Full screen inventory + navigation + critical state coverage.
-5. Design principles / screen specs.
-6. Screen-by-screen visual references + user approval.
-7. Gate 3 -> 4 review.
+1. Brand naming exploration + preliminary collision research.
+2. User selects 1-3 favorites; second-pass validation.
+3. User-approved brand name -> logo exploration.
+4. Logo selection / brand visual DNA.
+5. Anchor-screen visual exploration round 2 with selected name/logo.
+6. Full screen inventory + navigation + critical state coverage.
+7. Design principles / screen specs.
+8. Screen-by-screen visual references + approval.
+9. Gate 3 -> 4 review.
 
-This sequencing change does NOT remove inventory/state requirements from Gate 3.
-
-## Current Anchor Fixture
-
-`Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`
-
-Reason: core self-service value, visual instruction, safety, trust/provenance, success-check, recovery action and experience-level hierarchy can be tested in one representative screen.
-
-This is a PROPOSED calibration fixture, not a final screen-catalog decision.
-
-## Current Prompts
+## Current Prompt
 
 **USE NOW**
+- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`
+
+**DEFERRED**
 - `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md`
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md`
 
-**DEFERRED / DO NOT USE NOW**
-- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` — pointer explaining the sequence change.
-
-Preserved initial inventory prompt:
-- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT_DEFERRED_V1.md`
-
-## Anchor Prompt Behavior
+## Naming Prompt Behavior
 
 Delegated AI must:
 - read approved product source,
-- use one fixed illustrative anchor-screen content/state,
-- generate **10 separate images**, not one collage,
-- label them V01-V10,
-- make them meaningfully different, not just recolors,
-- keep safety/trust/progress/recovery/success semantics in all variants,
-- generate a short comparison index,
-- ask user for 1-3 favorite IDs or hybrid preferences.
+- derive naming criteria,
+- create 6 distinct naming territories,
+- generate at least 36 candidate names,
+- rank a top-12,
+- if web access exists, perform preliminary exact-name/app/automotive/domain collision research,
+- produce final-5 + one strategist recommendation,
+- ask user for 1-3 favorites,
+- after favorites, run second-pass validation,
+- produce `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01`,
+- stop before logo generation.
 
-After user selection it must create:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / ANCHOR VISUAL DIRECTION 01`
+Preliminary collision research is NOT legal trademark clearance.
 
-Then stop.
+## Previous Visual Attempt
 
-## Important Protections
+User feedback: first 10 anchor images were not liked enough to select a direction.
 
-- Generated visuals are calibration references, not approved product behavior.
-- Fixed example content must not invent real torque values, part numbers or technical specs.
-- Safety/trust/recovery information cannot disappear for visual minimalism.
-- Technology/backend/database/API/auth/sync/framework decisions remain out of scope.
-- User selection does not automatically make design APPROVED/LOCKED; main-manager QA required.
-- Screen inventory/navigation/state coverage remains mandatory after visual calibration.
-
-## Phase 3 Artifacts
-
-- `03_DESIGN/README.md` — updated Phase-3 sequence.
-- `SCREEN_CATALOG.md` — still EMPTY.
-- `NAVIGATION_MAP.md` — still EMPTY.
-- `STATE_MATRIX.md` — still EMPTY.
-- `DESIGN_PRINCIPLES.md` — still EMPTY.
-- `REFERENCE_INDEX.md` — still EMPTY; no visual reference approved yet.
+Therefore:
+- no reference is approved,
+- no visual DNA is canonical,
+- no screen/UI style should be inferred from that attempt,
+- anchor visuals will be regenerated after brand name + logo selection.
 
 ## Locked / Approved Process Decisions
 
@@ -106,7 +90,8 @@ Then stop.
 - DEC-0005 evidence/synthesis/decision separation — LOCKED.
 - DEC-0007 project-wide chat instructions — LOCKED.
 - DEC-0009 Phase 2 APPROVED / Gate 2 -> 3 PASSED.
-- DEC-0010 Phase 3 starts with anchor visual calibration — APPROVED.
+- DEC-0010 anchor-first sequence — SUPERSEDED.
+- DEC-0011 brand identity before UI visual calibration — APPROVED.
 
 ## Required First Reads
 
@@ -119,17 +104,15 @@ Then stop.
 7. `00_CONTROL/DOCUMENT_REGISTRY.md`
 8. `03_DESIGN/README.md`
 9. `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`
-10. `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md`
+10. `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`
 
 ## Next Action
 
-User yeni AI sohbetine `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` metnini aynen verir.
+User yeni AI sohbetine `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` metnini aynen verir.
 
-Diger AI 10 separate visual variants uretir. User favorilerini secer. Sonra diger AI portable handoff package'i uretir.
+User finalist name secimlerini yaptiktan sonra diger AI second-pass validation + portable package uretir. User bu paketi ana proje yoneticisine getirir.
 
-User secilen image(s) + portable handoff package'i ana proje yoneticisi sohbetine getirir.
-
-Main manager QA yapmadan full screen inventory adimina gecilmez.
+Main-manager QA + explicit user name approval sonrasi logo exploration promptu hazirlanir.
 
 ## Last Updated
 2026-09-15
