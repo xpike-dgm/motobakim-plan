@@ -120,28 +120,42 @@ Phase 3 Design approved product snapshot'tan ilerleyecek; teknoloji/backend arch
 
 ## DEC-0010 — Phase 3 Begins with Anchor Visual Calibration
 **Date:** 2026-09-15  
+**Status:** SUPERSEDED
+**Superseded By:** DEC-0011
+
+Kullanici, ilk screen-inventory promptunu henuz baska AI'ya gondermeden Phase 3 icindeki sirayi degistirip once anchor visual calibration yapilmasini istemisti.
+
+Bir anchor screen icin 10 visual direction denemesi daha sonra gerceklestirildi; kullanici ortaya cikan gorselleri yeterli bulmadi ve hicbirini reference direction olarak onaylamadi.
+
+Bu nedenle anchor-first sequencing DEC-0011 ile supersede edilmistir. Ilk anchor denemesi tarihsel design exploration olarak kalir; approved reference authority olusturmaz.
+
+---
+
+## DEC-0011 — Phase 3 Brand Identity Before UI Visual Calibration
+**Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici, ilk screen-inventory promptunu henuz baska AI'ya gondermeden Phase 3 icindeki sirayi acikca degistirdi.
+Kullanici anchor-screen icin uretilen ilk visual denemeleri begenmedigini ve UI gorsellerini yeniden uretmeden once uygulamanin gercek consumer-facing adinin, ardindan logosunun belirlenmesini acikca istedi.
 
-Phase 3'te once:
-1. Motobakim'in core degerini temsil eden tek bir anchor screen icin ayni content/state ile 10 farkli visual direction uretilecek,
-2. kullanici favori visual direction veya hybrid visual DNA'yi sececek,
-3. secim QA edilip PROPOSED design direction olarak kaydedilecek,
-4. ardindan full screen inventory + navigation + state coverage yapilacak,
-5. secilen visual DNA inventory/state coverage uzerinden screen-by-screen yayilacak.
+Phase 3 current sequence:
+1. Brand naming exploration + preliminary collision research,
+2. user brand-name selection + second-pass validation,
+3. selected name uzerinden logo exploration,
+4. user logo selection / brand visual-DNA calibration,
+5. anchor screen visual exploration selected name/logo ile yeniden,
+6. full screen inventory + navigation + critical state coverage,
+7. design principles / screen specs,
+8. screen-by-screen visual references + user approval,
+9. Gate 3 -> 4 readiness review.
 
-Ilk anchor calibration fixture:
-`Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`.
+`Motobakim` adi gercek marka adi secilene kadar internal project codename/placeholder olarak kalir.
 
 Bu karar:
 - Phase 2 product truth'u degistirmez,
+- naming veya logo adaylarini user selection olmadan APPROVED/LOCKED yapmaz,
+- preliminary name research'i hukuki trademark clearance yerine koymaz,
 - screen inventory/navigation/state coverage zorunlulugunu kaldirmaz,
-- Gate 3 -> 4 kriterlerini dusurmez,
-- ilk 10 visual direction'dan hicbirini user secimi ve QA olmadan APPROVED/LOCKED yapmaz,
-- technology veya implementation karari vermez.
+- technology/backend architecture veya implementation karari vermez.
 
 Current first prompt:
-`03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md`.
-
-Onceki screen-inventory promptu ilk adim olmaktan DEFERRED edilmis ve tarihsel kopyasi korunmustur.
+`03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`.
