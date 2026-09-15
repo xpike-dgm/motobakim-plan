@@ -53,6 +53,15 @@ Approved working anchor visual-direction source'u:
 - DEC-0015
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-VISUAL-001`
 
+Approved working screen/state architecture source'u:
+- `03_DESIGN/SCREEN_CATALOG.md`
+- `03_DESIGN/NAVIGATION_MAP.md`
+- `03_DESIGN/STATE_MATRIX.md`
+- `03_DESIGN/DESIGN_PRINCIPLES.md`
+- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md`
+- DEC-0016
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`
+
 Logo evidence / review:
 - `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_LOGO_REVIEW.md`
@@ -65,13 +74,17 @@ Anchor visual evidence / review:
 - `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
 
+Screen inventory evidence / review:
+- `03_DESIGN/SCREEN_INVENTORY_REVIEW.md`
+- delegated portable package provenance recorded there.
+
 L05A approval concept/direction seviyesindedir; generated PNG production vector asset, final font/palette/app-icon geometry veya trademark-cleared mark degildir.
 
-U04 approval anchor calibration hierarchy seviyesindedir; final screen catalog/navigation/state architecture veya universal full-app template degildir.
+U04 approval anchor calibration hierarchy seviyesindedir; universal full-app template degildir.
 
 V10 approval working visual-direction seviyesindedir; exact HEX values, final font/type scale, final icon family, responsive rules, production photography veya universal full-app layout degildir. Selected V10 screenshot'taki shield/check trust/safety iconography canonical component semantics sayilmaz.
 
-Ekran gercegi `SCREEN_CATALOG.md`, `STATE_MATRIX.md`, `NAVIGATION_MAP.md` ile kurulur. Gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED referanslardir.
+Screen architecture approval working product-interaction architecture seviyesindedir. `SCR-001` — `SCR-038` permanent route count degildir; exact screen/sheet/modal/inline mapping, final global navigation shell, final component system ve implementation henuz belirlenmemistir.
 
 Naming evidence / review:
 - `BRAND_NAME_01_HANDOFF.md`
@@ -89,7 +102,7 @@ Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler so
 Onayli epic/capability/feature/flow/task ve dependency haritalarinin otoritesidir.
 
 ### 07 AI Architecture
-Kodlama sirasinda AI davranisi, context routing, module boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
+Kodlama sirasinda AI davranisi, context routing, modul boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
 
 ### 08 Repository Bootstrap
 Kesinlesen mimarinin fiziksel kurulum plani ve completion kanitlarinin otoritesidir.
