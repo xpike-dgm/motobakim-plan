@@ -10,73 +10,66 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — AI USTA UX STRUCTURE CALIBRATION READY`
+`PHASE-3 / DESIGN — FIVE-TAB MAIN SHELL VISUAL REFERENCES READY`
 
 ## What Just Happened
 
-User screen-family/spec QA sonrasinda global navigation icin 5-item bottom bar istedi ve explicit olarak onayladi:
+User delegated AI Usta UX calibration package'ini ana yonetici sohbetine getirdi.
+
+User selection — verbatim:
+> A1 iyi
+
+Delegated selected structure:
+**A1 — Guided Split**.
+
+Main-manager QA:
+`PASS_WITH_CONSTRAINTS`.
+
+DEC-0018 APPROVED.
+
+Canonical additions:
+- `03_DESIGN/AI_USTA_UX_STRUCTURE.md` — APPROVED WORKING UX STRUCTURE
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md` — evidence
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` — approved QA record
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-AIUSTA-001`
+
+## Approved Global Navigation
 
 **Garaj · Bakim · AI Usta · Gecmis · Topluluk**
 
-DEC-0017 APPROVED.
-
-Canonical additions:
-- `03_DESIGN/GLOBAL_NAVIGATION.md` — APPROVED
-- `03_DESIGN/SCREEN_FAMILY_SPECS.md` — APPROVED WORKING SPECS
-- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md` — APPROVED review
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-NAV-001`, `REF-SPEC-001`
-
-## Approved Tab Responsibilities
-
+Responsibilities:
 - **Garaj:** selected motorcycle context, switching, lifecycle.
-- **Bakim:** maintenance plan, reminders, catch-up.
-- **AI Usta:** center / primary assistance entry for known-task + symptom-first journeys.
-- **Gecmis:** history, evidence, trust, correction/dispute, export.
+- **Bakim:** maintenance plan/reminders/catch-up.
+- **AI Usta:** center assistance entry for known-task + symptom-first journeys.
+- **Gecmis:** history/evidence/trust/correction/export.
 - **Topluluk:** community experiences/Q&A/contribution/moderation, official guide authority'sinden ayri.
 
-## AI Usta Boundary
+## Approved AI Usta Root — A1 Guided Split
 
-`AI Usta` bir UX role/entry label'idir, technology/LLM/provider/backend karari degildir.
+Target:
+**1 context + 1 prompt + 2 paths.**
 
-AI Usta:
-- technical source-of-truth yerine gecemez,
-- verified guide/provenance yerine gecemez,
-- motorcycle fit/readiness/safety gates'i bypass edemez,
-- unsupported technical value veya definitive diagnosis uyduramaz,
-- known-task -> `SCR-009`, symptom-first -> `SCR-019` approved flows'a controlled entry saglar.
+Default hierarchy:
+1. compact AI Usta identity,
+2. compact selected motorcycle context,
+3. `Nasil yardimci olayim?`,
+4. `Bir is yapmak istiyorum`,
+5. `Motorda bir sorun var`,
+6. optional low-prominence help,
+7. bottom bar with AI Usta selected.
 
-Exact structured/conversational interaction model henuz OPEN design decision'dir.
+Routing:
+- `Bir is yapmak istiyorum` -> `SCR-009 Known Task Find / Select`.
+- `Motorda bir sorun var` -> `SCR-019 Symptom Capture`.
 
-## Screen-Family Specs
+A1 root:
+- free-form technical-answer chatbot home degildir,
+- chat-history surface degildir,
+- root composer gerektirmez,
+- fit/readiness/safety gates'i bypass etmez,
+- unsupported technical value / diagnosis uretmez.
 
-9 working families APPROVED:
-- FAM-01 First Use / Motorcycle Context
-- FAM-02 Guide Discovery / Fit / Preparation
-- FAM-03 Active Application / Safety / Recovery
-- FAM-04 Diagnosis
-- FAM-05 Maintenance / Reminder
-- FAM-06 History / Evidence / Trust
-- FAM-07 Motorcycle Lifecycle / Entitlement
-- FAM-08 Profile / Collaboration
-- FAM-09 Community
-
-All `SCR-001` — `SCR-038` have working specs.
-
-Main-manager refinement:
-- language/unit/accessibility support profile/account prerequisite olamaz.
-
-## Controlled Navigation Refinement
-
-`SCR-005` eski broad action hub rolunden Garaj / selected-motorcycle context responsibility'sine daraltilmistir.
-
-Primary entry distribution:
-- task + symptom -> AI Usta,
-- maintenance -> Bakim,
-- history -> Gecmis,
-- community -> Topluluk,
-- lifecycle / switch -> Garaj.
-
-Capability silinmedi; dashboard/card-stack riskini azaltacak sekilde dagitildi.
+Two intents bulky card-stack'e donusturulmez. Selected motorcycle compact kalir; lifecycle/switch authority Garaj'dadir.
 
 ## Existing Approved References
 
@@ -87,6 +80,7 @@ Capability silinmedi; dashboard/card-stack riskini azaltacak sekilde dagitildi.
 - Screen architecture — `REF-ARCH-001`, DEC-0016.
 - Five-tab navigation — `REF-NAV-001`, DEC-0017.
 - Screen-family specs — `REF-SPEC-001`, DEC-0017.
+- AI Usta A1 root — `REF-AIUSTA-001`, DEC-0018.
 
 Core principle:
 **Accessible does not mean simultaneously prominent.**
@@ -94,31 +88,31 @@ Core principle:
 ## Current Task
 
 **USE NOW:**
-`03_DESIGN/PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md`
+`03_DESIGN/PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Delegated AI must compare exactly 4 low-fidelity AI Usta interaction structures:
-- A1 Guided Split
-- A2 Hybrid Prompt + Guided Intents
-- A3 Conversation-Led / Structured Handoff
-- A4 Compact Assistant Launcher
+Delegated visual AI must generate exactly 5 separate root visuals:
+- R01 Garaj,
+- R02 Bakim,
+- R03 AI Usta — A1 fixed,
+- R04 Gecmis,
+- R05 Topluluk.
 
-It must keep bottom bar fixed and cannot make AI Usta free-form technical authority.
+Required user attachments in that new delegated chat:
+- selected `Kavriva_L05A.png`,
+- selected `Kavriva_V10_Signature-Kavriva.png`.
 
-User selects favorite 1 or hybrid 2. Delegated AI then produces:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / AI USTA UX STRUCTURE 01`
-and stops.
+The visual AI must use V10 as visual DNA, not universal layout, and must avoid dashboard/card-stack/KPI/social-feed drift.
 
-## Why This Comes Before Polished Visuals
-
-Earlier Phase-3 clutter problem came from changing UX hierarchy and visual styling at the same time. AI Usta is a new central interaction concept, so its UX structure is calibrated before five-tab polished visual-reference generation.
+After five roots it stops for user feedback. No deeper screens until user review.
 
 ## Still Open
 
-- AI Usta exact interaction model,
 - active-guide bottom bar visibility,
 - first post-onboarding landing tab,
 - ambiguous surface modalities,
 - final icons/tokens/components/dark mode,
+- exact claim/evidence visual vocabulary,
+- optional AI Usta conversational capabilities beyond A1 root,
 - technology/backend/AI architecture,
 - pricing/tier/quota.
 
@@ -131,8 +125,8 @@ Earlier Phase-3 clutter problem came from changing UX hierarchy and visual styli
 5. Screen architecture — DONE / APPROVED.
 6. Screen-family specs — DONE / APPROVED working specs.
 7. Five-tab navigation — DONE / APPROVED.
-8. **AI Usta UX Structure Calibration — CURRENT.**
-9. Five-tab main-shell + family-based visual references.
+8. AI Usta UX structure — DONE / A1 APPROVED.
+9. **Five-tab main-shell root visual references — CURRENT.**
 10. Remaining critical visual references.
 11. Gate 3 -> 4 review.
 
