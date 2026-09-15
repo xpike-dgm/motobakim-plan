@@ -18,7 +18,8 @@ Phase-2 Product Discovery user tarafindan APPROVED edildi ve Gate 2 -> 3 PASSED.
 - DEC-0009 Phase 2 approval + Gate 2 -> 3 APPROVED.
 - `02_DISCOVERY` registry status APPROVED.
 - Active product-definition open question yok; remaining topics validation/strategy/feasibility olarak ayrildi.
-- Phase 3 Design baslatilabilir.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` olusturuldu.
+- Phase 3 Design aktif.
 
 ## Approved Phase-2 Source for Design
 
@@ -44,7 +45,7 @@ Raw sessions yalniz gerekli product evidence ambiguity'si varsa hedefli olarak a
 
 ## In Progress
 
-Yok. Screen-inventory promptu hazirlanacak / delege edilecek.
+Yok. Screen-inventory delegation promptu hazir.
 
 ## Not Started
 
@@ -64,7 +65,7 @@ Yok. Screen-inventory promptu hazirlanacak / delege edilecek.
 
 ## Next Action
 
-`03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` yeni AI sohbetine verilecek. Diger AI approved Phase-2 snapshot'tan screen inventory, navigation ve state coverage adaylarini uretecek; repository'ye yazmayacak, final visual style secmeyecek ve teknoloji karari vermeyecek.
+Kullanici `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` metnini yeni AI sohbetine verir. Diger AI approved Phase-2 snapshot'tan screen inventory, navigation ve state coverage adaylarini uretecek; repository'ye yazmayacak, final visual style secmeyecek ve teknoloji karari vermeyecek.
 
 Cikti ana proje yoneticisi sohbetine geri getirilecek. QA sonrasinda `SCREEN_CATALOG`, `NAVIGATION_MAP`, `STATE_MATRIX` ve ilgili design artifacts repository'ye islenecek.
 
