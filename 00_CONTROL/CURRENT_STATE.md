@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — SCREEN FAMILY + SPECS REVIEW / NAVIGATION DECISION REQUIRED`
+`PHASE-3 / DESIGN — AI USTA UX STRUCTURE CALIBRATION READY`
 
 ## Current Objective
 
@@ -14,41 +14,50 @@ Approved working design references:
 - Anchor UX: **U04 — Progressive Detail** — APPROVED working anchor hierarchy.
 - Anchor visual direction: **V10 — Signature Kavriva** — APPROVED working visual direction with QA constraints.
 - Full-app working screen/state architecture: **REF-ARCH-001** — APPROVED.
+- Global navigation: **REF-NAV-001** — APPROVED.
+- Screen-family / UX specifications: **REF-SPEC-001** — APPROVED working specs.
 
-Delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01` main-manager QA'den gecirildi.
+## What Just Changed
 
-Main-manager result:
-`PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED`
+User global navigation icin explicit olarak su 5-tab bottom bar'i onayladi:
 
-Review record:
-- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md`
+**Garaj · Bakim · AI Usta · Gecmis · Topluluk**
 
-## Screen-Family / Spec QA Summary
+DEC-0017 ile:
+- `03_DESIGN/GLOBAL_NAVIGATION.md` APPROVED,
+- `03_DESIGN/SCREEN_FAMILY_SPECS.md` APPROVED working specs,
+- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md` APPROVED review record,
+- `REFERENCE_INDEX.md` -> `REF-NAV-001`, `REF-SPEC-001` APPROVED,
+- `SCR-005` broad dashboard/action-hub rolunden Garaj / selected-motorcycle context responsibility'sine controlled refinement ile daraltildi.
 
-Delegated package:
-- `SCR-001` — `SCR-038` context'lerinin tamamini kapsiyor,
-- 9 screen family olusturuyor,
-- tum 38 context icin default hierarchy / action / state / trust / safety spec veriyor,
-- U04'u yalniz active-guide anchor family'de direct kullaniyor,
-- V10'u visual DNA olarak tutuyor,
-- generic dashboard/settings/marketplace/social-feed uydurmuyor,
-- previous card-stack/clutter problemini tekrar etmiyor.
+## Approved Bottom-Bar Responsibility Split
 
-Main-manager refinement:
-- language/unit ve accessibility support profile/account acmaya bagli tasarlanamaz; account-light/local use bu temel behavior'lardan yararlanabilmelidir.
+1. **Garaj** — selected motorcycle context, switch, lifecycle.
+2. **Bakim** — maintenance plan/reminders/catch-up.
+3. **AI Usta** — center / primary assistance entry for known-task + symptom-first journeys.
+4. **Gecmis** — longitudinal history/evidence/trust/correction/export.
+5. **Topluluk** — community experiences/Q&A/contribution/moderation; official guide authority'sinden ayri.
 
-## Current User Decision — Global Navigation Shell
+## AI Usta Authority Boundary
 
-Delegated package uc PROPOSED option sundu:
+`AI Usta` bu asamada UX role/entry label'idir; LLM/provider/backend/AI architecture karari DEGILDIR.
 
-1. **Motor-merkezli:** once motor, tum isler motor sayfasindan.
-2. **Is-merkezli:** once `ne yapmak istiyorsun?` launcher'i.
-3. **Focused Hybrid:** compact motorcycle context + uc ana alan: `Yap / Coz`, `Bakim`, `Gecmis`.
+AI Usta:
+- technical source-of-truth yerine gecemez,
+- verified guide/source/provenance yerine gecemez,
+- fit/readiness/safety gates'i bypass edemez,
+- unsupported technical value veya definitive diagnosis uyduramaz,
+- known-task (`SCR-009`) ve symptom-first (`SCR-019`) approved flows'a controlled entry saglar.
 
-Delegated AI recommendation: Option 3.
-Main-manager assessment: **Option 3 en guclu candidate**; previous dashboard/card-stack feedback ve approved simplicity principle ile en iyi uyuma sahip.
+## Why Current Task Is UX Calibration Before Visual Generation
 
-User explicit selection yapmadan global navigation APPROVED olmaz.
+User `AI Usta`yi center tab olarak yeni ve kritik bir interaction concept olarak secti. Exact interaction structure henuz belirlenmedi:
+- structured intent entry,
+- guided prompt,
+- conversational interaction,
+- hybrid model.
+
+Onceki Phase-3 dersine gore UX structure ile visual style ayni anda degistirilmez. Bu nedenle main-shell visual generation'dan once AI Usta'nin sade interaction hierarchy'si kalibre edilecek.
 
 ## Current Phase 3 Sequence
 
@@ -62,27 +71,44 @@ User explicit selection yapmadan global navigation APPROVED olmaz.
 8. U04 selection + QA — DONE.
 9. Visual-style exploration — DONE: V10.
 10. Full screen inventory + navigation + critical state coverage — DONE / USER APPROVED.
-11. Screen-family principles + screen specifications — **MAIN-MANAGER QA DONE / USER NAVIGATION DECISION REQUIRED.**
-12. Screen-by-screen visual references + user approval — BLOCKED until current decision.
-13. Gate 3 -> 4 readiness review.
+11. Screen-family principles + screen specifications — DONE / APPROVED WORKING SPECS.
+12. Global five-tab navigation — DONE / USER APPROVED.
+13. **AI Usta UX Structure Calibration — READY / CURRENT.**
+14. Five-tab main-shell + family-based visual references + user approval.
+15. Remaining critical screen/state visual references.
+16. Gate 3 -> 4 readiness review.
 
-## Approval Boundary
+## Current Prompt
 
-- Screen-family/spec package henuz APPROVED/LOCKED degildir.
-- Global navigation shell henuz APPROVED degildir.
-- Surface modality onerileri PROPOSED kalir.
-- No Phase 4 transition.
-- No technology/backend/database/API/auth/sync/framework decision.
-- No final pricing/tier/quota decision.
+**USE NOW:**
+`03_DESIGN/PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md`
 
-## Next Action
+Delegated AI:
+- approved five-tab shell'i degistiremez,
+- AI Usta icin 4 meaningfully different low-clutter interaction structures uretir,
+- known-task + symptom-first approved journeys'i korur,
+- free-form unsupported technical-answer chatbot'i authority gibi tasarlayamaz,
+- image/mockup style polish ile UX decision'i karistirmadan low-fidelity structure comparison yapar,
+- user selection sonrasi portable handoff uretip DURUR.
 
-User global navigation icin 1 / 2 / 3 secimi yapar.
+## Still Open — Not Errors
 
-Main-manager recommendation:
-**3 — Focused Hybrid**.
+- AI Usta exact interaction form,
+- active physical work sirasinda bottom-bar visibility/interaction,
+- first post-onboarding landing tab,
+- ambiguous screen/sheet/modal mappings,
+- final iconography/tokens/dark mode/components,
+- exact claim/evidence visual vocabulary,
+- technology/backend/AI architecture,
+- pricing/tier/quota.
 
-User Option 3'u onaylarsa, package gerekli refinement'lerle working spec authority seviyesine tasinir ve family-based visual-reference planning promptu hazirlanir.
+Language/unit ve accessibility support profile/account prerequisite olamaz.
+
+## Gate Status
+
+Gate 3 -> 4 HENUZ GECILMEDI.
+
+Screen/state architecture, global navigation ve working specs approved olsa da yeterli screen-by-screen approved visual references tamamlanmadan Gate 3 readiness review yapilmaz.
 
 ## Last Refreshed
 
