@@ -238,5 +238,40 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` current Kavriva + L05A + U04 + V10 context ile yeniden yazildi ve ACTIVE / USE NOW yapildi.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — SCREEN INVENTORY READY`.
 
-### Current State
-Durum `PHASE-3 / DESIGN — SCREEN INVENTORY READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` promptunu aynen vermektir. Delegated AI `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` uretip duracak; main-manager QA olmadan design principles/screen specs veya screen-by-screen visual references adimina gecilmeyecektir.
+### Screen Inventory / Navigation / State Architecture Approved
+- Delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` main-manager QA'den `PASS_WITH_REFINEMENTS` sonucu aldi.
+- Main-manager community consumption coverage gap'i nedeniyle `SCR-038 — Community Experiences / Q&A` candidate'ini ekledi.
+- User ekran planini explicit olarak onayladi (`onayliyorum`).
+- DEC-0016 APPROVED.
+- `SCREEN_CATALOG.md`, `NAVIGATION_MAP.md`, `STATE_MATRIX.md`, `DESIGN_PRINCIPLES.md`, `SCREEN_COVERAGE_TRACEABILITY.md` working Phase-3 architecture olarak APPROVED oldu.
+- `REFERENCE_INDEX.md` -> `REF-ARCH-001` eklendi.
+- 38 context permanent route count olarak yorumlanmadi; exact surface modality ve global navigation shell acik kaldi.
+
+### Screen Family + Specifications / Five-Tab Navigation Approved
+- Delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01` main-manager QA sonucu `PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED` oldu.
+- Package 9 screen family ve `SCR-001` — `SCR-038` icin working UX specs uretti.
+- Language/unit/accessibility behavior'inin profile/account prerequisite olamayacagi main-manager refinement olarak korundu.
+- User capability'leri tek bir ana sayfada toplamak yerine 5 bottom-bar destination istedi ve explicit olarak onayladi:
+  **Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
+- DEC-0017 APPROVED.
+- `GLOBAL_NAVIGATION.md`, `SCREEN_FAMILY_SPECS.md`, `SCREEN_FAMILY_SPEC_REVIEW.md` APPROVED working authority oldu.
+- `REFERENCE_INDEX.md` -> `REF-NAV-001`, `REF-SPEC-001` eklendi.
+- `SCR-005` broad action hub rolunden Garaj/motorcycle-context responsibility'sine controlled refinement ile daraltildi; task/symptom AI Usta, maintenance Bakim, history Gecmis, community Topluluk'a dagitildi.
+- AI Usta'nin exact root interaction shape ayrica calibration'a tasindi; technology/LLM architecture karari verilmedi.
+
+### AI Usta A1 Guided Split Approved
+- User `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / AI USTA UX STRUCTURE 01` paketini getirdi.
+- User selection verbatim: `A1 iyi`.
+- Selected structure: `A1 — Guided Split`.
+- Main-manager QA: `PASS_WITH_CONSTRAINTS`.
+- DEC-0018 APPROVED.
+- `AI_USTA_UX_STRUCTURE.md` canonical working AI Usta root authority olarak olusturuldu.
+- `KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md` evidence, `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` QA record olarak kaydedildi.
+- `REFERENCE_INDEX.md` -> `REF-AIUSTA-001` eklendi.
+- A1 root target: `1 context + 1 prompt + 2 paths`.
+- Known-task -> `SCR-009`; symptom-first -> `SCR-019`.
+- Root free-form technical-answer chat home degil; fit/readiness/safety/trust authority korunur.
+- Two intent choices bulky card-stack'e donusturulmez; selected motorcycle context compact kalir.
+- `PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md` COMPLETED yapildi.
+- `PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md` ACTIVE / USE NOW olarak olusturuldu.
+- Current state: `PHASE-3 / DESIGN — FIVE-TAB MAIN SHELL VISUAL REFERENCES READY`.
