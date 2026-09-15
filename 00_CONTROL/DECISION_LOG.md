@@ -225,3 +225,42 @@ Approval scope bilincli olarak dardir. Bu karar:
 - final component system, font, palette, exact spacing veya implementation karari degildir.
 
 Visual-style exploration hierarchy order'ini, visible-vs-on-demand semantics'i, CTA placement logic'ini, critical-safety visibility'ni, trust visibility'ni, recovery emphasis'ini veya progressive-disclosure behavior'ini degistiremez.
+
+---
+
+## DEC-0015 — V10 Approved as Working Kavriva Anchor Visual Direction
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici visual-style exploration sonucunda `V10 — Signature Kavriva` yonunu ana gorsel yon olarak secti. Main-manager user-supplied V10 image ve handoff paketini QA ederek direction'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+
+Bunun sonucunda:
+- `03_DESIGN/ANCHOR_VISUAL_STYLE.md` approved working anchor visual-direction source'udur,
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md` delegated evidence/handoff katmanidir,
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md` main-manager QA kaydidir,
+- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-VISUAL-001` V10 working visual direction'i APPROVED referans olarak kaydedilebilir,
+- Phase 3 full screen inventory + navigation + critical state coverage adimina gecilebilir.
+
+Approved V10 direction signals:
+- clean near-white canvas,
+- deep graphite/navy text character,
+- restrained electric-blue accent,
+- realistic inspection-focused imagery,
+- moderate rounding,
+- low decoration,
+- strong typographic hierarchy,
+- restrained L05A brand presence,
+- calm technical credibility.
+
+Approval scope bilincli olarak dardir. Bu karar:
+- handoff'taki exact HEX degerlerini final production token yapmaz,
+- generated screenshot'u exact spacing/type/component specification yapmaz,
+- generated motorcycle image'ini verified motorcycle-specific evidence yapmaz,
+- shield/check iconography'yi final trust/safety component semantics'i olarak onaylamaz,
+- U04'u tum ekranlara universal template yapmaz.
+
+Required refinement constraints:
+- trust/provenance iconography official safety certification veya guaranteed correctness izlenimi vermemeli,
+- trust ile safety icon semantics'i ayristirilmali,
+- final colors/accessibility/dark-mode behavior daha sonra validate edilmeli,
+- responsive header behavior daha sonra screen/spec asamasinda ele alinmali.
