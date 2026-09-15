@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — KAVRIVA ANCHOR UX STRUCTURE CALIBRATION READY`
+`PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`
 
 ## Current Objective
 
@@ -12,132 +12,160 @@ Working consumer-facing brand name:
 **Kavriva** — APPROVED.
 
 Working logo direction:
-**L05A — The Precision Fit** — USER SELECTED + MAIN-MANAGER QA `PASS_WITH_CONSTRAINTS` + APPROVED working direction.
+**L05A — The Precision Fit** — APPROVED working direction with QA constraints.
 
-User, anchor-screen visual generation results'ini UX acisindan karisik / kalabalik buldu ve benzer problemin onceki generation turunda da oldugunu belirtti. Main-manager diagnosis: onceki promptlar UX hierarchy ile visual style'i ayni anda degistirdi ve cok sayida semantic'i ayni anda buyuk gorunur blocks olarak zorladigi icin card-stack/dashboard hissi urettirdi.
+Working anchor UX structure:
+**U04 — Progressive Detail** — USER SELECTED + MAIN-MANAGER QA `PASS_WITH_CONSTRAINTS` + APPROVED working anchor hierarchy.
 
-Siradaki is 10 visual style URETMEK DEGIL. Once tek anchor screen icin **UX structure calibration** yapilacak. U01-U05 arasinda sade information hierarchy / progressive-disclosure yapilari karsilastirilacak. User bir UX structure sectikten ve main-manager QA yaptiktan sonra, selected hierarchy sabit tutularak visual-style exploration acilacak.
+Siradaki is U04 UX hierarchy'sini SABIT tutarak Kavriva icin 10 separate visual-style direction uretmektir. Bu tur UX'i yeniden tasarlamayacak; yalniz typography, palette, imagery treatment, surface/depth language, micro-shape/icon character ve visual polish degisebilir.
 
 ## Completed
 
 - Phase 1 workspace baseline APPROVED; Gate 1 -> 2 tamamlandi.
 - Phase 2 Product Discovery Q006-Q245 tamamlandi; approved snapshot olusturuldu.
 - Gate 2 -> 3 PASSED; Phase 3 aktif.
-- DEC-0011 brand identity before UI visual calibration APPROVED.
+- DEC-0011 brand identity before UI calibration APPROVED.
 - DEC-0012 Kavriva working consumer-facing name APPROVED.
-- `03_DESIGN/BRAND_NAME.md` approved brand-name source.
+- `03_DESIGN/BRAND_NAME.md` approved brand source.
 - Kavriva logo exploration tamamlandi.
-- User Round-02 logo selection: `L05A — The Precision Fit`.
-- Main-manager logo QA: `PASS_WITH_CONSTRAINTS`.
 - DEC-0013 L05A working logo direction APPROVED.
 - `03_DESIGN/LOGO_DIRECTION.md` canonical working logo-direction source.
-- `03_DESIGN/REFERENCE_INDEX.md`: `REF-BRAND-001` APPROVED.
-- Anchor visual R2 generation user tarafindan UX clutter nedeniyle yeterli bulunmadi; hicbir UI visual direction authority kazanmadı.
-- User feedback `03_DESIGN/ANCHOR_UX_FEEDBACK_01.md` icinde kaydedildi.
-- Eski `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` DEPRECATED edildi; historical V1 ayri dosyada korundu.
-- Yeni `03_DESIGN/PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md` olusturuldu.
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-BRAND-001` APPROVED.
+- Anchor visual R2 attempt user tarafindan repeated UX clutter nedeniyle kabul edilmedi; old prompt DEPRECATED.
+- `03_DESIGN/ANCHOR_UX_FEEDBACK_01.md` user feedback kaydi.
+- UX Structure Calibration tamamlandi.
+- User U04'u secti: `U04`.
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md` evidence/handoff kaydi.
+- Main-manager UX QA: `PASS_WITH_CONSTRAINTS`.
+- DEC-0014 U04 working anchor UX structure APPROVED.
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` canonical working anchor hierarchy source.
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001` APPROVED.
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` olusturuldu.
 
-## Approved Brand / Logo Direction
+## Approved Brand / Logo / Anchor UX
 
-### Name
+### Brand
 **Kavriva**
 
-### Logo Direction
+### Logo direction
 **L05A — The Precision Fit**
 
-Approved direction signals:
+Direction signals:
 - precise,
 - geometric,
 - modular,
 - controlled,
 - restrained angularity,
-- calm technical credibility,
 - deliberate rather than fast,
-- clear alignment,
-- purposeful spacing.
+- calm technical credibility.
 
-Logo direction approval concept seviyesindedir; production vector/font/palette/trademark clearance degildir.
+### Anchor UX structure
+**U04 — Progressive Detail**
 
-## UX Feedback / Correction
+Core principle:
+**Accessible does not mean simultaneously prominent.**
 
-User feedback semantics:
-- anchor screen UX karisik geliyor,
-- ayni problem bir onceki image-generation turunda da vardi,
-- prompt framing'inin problem kaynagi olabilecegi dusunuluyor.
+Default hierarchy:
+1. compact brand + motorcycle context + progress,
+2. step title,
+3. quiet first-level trust label,
+4. one dominant task visual,
+5. one focus annotation,
+6. one concise instruction,
+7. integrated critical safety note,
+8. one collapsed flat detail affordance,
+9. one dominant completion CTA,
+10. lower-emphasis visible recovery path.
 
-Manager correction principle:
+U04 approval anchor-calibration scope'undadir; tum uygulamanin universal screen template'i degildir.
 
-**Accessible != simultaneously prominent.**
+## Visual-Style Freeze Rules
 
-Safety/trust/recovery/provenance gibi approved semantics korunur; fakat hepsinin ayni anda buyuk ayri cards olarak gorunmesi gerekmez.
+10 visual-style variant'in tamaminda U04 hierarchy AYNI kalmali.
 
-Progressive disclosure kullanilabilir:
-- trust/provenance compact detail affordance,
-- extra explanation on-demand,
-- success confirmation primary action semantics'ine entegre,
-- recovery lower-emphasis but visible,
-- motorcycle identity compact context,
-- contextual safety integrated warning treatment.
+Must NOT change:
+- hierarchy order,
+- element-count logic,
+- visible-vs-on-demand semantics,
+- primary CTA placement logic,
+- critical-safety visibility,
+- compact trust visibility,
+- recovery emphasis,
+- progressive-disclosure behavior.
+
+May change:
+- typography character,
+- palette family,
+- contrast strategy,
+- imagery treatment,
+- surface/depth language,
+- corner/micro-shape language,
+- icon character,
+- visual polish.
+
+Anti-clutter:
+- no card-per-semantic,
+- no nested cards,
+- no dashboard/KPI/metric chips,
+- no equal-weight multiple CTAs,
+- no oversized logo/decorative brand pattern.
+
+## Required Visual References for Delegated Style Generation
+
+User should attach:
+1. reviewed `Kavriva_L05A.png`,
+2. actual selected `Kavriva_U04_Progressive-Detail.png` screenshot.
+
+The U04 handoff contains a local Windows `file:///` path only; that link is not portable and the U04 PNG binary is not stored in repository. Delegated AI must not reconstruct exact U04 layout from that path and claim fidelity.
 
 ## Current Phase 3 Sequence
 
-1. Brand naming exploration — DONE.
-2. Second-pass name validation — DONE.
-3. Kavriva name approval — DONE.
+1. Brand naming — DONE.
+2. Naming validation — DONE.
+3. Kavriva approval — DONE.
 4. Logo exploration — DONE.
-5. Logo selection + QA — DONE: L05A.
-6. Earlier anchor visual R2 attempt — NOT ACCEPTED / DEPRECATED due to UX clutter.
-7. **Anchor UX Structure Calibration — READY / CURRENT.**
-8. Selected UX hierarchy QA.
-9. Visual-style exploration — selected UX hierarchy sabit tutularak.
+5. L05A selection + QA — DONE.
+6. Earlier Anchor Visual R2 — NOT ACCEPTED / DEPRECATED due to UX clutter.
+7. UX Structure Calibration — DONE.
+8. U04 selection + main-manager QA — DONE.
+9. **Visual-style exploration with U04 fixed — READY / CURRENT.**
 10. Full screen inventory + navigation + critical state coverage.
 11. Design principles / screen specs.
 12. Screen-by-screen visual references + user approval.
 13. Gate 3 -> 4 readiness review.
 
-## UX Structure Calibration Rules
-
-- 5 separate structures: U01-U05.
-- Visual-style showpiece degil; neutral/monochrome structure comparison.
-- Same product semantics, lower simultaneous visual load.
-- Maximum 1 dominant content surface + 1 primary action zone.
-- Same semantic icin card-per-block yaklasimi yok.
-- Nested cards / dashboard / KPI-chip clutter yok.
-- Primary task at a glance: `ne yapacagim / nereye bakacagim / sonra neye basacagim`.
-- Trust, detail, recovery accessible ama primary physical action ile rekabet etmez.
-- User UX structure secmeden 10 visual style generation yok.
-
 ## Phase 3 Rules
 
 - Approved product behavior silent degistirilemez.
-- UX simplification product semantics'i silemez; prominence/accessibility ayrimi kullanir.
-- Screen inventory/navigation/state coverage zorunlu sonraki adimdir; atlanmaz.
+- Visual-style exploration UX hierarchy'yi degistiremez.
+- Full screen inventory/navigation/state coverage sonraki zorunlu adimdir; atlanmaz.
 - Technology/backend/database/API/auth/sync/framework karari verilemez.
 - Final pricing/tier/quota karari verilemez.
-- Generated UX/UI reference user selection + main-manager QA olmadan APPROVED/LOCKED olmaz.
+- Generated visual style user selection + main-manager QA olmadan APPROVED/LOCKED olmaz.
 
 ## Current Prompt Status
 
 - Naming prompt — COMPLETED.
 - Logo prompt — COMPLETED.
-- **USE NOW:** `03_DESIGN/PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md`
+- UX structure calibration prompt — COMPLETED.
+- **USE NOW:** `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md`
 - `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — DEPRECATED / DO NOT USE.
-- Historical visual R2 V1: `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`.
-- Screen inventory prompt — DEFERRED until UX + visual calibration.
+- Screen inventory prompt — DEFERRED until visual-style selection + QA.
 
 ## Next Action
 
-Kullanici yeni AI sohbetine:
-1. `03_DESIGN/PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md` metnini verir,
-2. reviewed `Kavriva_L05A.png` gorselini attachment olarak ekler.
+User yeni AI sohbetine:
+1. `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` metnini verir,
+2. reviewed `Kavriva_L05A.png` image'ini attach eder,
+3. selected `Kavriva_U04_Progressive-Detail.png` UX screenshot'ini attach eder.
 
-Delegated AI U01-U05 olarak 5 AYRI sade UX structure image uretir ve user'dan en rahat / en sade buldugu 1-2 structure'i ister.
+Delegated AI ayni U04 hierarchy'sinde 10 separate visual-style image uretir. User 1-3 favorite/hybrid secim yapar. Sonra delegated AI:
 
-User selection sonrasi delegated AI:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR UX STRUCTURE 01`
-uretir ve DURUR.
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL STYLE 01`
 
-Bu paket main-manager QA'den gecmeden visual-style exploration veya screen inventory adimina gecilmez.
+paketini uretip DURUR.
+
+Bu paket main-manager QA'den gecmeden full screen inventory adimina gecilmez.
 
 ## Last Refreshed
 
