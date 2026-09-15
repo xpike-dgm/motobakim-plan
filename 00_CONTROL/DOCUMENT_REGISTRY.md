@@ -30,9 +30,16 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `STATE_MATRIX.md`
 - `DESIGN_PRINCIPLES.md`
 - `SCREEN_COVERAGE_TRACEABILITY.md`
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`
+- `GLOBAL_NAVIGATION.md` — 5-tab bottom bar
+- `SCREEN_FAMILY_SPECS.md` — working UX specs
+- `SCREEN_FAMILY_SPEC_REVIEW.md` — approved QA record
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`
 
-Current Phase-3 task: Screen-Family Principles + Screen Specifications.
+Current Phase-3 task:
+**AI Usta UX Structure Calibration**.
+
+Active prompt:
+`03_DESIGN/PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md`.
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 
