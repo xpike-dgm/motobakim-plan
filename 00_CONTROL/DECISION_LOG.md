@@ -188,3 +188,38 @@ Bu karar:
 - domain/handle availability veya ownership garantisi DEGILDIR.
 
 Comprehensive trademark similarity clearance, priority domain/handle verification ve gerekirse hear/write recall validation high-cost public brand commitment / launch oncesi ayri validation konusu olarak kalir.
+
+---
+
+## DEC-0013 — L05A Approved as Working Kavriva Logo Direction
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici, controlled Kavriva logo exploration Round 01 + Round 02 sonrasinda `L05A — The Precision Fit` refinement'ini final selection olarak secti. Main-manager, supplied L05A visual ve delegated handoff'u QA ederek direction'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+
+Bunun sonucunda:
+- `03_DESIGN/LOGO_DIRECTION.md` approved working logo-direction source'udur,
+- `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md` delegated evidence/handoff katmanidir,
+- `03_DESIGN/KAVRIVA_LOGO_REVIEW.md` main-manager QA kaydidir,
+- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-BRAND-001` L05A working direction'i APPROVED referans olarak kaydeder,
+- Anchor Screen Visual Exploration — Round 2, Kavriva + L05A brand visual-DNA ile baslatilabilir.
+
+Approval scope bilincli olarak dardir. APPROVED olan:
+- L05A concept direction,
+- `precision fit / controlled alignment` semantic intent,
+- precise/geometric/modular/controlled/restrained-angular visual-DNA,
+- subsequent UI exploration'da bu direction'in reference olarak kullanilmasi.
+
+APPROVED olmayan:
+- generated PNG'nin production-ready vector asset olmasi,
+- exact vector paths/proportions/corner treatment,
+- final wordmark typography,
+- final color palette,
+- final launcher-icon safe area/background,
+- trademark/legal uniqueness veya clearance.
+
+Future refinement:
+- speed/racing treatment eklememeli,
+- rewind/back-arrow ambiguity'sini artirmamali,
+- small-size negative-space separation'i korumali,
+- `Kavriva` wordmark'inda `r` ve iki `v` acik kalmali.
