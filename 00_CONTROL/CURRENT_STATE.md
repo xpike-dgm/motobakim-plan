@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — SCREEN FAMILY + SPECIFICATIONS READY`
+`PHASE-3 / DESIGN — SCREEN FAMILY + SPECS REVIEW / NAVIGATION DECISION REQUIRED`
 
 ## Current Objective
 
@@ -15,27 +15,40 @@ Approved working design references:
 - Anchor visual direction: **V10 — Signature Kavriva** — APPROVED working visual direction with QA constraints.
 - Full-app working screen/state architecture: **REF-ARCH-001** — APPROVED.
 
-## What Just Changed
+Delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01` main-manager QA'den gecirildi.
 
-User screen inventory planini explicit olarak onayladi (`onaylıyorum`).
+Main-manager result:
+`PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED`
 
-DEC-0016 ile working Phase-3 architecture APPROVED oldu:
-- `03_DESIGN/SCREEN_CATALOG.md` — APPROVED
-- `03_DESIGN/NAVIGATION_MAP.md` — APPROVED
-- `03_DESIGN/STATE_MATRIX.md` — APPROVED
-- `03_DESIGN/DESIGN_PRINCIPLES.md` — APPROVED
-- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md` — APPROVED
-- `03_DESIGN/SCREEN_INVENTORY_REVIEW.md` — APPROVED review record
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001` APPROVED
+Review record:
+- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md`
 
-Current catalog `SCR-001` — `SCR-038` product interaction context'lerini kapsar.
+## Screen-Family / Spec QA Summary
 
-Bu approval:
-- 38 permanent route demek degildir,
-- exact full-screen/sheet/modal/inline kararlarini kilitlemez,
-- final global navigation shell karari degildir,
-- final component/token system karari degildir,
-- MVP priority veya technology karari degildir.
+Delegated package:
+- `SCR-001` — `SCR-038` context'lerinin tamamini kapsiyor,
+- 9 screen family olusturuyor,
+- tum 38 context icin default hierarchy / action / state / trust / safety spec veriyor,
+- U04'u yalniz active-guide anchor family'de direct kullaniyor,
+- V10'u visual DNA olarak tutuyor,
+- generic dashboard/settings/marketplace/social-feed uydurmuyor,
+- previous card-stack/clutter problemini tekrar etmiyor.
+
+Main-manager refinement:
+- language/unit ve accessibility support profile/account acmaya bagli tasarlanamaz; account-light/local use bu temel behavior'lardan yararlanabilmelidir.
+
+## Current User Decision — Global Navigation Shell
+
+Delegated package uc PROPOSED option sundu:
+
+1. **Motor-merkezli:** once motor, tum isler motor sayfasindan.
+2. **Is-merkezli:** once `ne yapmak istiyorsun?` launcher'i.
+3. **Focused Hybrid:** compact motorcycle context + uc ana alan: `Yap / Coz`, `Bakim`, `Gecmis`.
+
+Delegated AI recommendation: Option 3.
+Main-manager assessment: **Option 3 en guclu candidate**; previous dashboard/card-stack feedback ve approved simplicity principle ile en iyi uyuma sahip.
+
+User explicit selection yapmadan global navigation APPROVED olmaz.
 
 ## Current Phase 3 Sequence
 
@@ -44,46 +57,32 @@ Bu approval:
 3. Kavriva approval — DONE.
 4. Logo exploration — DONE.
 5. L05A selection + QA — DONE.
-6. Earlier anchor visual R2 — NOT ACCEPTED / DEPRECATED.
+6. Earlier Anchor Visual R2 — NOT ACCEPTED / DEPRECATED.
 7. UX Structure Calibration — DONE.
 8. U04 selection + QA — DONE.
 9. Visual-style exploration — DONE: V10.
-10. Full screen inventory + navigation + critical state coverage — **DONE / USER APPROVED.**
-11. **Screen-family principles + screen specifications — READY / CURRENT.**
-12. Screen-by-screen visual references + user approval.
+10. Full screen inventory + navigation + critical state coverage — DONE / USER APPROVED.
+11. Screen-family principles + screen specifications — **MAIN-MANAGER QA DONE / USER NAVIGATION DECISION REQUIRED.**
+12. Screen-by-screen visual references + user approval — BLOCKED until current decision.
 13. Gate 3 -> 4 readiness review.
 
-## Current Task Rules
+## Approval Boundary
 
-Screen-family/spec task:
-- approved `SCR-001` — `SCR-038` architecture'i kullanir,
-- context'leri anlasilir screen families'e ayirir,
-- per-screen information hierarchy/action/state specifications'i cikarir,
-- global navigation shell icin PROPOSED options uretebilir ama final karari kilitlemez,
-- screen/sheet/modal/inline treatment'lari PROPOSED olarak rafine edebilir,
-- generic dashboard/settings/marketplace/social feed uyduramaz,
-- U04'u universal full-app template yapamaz,
-- V10'u universal layout veya exact production token system yapamaz,
-- mockup/image uretmez,
-- technology/backend/database/API/auth/sync/framework karari vermez,
-- pricing/tier/quota finalize etmez.
+- Screen-family/spec package henuz APPROVED/LOCKED degildir.
+- Global navigation shell henuz APPROVED degildir.
+- Surface modality onerileri PROPOSED kalir.
+- No Phase 4 transition.
+- No technology/backend/database/API/auth/sync/framework decision.
+- No final pricing/tier/quota decision.
 
-## Current Prompt
+## Next Action
 
-**USE NOW:**
-`03_DESIGN/PHASE3_SCREEN_FAMILY_SPEC_AI_PROMPT.md`
+User global navigation icin 1 / 2 / 3 secimi yapar.
 
-Delegated AI sonunda:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
-uretip DURUR.
+Main-manager recommendation:
+**3 — Focused Hybrid**.
 
-Main-manager QA olmadan screen-by-screen visual generation'a gecilmez.
-
-## Gate Status
-
-Gate 3 -> 4 HENUZ GECILMEDI.
-
-Screen catalog/navigation/state architecture ve approved visual references mevcut; ancak screen specifications + yeterli screen-by-screen approved visual references tamamlanmadan Gate 3 readiness degerlendirilmez.
+User Option 3'u onaylarsa, package gerekli refinement'lerle working spec authority seviyesine tasinir ve family-based visual-reference planning promptu hazirlanir.
 
 ## Last Refreshed
 
