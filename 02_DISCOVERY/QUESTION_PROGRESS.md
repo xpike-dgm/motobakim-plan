@@ -1,6 +1,6 @@
 # QUESTION PROGRESS
 
-Status: GATE_2_REVIEW_REQUIRED
+Status: DISCOVERY_APPROVED_GATE_2_PASSED
 
 | Batch | Question Range | Status | Session File | Synthesis Updated |
 |---|---:|---|---|---|
@@ -31,13 +31,10 @@ Toplam cevaplanan: 245
 - User answers icindeki external links raw evidence olarak korundu; external source verification veya technology/business implementation karari yapilmadi.
 - `CONFLICTS.md` CONF-001/CONF-002 Batch 08 evidence ile `RESOLVED_REFINEMENT` yapildi; final commercial tier approval verilmedi.
 - `SYNTHESIS/BATCH_08_DELTA.md` Batch 08 additive product rules/journeys/features/non-goals/glossary'i yakaladi.
-- `GATE_2_REVIEW.md` discovery saturation ve Gate 2 readiness degerlendirmesini olusturdu.
 
 ## Open-question result after Batch 08
 
-Product-definition evidence acisindan Q-0065, Q-0067, Q-0068 ve Q-0069 yeterince cevaplandi.
-
-Q-0066'nin product semantics'i de yeterince cevaplandi; exact wrong-selection correction window validation parametresi olarak kaldi.
+Product-definition evidence acisindan Q-0065 — Q-0069 yeterince cevaplandi.
 
 Yeni 30-soruluk broad discovery batch'i gerektiren substantive product gap tespit edilmedi.
 
@@ -48,23 +45,16 @@ Remaining non-blocking validation topics:
 - price/quota/subscription/WTP/business sustainability,
 - feasibility assumptions already tracked in `01_WORKSPACE/ASSUMPTIONS.md`.
 
-## Saturation / Gate Review
+## Gate 2 approval
 
-Discovery coverage HIGH. `02_DISCOVERY/GATE_2_REVIEW.md` recommendation'i `READY_FOR_USER_APPROVAL` durumundadir.
-
-Bu recommendation Gate 2 pass degildir. User explicit approval vermeden:
-- Discovery APPROVED yapilmaz,
-- Gate 2 -> 3 gecilmez,
-- Phase 3 Design baslatilmaz.
+- `02_DISCOVERY/GATE_2_REVIEW.md`: APPROVED / PASSED.
+- `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`: canonical APPROVED Phase-2 snapshot.
+- User explicitly approved Phase 2 Product Discovery synthesis and Gate 2 -> 3 on 2026-09-15.
+- Batch 09 automatic hazirlanmayacak.
+- Phase 3 Design may begin under Gate 3 rules.
 
 ## Provenance Note
 
 Q001-Q005 ham Q&A repository'de yoktur; corrected Phase-1 baseline user tarafindan onaylanmistir.
 
 Q006-Q245 raw evidence ilgili `SESSION-*` dosyalarinda verbatim korunur.
-
-## Next
-
-Batch 09 automatic hazirlanmayacak.
-
-Siradaki adim user'in `02_DISCOVERY/GATE_2_REVIEW.md` ve Phase 2 synthesis icin approval / targeted revision / broad continuation kararidir.
