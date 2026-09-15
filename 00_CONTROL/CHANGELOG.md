@@ -198,5 +198,30 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` Kavriva + L05A icin olusturuldu.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL R2 READY`.
 
+### Anchor UX Clutter Feedback / Process Correction
+- User logo-sonrasi anchor visual generation'i UX olarak yine karisik buldu ve ayni problemin brand-oncesi generation turunda da oldugunu belirtti.
+- Main-manager diagnosis: UX hierarchy ile visual style ayni anda varyasyonlandi ve safety/trust/progress/visual/instruction/success/recovery/detail semantic'leri ayni anda buyuk blocks olmaya zorlandi.
+- Correction principle: `Accessible != simultaneously prominent`.
+- `03_DESIGN/ANCHOR_UX_FEEDBACK_01.md` feedback kaydi olusturuldu.
+- Existing `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` DEPRECATED edildi; historical V1 ayri dosyada korundu.
+- `03_DESIGN/PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md` olusturuldu.
+- New sequence: UX structure selection -> QA -> same hierarchy fixed -> visual-style exploration.
+- State `PHASE-3 / DESIGN — KAVRIVA ANCHOR UX STRUCTURE CALIBRATION READY` yapildi.
+
+### U04 Anchor UX Selected / Visual Style Exploration Ready
+- User UX Structure Calibration sonucu `U04 — Progressive Detail` yapisini secti; delegated handoff'taki verbatim selection `U04`.
+- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md` delegated package/evidence olarak kaydedildi.
+- Main-manager QA `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`: `PASS_WITH_CONSTRAINTS`.
+- DEC-0014 `U04 Approved as Working Kavriva Anchor UX Structure` APPROVED.
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` canonical working anchor-UX source olarak olusturuldu.
+- `03_DESIGN/REFERENCE_INDEX.md`: `REF-UX-001` U04 working hierarchy APPROVED.
+- U04 core principle: accessible information ayni anda prominent olmak zorunda degil; task-first progressive disclosure.
+- U04 approval anchor calibration scope'undadir; final screen catalog veya universal full-app layout degildir.
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` olusturuldu.
+- New visual round'da U04 hierarchy, element-count logic, CTA placement logic, trust/safety visibility, recovery emphasis ve progressive-disclosure behavior freeze edildi.
+- Yalniz typography, palette, imagery treatment, surface/depth language, micro-shape/icon character ve visual polish varyasyonlanabilir.
+- Delegated visual-style chat exact fidelity icin hem `Kavriva_L05A.png` hem actual selected `Kavriva_U04_Progressive-Detail.png` screenshot attachment'ini almalidir; handoff'taki Windows-local `file:///` path portable degildir.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL R2 READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` promptunu vermek ve reviewed `Kavriva_L05A.png` image'ini ayni sohbete attach etmektir. User 10 UI direction arasindan preference verdikten sonra `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL R2` ana proje yoneticisine geri getirilir; full screen inventory bundan sonra acilir.
+Durum `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` promptunu vermek ve reviewed L05A logo + selected U04 UX screenshot'ini attach etmektir. User visual-style preference verdikten sonra `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL STYLE 01` ana proje yoneticisine geri getirilir; full screen inventory bundan sonra acilir.
