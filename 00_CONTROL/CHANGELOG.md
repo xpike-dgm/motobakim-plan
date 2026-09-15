@@ -132,11 +132,24 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Phase-2 approval PROPOSED monetization direction'i final pricing/tier policy'ye donusturmedi; validation/feasibility assumptions acik kaldi.
 
 ### Phase 3 Design Start
-- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — SCREEN INVENTORY READY`.
-- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` olusturuldu.
-- Phase 3 ilk adimi screen catalog + navigation + state coverage olarak belirlendi; mockup/visual reference generation sonraki adima birakildi.
+- `CURRENT_STATE.md`: ilk olarak `PHASE-3 / DESIGN — SCREEN INVENTORY READY` durumuna gecildi.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` initial inventory delegation promptu olarak olusturuldu.
 - Delegated Design AI repository'ye yazmayacak, approved product behavior'i degistirmeyecek, technology/backend architecture veya final pricing karari vermeyecek.
 - Gate 3 -> 4 screen catalog/navigation/important states ve user-approved visual references yeterli olmadan degerlendirilmeyecek.
 
+### Phase 3 Sequence Refinement — Anchor Visual Calibration First
+- User initial screen-inventory promptunu henuz baska AI'ya gondermedigini belirtti ve once tek bir sayfa icin 10 ayri design visual'i gorup begendigi yonden ilerlemek istedigini explicit olarak talep etti.
+- Bu newest user instruction Phase-3 ic sequencing'i rafine etti; stage atlanmadi.
+- DEC-0010 `Phase 3 Begins with Anchor Visual Calibration` APPROVED olarak kaydedildi.
+- Current anchor calibration fixture: `Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`.
+- `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` current first prompt olarak olusturuldu.
+- Prompt ayni fixed content/state ile V01-V10 **10 separate images** ister; sadece recolor degil meaningfully different visual hierarchy/style directions tanimlar.
+- Safety, trust/provenance, progress, recovery ve success-check semantics 10 variantta da korunmak zorundadir.
+- User 1-3 favorite veya hybrid visual DNA secer; delegated AI selection sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / ANCHOR VISUAL DIRECTION 01` uretip durur.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` DEFERRED pointer'a donusturuldu; initial inventory promptunun tarihsel kopyasi `PHASE3_SCREEN_INVENTORY_AI_PROMPT_DEFERRED_V1.md` olarak korundu.
+- `03_DESIGN/README.md` yeni sequence ile guncellendi.
+- Screen inventory/navigation/state coverage Gate 3 zorunlulugu olmaya devam eder; yalniz visual calibration sonrasina alindi.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — ANCHOR VISUAL EXPLORATION READY`.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — SCREEN INVENTORY READY`. Siradaki adim `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` promptunu yeni AI sohbetine verip `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` ciktisini ana proje yoneticisine geri getirmektir.
+Durum `PHASE-3 / DESIGN — ANCHOR VISUAL EXPLORATION READY`. Siradaki adim `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; 10 visual direction arasindan user preference'i toplamak ve portable handoff package'i ana proje yoneticisine geri getirmektir.
