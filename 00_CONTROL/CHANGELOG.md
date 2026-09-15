@@ -66,7 +66,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Core history product boundary netlesti: motorcycle, operation, date, mileage, actor, outcome, important safety notes, evidence level ve correction continuity core'da korunur; old basic records storage pressure nedeniyle silinmez.
 - Expanded storage high-volume/high-resolution photos, long videos ve broad document archive degerine ayrildi; premium boundary existing basic history/safety evidence access veya export'u bozamaz.
 - Basic multi-bike separation motorcycle-isolation invariant'i olarak netlesti; advanced garage cross-bike analysis, bulk planning, richer collaboration ve large-archive search degerinde baslar.
-- Ownership transfer/history trust derinlesti: rejected correction accepted record'u overwrite etmez; disputed claim provenance ile kalir; repeated transfers owner/period/coverage/gaps ile ayrilir; partial periods complete history diye sunulamaz.
+- Ownership transfer/history trust derinlesti: rejected correction accepted record'u overwrite etmez; disputed claim provenance ile kalir; repeated transfers owner/period/coverage/gaps ile ayrilir; partial history complete diye sunulamaz.
 - Q163'teki `degistirilemez iz` product historical-integrity expectation'i olarak korundu; immutable ledger/event sourcing/database architecture karari yapilmadi.
 - Withdrawn community evidence dependent official guide/claim icin dependency-aware re-review tetikler. Independent evidence yeterliyse claim review sonrasi kalabilir; yetersizse verification/application korunmaz. Safety/technical/applied-critical impact correction reach-back gerektirebilir.
 - Shared collaboration'da motorcycle record lifecycle, contributor evidence lifecycle ve historical attribution ayrildi. Owner delete baska contributor'in independent data'sini sessizce silemez; contributor evidence withdrawal trust re-evaluation tetikler. Independent transferred-copy edge case OPEN kaldi.
@@ -74,7 +74,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Account-light -> profile transition trust-preserving migration olarak rafine edildi: scope preview, no silent loss, conflict review, no silent overwrite. Technical sync/transaction architecture secilmedi.
 - Material guide change mid-repair current physical motorcycle state ile new guide arasinda physical-state remapping gerektirir; photo-based expectation computer-vision guarantee veya vendor karari yapilmadi.
 - Active-repair interruption resume semantics last-viewed-step degil last-known-safe state + current physical/safety re-validation olarak netlesti.
-- Paid-service document vs owner evidence dispute iki source claim olarak korunur; unresolved completion maintenance counter veya future guide decisions'a verified fact olarak aktarilmaz.
+- Paid-service document vs owner evidence dispute iki source claim olarak korunur; unresolved completion maintenance/future decisions'a verified fact olarak aktarilmaz.
 - `OPEN_QUESTIONS.md`: Q-0046, Q-0047, Q-0048, Q-0049, Q-0051, Q-0052, Q-0053, Q-0054, Q-0055 ANSWERED; Q-0050 narrowed OPEN; Q-0056 — Q-0064 yeni OPEN gaps.
 - `ASSUMPTIONS.md`: ASM-026/027/028/029 SUPPORTED; ASM-030 OPEN; ASM-031 — ASM-035 new OPEN.
 - `GLOSSARY.md`, `PRODUCT_MASTER`, `USER_TYPES`, `USER_JOURNEYS`, `BUSINESS_RULES`, `FEATURE_CANDIDATES`, `NON_GOALS` Batch 06 kanitiyla guncellendi.
@@ -223,5 +223,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Delegated visual-style chat exact fidelity icin hem `Kavriva_L05A.png` hem actual selected `Kavriva_U04_Progressive-Detail.png` screenshot attachment'ini almalidir; handoff'taki Windows-local `file:///` path portable degildir.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`.
 
+### V10 Anchor Visual Direction Selected / Screen Inventory Ready
+- User visual-style exploration sonucunda `V10 — Signature Kavriva` yonunu ana visual direction olarak secti ve selected screenshot + handoff paketini ana yonetici sohbetine getirdi.
+- Selected image reviewed: `Kavriva_V10_Signature-Kavriva.png`, `887 x 1774`, SHA-256 `c30b5be3837bfbcf13f19a5eacfb5607a4d664a8d23b9a828f5735cbe7098a3a`.
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md` delegated evidence/handoff olarak kaydedildi.
+- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md` main-manager QA sonucu: `PASS_WITH_CONSTRAINTS`.
+- Strengths: U04 task hierarchy korunuyor, card-stack/dashboard clutter yok, dominant inspection visual + annotation tek task focus olusturuyor, CTA/recovery weight ayrimi net, L05A header'da restrained, electric-blue accent kontrollu.
+- Required constraint: selected screenshot'taki shield/check trust/safety iconography official safety certification / guaranteed correctness izlenimi verebilir; canonical final icon language olarak onaylanmadi.
+- Delegated handoff'taki exact HEX degerleri final production token sayilmadi; candidate starting references olarak tutuldu.
+- Generated caliper image visual-treatment reference'tir; verified motorcycle-specific evidence degildir.
+- DEC-0015 `V10 Approved as Working Kavriva Anchor Visual Direction` APPROVED.
+- `03_DESIGN/ANCHOR_VISUAL_STYLE.md` canonical working visual-direction source olusturuldu.
+- `03_DESIGN/REFERENCE_INDEX.md`: `REF-VISUAL-001` V10 working visual direction APPROVED.
+- `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` current Kavriva + L05A + U04 + V10 context ile yeniden yazildi ve ACTIVE / USE NOW yapildi.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — SCREEN INVENTORY READY`.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — KAVRIVA ANCHOR VISUAL STYLE EXPLORATION READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_ANCHOR_VISUAL_STYLE_EXPLORATION_AI_PROMPT.md` promptunu vermek ve reviewed L05A logo + selected U04 UX screenshot'ini attach etmektir. User visual-style preference verdikten sonra `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL STYLE 01` ana proje yoneticisine geri getirilir; full screen inventory bundan sonra acilir.
+Durum `PHASE-3 / DESIGN — SCREEN INVENTORY READY`. Siradaki adim yeni AI sohbetine `03_DESIGN/PHASE3_SCREEN_INVENTORY_AI_PROMPT.md` promptunu aynen vermektir. Delegated AI `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN INVENTORY 01` uretip duracak; main-manager QA olmadan design principles/screen specs veya screen-by-screen visual references adimina gecilmeyecektir.
