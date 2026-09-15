@@ -1,6 +1,7 @@
 # NAVIGATION MAP
 
-Status: REVIEW
+Status: APPROVED
+Approved by: USER — 2026-09-15
 Review source: `03_DESIGN/SCREEN_INVENTORY_REVIEW.md`
 
 Bu belge **product transition map**'tir. Bottom-tab, drawer, router, route-name veya technical navigation implementation karari degildir.
@@ -282,4 +283,6 @@ Those decisions require screen-family/spec work and user review.
 
 ## Approval Boundary
 
-Status remains `REVIEW`. Explicit user approval is required before this map becomes approved Phase-3 screen/navigation truth.
+This map is APPROVED as the **working Phase-3 product transition architecture**.
+
+Approval does NOT lock the final navigation shell, route implementation, tab structure or surface modality.
