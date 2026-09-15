@@ -63,8 +63,6 @@ Ham kanit, sentez, tartisma ve kesin karar farkli katmanlarda tutulacak. Discove
 
 ChatGPT proje mimari muhendisi ve yoneticisi olarak discovery sorularini dogrudan kullaniciya sormak yerine, diger AI oturumlarinda kullanilacak kontrollu promptlari hazirlayacak. Kullanici bu promptlari diger AI'lara verecek; alinan cevaplar/sonuclar daha sonra ChatGPT tarafindan repository source-of-truth sistemine islenecek ve kalite/uyumluluk acisindan kontrol edilecek.
 
-Ilk uygulama promptu: `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md`.
-
 ---
 
 ## DEC-0007 — Project-Wide Chat Instructions
@@ -73,25 +71,13 @@ Ilk uygulama promptu: `01_WORKSPACE/PHASE1_WORKSPACE_AI_PROMPT.md`.
 
 Motobakim projesindeki tum AI sohbetleri ortak bir proje baglami ve davranis kurallariyla calisacak. Bu genel kurallar `00_CONTROL/PROJECT_CHAT_INSTRUCTIONS.md` dosyasinda tutulacak.
 
-Her sohbetin ozel gorev promptu rol ve gorevi belirler; genel proje talimati ozel promptun yerine gecmez. Bir AI'ya acikca repository yazma veya karar kilitleme yetkisi verilmedikce AI source-of-truth dosyalarini degistirmeyecek ve kararlarin durumunu LOCKED/APPROVED yapmayacak.
-
 ---
 
 ## DEC-0008 — Phase 1 Workspace Approved and Gate 1 Passed
 **Date:** 2026-09-14  
 **Status:** APPROVED
 
-Kullanici, kalite kontrolunden gecirilmis Phase-1 workspace sentezini acikca onayladi.
-
-Bunun sonucunda:
-- `01_WORKSPACE/PROJECT_VISION.md` APPROVED
-- `01_WORKSPACE/CONSTRAINTS.md` APPROVED
-- `01_WORKSPACE/ASSUMPTIONS.md` registry olarak APPROVED; tekil varsayimlar OPEN kalir
-- `01_WORKSPACE/GLOSSARY.md` registry olarak APPROVED; PROPOSED terimler nihai/LOCKED sayilmaz
-- Gate 1 -> 2 kosullari saglanmis kabul edilir
-- Phase 2 teknik olmayan Product Discovery baslatilabilir
-
-Bu karar Phase-1 urun bilgisini `LOCKED` yapmaz; yeni discovery kanitlari kontrollu degisiklik uretebilir.
+Kullanici, kalite kontrolunden gecirilmis Phase-1 workspace sentezini acikca onayladi. Gate 1 -> 2 tamamlandi. Bu karar Phase-1 urun bilgisini LOCKED yapmaz.
 
 ---
 
@@ -104,17 +90,9 @@ Kullanici, Q006-Q245 discovery evidence'ina dayanan kalite kontrolunden gecirilm
 Bunun sonucunda:
 - `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` Phase-2 canonical approval entry point'idir,
 - `02_DISCOVERY/GATE_2_REVIEW.md` APPROVED / PASSED durumundadir,
-- `02_DISCOVERY` Phase-2 snapshot seviyesinde APPROVED kabul edilir,
-- Gate 2 -> 3 tamamlanmistir,
 - Phase 3 Design baslatilabilir.
 
-Bu karar:
-- Phase-2 product truth'u LOCKED yapmaz,
-- raw evidence ile synthesis ayrimini degistirmez,
-- `PROPOSED` monetization direction'i final pricing/tier policy'ye donusturmez,
-- open feasibility/validation assumptions'i fact yapmaz.
-
-Phase 3 Design approved product snapshot'tan ilerleyecek; teknoloji/backend architecture veya implementation karari vermeyecektir.
+Bu karar PROPOSED monetization direction'i final pricing/tier policy'ye donusturmez ve feasibility assumptions'i fact yapmaz.
 
 ---
 
@@ -123,11 +101,7 @@ Phase 3 Design approved product snapshot'tan ilerleyecek; teknoloji/backend arch
 **Status:** SUPERSEDED
 **Superseded By:** DEC-0011
 
-Kullanici, ilk screen-inventory promptunu henuz baska AI'ya gondermeden Phase 3 icindeki sirayi degistirip once anchor visual calibration yapilmasini istemisti.
-
-Bir anchor screen icin 10 visual direction denemesi daha sonra gerceklestirildi; kullanici ortaya cikan gorselleri yeterli bulmadi ve hicbirini reference direction olarak onaylamadi.
-
-Bu nedenle anchor-first sequencing DEC-0011 ile supersede edilmistir. Ilk anchor denemesi tarihsel design exploration olarak kalir; approved reference authority olusturmaz.
+Kullanici ilk screen-inventory promptunu gondermeden Phase-3 siralamasini once anchor visual calibration yapacak sekilde degistirdi. Ilk anchor visual denemesi daha sonra kullanici tarafindan yeterli bulunmadi.
 
 ---
 
@@ -135,27 +109,7 @@ Bu nedenle anchor-first sequencing DEC-0011 ile supersede edilmistir. Ilk anchor
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici anchor-screen icin uretilen ilk visual denemeleri begenmedigini ve UI gorsellerini yeniden uretmeden once uygulamanin gercek consumer-facing adinin, ardindan logosunun belirlenmesini acikca istedi.
-
-Phase 3 current sequence:
-1. Brand naming exploration + preliminary collision research,
-2. user brand-name selection + second-pass validation,
-3. selected name uzerinden logo exploration,
-4. user logo selection / brand visual-DNA calibration,
-5. anchor screen visual exploration selected name/logo ile yeniden,
-6. full screen inventory + navigation + critical state coverage,
-7. design principles / screen specs,
-8. screen-by-screen visual references + user approval,
-9. Gate 3 -> 4 readiness review.
-
-`Motobakim` adi gercek marka adi secilene kadar internal project codename/placeholder olarak kalir.
-
-Bu karar:
-- Phase 2 product truth'u degistirmez,
-- naming veya logo adaylarini user selection olmadan APPROVED/LOCKED yapmaz,
-- preliminary name research'i hukuki trademark clearance yerine koymaz,
-- screen inventory/navigation/state coverage zorunlulugunu kaldirmaz,
-- technology/backend architecture veya implementation karari vermez.
+Kullanici UI gorsellerini yeniden uretmeden once gercek consumer-facing ismin, ardindan logonun belirlenmesini istedi. Screen inventory/navigation/state coverage zorunlulugu korunmustur.
 
 ---
 
@@ -163,23 +117,9 @@ Bu karar:
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici, delegated naming exploration + second-pass validation + main-manager QA sonrasinda `Kavriva` adini acikca onayladi.
+Kullanici preliminary Kavira/Kaviva collision/confusion riskleri aciklandiktan sonra `Kavriva` adini Phase-3 working consumer-facing brand name olarak acikca onayladi.
 
-Bilinen preliminary riskler user approval oncesinde aciklandi ve korunuyor:
-- `Kavira Software` benzerligi,
-- `Kavira` digital/mobile brand kullanimi,
-- close spelling `KAVIVA` trademark activity,
-- `Kavriva -> Kavira / Kaviva` hear/write confusion ihtimali.
-
-Buna ragmen kullanici `Kavriva`yi Phase-3 design calismalari icin working consumer-facing brand name olarak kabul etti.
-
-Bunun sonucunda:
-- `03_DESIGN/BRAND_NAME.md` APPROVED brand-name source-of-truth'tur,
-- logo exploration `Kavriva` uzerinden baslatilabilir,
-- `Motobakim` / `MotoBakim` internal project/repository codename olarak kalabilir,
-- brand name LOCKED degildir; daha yeni explicit user karari controlled supersession yapabilir.
-
-Bu karar legal trademark clearance, registrability/infringement sonucu veya domain/handle availability garantisi degildir.
+Bu karar legal trademark clearance veya registrability/infringement sonucu degildir.
 
 ---
 
@@ -187,17 +127,9 @@ Bu karar legal trademark clearance, registrability/infringement sonucu veya doma
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici, controlled Kavriva logo exploration Round 01 + Round 02 sonrasinda `L05A — The Precision Fit` refinement'ini final selection olarak secti. Main-manager, supplied L05A visual ve delegated handoff'u QA ederek direction'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+Kullanici `L05A — The Precision Fit` refinement'ini secti. Main-manager direction'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
 
-Bunun sonucunda:
-- `03_DESIGN/LOGO_DIRECTION.md` approved working logo-direction source'udur,
-- `03_DESIGN/KAVRIVA_LOGO_01_HANDOFF.md` delegated evidence/handoff katmanidir,
-- `03_DESIGN/KAVRIVA_LOGO_REVIEW.md` main-manager QA kaydidir,
-- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-BRAND-001` L05A working direction'i APPROVED referans olarak kaydeder.
-
-Approval scope concept/direction seviyesindedir. Generated PNG production-ready vector asset, exact paths/proportions, final wordmark typography, final palette, launcher-icon spec veya trademark/legal clearance degildir.
-
-Future refinement speed/racing treatment eklememeli, rewind/back-arrow ambiguity'sini artirmamali, small-size negative-space separation'i korumali ve `Kavriva` wordmark'inda `r` ile iki `v` acik kalmalidir.
+Approval concept/direction seviyesindedir; production vector, exact paths/proportions, final wordmark typography, final palette, launcher-icon spec veya trademark/legal clearance degildir.
 
 ---
 
@@ -205,26 +137,11 @@ Future refinement speed/racing treatment eklememeli, rewind/back-arrow ambiguity
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici, repeated anchor-screen UX clutter feedback'i sonrasinda yapilan controlled UX Structure Calibration turunda `U04 — Progressive Detail` yapisini acikca secti (`U04`). Main-manager delegated handoff'u QA ederek structure'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+Kullanici controlled UX Structure Calibration turunda `U04 — Progressive Detail` yapisini secti. Main-manager `PASS_WITH_CONSTRAINTS` sonucu verdi.
 
-Bunun sonucunda:
-- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` approved working anchor-UX source'udur,
-- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md` delegated evidence/handoff katmanidir,
-- `03_DESIGN/KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md` main-manager QA kaydidir,
-- `03_DESIGN/REFERENCE_INDEX.md` icinde U04 working anchor hierarchy APPROVED reference olarak kaydedilebilir,
-- sonraki visual-style exploration U04 hierarchy'sini sabit tutmak zorundadir.
+Approved principle: **Accessible does not mean simultaneously prominent.**
 
-Approved U04 principle:
-**Accessible does not mean simultaneously prominent.**
-
-Working hierarchy task-first'tur: compact context/progress -> step title -> quiet trust label -> dominant visual + one annotation -> concise instruction -> integrated critical safety -> collapsed detail affordance -> one dominant completion CTA -> lower-emphasis visible recovery path.
-
-Approval scope bilincli olarak dardir. Bu karar:
-- U04'u tum Kavriva ekranlari icin universal template yapmaz,
-- final screen catalog/navigation/state architecture karari degildir,
-- final component system, font, palette, exact spacing veya implementation karari degildir.
-
-Visual-style exploration hierarchy order'ini, visible-vs-on-demand semantics'i, CTA placement logic'ini, critical-safety visibility'ni, trust visibility'ni, recovery emphasis'ini veya progressive-disclosure behavior'ini degistiremez.
+Approval anchor calibration scope'undadir; universal full-app template veya final screen catalog/navigation/state architecture degildir.
 
 ---
 
@@ -232,35 +149,46 @@ Visual-style exploration hierarchy order'ini, visible-vs-on-demand semantics'i, 
 **Date:** 2026-09-15  
 **Status:** APPROVED
 
-Kullanici visual-style exploration sonucunda `V10 — Signature Kavriva` yonunu ana gorsel yon olarak secti. Main-manager user-supplied V10 image ve handoff paketini QA ederek direction'i `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+Kullanici visual-style exploration sonucunda `V10 — Signature Kavriva` yonunu secti. Main-manager `PASS_WITH_CONSTRAINTS` sonucu verdi.
 
-Bunun sonucunda:
-- `03_DESIGN/ANCHOR_VISUAL_STYLE.md` approved working anchor visual-direction source'udur,
-- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md` delegated evidence/handoff katmanidir,
-- `03_DESIGN/KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md` main-manager QA kaydidir,
-- `03_DESIGN/REFERENCE_INDEX.md` icinde `REF-VISUAL-001` V10 working visual direction'i APPROVED referans olarak kaydedilebilir,
-- Phase 3 full screen inventory + navigation + critical state coverage adimina gecilebilir.
-
-Approved V10 direction signals:
+Working signals:
 - clean near-white canvas,
-- deep graphite/navy text character,
+- deep graphite/navy text,
 - restrained electric-blue accent,
 - realistic inspection-focused imagery,
 - moderate rounding,
 - low decoration,
-- strong typographic hierarchy,
-- restrained L05A brand presence,
+- strong hierarchy,
+- restrained L05A presence,
 - calm technical credibility.
 
-Approval scope bilincli olarak dardir. Bu karar:
-- handoff'taki exact HEX degerlerini final production token yapmaz,
-- generated screenshot'u exact spacing/type/component specification yapmaz,
-- generated motorcycle image'ini verified motorcycle-specific evidence yapmaz,
-- shield/check iconography'yi final trust/safety component semantics'i olarak onaylamaz,
-- U04'u tum ekranlara universal template yapmaz.
+Exact HEX/font/spacing/icon family/dark theme/responsive behavior final degildir. Shield/check generic canonical trust/safety badge degildir.
 
-Required refinement constraints:
-- trust/provenance iconography official safety certification veya guaranteed correctness izlenimi vermemeli,
-- trust ile safety icon semantics'i ayristirilmali,
-- final colors/accessibility/dark-mode behavior daha sonra validate edilmeli,
-- responsive header behavior daha sonra screen/spec asamasinda ele alinmali.
+---
+
+## DEC-0016 — Screen Inventory / Navigation / Critical-State Architecture Approved
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici, delegated Screen Inventory 01 paketi + main-manager `PASS_WITH_REFINEMENTS` QA sonucundan sonra ekran planina devam edilmesini acikca onayladi (`onaylıyorum`).
+
+Bunun sonucunda Phase-3 working architecture olarak sunlar APPROVED:
+- `03_DESIGN/SCREEN_CATALOG.md` — `SCR-001` — `SCR-038` product interaction contexts,
+- `03_DESIGN/NAVIGATION_MAP.md` — product-level transition architecture,
+- `03_DESIGN/STATE_MATRIX.md` — critical-state architecture,
+- `03_DESIGN/DESIGN_PRINCIPLES.md` — working screen-level design principles,
+- `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md` — journey/rule coverage,
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`.
+
+Main-manager refinement `SCR-038 — Community Experiences / Q&A` approval kapsamindadir.
+
+Approval semantics bilincli olarak working-architecture seviyesindedir. Bu karar:
+- 38 permanent implementation route gerektirmez,
+- full-screen/sheet/modal/inline kararlarini source olmayan yerde kilitlemez,
+- final global navigation shell veya bottom-tab yapisini secmez,
+- final MVP scope/prioritization karari degildir,
+- final component library/tokens/visual specs degildir,
+- technology/backend/database/API/auth/sync/framework karari degildir,
+- Gate 3 -> 4'u otomatik gecirmez.
+
+Next authorized Phase-3 task: **Screen-Family Principles + Screen Specifications**.
