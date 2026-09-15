@@ -13,176 +13,120 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 7. Anchor UX Structure Calibration — **DONE**
 8. U04 selection + main-manager QA — **DONE: U04 working anchor hierarchy**
 9. Visual-style exploration with U04 fixed — **DONE: V10 working visual direction**
-10. **Full screen inventory + navigation + critical state coverage — CURRENT / READY**
-11. Design principles / screen specs
+10. Full screen inventory + navigation + critical state coverage — **MAIN-MANAGER QA DONE / USER REVIEW REQUIRED**
+11. Screen-family principles + screen specifications — **BLOCKED pending inventory approval**
 12. Screen-by-screen visual references + user approval
 13. Gate 3 -> 4 readiness review
 
-Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style artik ayni anda degistirilmez; hierarchy once secilir, visual character ayni hierarchy uzerinde kalibre edilir ve full-app screen/state architecture bundan sonra kurulur.
+## Approved Working References
 
-## Approved Working Brand
+### Brand
+**Kavriva** — APPROVED working consumer-facing brand.
 
-**Kavriva**
-
-Status: `APPROVED WORKING CONSUMER-FACING BRAND NAME`
-
-Canonical source:
+Canonical:
 - `BRAND_NAME.md`
 - DEC-0012
 
-Naming approval legal trademark clearance degildir. Known Kavira/Kaviva similarity risks launch-risk validation olarak korunur.
+### Logo
+**L05A — The Precision Fit** — APPROVED working direction.
 
-## Approved Working Logo Direction
-
-**L05A — The Precision Fit**
-
-Status: `APPROVED WORKING DIRECTION`
-
-Canonical source:
+Canonical:
 - `LOGO_DIRECTION.md`
-- `KAVRIVA_LOGO_REVIEW.md`
 - DEC-0013
 - `REFERENCE_INDEX.md` -> `REF-BRAND-001`
 
-Approved direction semantics:
-- precision fit / controlled alignment,
-- precise,
-- geometric,
-- modular,
-- controlled,
-- restrained angularity,
-- deliberate rather than fast,
-- calm technical credibility.
+### Anchor UX
+**U04 — Progressive Detail** — APPROVED working anchor UX.
 
-Not approved yet:
-- production vector master,
-- exact geometry/proportions/corner treatment,
-- final wordmark font,
-- final launcher-icon spec,
-- trademark/legal uniqueness.
-
-## Approved Working Anchor UX Structure
-
-**U04 — Progressive Detail**
-
-Status: `APPROVED WORKING ANCHOR UX STRUCTURE`
-
-Canonical source:
+Canonical:
 - `ANCHOR_UX_STRUCTURE.md`
-- `KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
 - DEC-0014
 - `REFERENCE_INDEX.md` -> `REF-UX-001`
 
 Core principle:
 **Accessible does not mean simultaneously prominent.**
 
-Default task-first hierarchy:
-1. compact brand/context/progress,
-2. step title,
-3. quiet trust label,
-4. one dominant visual,
-5. one annotation,
-6. concise instruction,
-7. integrated critical safety,
-8. collapsed flat detail affordance,
-9. one dominant completion CTA,
-10. lower-emphasis visible recovery path.
+### Anchor Visual
+**V10 — Signature Kavriva** — APPROVED working visual direction.
 
-U04 is an anchor calibration structure only. It is NOT a universal template for every screen and is NOT the final screen catalog/navigation/state architecture.
-
-## Approved Working Anchor Visual Direction
-
-**V10 — Signature Kavriva**
-
-Status: `APPROVED WORKING VISUAL DIRECTION`
-
-Canonical source:
+Canonical:
 - `ANCHOR_VISUAL_STYLE.md`
-- `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
 - DEC-0015
 - `REFERENCE_INDEX.md` -> `REF-VISUAL-001`
 
-Working visual-DNA:
-- clean near-white canvas,
-- deep graphite/navy text,
-- restrained electric-blue accent,
-- realistic inspection-focused imagery,
-- moderate rounding,
-- low decorative noise,
-- strong typographic hierarchy,
-- restrained L05A presence,
-- calm technical credibility.
+Important V10 constraints:
+- exact HEX values final production tokens degil,
+- shield/check canonical trust/safety badge degil,
+- generated mechanical image verified motorcycle-specific evidence degil,
+- exact font/spacing/radii/responsive/dark-theme behavior final degil,
+- V10 universal full-app layout degil.
 
-Important constraints:
-- handoff'taki exact HEX values final production token DEGILDIR,
-- shield/check trust/safety iconography final canonical component semantics DEGILDIR,
-- generated motorcycle image verified motorcycle-specific evidence DEGILDIR,
-- exact font/spacing/radii/responsive behavior henuz final degildir,
-- V10 visual direction universal layout degildir.
+## Screen Inventory — Current Review Set
 
-## Current Screen Inventory Task
+Main-manager review:
+- `SCREEN_INVENTORY_REVIEW.md`
+- result: `PASS_WITH_REFINEMENTS — USER APPROVAL REQUIRED`
 
-**USE NOW:**
-- `PHASE3_SCREEN_INVENTORY_AI_PROMPT.md`
+Canonical review artifacts:
+- `SCREEN_CATALOG.md` — REVIEW
+- `NAVIGATION_MAP.md` — REVIEW
+- `STATE_MATRIX.md` — REVIEW
+- `DESIGN_PRINCIPLES.md` — REVIEW
+- `SCREEN_COVERAGE_TRACEABILITY.md` — REVIEW
 
-Bu tur image/mockup generation yapmaz. Approved Phase-2 product truth'tan:
-- candidate screen catalog,
-- navigation/transition map,
-- critical state matrix,
-- journey/business-rule traceability,
-- proposed screen-level design principles,
-- design gaps/ambiguities
+Current candidate inventory:
+- delegated baseline: `SCR-001` — `SCR-037`,
+- main-manager coverage addition: `SCR-038 — Community Experiences / Q&A`.
 
-cikarir.
+`SCR-*` IDs product interaction contexts'tir; permanent route sayisi degildir.
 
-### Critical rule
+## Main-Manager Screen Inventory QA Notes
 
-U04 ve V10 screen inventory icin reference'tir; tum screen'lere universal template olarak kopyalanmaz.
+Passed:
+- known-task, symptom-first, record-only, interruption/recovery, maintenance, history/dispute, inactive motorcycle, transfer/archive/delete, collaboration, migration ve entitlement-preserved-access coverage,
+- critical states including teaching-only, safety hold, mismatch, insufficient evidence, material guide change, partial/unresolved, re-review, downgrade,
+- U04/V10'un universal template'e donusturulmemesi,
+- global navigation / technical routing / technology / pricing finalization yapilmamasi.
 
-Inventory phase:
-- screen inflation yapmamalidir,
-- screen vs sheet/modal vs inline-state ayrimini gereksiz yere kilitlememelidir,
-- happy path disinda safety hold, teaching-only, mismatch, insufficient evidence, dispute, critical correction, interruption/resume, material guide change, recovery, offline/stale, inactive entitlement, collaboration revoke, transfer/archive/delete ve migration-conflict states'ini kapsamalidir.
+Refinement:
+- community contribution/moderation vardi fakat published community Q&A/experience consumption context'i allocation almamisti; `SCR-038` eklendi.
 
-## Previous UX Feedback
+Explicitly still open design mappings:
+- global nav shell,
+- full-screen vs sheet/modal/inline,
+- notification control placement,
+- accessibility modality preference placement,
+- language/unit preference placement if user-configurable,
+- historical claim-state visual vocabulary.
 
-Evidence:
-- `ANCHOR_UX_FEEDBACK_01.md`
-
-Earlier anchor-screen outputs were judged crowded / dashboard-like because UX hierarchy and visual styling were varied together and too many semantics were forced into simultaneously prominent blocks.
-
-That approach is deprecated.
-
-## Deprecated / Completed Prompts
-
-- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — **DEPRECATED / DO NOT USE**.
-- Historical V1: `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`.
-- UX structure calibration prompt — COMPLETED.
-- Anchor visual-style exploration prompt — COMPLETED.
+Generic Settings screen source olmadan uydurulmaz.
 
 ## Design Reference Authority
 
-`REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references sonraki design calismalari icin otoritedir.
+`REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references gorsel/UX authority'dir.
 
 Current approved references:
-- `REF-BRAND-001` -> L05A working logo direction.
-- `REF-UX-001` -> U04 working anchor UX hierarchy.
-- `REF-VISUAL-001` -> V10 working anchor visual direction.
+- `REF-BRAND-001` -> L05A,
+- `REF-UX-001` -> U04 anchor hierarchy,
+- `REF-VISUAL-001` -> V10 working visual direction.
 
-## Coverage Rule
-
-Inventory/state phase'inde happy path disinda loading, empty, error, permission, offline, safety hold, teaching-only, uncertainty/dispute, critical correction, interrupted/recovery, inactive-entitlement, migration/conflict ve downgrade states kapsanmalidir.
+Screen architecture artifacts henuz `REVIEW`; user approval sonrasi source-of-truth authority seviyesine tasinabilir.
 
 ## Scope Restrictions
 
 Design asamasi:
 - Product Discovery requirement'larini sessizce degistiremez.
-- UX simplification product semantics'i kaldiramaz.
-- U04'u universal full-app layout yapamaz.
-- V10'u exact final design-system token/component karari yapamaz.
+- U04'u universal layout yapamaz.
+- V10'u exact final component/token system yapamaz.
+- `SCR-*` count'u route count gibi yorumlayamaz.
 - Technology/backend/database/API/auth/sync/framework secemez.
 - Final pricing/tier/quota karari veremez.
-- Generated/reference artifact'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
-- Logo selection'i production-ready/trademark-safe asset ilan edemez.
+- Screen inventory user approval olmadan APPROVED/LOCKED ilan edilemez.
 
-Gate 3 -> 4 icin screen catalog, navigation map, critical state coverage ve yeterli user-approved visual references gereklidir.
+Gate 3 -> 4 icin approved screen catalog, navigation map, important state coverage ve yeterli approved visual references gerekir.
+
+## Current Next Action
+
+User main-manager QA'den gecmis Screen Inventory architecture'i approve eder veya degisiklik ister.
+
+Approval gelmeden screen-family/spec delegation promptu ACTIVE yapilmaz.
