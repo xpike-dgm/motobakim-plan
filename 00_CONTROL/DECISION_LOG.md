@@ -159,3 +159,32 @@ Bu karar:
 
 Current first prompt:
 `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md`.
+
+---
+
+## DEC-0012 — Kavriva Approved as Working Consumer-Facing Brand Name
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici, delegated naming exploration + second-pass validation + main-manager QA sonrasinda `Kavriva` adini acikca onayladi.
+
+Bilinen preliminary riskler user approval oncesinde aciklandi ve korunuyor:
+- `Kavira Software` benzerligi,
+- `Kavira` digital/mobile brand kullanimi,
+- close spelling `KAVIVA` trademark activity,
+- `Kavriva -> Kavira / Kaviva` hear/write confusion ihtimali.
+
+Buna ragmen kullanici `Kavriva`yi Phase-3 design calismalari icin working consumer-facing brand name olarak kabul etti.
+
+Bunun sonucunda:
+- `03_DESIGN/BRAND_NAME.md` APPROVED brand-name source-of-truth'tur,
+- logo exploration `Kavriva` uzerinden baslatilabilir,
+- `Motobakim` / `MotoBakim` internal project/repository codename olarak kalabilir,
+- brand name LOCKED degildir; daha yeni explicit user karari controlled supersession yapabilir.
+
+Bu karar:
+- legal trademark clearance DEGILDIR,
+- registrability/infringement sonucu DEGILDIR,
+- domain/handle availability veya ownership garantisi DEGILDIR.
+
+Comprehensive trademark similarity clearance, priority domain/handle verification ve gerekirse hear/write recall validation high-cost public brand commitment / launch oncesi ayri validation konusu olarak kalir.
