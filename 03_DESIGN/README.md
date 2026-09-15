@@ -14,8 +14,8 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 8. U04 selection + main-manager QA — **DONE: U04 working anchor hierarchy**
 9. Visual-style exploration with U04 fixed — **DONE: V10 working visual direction**
 10. Full screen inventory + navigation + critical state coverage — **DONE / USER APPROVED**
-11. **Screen-family principles + screen specifications — CURRENT / READY**
-12. Screen-by-screen visual references + user approval
+11. Screen-family principles + screen specifications — **MAIN-MANAGER QA DONE / USER NAVIGATION DECISION REQUIRED**
+12. Screen-by-screen visual references + user approval — **BLOCKED pending current decision**
 13. Gate 3 -> 4 readiness review
 
 ## Approved Working References
@@ -26,45 +26,49 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - Anchor visual: **V10 — Signature Kavriva** — `REF-VISUAL-001`, DEC-0015.
 - Screen/state architecture: **Screen Inventory 01 + refinement** — `REF-ARCH-001`, DEC-0016.
 
-## Approved Working Screen Architecture
+## Screen Family + Specifications Review
 
-Canonical:
-- `SCREEN_CATALOG.md`
-- `NAVIGATION_MAP.md`
-- `STATE_MATRIX.md`
-- `DESIGN_PRINCIPLES.md`
-- `SCREEN_COVERAGE_TRACEABILITY.md`
-- `SCREEN_INVENTORY_REVIEW.md`
+Delegated package:
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / SCREEN FAMILY + SPECS 01`
 
-Current catalog:
-`SCR-001` — `SCR-038`.
+Main-manager review:
+- `SCREEN_FAMILY_SPEC_REVIEW.md`
+- result: `PASS_WITH_REFINEMENTS — USER NAVIGATION DECISION REQUIRED`
 
-These are product interaction contexts, not guaranteed permanent routes.
+Package 9 working family oneriyor:
+- FAM-01 First Use / Motorcycle Context
+- FAM-02 Guide Discovery / Fit / Preparation
+- FAM-03 Active Application / Safety / Recovery
+- FAM-04 Diagnosis
+- FAM-05 Maintenance / Reminder
+- FAM-06 History / Evidence / Trust
+- FAM-07 Motorcycle Lifecycle / Entitlement
+- FAM-08 Profile / Collaboration
+- FAM-09 Community
 
-Still open for screen-family/spec work:
-- global navigation shell,
-- exact full-screen vs sheet/modal/inline mapping,
-- routine notification control placement,
-- language/unit preference placement if user-configurable,
-- accessibility modality preference placement,
-- exact historical trust/claim visual vocabulary,
-- exact correction reach-back channel/cadence.
+Tum `SCR-001` — `SCR-038` coverage aliyor.
 
-Generic Settings megascreen, dashboard/KPI home, marketplace home veya social feed convention ile uydurulmaz.
+Main-manager refinement:
+- language/unit ve accessibility davranislari profile/account prerequisite olamaz; account-light/local use'da da calismalidir.
 
-## Current Task
+## Global Navigation — Current Decision
 
-**USE NOW:**
-`PHASE3_SCREEN_FAMILY_SPEC_AI_PROMPT.md`
+Three PROPOSED options:
+1. Motorcycle-Context-First
+2. Task-First Launcher
+3. Focused Hybrid
 
-Bu tur:
-- `SCR-*` context'lerini 6–9 anlamli family'ye ayirir,
-- family-level UX principles cikarir,
-- SCR-001 — SCR-038 icin tek tek screen specification yazar,
-- global navigation shell icin en fazla 3 PROPOSED option sunar,
-- ambiguous surface treatments'i PROPOSED olarak degerlendirir,
-- cross-cutting control placement ve trust/safety semantics'i rafine eder,
-- mockup/image URETMEZ.
+Working recommendation:
+**Option 3 — Focused Hybrid**
+
+Option 3 concept:
+- compact active motorcycle context,
+- ana alanlar: `Yap / Coz`, `Bakim`, `Gecmis`,
+- motorcycle switch contextual control,
+- lifecycle/profile/collaboration/community contextual / lower-prominence entry,
+- generic dashboard yok.
+
+This is NOT approved until explicit user selection.
 
 ## Core Design Protections
 
@@ -74,7 +78,8 @@ Bu tur:
 - Shield/check generic trust/safety/certification badge degildir.
 - Product semantics visual simplicity ugruna kaldirilamaz.
 - Safety, provenance, uncertainty, recovery ve historical truth gereken context'te korunur.
-- Screen/state architecture user approval olmadan degistirilemez; refinement controlled change ister.
+- Language/unit/accessibility presentation profile requirement'a baglanamaz.
+- Generic Settings megascreen, dashboard/KPI home, marketplace home veya social feed convention ile uydurulmaz.
 
 ## Scope Restrictions
 
@@ -85,6 +90,10 @@ Phase 3:
 - mockup/reference user + main-manager review olmadan authority yapamaz,
 - Gate 3 -> 4 kosullari tamamlanmadan Phase 4'e gecemez.
 
-## Gate 3 -> 4
+## Next Action
 
-Gate 3 icin approved screen catalog/navigation/important states ve approved visual references gerekir. Bunlarin buyuk kismi mevcut olsa da screen specifications ve yeterli screen-by-screen visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
+User global navigation shell icin 1 / 2 / 3 secimi yapar.
+
+Main-manager recommendation: **3 — Focused Hybrid**.
+
+Selection sonrasi screen-family/spec package controlled approval'a alinabilir ve family-based screen-by-screen visual reference planlama promptu hazirlanabilir.
