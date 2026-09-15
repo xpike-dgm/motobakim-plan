@@ -8,8 +8,8 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 |---|---|---|
 | Hafiza / kontrol | `00_CONTROL/*` | APPROVED |
 | Calisma sistemi | `01_WORKSPACE/*` | APPROVED |
-| Urun kesfi | `02_DISCOVERY/*` | REVIEW |
-| Tasarim | `03_DESIGN/*` | EMPTY |
+| Urun kesfi | `02_DISCOVERY/*` | APPROVED |
+| Tasarim | `03_DESIGN/*` | DRAFT |
 | Teknoloji tartismasi | `04_TECH_STRATEGY/*` | EMPTY |
 | ADR | `05_ADR/*` | EMPTY |
 | Teslimat planlama | `06_DELIVERY_PLANNING/*` | EMPTY |
@@ -18,6 +18,8 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 
 `01_WORKSPACE` Phase-1 sentezi kullanici tarafindan 2026-09-14 tarihinde acikca onaylandi ve Gate 1 -> 2 gecisi tamamlandi.
 
-`02_DISCOVERY` Q006-Q245 raw evidence ve working synthesis ile discovery saturation review seviyesine ulasti. `02_DISCOVERY/GATE_2_REVIEW.md` recommendation'i `READY_FOR_USER_APPROVAL` durumundadir. User approval olmadan discovery `APPROVED` sayilmaz ve Gate 2 -> 3 gecilmez.
+`02_DISCOVERY` Q006-Q245 raw evidence + approved synthesis snapshot ile 2026-09-15 tarihinde kullanici tarafindan APPROVED edildi. Canonical entry point: `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`. Gate 2 -> 3 PASSED.
+
+`03_DESIGN` aktif asamadir. Ana screen/navigation/state artifacts henuz doldurulmamistir; ilk kontrollu screen-inventory promptu hazirlanarak Design DRAFT baslatilir. Phase 4'e Gate 3 saglanmadan gecilmez.
 
 Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
