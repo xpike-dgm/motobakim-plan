@@ -350,3 +350,58 @@ Bu karar:
 final yapmaz.
 
 Next authorized Phase-3 task: **five-tab shell uzerinde family-based screen visual references**.
+
+---
+
+## DEC-0018 — A1 Guided Split Approved as Working AI Usta UX Structure
+**Date:** 2026-09-15  
+**Status:** APPROVED
+
+Kullanici delegated AI Usta UX calibration turunda A1 adayi icin verbatim olarak:
+
+> A1 iyi
+
+secimini yapti. Main-manager portable handoff'u approved navigation/spec/product boundaries ile QA ederek `PASS_WITH_CONSTRAINTS` sonucuyla kabul etti.
+
+Approved working structure:
+**A1 — Guided Split**.
+
+### Root hierarchy
+
+AI Usta root surface:
+- compact selected motorcycle context,
+- `Nasil yardimci olayim?`,
+- `Bir is yapmak istiyorum`,
+- `Motorda bir sorun var`,
+- optional low-prominence help,
+- approved five-tab bottom navigation
+
+yapisini kullanir.
+
+Target:
+**1 context + 1 prompt + 2 paths.**
+
+### Routing authority
+
+- `Bir is yapmak istiyorum` -> `SCR-009 Known Task Find / Select`.
+- `Motorda bir sorun var` -> `SCR-019 Symptom Capture`.
+
+A1 root technical answer surface veya chat-history home degildir. Task declaration fit/readiness authority yaratmaz; symptom declaration direct part-replacement veya unsupported diagnosis uretmez.
+
+### Constraints
+
+- Two intent choices bulky card-stack'e donusturulmez.
+- Selected motorcycle context compact kalir; lifecycle/switch authority Garaj'dadir.
+- Root free-form composer zorunlu degildir; natural language downstream task/symptom capture'da kullanilabilir.
+- AI Usta verified guide/source/provenance yerine gecemez ve safety/fit/readiness gates'i bypass edemez.
+- Ambiguous user icin low-prominence `Hangisini secmeliyim?` yardimi olabilir; third equal-weight path degildir.
+
+Canonical sources:
+- `03_DESIGN/AI_USTA_UX_STRUCTURE.md`
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-AIUSTA-001`
+
+Bu karar LLM/provider/backend/AI architecture, production tokens/icons, active-repair bottom-bar visibility veya first post-onboarding landing tab'i finalize etmez.
+
+Next authorized Phase-3 task: **five-tab main-shell root visual references**.
