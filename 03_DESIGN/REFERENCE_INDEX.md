@@ -11,6 +11,7 @@ Status: ACTIVE
 | `REF-NAV-001` | Global navigation shell | `03_DESIGN/GLOBAL_NAVIGATION.md` | `5-tab: Garaj / Bakim / AI Usta / Gecmis / Topluluk` | APPROVED | Earlier proposed 1/2/3 shell options |
 | `REF-SPEC-001` | Full-app working screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | `Screen Family + Specs 01 + DEC-0017 refinement` | APPROVED | — |
 | `REF-AIUSTA-001` | AI Usta root / known-task vs symptom entry structure | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | `A1 — Guided Split / AI Usta UX Structure 01` | APPROVED | Earlier A1-A4 candidates |
+| `REF-SHELL-001` | Five-tab root visual family | `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` | `R01 Garaj / R02 Bakim / R03 AI Usta / R04 Gecmis / R05 Topluluk` | APPROVED | — |
 
 ## Reference Semantics
 
@@ -117,6 +118,39 @@ This reference does NOT authorize:
 - final production icon/color/font/spacing tokens.
 
 Visual-reference work must keep the root low-clutter and must not turn the two intents into a bulky card stack.
+
+### REF-SHELL-001
+
+Authorizes the user-accepted **R01–R05 five-tab root visual family** as a working Phase-3 reference set.
+
+Approved root-level behavior:
+- Garaj remains motorcycle-context focused,
+- Bakim remains maintenance-plan focused,
+- AI Usta keeps A1's two-path entry,
+- Gecmis remains a scannable history surface,
+- Topluluk remains separate-authority community discovery/Q&A.
+
+Approved visual family signals:
+- near-white canvas,
+- dark graphite/navy typography,
+- restrained electric-blue accent,
+- low decoration,
+- strong title hierarchy,
+- moderate rounding,
+- restrained L05A presence.
+
+This reference does NOT approve:
+- exact bottom-tab icons; screenshots contain icon inconsistencies,
+- exact typography/color/spacing/radius tokens,
+- exact header/logo geometry,
+- R03 decorative motorcycle crop as required A1 structure,
+- R05 contribution CTA prominence as a permanent engagement rule,
+- community wording as proof of verified authenticity,
+- generated motorcycle imagery as technical evidence,
+- active-repair bottom-bar behavior,
+- first post-onboarding landing tab.
+
+Image provenance and SHA-256 values are recorded in `MAIN_SHELL_VISUAL_REFERENCES.md`; PNG binaries are not stored in this repository.
 
 ## Authority Rule
 
