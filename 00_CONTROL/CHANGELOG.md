@@ -151,5 +151,17 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Screen inventory/navigation/state coverage Gate 3 zorunlulugu olmaya devam eder; yalniz visual calibration sonrasina alindi.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — ANCHOR VISUAL EXPLORATION READY`.
 
+### Phase 3 Sequence Refinement — Brand Identity Before UI Visual Calibration
+- User ilk 10 anchor visual direction'i yeterli bulmadigini ve yeni UI gorsellerinden once uygulamanin gercek isminin, sonra logosunun belirlenmesini explicit olarak istedi.
+- Ilk anchor visual denemesi APPROVED reference olmadi; visual DNA authority olusmadi.
+- DEC-0010 SUPERSEDED; DEC-0011 `Phase 3 Brand Identity Before UI Visual Calibration` APPROVED.
+- `Motobakim` consumer-facing final brand degil, internal codename/placeholder olarak tutuldu.
+- Yeni Phase-3 sequence: naming -> second-pass validation -> logo -> brand visual DNA -> anchor visuals round 2 -> screen inventory/navigation/state -> specs -> screen references.
+- `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` current first prompt olarak olusturuldu.
+- Naming prompt approved product truth'tan minimum 36 candidate, 6 naming territory, top-12 evaluation, preliminary collision/domain/app-brand research, final-5 ve user favorite selection ister.
+- Preliminary availability/collision research legal trademark clearance sayilmaz; web research yapilmadan availability uydurulamaz.
+- Anchor visual ve screen-inventory promptlari name+logo sonrasina DEFERRED edildi.
+- `03_DESIGN/README.md`, `CURRENT_STATE.md` ve `HANDOFF.md` brand-first sequence ile yenilendi.
+
 ### Current State
-Durum `PHASE-3 / DESIGN — ANCHOR VISUAL EXPLORATION READY`. Siradaki adim `03_DESIGN/PHASE3_ANCHOR_VISUAL_EXPLORATION_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; 10 visual direction arasindan user preference'i toplamak ve portable handoff package'i ana proje yoneticisine geri getirmektir.
+Durum `PHASE-3 / DESIGN — BRAND NAMING READY`. Siradaki adim `03_DESIGN/PHASE3_BRAND_NAMING_AI_PROMPT.md` promptunu yeni AI sohbetine vermek; naming exploration + user favorite selection + second-pass validation sonrasi `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / BRAND NAME 01` paketini ana proje yoneticisine geri getirmektir.
