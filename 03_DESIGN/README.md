@@ -1,6 +1,6 @@
 # 03 — DESIGN
 
-Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved visual direction'larini, ekran/state envanterini ve reference sistemini kontrollu sirayla olusturmaktir.
+Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved UX/visual direction'larini, ekran/state envanterini ve reference sistemini kontrollu sirayla olusturmaktir.
 
 ## Current Phase 3 Sequence
 
@@ -9,13 +9,16 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 3. Kavriva explicit brand-name approval — **DONE**
 4. Logo exploration Round 01 + Round 02 — **DONE**
 5. Logo selection / main-manager QA — **DONE: L05A working direction**
-6. **Anchor Screen Visual Exploration — Round 2 — CURRENT / READY**
-7. Full screen inventory + navigation + critical state coverage
-8. Design principles / screen specs
-9. Screen-by-screen visual references + user approval
-10. Gate 3 -> 4 readiness review
+6. Anchor visual R2 attempt — **NOT ACCEPTED / DEPRECATED: UX clutter feedback**
+7. **Anchor UX Structure Calibration — CURRENT / READY**
+8. Selected UX hierarchy QA
+9. Visual-style exploration — selected UX structure fixed
+10. Full screen inventory + navigation + critical state coverage
+11. Design principles / screen specs
+12. Screen-by-screen visual references + user approval
+13. Gate 3 -> 4 readiness review
 
-Screen inventory/state coverage zorunlulugu kaldirilmamistir; brand/UI visual calibration sonrasina planli olarak alinmistir.
+Screen inventory/state coverage zorunlulugu kaldirilmamistir. UX structure ve visual style'in ayni anda degistirilmesi artik yasaktir; once hierarchy, sonra visual character kalibre edilir.
 
 ## Approved Working Brand
 
@@ -59,48 +62,88 @@ Not approved yet:
 - final launcher-icon spec,
 - trademark/legal uniqueness.
 
-Critical constraints:
-- speed/racing treatment yok,
-- rewind/back-arrow ambiguity artmamali,
-- small-size negative-space separation korunmali,
-- `Kavriva` wordmark'inda `r` ve iki `v` acik kalmali.
+## User UX Feedback
 
-## Reviewed Logo Visual
+Evidence:
+- `ANCHOR_UX_FEEDBACK_01.md`
 
-Main-manager chat'te reviewed user-supplied image:
-- `Kavriva_L05A.png`
-- `1448 x 1086`
-- SHA-256: `0dcbcd704014a0cec8a6f40a9fe6917ffe954ca4123e3b1a723aed8c222ea98d`
+User anchor-screen outputs'i UX olarak karisik buldu ve benzer problemin onceki visual-generation turunda da oldugunu belirtti.
 
-Binary PNG repository'de tutulmuyor. Exact visual fidelity gerektiren delegated generation session'a selected image attachment olarak verilmelidir.
+Main-manager diagnosis:
+- UX hierarchy + visual style ayni turda varyasyonlandi,
+- safety/trust/progress/visual/instruction/success/recovery/detail gibi semantic'ler ayni anda buyuk gorunur blocks olmaya zorlandi,
+- image-generation sonucunda card-stack/dashboard hissi tekrarlandi.
 
-## Current Anchor-R2 Task
+Bu diagnosis user feedback'ten turetilmis manager yorumudur; final UX truth degildir.
 
-Use now:
-- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md`
+## UX Simplification Principle
 
-User promptla birlikte selected L05A image'i attach etmelidir.
+**Accessible != simultaneously prominent.**
 
-Round 2:
-- single anchor: `Aktif Islem / Adim Adim Uygulama Rehberi — normal application-ready state`,
-- same fixed content/state,
-- 10 separate UI images,
-- Kavriva + L05A direction,
-- genuinely different typography/density/hierarchy/image/surface/color directions,
-- safety/trust/progress/recovery/success semantics invariant,
-- no full-app design.
+Approved product semantics korunur; fakat tum semantics ayni anda ayri buyuk cards olmak zorunda degildir.
 
-Round-2 user selection sonrasi delegated AI:
-`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR VISUAL R2`
+Progressive disclosure izinlidir:
+- trust/provenance -> compact affordance,
+- extra explanation -> on-demand,
+- success confirmation -> primary action semantics'ine entegre olabilir,
+- recovery -> gorunur ama lower-emphasis,
+- motorcycle context -> compact,
+- safety -> step criticality'sine gore integrated high-clarity treatment.
+
+Primary UX goal:
+User ilk bakista su uc soruyu cevaplayabilmelidir:
+1. Ne yapacagim?
+2. Nereye bakacagim?
+3. Bitirince neye basacagim?
+
+## Current UX Calibration Task
+
+**USE NOW:**
+- `PHASE3_ANCHOR_UX_STRUCTURE_CALIBRATION_AI_PROMPT.md`
+
+Selected `Kavriva_L05A.png` image'i ayni delegated sohbetine attach edilmelidir.
+
+Round:
+- U01-U05 5 separate UX structure image,
+- neutral / monochrome,
+- same semantics,
+- progressive disclosure,
+- no card-per-semantic,
+- no dashboard/KPI-chip treatment,
+- maximum 1 dominant content surface + 1 primary action zone,
+- user selects clearest 1-2 structures.
+
+User selection sonrasi delegated AI:
+`PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / KAVRIVA ANCHOR UX STRUCTURE 01`
 uretir ve DURUR.
 
-## Previous Anchor Exploration
+## Visual Style — Only After UX Selection
 
-Brand identity oncesindeki ilk 10-image anchor exploration user tarafindan begenilmedi.
+UX hierarchy main-manager QA'den gectikten sonra yeni visual-style promptu hazirlanir.
 
-- Hicbir prior variant APPROVED/LOCKED degildir.
-- Prior visual DNA authority degildir.
-- Current Round 2 temiz Kavriva + L05A calibration'dir.
+O turda selected UX structure SABIT kalir:
+- information hierarchy degismez,
+- element count logic degismez,
+- primary CTA placement logic degismez,
+- progressive disclosure degismez.
+
+Yalniz:
+- typography character,
+- palette family,
+- imagery treatment,
+- surface depth,
+- micro-shape language,
+- visual polish
+varyasyonlanir.
+
+## Deprecated Prompt
+
+`PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT.md` — **DEPRECATED / DO NOT USE**.
+
+Reason: user-reported repeated UX clutter.
+
+Historical V1:
+- `PHASE3_ANCHOR_VISUAL_EXPLORATION_R2_AI_PROMPT_DEPRECATED_V1.md`
 
 ## Design Reference Authority
 
@@ -108,6 +151,8 @@ Brand identity oncesindeki ilk 10-image anchor exploration user tarafindan begen
 
 Current approved reference:
 - `REF-BRAND-001` -> L05A working logo direction.
+
+Henuz approved anchor UX veya UI visual reference yoktur.
 
 ## Coverage Rule
 
@@ -117,9 +162,10 @@ Inventory/state phase'inde happy path disinda loading, empty, error, permission,
 
 Design asamasi:
 - Product Discovery requirement'larini sessizce degistiremez.
+- UX simplification product semantics'i kaldiramaz.
 - Technology/backend/database/API/auth/sync/framework secemez.
 - Final pricing/tier/quota karari veremez.
-- Generated visual'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
+- Generated UX/visual reference'i user selection + QA olmadan APPROVED/LOCKED ilan edemez.
 - Logo selection'i production-ready/trademark-safe asset ilan edemez.
 
 Gate 3 -> 4 icin screen catalog, navigation map, critical state coverage ve yeterli user-approved visual references gereklidir.
