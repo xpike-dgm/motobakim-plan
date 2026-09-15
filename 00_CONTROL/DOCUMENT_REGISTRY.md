@@ -35,13 +35,15 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `SCREEN_FAMILY_SPEC_REVIEW.md` — approved QA record
 - `AI_USTA_UX_STRUCTURE.md` — A1 Guided Split working AI Usta root UX
 - `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` — approved QA record
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`
+- `MAIN_SHELL_VISUAL_REFERENCES.md` — R01–R05 approved working root visual family
+- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md` — root-set main-manager QA
+- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`
 
 Current Phase-3 task:
-**Five-tab main-shell root visual references**.
+**Guide Discovery / Fit / Preparation visual references — SCR-009–SCR-013**.
 
 Active prompt:
-`03_DESIGN/PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md`.
+`03_DESIGN/PHASE3_GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES_AI_PROMPT.md`.
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 
