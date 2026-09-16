@@ -18,8 +18,11 @@ The refined E01-E05 set is approved as a working visual reference family. This a
 
 > Kavriva logosunu kullanmamışsın
 
-Final acceptance:
+Initial acceptance:
 > genel olarak iyi
+
+Explicit main-manager approval confirmation after QA:
+> onaylıyorum
 
 Resolution:
 - The first E02-E05 candidates used a text-only `Kavriva` header and therefore did not satisfy the user's logo-fidelity expectation.
