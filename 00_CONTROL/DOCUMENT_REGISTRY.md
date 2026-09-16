@@ -54,18 +54,20 @@ Approved working design authorities:
 - `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
 - `DIAGNOSIS_VISUAL_REFERENCES.md`
 - `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
+- `MAINTENANCE_REMINDER_VISUAL_REFERENCES.md`
+- `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
 
 `REFERENCE_INDEX.md` approved references:
-`REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`.
+`REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`, `REF-MAINT-001`.
 
 ## Current Phase-3 Task
 
-**FAM-05 Maintenance / Reminder visual references**.
+**FAM-06 History / Evidence / Trust visual references**.
 
 Active prompt:
-`03_DESIGN/PHASE3_MAINTENANCE_REMINDER_VISUAL_REFERENCES_AI_PROMPT.md`.
+`03_DESIGN/PHASE3_HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES_AI_PROMPT.md`.
 
-Existing R02 Bakim root is H01; generate H02–H04 only.
+Existing R04 Gecmis root is I01; generate I02–I06 only.
 
 Phase 4'e Gate 3 saglanmadan gecilmez. Remaining critical mobile visual references and the Internal Data/Content Operations requirements/workflow addendum must be covered before Gate 3 readiness review.
 
