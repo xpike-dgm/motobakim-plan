@@ -2,7 +2,7 @@
 
 Status: APPROVED REQUIREMENT
 Date: 2026-09-16
-Decision: DEC-0020
+Authority: explicit user approval + controlled project scope addendum
 
 ## User Decision
 
