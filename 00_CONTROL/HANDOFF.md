@@ -7,90 +7,80 @@ Motobakim / consumer-facing working brand: Kavriva
 `xpike-dgm/motobakim-plan`
 
 ## Current Phase
-`PHASE-3 / DESIGN — MOTORCYCLE LIFECYCLE + ENTITLEMENT VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — PROFILE + COLLABORATION VISUAL REFERENCES READY`
 
 ## What Just Happened
 
-FAM-06 History / Evidence / Trust is now approved working visual authority.
+FAM-07 Motorcycle Lifecycle / Entitlement is now approved working visual authority.
 
-User acceptance evidence:
-> l05 çok karışık ux olarak kötü diğerleri iyi
-
-After I05 simplification:
-> evet oldu
-
-Main-manager QA: `PASS_WITH_CONSTRAINTS`.
+User feedback in delegated session refined J05 twice for clutter/spacing. Accepted J05 authority is v3. Main-manager QA: `PASS_WITH_CONSTRAINTS`.
 
 Canonical:
-- `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-HISTORY-001`
+- `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-LIFECYCLE-001`
 
 Working meaning:
-- I01 existing R04 Gecmis root,
-- I02 current usable record meaning before provenance detail,
-- I03 external/self work record without actor-role verification shortcut,
-- I04 dispute/evidence review without silent winner/overwrite,
-- I05 refined v2 critical correction / safety reach-back,
-- I06 basic export preserving provenance/correction/dispute context.
+- J01 active/inactive switch while preserving inactive records/trust access,
+- J02 inactive/archive vs transfer vs delete distinction,
+- J03 partial transfer coverage/gaps without auto-verification,
+- J04 scoped delete with independent/shared-data protection,
+- J05 v3 new-activity gate with existing history/evidence/provenance/correction/export/critical recovery preserved.
 
 Key constraints:
-- service/professional attribution != verification,
-- no silent overwrite or fake dispute winner,
-- evidence withdrawal does not erase independent history/provenance,
-- I05 v2 supersedes first cluttered I05,
-- critical correction survives inactive/entitlement state,
-- basic history/provenance/correction/dispute/export access cannot be retroactively paywalled,
+- inactive != delete/history lock,
+- transfer partial != complete and transfer != verification,
+- delete cannot silently erase independent/shared data,
+- exact retention/backup/legal deletion semantics remain later work,
+- no final pricing/tier/quota/billing decision,
 - focused-flow bottom navigation remains PROPOSED ONLY.
 
 ## Current Task
 
 **USE NOW:**
-`03_DESIGN/PHASE3_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES_AI_PROMPT.md`
+`03_DESIGN/PHASE3_PROFILE_COLLABORATION_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Generate exactly five visuals:
-- J01 — SCR-008 Motorcycle Switch / Active-Inactive Management
-- J02 — SCR-031 Motorcycle Lifecycle
-- J03 — SCR-032 Transfer Scope & Coverage
-- J04 — SCR-033 Delete Scope & Warning
-- J05 — SCR-037 New-Activity Entitlement Gate / Preserved Access
+Generate exactly three visuals:
+- K01 — SCR-006 Profile / Persistence Value
+- K02 — SCR-007 Local-to-Profile Migration / Conflict Review
+- K03 — SCR-034 Participants / Access / Revoke / Attribution
 
 Required attachments:
 - `Kavriva_L05A.png`
 - selected V10 screenshot
 - `R01-Garaj.png`
-- `I05-SCR-029-Critical-Correction-Safety-Reach-Back.png`
-- `I06-SCR-030-Data-Export.png`
+- `I03-SCR-027-Record-Work-Self-Hobby-External-Service.png`
+- `J01-SCR-008-Motorcycle-Switch-Active-Inactive-Management.png`
 
-Lifecycle protections:
-- inactive motorcycle != history lock,
-- routine reminders may pause while history/evidence/export/correction/critical reach-back remain,
-- reactivation may require current use/mileage and physical-state revalidation,
-- archive != transfer != delete,
-- transfer partial != complete and does not auto-verify records,
-- delete must respect independent/shared data boundaries,
-- entitlement may gate relevant new routine activity but not existing truth/safety/history/export/correction/safe recovery,
-- no pricing/tier/quota invention.
+Profile/collaboration protections:
+- profile is not a coercive prerequisite for current local/core value,
+- language/units/accessibility do not require profile,
+- migration preview + no silent loss/overwrite + conflict review,
+- cancel/failure preserves usable local/source state,
+- collaborator/helper/service role != verification,
+- revoke future access without erasing prior attribution/evidence/history,
+- private/personal content remains separable,
+- no auth/sync/backend/provider/pricing invention.
+
+## Remaining Mobile Visual Coverage
+
+9 new screens remain:
+- FAM-08 Profile / Collaboration: 3
+- FAM-09 Community: 2 new visuals; SCR-038 root already R05
+- FAM-01 First Use / Motorcycle Context: 4 new visuals; SCR-005 Garaj already R01
 
 ## Internal Data & Content Operations
 
-Still APPROVED project-scope requirement. Targeted requirements/workflow/screen architecture must be completed before Gate 3 -> 4 readiness. Exact web/desktop/hybrid and technology architecture remain open.
+Still APPROVED project-scope requirement. Requirements/workflow/screen architecture must be completed before Gate 3 -> 4 readiness. Exact web/desktop/hybrid form and technology architecture remain open; do not finalize internal visual design yet.
 
-## Current Sequence
+## Sequence
 
-1. Brand/logo/anchor — DONE.
-2. Architecture/specs/navigation/AI Usta — DONE.
-3. Root visuals — DONE.
-4. Guide — DONE.
-5. Active application/recovery — DONE.
-6. Diagnosis — DONE.
-7. Maintenance — DONE.
-8. History/evidence/trust — DONE.
-9. **Lifecycle/entitlement — CURRENT / READY.**
-10. Profile/collaboration + community critical visual coverage.
-11. Internal Data & Content Operations addendum.
-12. Gate 3 -> 4 review.
+1. FAM-08 Profile / Collaboration — CURRENT.
+2. FAM-09 Community.
+3. Remaining FAM-01 First Use / Motorcycle Context visuals.
+4. Internal Data & Content Operations requirements/workflow/screen architecture.
+5. Gate 3 -> 4 readiness review.
 
 No Phase 4 transition yet.
 
