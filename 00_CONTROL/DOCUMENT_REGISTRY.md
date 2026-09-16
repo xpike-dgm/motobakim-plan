@@ -43,15 +43,17 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md` — active-family main-manager QA
 - `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`
 
-Current Phase-3 status:
-**Active Application / Safety / Recovery E01–E05 approved; next recommended family FAM-04 Diagnosis**.
+Current Phase-3 task:
+**FAM-04 Diagnosis visual references — `SCR-019`–`SCR-021`**.
 
-Approved active-family artifacts:
-- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
-- PNGs: `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
+Active prompt:
+`03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`.
+
+The prompt asks for four visuals because `SCR-021` must cover both supported and unresolved outcomes:
+- G01 Symptom Capture
+- G02 One Diagnosis Check
+- G03 Supported Outcome
+- G04 Unresolved Outcome / Handoff
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 
