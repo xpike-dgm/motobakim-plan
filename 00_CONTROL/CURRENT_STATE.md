@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS APPROVED`
+`PHASE-3 / DESIGN — DIAGNOSIS VISUAL REFERENCES READY`
 
 ## Current Objective
 
@@ -23,64 +23,20 @@ Approved working design references:
 
 ## What Just Changed
 
-User supplied the required L05A, V10, D03, D04 and D05 visual references plus the active-family prompt and asked for them to be analyzed and applied to the repository.
+User explicitly confirmed the already-QA'd E01–E05 Active Application / Safety / Recovery family:
 
-Generated review candidates:
-- E01 = existing V10 / `SCR-014`; preserved, not regenerated,
-- E02 = `SCR-015 Problem / Mismatch / Recovery`,
-- E03 = `SCR-016 Resume Revalidation`,
-- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
-- E05 = `SCR-018 Completion / Safe Closure / Record`.
+> onaylıyorum
 
-Repository integration:
-- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001` (`APPROVED`)
-- `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
+This strengthens DEC-0019 approval evidence; no scope expansion occurred.
 
-User refinement feedback — verbatim:
-> Kavriva logosunu kullanmamışsın
+Active-family approval still does NOT finalize:
+- active-work bottom-bar visibility,
+- production copy/icons/components/tokens,
+- task-specific technical/evidence implementation,
+- accessibility/dark-mode production behavior,
+- routing/technology/backend/AI architecture.
 
-E02-E05 were corrected as `v2-L05A` candidates using the supplied black L05A symbol + wordmark lockup. The original text-only-header files remain as superseded review history.
-
-Final user acceptance — verbatim:
-> genel olarak iyi
-
-Main-manager QA:
-`PASS_WITH_CONSTRAINTS`
-
-Canonical:
-- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
-- DEC-0019
-
-## Guide-Family QA Constraints
-
-1. D03 `Uygulamaya hazir` may appear only after all mandatory/critical conditions are actually verified. Pending/unknown/stale/failed critical readiness cannot be shown as ready and cannot enable application.
-2. D01–D05 generated blue K-like mark is image-generation drift, NOT a new Kavriva logo. L05A remains authority.
-3. Generated tools/materials/optional examples are illustrative only and cannot become task-specific technical truth without validated source support.
-4. D02 fit/trust wording is fixture-dependent; real evidence is required before showing a confirmed-fit state.
-5. D01/D02 bottom-bar visibility and D03–D05 reduced navigation remain PROPOSED visual treatments, not routing authority.
-
-## Maintenance / AI Usta to Guide Continuity
-
-Both approved entries converge on the same trusted guide system:
-
-AI Usta
--> `Bir is yapmak istiyorum`
--> D01/D02
--> readiness
--> physical application only when conditions permit.
-
-Bakim
--> maintenance item/detail
--> explicit `Bakimi yap` / `Rehberi ac`
--> D01 or D02
--> readiness
--> application only when conditions permit.
-
-No sixth `Rehberler` bottom tab is added.
+A new controlled prompt is now active for **FAM-04 Diagnosis**.
 
 ## Current Phase 3 Sequence
 
@@ -98,19 +54,42 @@ No sixth `Rehberler` bottom tab is added.
 12. Global five-tab navigation — DONE / USER APPROVED.
 13. AI Usta UX Structure Calibration — DONE / A1 APPROVED.
 14. Five-tab main-shell root visual references — DONE / R01–R05 APPROVED WORKING SET.
-15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS.**
-16. **Active Application / Safety / Recovery visual references — DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS.**
-17. **Remaining critical screen/state visual references — NEXT: FAM-04 DIAGNOSIS.**
-18. Gate 3 -> 4 readiness review.
+15. Guide Discovery / Fit / Preparation visual references — DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS.
+16. Active Application / Safety / Recovery visual references — **DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS.**
+17. **FAM-04 Diagnosis visual references — READY / CURRENT.**
+18. Remaining critical screen/state visual references.
+19. Gate 3 -> 4 readiness review.
 
-## Next Recommended Task
+## Current Prompt
 
-**FAM-04 Diagnosis visual references:**
-- `SCR-019 Symptom Capture`,
-- `SCR-020 Diagnosis Checks`,
-- `SCR-021 Diagnosis Outcome / Handoff`.
+**USE NOW:**
+`03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`
 
-The next controlled round should preserve danger-first triage, evidence-driven narrowing, explicit unresolved outcomes and no unsupported certainty/random part replacement.
+The delegated visual AI must generate:
+- G01 — `SCR-019 Symptom Capture`,
+- G02 — `SCR-020 One Diagnosis Check`,
+- G03 — `SCR-021 Supported Outcome`,
+- G04 — `SCR-021 Unresolved Outcome / Handoff`.
+
+Why 4 visuals for 3 contexts:
+`SCR-021` has two critical legitimate states — supported and unresolved — and both require visual coverage.
+
+Required attachments:
+- `Kavriva_L05A.png`
+- selected V10 screenshot
+- `R03-AI-Usta.png`
+- `E02-SCR-015-Problem-Mismatch-Recovery-v2-L05A.png`
+
+Diagnosis must preserve:
+- danger-first triage,
+- evidence-driven narrowing,
+- one discriminating check at a time,
+- `Emin degilim` / uncertainty as valid,
+- explicit unresolved outcomes,
+- no random part replacement,
+- no unsupported certainty,
+- supported result -> guide preview -> fit/readiness before application,
+- photo analysis only when it materially helps; photo is evidence, not automatic diagnosis authority.
 
 ## Still Open — Not Errors
 
@@ -130,7 +109,7 @@ Language/unit ve accessibility support profile/account prerequisite olamaz.
 
 Gate 3 -> 4 HENUZ GECILMEDI.
 
-Screen/state architecture, navigation, working specs, AI Usta root UX, five-tab root visuals and Guide Discovery/Fit/Preparation family are approved working references. Remaining critical screen/state visual coverage must be completed before Gate 3 readiness review.
+Remaining critical screen/state visual coverage must be completed before Gate 3 readiness review.
 
 ## Last Refreshed
 
