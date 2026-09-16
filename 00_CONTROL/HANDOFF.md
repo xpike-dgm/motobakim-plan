@@ -10,49 +10,36 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS APPROVED`
+`PHASE-3 / DESIGN — DIAGNOSIS VISUAL REFERENCES READY`
 
 ## What Just Happened
 
-User supplied all required active-family references and asked for the Phase-3 prompt to be applied to the repository.
+Active Application / Safety / Recovery family E01–E05 main-manager QA sonucu `PASS_WITH_CONSTRAINTS` idi.
 
-E01 was preserved from the supplied V10 reference. E02-E05 were generated as separate candidate mobile visuals and passed initial constraint QA.
+User daha sonra acikca:
+> onaylıyorum
 
-Repository additions:
+diyerek bu working visual family'yi reconfirm etti.
+
+Canonical active-family authority:
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
 - `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001` (`APPROVED`)
-- `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
+- DEC-0019
 
-Latest user feedback — verbatim:
-> Kavriva logosunu kullanmamışsın
+Approval scope unchanged:
+- E01 = existing V10 / `SCR-014`,
+- E02 = problem/recovery,
+- E03 = resume revalidation,
+- E04 = guide-change physical-state remap,
+- E05 = completion / partial / safe closure.
 
-Resolution:
-- E02-E05 were refined to `v2-L05A` files using the supplied black L05A symbol + wordmark lockup.
-- Only the header brand area was changed; screen content/safety hierarchy was preserved.
-- The original text-only-header images remain as superseded review history.
-- Final user acceptance — verbatim: `genel olarak iyi`.
-- Main-manager QA: `PASS_WITH_CONSTRAINTS`.
-- `REF-ACTIVE-001` is APPROVED via DEC-0019.
-
-## Required D-Series Constraints
-
-1. D03 `Uygulamaya hazir` is only valid after all mandatory/critical readiness conditions are actually verified. Pending/unknown/stale/failed critical state cannot be shown ready and cannot enable application.
-2. D01–D05 blue K-like generated mark is not an approved logo redesign. L05A remains `REF-BRAND-001` authority.
-3. Generated tools/materials/optional examples are illustrative only; production classification must be task-specific validated content.
-4. D02 confirmed-fit/trust copy requires real supporting evidence; screenshots are visual fixtures only.
-5. D01/D02 visible bottom bar and D03–D05 reduced navigation remain PROPOSED visual treatments, not routing authority.
-
-## Approved Entry Continuity
-
-AI Usta:
-`Bir is yapmak istiyorum` -> D01/D02 -> readiness -> application only when conditions permit.
-
-Bakim:
-maintenance item/detail -> explicit `Bakimi yap` / `Rehberi ac` -> D01 or D02 -> readiness -> application only when conditions permit.
-
-No sixth `Rehberler` bottom tab.
+Still non-final:
+- active-work bottom-bar hide/show behavior,
+- exact copy/icons/components/tokens,
+- production accessibility/dark mode,
+- technical implementation.
 
 ## Existing Approved References
 
@@ -65,31 +52,41 @@ No sixth `Rehberler` bottom tab.
 - Screen-family specs — `REF-SPEC-001`, DEC-0017.
 - AI Usta A1 root — `REF-AIUSTA-001`, DEC-0018.
 - Five-tab root visual family — `REF-SHELL-001`.
-- Guide Discovery / Fit / Preparation family — `REF-GUIDE-001`.
+- Guide Discovery / Fit / Preparation — `REF-GUIDE-001`.
+- Active Application / Safety / Recovery — `REF-ACTIVE-001`, DEC-0019.
 
 Core principle:
 **Accessible does not mean simultaneously prominent.**
 
 ## Current Task
 
-Recommended next controlled visual family:
-**FAM-04 Diagnosis (`SCR-019`-`SCR-021`)**.
+**USE NOW:**
+`03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Preserve:
-- danger-first triage,
+Generate 4 visuals:
+- G01 — `SCR-019 Symptom Capture`
+- G02 — `SCR-020 One Diagnosis Check`
+- G03 — `SCR-021 Supported Outcome`
+- G04 — `SCR-021 Unresolved Outcome / Handoff`
+
+Required user attachments in delegated chat:
+- `Kavriva_L05A.png`
+- selected V10 screenshot
+- `R03-AI-Usta.png`
+- `E02-SCR-015-Problem-Mismatch-Recovery-v2-L05A.png`
+
+Diagnosis rules:
+- danger first,
+- plain-language symptom capture,
 - evidence-driven narrowing,
-- explicit unresolved outcomes,
+- one discriminating check at a time,
+- uncertainty / `Emin degilim` valid,
 - no random part replacement,
-- no unsupported certainty.
-
-Critical rules:
-- no D-series blue K logo drift,
-- no continue-anyway recovery,
-- saved UI progress != current physical proof,
-- guide change does not auto-reverse or guess next step,
-- partial/unresolved/safe-stop outcomes cannot be coerced into completion,
-- safe closure cannot be paywalled,
-- active physical-work bottom-bar behavior remains PROPOSED.
+- no unsupported certainty/probability,
+- unresolved is a legitimate outcome,
+- supported outcome routes to guide preview then fit/readiness,
+- photo only when materially useful; photo is evidence, not automatic diagnosis authority,
+- do not select AI provider/model/API architecture in Phase 3.
 
 ## Still Open
 
@@ -115,9 +112,10 @@ Critical rules:
 8. AI Usta UX structure — DONE / A1 APPROVED.
 9. Five-tab main-shell root visuals — DONE / R01–R05.
 10. Guide Discovery / Fit / Preparation visuals — DONE / D01–D05.
-11. **Active Application / Safety / Recovery visuals — DONE / E01–E05 APPROVED.**
-12. **Remaining critical visual references — NEXT: FAM-04 DIAGNOSIS.**
-13. Gate 3 -> 4 review.
+11. Active Application / Safety / Recovery visuals — DONE / E01–E05 APPROVED.
+12. **Diagnosis visual references — CURRENT / READY.**
+13. Remaining critical visual references.
+14. Gate 3 -> 4 review.
 
 No Phase 4 transition yet.
 
