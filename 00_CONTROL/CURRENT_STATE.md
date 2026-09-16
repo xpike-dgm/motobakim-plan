@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — DIAGNOSIS VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — MAINTENANCE + REMINDER VISUAL REFERENCES READY`
 
 ## Current Objective
 
@@ -16,100 +16,120 @@ Approved working design references:
 - Full-app working screen/state architecture: **REF-ARCH-001** — APPROVED.
 - Global navigation: **REF-NAV-001** — APPROVED.
 - Screen-family / UX specifications: **REF-SPEC-001** — APPROVED working specs.
-- AI Usta root UX structure: **REF-AIUSTA-001 / A1 — Guided Split** — APPROVED working structure.
-- Five-tab root visual family: **REF-SHELL-001 / R01–R05** — APPROVED working visual reference set.
-- Guide Discovery / Fit / Preparation visual family: **REF-GUIDE-001 / D01–D05** — APPROVED working visual reference set with required constraints.
-- Active Application / Safety / Recovery visual family: **REF-ACTIVE-001 / E01–E05** — APPROVED working visual reference set with required constraints.
+- AI Usta root UX: **REF-AIUSTA-001 / A1 — Guided Split** — APPROVED.
+- Five-tab root visuals: **REF-SHELL-001 / R01–R05** — APPROVED.
+- Guide Discovery / Fit / Preparation: **REF-GUIDE-001 / D01–D05** — APPROVED with constraints.
+- Active Application / Safety / Recovery: **REF-ACTIVE-001 / E01–E05** — APPROVED with constraints.
+- Diagnosis: **REF-DIAG-001 / G01–G04** — APPROVED with constraints.
 
 ## What Just Changed
 
-User explicitly confirmed the already-QA'd E01–E05 Active Application / Safety / Recovery family:
+### Diagnosis family
 
-> onaylıyorum
+User supplied G01–G04 and portable handoff with acceptance:
+> genel set iyi
 
-This strengthens DEC-0019 approval evidence; no scope expansion occurred.
+Main-manager QA: `PASS_WITH_CONSTRAINTS`.
 
-Active-family approval still does NOT finalize:
-- active-work bottom-bar visibility,
-- production copy/icons/components/tokens,
-- task-specific technical/evidence implementation,
-- accessibility/dark-mode production behavior,
-- routing/technology/backend/AI architecture.
+Approved diagnosis meaning:
+- G01 plain-language symptom capture + danger-first gate,
+- G02 one discriminating check at a time,
+- G03 supported direction without certain-fault claim,
+- G04 explicit unresolved outcome / useful handoff.
 
-A new controlled prompt is now active for **FAM-04 Diagnosis**.
+Required constraints:
+- unsafe/uncertain G01 state cannot continue normal diagnosis,
+- no random part replacement or fabricated probability,
+- `Emin degilim` and unresolved remain valid,
+- photo is contextual evidence, not default/automatic diagnosis authority,
+- G03 supported result still goes through guide fit/readiness before application,
+- reduced/hidden bottom bar remains PROPOSED ONLY.
+
+Canonical:
+- `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-DIAG-001`
+- DEC-0021
+
+### New project-scope requirement — Internal Data & Content Operations
+
+User identified the need for an internal operational product/capability for motorcycle/technical data research, missing-data visibility, controlled updates, publishing and data-quality/coverage analytics, then explicitly confirmed:
+> bu kesin yapılacak
+
+This is now an APPROVED project requirement via DEC-0020 and:
+`00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`.
+
+Exact form remains open: web app vs desktop vs hybrid, database/CMS/API/sync architecture, roles implementation, analytics stack and AI/provider choices are NOT decided.
+
+Current mobile visual work continues. Before final Gate 3 -> 4 readiness, a targeted Internal Data/Content Operations requirements + workflow/screen-architecture addendum must be completed so Phase 4 evaluates the whole product system, not only mobile.
 
 ## Current Phase 3 Sequence
 
-1. Brand naming — DONE.
-2. Naming validation — DONE.
-3. Kavriva approval — DONE.
-4. Logo exploration — DONE.
-5. L05A selection + QA — DONE.
-6. Earlier Anchor Visual R2 — NOT ACCEPTED / DEPRECATED.
-7. UX Structure Calibration — DONE.
-8. U04 selection + QA — DONE.
-9. Visual-style exploration — DONE: V10.
-10. Full screen inventory + navigation + critical state coverage — DONE / USER APPROVED.
-11. Screen-family principles + screen specifications — DONE / APPROVED WORKING SPECS.
-12. Global five-tab navigation — DONE / USER APPROVED.
-13. AI Usta UX Structure Calibration — DONE / A1 APPROVED.
-14. Five-tab main-shell root visual references — DONE / R01–R05 APPROVED WORKING SET.
-15. Guide Discovery / Fit / Preparation visual references — DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS.
-16. Active Application / Safety / Recovery visual references — **DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS.**
-17. **FAM-04 Diagnosis visual references — READY / CURRENT.**
-18. Remaining critical screen/state visual references.
-19. Gate 3 -> 4 readiness review.
+1. Brand / logo / anchor UX / visual — DONE.
+2. Screen architecture + screen-family specs — DONE / APPROVED.
+3. Five-tab navigation + AI Usta A1 — DONE / APPROVED.
+4. Five-tab root visuals — DONE / APPROVED.
+5. Guide Discovery / Fit / Preparation — DONE / APPROVED WITH CONSTRAINTS.
+6. Active Application / Safety / Recovery — DONE / APPROVED WITH CONSTRAINTS.
+7. Diagnosis — **DONE / G01–G04 APPROVED WITH CONSTRAINTS.**
+8. **FAM-05 Maintenance / Reminder visual references — READY / CURRENT.**
+9. Remaining critical mobile screen/state visual references.
+10. Targeted Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
+11. Gate 3 -> 4 readiness review.
 
 ## Current Prompt
 
 **USE NOW:**
-`03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`
+`03_DESIGN/PHASE3_MAINTENANCE_REMINDER_VISUAL_REFERENCES_AI_PROMPT.md`
 
-The delegated visual AI must generate:
-- G01 — `SCR-019 Symptom Capture`,
-- G02 — `SCR-020 One Diagnosis Check`,
-- G03 — `SCR-021 Supported Outcome`,
-- G04 — `SCR-021 Unresolved Outcome / Handoff`.
-
-Why 4 visuals for 3 contexts:
-`SCR-021` has two critical legitimate states — supported and unresolved — and both require visual coverage.
+Existing approved R02 Bakim root is H01 and must NOT be redesigned.
+Generate exactly 3 new visuals:
+- H02 — `SCR-023 Maintenance Item / Reminder Detail`
+- H03 — `SCR-024 Catch-Up & Critical Priorities`
+- H04 — `SCR-022/023 Maintenance Timing Uncertain`
 
 Required attachments:
 - `Kavriva_L05A.png`
 - selected V10 screenshot
-- `R03-AI-Usta.png`
-- `E02-SCR-015-Problem-Mismatch-Recovery-v2-L05A.png`
+- `R02-Bakim.png`
+- `D02-SCR-010-Guide-Scope-Fit.png`
 
-Diagnosis must preserve:
-- danger-first triage,
-- evidence-driven narrowing,
-- one discriminating check at a time,
-- `Emin degilim` / uncertainty as valid,
-- explicit unresolved outcomes,
-- no random part replacement,
-- no unsupported certainty,
-- supported result -> guide preview -> fit/readiness before application,
-- photo analysis only when it materially helps; photo is evidence, not automatic diagnosis authority.
+Maintenance protections:
+- no invented km/time/date/interval,
+- postpone/snooze != completion,
+- maintenance item must have explicit `Bakimi yap / Rehberi ac` connection to trusted guide flow,
+- uncertain timing remains uncertain rather than guessed,
+- catch-up prioritizes safety/use impact before mere lateness,
+- no notification flood or dashboard/KPI treatment.
 
 ## Still Open — Not Errors
 
-- active physical work sirasinda exact bottom-bar visibility/interaction,
+Mobile/design:
+- active physical-work exact bottom-bar visibility,
 - first post-onboarding landing tab,
 - ambiguous screen/sheet/modal mappings,
-- final iconography/tokens/dark mode/components,
+- final icons/tokens/components/dark mode,
 - exact claim/evidence visual vocabulary,
-- optional AI Usta conversational features beyond A1 root,
-- exact community contribution CTA weight,
-- technology/backend/AI architecture,
-- pricing/tier/quota.
+- optional AI Usta conversational capabilities beyond A1 root,
+- exact community contribution CTA weight.
 
-Language/unit ve accessibility support profile/account prerequisite olamaz.
+Internal operations / later strategy:
+- web vs desktop vs hybrid internal surface,
+- exact data-management architecture and schema,
+- CMS/database/search/API/sync choices,
+- content/reviewer role implementation,
+- publishing/versioning/rollback mechanics,
+- operational analytics stack,
+- AI/model/provider use for research or content operations.
+
+Technology/backend/AI architecture and pricing/tier/quota remain outside Phase 3.
 
 ## Gate Status
 
 Gate 3 -> 4 HENUZ GECILMEDI.
 
-Remaining critical screen/state visual coverage must be completed before Gate 3 readiness review.
+Remaining critical mobile visual coverage AND the newly approved Internal Data/Content Operations requirements/workflow addendum must be sufficiently covered before Gate 3 readiness review.
 
 ## Last Refreshed
 
