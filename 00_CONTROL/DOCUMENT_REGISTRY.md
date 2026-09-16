@@ -16,11 +16,22 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 | AI-native mimari | `07_AI_ARCHITECTURE/*` | EMPTY |
 | Repository bootstrap | `08_REPOSITORY_BOOTSTRAP/*` | EMPTY |
 
-`01_WORKSPACE` Phase-1 sentezi kullanici tarafindan 2026-09-14 tarihinde acikca onaylandi ve Gate 1 -> 2 gecisi tamamlandi.
+`01_WORKSPACE` approved; Gate 1 -> 2 tamamlandi.
 
-`02_DISCOVERY` Q006-Q245 raw evidence + approved synthesis snapshot ile 2026-09-15 tarihinde kullanici tarafindan APPROVED edildi. Canonical entry point: `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`. Gate 2 -> 3 PASSED.
+`02_DISCOVERY` Q006-Q245 raw evidence + approved synthesis snapshot ile APPROVED. Canonical entry point: `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md`. Gate 2 -> 3 PASSED.
 
-`03_DESIGN` aktif asamadir ve Phase-3 butunu tamamlanmadigi icin registry seviyesi `REVIEW` kalir. Bununla birlikte asagidaki design artifacts tekil olarak APPROVED working authority'dir:
+## Approved Project-Scope Addendum
+
+- `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md` — **APPROVED REQUIREMENT**
+  - Internal motorcycle/technical Data & Content Operations capability is required.
+  - Exact web/desktop/hybrid and technology architecture remain open.
+  - Targeted requirements/workflow/screen-architecture addendum required before final Gate 3 review.
+
+## Phase-3 Design
+
+`03_DESIGN` aktif asamadir ve Phase-3 butunu tamamlanmadigi icin registry seviyesi `REVIEW` kalir.
+
+Approved working design authorities:
 - `BRAND_NAME.md` — Kavriva
 - `LOGO_DIRECTION.md` — L05A
 - `ANCHOR_UX_STRUCTURE.md` — U04
@@ -31,30 +42,31 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `DESIGN_PRINCIPLES.md`
 - `SCREEN_COVERAGE_TRACEABILITY.md`
 - `GLOBAL_NAVIGATION.md` — 5-tab bottom bar
-- `SCREEN_FAMILY_SPECS.md` — working UX specs
-- `SCREEN_FAMILY_SPEC_REVIEW.md` — approved QA record
-- `AI_USTA_UX_STRUCTURE.md` — A1 Guided Split working AI Usta root UX
-- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md` — approved QA record
-- `MAIN_SHELL_VISUAL_REFERENCES.md` — R01–R05 approved working root visual family
-- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md` — root-set main-manager QA
-- `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` — D01–D05 approved working visual family
-- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md` — guide-family main-manager QA
-- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` — E01–E05 approved working visual family
-- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md` — active-family main-manager QA
-- `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`
+- `SCREEN_FAMILY_SPECS.md`
+- `SCREEN_FAMILY_SPEC_REVIEW.md`
+- `AI_USTA_UX_STRUCTURE.md`
+- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+- `MAIN_SHELL_VISUAL_REFERENCES.md`
+- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
+- `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
+- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
+- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `DIAGNOSIS_VISUAL_REFERENCES.md`
+- `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 
-Current Phase-3 task:
-**FAM-04 Diagnosis visual references — `SCR-019`–`SCR-021`**.
+`REFERENCE_INDEX.md` approved references:
+`REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`.
+
+## Current Phase-3 Task
+
+**FAM-05 Maintenance / Reminder visual references**.
 
 Active prompt:
-`03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`.
+`03_DESIGN/PHASE3_MAINTENANCE_REMINDER_VISUAL_REFERENCES_AI_PROMPT.md`.
 
-The prompt asks for four visuals because `SCR-021` must cover both supported and unresolved outcomes:
-- G01 Symptom Capture
-- G02 One Diagnosis Check
-- G03 Supported Outcome
-- G04 Unresolved Outcome / Handoff
+Existing R02 Bakim root is H01; generate H02–H04 only.
 
-Phase 4'e Gate 3 saglanmadan gecilmez.
+Phase 4'e Gate 3 saglanmadan gecilmez. Remaining critical mobile visual references and the Internal Data/Content Operations requirements/workflow addendum must be covered before Gate 3 readiness review.
 
 Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
