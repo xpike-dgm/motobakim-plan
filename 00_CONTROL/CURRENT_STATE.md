@@ -50,14 +50,13 @@ Canonical:
 - `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-DIAG-001`
-- DEC-0021
 
 ### New project-scope requirement — Internal Data & Content Operations
 
 User identified the need for an internal operational product/capability for motorcycle/technical data research, missing-data visibility, controlled updates, publishing and data-quality/coverage analytics, then explicitly confirmed:
 > bu kesin yapılacak
 
-This is now an APPROVED project requirement via DEC-0020 and:
+This is now an APPROVED project requirement recorded in:
 `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`.
 
 Exact form remains open: web app vs desktop vs hybrid, database/CMS/API/sync architecture, roles implementation, analytics stack and AI/provider choices are NOT decided.
