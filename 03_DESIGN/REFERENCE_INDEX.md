@@ -15,6 +15,7 @@ Status: ACTIVE
 | `REF-GUIDE-001` | Guide discovery / fit / preparation visual family | `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` | `D01–D05 / SCR-009–SCR-013` | APPROVED | — |
 | `REF-ACTIVE-001` | Active application / safety / recovery visual family | `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` | `E01 existing V10 + refined E02–E05 v2-L05A / SCR-014–SCR-018` | APPROVED | `REF-ACTIVE-CANDIDATE-001` review state |
 | `REF-DIAG-001` | Diagnosis visual family | `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` | `G01–G04 / SCR-019–SCR-021` | APPROVED | — |
+| `REF-MAINT-001` | Maintenance / reminder visual family | `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` | `H01 existing R02 + H02–H04 / SCR-022–SCR-024` | APPROVED | — |
 
 ## Reference Semantics
 
@@ -77,6 +78,23 @@ Required constraints:
 - generated mechanical imagery is illustrative, not diagnostic evidence,
 - reduced/hidden bottom navigation remains PROPOSED ONLY,
 - exact copy/tokens/components/accessibility/technology remain non-final.
+
+### REF-MAINT-001
+Authorizes H01–H04 as the working Maintenance / Reminder visual family:
+- H01 preserves the existing approved R02 Bakim root,
+- H02 separates guide entry, actual-work recording and reminder snooze,
+- H03 provides calm safety/use-impact-first catch-up ordering,
+- H04 explicitly preserves uncertain maintenance timing rather than fabricating due/overdue truth.
+Required constraints:
+- no invented interval/date/mileage/threshold,
+- `Yaklasiyor`/due-type states require applicable verified maintenance support plus usable history/completion evidence,
+- user-entered work is not automatically verified truth,
+- snooze/postpone never means completed,
+- H03 is not a universal `brakes always first` rule,
+- critical historical correction remains separate from routine reminder UI,
+- generated imagery is illustrative only,
+- H02/H03/H04 navigation treatments remain PROPOSED ONLY,
+- exact copy/tokens/components/notification cadence/accessibility/technology remain non-final.
 
 ## Authority Rule
 
