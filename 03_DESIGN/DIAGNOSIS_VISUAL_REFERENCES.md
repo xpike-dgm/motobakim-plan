@@ -3,7 +3,7 @@
 Status: APPROVED WORKING VISUAL REFERENCE SET
 Approved: 2026-09-16
 Reference: `REF-DIAG-001`
-Decision: DEC-0021
+Authority: explicit user acceptance + main-manager QA
 Evidence: `KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`
 Review: `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 
