@@ -17,6 +17,7 @@ Status: ACTIVE
 | `REF-DIAG-001` | Diagnosis | `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` | G01–G04 / SCR-019–021 | APPROVED |
 | `REF-MAINT-001` | Maintenance / reminder | `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` | H01–H04 / SCR-022–024 | APPROVED |
 | `REF-HISTORY-001` | History / evidence / trust | `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` | I01 existing R04 + I02–I06 / SCR-025–030 | APPROVED |
+| `REF-LIFECYCLE-001` | Motorcycle lifecycle / entitlement | `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` | J01–J05 / SCR-008,031–033,037 | APPROVED |
 
 ## Reference Semantics
 
@@ -55,6 +56,9 @@ No invented intervals/dates/mileage; snooze != completion; due/upcoming states r
 
 ### REF-HISTORY-001
 Current usable record meaning precedes raw event history. Actor/source/evidence/current claim state remain separate. No silent overwrite or fake dispute winner. `Servis/profesyonel` does not automatically mean verified. I05 refined v2 is the only working I05 authority. Critical correction reach-back survives inactive/entitlement state. Basic history/provenance/correction/dispute/export access cannot be retroactively paywalled. Export format/backend remain non-final.
+
+### REF-LIFECYCLE-001
+Inactive motorcycle is not deleted or history-locked. J01 preserves inactive history/evidence/correction/export and critical reach-back. J02 keeps inactive/archive, transfer and delete distinct. J03 makes partial transfer coverage/gaps explicit and does not auto-verify records. J04 limits destructive meaning to applicable user-owned scope while protecting independent/shared data boundaries. J05 accepted v3 gates only the relevant new activity while preserving existing history/trust/safety/recovery access. Exact pricing/tier/quota, legal retention, permission implementation, routing and technology remain non-final.
 
 ## Authority Rule
 
