@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS USER REVIEW REQUIRED`
+`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS APPROVED`
 
 ## Current Objective
 
@@ -19,6 +19,7 @@ Approved working design references:
 - AI Usta root UX structure: **REF-AIUSTA-001 / A1 — Guided Split** — APPROVED working structure.
 - Five-tab root visual family: **REF-SHELL-001 / R01–R05** — APPROVED working visual reference set.
 - Guide Discovery / Fit / Preparation visual family: **REF-GUIDE-001 / D01–D05** — APPROVED working visual reference set with required constraints.
+- Active Application / Safety / Recovery visual family: **REF-ACTIVE-001 / E01–E05** — APPROVED working visual reference set with required constraints.
 
 ## What Just Changed
 
@@ -33,15 +34,26 @@ Generated review candidates:
 
 Repository integration:
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001` (`APPROVED`)
 - `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
-No user acceptance has been recorded for E02-E05. The candidate set is not APPROVED authority and no DECISION_LOG entry has been added.
-
-Latest user refinement feedback — verbatim:
+User refinement feedback — verbatim:
 > Kavriva logosunu kullanmamışsın
 
 E02-E05 were corrected as `v2-L05A` candidates using the supplied black L05A symbol + wordmark lockup. The original text-only-header files remain as superseded review history.
+
+Final user acceptance — verbatim:
+> genel olarak iyi
+
+Main-manager QA:
+`PASS_WITH_CONSTRAINTS`
+
+Canonical:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
+- DEC-0019
 
 ## Guide-Family QA Constraints
 
@@ -87,20 +99,18 @@ No sixth `Rehberler` bottom tab is added.
 13. AI Usta UX Structure Calibration — DONE / A1 APPROVED.
 14. Five-tab main-shell root visual references — DONE / R01–R05 APPROVED WORKING SET.
 15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS.**
-16. **Active Application / Safety / Recovery visual references — CANDIDATES GENERATED / USER REVIEW REQUIRED.**
-17. Remaining critical screen/state visual references.
+16. **Active Application / Safety / Recovery visual references — DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS.**
+17. **Remaining critical screen/state visual references — NEXT: FAM-04 DIAGNOSIS.**
 18. Gate 3 -> 4 readiness review.
 
-## Current Review
+## Next Recommended Task
 
-Review:
-`03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+**FAM-04 Diagnosis visual references:**
+- `SCR-019 Symptom Capture`,
+- `SCR-020 Diagnosis Checks`,
+- `SCR-021 Diagnosis Outcome / Handoff`.
 
-User review questions:
-- `Genel olarak iyi mi?`
-- `Degismesini istedigin ekran varsa E02–E05 ID'sini ve neyi begenmedigini soyle.`
-
-After feedback/refinement, create the required portable handoff package and run controlled QA before any approval/source-of-truth promotion.
+The next controlled round should preserve danger-first triage, evidence-driven narrowing, explicit unresolved outcomes and no unsupported certainty/random part replacement.
 
 ## Still Open — Not Errors
 

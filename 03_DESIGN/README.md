@@ -19,8 +19,8 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
 14. Five-tab main-shell root visual references — **DONE / R01–R05 APPROVED WORKING SET**
 15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS**
-16. **Active Application / Safety / Recovery visual references — E01–E05 CANDIDATE SET GENERATED / USER REVIEW REQUIRED**
-17. Remaining critical screen/state visual references
+16. **Active Application / Safety / Recovery visual references — DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS**
+17. **Remaining critical screen/state visual references — NEXT: FAM-04 DIAGNOSIS**
 18. Gate 3 -> 4 readiness review
 
 ## Approved Working References
@@ -35,6 +35,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - AI Usta root UX: **A1 — Guided Split**, `REF-AIUSTA-001`, DEC-0018.
 - Five-tab root visual family: **R01–R05**, `REF-SHELL-001`.
 - Guide Discovery / Fit / Preparation visual family: **D01–D05**, `REF-GUIDE-001`.
+- Active Application / Safety / Recovery visual family: **E01–E05**, `REF-ACTIVE-001`.
 
 ## Approved Global Navigation
 
@@ -128,13 +129,13 @@ Canonical:
 - `SCREEN_FAMILY_SPEC_REVIEW.md`
 - `REF-SPEC-001`
 
-## Current Task — Active Application / Safety / Recovery Visual Review
+## Approved Active Application / Safety / Recovery Visual Family
 
-Candidate record:
-`ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-
-Candidate reference:
-`REF-ACTIVE-CANDIDATE-001` — REVIEW, not approved authority.
+Canonical:
+- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `REF-ACTIVE-001`
 
 Family:
 - E01 = existing approved V10 / `SCR-014 Active Guide Step` — **do not redesign**,
@@ -143,7 +144,7 @@ Family:
 - E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
 - E05 = `SCR-018 Completion / Safe Closure / Record`.
 
-E02–E05 have been generated as review candidates. U04/V10 remain direct authority for E01.
+E02–E05 current authority is the refined `v2-L05A` set. U04/V10 remain direct authority for E01.
 
 Candidate assets:
 `REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
@@ -157,11 +158,8 @@ Important protections:
 - safe closure cannot be paywalled,
 - active-work bottom-bar behavior remains PROPOSED until explicitly decided.
 
-Next required action:
-- collect explicit user review for E02–E05,
-- refine only requested screens if needed,
-- create the prescribed portable handoff package,
-- run controlled QA before approval promotion.
+Next recommended action:
+- generate controlled FAM-04 Diagnosis visual references for `SCR-019`-`SCR-021`.
 
 ## Core Design Protections
 

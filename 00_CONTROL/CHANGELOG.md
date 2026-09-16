@@ -297,3 +297,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - All non-header content, state semantics and safety hierarchy were preserved.
 - Original text-only-header images remain as superseded review history; v2-L05A files are current candidates.
 - Candidate status remains `REVIEW`; no acceptance or decision record is inferred.
+
+### Active Application / Safety / Recovery Visual Family Approved
+- User accepted the refined set with the verbatim feedback `genel olarak iyi`.
+- Main-manager QA result: `PASS_WITH_CONSTRAINTS`.
+- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` promoted to APPROVED working visual reference set.
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md` created with the required A-N portable package.
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md` created as the QA record.
+- `REFERENCE_INDEX.md`: review-stage `REF-ACTIVE-CANDIDATE-001` superseded by APPROVED `REF-ACTIVE-001`.
+- DEC-0019 records the approval and required constraints.
+- E01 remains existing V10; refined `v2-L05A` E02-E05 files are current authority.
+- Hidden/reduced bottom navigation remains PROPOSED ONLY.
+- Next recommended visual family: FAM-04 Diagnosis (`SCR-019`-`SCR-021`).

@@ -10,7 +10,7 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS USER REVIEW REQUIRED`
+`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS APPROVED`
 
 ## What Just Happened
 
@@ -20,10 +20,10 @@ E01 was preserved from the supplied V10 reference. E02-E05 were generated as sep
 
 Repository additions:
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001` (`APPROVED`)
 - `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
-
-No explicit user acceptance exists yet, so this set is not APPROVED and no new decision record exists.
 
 Latest user feedback — verbatim:
 > Kavriva logosunu kullanmamışsın
@@ -32,7 +32,9 @@ Resolution:
 - E02-E05 were refined to `v2-L05A` files using the supplied black L05A symbol + wordmark lockup.
 - Only the header brand area was changed; screen content/safety hierarchy was preserved.
 - The original text-only-header images remain as superseded review history.
-- User acceptance of the refined set is still required.
+- Final user acceptance — verbatim: `genel olarak iyi`.
+- Main-manager QA: `PASS_WITH_CONSTRAINTS`.
+- `REF-ACTIVE-001` is APPROVED via DEC-0019.
 
 ## Required D-Series Constraints
 
@@ -70,18 +72,15 @@ Core principle:
 
 ## Current Task
 
-Collect user review of:
-- E01 existing V10 reference,
-- E02 `SCR-015 Problem / Mismatch / Recovery`,
-- E03 `SCR-016 Resume Revalidation`,
-- E04 `SCR-017 Material Guide Change / Physical-State Remap`,
-- E05 `SCR-018 Completion / Safe Closure / Record`.
+Recommended next controlled visual family:
+**FAM-04 Diagnosis (`SCR-019`-`SCR-021`)**.
 
-Ask only:
-- `Genel olarak iyi mi?`
-- `Degismesini istedigin ekran varsa E02–E05 ID'sini ve neyi begenmedigini soyle.`
-
-After feedback/refinement, produce the exact portable handoff package required by the source prompt, then run controlled QA before any APPROVED promotion.
+Preserve:
+- danger-first triage,
+- evidence-driven narrowing,
+- explicit unresolved outcomes,
+- no random part replacement,
+- no unsupported certainty.
 
 Critical rules:
 - no D-series blue K logo drift,
@@ -116,8 +115,8 @@ Critical rules:
 8. AI Usta UX structure — DONE / A1 APPROVED.
 9. Five-tab main-shell root visuals — DONE / R01–R05.
 10. Guide Discovery / Fit / Preparation visuals — DONE / D01–D05.
-11. **Active Application / Safety / Recovery visuals — CANDIDATE SET READY / USER REVIEW REQUIRED.**
-12. Remaining critical visual references.
+11. **Active Application / Safety / Recovery visuals — DONE / E01–E05 APPROVED.**
+12. **Remaining critical visual references — NEXT: FAM-04 DIAGNOSIS.**
 13. Gate 3 -> 4 review.
 
 No Phase 4 transition yet.

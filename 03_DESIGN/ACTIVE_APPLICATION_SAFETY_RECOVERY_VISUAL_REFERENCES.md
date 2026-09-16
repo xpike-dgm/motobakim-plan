@@ -1,21 +1,25 @@
 # KAVRIVA ACTIVE APPLICATION / SAFETY / RECOVERY VISUAL REFERENCES
 
-Status: REVIEW — USER ACCEPTANCE REQUIRED
+Status: APPROVED WORKING VISUAL REFERENCE SET
+Approved by: USER acceptance + main-manager QA — 2026-09-16
 Generated: 2026-09-16
 Refined: 2026-09-16 — L05A header correction
-Candidate reference: `REF-ACTIVE-CANDIDATE-001`
+Reference: `REF-ACTIVE-001`
+Evidence: `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
+Review: `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
 Source prompt: `PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
 Asset directory: `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
-## Review Boundary
+## Approval Boundary
 
-This is a candidate visual set, not approved downstream authority.
-
-The user asked for the supplied references and Phase-3 prompt to be analyzed and applied. That request authorizes generation and repository integration, but it is not acceptance of the generated E02-E05 results. No DECISION_LOG approval is created until explicit user review is received.
+The refined E01-E05 set is approved as a working visual reference family. This approval covers hierarchy, state distinction and visual continuity, not final production copy, components, tokens, routing or implementation.
 
 ## User Feedback — Verbatim
 
 > Kavriva logosunu kullanmamışsın
+
+Final acceptance:
+> genel olarak iyi
 
 Resolution:
 - The first E02-E05 candidates used a text-only `Kavriva` header and therefore did not satisfy the user's logo-fidelity expectation.
@@ -24,7 +28,7 @@ Resolution:
 - All non-header screen content and safety behavior were preserved.
 - The original files remain as review history; v2-L05A files are the current candidates.
 
-## Candidate Set
+## Approved Working Set
 
 - **E01 — SCR-014 Active Guide Step**
   - Existing V10 reference is preserved; it was not regenerated.
@@ -73,7 +77,7 @@ Resolution:
 
 ## Navigation Treatment — PROPOSED ONLY
 
-E02-E05 omit the five-tab bottom bar to protect active-work focus. This is a candidate visual treatment only. It does not finalize routing or global-navigation visibility. Each screen preserves a labeled back or safe-close path without implying completion.
+E02-E05 omit the five-tab bottom bar to protect active-work focus. This is a proposed visual treatment only. It does not finalize routing or global-navigation visibility. Each screen preserves a labeled back or safe-close path without implying completion.
 
 ## Accessibility Notes
 
@@ -99,17 +103,11 @@ The first text-only-header E02-E05 binaries remain in the asset directory as sup
 
 ## What Remains Non-Final
 
-- User acceptance or requested E02-E05 refinement.
 - Exact copy, icons, components, tokens and responsive behavior.
 - Active-work bottom-bar visibility/interaction.
 - Production accessibility validation and dark mode.
 - Task-specific technical content and evidence behavior.
 
-## Required User Review
+## Next Visual Family
 
-Ask only:
-
-- `Genel olarak iyi mi?`
-- `Degismesini istedigin ekran varsa E02-E05 ID'sini ve neyi begenmedigini soyle.`
-
-After feedback/refinement, create the required portable handoff package and only then evaluate approval/source-of-truth updates.
+Recommended next critical family: **FAM-04 Diagnosis (`SCR-019`-`SCR-021`)**.

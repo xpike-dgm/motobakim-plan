@@ -103,10 +103,13 @@ Guide-family evidence / review:
 - `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
 
-Review-stage candidate evidence — not approved authority:
+Approved working Active Application / Safety / Recovery visual family:
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
-- E01 preserves approved V10; E02-E05 require explicit user acceptance before approval integration.
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
+- E01 preserves approved V10; E02-E05 authority is the refined `v2-L05A` set.
+- acceptance evidence: user feedback `genel olarak iyi`
 
 Other evidence / review artifacts:
 - `KAVRIVA_LOGO_01_HANDOFF.md`
@@ -134,6 +137,10 @@ Authority boundaries:
 - D03 generated tools/materials/optional examples technical truth DEGILDIR; production requirement classification task-specific validated source'tan gelmelidir.
 - D02 fit/trust fixture copy real evidence olmadan kullanilamaz.
 - D01/D02 visible bottom bar ve D03–D05 reduced navigation exact routing/navigation karari degildir.
+- `REF-ACTIVE-001` E01–E05 Active Application / Safety / Recovery visual family'yi working reference yapar.
+- E01 existing V10 authority'sini korur; E02–E05 current authority refined `v2-L05A` files'dir.
+- E02–E05 hidden/reduced bottom navigation PROPOSED ONLY'dir; active-work routing/navigation visibility karari degildir.
+- Recovery continue-anyway sunamaz; resume saved UI progress'i current physical proof sayamaz; guide change automatic reversal/step guessing yapamaz; completion partial/unresolved/safe-stop outcome'lari completed'a zorlayamaz.
 - Generated motorcycle imagery identity/fit/diagnosis evidence degildir.
 - Community wording gercekte desteklenmeyen authenticity/verification iddiasi yaratamaz.
 - Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.

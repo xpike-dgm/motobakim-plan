@@ -405,3 +405,37 @@ Canonical sources:
 Bu karar LLM/provider/backend/AI architecture, production tokens/icons, active-repair bottom-bar visibility veya first post-onboarding landing tab'i finalize etmez.
 
 Next authorized Phase-3 task: **five-tab main-shell root visual references**.
+
+---
+
+## DEC-0019 — Active Application / Safety / Recovery Visual Family Approved
+**Date:** 2026-09-16
+**Status:** APPROVED
+
+User reviewed the E01-E05 active-work visual family, first requested the explicit L05A logo correction, then accepted the refined set with the verbatim feedback:
+
+> genel olarak iyi
+
+Approved working set:
+- E01 existing V10 / `SCR-014 Active Guide Step`, unchanged,
+- E02 `SCR-015 Problem / Mismatch / Recovery`, refined `v2-L05A`,
+- E03 `SCR-016 Resume Revalidation`, refined `v2-L05A`,
+- E04 `SCR-017 Material Guide Change / Physical-State Remap`, refined `v2-L05A`,
+- E05 `SCR-018 Completion / Safe Closure / Record`, refined `v2-L05A`.
+
+Canonical sources:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`,
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`,
+- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`,
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`.
+
+Required constraints:
+- E02-E05 hidden/reduced global navigation remains PROPOSED ONLY,
+- saved UI progress is not current physical proof,
+- recovery never provides continue-anyway,
+- material guide change never auto-reverses or guesses continuation,
+- partial/unresolved/safe-stop outcomes remain truthful outcomes,
+- safe closure/recovery/revalidation cannot be paywalled,
+- exact production copy/components/tokens/accessibility/routing remain non-final.
+
+Next recommended Phase-3 visual family: **FAM-04 Diagnosis (`SCR-019`-`SCR-021`)**.

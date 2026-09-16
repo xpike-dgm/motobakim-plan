@@ -13,7 +13,7 @@ Status: ACTIVE
 | `REF-AIUSTA-001` | AI Usta root / known-task vs symptom entry structure | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | `A1 — Guided Split / AI Usta UX Structure 01` | APPROVED | Earlier A1-A4 candidates |
 | `REF-SHELL-001` | Five-tab root visual family | `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` | `R01 Garaj / R02 Bakim / R03 AI Usta / R04 Gecmis / R05 Topluluk` | APPROVED | — |
 | `REF-GUIDE-001` | Guide discovery / fit / preparation visual family | `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` | `D01–D05 / SCR-009–SCR-013` | APPROVED | — |
-| `REF-ACTIVE-CANDIDATE-001` | Active application / safety / recovery candidate visual family | `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` | `E01 existing V10 + E02–E05 generated candidates / SCR-014–SCR-018` | REVIEW | — |
+| `REF-ACTIVE-001` | Active application / safety / recovery visual family | `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` | `E01 existing V10 + refined E02–E05 v2-L05A / SCR-014–SCR-018` | APPROVED | `REF-ACTIVE-CANDIDATE-001` review state |
 
 ## Reference Semantics
 
@@ -174,16 +174,16 @@ Required constraints:
 
 Image provenance and SHA-256 values are recorded in `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`; PNG binaries are not stored in this repository.
 
-### REF-ACTIVE-CANDIDATE-001
+### REF-ACTIVE-001
 
-Records the review-stage E01-E05 candidate set for FAM-03.
+Authorizes the user-accepted E01-E05 working visual set for FAM-03.
 
 - E01 preserves the existing V10 active-guide reference and was not regenerated.
-- E02-E05 are newly generated review candidates.
-- The set is not downstream authority until explicit user acceptance and controlled QA.
+- E02-E05 authority is the refined `v2-L05A` set.
 - Reduced/hidden bottom navigation is PROPOSED ONLY.
-- Candidate PNG binaries are stored under `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/` for this review round.
-- No decision log entry or approved-reference status is implied by repository integration alone.
+- PNG binaries are stored under `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`.
+- The first text-only-header E02-E05 files are superseded review history, not current visual authority.
+- Approval does not finalize copy, icons, components, tokens, routing, accessibility validation or implementation.
 
 ## Authority Rule
 
