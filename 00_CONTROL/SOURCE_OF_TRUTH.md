@@ -17,13 +17,14 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 
 - `AI_START_HERE.md` — oturum bootstrap protokolu
 - `CURRENT_STATE.md` — guncel durum
-- `DECISION_LOG.md` — surec ve proje yonetim kararlari
-- `OPEN_QUESTIONS.md` — cozulmemis celiski/belirsizlikler
-- `WORKFLOW_MAP.md` — 8 asamanin sirasi
-- `PHASE_GATES.md` — asamalar arasi gecis kosullari
-- `DOCUMENT_REGISTRY.md` — ana belgelerin status kaydi
-- `CHANGELOG.md` — hafiza/source-of-truth degisiklik izi
-- `HANDOFF.md` — yeni AI icin kisa devir ozeti
+- `DECISION_LOG.md` — surec/proje karar kaydi
+- `OPEN_QUESTIONS.md` — cozulmemis belirsizlikler
+- `WORKFLOW_MAP.md` — 8 asama sirasi
+- `PHASE_GATES.md` — gecis kosullari
+- `DOCUMENT_REGISTRY.md` — kritik belge statuslari
+- `CHANGELOG.md` — degisiklik izi
+- `HANDOFF.md` — yeni AI devir ozeti
+- `PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md` — user-approved internal data/content operations requirement
 
 ## Asama Bazli Otorite
 
@@ -31,140 +32,100 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 `PROJECT_VISION.md`, `CONSTRAINTS.md`, `ASSUMPTIONS.md`, `GLOSSARY.md`. Varsayimlar gercek sayilmaz.
 
 ### 02 Discovery
-`SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Bu belge onaylanan synthesis snapshot'ini ve hangi blob'larin birlikte okunacagini tanimlar. Working synthesis dosyalarinin sonraki degisiklikleri, controlled approval/supersession olmadan approved snapshot'i otomatik degistirmez.
+`SESSIONS/` ham kanittir. Phase-2 approved product truth entry point'i `02_DISCOVERY/SYNTHESIS/APPROVED_PRODUCT_SYNTHESIS.md` dosyasidir. Working synthesis sonraki kontrollu approval olmadan approved snapshot'i otomatik degistirmez.
 
-### 03 Design
+### Post-Discovery Approved Scope Addendum
 
-Approved working consumer-facing brand name:
-- `03_DESIGN/BRAND_NAME.md`
-- DEC-0012
+Internal Data & Content Operations capability project scope'una dahildir:
+- `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`
+- explicit user confirmation: `bu kesin yapılacak`
 
-Approved working logo direction:
-- `03_DESIGN/LOGO_DIRECTION.md`
-- DEC-0013
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-BRAND-001`
+Bu requirement:
+- motorcycle/technical data research,
+- missing/incomplete/stale/conflicting data visibility,
+- provenance/source management,
+- controlled content/data update,
+- review/version/recall needs,
+- approved/published data'nin consumer mobile tarafinda kullanilabilmesi,
+- data-quality/coverage/operations analytics
+kapsamini zorunlu gelecek planlama girdisi yapar.
 
-Approved working anchor UX:
-- `03_DESIGN/ANCHOR_UX_STRUCTURE.md`
-- DEC-0014
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-UX-001`
+It does NOT decide web vs desktop vs hybrid, database/CMS/API/sync architecture, exact publishing mechanics, AI provider/model, analytics stack or implementation technology.
 
-Approved working anchor visual direction:
-- `03_DESIGN/ANCHOR_VISUAL_STYLE.md`
-- DEC-0015
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-VISUAL-001`
+### 03 Design — Approved Working Authorities
 
-Approved working screen/state architecture:
+Brand / logo / anchor:
+- `03_DESIGN/BRAND_NAME.md` — Kavriva
+- `03_DESIGN/LOGO_DIRECTION.md` — `REF-BRAND-001` / L05A
+- `03_DESIGN/ANCHOR_UX_STRUCTURE.md` — `REF-UX-001` / U04
+- `03_DESIGN/ANCHOR_VISUAL_STYLE.md` — `REF-VISUAL-001` / V10
+
+Full-app architecture/spec/navigation:
 - `03_DESIGN/SCREEN_CATALOG.md`
 - `03_DESIGN/NAVIGATION_MAP.md`
 - `03_DESIGN/STATE_MATRIX.md`
 - `03_DESIGN/DESIGN_PRINCIPLES.md`
 - `03_DESIGN/SCREEN_COVERAGE_TRACEABILITY.md`
-- DEC-0016
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ARCH-001`
+- `03_DESIGN/GLOBAL_NAVIGATION.md` -> `REF-NAV-001`
+- `03_DESIGN/SCREEN_FAMILY_SPECS.md` -> `REF-SPEC-001`
 
-Approved global navigation shell:
-- `03_DESIGN/GLOBAL_NAVIGATION.md`
-- DEC-0017
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-NAV-001`
+AI Usta:
+- `03_DESIGN/AI_USTA_UX_STRUCTURE.md` -> `REF-AIUSTA-001` / A1 Guided Split
 
-Approved working screen-family / UX specifications:
-- `03_DESIGN/SCREEN_FAMILY_SPECS.md`
-- `03_DESIGN/SCREEN_FAMILY_SPEC_REVIEW.md`
-- DEC-0017
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SPEC-001`
+Approved visual families:
+- `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` -> `REF-SHELL-001`
+- `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` -> `REF-GUIDE-001`
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` -> `REF-ACTIVE-001`
+- `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` -> `REF-DIAG-001`
 
-Approved working AI Usta root UX structure:
-- `03_DESIGN/AI_USTA_UX_STRUCTURE.md`
-- DEC-0018
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-AIUSTA-001`
-
-Approved working five-tab root visual family:
-- `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-SHELL-001`
-- approval evidence: explicit user feedback `hepsi iyi`
-
-Approved working Guide Discovery / Fit / Preparation visual family:
-- `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-GUIDE-001`
-- acceptance evidence: user feedback `geneol olarak iyi`
-
-AI Usta evidence / review:
-- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
-
-Main-shell evidence / review:
-- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
-
-Guide-family evidence / review:
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
-
-Approved working Active Application / Safety / Recovery visual family:
-- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-001`
-- E01 preserves approved V10; E02-E05 authority is the refined `v2-L05A` set.
-- acceptance evidence: user feedback `genel olarak iyi`
-
-Other evidence / review artifacts:
-- `KAVRIVA_LOGO_01_HANDOFF.md`
-- `KAVRIVA_LOGO_REVIEW.md`
-- `KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`
-- `KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
-- `KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`
-- `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
+Evidence/review layers:
+- `KAVRIVA_LOGO_01_HANDOFF.md`, `KAVRIVA_LOGO_REVIEW.md`
+- `KAVRIVA_ANCHOR_UX_STRUCTURE_01_HANDOFF.md`, `KAVRIVA_ANCHOR_UX_STRUCTURE_REVIEW.md`
+- `KAVRIVA_ANCHOR_VISUAL_STYLE_01_HANDOFF.md`, `KAVRIVA_ANCHOR_VISUAL_STYLE_REVIEW.md`
 - `SCREEN_INVENTORY_REVIEW.md`
 - `SCREEN_FAMILY_SPEC_REVIEW.md`
+- `KAVRIVA_AI_USTA_UX_STRUCTURE_01_HANDOFF.md`, `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
+- `KAVRIVA_MAIN_SHELL_VISUALS_01_HANDOFF.md`, `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
+- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`, `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
+- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`, `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
+- `KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`, `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 
-Authority boundaries:
+## Authority Boundaries
+
 - L05A concept/direction authority'dir; production vector/font/palette/trademark clearance degildir.
 - U04 active-guide anchor hierarchy authority'dir; universal full-app template degildir.
-- V10 visual-DNA authority'dir; exact HEX/font/icon/spacing veya universal layout degildir.
-- Screen architecture `SCR-001` — `SCR-038` product interaction contexts'ini tanimlar; permanent route count degildir.
-- Five-tab navigation approved: **Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
-- `AI Usta` UX role/entry label'idir; LLM/provider/backend/AI architecture karari degildir ve product trust/safety gates'i bypass edemez.
-- AI Usta root structure approved: **A1 — Guided Split**; compact motorcycle context + `Nasil yardimci olayim?` + `Bir is yapmak istiyorum` / `Motorda bir sorun var`. Known-task `SCR-009`, symptom-first `SCR-019` flow'una controlled handoff yapar.
-- A1 root free-form technical-answer/chat-home authority'si vermez; unsupported diagnosis/value/specification uretimi veya fit/readiness/safety bypass'i yasaktir.
-- `REF-SHELL-001` R01–R05 root visual family'yi working reference yapar; exact icon glyphs, production tokens, exact header geometry, R03 decorative image requirement'i ve R05 contribution CTA prominence'i final yapmaz.
-- `REF-GUIDE-001` D01–D05 Guide Discovery / Fit / Preparation visual family'yi working reference yapar.
-- D03 `Uygulamaya hazir` statusu yalniz mandatory/critical readiness gercekten dogrulanmissa kullanilabilir; pending/unknown/stale/failed critical condition ready sayilamaz.
-- D01–D05'te image generation tarafindan uretilen blue K-like mark yeni logo authority DEGILDIR; L05A `REF-BRAND-001` gecerlidir.
-- D03 generated tools/materials/optional examples technical truth DEGILDIR; production requirement classification task-specific validated source'tan gelmelidir.
-- D02 fit/trust fixture copy real evidence olmadan kullanilamaz.
-- D01/D02 visible bottom bar ve D03–D05 reduced navigation exact routing/navigation karari degildir.
-- `REF-ACTIVE-001` E01–E05 Active Application / Safety / Recovery visual family'yi working reference yapar.
-- E01 existing V10 authority'sini korur; E02–E05 current authority refined `v2-L05A` files'dir.
-- E02–E05 hidden/reduced bottom navigation PROPOSED ONLY'dir; active-work routing/navigation visibility karari degildir.
-- Recovery continue-anyway sunamaz; resume saved UI progress'i current physical proof sayamaz; guide change automatic reversal/step guessing yapamaz; completion partial/unresolved/safe-stop outcome'lari completed'a zorlayamaz.
-- Generated motorcycle imagery identity/fit/diagnosis evidence degildir.
-- Community wording gercekte desteklenmeyen authenticity/verification iddiasi yaratamaz.
-- Screen-family specs default hierarchy/action/trust/safety behavior'ini authorize eder; ambiguous sheet/modal/full-screen treatments'in bir kismi hala PROPOSED kalir.
-- Language/unit/accessibility support profile/account prerequisite olamaz.
+- V10 visual-DNA authority'dir; exact token/layout specification degildir.
+- `SCR-001`–`SCR-038` contexts permanent route count degildir.
+- Five-tab navigation: **Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
+- AI Usta UX role/entry label'idir; LLM/provider/backend architecture karari degildir.
+- A1 root: compact motorcycle context + `Nasil yardimci olayim?` + known-task / symptom split. Unsupported technical-answer chatbot authority vermez.
+- `REF-SHELL-001` exact tab icons/tokens/header geometry veya first landing tab'i finalize etmez.
+- `REF-GUIDE-001`: task selection != fit; readiness application'dan once; blocked readiness bypass yok; D-series blue K drift logo degildir; generated tool/material examples technical truth degildir.
+- `REF-ACTIVE-001`: saved UI progress physical proof degildir; continue-anyway yok; guide-change automatic reversal/guessing yok; partial/unresolved/safe-stop truthful outcomes'dur; reduced navigation PROPOSED ONLY.
+- `REF-DIAG-001`: danger-first symptom capture, one discriminating check, supported-vs-unresolved outcomes; no random replacement/fabricated probability; photo contextual evidence'dir; supported result still fit/readiness'tan gecer; reduced navigation PROPOSED ONLY.
+- Generated motorcycle/mechanical imagery identity/fit/diagnosis evidence degildir.
+- Community wording unsupported authenticity/verification iddiasi yaratamaz.
+- Language/unit/accessibility support profile prerequisite olamaz.
+- Internal Data/Content Operations requirement exact surface/technology/publishing architecture'i finalize etmez.
 
 Ekran/gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references ile kurulur.
 
-Naming research legal trademark clearance yerine gecmez.
-
 ### 04 Tech Strategy
-Tartisma ve oneridir. Tek basina kesin teknoloji karari olamaz.
+Tartisma/oneridir. Tek basina kesin teknoloji karari olamaz. Internal Data/Content Operations da mobil sistemle birlikte bu asamada teknoloji alternatifleri acisindan ele alinmalidir.
 
 ### 05 ADR
-Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler sonraki teknik planlamayi baglar.
+Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler sonraki planlamayi baglar.
 
 ### 06 Delivery Planning
 Onayli epic/capability/feature/flow/task ve dependency haritalarinin otoritesidir.
 
 ### 07 AI Architecture
-Kodlama sirasinda AI davranisi, context routing, module boundary, contract, validation, migration ve rollback kurallarinin otoritesidir.
+Kodlama sirasinda AI davranisi, context routing, modul sinirlari, contract, validation, migration, rollback ve change-control kurallarinin otoritesidir.
 
 ### 08 Repository Bootstrap
 Kesinlesen mimarinin fiziksel kurulum plani ve completion kanitlarinin otoritesidir.
 
 ## No Silent Rewrite
 
-Kabul edilmis bilgi degisiyorsa eski karar iz birakmadan silinmez. Yeni kayit eskisini SUPERSEDED/refined eder ve degisiklik changelog'a islenir.
+Kabul edilmis bilgi degisiyorsa eski karar iz birakmadan silinmez. Yeni kayit controlled refinement/supersession ile islenir ve changelog'a kaydedilir.
