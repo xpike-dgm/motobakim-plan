@@ -2,100 +2,60 @@
 
 Status: ACTIVE
 
-| Reference ID | Screen/State | File / Link | Version | Approval Status | Supersedes |
-|---|---|---|---|---|---|
-| `REF-BRAND-001` | Kavriva brand / working logo direction | `03_DESIGN/LOGO_DIRECTION.md` | `L05A — The Precision Fit / Round 2` | APPROVED | — |
-| `REF-UX-001` | Anchor screen / normal application-ready structure | `03_DESIGN/ANCHOR_UX_STRUCTURE.md` | `U04 — Progressive Detail / UX Calibration 01` | APPROVED | — |
-| `REF-VISUAL-001` | Anchor screen / working visual direction | `03_DESIGN/ANCHOR_VISUAL_STYLE.md` | `V10 — Signature Kavriva / Visual Style 01` | APPROVED | — |
-| `REF-ARCH-001` | Full-app working screen / transition / critical-state architecture | `03_DESIGN/SCREEN_CATALOG.md` + `NAVIGATION_MAP.md` + `STATE_MATRIX.md` | `Screen Inventory 01 + Main-Manager Refinement` | APPROVED | — |
-| `REF-NAV-001` | Global navigation shell | `03_DESIGN/GLOBAL_NAVIGATION.md` | `5-tab: Garaj / Bakim / AI Usta / Gecmis / Topluluk` | APPROVED | Earlier proposed 1/2/3 shell options |
-| `REF-SPEC-001` | Full-app working screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | `Screen Family + Specs 01 + DEC-0017 refinement` | APPROVED | — |
-| `REF-AIUSTA-001` | AI Usta root / known-task vs symptom entry structure | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | `A1 — Guided Split / AI Usta UX Structure 01` | APPROVED | Earlier A1-A4 candidates |
-| `REF-SHELL-001` | Five-tab root visual family | `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` | `R01 Garaj / R02 Bakim / R03 AI Usta / R04 Gecmis / R05 Topluluk` | APPROVED | — |
-| `REF-GUIDE-001` | Guide discovery / fit / preparation visual family | `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` | `D01–D05 / SCR-009–SCR-013` | APPROVED | — |
-| `REF-ACTIVE-001` | Active application / safety / recovery visual family | `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` | `E01 existing V10 + refined E02–E05 v2-L05A / SCR-014–SCR-018` | APPROVED | `REF-ACTIVE-CANDIDATE-001` review state |
-| `REF-DIAG-001` | Diagnosis visual family | `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` | `G01–G04 / SCR-019–SCR-021` | APPROVED | — |
-| `REF-MAINT-001` | Maintenance / reminder visual family | `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` | `H01 existing R02 + H02–H04 / SCR-022–SCR-024` | APPROVED | — |
+| Reference ID | Screen/State | File / Link | Version | Approval Status |
+|---|---|---|---|---|
+| `REF-BRAND-001` | Kavriva brand / working logo direction | `03_DESIGN/LOGO_DIRECTION.md` | L05A — The Precision Fit | APPROVED |
+| `REF-UX-001` | Active-guide anchor UX | `03_DESIGN/ANCHOR_UX_STRUCTURE.md` | U04 — Progressive Detail | APPROVED |
+| `REF-VISUAL-001` | Working visual direction | `03_DESIGN/ANCHOR_VISUAL_STYLE.md` | V10 — Signature Kavriva | APPROVED |
+| `REF-ARCH-001` | Full-app screen/state architecture | `SCREEN_CATALOG.md` + `NAVIGATION_MAP.md` + `STATE_MATRIX.md` | Screen Inventory 01 | APPROVED |
+| `REF-NAV-001` | Global navigation shell | `03_DESIGN/GLOBAL_NAVIGATION.md` | Garaj / Bakim / AI Usta / Gecmis / Topluluk | APPROVED |
+| `REF-SPEC-001` | Screen-family / UX specifications | `03_DESIGN/SCREEN_FAMILY_SPECS.md` | 9 working families | APPROVED |
+| `REF-AIUSTA-001` | AI Usta root | `03_DESIGN/AI_USTA_UX_STRUCTURE.md` | A1 — Guided Split | APPROVED |
+| `REF-SHELL-001` | Five-tab root visual family | `03_DESIGN/MAIN_SHELL_VISUAL_REFERENCES.md` | R01–R05 | APPROVED |
+| `REF-GUIDE-001` | Guide discovery / fit / preparation | `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` | D01–D05 / SCR-009–013 | APPROVED |
+| `REF-ACTIVE-001` | Active application / safety / recovery | `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` | E01–E05 / SCR-014–018 | APPROVED |
+| `REF-DIAG-001` | Diagnosis | `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` | G01–G04 / SCR-019–021 | APPROVED |
+| `REF-MAINT-001` | Maintenance / reminder | `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` | H01–H04 / SCR-022–024 | APPROVED |
+| `REF-HISTORY-001` | History / evidence / trust | `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` | I01 existing R04 + I02–I06 / SCR-025–030 | APPROVED |
 
 ## Reference Semantics
 
 ### REF-BRAND-001
-Authorizes L05A as the working logo direction / brand visual-DNA reference. It does not make the generated PNG a production vector master, exact geometry, final wordmark typography/palette/app-icon specification or trademark-cleared artwork.
+L05A is working logo-direction authority, not production vector/font/palette/trademark clearance.
 
 ### REF-UX-001
-Authorizes U04 as the working active-guide anchor hierarchy. It does not make U04 a universal full-app template or exact production geometry.
+U04 is direct authority for the active-guide anchor, not a universal full-app template.
 
 ### REF-VISUAL-001
-Authorizes V10 as the working Kavriva visual direction: near-white canvas, graphite/navy typography, restrained electric-blue accent, realistic inspection-focused imagery, moderate rounding, low decoration, strong hierarchy and restrained L05A. Exact HEX/font/spacing/radii/icons/dark-mode/responsive behavior are not final. Generated mechanical imagery is not verified evidence. Generic shield/check trust/safety semantics are not canonical.
+V10 supplies near-white canvas, graphite/navy type character, restrained electric-blue, realistic task imagery, moderate rounding, low decoration and calm technical credibility. Exact production tokens remain non-final.
 
 ### REF-ARCH-001
-Authorizes the approved working full-app screen/state architecture in `SCREEN_CATALOG.md`, `NAVIGATION_MAP.md`, `STATE_MATRIX.md`, `DESIGN_PRINCIPLES.md` and `SCREEN_COVERAGE_TRACEABILITY.md`. `SCR-001`–`SCR-038` are product interaction contexts, not a permanent route count. Exact surface implementation remains open where not explicitly approved.
+`SCR-001`–`SCR-038` are approved product interaction contexts, not a permanent route count. Exact surface implementation remains open where not separately approved.
 
 ### REF-NAV-001
-Authorizes the five-tab shell:
-**Garaj · Bakim · AI Usta · Gecmis · Topluluk**.
-Responsibilities: Garaj motorcycle context/lifecycle; Bakim maintenance/reminders; AI Usta known-task + symptom-first assistance; Gecmis history/evidence/trust; Topluluk community experience/contribution. Exact icons/animation, active-work bottom-bar behavior, first landing tab and routing implementation remain non-final.
-
-### REF-SPEC-001
-Authorizes the 9-family grouping and `SCR-001`–`SCR-038` working UX specifications, including default hierarchy/action/trust/safety behavior and profile-independent language/unit/accessibility refinement. Ambiguous modality recommendations remain PROPOSED unless separately approved.
+Five-tab authority: **Garaj · Bakim · AI Usta · Gecmis · Topluluk**. Exact icons/animation, first landing tab and active-work bottom-bar behavior remain non-final.
 
 ### REF-AIUSTA-001
-Authorizes A1 — Guided Split:
-- compact motorcycle context,
-- `Nasil yardimci olayim?`,
-- `Bir is yapmak istiyorum` -> `SCR-009`,
-- `Motorda bir sorun var` -> `SCR-019`,
-- optional low-prominence help,
-- five-tab shell at root.
-It does not authorize a free-form technical-answer chatbot home, unsupported diagnosis/specification, fit/readiness/safety bypass, or LLM/provider/backend architecture.
+A1 root = compact motorcycle context + `Nasil yardimci olayim?` + known-task / symptom split. It does not authorize unsupported free-form technical answers or bypass fit/readiness/safety.
 
 ### REF-SHELL-001
-Authorizes R01–R05 as the working five-tab root visual family. Exact tab icons, production tokens/header geometry, R03 decorative image requirement, R05 contribution CTA prominence, generated imagery as technical evidence, active-work bottom-bar behavior and first landing tab remain non-final.
+R01–R05 are working root visuals; generated imagery is not technical evidence and exact icons/tokens are non-final.
 
 ### REF-GUIDE-001
-Authorizes D01–D05 Guide Discovery / Fit / Preparation behavior:
-- task selection does not imply fit,
-- scope/applicability/trust are separated,
-- readiness precedes physical work,
-- blocked readiness uses remediation + recheck rather than bypass,
-- teaching/reference remains available when application is closed.
-Constraints: `Uygulamaya hazir` only after actual mandatory/critical verification; generated tool/material examples are not technical truth; confirmed-fit copy requires evidence; D-series blue K drift is not an approved logo; bottom-bar treatments remain non-final.
+Task selection != fit; readiness precedes physical work; blocked readiness requires remediation + recheck; teaching/reference remains distinct. Generated blue-K drift is not an approved logo.
 
 ### REF-ACTIVE-001
-Authorizes E01–E05 Active Application / Safety / Recovery behavior. E01 preserves V10; E02–E05 authority is refined `v2-L05A`. Saved UI progress is not physical proof; no continue-anyway recovery; guide change cannot auto-reverse/guess continuation; partial/unresolved/safe-stop remain truthful outcomes. Reduced/hidden bottom navigation is PROPOSED ONLY. Exact copy/components/tokens/routing/accessibility/implementation remain non-final.
+Saved UI progress != physical proof; no continue-anyway recovery; guide change cannot guess continuation/reversal; partial/unresolved/safe-stop are truthful outcomes. Deep-flow bottom-nav behavior remains PROPOSED.
 
 ### REF-DIAG-001
-Authorizes G01–G04 as the working Diagnosis visual family:
-- G01 plain-language symptom capture with danger-first gate,
-- G02 one discriminating check at a time and `Emin degilim` as valid,
-- G03 evidence-supported direction without certain-fault claim and handoff to guide preview,
-- G04 explicit unresolved outcome with evidence preservation and useful next paths.
-Required constraints:
-- unsafe/uncertain G01 state cannot continue normal diagnosis,
-- evidence narrows possibilities; no random replacement or fabricated probability,
-- photo is contextual evidence, not default/automatic diagnosis authority,
-- supported result still requires guide fit/readiness before application,
-- generated mechanical imagery is illustrative, not diagnostic evidence,
-- reduced/hidden bottom navigation remains PROPOSED ONLY,
-- exact copy/tokens/components/accessibility/technology remain non-final.
+Danger-first symptom capture, one discriminating check at a time, supported vs unresolved outcomes, no parts-cannon/fabricated probability. Photo is contextual evidence only; supported result still requires fit/readiness.
 
 ### REF-MAINT-001
-Authorizes H01–H04 as the working Maintenance / Reminder visual family:
-- H01 preserves the existing approved R02 Bakim root,
-- H02 separates guide entry, actual-work recording and reminder snooze,
-- H03 provides calm safety/use-impact-first catch-up ordering,
-- H04 explicitly preserves uncertain maintenance timing rather than fabricating due/overdue truth.
-Required constraints:
-- no invented interval/date/mileage/threshold,
-- `Yaklasiyor`/due-type states require applicable verified maintenance support plus usable history/completion evidence,
-- user-entered work is not automatically verified truth,
-- snooze/postpone never means completed,
-- H03 is not a universal `brakes always first` rule,
-- critical historical correction remains separate from routine reminder UI,
-- generated imagery is illustrative only,
-- H02/H03/H04 navigation treatments remain PROPOSED ONLY,
-- exact copy/tokens/components/notification cadence/accessibility/technology remain non-final.
+No invented intervals/dates/mileage; snooze != completion; due/upcoming states require applicable support + usable history; catch-up priority is safety/use-impact based, not a universal brake-first rule; uncertain timing stays uncertain.
+
+### REF-HISTORY-001
+Current usable record meaning precedes raw event history. Actor/source/evidence/current claim state remain separate. No silent overwrite or fake dispute winner. `Servis/profesyonel` does not automatically mean verified. I05 refined v2 is the only working I05 authority. Critical correction reach-back survives inactive/entitlement state. Basic history/provenance/correction/dispute/export access cannot be retroactively paywalled. Export format/backend remain non-final.
 
 ## Authority Rule
 
-Only APPROVED or LOCKED references are downstream authority. Working references preserve their stated approval boundaries and do not silently finalize implementation details.
+Only APPROVED or LOCKED references are downstream authority. Working references preserve their stated boundaries and do not silently finalize implementation details.
