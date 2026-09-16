@@ -17,10 +17,11 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 11. Guide Discovery / Fit / Preparation D01–D05 — **DONE / APPROVED WITH CONSTRAINTS**
 12. Active Application / Safety / Recovery E01–E05 — **DONE / APPROVED WITH CONSTRAINTS**
 13. Diagnosis G01–G04 — **DONE / APPROVED WITH CONSTRAINTS**
-14. **FAM-05 Maintenance / Reminder visual references — CURRENT / READY**
-15. Remaining critical mobile visual references
-16. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
-17. Gate 3 -> 4 readiness review
+14. Maintenance / Reminder H01–H04 — **DONE / APPROVED WITH CONSTRAINTS**
+15. **FAM-06 History / Evidence / Trust visual references — CURRENT / READY**
+16. Remaining critical mobile visual references
+17. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
+18. Gate 3 -> 4 readiness review
 
 ## Approved Working References
 
@@ -36,6 +37,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - D01–D05 — `REF-GUIDE-001`
 - E01–E05 — `REF-ACTIVE-001`, DEC-0019
 - G01–G04 — `REF-DIAG-001`
+- H01–H04 — `REF-MAINT-001`
 
 ## Approved Global Navigation
 
@@ -70,30 +72,41 @@ Protections: no continue-anyway; saved UI progress != physical proof; guide chan
 
 Protections: no random replacement/probability fabrication; unsafe G01 cannot continue normally; photo contextual evidence only; supported result still requires fit/readiness; generated mechanical imagery is not diagnostic evidence; bottom-bar reduction PROPOSED ONLY.
 
-## Current Task — FAM-05 Maintenance / Reminder
+### Maintenance / Reminder — `REF-MAINT-001`
+- H01 existing R02 Bakim root / `SCR-022`
+- H02 `SCR-023` maintenance item / reminder detail
+- H03 `SCR-024` catch-up / priorities
+- H04 `SCR-022/023` uncertain maintenance timing
+
+Protections: no invented interval/km/date/threshold; snooze != completion; due/upcoming state needs supported maintenance source + usable history evidence; standalone user record does not auto-verify truth; H03 is not universal brake-first prioritization; critical correction is separate from routine reminder; deep-flow bottom-bar treatment PROPOSED ONLY.
+
+## Current Task — FAM-06 History / Evidence / Trust
 
 **USE NOW:**
-`PHASE3_MAINTENANCE_REMINDER_VISUAL_REFERENCES_AI_PROMPT.md`
+`PHASE3_HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Existing R02 Bakim root is H01 and must NOT be regenerated.
-Generate exactly 3 new visuals:
-- H02 — `SCR-023 Maintenance Item / Reminder Detail`
-- H03 — `SCR-024 Catch-Up & Critical Priorities`
-- H04 — `SCR-022/023 Maintenance Timing Uncertain`
+Existing R04 Gecmis root is I01 and must NOT be regenerated.
+Generate exactly 5 new visuals:
+- I02 — `SCR-026 Historical Record & Provenance`
+- I03 — `SCR-027 Record Work — Self / Hobby / External Service`
+- I04 — `SCR-028 Correction / Dispute / Evidence Review`
+- I05 — `SCR-029 Critical Correction / Safety Reach-Back`
+- I06 — `SCR-030 Data Export`
 
 Required attachments:
 - `Kavriva_L05A.png`
 - selected V10 screenshot
-- `R02-Bakim.png`
-- `D02-SCR-010-Guide-Scope-Fit.png`
+- `R04-Gecmis.png`
+- `H02-SCR-023-Maintenance-Item-Reminder-Detail.png`
 
-Maintenance protections:
-- no invented interval/km/date/time,
-- postpone/snooze != completion,
-- item detail connects explicitly to `Bakimi yap / Rehberi ac` -> trusted guide system,
-- uncertain timing is shown as uncertain rather than guessed,
-- catch-up prioritizes safety/use impact before mere lateness,
-- no notification flood / KPI dashboard.
+History/trust protections:
+- current usable claim/record meaning before raw event-history detail,
+- no silent overwrite or silent dispute winner,
+- actor/source/evidence/current claim state are separate meanings,
+- service/professional attribution does not auto-create verification,
+- critical correction / safety reach-back is stronger than routine reminder and survives inactive/entitlement changes,
+- basic history/export/provenance/correction access is not retroactively paywalled,
+- no trust score, fabricated certainty or generic certification badge.
 
 ## Internal Data & Content Operations — Approved Requirement
 
