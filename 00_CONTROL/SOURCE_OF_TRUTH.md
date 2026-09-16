@@ -103,6 +103,11 @@ Guide-family evidence / review:
 - `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
 - `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
 
+Review-stage candidate evidence — not approved authority:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- E01 preserves approved V10; E02-E05 require explicit user acceptance before approval integration.
+
 Other evidence / review artifacts:
 - `KAVRIVA_LOGO_01_HANDOFF.md`
 - `KAVRIVA_LOGO_REVIEW.md`

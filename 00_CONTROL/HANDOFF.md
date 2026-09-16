@@ -10,30 +10,20 @@ Motobakim
 ChatGPT proje mimari muhendisi ve yoneticisi.
 
 ## Current Phase
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS USER REVIEW REQUIRED`
 
 ## What Just Happened
 
-User delegated Guide Discovery / Fit / Preparation visual package'ini ve D01–D05 images'ini ana yonetici sohbetine getirdi.
+User supplied all required active-family references and asked for the Phase-3 prompt to be applied to the repository.
 
-User feedback — verbatim:
-> geneol olarak iyi
+E01 was preserved from the supplied V10 reference. E02-E05 were generated as separate candidate mobile visuals and passed initial constraint QA.
 
-Main-manager QA:
-`PASS_WITH_REQUIRED_CONSTRAINTS`.
+Repository additions:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
-Working family accepted:
-- D01 `SCR-009 Known Task Find / Select`
-- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
-- D03 `SCR-011 Preparation / Readiness`
-- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
-- D05 `SCR-013 Teaching-Only Topic View`
-
-Canonical additions:
-- `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-GUIDE-001`
+No explicit user acceptance exists yet, so this set is not APPROVED and no new decision record exists.
 
 ## Required D-Series Constraints
 
@@ -71,24 +61,18 @@ Core principle:
 
 ## Current Task
 
-**USE NOW:**
-`03_DESIGN/PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
+Collect user review of:
+- E01 existing V10 reference,
+- E02 `SCR-015 Problem / Mismatch / Recovery`,
+- E03 `SCR-016 Resume Revalidation`,
+- E04 `SCR-017 Material Guide Change / Physical-State Remap`,
+- E05 `SCR-018 Completion / Safe Closure / Record`.
 
-Family:
-- E01 = existing V10 / `SCR-014 Active Guide Step`; do NOT redesign,
-- E02 = `SCR-015 Problem / Mismatch / Recovery`,
-- E03 = `SCR-016 Resume Revalidation`,
-- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
-- E05 = `SCR-018 Completion / Safe Closure / Record`.
+Ask only:
+- `Genel olarak iyi mi?`
+- `Degismesini istedigin ekran varsa E02–E05 ID'sini ve neyi begenmedigini soyle.`
 
-Delegated session generates only E02–E05 as new images.
-
-Required user attachments:
-- `Kavriva_L05A.png`
-- reviewed V10 active-guide screenshot
-- `D03-SCR-011-Preparation-Readiness.png`
-- `D04-SCR-012-Readiness-Hold-Recheck.png`
-- `D05-SCR-013-Teaching-Only.png`
+After feedback/refinement, produce the exact portable handoff package required by the source prompt, then run controlled QA before any APPROVED promotion.
 
 Critical rules:
 - no D-series blue K logo drift,
@@ -123,11 +107,11 @@ Critical rules:
 8. AI Usta UX structure — DONE / A1 APPROVED.
 9. Five-tab main-shell root visuals — DONE / R01–R05.
 10. Guide Discovery / Fit / Preparation visuals — DONE / D01–D05.
-11. **Active Application / Safety / Recovery visuals — CURRENT.**
+11. **Active Application / Safety / Recovery visuals — CANDIDATE SET READY / USER REVIEW REQUIRED.**
 12. Remaining critical visual references.
 13. Gate 3 -> 4 review.
 
 No Phase 4 transition yet.
 
 ## Last Updated
-2026-09-15
+2026-09-16

@@ -19,7 +19,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
 14. Five-tab main-shell root visual references — **DONE / R01–R05 APPROVED WORKING SET**
 15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS**
-16. **Active Application / Safety / Recovery visual references — CURRENT / READY**
+16. **Active Application / Safety / Recovery visual references — E01–E05 CANDIDATE SET GENERATED / USER REVIEW REQUIRED**
 17. Remaining critical screen/state visual references
 18. Gate 3 -> 4 readiness review
 
@@ -128,10 +128,13 @@ Canonical:
 - `SCREEN_FAMILY_SPEC_REVIEW.md`
 - `REF-SPEC-001`
 
-## Current Task — Active Application / Safety / Recovery Visual References
+## Current Task — Active Application / Safety / Recovery Visual Review
 
-**USE NOW:**
-`PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
+Candidate record:
+`ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+
+Candidate reference:
+`REF-ACTIVE-CANDIDATE-001` — REVIEW, not approved authority.
 
 Family:
 - E01 = existing approved V10 / `SCR-014 Active Guide Step` — **do not redesign**,
@@ -140,14 +143,10 @@ Family:
 - E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
 - E05 = `SCR-018 Completion / Safe Closure / Record`.
 
-Delegated session generates only E02–E05 as new images. U04/V10 remain direct authority for E01.
+E02–E05 have been generated as review candidates. U04/V10 remain direct authority for E01.
 
-Required attachments:
-- `Kavriva_L05A.png`
-- selected/reviewed V10 active-guide screenshot
-- `D03-SCR-011-Preparation-Readiness.png`
-- `D04-SCR-012-Readiness-Hold-Recheck.png`
-- `D05-SCR-013-Teaching-Only.png`
+Candidate assets:
+`REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
 Important protections:
 - do not redraw L05A into the D-series blue K drift,
@@ -157,6 +156,12 @@ Important protections:
 - completion cannot coerce partial/unresolved work into success,
 - safe closure cannot be paywalled,
 - active-work bottom-bar behavior remains PROPOSED until explicitly decided.
+
+Next required action:
+- collect explicit user review for E02–E05,
+- refine only requested screens if needed,
+- create the prescribed portable handoff package,
+- run controlled QA before approval promotion.
 
 ## Core Design Protections
 

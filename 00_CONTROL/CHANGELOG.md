@@ -275,3 +275,17 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `PHASE3_AI_USTA_UX_CALIBRATION_AI_PROMPT.md` COMPLETED yapildi.
 - `PHASE3_MAIN_SHELL_VISUAL_REFERENCES_AI_PROMPT.md` ACTIVE / USE NOW olarak olusturuldu.
 - Current state: `PHASE-3 / DESIGN — FIVE-TAB MAIN SHELL VISUAL REFERENCES READY`.
+
+## 2026-09-16
+
+### Active Application / Safety / Recovery Candidate Visual Set Generated
+- User supplied the required L05A, V10, D03, D04 and D05 references plus the active-family prompt and asked for the set to be analyzed and applied.
+- E01 preserved the supplied existing V10 active-guide reference and was not regenerated.
+- Four separate candidate visuals were generated: E02 `SCR-015`, E03 `SCR-016`, E04 `SCR-017`, E05 `SCR-018`.
+- Initial QA found no continue-anyway path, no unsupported technical value, no automatic guide-change reversal/step guessing, and no forced-success closure.
+- The D-series blue K-like drift was not reused; E02-E05 use restrained text-only Kavriva identity rather than inventing a mark.
+- E02-E05 omit global bottom navigation as a **PROPOSED ONLY** active-work focus treatment.
+- Candidate PNGs were added under `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`.
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` records analysis, QA and provenance.
+- `REFERENCE_INDEX.md` adds `REF-ACTIVE-CANDIDATE-001` with status `REVIEW`.
+- No user acceptance, APPROVED promotion or DECISION_LOG entry was created. Current state now requires user review.

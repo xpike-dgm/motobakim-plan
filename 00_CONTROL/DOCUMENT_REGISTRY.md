@@ -42,10 +42,15 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `REFERENCE_INDEX.md` -> `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`
 
 Current Phase-3 task:
-**Active Application / Safety / Recovery visual references — SCR-014–SCR-018**.
+**Active Application / Safety / Recovery visual references — E01–E05 candidate set generated; user review required**.
 
 Active prompt:
 `03_DESIGN/PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`.
+
+Review-stage artifact — not yet approved authority:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- candidate PNGs: `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
 Phase 4'e Gate 3 saglanmadan gecilmez.
 

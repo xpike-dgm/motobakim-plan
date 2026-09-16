@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — ACTIVE APPLICATION + SAFETY + RECOVERY VISUALS USER REVIEW REQUIRED`
 
 ## Current Objective
 
@@ -22,26 +22,21 @@ Approved working design references:
 
 ## What Just Changed
 
-User delegated Guide Discovery / Fit / Preparation visual package'ini ve D01–D05 images'ini ana yonetici sohbetine getirdi.
+User supplied the required L05A, V10, D03, D04 and D05 visual references plus the active-family prompt and asked for them to be analyzed and applied to the repository.
 
-User feedback — verbatim:
-> geneol olarak iyi
+Generated review candidates:
+- E01 = existing V10 / `SCR-014`; preserved, not regenerated,
+- E02 = `SCR-015 Problem / Mismatch / Recovery`,
+- E03 = `SCR-016 Resume Revalidation`,
+- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
+- E05 = `SCR-018 Completion / Safe Closure / Record`.
 
-Main-manager QA:
-`PASS_WITH_REQUIRED_CONSTRAINTS`
+Repository integration:
+- `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-ACTIVE-CANDIDATE-001` (`REVIEW`)
+- `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 
-Working family accepted:
-- D01 `SCR-009 Known Task Find / Select`
-- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
-- D03 `SCR-011 Preparation / Readiness`
-- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
-- D05 `SCR-013 Teaching-Only Topic View`
-
-Canonical:
-- `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-GUIDE-001`
+No user acceptance has been recorded for E02-E05. The candidate set is not APPROVED authority and no DECISION_LOG entry has been added.
 
 ## Guide-Family QA Constraints
 
@@ -87,30 +82,20 @@ No sixth `Rehberler` bottom tab is added.
 13. AI Usta UX Structure Calibration — DONE / A1 APPROVED.
 14. Five-tab main-shell root visual references — DONE / R01–R05 APPROVED WORKING SET.
 15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS.**
-16. **Active Application / Safety / Recovery visual references — READY / CURRENT.**
+16. **Active Application / Safety / Recovery visual references — CANDIDATES GENERATED / USER REVIEW REQUIRED.**
 17. Remaining critical screen/state visual references.
 18. Gate 3 -> 4 readiness review.
 
-## Current Prompt
+## Current Review
 
-**USE NOW:**
-`03_DESIGN/PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
+Review:
+`03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
 
-This round treats:
-- E01 = existing approved V10 / `SCR-014 Active Guide Step` reference; do not redesign it,
-- E02 = `SCR-015 Problem / Mismatch / Recovery`,
-- E03 = `SCR-016 Resume Revalidation`,
-- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
-- E05 = `SCR-018 Completion / Safe Closure / Record`.
+User review questions:
+- `Genel olarak iyi mi?`
+- `Degismesini istedigin ekran varsa E02–E05 ID'sini ve neyi begenmedigini soyle.`
 
-Delegated session generates only E02–E05 as new images and uses V10 as E01 direct authority.
-
-Required attachments:
-- `Kavriva_L05A.png`
-- reviewed V10 active-guide screenshot
-- `D03-SCR-011-Preparation-Readiness.png`
-- `D04-SCR-012-Readiness-Hold-Recheck.png`
-- `D05-SCR-013-Teaching-Only.png`
+After feedback/refinement, create the required portable handoff package and run controlled QA before any approval/source-of-truth promotion.
 
 ## Still Open — Not Errors
 
@@ -134,4 +119,4 @@ Screen/state architecture, navigation, working specs, AI Usta root UX, five-tab 
 
 ## Last Refreshed
 
-2026-09-15
+2026-09-16
