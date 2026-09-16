@@ -79,6 +79,8 @@ Approved visual families:
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` -> `REF-ACTIVE-001`
 - `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` -> `REF-DIAG-001`
 - `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` -> `REF-MAINT-001`
+- `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` -> `REF-HISTORY-001`
+- `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` -> `REF-LIFECYCLE-001`
 
 Evidence/review layers:
 - `KAVRIVA_LOGO_01_HANDOFF.md`, `KAVRIVA_LOGO_REVIEW.md`
@@ -92,6 +94,8 @@ Evidence/review layers:
 - `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`, `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
 - `KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`, `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 - `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_01_HANDOFF.md`, `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
+- `KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_01_HANDOFF.md`, `KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_REVIEW.md`
+- `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_01_HANDOFF.md`, `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_REVIEW.md`
 
 ## Authority Boundaries
 
@@ -107,6 +111,8 @@ Evidence/review layers:
 - `REF-ACTIVE-001`: saved UI progress physical proof degildir; continue-anyway yok; guide-change automatic reversal/guessing yok; partial/unresolved/safe-stop truthful outcomes'dur; reduced navigation PROPOSED ONLY.
 - `REF-DIAG-001`: danger-first symptom capture, one discriminating check, supported-vs-unresolved outcomes; no random replacement/fabricated probability; photo contextual evidence'dir; supported result still fit/readiness'tan gecer; reduced navigation PROPOSED ONLY.
 - `REF-MAINT-001`: no invented interval/date/mileage; snooze != completion; maintenance-to-guide continuity korunur; catch-up safety/use impact first but not a universal brake-first rule; uncertain timing remains uncertain; critical historical correction routine reminder degildir; deep-flow navigation remains PROPOSED ONLY.
+- `REF-HISTORY-001`: current usable record meaning event history'den once gelir; actor/source/evidence/current claim state ayridir; no silent overwrite/fake winner; service role verification degildir; critical correction inactive/entitlement state'te de erisilebilir; basic history/provenance/correction/dispute/export retroactive paywall olamaz.
+- `REF-LIFECYCLE-001`: inactive != delete/history lock; archive/inactive != transfer != delete; transfer partial coverage complete/verified gibi sunulamaz; delete independent/shared data sinirlarini korur; J05 v3 relevant new activity'yi gate ederken existing history/trust/safety/recovery access'ini korur; exact price/tier/quota/legal retention/permission implementation final degildir.
 - Generated motorcycle/mechanical imagery identity/fit/diagnosis/maintenance evidence degildir.
 - Community wording unsupported authenticity/verification iddiasi yaratamaz.
 - Language/unit/accessibility support profile prerequisite olamaz.
