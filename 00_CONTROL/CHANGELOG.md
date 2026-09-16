@@ -309,3 +309,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - E01 remains existing V10; refined `v2-L05A` E02-E05 files are current authority.
 - Hidden/reduced bottom navigation remains PROPOSED ONLY.
 - Next recommended visual family: FAM-04 Diagnosis (`SCR-019`-`SCR-021`).
+
+### Active Family Explicit Reconfirmation / Diagnosis Ready
+- User explicitly reconfirmed the already-QA'd E01–E05 family with `onaylıyorum`.
+- Approval scope did not expand; DEC-0019 constraints remain unchanged.
+- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` now preserves both the earlier `genel olarak iyi` acceptance and the explicit `onaylıyorum` confirmation.
+- `03_DESIGN/PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md` created as the next controlled Phase-3 prompt.
+- Diagnosis round covers G01 `SCR-019`, G02 `SCR-020`, G03 `SCR-021 supported`, G04 `SCR-021 unresolved/handoff`.
+- Diagnosis prompt preserves danger-first triage, evidence-driven narrowing, one discriminating check at a time, valid uncertainty, no random part replacement, no unsupported certainty and supported-result -> guide-preview -> fit/readiness continuity.
+- Photo analysis is product-UX optional/contextual evidence, not default every-check behavior or automatic diagnosis authority; no AI provider/model/API architecture is selected.
+- `CURRENT_STATE.md`: `PHASE-3 / DESIGN — DIAGNOSIS VISUAL REFERENCES READY`.
