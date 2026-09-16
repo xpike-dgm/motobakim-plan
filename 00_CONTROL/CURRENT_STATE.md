@@ -38,6 +38,11 @@ Repository integration:
 
 No user acceptance has been recorded for E02-E05. The candidate set is not APPROVED authority and no DECISION_LOG entry has been added.
 
+Latest user refinement feedback — verbatim:
+> Kavriva logosunu kullanmamışsın
+
+E02-E05 were corrected as `v2-L05A` candidates using the supplied black L05A symbol + wordmark lockup. The original text-only-header files remain as superseded review history.
+
 ## Guide-Family QA Constraints
 
 1. D03 `Uygulamaya hazir` may appear only after all mandatory/critical conditions are actually verified. Pending/unknown/stale/failed critical readiness cannot be shown as ready and cannot enable application.

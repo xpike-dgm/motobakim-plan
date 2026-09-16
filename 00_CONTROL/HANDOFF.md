@@ -25,6 +25,15 @@ Repository additions:
 
 No explicit user acceptance exists yet, so this set is not APPROVED and no new decision record exists.
 
+Latest user feedback — verbatim:
+> Kavriva logosunu kullanmamışsın
+
+Resolution:
+- E02-E05 were refined to `v2-L05A` files using the supplied black L05A symbol + wordmark lockup.
+- Only the header brand area was changed; screen content/safety hierarchy was preserved.
+- The original text-only-header images remain as superseded review history.
+- User acceptance of the refined set is still required.
+
 ## Required D-Series Constraints
 
 1. D03 `Uygulamaya hazir` is only valid after all mandatory/critical readiness conditions are actually verified. Pending/unknown/stale/failed critical state cannot be shown ready and cannot enable application.

@@ -289,3 +289,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` records analysis, QA and provenance.
 - `REFERENCE_INDEX.md` adds `REF-ACTIVE-CANDIDATE-001` with status `REVIEW`.
 - No user acceptance, APPROVED promotion or DECISION_LOG entry was created. Current state now requires user review.
+
+### Active Visual Candidate Logo Correction
+- User feedback: `Kavriva logosunu kullanmamışsın`.
+- The first E02-E05 candidates used a text-only brand header and did not meet the user's L05A-fidelity expectation.
+- E02-E05 were edited as separate `v2-L05A` assets using the supplied black L05A symbol + `Kavriva` wordmark lockup.
+- All non-header content, state semantics and safety hierarchy were preserved.
+- Original text-only-header images remain as superseded review history; v2-L05A files are current candidates.
+- Candidate status remains `REVIEW`; no acceptance or decision record is inferred.

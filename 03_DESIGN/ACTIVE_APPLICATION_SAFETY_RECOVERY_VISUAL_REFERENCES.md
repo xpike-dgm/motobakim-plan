@@ -2,6 +2,7 @@
 
 Status: REVIEW — USER ACCEPTANCE REQUIRED
 Generated: 2026-09-16
+Refined: 2026-09-16 — L05A header correction
 Candidate reference: `REF-ACTIVE-CANDIDATE-001`
 Source prompt: `PHASE3_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES_AI_PROMPT.md`
 Asset directory: `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
@@ -11,6 +12,17 @@ Asset directory: `03_DESIGN/REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
 This is a candidate visual set, not approved downstream authority.
 
 The user asked for the supplied references and Phase-3 prompt to be analyzed and applied. That request authorizes generation and repository integration, but it is not acceptance of the generated E02-E05 results. No DECISION_LOG approval is created until explicit user review is received.
+
+## User Feedback — Verbatim
+
+> Kavriva logosunu kullanmamışsın
+
+Resolution:
+- The first E02-E05 candidates used a text-only `Kavriva` header and therefore did not satisfy the user's logo-fidelity expectation.
+- E02-E05 were refined as `v2-L05A` images.
+- The v2 images use the black L05A symbol + `Kavriva` wordmark lockup from the supplied logo reference.
+- All non-header screen content and safety behavior were preserved.
+- The original files remain as review history; v2-L05A files are the current candidates.
 
 ## Candidate Set
 
@@ -43,7 +55,8 @@ The user asked for the supplied references and Phase-3 prompt to be analyzed and
 - Amber is reserved for consequential stop/change meaning in E02 and E04.
 - Layouts use strong hierarchy, moderate rounding, thin separators and low decoration.
 - Brand presence is deliberately restrained.
-- The D-series blue K-like drift was not reused. Because exact L05A reproduction by image generation was not reliable, the new candidates use a small text-only `Kavriva` wordmark instead of inventing a new mark.
+- The D-series blue K-like drift was not reused.
+- Current E02-E05 v2 candidates use the supplied black L05A symbol + `Kavriva` wordmark lockup in the header.
 - Trust, safety and completion semantics are not represented by a generic certification shield/check.
 
 ## Safety / Product QA
@@ -75,12 +88,14 @@ E02-E05 omit the five-tab bottom bar to protect active-work focus. This is a can
 | ID | File | Size | SHA-256 |
 |---|---|---:|---|
 | E01 | `E01-SCR-014-Active-Guide-Step.png` | 887x1774 | `9f2010a9cdab7ab85a00de89931867b34818fe3af350c702ceff8cbe2aebbd6d` |
-| E02 | `E02-SCR-015-Problem-Mismatch-Recovery.png` | 941x1672 | `54af60bb47877e512074aa4fceca5c2938fbbb170f2d97244cbbfc03227f3041` |
-| E03 | `E03-SCR-016-Resume-Revalidation.png` | 941x1672 | `85076dc3edf3e050b3d0c4b47e3c0b803aab22e0855f7be05d2d979a66cb1271` |
-| E04 | `E04-SCR-017-Material-Guide-Change-Remap.png` | 941x1672 | `8f06987b09b8fe91a5a5f36ead982448581b414f3e6fadc801b35b29d2ea1d44` |
-| E05 | `E05-SCR-018-Completion-Safe-Closure-Record.png` | 941x1672 | `183825f24b55250f89234c189241e87edcd335ee4fecc35f2188021967985cb4` |
+| E02 current | `E02-SCR-015-Problem-Mismatch-Recovery-v2-L05A.png` | 941x1672 | `a4e7dba1571f6ef22b08d4eac893e5d76618bd61f5a00780638acafc01d70619` |
+| E03 current | `E03-SCR-016-Resume-Revalidation-v2-L05A.png` | 941x1672 | `6d0b7f6327874f6a9ca5210a9ff184d68693b7822863961ae0404a2539e2981d` |
+| E04 current | `E04-SCR-017-Material-Guide-Change-Remap-v2-L05A.png` | 941x1672 | `b0c050ee2b2e414a5d11cbdc1d62914fd11463237f7054efdad9e66fa4cb6620` |
+| E05 current | `E05-SCR-018-Completion-Safe-Closure-Record-v2-L05A.png` | 941x1672 | `45454e95c5f1203f4af7ef8c1e4142d4d69164abf244f41ee8b8b21f8f78c9ca` |
 
 E01 is the session-supplied V10 file. Its binary hash differs from the earlier historical hash recorded in `ANCHOR_VISUAL_STYLE.md`; this candidate record preserves the currently supplied binary without changing V10's approved direction semantics.
+
+The first text-only-header E02-E05 binaries remain in the asset directory as superseded review history. They are not the current candidates.
 
 ## What Remains Non-Final
 
