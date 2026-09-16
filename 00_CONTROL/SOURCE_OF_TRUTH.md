@@ -78,6 +78,7 @@ Approved visual families:
 - `03_DESIGN/GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md` -> `REF-GUIDE-001`
 - `03_DESIGN/ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md` -> `REF-ACTIVE-001`
 - `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md` -> `REF-DIAG-001`
+- `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` -> `REF-MAINT-001`
 
 Evidence/review layers:
 - `KAVRIVA_LOGO_01_HANDOFF.md`, `KAVRIVA_LOGO_REVIEW.md`
@@ -90,6 +91,7 @@ Evidence/review layers:
 - `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_01_HANDOFF.md`, `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
 - `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`, `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
 - `KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`, `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
+- `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_01_HANDOFF.md`, `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
 
 ## Authority Boundaries
 
@@ -104,7 +106,8 @@ Evidence/review layers:
 - `REF-GUIDE-001`: task selection != fit; readiness application'dan once; blocked readiness bypass yok; D-series blue K drift logo degildir; generated tool/material examples technical truth degildir.
 - `REF-ACTIVE-001`: saved UI progress physical proof degildir; continue-anyway yok; guide-change automatic reversal/guessing yok; partial/unresolved/safe-stop truthful outcomes'dur; reduced navigation PROPOSED ONLY.
 - `REF-DIAG-001`: danger-first symptom capture, one discriminating check, supported-vs-unresolved outcomes; no random replacement/fabricated probability; photo contextual evidence'dir; supported result still fit/readiness'tan gecer; reduced navigation PROPOSED ONLY.
-- Generated motorcycle/mechanical imagery identity/fit/diagnosis evidence degildir.
+- `REF-MAINT-001`: no invented interval/date/mileage; snooze != completion; maintenance-to-guide continuity korunur; catch-up safety/use impact first but not a universal brake-first rule; uncertain timing remains uncertain; critical historical correction routine reminder degildir; deep-flow navigation remains PROPOSED ONLY.
+- Generated motorcycle/mechanical imagery identity/fit/diagnosis/maintenance evidence degildir.
 - Community wording unsupported authenticity/verification iddiasi yaratamaz.
 - Language/unit/accessibility support profile prerequisite olamaz.
 - Internal Data/Content Operations requirement exact surface/technology/publishing architecture'i finalize etmez.
