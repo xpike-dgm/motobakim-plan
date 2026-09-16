@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — MAINTENANCE + REMINDER VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — HISTORY + EVIDENCE + TRUST VISUAL REFERENCES READY`
 
 ## Current Objective
 
@@ -21,47 +21,49 @@ Approved working design references:
 - Guide Discovery / Fit / Preparation: **REF-GUIDE-001 / D01–D05** — APPROVED with constraints.
 - Active Application / Safety / Recovery: **REF-ACTIVE-001 / E01–E05** — APPROVED with constraints.
 - Diagnosis: **REF-DIAG-001 / G01–G04** — APPROVED with constraints.
+- Maintenance / Reminder: **REF-MAINT-001 / H01–H04** — APPROVED with constraints.
 
 ## What Just Changed
 
-### Diagnosis family
+### Maintenance / Reminder family
 
-User supplied G01–G04 and portable handoff with acceptance:
+User supplied the portable FAM-05 handoff with acceptance:
 > genel set iyi
+
+Then supplied the missing H02–H04 images for manager QA.
 
 Main-manager QA: `PASS_WITH_CONSTRAINTS`.
 
-Approved diagnosis meaning:
-- G01 plain-language symptom capture + danger-first gate,
-- G02 one discriminating check at a time,
-- G03 supported direction without certain-fault claim,
-- G04 explicit unresolved outcome / useful handoff.
+Approved maintenance meaning:
+- H01 = existing R02 Bakim root,
+- H02 separates guide entry, actual-work recording and reminder snooze,
+- H03 provides calm catch-up prioritization,
+- H04 preserves uncertain timing rather than inventing due/overdue truth.
 
 Required constraints:
-- unsafe/uncertain G01 state cannot continue normal diagnosis,
-- no random part replacement or fabricated probability,
-- `Emin degilim` and unresolved remain valid,
-- photo is contextual evidence, not default/automatic diagnosis authority,
-- G03 supported result still goes through guide fit/readiness before application,
-- reduced/hidden bottom bar remains PROPOSED ONLY.
+- no invented date/km/interval/threshold,
+- H02 due/upcoming states require applicable verified maintenance support + usable completion/history evidence,
+- user-entered work does not automatically become verified truth,
+- snooze/postpone != completion,
+- H03 is not a universal `brakes always first` rule; priority comes from supported current safety/use impact,
+- H04 must remain uncertain when source/history is insufficient,
+- critical historical correction is separate from routine reminder UI,
+- deep-flow bottom-bar treatment remains PROPOSED ONLY.
 
 Canonical:
-- `03_DESIGN/DIAGNOSIS_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-DIAG-001`
+- `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md`
+- `03_DESIGN/KAVRIVA_MAINTENANCE_REMINDER_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-MAINT-001`
 
-### New project-scope requirement — Internal Data & Content Operations
+### Internal Data & Content Operations requirement
 
-User identified the need for an internal operational product/capability for motorcycle/technical data research, missing-data visibility, controlled updates, publishing and data-quality/coverage analytics, then explicitly confirmed:
-> bu kesin yapılacak
-
-This is now an APPROVED project requirement recorded in:
+Still APPROVED project requirement:
 `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`.
 
 Exact form remains open: web app vs desktop vs hybrid, database/CMS/API/sync architecture, roles implementation, analytics stack and AI/provider choices are NOT decided.
 
-Current mobile visual work continues. Before final Gate 3 -> 4 readiness, a targeted Internal Data/Content Operations requirements + workflow/screen-architecture addendum must be completed so Phase 4 evaluates the whole product system, not only mobile.
+Before Gate 3 -> 4 readiness, a targeted Internal Data/Content Operations requirements + workflow/screen-architecture addendum remains required.
 
 ## Current Phase 3 Sequence
 
@@ -71,36 +73,40 @@ Current mobile visual work continues. Before final Gate 3 -> 4 readiness, a targ
 4. Five-tab root visuals — DONE / APPROVED.
 5. Guide Discovery / Fit / Preparation — DONE / APPROVED WITH CONSTRAINTS.
 6. Active Application / Safety / Recovery — DONE / APPROVED WITH CONSTRAINTS.
-7. Diagnosis — **DONE / G01–G04 APPROVED WITH CONSTRAINTS.**
-8. **FAM-05 Maintenance / Reminder visual references — READY / CURRENT.**
-9. Remaining critical mobile screen/state visual references.
-10. Targeted Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
-11. Gate 3 -> 4 readiness review.
+7. Diagnosis — DONE / APPROVED WITH CONSTRAINTS.
+8. Maintenance / Reminder — **DONE / H01–H04 APPROVED WITH CONSTRAINTS.**
+9. **FAM-06 History / Evidence / Trust visual references — READY / CURRENT.**
+10. Remaining critical mobile screen/state visual references.
+11. Targeted Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
+12. Gate 3 -> 4 readiness review.
 
 ## Current Prompt
 
 **USE NOW:**
-`03_DESIGN/PHASE3_MAINTENANCE_REMINDER_VISUAL_REFERENCES_AI_PROMPT.md`
+`03_DESIGN/PHASE3_HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Existing approved R02 Bakim root is H01 and must NOT be redesigned.
-Generate exactly 3 new visuals:
-- H02 — `SCR-023 Maintenance Item / Reminder Detail`
-- H03 — `SCR-024 Catch-Up & Critical Priorities`
-- H04 — `SCR-022/023 Maintenance Timing Uncertain`
+Existing approved R04 Gecmis root is I01 and must NOT be redesigned.
+Generate exactly 5 new visuals:
+- I02 — `SCR-026 Historical Record & Provenance`
+- I03 — `SCR-027 Record Work — Self / Hobby / External Service`
+- I04 — `SCR-028 Correction / Dispute / Evidence Review`
+- I05 — `SCR-029 Critical Correction / Safety Reach-Back`
+- I06 — `SCR-030 Data Export`
 
 Required attachments:
 - `Kavriva_L05A.png`
 - selected V10 screenshot
-- `R02-Bakim.png`
-- `D02-SCR-010-Guide-Scope-Fit.png`
+- `R04-Gecmis.png`
+- `H02-SCR-023-Maintenance-Item-Reminder-Detail.png`
 
-Maintenance protections:
-- no invented km/time/date/interval,
-- postpone/snooze != completion,
-- maintenance item must have explicit `Bakimi yap / Rehberi ac` connection to trusted guide flow,
-- uncertain timing remains uncertain rather than guessed,
-- catch-up prioritizes safety/use impact before mere lateness,
-- no notification flood or dashboard/KPI treatment.
+History/trust protections:
+- current usable claim meaning before raw event-history detail,
+- provenance/evidence/actor/current claim state remain separate meanings,
+- no silent overwrite or silent dispute winner,
+- service/professional attribution does not automatically create verification,
+- critical correction/safety reach-back is stronger than routine reminder and survives inactive/entitlement state,
+- basic history/export/provenance/correction access is not retroactively paywalled,
+- no trust score / fabricated certainty / generic certification badge.
 
 ## Still Open — Not Errors
 
@@ -128,7 +134,7 @@ Technology/backend/AI architecture and pricing/tier/quota remain outside Phase 3
 
 Gate 3 -> 4 HENUZ GECILMEDI.
 
-Remaining critical mobile visual coverage AND the newly approved Internal Data/Content Operations requirements/workflow addendum must be sufficiently covered before Gate 3 readiness review.
+Remaining critical mobile visual coverage AND the approved Internal Data/Content Operations requirements/workflow addendum must be sufficiently covered before Gate 3 readiness review.
 
 ## Last Refreshed
 
