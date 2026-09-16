@@ -19,9 +19,10 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 13. AI Usta UX Structure Calibration — **DONE / A1 APPROVED**
 14. Five-tab main-shell root visual references — **DONE / R01–R05 APPROVED WORKING SET**
 15. Guide Discovery / Fit / Preparation visual references — **DONE / D01–D05 APPROVED WORKING SET WITH CONSTRAINTS**
-16. **Active Application / Safety / Recovery visual references — DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS**
-17. **Remaining critical screen/state visual references — NEXT: FAM-04 DIAGNOSIS**
-18. Gate 3 -> 4 readiness review
+16. Active Application / Safety / Recovery visual references — **DONE / E01–E05 APPROVED WORKING SET WITH CONSTRAINTS**
+17. **FAM-04 Diagnosis visual references — CURRENT / READY**
+18. Remaining critical screen/state visual references
+19. Gate 3 -> 4 readiness review
 
 ## Approved Working References
 
@@ -35,7 +36,7 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 - AI Usta root UX: **A1 — Guided Split**, `REF-AIUSTA-001`, DEC-0018.
 - Five-tab root visual family: **R01–R05**, `REF-SHELL-001`.
 - Guide Discovery / Fit / Preparation visual family: **D01–D05**, `REF-GUIDE-001`.
-- Active Application / Safety / Recovery visual family: **E01–E05**, `REF-ACTIVE-001`.
+- Active Application / Safety / Recovery visual family: **E01–E05**, `REF-ACTIVE-001`, DEC-0019.
 
 ## Approved Global Navigation
 
@@ -63,53 +64,72 @@ Symptom-first -> `SCR-019`.
 
 A1 root free-form technical-answer chat home degildir. Two intents bulky card-stack'e donusturulmez.
 
-## Approved Five-Tab Root Visual Family
+## Approved Visual Families
 
-Canonical:
-- `MAIN_SHELL_VISUAL_REFERENCES.md`
-- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
-- `REF-SHELL-001`
-
-Approved working set:
+### Root shell — `REF-SHELL-001`
 - R01 Garaj
 - R02 Bakim
 - R03 AI Usta
 - R04 Gecmis
 - R05 Topluluk
 
-Root-set constraints:
-- exact bottom-tab icons are NOT canonical,
-- R03 motorcycle crop is optional visual treatment,
-- R05 contribution CTA prominence is not a permanent engagement rule,
-- community wording cannot imply unsupported verification/authenticity,
-- generated motorcycle imagery is not technical evidence,
-- exact fonts/colors/spacing/radii/header geometry remain non-final.
+### Guide Discovery / Fit / Preparation — `REF-GUIDE-001`
+- D01 `SCR-009`
+- D02 `SCR-010`
+- D03 `SCR-011`
+- D04 `SCR-012`
+- D05 `SCR-013`
 
-## Approved Guide Discovery / Fit / Preparation Visual Family
+### Active Application / Safety / Recovery — `REF-ACTIVE-001`
+- E01 `SCR-014` — existing V10, U04/V10 direct authority
+- E02 `SCR-015`
+- E03 `SCR-016`
+- E04 `SCR-017`
+- E05 `SCR-018`
 
-Canonical:
-- `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
-- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
-- `REF-GUIDE-001`
+User explicitly reconfirmed E01–E05 after QA:
+> onaylıyorum
 
-Working set:
-- D01 `SCR-009 Known Task Find / Select`
-- D02 `SCR-010 Guide Scope / Fit / Selection Preview`
-- D03 `SCR-011 Preparation / Readiness`
-- D04 `SCR-012 Readiness Hold / Remediation / Recheck`
-- D05 `SCR-013 Teaching-Only Topic View`
+Important protections:
+- no continue-anyway recovery,
+- saved UI progress != current physical proof,
+- material guide change does not auto-reverse or guess continuation,
+- partial/unresolved/safe-stop remain truthful outcomes,
+- safe closure/recovery/revalidation cannot be paywalled,
+- active-work bottom-bar behavior remains PROPOSED,
+- exact production copy/components/tokens remain non-final.
 
-Required constraints:
-- D03 `Uygulamaya hazir` only after actual mandatory/critical readiness verification,
-- generated preparation examples are not technical truth,
-- D02 confirmed-fit copy needs real supporting evidence,
-- D01–D05 blue K-like generated mark is NOT approved; L05A remains logo authority,
-- D01/D02 visible bottom bar and D03–D05 reduced navigation are not final routing decisions.
+## Current Task — FAM-04 Diagnosis
 
-Continuity:
-- AI Usta `Bir is yapmak istiyorum` -> D01/D02,
-- Bakim item/detail -> explicit `Bakimi yap` / `Rehberi ac` -> same guide system,
-- no sixth `Rehberler` tab.
+**USE NOW:**
+`PHASE3_DIAGNOSIS_VISUAL_REFERENCES_AI_PROMPT.md`
+
+Generate exactly 4 visuals covering 3 approved contexts:
+- G01 — `SCR-019 Symptom Capture`
+- G02 — `SCR-020 One Diagnosis Check`
+- G03 — `SCR-021 Supported Outcome`
+- G04 — `SCR-021 Unresolved Outcome / Handoff`
+
+`SCR-021` intentionally gets two visuals because both supported and unresolved are legitimate critical product states.
+
+Required attachments:
+- `Kavriva_L05A.png`
+- selected V10 screenshot
+- `R03-AI-Usta.png`
+- `E02-SCR-015-Problem-Mismatch-Recovery-v2-L05A.png`
+
+Diagnosis protections:
+- danger before diagnostic convenience,
+- user can describe symptom without technical terminology,
+- evidence-driven narrowing,
+- one discriminating check at a time,
+- `Emin degilim` is valid,
+- no random replacement / parts-cannon behavior,
+- no unsupported certainty or fabricated probability,
+- unresolved is a legitimate outcome,
+- supported outcome routes to guide preview and still requires fit/readiness,
+- photo is requested only when materially useful; it is evidence, not automatic diagnosis authority,
+- Phase 3 does not choose AI provider/model/API architecture.
 
 ## Approved Working Screen Families / Specs
 
@@ -128,38 +148,6 @@ Canonical:
 - `SCREEN_FAMILY_SPECS.md`
 - `SCREEN_FAMILY_SPEC_REVIEW.md`
 - `REF-SPEC-001`
-
-## Approved Active Application / Safety / Recovery Visual Family
-
-Canonical:
-- `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_01_HANDOFF.md`
-- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
-- `REF-ACTIVE-001`
-
-Family:
-- E01 = existing approved V10 / `SCR-014 Active Guide Step` — **do not redesign**,
-- E02 = `SCR-015 Problem / Mismatch / Recovery`,
-- E03 = `SCR-016 Resume Revalidation`,
-- E04 = `SCR-017 Material Guide Change / Physical-State Remap`,
-- E05 = `SCR-018 Completion / Safe Closure / Record`.
-
-E02–E05 current authority is the refined `v2-L05A` set. U04/V10 remain direct authority for E01.
-
-Candidate assets:
-`REFERENCES/ACTIVE_APPLICATION_SAFETY_RECOVERY_01/`
-
-Important protections:
-- do not redraw L05A into the D-series blue K drift,
-- no continue-anyway recovery,
-- saved UI progress is not current physical proof,
-- guide change does not auto-reverse or guess the next step,
-- completion cannot coerce partial/unresolved work into success,
-- safe closure cannot be paywalled,
-- active-work bottom-bar behavior remains PROPOSED until explicitly decided.
-
-Next recommended action:
-- generate controlled FAM-04 Diagnosis visual references for `SCR-019`-`SCR-021`.
 
 ## Core Design Protections
 
@@ -193,4 +181,4 @@ Phase 3:
 
 ## Gate 3 -> 4
 
-Approved screen/state architecture, navigation, working specs, AI Usta root UX, five-tab root visual family and Guide Discovery/Fit/Preparation visual family mevcut. Remaining critical screen/state visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
+Remaining critical screen/state visual references tamamlanmadan Gate 3 readiness review yapilmayacak.
