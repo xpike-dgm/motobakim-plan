@@ -18,6 +18,7 @@ Status: ACTIVE
 | `REF-MAINT-001` | Maintenance / reminder | `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` | H01–H04 / SCR-022–024 | APPROVED |
 | `REF-HISTORY-001` | History / evidence / trust | `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` | I01 existing R04 + I02–I06 / SCR-025–030 | APPROVED |
 | `REF-LIFECYCLE-001` | Motorcycle lifecycle / entitlement | `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` | J01–J05 / SCR-008,031–033,037 | APPROVED |
+| `REF-PROFILE-001` | Profile / collaboration | `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md` | K01–K03 / SCR-006,007,034 | APPROVED |
 
 ## Reference Semantics
 
@@ -59,6 +60,9 @@ Current usable record meaning precedes raw event history. Actor/source/evidence/
 
 ### REF-LIFECYCLE-001
 Inactive motorcycle is not deleted or history-locked. J01 preserves inactive history/evidence/correction/export and critical reach-back. J02 keeps inactive/archive, transfer and delete distinct. J03 makes partial transfer coverage/gaps explicit and does not auto-verify records. J04 limits destructive meaning to applicable user-owned scope while protecting independent/shared data boundaries. J05 accepted v3 gates only the relevant new activity while preserving existing history/trust/safety/recovery access. Exact pricing/tier/quota, legal retention, permission implementation, routing and technology remain non-final.
+
+### REF-PROFILE-001
+Profile remains optional for current approved local/core value. K02 preserves migration scope review, local usable state and no-silent-overwrite behavior. K03 keeps owner/helper attribution, simple revocable access and private-content separation while role/service status remains distinct from verification. K01's literal `güvenle sakla` / `hiçbir şey kaybolmaz` wording and shield/check art are not production security/trust authority; final copy/iconography must preserve the narrower approved semantics. Auth/sync/backend/pricing remain non-final.
 
 ## Authority Rule
 
