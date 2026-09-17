@@ -2,7 +2,7 @@
 
 Status: ACTIVE TRANSFER GUIDE
 Date: 2026-09-17
-Purpose: Seamless transfer of the main project-manager / architecture-manager role to a fresh ChatGPT conversation because the prior conversation became too context-heavy.
+Purpose: Seamless transfer of the main project-manager / architecture-manager role to a fresh ChatGPT conversation.
 
 ## 1. Core Transfer Rule
 
@@ -30,7 +30,8 @@ Read before meaningful work:
 11. `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`
 12. `03_DESIGN/README.md`
 13. `03_DESIGN/REFERENCE_INDEX.md`
-14. only then the minimum task-specific Phase-3 documents needed for the user's next request.
+14. `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
+15. only then the minimum task-specific Phase-3 documents needed for the user's next request.
 
 Do not bulk-read the entire repository unless needed.
 
@@ -43,7 +44,7 @@ Gate 3 -> 4 has NOT passed.
 
 Consumer-mobile design coverage is almost complete.
 
-Approved working visual families now include:
+Approved working visual families include:
 - `REF-SHELL-001` — R01–R05 root shell
 - `REF-GUIDE-001` — D01–D05 Guide Discovery / Fit / Preparation
 - `REF-ACTIVE-001` — E01–E05 Active Application / Safety / Recovery
@@ -65,61 +66,41 @@ Upstream approved authorities also include:
 
 ## 4. What Was Just Completed
 
-FAM-09 Community was completed.
+The user accepted the current working FAM-01 visual directions for:
+- `SCR-001 First-Value Entry` — `Bugün ne yapmak istiyorsun?`
+- `SCR-002 Add Motorcycle` — `Motosikletini ekle`
+- `SCR-003 Motorcycle Identification & Variant Resolution` — `Bir ayrımı netleştirelim`
 
-Final manager-visible screens:
-- `L01-SCR-035-Community-Contribution.png`
-- `L02-SCR-036-Contribution-Review-Moderation-Appeal.png`
+Canonical review record:
+- `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
 
-Main-manager QA:
-`PASS_WITH_CONSTRAINTS`
+Review status:
+`PASS_PARTIAL / USER-ACCEPTED PARTIAL SET`
 
-Canonical:
-- `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-COMMUNITY-001`
+The review file records exact manager-chat image provenance and SHA-256 hashes for the three accepted screenshots.
 
-Key constraints:
-- community publication != official technical verification,
-- optional photos != technical verification,
-- private/public share scope remains explicit,
-- withdrawal must not silently erase dependent provenance/history,
-- L02 example date is fixture-only,
-- L02 example request for part brand/model/source details is illustrative moderation feedback, not a universal contribution rule,
-- no likes/followers/reputation/ranking/social-marketplace invention.
+Two Community-family screenshots were also shown in the same batch:
+- `Toplulukla paylaş`
+- `Katkın incelendi`
 
-## 5. CRITICAL PAUSE — DO NOT AUTO-CONTINUE
+Per explicit user instruction, those screens were excluded from FAM-01 repository processing. Existing Community authority remains unchanged under `REF-COMMUNITY-001`.
 
-The user's latest instruction before transfer was effectively:
-- this Community step is sufficient,
-- DO NOT prepare the next task prompt yet,
-- the user has additional things to say first.
+## 5. Remaining Consumer-Mobile Visual Coverage
 
-Therefore the fresh manager must NOT immediately generate a FAM-01 prompt.
+Only one new mobile visual context remains:
 
-First action after loading repository context:
-**listen to and process the user's pending comments.**
+- `SCR-004 Fit Confirmation / Missing Distinction`
 
-Do not invent what those comments are.
-
-Do not ask the user to repeat project history; only ask them to continue with the points they wanted to raise.
-
-## 6. Remaining Consumer-Mobile Visual Coverage
-
-Only 4 new mobile visual contexts remain:
-
-FAM-01 — First Use / Motorcycle Context:
+Already accepted as working FAM-01 directions:
 - `SCR-001 First-Value Entry`
 - `SCR-002 Add Motorcycle`
 - `SCR-003 Motorcycle Identification & Variant Resolution`
-- `SCR-004 Fit Confirmation / Missing Distinction`
 
 `SCR-005 Garaj` is already covered by R01 / `REF-SHELL-001`.
 
-These 4 visuals are NOT authorized to start automatically at transfer time because of the pending user comments described above.
+A full FAM-01 reference must NOT be created until `SCR-004` is sufficiently covered and reviewed.
 
-## 7. Required Internal Product Scope Before Gate 3 Review
+## 6. Required Internal Product Scope Before Gate 3 Review
 
 The user explicitly approved an Internal Data & Content Operations capability with:
 > `bu kesin yapılacak`
@@ -153,26 +134,15 @@ Still OPEN:
 Do NOT design final internal UI based on an assumed platform yet.
 
 Correct sequence is:
-1. targeted internal-operations requirements,
-2. workflows / lifecycle,
-3. platform-independent screen/workspace architecture,
-4. Gate 3 readiness review,
-5. Phase 4 technology-strategy comparison including mobile + internal operations,
-6. only after platform strategy is selected should final platform-specific internal visual design be finalized.
+1. complete remaining `SCR-004` consumer-mobile visual coverage,
+2. targeted internal-operations requirements,
+3. workflows / lifecycle,
+4. platform-independent screen/workspace architecture,
+5. Gate 3 readiness review,
+6. Phase 4 technology-strategy comparison including mobile + internal operations,
+7. only after platform strategy is selected should final platform-specific internal visual design be finalized.
 
-## 8. Planned Sequence After the User's Pending Comments
-
-Unless the user's new comments change the plan:
-
-1. Process pending user feedback / corrections.
-2. If still appropriate, complete FAM-01 remaining 4 mobile visuals.
-3. Complete Internal Data & Content Operations requirements + workflow + screen/workspace architecture addendum.
-4. Perform Gate 3 -> 4 readiness review.
-5. Move to Phase 4 only if the gate is explicitly satisfied/authorized.
-
-Do not skip directly to technology selection.
-
-## 9. User UX Preferences Learned During Phase 3
+## 7. User UX Preferences Learned During Phase 3
 
 Treat these as strong design evidence, not universal immutable law:
 
@@ -188,7 +158,7 @@ Treat these as strong design evidence, not universal immutable law:
 - If a decorative/illustrative image area does not add task value, remove it.
 - User prefers simple Turkish explanations rather than overly technical project-management language.
 
-## 10. Core Product Safety / Trust Invariants to Preserve
+## 8. Core Product Safety / Trust Invariants to Preserve
 
 Do not silently weaken these:
 
@@ -204,7 +174,7 @@ Do not silently weaken these:
 - Community experience remains separate from official guidance.
 - Internal data/content publishing cannot be uncontrolled `edit -> instantly live`; review/version/recall rules must be respected.
 
-## 11. Phase / Technology Boundary
+## 9. Phase / Technology Boundary
 
 Current Phase 3 must NOT decide:
 - backend architecture,
@@ -219,7 +189,7 @@ Current Phase 3 must NOT decide:
 
 These belong to controlled later work, especially Phase 4 and Phase 5 ADR.
 
-## 12. Repository Write Discipline for the New Manager
+## 10. Repository Write Discipline for the New Manager
 
 When repository writes are authorized/appropriate:
 - fetch the target file immediately before update,
@@ -230,23 +200,23 @@ When repository writes are authorized/appropriate:
 - preserve raw handoff/evidence separately from manager synthesis/review,
 - update `CURRENT_STATE`, `HANDOFF`, `REFERENCE_INDEX`, `SOURCE_OF_TRUTH`, `CHANGELOG`, `DOCUMENT_REGISTRY` only as warranted by the actual change.
 
-## 13. Visual Attachment Reality
+## 11. Visual Attachment Reality
 
 Many approved PNGs are not repository binaries. Repository documents preserve their semantic authority, but exact visual comparison may require the user to attach the relevant PNGs to the fresh conversation.
 
 Do not claim to have visually inspected an image merely because a markdown handoff describes it.
 
-If future visual work needs fidelity to L05A/V10/R01/etc., ask only for the minimum exact images required by that task.
+For the current partial FAM-01 set, exact accepted-image identity is preserved through image dimensions + SHA-256 in `KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`.
 
-## 14. First Response Expected From the New Manager
+## 12. First Response Expected From the New Manager
 
 After reading the required repository context, the new manager should respond briefly in Turkish along these lines:
 
 - confirm the repository source-of-truth has been loaded,
 - state that Phase 3 is still active,
-- state that Community/FAM-09 is complete and only four consumer-mobile First Use visuals remain,
+- state that Community/FAM-09 is complete,
+- state that FAM-01 has partial user acceptance for SCR-001–SCR-003 and only `SCR-004` remains,
 - state that Internal Data & Content Operations remains a required pre-Gate-3 work item,
-- explicitly say no new prompt will be generated yet because the user said they have points to discuss,
-- invite the user to continue with those points.
+- do not start Gate 3 review or Phase 4 automatically.
 
-Do NOT start FAM-01, Internal Operations design, Gate 3 review or Phase 4 in that first response.
+The next task should follow the user's latest instruction. Do not ask them to restate the whole project.
