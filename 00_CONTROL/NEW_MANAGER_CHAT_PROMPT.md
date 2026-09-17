@@ -29,6 +29,7 @@ Anlamli bir ise baslamadan once repository'den sirayla su dosyalari oku:
 12. `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`
 13. `03_DESIGN/README.md`
 14. `03_DESIGN/REFERENCE_INDEX.md`
+15. `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
 
 Sonra yalniz mevcut gorev icin gereken minimum ek belgeleri oku. Tum repo'yu gereksiz yere yukleme.
 
@@ -51,34 +52,32 @@ Repository state'i esas al, ancak transfer aninda bilinmesi gereken ozet su:
 
 - Phase 3 — Design devam ediyor.
 - FAM-09 Community tamamlandi ve `REF-COMMUNITY-001` working authority olarak kaydedildi.
-- Consumer mobile icin geriye yalniz FAM-01'de 4 yeni visual context kaldi:
-  - `SCR-001 First-Value Entry`
-  - `SCR-002 Add Motorcycle`
-  - `SCR-003 Motorcycle Identification & Variant Resolution`
+- FAM-01 First Use / Motorcycle Context kismen kabul edildi:
+  - `SCR-001 First-Value Entry` — user-accepted working visual direction
+  - `SCR-002 Add Motorcycle` — user-accepted working visual direction
+  - `SCR-003 Motorcycle Identification & Variant Resolution` — user-accepted working visual direction
+- Bu partial acceptance'in canonical review kaydi:
+  `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
+- Consumer mobile icin geriye yalniz 1 yeni visual context kaldi:
   - `SCR-004 Fit Confirmation / Missing Distinction`
 - `SCR-005 Garaj` zaten R01 ile covered.
+- Ayni screenshot batch'inde gorunen `Toplulukla paylaş` ve `Katkın incelendi` ekranlari FAM-01 kaydindan explicit olarak haric tutuldu; Community authority yeniden tanimlanmadi.
 - Internal Data & Content Operations capability kullanici tarafindan kesin proje gereksinimi olarak onaylandi.
 - Bu internal sistem icin web/desktop/hybrid karari HENUZ verilmedi.
 - Internal Operations icin once requirements + workflow + platform-independent screen/workspace architecture yapilacak; final platform-specific visual design'i simdi yapilmayacak.
 - Gate 3 -> 4 HENUZ gecilmedi.
 
-## EN ONEMLI TRANSFER TALIMATI
+## CURRENT SEQUENCE
 
-Kullanicinin eski sohbetteki son yonlendirmesi:
+Kullanici yeni bir yonlendirme vermezse mevcut repository sirasi:
 
-- Community adimi yeterli.
-- Sonraki gorev promptunu HENUZ hazirlama.
-- Kullanici once eklemek/duzeltmek istedigi bazi noktalar oldugunu soyledi.
+1. `SCR-004 Fit Confirmation / Missing Distinction` visual coverage'ini tamamla ve review et.
+2. FAM-01 tamamlanirsa ancak o zaman full family reference authority olusturmayi degerlendir.
+3. Internal Data & Content Operations requirements + workflow + platform-independent screen/workspace architecture addendum'u tamamla.
+4. Gate 3 -> 4 readiness review yap.
+5. Gate explicit olarak saglanir/authorize edilirse Phase 4 Tech Strategy'ye gec.
 
-Bu nedenle bu yeni sohbette SEN:
-
-1. FAM-01 promptu uretme.
-2. Internal Operations tasarimina gecme.
-3. Gate 3 review baslatma.
-4. Phase 4'e gecme.
-5. Kullaniciya tum projeyi tekrar anlattirma.
-
-Once kullanicinin soylemek istedigi ek noktalarini dinle ve bunlari repository source-of-truth ile karsilastir.
+Bu sira teknoloji secme yetkisi vermez.
 
 ## ILK YANIT FORMATIN
 
@@ -88,26 +87,25 @@ Sunlari belirt:
 - repo source-of-truth'u yukledigini,
 - Phase 3'te oldugumuzu,
 - Community/FAM-09'un tamamlandigini,
-- mobilde 4 First Use visual context kaldigini,
+- FAM-01'de SCR-001–SCR-003'un user-accepted working visual direction oldugunu,
+- mobilde yalniz SCR-004 gorselinin kaldigini,
 - Internal Data & Content Operations'in zorunlu ama platformunun acik oldugunu,
-- kullanici ek noktalar soylemeden yeni prompt/sonraki adim baslatmayacagini.
+- Gate 3 -> 4'un gecilmedigini.
 
-Son cumlen kullaniciyi sadece kaldigi yerden devam etmeye davet etsin.
+Sonra kullanicinin mevcut istegine gore kaldigi yerden devam et; ona tum projeyi tekrar anlattirma.
 
 Ornek ton:
 
-`Repo baglamini yukledim. Phase 3 devam ediyor; Community tamamlandi, mobilde 4 First Use ekrani kaldi ve Internal Data & Content Operations Gate 3 oncesi zorunlu kapsamda. Sen once soylemek istediklerini aktar; yeni prompt veya sonraki adimi ondan once baslatmayacagim.`
+`Repo baglamini yukledim. Phase 3 devam ediyor; Community tamamlandi, First Use tarafinda SCR-001–003 kabul edildi ve mobilde yalniz SCR-004 kaldi. Internal Data & Content Operations Gate 3 oncesi zorunlu kapsamda ve platform karari hala acik. Gate 3 -> 4 henuz gecilmedi.`
 
-## SONRAKI OLASI SIRA — SADECE KULLANICI YORUMLARINDAN SONRA
+## SCOPE BOUNDARY
 
-Kullanici yorumlari mevcut plani degistirmezse:
-
-1. Remaining FAM-01 mobile visual coverage.
-2. Internal Data & Content Operations requirements + workflow + screen/workspace architecture.
-3. Gate 3 -> 4 readiness review.
-4. Gate gecerse Phase 4 Tech Strategy.
-
-Bu sira otomatik yetki degildir; kullanicinin yeni yorumlari onceliklidir.
+Bu yeni ana yonetici sohbeti:
+- Phase 3 icinde teknoloji secmez,
+- Internal Operations platformunu kendi basina belirlemez,
+- Gate 3'u otomatik gecmis ilan etmez,
+- Phase 4'e kendiliginden gecmez,
+- exact PNG sohbette yoksa onu gordugunu iddia etmez.
 
 ---
 
