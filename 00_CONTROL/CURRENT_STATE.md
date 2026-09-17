@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — PROFILE + COLLABORATION VISUAL QA REQUIRED`
+`PHASE-3 / DESIGN — COMMUNITY VISUAL REFERENCES READY`
 
 ## Approved Working References
 
@@ -21,30 +21,33 @@
 - Maintenance / Reminder H01–H04 — `REF-MAINT-001`
 - History / Evidence / Trust I01–I06 — `REF-HISTORY-001`
 - Motorcycle Lifecycle / Entitlement J01–J05 — `REF-LIFECYCLE-001`
+- Profile / Collaboration K01–K03 — `REF-PROFILE-001`
 
-## What Just Changed — FAM-08 Handoff Received
+## What Just Changed — FAM-08
 
-User supplied the delegated `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / PROFILE + COLLABORATION VISUALS 01` as a text/markdown handoff.
+User supplied final K01–K03 PNGs after the delegated handoff.
 
-Delegated session evidence indicates:
-- K01 was materially simplified after explicit user feedback about unreadably minimal text, upper-third density, unnecessary explanatory blocks and the visual/hero area,
-- K02 was accepted as working migration scope/conflict review,
-- K03 was accepted as working collaboration/access/revoke screen.
+Main-manager visual QA: `PASS_WITH_CONSTRAINTS`.
 
-Behavioral/textual main-manager review: `PASS_WITH_CONSTRAINTS`.
+Working authority:
+- K01 optional profile/persistence value with clear local-continue path and user-requested simplified density,
+- K02 migration scope + explicit conflict review + preserved local usable state + no silent overwrite,
+- K03 simple owner/helper collaboration, attribution, revoke semantics and private-content separation.
 
-However, the final K01–K03 image binaries were not supplied to this main-manager turn. Therefore the set is **NOT YET promoted to APPROVED visual authority**.
+Required constraints:
+- K01 literal generated `Verilerini güvenle sakla` / `hiçbir şey kaybolmaz` copy is not production security/zero-loss authority; final copy must preserve narrower no-silent-loss + local-state-preservation semantics,
+- K01 shield/check art is not final generic trust/security/certification iconography,
+- K01 device-frame rendering is presentation-only, not canonical screen chrome,
+- K02 must not grow into technical sync/admin-console density,
+- K03 role/helper/service labels must remain distinct from verification authority,
+- revoke future access does not erase prior attribution/evidence/history,
+- auth/sync/backend/provider/pricing remain non-final.
 
-Preserved evidence/review:
+Canonical:
+- `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md`
 - `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md` — `PENDING_VISUAL_QA`
-
-Required final images for main-manager visual QA:
-- `K01-SCR-006-Profile-Persistence-Value-Final.png`
-- `K02-SCR-007-Migration-Scope-Conflict-Review-Final.png`
-- `K03-SCR-034-Collaboration-Management-Final.png`
-
-No `REF-PROFILE-001` is created until those images are visually reviewed.
+- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-PROFILE-001`
 
 ## Current Phase-3 Sequence
 
@@ -56,30 +59,43 @@ No `REF-PROFILE-001` is created until those images are visually reviewed.
 6. Diagnosis — DONE / APPROVED.
 7. Maintenance / Reminder — DONE / APPROVED.
 8. History / Evidence / Trust — DONE / APPROVED.
-9. Motorcycle Lifecycle / Entitlement — DONE / APPROVED WITH CONSTRAINTS.
-10. **FAM-08 Profile / Collaboration — HANDOFF RECEIVED / VISUAL QA REQUIRED.**
-11. FAM-09 Community — pending critical visual coverage.
+9. Motorcycle Lifecycle / Entitlement — DONE / APPROVED.
+10. Profile / Collaboration — **DONE / APPROVED WITH CONSTRAINTS.**
+11. **FAM-09 Community — READY / CURRENT.**
 12. FAM-01 First Use / Motorcycle Context — remaining visual coverage for SCR-001–SCR-004; SCR-005 Garaj already has R01 authority.
 13. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
 14. Gate 3 -> 4 readiness review.
 
-Remaining new mobile visual screens after FAM-08 is visually approved: **6**
-- FAM-09: 2 new visuals (`SCR-038` root already R05)
-- FAM-01: 4 new visuals (`SCR-005` root already R01)
+Remaining new mobile visual screens: **6**
+- FAM-09 Community: 2 new visuals; `SCR-038` root already R05
+- FAM-01 First Use / Motorcycle Context: 4 new visuals; `SCR-005` Garaj already R01
 
-Do not start FAM-09 from this state until K01–K03 visual QA is complete.
+## Current Prompt
 
-## FAM-08 Protections to Verify Visually
+**USE NOW:**
+`03_DESIGN/PHASE3_COMMUNITY_VISUAL_REFERENCES_AI_PROMPT.md`
 
-- profile is optional for current core/local value,
-- language/units/accessibility cannot require profile,
-- migration preview + no silent loss/overwrite + conflict review,
-- cancel/failure preserves usable local/source state,
-- collaborator/helper/service role != verification authority,
-- revoke stops future access as scoped but does not erase historical attribution/evidence,
-- private/personal content remains separable,
-- K01 typography/density reflects user preference for readable proportional text and low clutter,
-- no auth/sync/backend/provider/pricing invention.
+Generate exactly 2 new visuals:
+- L01 — `SCR-035 Community Contribution`
+- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
+
+Existing `R05-Topluluk.png` remains the root/consumption reference for `SCR-038` and must not be regenerated unless the user explicitly requests a correction.
+
+Required attachments:
+- `Kavriva_L05A.png`
+- selected V10 screenshot
+- `R05-Topluluk.png`
+- `I04-SCR-028-Correction-Dispute-Evidence-Review.png`
+
+Community protections:
+- explicit opt-in contribution,
+- private/personal content is not silently published,
+- community experience/Q&A remains visibly separate from official Kavriva guidance,
+- publication/acceptance != technical verification,
+- moderation shows reason + repair/revise/resubmit path,
+- appeal/withdraw may remain available where supported,
+- withdrawal does not silently rewrite dependent provenance/history,
+- no likes/followers/reputation/ranking/marketplace invention.
 
 ## Internal Data & Content Operations
 
