@@ -81,6 +81,7 @@ Approved visual families:
 - `03_DESIGN/MAINTENANCE_REMINDER_VISUAL_REFERENCES.md` -> `REF-MAINT-001`
 - `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` -> `REF-HISTORY-001`
 - `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` -> `REF-LIFECYCLE-001`
+- `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md` -> `REF-PROFILE-001`
 
 Evidence/review layers:
 - `KAVRIVA_LOGO_01_HANDOFF.md`, `KAVRIVA_LOGO_REVIEW.md`
@@ -96,6 +97,7 @@ Evidence/review layers:
 - `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_01_HANDOFF.md`, `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
 - `KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_01_HANDOFF.md`, `KAVRIVA_HISTORY_EVIDENCE_TRUST_VISUALS_REVIEW.md`
 - `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_01_HANDOFF.md`, `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_REVIEW.md`
+- `KAVRIVA_PROFILE_COLLABORATION_VISUALS_01_HANDOFF.md`, `KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md`
 
 ## Authority Boundaries
 
@@ -113,6 +115,7 @@ Evidence/review layers:
 - `REF-MAINT-001`: no invented interval/date/mileage; snooze != completion; maintenance-to-guide continuity korunur; catch-up safety/use impact first but not a universal brake-first rule; uncertain timing remains uncertain; critical historical correction routine reminder degildir; deep-flow navigation remains PROPOSED ONLY.
 - `REF-HISTORY-001`: current usable record meaning event history'den once gelir; actor/source/evidence/current claim state ayridir; no silent overwrite/fake winner; service role verification degildir; critical correction inactive/entitlement state'te de erisilebilir; basic history/provenance/correction/dispute/export retroactive paywall olamaz.
 - `REF-LIFECYCLE-001`: inactive != delete/history lock; archive/inactive != transfer != delete; transfer partial coverage complete/verified gibi sunulamaz; delete independent/shared data sinirlarini korur; J05 v3 relevant new activity'yi gate ederken existing history/trust/safety/recovery access'ini korur; exact price/tier/quota/legal retention/permission implementation final degildir.
+- `REF-PROFILE-001`: profile current approved local/core value icin zorunlu degildir; migration no-silent-loss/no-silent-overwrite + conflict review ile ilerler; helper/service role verification authority yaratmaz; revoke historical attribution/evidence'i silmez; private content ayridir. K01 generated absolute security/zero-loss wording ve shield/check art production authority degildir; auth/sync/backend/pricing final degildir.
 - Generated motorcycle/mechanical imagery identity/fit/diagnosis/maintenance evidence degildir.
 - Community wording unsupported authenticity/verification iddiasi yaratamaz.
 - Language/unit/accessibility support profile prerequisite olamaz.
