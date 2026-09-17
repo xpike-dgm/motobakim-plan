@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — MANAGER CHAT TRANSFER / USER COMMENTS PENDING`
+`PHASE-3 / DESIGN — FAM-01 PARTIAL ACCEPTANCE / SCR-004 PENDING`
 
 ## Approved Working References
 
@@ -24,13 +24,32 @@
 - Profile / Collaboration K01–K03 — `REF-PROFILE-001`
 - Community R05 + L01–L02 — `REF-COMMUNITY-001`
 
-## What Just Changed — FAM-09 Completed
+## What Just Changed — FAM-01 Partial Acceptance Recorded
 
-The main-manager conversation received the final separated Community PNGs:
-- `L01-SCR-035-Community-Contribution.png`
-- `L02-SCR-036-Contribution-Review-Moderation-Appeal.png`
+The main-manager conversation visually inspected the latest First Use screenshot batch.
 
-Main-manager visual QA: `PASS_WITH_CONSTRAINTS`.
+User accepted the First Use visual directions for:
+- `SCR-001 First-Value Entry` — `Bugün ne yapmak istiyorsun?`
+- `SCR-002 Add Motorcycle` — `Motosikletini ekle`
+- `SCR-003 Motorcycle Identification & Variant Resolution` — `Bir ayrımı netleştirelim`
+
+Canonical review record:
+- `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
+
+Two Community-family screens were also present in the same screenshot batch:
+- `Toplulukla paylaş`
+- `Katkın incelendi`
+
+Per the user's explicit instruction, these were excluded from FAM-01 repository processing. Existing Community authority remains unchanged under `REF-COMMUNITY-001`.
+
+Remaining consumer-mobile visual gap:
+- `SCR-004 Fit Confirmation / Missing Distinction`
+
+This is a partial FAM-01 acceptance only. A full FAM-01 reference has not been created yet.
+
+## Previous Completed Step — FAM-09 Community
+
+Community remains completed and approved with constraints.
 
 Canonical:
 - `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md`
@@ -38,25 +57,12 @@ Canonical:
 - `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
 - `03_DESIGN/REFERENCE_INDEX.md` -> `REF-COMMUNITY-001`
 
-Key constraints:
+Key constraints remain:
 - community publication != official technical verification,
 - optional photos != technical verification,
 - public/private share scope remains explicit,
 - withdrawal must not silently erase dependent provenance/history,
-- L02 displayed date is fixture-only,
-- L02 example request for brand/model/source details is illustrative moderation feedback, not a universal community-post requirement,
 - no likes/followers/reputation/ranking/social-marketplace mechanics.
-
-## Critical Pause Before Next Task
-
-The user explicitly said:
-- the Community step is sufficient,
-- do NOT prepare the next task prompt yet,
-- they have additional points to discuss first.
-
-Therefore the project is intentionally paused before the remaining FAM-01 visual prompt.
-
-The next manager chat must first receive/process the user's pending comments. Do not guess them and do not ask the user to restate the whole project.
 
 ## Current Phase-3 Sequence
 
@@ -71,12 +77,17 @@ The next manager chat must first receive/process the user's pending comments. Do
 9. Motorcycle Lifecycle / Entitlement — DONE / APPROVED.
 10. Profile / Collaboration — DONE / APPROVED WITH CONSTRAINTS.
 11. Community — DONE / APPROVED WITH CONSTRAINTS.
-12. **USER COMMENTS / CORRECTIONS — WAITING BEFORE NEXT PROMPT.**
-13. FAM-01 First Use / Motorcycle Context — 4 remaining new visuals: `SCR-001`–`SCR-004`; `SCR-005 Garaj` already R01.
+12. User comments / corrections — PROCESSED.
+13. FAM-01 First Use / Motorcycle Context — PARTIAL USER ACCEPTANCE:
+   - `SCR-001` accepted working visual direction,
+   - `SCR-002` accepted working visual direction,
+   - `SCR-003` accepted working visual direction,
+   - `SCR-004` still pending,
+   - `SCR-005 Garaj` already covered by R01.
 14. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
 15. Gate 3 -> 4 readiness review.
 
-Remaining new consumer-mobile visual screens: **4**.
+Remaining new consumer-mobile visual screens: **1**.
 
 ## Internal Data & Content Operations
 
@@ -103,7 +114,7 @@ Use:
 - `00_CONTROL/NEW_MANAGER_CHAT_HANDOFF.md`
 - `00_CONTROL/NEW_MANAGER_CHAT_PROMPT.md`
 
-The fresh manager must bootstrap from repository truth and then wait for the user's pending comments before generating any next task prompt.
+Repository truth remains authoritative. New manager work should now continue from the FAM-01 partial acceptance state rather than the earlier user-comments pause.
 
 ## Gate Status
 
