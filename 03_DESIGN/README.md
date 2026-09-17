@@ -20,13 +20,13 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 14. Maintenance / Reminder H01–H04 — **DONE / APPROVED WITH CONSTRAINTS**
 15. History / Evidence / Trust I01–I06 — **DONE / APPROVED WITH CONSTRAINTS**
 16. Motorcycle Lifecycle / Entitlement J01–J05 — **DONE / APPROVED WITH CONSTRAINTS**
-17. **FAM-08 Profile / Collaboration — CURRENT / READY**
-18. FAM-09 Community — pending 2 new critical visuals; R05 already covers SCR-038 root
+17. Profile / Collaboration K01–K03 — **DONE / APPROVED WITH CONSTRAINTS**
+18. **FAM-09 Community — CURRENT / READY**; 2 new critical visuals, R05 already covers SCR-038 root
 19. FAM-01 First Use / Motorcycle Context — pending 4 new visuals; R01 already covers SCR-005 Garaj context
 20. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
 21. Gate 3 -> 4 readiness review
 
-Remaining new mobile visual screens: **9**.
+Remaining new mobile visual screens: **6**.
 
 ## Approved Working References
 
@@ -45,6 +45,7 @@ Remaining new mobile visual screens: **9**.
 - H01–H04 — `REF-MAINT-001`
 - I01–I06 — `REF-HISTORY-001`
 - J01–J05 — `REF-LIFECYCLE-001`
+- K01–K03 — `REF-PROFILE-001`
 
 ## Approved Global Navigation
 
@@ -94,32 +95,37 @@ J01–J05 cover active/inactive switching, lifecycle actions, transfer scope, de
 
 Protections: inactive != delete/history lock; archive/inactive != transfer != delete; transfer partial != complete and does not verify records; delete respects independent/shared data; new-activity gating cannot lock existing truth/safety/history/export/correction/safe recovery; pricing/tier/quota/legal retention/permission implementation remain non-final.
 
-## Current Task — FAM-08 Profile / Collaboration
+### Profile / Collaboration — `REF-PROFILE-001`
+K01–K03 cover optional profile value, migration scope/conflict review and simple attributed/revocable collaboration.
+
+Protections: profile remains optional for current local/core value; migration preserves local usable state and no-silent-overwrite behavior; role/helper/service != verification; revoke does not erase historical attribution/evidence; private content stays separable. K01 literal absolute security/zero-loss wording and shield/check icon are not production authority.
+
+## Current Task — FAM-09 Community
 
 **USE NOW:**
-`PHASE3_PROFILE_COLLABORATION_VISUAL_REFERENCES_AI_PROMPT.md`
+`PHASE3_COMMUNITY_VISUAL_REFERENCES_AI_PROMPT.md`
 
-Generate exactly 3 new visuals:
-- K01 — `SCR-006 Profile / Persistence Value`
-- K02 — `SCR-007 Local-to-Profile Migration / Conflict Review`
-- K03 — `SCR-034 Participants / Access / Revoke / Attribution`
+Existing R05 Topluluk root remains the working SCR-038 visual and must NOT be regenerated unless the user explicitly requests a correction.
+
+Generate exactly 2 new visuals:
+- L01 — `SCR-035 Community Contribution`
+- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
 
 Required attachments:
 - `Kavriva_L05A.png`
 - selected V10 screenshot
-- `R01-Garaj.png`
-- `I03-SCR-027-Record-Work-Self-Hobby-External-Service.png`
-- `J01-SCR-008-Motorcycle-Switch-Active-Inactive-Management.png`
+- `R05-Topluluk.png`
+- `I04-SCR-028-Correction-Dispute-Evidence-Review.png`
 
-Profile/collaboration protections:
-- profile optional for current local/core value where approved,
-- language/units/accessibility cannot require profile,
-- migration preview + no silent loss/overwrite + conflict review,
-- cancel/failure preserves usable local/source state,
-- collaborator/helper/service role != verification,
-- revoke future access without erasing prior attribution/evidence/history,
-- private/personal content remains separable,
-- no auth/sync/backend/provider/pricing invention.
+Community protections:
+- contribution is explicit opt-in,
+- private/personal content is not silently published,
+- community experience/Q&A remains visibly separate from official Kavriva guidance,
+- publication/acceptance != technical verification,
+- moderation shows reason + repair/revise/resubmit path,
+- appeal/withdraw may remain available where supported,
+- withdrawal does not silently rewrite provenance/history,
+- no likes/followers/reputation/ranking/marketplace mechanics are invented.
 
 ## Internal Data & Content Operations — Approved Requirement
 
