@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — COMMUNITY VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — COMMUNITY VISUAL QA REQUIRED`
 
 ## Approved Working References
 
@@ -23,31 +23,29 @@
 - Motorcycle Lifecycle / Entitlement J01–J05 — `REF-LIFECYCLE-001`
 - Profile / Collaboration K01–K03 — `REF-PROFILE-001`
 
-## What Just Changed — FAM-08
+## What Just Changed — FAM-09 Handoff Received
 
-User supplied final K01–K03 PNGs after the delegated handoff.
+User supplied `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / COMMUNITY VISUALS 01`.
 
-Main-manager visual QA: `PASS_WITH_CONSTRAINTS`.
+Delegated handoff records explicit user acceptance of the separated final Community screens:
+- L01 — `SCR-035 Community Contribution`
+- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
 
-Working authority:
-- K01 optional profile/persistence value with clear local-continue path and user-requested simplified density,
-- K02 migration scope + explicit conflict review + preserved local usable state + no silent overwrite,
-- K03 simple owner/helper collaboration, attribution, revoke semantics and private-content separation.
+The handoff also preserves existing `R05-Topluluk.png` as the `SCR-038` root authority.
 
-Required constraints:
-- K01 literal generated `Verilerini güvenle sakla` / `hiçbir şey kaybolmaz` copy is not production security/zero-loss authority; final copy must preserve narrower no-silent-loss + local-state-preservation semantics,
-- K01 shield/check art is not final generic trust/security/certification iconography,
-- K01 device-frame rendering is presentation-only, not canonical screen chrome,
-- K02 must not grow into technical sync/admin-console density,
-- K03 role/helper/service labels must remain distinct from verification authority,
-- revoke future access does not erase prior attribution/evidence/history,
-- auth/sync/backend/provider/pricing remain non-final.
+Behavioral/textual main-manager review: `PASS_WITH_CONSTRAINTS`.
 
-Canonical:
-- `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-PROFILE-001`
+However, the final L01–L02 image binaries were not supplied to the main-manager conversation with the handoff. Therefore FAM-09 is **NOT YET promoted to APPROVED visual authority**.
+
+Preserved evidence/review:
+- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`
+- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_REVIEW.md` — `PENDING_VISUAL_QA`
+
+Required final images for independent visual QA:
+- `kavriva_toplulukta_paylaşım_ekranı.png`
+- `kavriva_katkı_i_nceleme_ekranı.png`
+
+No `REF-COMMUNITY-001` is created until those images are visually reviewed.
 
 ## Current Phase-3 Sequence
 
@@ -60,42 +58,31 @@ Canonical:
 7. Maintenance / Reminder — DONE / APPROVED.
 8. History / Evidence / Trust — DONE / APPROVED.
 9. Motorcycle Lifecycle / Entitlement — DONE / APPROVED.
-10. Profile / Collaboration — **DONE / APPROVED WITH CONSTRAINTS.**
-11. **FAM-09 Community — READY / CURRENT.**
-12. FAM-01 First Use / Motorcycle Context — remaining visual coverage for SCR-001–SCR-004; SCR-005 Garaj already has R01 authority.
+10. Profile / Collaboration — DONE / APPROVED WITH CONSTRAINTS.
+11. **FAM-09 Community — HANDOFF RECEIVED / VISUAL QA REQUIRED.**
+12. FAM-01 First Use / Motorcycle Context — remaining visual coverage for `SCR-001`–`SCR-004`; `SCR-005 Garaj` already has R01 authority.
 13. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
 14. Gate 3 -> 4 readiness review.
 
-Remaining new mobile visual screens: **6**
-- FAM-09 Community: 2 new visuals; `SCR-038` root already R05
-- FAM-01 First Use / Motorcycle Context: 4 new visuals; `SCR-005` Garaj already R01
+Mobile visual status:
+- 2 Community visuals are generated/user-accepted but still await main-manager visual QA,
+- 4 First Use / Motorcycle Context visuals remain ungenerated,
+- therefore 6 mobile visual contexts remain unresolved at the current authority level.
 
-## Current Prompt
+Do not start FAM-01 from this state until L01–L02 visual QA is complete.
 
-**USE NOW:**
-`03_DESIGN/PHASE3_COMMUNITY_VISUAL_REFERENCES_AI_PROMPT.md`
+## FAM-09 Protections to Verify Visually
 
-Generate exactly 2 new visuals:
-- L01 — `SCR-035 Community Contribution`
-- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
-
-Existing `R05-Topluluk.png` remains the root/consumption reference for `SCR-038` and must not be regenerated unless the user explicitly requests a correction.
-
-Required attachments:
-- `Kavriva_L05A.png`
-- selected V10 screenshot
-- `R05-Topluluk.png`
-- `I04-SCR-028-Correction-Dispute-Evidence-Review.png`
-
-Community protections:
-- explicit opt-in contribution,
+- community contribution is explicit opt-in,
 - private/personal content is not silently published,
-- community experience/Q&A remains visibly separate from official Kavriva guidance,
+- community experience/Q&A is visibly distinct from official Kavriva guidance,
 - publication/acceptance != technical verification,
-- moderation shows reason + repair/revise/resubmit path,
-- appeal/withdraw may remain available where supported,
-- withdrawal does not silently rewrite dependent provenance/history,
-- no likes/followers/reputation/ranking/marketplace invention.
+- optional photos/evidence do not visually imply verified technical proof,
+- moderation shows concise reason + repair/resubmit path,
+- appeal/withdraw remain lower-emphasis options where supported,
+- withdrawal does not imply silent provenance/history deletion,
+- no likes/followers/reputation/ranking/marketplace mechanics,
+- readable text and low-clutter hierarchy.
 
 ## Internal Data & Content Operations
 
