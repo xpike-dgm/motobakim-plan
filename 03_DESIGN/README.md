@@ -22,12 +22,22 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 16. Motorcycle Lifecycle / Entitlement J01–J05 — **DONE / APPROVED WITH CONSTRAINTS**
 17. Profile / Collaboration K01–K03 — **DONE / APPROVED WITH CONSTRAINTS**
 18. Community R05 + L01–L02 — **DONE / APPROVED WITH CONSTRAINTS**
-19. **USER COMMENTS / CORRECTIONS — WAITING BEFORE NEXT TASK PROMPT**
-20. FAM-01 First Use / Motorcycle Context — pending 4 new visuals; R01 already covers SCR-005 Garaj context
+19. User comments / corrections — **PROCESSED**
+20. FAM-01 First Use / Motorcycle Context — **PARTIAL USER ACCEPTANCE**
+   - `SCR-001 First-Value Entry` — accepted working visual direction
+   - `SCR-002 Add Motorcycle` — accepted working visual direction
+   - `SCR-003 Motorcycle Identification & Variant Resolution` — accepted working visual direction
+   - `SCR-004 Fit Confirmation / Missing Distinction` — **PENDING**
+   - `SCR-005 Garaj` — already covered by R01
 21. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
 22. Gate 3 -> 4 readiness review
 
-Remaining new consumer-mobile visual screens: **4**.
+Remaining new consumer-mobile visual screens: **1**.
+
+Partial FAM-01 review record:
+- `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
+
+The two Community-family screenshots accidentally mixed into the latest FAM-01 screenshot batch are explicitly excluded from FAM-01 processing. Existing Community authority remains unchanged.
 
 ## Approved Working References
 
@@ -48,6 +58,8 @@ Remaining new consumer-mobile visual screens: **4**.
 - J01–J05 — `REF-LIFECYCLE-001`
 - K01–K03 — `REF-PROFILE-001`
 - R05 + L01–L02 Community — `REF-COMMUNITY-001`
+
+No full FAM-01 reference has been added to `REFERENCE_INDEX.md` yet because `SCR-004` is still missing.
 
 ## Approved Global Navigation
 
@@ -107,23 +119,31 @@ R05 remains the root/consumption reference. L01 covers explicit community contri
 
 Protections: sharing is opt-in; public/private scope remains explicit; publication != technical verification; attached photos != verification; withdrawal does not silently erase dependent provenance/history; no likes/followers/reputation/ranking/marketplace mechanics. L02 fixture date and example brand/model/source moderation requests are not universal product rules.
 
-## Current Task Status — PAUSED FOR USER COMMENTS
+## FAM-01 Partial Visual Acceptance
 
-Do not generate the FAM-01 task prompt yet.
+User accepted the current working visual directions for:
+- `SCR-001 — First-Value Entry`
+- `SCR-002 — Add Motorcycle`
+- `SCR-003 — Motorcycle Identification & Variant Resolution`
 
-The user explicitly said the Community step is sufficient and they have additional points to discuss first.
+Canonical review record:
+- `KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
 
-Fresh manager transfer files:
-- `00_CONTROL/NEW_MANAGER_CHAT_HANDOFF.md`
-- `00_CONTROL/NEW_MANAGER_CHAT_PROMPT.md`
+This is deliberately a partial acceptance, not a full family reference. `SCR-004 — Fit Confirmation / Missing Distinction` still needs visual coverage before FAM-01 can be considered complete.
 
-After the user's pending comments are processed, and only if the plan remains appropriate, the remaining FAM-01 visual coverage is:
-- `SCR-001 First-Value Entry`
-- `SCR-002 Add Motorcycle`
-- `SCR-003 Motorcycle Identification & Variant Resolution`
+The Community screens `Toplulukla paylaş` and `Katkın incelendi`, although shown in the same screenshot batch, are not part of this FAM-01 acceptance and were not reprocessed as Community authority.
+
+## Current Task Status
+
+Remaining consumer-mobile visual coverage:
 - `SCR-004 Fit Confirmation / Missing Distinction`
 
-`SCR-005 Garaj` is already covered by R01.
+`SCR-005 Garaj` remains already covered by R01.
+
+After `SCR-004`, the required Phase-3 sequence remains:
+1. Internal Data & Content Operations requirements/workflow/platform-independent screen-workspace architecture addendum,
+2. Gate 3 -> 4 readiness review,
+3. Phase 4 only after the gate is explicitly satisfied/authorized.
 
 ## Internal Data & Content Operations — Approved Requirement
 
