@@ -60,6 +60,18 @@ Accepted working direction:
 - `Emin değilim` remains a valid option,
 - photo upload is supportive evidence only and not automatic verification.
 
+## Image Provenance
+
+The PNG binaries remain manager-chat attachments and are not stored in the repository. The repository records the inspected image identity for future comparison.
+
+| Context | Manager-chat source file | Size | SHA-256 |
+|---|---|---:|---|
+| `SCR-001` | `ChatGPT Image 17 Eyl 2026 05_07_26(1).png` | 853x1844 | `e6c0642f74c31e683ac82e274100538263846a5fbbd828a7df4f44c89ff1019e` |
+| `SCR-002` | `ChatGPT Image 17 Eyl 2026 05_23_36 (2)(1).png` | 941x1672 | `acbf79d5670d80d38bdab4ac9e7f92bb678067d28687b93eee0ee5cbde8f21c4` |
+| `SCR-003` | `ChatGPT Image 17 Eyl 2026 05_23_36 (3)(1).png` | 941x1672 | `8c6310f2e0327d1dcd4a145a3954fa7d9ba0bf29fbb19c6f184e29453d29f42a` |
+
+These hashes identify the exact images inspected and accepted in this partial review. They do not turn generated motorcycle/mechanical imagery into technical evidence.
+
 ## Explicit Exclusion
 
 The following screens are excluded from this FAM-01 review result:
