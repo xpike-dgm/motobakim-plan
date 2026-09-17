@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-3 / DESIGN — COMMUNITY VISUAL QA REQUIRED`
+`PHASE-3 / DESIGN — MANAGER CHAT TRANSFER / USER COMMENTS PENDING`
 
 ## Approved Working References
 
@@ -22,30 +22,41 @@
 - History / Evidence / Trust I01–I06 — `REF-HISTORY-001`
 - Motorcycle Lifecycle / Entitlement J01–J05 — `REF-LIFECYCLE-001`
 - Profile / Collaboration K01–K03 — `REF-PROFILE-001`
+- Community R05 + L01–L02 — `REF-COMMUNITY-001`
 
-## What Just Changed — FAM-09 Handoff Received
+## What Just Changed — FAM-09 Completed
 
-User supplied `PORTABLE DESIGN HANDOFF PACKAGE — PHASE 3 / COMMUNITY VISUALS 01`.
+The main-manager conversation received the final separated Community PNGs:
+- `L01-SCR-035-Community-Contribution.png`
+- `L02-SCR-036-Contribution-Review-Moderation-Appeal.png`
 
-Delegated handoff records explicit user acceptance of the separated final Community screens:
-- L01 — `SCR-035 Community Contribution`
-- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
+Main-manager visual QA: `PASS_WITH_CONSTRAINTS`.
 
-The handoff also preserves existing `R05-Topluluk.png` as the `SCR-038` root authority.
-
-Behavioral/textual main-manager review: `PASS_WITH_CONSTRAINTS`.
-
-However, the final L01–L02 image binaries were not supplied to the main-manager conversation with the handoff. Therefore FAM-09 is **NOT YET promoted to APPROVED visual authority**.
-
-Preserved evidence/review:
+Canonical:
+- `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md`
 - `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_REVIEW.md` — `PENDING_VISUAL_QA`
+- `03_DESIGN/KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
+- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-COMMUNITY-001`
 
-Required final images for independent visual QA:
-- `kavriva_toplulukta_paylaşım_ekranı.png`
-- `kavriva_katkı_i_nceleme_ekranı.png`
+Key constraints:
+- community publication != official technical verification,
+- optional photos != technical verification,
+- public/private share scope remains explicit,
+- withdrawal must not silently erase dependent provenance/history,
+- L02 displayed date is fixture-only,
+- L02 example request for brand/model/source details is illustrative moderation feedback, not a universal community-post requirement,
+- no likes/followers/reputation/ranking/social-marketplace mechanics.
 
-No `REF-COMMUNITY-001` is created until those images are visually reviewed.
+## Critical Pause Before Next Task
+
+The user explicitly said:
+- the Community step is sufficient,
+- do NOT prepare the next task prompt yet,
+- they have additional points to discuss first.
+
+Therefore the project is intentionally paused before the remaining FAM-01 visual prompt.
+
+The next manager chat must first receive/process the user's pending comments. Do not guess them and do not ask the user to restate the whole project.
 
 ## Current Phase-3 Sequence
 
@@ -59,36 +70,40 @@ No `REF-COMMUNITY-001` is created until those images are visually reviewed.
 8. History / Evidence / Trust — DONE / APPROVED.
 9. Motorcycle Lifecycle / Entitlement — DONE / APPROVED.
 10. Profile / Collaboration — DONE / APPROVED WITH CONSTRAINTS.
-11. **FAM-09 Community — HANDOFF RECEIVED / VISUAL QA REQUIRED.**
-12. FAM-01 First Use / Motorcycle Context — remaining visual coverage for `SCR-001`–`SCR-004`; `SCR-005 Garaj` already has R01 authority.
-13. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
-14. Gate 3 -> 4 readiness review.
+11. Community — DONE / APPROVED WITH CONSTRAINTS.
+12. **USER COMMENTS / CORRECTIONS — WAITING BEFORE NEXT PROMPT.**
+13. FAM-01 First Use / Motorcycle Context — 4 remaining new visuals: `SCR-001`–`SCR-004`; `SCR-005 Garaj` already R01.
+14. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — REQUIRED BEFORE GATE 3 REVIEW.
+15. Gate 3 -> 4 readiness review.
 
-Mobile visual status:
-- 2 Community visuals are generated/user-accepted but still await main-manager visual QA,
-- 4 First Use / Motorcycle Context visuals remain ungenerated,
-- therefore 6 mobile visual contexts remain unresolved at the current authority level.
-
-Do not start FAM-01 from this state until L01–L02 visual QA is complete.
-
-## FAM-09 Protections to Verify Visually
-
-- community contribution is explicit opt-in,
-- private/personal content is not silently published,
-- community experience/Q&A is visibly distinct from official Kavriva guidance,
-- publication/acceptance != technical verification,
-- optional photos/evidence do not visually imply verified technical proof,
-- moderation shows concise reason + repair/resubmit path,
-- appeal/withdraw remain lower-emphasis options where supported,
-- withdrawal does not imply silent provenance/history deletion,
-- no likes/followers/reputation/ranking/marketplace mechanics,
-- readable text and low-clutter hierarchy.
+Remaining new consumer-mobile visual screens: **4**.
 
 ## Internal Data & Content Operations
 
-Still APPROVED project requirement: `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`.
+APPROVED project requirement:
+`00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`
 
-Before Gate 3 -> 4 readiness, targeted requirements + workflow + screen architecture for the internal data/content operations capability must be completed. Web vs desktop vs hybrid and all technology choices remain open; internal visual design should not be finalized before that platform/strategy work.
+Must be addressed before Gate 3 -> 4 readiness through targeted:
+- requirements,
+- workflow/lifecycle,
+- platform-independent screen/workspace architecture.
+
+Still open:
+- web vs desktop vs hybrid,
+- database/CMS/API/sync architecture,
+- exact publishing mechanics,
+- analytics stack,
+- AI/provider choices.
+
+Do not finalize platform-specific internal visual design yet.
+
+## Fresh Manager Transfer
+
+Use:
+- `00_CONTROL/NEW_MANAGER_CHAT_HANDOFF.md`
+- `00_CONTROL/NEW_MANAGER_CHAT_PROMPT.md`
+
+The fresh manager must bootstrap from repository truth and then wait for the user's pending comments before generating any next task prompt.
 
 ## Gate Status
 
