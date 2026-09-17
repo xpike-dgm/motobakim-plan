@@ -7,68 +7,49 @@ Motobakim / consumer-facing working brand: Kavriva
 `xpike-dgm/motobakim-plan`
 
 ## Current Phase
-`PHASE-3 / DESIGN — PROFILE + COLLABORATION VISUAL REFERENCES READY`
+`PHASE-3 / DESIGN — PROFILE + COLLABORATION VISUAL QA REQUIRED`
 
 ## What Just Happened
 
-FAM-07 Motorcycle Lifecycle / Entitlement is now approved working visual authority.
+FAM-08 delegated handoff was received.
 
-User feedback in delegated session refined J05 twice for clutter/spacing. Accepted J05 authority is v3. Main-manager QA: `PASS_WITH_CONSTRAINTS`.
+Preserved evidence:
+- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_01_HANDOFF.md`
 
-Canonical:
-- `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md`
-- `03_DESIGN/KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_01_HANDOFF.md`
-- `03_DESIGN/KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_REVIEW.md`
-- `03_DESIGN/REFERENCE_INDEX.md` -> `REF-LIFECYCLE-001`
+Main-manager review record:
+- `03_DESIGN/KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md`
+- status: `PENDING_VISUAL_QA`
 
-Working meaning:
-- J01 active/inactive switch while preserving inactive records/trust access,
-- J02 inactive/archive vs transfer vs delete distinction,
-- J03 partial transfer coverage/gaps without auto-verification,
-- J04 scoped delete with independent/shared-data protection,
-- J05 v3 new-activity gate with existing history/evidence/provenance/correction/export/critical recovery preserved.
+Delegated handoff reports user refinement/acceptance:
+- K01 simplified after feedback about unreadably minimal text, upper-third density, unnecessary info block and visual area,
+- K02 accepted as working migration scope/conflict review,
+- K03 accepted as working collaboration/access/revoke screen.
 
-Key constraints:
-- inactive != delete/history lock,
-- transfer partial != complete and transfer != verification,
-- delete cannot silently erase independent/shared data,
-- exact retention/backup/legal deletion semantics remain later work,
-- no final pricing/tier/quota/billing decision,
-- focused-flow bottom navigation remains PROPOSED ONLY.
+Behavioral/textual QA: `PASS_WITH_CONSTRAINTS`.
+
+Final image binaries were not supplied in the main-manager handoff turn, so FAM-08 is NOT yet promoted to APPROVED visual authority and no `REF-PROFILE-001` exists yet.
 
 ## Current Task
 
-**USE NOW:**
-`03_DESIGN/PHASE3_PROFILE_COLLABORATION_VISUAL_REFERENCES_AI_PROMPT.md`
+Supply the three final images for independent main-manager visual QA:
+- `K01-SCR-006-Profile-Persistence-Value-Final.png`
+- `K02-SCR-007-Migration-Scope-Conflict-Review-Final.png`
+- `K03-SCR-034-Collaboration-Management-Final.png`
 
-Generate exactly three visuals:
-- K01 — SCR-006 Profile / Persistence Value
-- K02 — SCR-007 Local-to-Profile Migration / Conflict Review
-- K03 — SCR-034 Participants / Access / Revoke / Attribution
-
-Required attachments:
-- `Kavriva_L05A.png`
-- selected V10 screenshot
-- `R01-Garaj.png`
-- `I03-SCR-027-Record-Work-Self-Hobby-External-Service.png`
-- `J01-SCR-008-Motorcycle-Switch-Active-Inactive-Management.png`
-
-Profile/collaboration protections:
-- profile is not a coercive prerequisite for current local/core value,
-- language/units/accessibility do not require profile,
-- migration preview + no silent loss/overwrite + conflict review,
-- cancel/failure preserves usable local/source state,
-- collaborator/helper/service role != verification,
-- revoke future access without erasing prior attribution/evidence/history,
-- private/personal content remains separable,
-- no auth/sync/backend/provider/pricing invention.
+Visual QA must confirm:
+- K01 is clearly optional/non-coercive and readable,
+- K02 preserves local data and does not visually imply premature migration success or silent overwrite,
+- K03 keeps permissions simple, separates role from verification and preserves historical attribution/evidence after revoke,
+- L05A/V10 continuity and clutter rules remain intact,
+- no auth/sync/backend/provider/pricing implementation is implied.
 
 ## Remaining Mobile Visual Coverage
 
-9 new screens remain:
-- FAM-08 Profile / Collaboration: 3
+After FAM-08 passes visual QA, 6 new mobile screens remain:
 - FAM-09 Community: 2 new visuals; SCR-038 root already R05
 - FAM-01 First Use / Motorcycle Context: 4 new visuals; SCR-005 Garaj already R01
+
+Do not start FAM-09 until FAM-08 visual QA is complete.
 
 ## Internal Data & Content Operations
 
@@ -76,7 +57,7 @@ Still APPROVED project-scope requirement. Requirements/workflow/screen architect
 
 ## Sequence
 
-1. FAM-08 Profile / Collaboration — CURRENT.
+1. FAM-08 Profile / Collaboration — VISUAL QA REQUIRED.
 2. FAM-09 Community.
 3. Remaining FAM-01 First Use / Motorcycle Context visuals.
 4. Internal Data & Content Operations requirements/workflow/screen architecture.
