@@ -19,6 +19,7 @@ Status: ACTIVE
 | `REF-HISTORY-001` | History / evidence / trust | `03_DESIGN/HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md` | I01 existing R04 + I02–I06 / SCR-025–030 | APPROVED |
 | `REF-LIFECYCLE-001` | Motorcycle lifecycle / entitlement | `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` | J01–J05 / SCR-008,031–033,037 | APPROVED |
 | `REF-PROFILE-001` | Profile / collaboration | `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md` | K01–K03 / SCR-006,007,034 | APPROVED |
+| `REF-COMMUNITY-001` | Community contribution / moderation / root continuity | `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md` | R05 existing root + L01–L02 / SCR-035,036,038 | APPROVED |
 
 ## Reference Semantics
 
@@ -63,6 +64,9 @@ Inactive motorcycle is not deleted or history-locked. J01 preserves inactive his
 
 ### REF-PROFILE-001
 Profile remains optional for current approved local/core value. K02 preserves migration scope review, local usable state and no-silent-overwrite behavior. K03 keeps owner/helper attribution, simple revocable access and private-content separation while role/service status remains distinct from verification. K01's literal `güvenle sakla` / `hiçbir şey kaybolmaz` wording and shield/check art are not production security/trust authority; final copy/iconography must preserve the narrower approved semantics. Auth/sync/backend/pricing remain non-final.
+
+### REF-COMMUNITY-001
+R05 remains the Community root authority. L01 makes contribution explicit opt-in and shows public-vs-private scope; attached photos do not become technical verification. L02 shows understandable moderation reason plus revise/resubmit, appeal and withdrawal paths while publication remains distinct from official technical verification. L02's displayed date and example part/source requests are fixture/moderation examples only, not universal product requirements. Withdrawal must not silently erase dependent provenance/history. Exact moderation/privacy/backend/routing implementation remains non-final.
 
 ## Authority Rule
 
