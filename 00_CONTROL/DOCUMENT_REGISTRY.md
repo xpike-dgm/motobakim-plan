@@ -25,13 +25,20 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 - `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md` — **APPROVED REQUIREMENT**
   - Internal motorcycle/technical Data & Content Operations capability is required.
   - Exact web/desktop/hybrid and technology architecture remain open.
-  - Targeted requirements/workflow/screen-architecture addendum required before final Gate 3 review.
+  - Targeted requirements/workflow/platform-independent screen-workspace architecture addendum required before final Gate 3 review.
+
+## Manager-Chat Transfer Controls
+
+- `00_CONTROL/NEW_MANAGER_CHAT_HANDOFF.md` — ACTIVE transfer guide
+- `00_CONTROL/NEW_MANAGER_CHAT_PROMPT.md` — ACTIVE fresh-chat bootstrap prompt
+
+These files exist because the prior main-manager conversation became context-heavy. Repository truth remains authoritative; the fresh manager must not depend on old-chat memory.
 
 ## Phase-3 Design
 
-`03_DESIGN` aktif asamadir ve Phase-3 butunu tamamlanmadigi icin registry seviyesi `REVIEW` kalir.
+`03_DESIGN` is the active phase and remains registry-level `REVIEW` because Gate 3 -> 4 has not passed.
 
-Approved working design authorities:
+Approved working design authorities include:
 - `BRAND_NAME.md` — Kavriva
 - `LOGO_DIRECTION.md` — L05A
 - `ANCHOR_UX_STRUCTURE.md` — U04
@@ -45,30 +52,42 @@ Approved working design authorities:
 - `SCREEN_FAMILY_SPECS.md`
 - `SCREEN_FAMILY_SPEC_REVIEW.md`
 - `AI_USTA_UX_STRUCTURE.md`
-- `KAVRIVA_AI_USTA_UX_STRUCTURE_REVIEW.md`
 - `MAIN_SHELL_VISUAL_REFERENCES.md`
-- `KAVRIVA_MAIN_SHELL_VISUALS_REVIEW.md`
 - `GUIDE_DISCOVERY_FIT_PREPARATION_VISUAL_REFERENCES.md`
-- `KAVRIVA_GUIDE_DISCOVERY_FIT_PREPARATION_VISUALS_REVIEW.md`
 - `ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUAL_REFERENCES.md`
-- `KAVRIVA_ACTIVE_APPLICATION_SAFETY_RECOVERY_VISUALS_REVIEW.md`
 - `DIAGNOSIS_VISUAL_REFERENCES.md`
-- `KAVRIVA_DIAGNOSIS_VISUALS_REVIEW.md`
 - `MAINTENANCE_REMINDER_VISUAL_REFERENCES.md`
-- `KAVRIVA_MAINTENANCE_REMINDER_VISUALS_REVIEW.md`
+- `HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES.md`
+- `MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md`
+- `PROFILE_COLLABORATION_VISUAL_REFERENCES.md`
+- `COMMUNITY_VISUAL_REFERENCES.md`
 
-`REFERENCE_INDEX.md` approved references:
-`REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`, `REF-MAINT-001`.
+Approved review/evidence records exist for the above controlled visual families, including Community:
+- `KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`
+- `KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
 
-## Current Phase-3 Task
+`REFERENCE_INDEX.md` approved references currently include:
+`REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`, `REF-MAINT-001`, `REF-HISTORY-001`, `REF-LIFECYCLE-001`, `REF-PROFILE-001`, `REF-COMMUNITY-001`.
 
-**FAM-06 History / Evidence / Trust visual references**.
+## Current Phase-3 Task State
 
-Active prompt:
-`03_DESIGN/PHASE3_HISTORY_EVIDENCE_TRUST_VISUAL_REFERENCES_AI_PROMPT.md`.
+The project is intentionally paused before the next delegated task prompt.
 
-Existing R04 Gecmis root is I01; generate I02–I06 only.
+Reason: the user stated that Community/FAM-09 is sufficient and has additional points to discuss before the next prompt is prepared.
 
-Phase 4'e Gate 3 saglanmadan gecilmez. Remaining critical mobile visual references and the Internal Data/Content Operations requirements/workflow addendum must be covered before Gate 3 readiness review.
+Remaining consumer-mobile visual coverage:
+- `SCR-001` First-Value Entry
+- `SCR-002` Add Motorcycle
+- `SCR-003` Motorcycle Identification & Variant Resolution
+- `SCR-004` Fit Confirmation / Missing Distinction
+
+`SCR-005 Garaj` is already covered by R01.
+
+After the user's pending comments are processed, the remaining Phase-3 sequence is expected to be:
+1. remaining FAM-01 visual coverage, if still appropriate,
+2. Internal Data & Content Operations requirements/workflow/platform-independent screen-workspace architecture,
+3. Gate 3 -> 4 readiness review.
+
+Phase 4'e Gate 3 saglanmadan gecilmez.
 
 Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
