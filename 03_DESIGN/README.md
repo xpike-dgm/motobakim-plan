@@ -21,12 +21,13 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 15. History / Evidence / Trust I01–I06 — **DONE / APPROVED WITH CONSTRAINTS**
 16. Motorcycle Lifecycle / Entitlement J01–J05 — **DONE / APPROVED WITH CONSTRAINTS**
 17. Profile / Collaboration K01–K03 — **DONE / APPROVED WITH CONSTRAINTS**
-18. **FAM-09 Community — CURRENT / READY**; 2 new critical visuals, R05 already covers SCR-038 root
-19. FAM-01 First Use / Motorcycle Context — pending 4 new visuals; R01 already covers SCR-005 Garaj context
-20. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
-21. Gate 3 -> 4 readiness review
+18. Community R05 + L01–L02 — **DONE / APPROVED WITH CONSTRAINTS**
+19. **USER COMMENTS / CORRECTIONS — WAITING BEFORE NEXT TASK PROMPT**
+20. FAM-01 First Use / Motorcycle Context — pending 4 new visuals; R01 already covers SCR-005 Garaj context
+21. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **REQUIRED BEFORE GATE 3 REVIEW**
+22. Gate 3 -> 4 readiness review
 
-Remaining new mobile visual screens: **6**.
+Remaining new consumer-mobile visual screens: **4**.
 
 ## Approved Working References
 
@@ -46,6 +47,7 @@ Remaining new mobile visual screens: **6**.
 - I01–I06 — `REF-HISTORY-001`
 - J01–J05 — `REF-LIFECYCLE-001`
 - K01–K03 — `REF-PROFILE-001`
+- R05 + L01–L02 Community — `REF-COMMUNITY-001`
 
 ## Approved Global Navigation
 
@@ -100,32 +102,28 @@ K01–K03 cover optional profile value, migration scope/conflict review and simp
 
 Protections: profile remains optional for current local/core value; migration preserves local usable state and no-silent-overwrite behavior; role/helper/service != verification; revoke does not erase historical attribution/evidence; private content stays separable. K01 literal absolute security/zero-loss wording and shield/check icon are not production authority.
 
-## Current Task — FAM-09 Community
+### Community — `REF-COMMUNITY-001`
+R05 remains the root/consumption reference. L01 covers explicit community contribution; L02 covers moderation/revise/resubmit/appeal/withdraw.
 
-**USE NOW:**
-`PHASE3_COMMUNITY_VISUAL_REFERENCES_AI_PROMPT.md`
+Protections: sharing is opt-in; public/private scope remains explicit; publication != technical verification; attached photos != verification; withdrawal does not silently erase dependent provenance/history; no likes/followers/reputation/ranking/marketplace mechanics. L02 fixture date and example brand/model/source moderation requests are not universal product rules.
 
-Existing R05 Topluluk root remains the working SCR-038 visual and must NOT be regenerated unless the user explicitly requests a correction.
+## Current Task Status — PAUSED FOR USER COMMENTS
 
-Generate exactly 2 new visuals:
-- L01 — `SCR-035 Community Contribution`
-- L02 — `SCR-036 Contribution Review / Moderation / Appeal`
+Do not generate the FAM-01 task prompt yet.
 
-Required attachments:
-- `Kavriva_L05A.png`
-- selected V10 screenshot
-- `R05-Topluluk.png`
-- `I04-SCR-028-Correction-Dispute-Evidence-Review.png`
+The user explicitly said the Community step is sufficient and they have additional points to discuss first.
 
-Community protections:
-- contribution is explicit opt-in,
-- private/personal content is not silently published,
-- community experience/Q&A remains visibly separate from official Kavriva guidance,
-- publication/acceptance != technical verification,
-- moderation shows reason + repair/revise/resubmit path,
-- appeal/withdraw may remain available where supported,
-- withdrawal does not silently rewrite provenance/history,
-- no likes/followers/reputation/ranking/marketplace mechanics are invented.
+Fresh manager transfer files:
+- `00_CONTROL/NEW_MANAGER_CHAT_HANDOFF.md`
+- `00_CONTROL/NEW_MANAGER_CHAT_PROMPT.md`
+
+After the user's pending comments are processed, and only if the plan remains appropriate, the remaining FAM-01 visual coverage is:
+- `SCR-001 First-Value Entry`
+- `SCR-002 Add Motorcycle`
+- `SCR-003 Motorcycle Identification & Variant Resolution`
+- `SCR-004 Fit Confirmation / Missing Distinction`
+
+`SCR-005 Garaj` is already covered by R01.
 
 ## Internal Data & Content Operations — Approved Requirement
 
@@ -136,7 +134,7 @@ Canonical requirement:
 
 Exact form is NOT decided: web vs desktop vs hybrid, database/CMS/API/sync, reviewer-role implementation, publishing mechanics, analytics stack and AI/provider choice remain later controlled decisions.
 
-Current mobile family work continues first. A targeted internal-operations requirements/workflow/screen-architecture addendum is required before final Gate 3 -> 4 readiness review. Internal visual design should not be finalized before platform/strategy selection.
+Before Gate 3 -> 4 review, complete a targeted internal-operations requirements/workflow/platform-independent screen-workspace architecture addendum. Final platform-specific internal visual design must wait for later platform/strategy selection.
 
 ## Approved Working Screen Families
 
@@ -162,7 +160,9 @@ Canonical: `SCREEN_FAMILY_SPECS.md`, `SCREEN_FAMILY_SPEC_REVIEW.md`, `REF-SPEC-0
 - Language/unit/accessibility support cannot require profile.
 - No generic dashboard/KPI home, marketplace home or permanent social-feed convention.
 - Bakim reminder list cannot be a dead end; guide entry must be explicit.
+- Readable type and low-clutter hierarchy take priority over decorative minimalism.
+- Multi-screen visual outputs should be produced as separate images, not multiple phone pages combined into one image.
 
 ## Scope Restrictions
 
-Phase 3 does not select technology/backend/database/API/auth/sync/framework, LLM/provider architecture, or final pricing/tier/quota. Gate 3 -> 4 must not be declared passed before remaining critical visual coverage and the internal-operations addendum are sufficiently covered.
+Phase 3 does not select technology/backend/database/API/auth/sync/framework, LLM/provider architecture, internal-tool platform, or final pricing/tier/quota. Gate 3 -> 4 must not be declared passed before remaining critical mobile visual coverage and the internal-operations addendum are sufficiently covered.
