@@ -66,25 +66,33 @@ Approved review/evidence records exist for the above controlled visual families,
 - `KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`
 - `KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
 
+Partial FAM-01 review record:
+- `KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md` — `PASS_PARTIAL / USER-ACCEPTED PARTIAL SET`
+  - accepted working visual directions: `SCR-001`, `SCR-002`, `SCR-003`
+  - still pending: `SCR-004`
+  - no full FAM-01 reference authority yet
+
 `REFERENCE_INDEX.md` approved references currently include:
 `REF-BRAND-001`, `REF-UX-001`, `REF-VISUAL-001`, `REF-ARCH-001`, `REF-NAV-001`, `REF-SPEC-001`, `REF-AIUSTA-001`, `REF-SHELL-001`, `REF-GUIDE-001`, `REF-ACTIVE-001`, `REF-DIAG-001`, `REF-MAINT-001`, `REF-HISTORY-001`, `REF-LIFECYCLE-001`, `REF-PROFILE-001`, `REF-COMMUNITY-001`.
 
 ## Current Phase-3 Task State
 
-The project is intentionally paused before the next delegated task prompt.
+The earlier user-comments pause has been processed.
 
-Reason: the user stated that Community/FAM-09 is sufficient and has additional points to discuss before the next prompt is prepared.
-
-Remaining consumer-mobile visual coverage:
+The user accepted the current FAM-01 working visual directions for:
 - `SCR-001` First-Value Entry
 - `SCR-002` Add Motorcycle
 - `SCR-003` Motorcycle Identification & Variant Resolution
+
+Two Community-family screens shown in the same screenshot batch were explicitly excluded from FAM-01 processing and do not count toward First Use coverage.
+
+Remaining consumer-mobile visual coverage:
 - `SCR-004` Fit Confirmation / Missing Distinction
 
 `SCR-005 Garaj` is already covered by R01.
 
-After the user's pending comments are processed, the remaining Phase-3 sequence is expected to be:
-1. remaining FAM-01 visual coverage, if still appropriate,
+Current remaining Phase-3 sequence:
+1. complete `SCR-004` visual coverage,
 2. Internal Data & Content Operations requirements/workflow/platform-independent screen-workspace architecture,
 3. Gate 3 -> 4 readiness review.
 
