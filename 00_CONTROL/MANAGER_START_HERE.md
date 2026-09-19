@@ -42,6 +42,7 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 - Internal Operations: browser-based, CSR-first static artifact/CDN + Kavriva API direction (`DEC-0039`); framework held.
 - CMS/publishing: Kavriva retains technical truth, approval, immutable release, recall/suspension, package eligibility and
   publication authority; a CMS may later be evaluated only as a replaceable authoring adjunct (`DEC-0042`). No CMS/provider is selected.
+- Analytics/measurement: canonical operational coverage/data-quality metrics and protected evidence remain Kavriva-owned; product analytics stays optional/minimized/non-authoritative/replaceable; observability stays separate/provider-neutral where feasible; split/hybrid is the reversible Phase-4 shape with a smaller owned fallback (`DEC-0044`). No analytics/observability provider is selected.
 - External AI work uses Drive + GitHub, not the owner's computer (`DEC-0040`); parallel independent external AI work is allowed (`DEC-0041`).
 
 ## Owner and Communication Contract
