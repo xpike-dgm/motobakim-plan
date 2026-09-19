@@ -260,6 +260,12 @@ Unless a newer explicit user decision changes the plan:
     offline/account-light behavior, owner-operability, safe cost and clean-room exit. No provider/account/plan/code/
     final KPI/ADR/gate transition is approved.
 
+27. TASK-002 primary research and HANDOFF-TASK-002 are delivered. Manager structural intake verified four
+    architecture families, two candidate/reference mechanisms per family, 30 official/primary source-ledger rows and
+    exactly 16 mandatory scenarios × four families = 64 failure rows with all eight required fields. This is not a
+    substantive PASS. TASK-002 is REVIEW in Drive `03_REVIEW`; `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` is open for a
+    different external AI. No provider/account/plan/code/SDK integration/final KPI/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
