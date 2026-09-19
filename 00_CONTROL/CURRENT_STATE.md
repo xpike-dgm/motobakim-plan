@@ -327,7 +327,9 @@ DEBATE-014 status:
 - Drive `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY` is published;
 - Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `READY` in `00_READY`;
 - four equal families are in scope: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
-- primary research, independent review and manager synthesis are still pending;
+- primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields, but this is structural evidence only;
+- TASK-002 is `REVIEW` in Drive `03_REVIEW` and `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` is open for a different AI;
+- substantive independent review and manager synthesis are still pending;
 - no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
