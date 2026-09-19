@@ -132,7 +132,7 @@ Still open:
 - exact web framework/provider and production architecture evidence,
 - exact database/provider/runtime/identity/sync products and Phase-5 ADRs,
 - CMS product choice, if authoring volume later proves one necessary,
-- analytics stack,
+- analytics/measurement strategy — ACTIVE under DEBATE-014; no provider winner,
 - AI/provider choices.
 
 Do not finalize platform-specific internal visual design yet.
@@ -159,6 +159,7 @@ DEBATE-010 — Identity, Session, Account Recovery and Privileged Access — is 
 DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is user-approved under `DEC-0038`.
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
+DEBATE-014 — Analytics and Measurement Strategy — is ACTIVE; requirements synthesis is recorded and Drive TASK-002 is READY for primary research.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
@@ -317,6 +318,17 @@ DEBATE-013 status:
   convenience and must remain replaceable;
 - canonical GitHub synthesis is `04_TECH_STRATEGY/DEBATES/DEBATE-013__MANAGER_SYNTHESIS.md`;
 - no CMS/provider/account/trial/purchase, code, prototype, deployment, ADR or gate transition is approved.
+
+DEBATE-014 status:
+- opened from the already-recorded analytics-stack / operational-measurement gap after explicit user direction;
+- canonical requirements synthesis: `04_TECH_STRATEGY/DEBATES/DEBATE-014__ANALYTICS_MEASUREMENT_REQUIREMENTS_SYNTHESIS.md`;
+- measurement is explicitly non-authoritative: telemetry cannot become technical truth, human approval, physical-completion proof, safety readiness, entitlement, recall/suspension authority or protected audit;
+- research must separate consumer product analytics, Internal Operations coverage/data-quality metrics, reliability/observability, protected audit and supporting store/platform signals;
+- Drive `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY` is published;
+- Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `READY` in `00_READY`;
+- four equal families are in scope: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
+- primary research, independent review and manager synthesis are still pending;
+- no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
 - `DEBATE-006 — Mobile Technology Evidence, Team & TCO`
