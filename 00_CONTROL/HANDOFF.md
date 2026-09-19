@@ -297,6 +297,17 @@ Unless a newer explicit user decision changes the plan:
     TASK-003 requires 16 scenarios × four families = 64 substantive failure rows. No code/build/signing setup/account/
     plan/purchase/provider winner/ADR/gate transition is approved.
 
+33. TASK-003 primary research and HANDOFF-TASK-003 are delivered. Manager intake verified TASK-003 is REVIEW
+    in Drive `03_REVIEW`, research/handoff are in their required folders, exactly 64 S01-S16 family entries exist, and
+    all eight mandatory fields occur for all 64 rows. Borrowed iPhone remains device-test access only; Mac/Xcode
+    execution, real signing/build proof, no-owner-debug operation and clean-room rebuild remain HELD. This was structural
+    intake, not substantive PASS.
+
+34. `REVIEW-005 — TASK-003 INDEPENDENT REVIEW` is open in Drive `05_REVIEWS` for a fresh external reviewer. It must
+    adversarially re-check current official pricing/toolchain/signing claims, equal-family treatment, AI-operability,
+    safe TCO, failure behavior and clean-room exit. Do not close TASK-003 or synthesize a DEBATE-015 working direction
+    before the independent verdict. No provider/account/plan/purchase/build/code/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
