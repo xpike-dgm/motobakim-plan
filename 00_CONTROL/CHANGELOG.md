@@ -924,3 +924,16 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Created `REVIEW-007 — TASK-004 INDEPENDENT REVIEW` for a fresh external reviewer with explicit current-source,
   privacy/authority, prompt-injection/tool, TCO, lifecycle, fallback/eval and clean-exit checks.
 - No substantive PASS, provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or gate transition.
+
+### REVIEW-007 Requested TASK-004 Remediation
+- Verified REVIEW-007 `CHANGES_REQUESTED`: Critical none, three Major findings and one Minor.
+- Scoped M-1 remediation to the Evidence field across all 64 Section-17 rows, preserving the other seven fields unless a
+  newly verified official source forces a narrow factual correction.
+- Scoped M-2 to current Family-C Bedrock retention modes and Microsoft Foundry Claude hosting/data-processing/residency
+  distinctions plus impacted Family-C evidence/privacy rows.
+- Scoped M-3 to current vs legacy Amazon Bedrock lifecycle evidence and S08-C.
+- Scoped m-1 to explicit GPT-5.6 Sol promotional-pricing and Anthropic 1.1× US-only inference pricing caveats without
+  changing the existing fixture arithmetic.
+- Manager official-source spot-check confirmed the current basis for these findings.
+- Moved TASK-004 from Drive `03_REVIEW` to `04_CHANGES_REQUESTED` and recorded the narrow repair contract.
+- No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or Gate 4 -> 5.
