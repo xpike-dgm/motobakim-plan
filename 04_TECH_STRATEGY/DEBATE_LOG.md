@@ -546,3 +546,20 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   `03_REVIEW`. No self-PASS was issued.
 - Created `REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` for fresh independent closure/regression review.
 - No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
+
+## REVIEW-008 Returned CHANGES_REQUESTED — Residual M-1 Only
+
+- Independent REVIEW-008 issued `CHANGES_REQUESTED`.
+- Critical: none.
+- M-2, M-3 and m-1 are closed with no residual finding.
+- Residual M-1 is limited to seven Section-17 Evidence rows:
+  - S02-A, S02-C, S02-D, S03-A, S03-D use the undefined/mistyped `KAVRIVA-CTX/AUI` token instead of exact defined
+    source-ledger identifiers;
+  - S09-C needs direct Family-C structured/tool evidence rather than prompt-injection/lifecycle sources;
+  - S15-D uses undefined generic `OAI/ANTH/GOOG evidence` text instead of exact managed-provider source identifiers.
+- REVIEW-008 re-confirmed that all 64 Evidence fields changed in the prior remediation, all are distinct, and the other
+  seven mandatory fields had zero changes.
+- Narrow remediation is Evidence-only for exactly these seven rows; the other 57 Evidence fields, Sections 6/8/9/12,
+  closed findings, authority boundaries, HELD states and Family-D conditional status must not change.
+- TASK-004 moved to Drive `04_CHANGES_REQUESTED`.
+- No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
