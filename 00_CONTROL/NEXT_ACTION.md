@@ -1,35 +1,40 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-014 / TASK-002 REVIEW-004 OPEN`
+Status: `DEBATE-014 MANAGER SYNTHESIS / USER DECISION PENDING`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 ## Current Topic
 
-`DEBATE-014 — Analytics and Measurement Strategy` remains active.
+`DEBATE-014 — Analytics and Measurement Strategy` remains active pending owner decision.
 
-REVIEW-003 Major M-1 has been remediated by AI-001 within the authorized narrow scope:
-- only Section 10 / S15 `Clean-room provider replacement` / Family D was changed in the research report;
-- all eight mandatory fields are now explicit and scenario/family-specific;
-- unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD;
-- HANDOFF-TASK-002 and TASK-002 completion evidence were updated;
-- the other 63 failure rows and core measurement/privacy boundaries were not intentionally changed.
+TASK-002 research is complete and closed:
+- REVIEW-003 returned CHANGES_REQUESTED with one Major M-1 limited to S15 clean-room replacement / Family D.
+- AI-001 remediated the narrow M-1 scope while keeping unsupported portability points HELD.
+- REVIEW-004 returned PASS with no Critical, Major or Minor findings and confirmed no regression.
+- Manager readback closed TASK-002 as `DONE` and moved it to Drive `06_DONE`.
 
-TASK-002 is back to `REVIEW` in Drive `03_REVIEW`.
-
-`REVIEW-004 — TASK-002 M-1 REMEDIATION RE-REVIEW` is OPEN for AI-003.
+Canonical proposal:
+`04_TECH_STRATEGY/DEBATES/DEBATE-014__MANAGER_SYNTHESIS.md`
 
 ## Immediate Next Manager Action
 
-1. Dispatch REVIEW-004 to AI-003, which must be independent from AI-001 and AI-002.
-2. AI-003 verifies M-1 remediation and checks for regression; it does not edit TASK/research/handoff/REVIEW-003.
-3. If PASS, manager performs final readback, closes TASK-002 to `06_DONE`, then prepares DEBATE-014 manager synthesis for owner decision.
-4. If CHANGES_REQUESTED/BLOCKED, preserve the review history and scope the next action to the supported finding only.
+Present the DEBATE-014 Phase-4 working-direction proposal to the owner for explicit approve/reject/change instruction.
+
+Proposed direction:
+- Kavriva-owned canonical operational metrics and protected evidence;
+- product analytics optional, minimized, non-authoritative and replaceable;
+- observability separate/provider-neutral where feasible;
+- split/hybrid boundary as the conditional architecture shape;
+- smaller owned baseline as fallback when evidence gates are not met.
+
+Do not create a decision record until the owner explicitly approves or changes the proposal.
 
 ## Hard Boundaries
 
-- no self/manager PASS before REVIEW-004 verdict;
-- no provider/family winner, account, trial, plan, purchase or deployment;
-- no code, pseudocode, SDK implementation or event-schema implementation;
-- no final KPI target, legal conclusion, Phase-5 ADR or Gate 4 -> 5 transition.
+- no provider/family winner beyond the architecture-shape proposal;
+- no provider account, trial, plan, purchase or deployment;
+- no code, SDK integration, event-schema implementation or executable spike;
+- no final KPI target or legal conclusion;
+- no Phase-5 ADR and no Gate 4 -> 5 transition.
 
