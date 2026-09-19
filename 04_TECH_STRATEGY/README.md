@@ -20,9 +20,10 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 - `DEBATE-016 — AI / LLM / Provider Strategy`
   - opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`,
-  - GitHub requirements synthesis, Drive `CTX-P4-016` and READY `TASK-004` are published,
-  - research separates consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority,
-  - four equal provider operating-model families, current official-primary provider/model evidence, privacy/data handling, lifecycle/deprecation, prompt-injection/tool boundaries, safe TCO, fallback divergence, eval/change detection and clean-room exit are required,
+  - TASK-004 primary research and HANDOFF-TASK-004 are delivered; TASK-004 is in REVIEW,
+  - manager structural intake verified four operating-model families and 16 × 4 = 64 scenario/family rows with all eight mandatory fields; Recovery owner has 64 distinct values,
+  - `REVIEW-007 — TASK-004 INDEPENDENT REVIEW` is open for current-source, authority/privacy, prompt-injection/tool, lifecycle, TCO, fallback/eval and clean-exit review,
+  - consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority remain separated,
   - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
