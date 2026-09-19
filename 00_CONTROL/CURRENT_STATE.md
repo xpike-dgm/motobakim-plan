@@ -159,7 +159,7 @@ DEBATE-010 — Identity, Session, Account Recovery and Privileged Access — is 
 DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is user-approved under `DEC-0038`.
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
-DEBATE-014 — Analytics and Measurement Strategy — is ACTIVE; requirements synthesis is recorded and Drive TASK-002 is READY for primary research.
+DEBATE-014 — Analytics and Measurement Strategy — research/review is complete; TASK-002 is DONE and the manager working-direction proposal awaits explicit user decision.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
@@ -327,13 +327,12 @@ DEBATE-014 status:
 - Drive `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY` is published;
 - Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `READY` in `00_READY`;
 - four equal families are in scope: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
-- primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields, but this is structural evidence only;
-- independent `REVIEW-003` returned `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1 limited to Section 10 S15 `Clean-room provider replacement` / Family D, where next-action/privacy/cost/exit fields are substantively misassigned and Exit impact is `undefined`;
-- required PostgreSQL, PostHog, Amplitude, Matomo, OpenTelemetry, Apple, Android and crash/observability spot-checks found no material contradiction;
-- AI-001 remediated REVIEW-003 Major M-1 within the authorized narrow scope: only Section 10 S15 `Clean-room provider replacement` / Family D changed in the research report, and all eight mandatory fields are now explicit and scenario/family-specific;
-- unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD; HANDOFF-TASK-002 and TASK-002 completion evidence record the repair;
-- TASK-002 is back to `REVIEW` in Drive `03_REVIEW`; `REVIEW-004 — TASK-002 M-1 REMEDIATION RE-REVIEW` is open for independent AI-003;
-- fresh independent re-review and manager synthesis are still pending;
+- primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields;
+- independent `REVIEW-003` returned `CHANGES_REQUESTED` with one Major M-1 limited to Section 10 S15 `Clean-room provider replacement` / Family D; required official-source spot-checks found no material contradiction;
+- AI-001 remediated M-1 within the authorized narrow scope; unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD;
+- independent `REVIEW-004` returned `PASS` with no Critical, Major or Minor findings and confirmed no regression in the other 63 rows or the measurement/privacy/source/conditional-direction boundaries;
+- manager readback closed TASK-002 as `DONE` in Drive `06_DONE`;
+- `04_TECH_STRATEGY/DEBATES/DEBATE-014__MANAGER_SYNTHESIS.md` is the current Phase-4 proposal awaiting explicit user decision;
 - no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
