@@ -53,7 +53,7 @@ These are not missing product-definition answers. They are controlled technology
 - `TSQ-007 ANSWERED AT DIRECTION LEVEL` — User approved DEBATE-005 under `DEC-0027`: federated release authorities,
   exact immutable promotion, independent verifier/trust-root controls, artifact-bound provenance/SBOM, scoped signing/
   deployment and one cross-domain compatibility/revocation graph. No OTA channel is approved; exact tiers/formats/providers remain open.
-- `TSQ-008 PARTIALLY ANSWERED / SELECTED FOR DEBATE-015` — `DEC-0029` establishes AI-operated delivery with a nontechnical product owner and no
+- `TSQ-008 PARTIALLY ANSWERED / DEBATE-015 RESEARCH READY` — `DEC-0029` establishes AI-operated delivery with a nontechnical product owner and no
   assumed human development team. `DEC-0031` freezes the corrected S1–S15 fixture and all five equivalent dossiers are
   complete. `DEC-0032` records direct Android access, borrowed-iPhone access, Android-first staged publication and a later
   TRY 2,000–3,000/month non-store planning ceiling. Still required: confirmed Mac access or approved capped hosted-build
