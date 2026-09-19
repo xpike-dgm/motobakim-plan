@@ -22,8 +22,9 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - selected from the already-recorded unresolved portion of `TSQ-008` by explicit owner instruction to choose the next topic,
   - scope is limited to Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure,
   - TASK-003 primary research and HANDOFF-TASK-003 are delivered,
-  - independent `REVIEW-005` returned `CHANGES_REQUESTED`: no Critical, Major M-1 across all 64 Recovery owner fields, plus two narrow Minor findings (clean-room trace pointer and Codemagic Builds API preview caveat),
-  - TASK-003 is in Drive `04_CHANGES_REQUESTED`; narrow remediation and a fresh independent re-review are required,
+  - independent `REVIEW-005` returned `CHANGES_REQUESTED`: no Critical, Major M-1 across all 64 Recovery owner fields, plus two narrow Minor findings,
+  - remediation is complete: all 64 Recovery owner fields are now distinct and scenario/family-specific; the other seven fields show zero revision changes; the trace pointer and Codemagic preview caveat are corrected,
+  - TASK-003 is back in REVIEW and `REVIEW-006` is open for fresh independent re-review,
   - Mac/Xcode execution and real Kavriva build/signing/no-owner-debug/clean-room proof remain HELD,
   - no provider winner, account, plan, purchase, build, signing setup, code, ADR or gate transition is approved.
 
