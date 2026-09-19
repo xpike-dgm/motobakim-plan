@@ -18,8 +18,12 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-No new Phase-4 topic is selected. Do not invent or auto-open one; the next topic must come from already-recorded
-unresolved scope and explicit owner selection.
+- `DEBATE-016 — AI / LLM / Provider Strategy`
+  - opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`,
+  - GitHub requirements synthesis, Drive `CTX-P4-016` and READY `TASK-004` are published,
+  - research separates consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority,
+  - four equal provider operating-model families, current official-primary provider/model evidence, privacy/data handling, lifecycle/deprecation, prompt-injection/tool boundaries, safe TCO, fallback divergence, eval/change detection and clean-room exit are required,
+  - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
