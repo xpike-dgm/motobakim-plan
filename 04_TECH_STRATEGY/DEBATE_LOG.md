@@ -563,3 +563,18 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   closed findings, authority boundaries, HELD states and Family-D conditional status must not change.
 - TASK-004 moved to Drive `04_CHANGES_REQUESTED`.
 - No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
+
+## REVIEW-008 Residual M-1 Remediation Verified / REVIEW-009 Opened
+
+- Manager revision 8 -> 9 comparison verified exactly seven Evidence changes:
+  S02-A, S02-C, S02-D, S03-A, S03-D, S09-C and S15-D.
+- Other 57 Evidence fields show zero changes.
+- Expected state, safe hold, recovery owner, next action, security/privacy/authority impact, cost/latency impact and
+  exit/fallback impact show zero changes across all 64 rows.
+- Sections 6, 8, 9 and 12 are unchanged; REVIEW-008-closed M-2/M-3/m-1 remain closed.
+- Undefined `KAVRIVA-CTX/AUI` and generic `OAI/ANTH/GOOG evidence` tokens are absent.
+- S09-C now maps directly to current Amazon Bedrock Tool use and Google Cloud Vertex AI function-calling evidence while
+  keeping catalog-wide Family-C parity and Kavriva authorization HELD.
+- S15-D uses exact defined managed-provider and local/runtime identifiers and keeps managed↔local behavioral parity HELD.
+- TASK-004 is back to REVIEW in Drive `03_REVIEW`; no self-PASS was issued.
+- Created `REVIEW-009 — TASK-004 REVIEW-008 RESIDUAL M-1 RE-REVIEW` for fresh independent closure/regression review.
