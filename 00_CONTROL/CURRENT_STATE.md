@@ -159,7 +159,7 @@ DEBATE-010 — Identity, Session, Account Recovery and Privileged Access — is 
 DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is user-approved under `DEC-0038`.
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
-DEBATE-014 — Analytics and Measurement Strategy — research/review is complete; TASK-002 is DONE and the manager working-direction proposal awaits explicit user decision.
+DEBATE-014 — Analytics and Measurement Strategy — is user-approved under `DEC-0044`; TASK-002 is DONE and no analytics/observability provider winner is selected.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
@@ -332,8 +332,8 @@ DEBATE-014 status:
 - AI-001 remediated M-1 within the authorized narrow scope; unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD;
 - independent `REVIEW-004` returned `PASS` with no Critical, Major or Minor findings and confirmed no regression in the other 63 rows or the measurement/privacy/source/conditional-direction boundaries;
 - manager readback closed TASK-002 as `DONE` in Drive `06_DONE`;
-- `04_TECH_STRATEGY/DEBATES/DEBATE-014__MANAGER_SYNTHESIS.md` is the current Phase-4 proposal awaiting explicit user decision;
-- no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
+- the user approved the manager synthesis under `DEC-0044`: canonical operational metrics/protected evidence stay Kavriva-owned, product analytics stays optional/minimized/replaceable, observability stays separate/provider-neutral where feasible, split/hybrid is the reversible architecture shape and the smaller owned baseline is the fallback;
+- no provider/account/trial/plan/purchase, code, SDK integration, final KPI, legal conclusion, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
 - `DEBATE-006 — Mobile Technology Evidence, Team & TCO`
