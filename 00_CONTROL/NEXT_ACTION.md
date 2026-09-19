@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-016 / TASK-004 READY FOR EXTERNAL RESEARCH`
+Status: `DEBATE-016 / TASK-004 REVIEW / REVIEW-007 OPEN`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,34 +8,31 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-016 — AI / LLM / Provider Strategy`
 
-This topic is opened by explicit owner instruction from the remaining main Phase-4 scope and is registered as
-`TSQ-018 — AI / LLM / Provider Operating Strategy`.
+TASK-004 primary research is delivered:
+- Drive research: `DEBATE-016__AI_LLM_PROVIDER_PRIMARY_RESEARCH`;
+- Drive handoff: `HANDOFF-TASK-004`;
+- TASK-004 is `REVIEW` in Drive `03_REVIEW`;
+- manager structural intake verified exactly 16 scenarios × four families = 64 rows and all eight mandatory fields 64 times;
+- Recovery owner contains 64 distinct scenario/family-specific values; authority/impact fields are not collapsed to generic boilerplate;
+- consumer AI Usta, bounded Internal Operations AI, project/company AI and non-AI authority planes remain separated;
+- no provider/model/plan winner or self-PASS was issued.
 
-Research package is ready:
-- GitHub requirements synthesis: `04_TECH_STRATEGY/DEBATES/DEBATE-016__AI_LLM_PROVIDER_REQUIREMENTS_SYNTHESIS.md`;
-- Drive context: `CTX-P4-016 — AI LLM PROVIDER AND MODEL STRATEGY`;
-- Drive task: `TASK-004 — DEBATE-016 AI LLM PROVIDER PRIMARY RESEARCH`;
-- TASK-004 is `READY` in Drive `02_TASK_QUEUE/00_READY`.
-
-Research must separate consumer AI Usta, Internal Operations AI assistance, project/company AI-operated delivery and
-non-AI authority; compare four provider operating-model families with current official/primary evidence; produce
-16 scenarios × four families = 64 substantive failure rows; and cover privacy/data handling, prompt injection/tool
-boundaries, model lifecycle, safe TCO, eval/change detection, fallback divergence and clean-room exit.
+`REVIEW-007 — TASK-004 INDEPENDENT REVIEW` is OPEN in Drive `05_REVIEWS`.
 
 ## Immediate Next Manager Action
 
-Dispatch TASK-004 to a fresh external research chat.
+Dispatch REVIEW-007 to a fresh independent external reviewer.
 
-When the research worker finishes:
-1. verify the research report and HANDOFF-TASK-004;
-2. confirm TASK-004 moved to `03_REVIEW`;
-3. open a fresh independent review for a different external AI;
-4. do not synthesize or approve a working direction before independent review.
+The reviewer must adversarially verify current official model/provider claims, authority-plane separation, privacy/data
+handling, prompt-injection/tool boundaries, the complete 64-row failure contract, lifecycle/deprecation, safe TCO,
+eval/change detection, fallback divergence and clean-room provider/model exit.
+
+Do not synthesize or approve a DEBATE-016 working direction before the independent verdict.
 
 ## Hard Boundaries
 
 - no provider/model/plan winner;
-- no code, production prompt, tool schema, agent workflow, API key or integration;
+- no code, production prompt/tool schema/agent workflow/API key/integration;
 - no provider account, trial, purchase, payment, model deployment, vector DB or fine-tune;
 - no final legal/privacy conclusion or budget commitment;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
