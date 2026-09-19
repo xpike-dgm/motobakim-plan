@@ -20,6 +20,7 @@ Status: ACTIVE
 | `REF-LIFECYCLE-001` | Motorcycle lifecycle / entitlement | `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` | J01–J05 / SCR-008,031–033,037 | APPROVED |
 | `REF-PROFILE-001` | Profile / collaboration | `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md` | K01–K03 / SCR-006,007,034 | APPROVED |
 | `REF-COMMUNITY-001` | Community contribution / moderation / root continuity | `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md` | R05 existing root + L01–L02 / SCR-035,036,038 | APPROVED |
+| `REF-FIRSTUSE-001` | First use / motorcycle context | `03_DESIGN/FIRST_USE_MOTORCYCLE_CONTEXT_VISUAL_REFERENCES.md` | SCR-001–004 accepted + SCR-005 existing R01 | APPROVED |
 
 ## Reference Semantics
 
@@ -67,6 +68,9 @@ Profile remains optional for current approved local/core value. K02 preserves mi
 
 ### REF-COMMUNITY-001
 R05 remains the Community root authority. L01 makes contribution explicit opt-in and shows public-vs-private scope; attached photos do not become technical verification. L02 shows understandable moderation reason plus revise/resubmit, appeal and withdrawal paths while publication remains distinct from official technical verification. L02's displayed date and example part/source requests are fixture/moderation examples only, not universal product requirements. Withdrawal must not silently erase dependent provenance/history. Exact moderation/privacy/backend/routing implementation remains non-final.
+
+### REF-FIRSTUSE-001
+SCR-001–SCR-005 establish first value and motorcycle context without account coercion or technical-code scavenger hunting. SCR-004 distinguishes fit-confirmed from missing-distinction states: confirmed fit still proceeds through preparation/readiness, while unresolved fit keeps motorcycle-specific application closed and preserves re-evidence plus teaching/reference paths. SCR-005 uses existing R01 authority. Exact copy, modality, tokens, bottom-navigation treatment and implementation remain non-final.
 
 ## Authority Rule
 

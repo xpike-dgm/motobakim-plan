@@ -319,3 +319,468 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Diagnosis prompt preserves danger-first triage, evidence-driven narrowing, one discriminating check at a time, valid uncertainty, no random part replacement, no unsupported certainty and supported-result -> guide-preview -> fit/readiness continuity.
 - Photo analysis is product-UX optional/contextual evidence, not default every-check behavior or automatic diagnosis authority; no AI provider/model/API architecture is selected.
 - `CURRENT_STATE.md`: `PHASE-3 / DESIGN — DIAGNOSIS VISUAL REFERENCES READY`.
+
+## 2026-09-17
+
+### SCR-004 Candidate Pair Generated / User Review Pending
+- User assigned the main project-management role to the current manager and requested step-by-step Phase-3 completion using Luna Max sub-agents.
+- The local untracked `refernces/` directory was inspected as user-supplied visual evidence; existing files were preserved.
+- L05A, V10, D02 and D04 were used as references with the built-in image-generation workflow.
+- Two separate 941x1672 candidates were generated for the mutually exclusive SCR-004 states:
+  - `F01-SCR-004-Fit-Confirmed-candidate-v1.png`,
+  - `F02-SCR-004-Missing-Distinction-candidate-v1.png`.
+- `03_DESIGN/KAVRIVA_FIRST_USE_SCR004_CANDIDATE_01.md` records semantics, provenance and SHA-256 hashes.
+- Manager QA result: `PASS_TO_USER_REVIEW`.
+- Explicit user acceptance is still required; FAM-01 remains partial and no FAM-01 reference was added to `REFERENCE_INDEX.md`.
+
+### Internal Data & Content Operations Phase-3 Addendum Completed
+- Added and manager-reviewed:
+  - `INTERNAL_DATA_CONTENT_OPERATIONS_REQUIREMENTS.md`,
+  - `INTERNAL_DATA_CONTENT_OPERATIONS_WORKFLOW_LIFECYCLE.md`,
+  - `INTERNAL_DATA_CONTENT_OPERATIONS_WORKSPACE_ARCHITECTURE.md`,
+  - `INTERNAL_DATA_CONTENT_OPERATIONS_REVIEW.md`.
+- The package covers research, coverage, provenance, authoring, conflict/review, approval/publication, versioning, rollback/recall, audit, roles/permissions and operational analytics.
+- Web/desktop/hybrid form, database/CMS/API/sync, analytics stack, publishing implementation and AI/provider remain open.
+- `PHASE_GATES.md` now explicitly includes the approved internal-operations addendum requirement in Gate 3 -> 4 coverage.
+
+### Gate 3 Preliminary Review Recorded
+- `03_DESIGN/GATE_3_READINESS_REVIEW.md` created with result `NOT READY — USER REVIEW REQUIRED`.
+- Internal operations coverage is no longer a blocker.
+- Remaining blocker: explicit SCR-004 user acceptance, controlled FAM-01 closure and final Gate 3 authorization.
+- Corrected stale Gate-2 wording in `OPEN_QUESTIONS.md` and stale project status in root `README.md`.
+- Refreshed `CURRENT_STATE.md`, `SOURCE_OF_TRUTH.md`, `DOCUMENT_REGISTRY.md`, `HANDOFF.md` and `03_DESIGN/README.md`.
+
+### Phase 3 Final Approval / Gate 3 -> 4 Passed
+- User decision: `şuan 3 bitti mi onları onaylıyorum`.
+- SCR-004 F01/F02 pair promoted to approved working reference status.
+- `FIRST_USE_MOTORCYCLE_CONTEXT_VISUAL_REFERENCES.md` created as full FAM-01 authority.
+- `KAVRIVA_FIRST_USE_VISUALS_REVIEW.md` created with `PASS_WITH_CONSTRAINTS / USER APPROVED`.
+- `REFERENCE_INDEX.md` adds APPROVED `REF-FIRSTUSE-001`.
+- Internal Data & Content Operations requirements, lifecycle and workspace-architecture documents promoted to APPROVED working addendum status.
+- `GATE_3_READINESS_REVIEW.md` promoted to `PASSED — USER APPROVED`.
+- DEC-0020 records Phase-3 completion and Gate 3 -> 4 passage.
+- Phase 4 is ready but was not started automatically; no technology/platform/provider decision was made.
+
+### Phase 4 Started / DEBATE-001 Client Surface Strategy Drafted
+- User explicitly instructed `tamamdır başlayalım` after approving a research + two-independent-AI review workflow.
+- Phase 4 status changed to ACTIVE; Gate 4 -> 5 remains closed.
+- Product-derived mandatory gates and weighted client-surface evaluation criteria were created.
+- `DEBATE-001__CLIENT_SURFACE_STRATEGY.md` compares Flutter, React Native/Expo and Kotlin Multiplatform for consumer mobile; web, Electron, Tauri and web-first optional-shell sequencing for Internal Operations.
+- Initial manager proposal keeps Flutter and React Native/Expo as co-leading spike candidates, leads with web for Internal Operations, and requires separate server-enforced contracts plus a controlled publication projection.
+- Initial Phase-4 risk register opened with offline/sync, background execution, platform divergence, trust-boundary, publication and desktop-wrapper risks.
+- No technology choice was approved or locked. Two independent adversarial reviews and Architect/Judge synthesis are pending.
+
+### DEBATE-001 Independent Reviews and Judge Synthesis Completed
+- Two different AI/model reviewers independently challenged the manager proposal.
+- Architecture/Mobile/Scale reviewer verdict: `PASS_WITH_CHANGES`.
+- Security/Operations/Failure/Cost reviewer verdict: `PASS_WITH_CHANGES`.
+- Both found unsupported numerical scoring; scores were removed in favor of evidence-limited comparisons.
+- Critical corrections cover safe offline resume, fully-offline freshness/recall limits, approval-to-publish integrity,
+  emergency suspension, old-client compatibility and publication race conditions.
+- KMP-native and KMP+Compose are now separate options; fully native is retained as a reference baseline.
+- The publication/read-model proposal was reduced from a physical topology claim to a logical trust boundary.
+- Web optional desktop shell is now an extension policy, not a separately scored alternative.
+- Risk register expanded to 18 reviewed risks with owner role, signal/trigger, contingency and residual-risk fields.
+- Judge result: `PASS_WITH_CHANGES — CHANGES INCORPORATED FOR DEBATE CONTINUATION`.
+- User working-direction decision is pending. No framework, platform, physical data topology or ADR is approved.
+
+### No-Code Planning Boundary and Browser-Based Internal Operations Approved
+- User explicitly prohibited application code, prototypes, proof-of-concepts and executable technology spikes during planning.
+- Deep research delegation and independent AI critique remain allowed.
+- All future Phase-4 comparisons use official/primary evidence, identical product-scenario architecture walkthroughs,
+  failure/compatibility analysis, maintenance/TCO evidence and adversarial review.
+- User selected browser-based web application form for Internal Data & Content Operations.
+- Electron/Tauri/desktop-wrapper options are outside the current direction and cannot return without explicit user reopening.
+- Consumer mobile framework and all implementation technologies remain open.
+- `DEC-0021` records the binding working direction; Gate 4 -> 5 remains closed.
+
+### Sub-Agent Model Authorization Restricted
+- User pre-authorized Luna Max (`gpt-5.6-luna`, reasoning `max`) for in-scope sub-agent work without repeated permission.
+- Every other sub-agent model now requires explicit user permission before use.
+- The permission does not require delegation, expand scope, permit planning-stage code or bypass phase/change controls.
+- `PROJECT_CHAT_INSTRUCTIONS.md`, `AI_START_HERE.md`, manager handoff/prompt and `DEC-0022` now preserve the rule.
+
+### DEBATE-002 Offline Safety / Recall / Compatibility Reviewed
+- Two Luna Max research tracks completed without code: repository policy synthesis and official platform research.
+- Manager drafted a risk-tiered bounded offline eligibility + release-bound context direction.
+- Two independent Luna Max adversarial reviews returned `PASS_WITH_CHANGES`.
+- Critical corrections added safe unknown/default-highest-dependency behavior, task-specific recovery as an offline-start
+  prerequisite, restore/replay distrust, recall-race disclosure, old-client base envelope and browser unknown-outcome handling.
+- Official evidence confirms background/push delivery is not exact/guaranteed, local time cannot prove freshness across
+  every restart/restore, backups can restore stale data and store updates do not instantly eliminate old clients.
+- Judge result: sufficient for user working-direction decision, not ADR-ready.
+- User decision pending; numeric windows, highest-consequence online-only boundary and implementation remain open.
+
+### Offline Data-Efficiency Constraint Added
+- User required offline use to avoid excessive data downloads.
+- `DEC-0023` establishes selected-motorcycle + selected-task scope rather than full-library/catalog downloads.
+- Mandatory compact core retains fit/version/status, steps, critical warnings, required checks and complete task-specific recovery.
+- High-resolution media/video/nonessential teaching becomes optional/on-demand with size visibility.
+- Large cellular background transfer is off by default; exact thresholds remain open.
+- `DEBATE-002` now includes layered packages, deduplication/incremental-update evidence, cache cleanup and active-work pinning.
+- Added `TSR-022` excessive-data risk and `TSR-023` unsafe over-minimization risk.
+
+### DEBATE-002 Working Direction Approved
+- User approved the revised offline safety/recall/client-compatibility direction with `tamamdrı` after the
+  data-efficiency constraint was incorporated.
+- `DEC-0024` records risk-tiered bounded offline eligibility, release/client compatibility context, fail-closed
+  critical uncertainty, preserved task-specific safe recovery, online-authoritative internal mutations and
+  selected-motorcycle/task-scoped layered packages.
+- Numeric freshness/package limits, exact risk taxonomy, highest-consequence online-only boundary, emergency
+  suspension and all implementation technologies remain open.
+- No ADR was created; Gate 4 -> 5 remains closed.
+
+### DEBATE-003 Approval / Publication / Emergency Suspension Reviewed
+- Two Luna Max no-code research tracks completed: repository-policy synthesis and primary standards/security evidence.
+- Manager draft recommends complete immutable approval/release artifacts, one guarded publication transition and a
+  narrow independently recoverable emergency negative authority.
+- Two independent Luna Max adversarial reviews returned `PASS_WITH_CHANGES`.
+- Critical corrections close derived-artifact drift, publish-versus-suspension races, cache/partial-propagation ambiguity,
+  emergency unknown outcomes, protected fallback audit evidence and restore anti-resurrection behavior.
+- Added review records, Judge synthesis and risks `TSR-024`–`TSR-028`.
+- User approved the corrected B+C working direction under `DEC-0025`.
+- No ADR, numeric objective, provider or technology is approved; Gate 4 -> 5 remains closed.
+
+### DEBATE-004 Identity / Authorization / Audit / Ingestion Reviewed
+- Two Luna Max no-code research tracks completed: repository governance synthesis and primary identity/AppSec evidence.
+- Manager drafted hybrid base roles + server-authoritative contextual authorization, protected audit and quarantine-first ingestion.
+- Two independent Luna Max adversarial reviews returned `PASS_WITH_CHANGES` for Phase-4 direction and not ADR-ready.
+- Critical corrections added privileged security-epoch recovery/session invalidation, controlled authorization-policy
+  author/approve/activate lifecycle, minimum protected audit evidence under outage, small-team hold behavior, restrictive
+  classification propagation, explicit quarantine ownership/preview isolation and export-as-disclosure semantics.
+- Added review records, Judge synthesis and risks `TSR-029`–`TSR-033`.
+- User approved the corrected working direction under `DEC-0026`.
+- No provider, numeric policy, implementation or ADR is approved; Gate 4 -> 5 remains closed.
+
+### DEBATE-005 Supply Chain / Release Governance Reviewed
+- Two Luna Max no-code research tracks completed: repository release-authority synthesis and primary supply-chain evidence.
+- Manager drafted federated release authorities with immutable exact-artifact promotion and a shared evidence/compatibility contract.
+- Two independent Luna Max adversarial reviews returned `PASS_WITH_CHANGES` for Phase-4 direction and not ADR-ready.
+- Critical corrections added trust-root/verifier independence, installed/offline revocation limits, a cross-domain
+  release-meaning graph, explicit migration/rollout states, emergency fencing across every release domain, offline
+  package/classification evidence, dependency completeness states and a protected incident impact graph.
+- Added review records, Judge synthesis and risks `TSR-034`–`TSR-038`.
+- User approved the corrected working direction under `DEC-0027`.
+- No OTA channel, provider, numeric target, implementation or ADR is approved; Gate 4 -> 5 remains closed.
+
+### DEBATE-006 Mobile Technology / Team / TCO Reviewed
+- Two Luna Max no-code research tracks completed: a repo-derived identical Kavriva scenario dossier and current official
+  evidence for Flutter, React Native/Expo, KMP-native, KMP-Compose and full native.
+- Two independent Luna Max reviews completed. Product Delivery/TCO returned `PASS_WITH_CHANGES`; Mobile Platform/
+  Maintenance returned `PASS_WITH_CHANGES AS DIRECTION / REJECT AS ADR`.
+- Premature Flutter/RN finalist language was removed. All five options are equal S1–S15 dossier candidates and `HELD`.
+- Critical corrections added documentary-only Phase-4 semantics, last-durable-checkpoint recovery, accessibility evidence
+  limits, native/dependency owner closure, complete DEBATE-005 release/trust gates, restore/key-loss and entitlement/
+  evidence/ownership scenarios, precise support terminology, toolchain TCO and an exit dossier.
+- Added risks `TSR-039`–`TSR-044`.
+- User working-direction decision is pending. Common numeric fixture, target device/OS policy, AI-operability/external-
+  dependency capacity and 12–24 month TCO remain required before any framework ranking.
+- No framework, provider, OTA authority, implementation or ADR is approved; Gate 4 -> 5 remains closed.
+
+### AI-Native Execution and Obsidian Graph Requirement Added
+- User required a project organization beyond ordinary file modularity: every important artifact's purpose, ownership,
+  relationships, task/test coverage and status must be navigable through an Obsidian-compatible project graph.
+- Added `PROJECT_SCOPE_ADDENDUM_AI_NATIVE_EXECUTION_SYSTEM.md` and recorded binding requirement `DEC-0028`.
+- Required minimum sufficient task context packs, allowed/forbidden scope, contracts/design references, negative cases,
+  validation and completion evidence so a fresh AI can implement one task without reading or damaging the whole project.
+- Defined bidirectional requirement→task→test closure, no-code dependency/conflict/failure/rollback simulation and
+  task/feature/flow/design/architecture/data/release/product/gap completion layers.
+- Added canonical design-system and full-screen/cross-state review requirements for multi-AI UI consistency.
+- Strengthened Gate 5→6, 6→7, 7→8 and 8→Development. No code, technology choice or phase advancement occurred.
+
+### AI-Operated Delivery Model Clarified
+- User clarified that the entire project is intended to be executed by AI and that the user has no coding/technical background.
+- Added `DEC-0029`: user is the nontechnical product/decision owner, not developer/debugger/architect.
+- DEBATE-006 team gate now evaluates AI-operability, bounded context/change surface, deterministic toolchains, automatic
+  evidence, independent AI review and unavoidable external dependencies rather than an imaginary existing dev team.
+- Refined `DEC-0028` operating model: technical decisions must be translated into outcome/risk/cost/reversibility;
+  no task may depend on the user repairing code or resolving build failures.
+- Legal identity, store-account ownership and qualified domain/safety attestations remain explicit external dependencies
+  where genuinely unavoidable; AI cannot impersonate them.
+- No framework was selected, no code was written and no phase gate advanced.
+
+### Solo Owner / Limited Budget Constraint Recorded
+- User clarified sole personal ownership, age 23 and limited financial resources; requested concrete cost information
+  before choosing a spending posture.
+- Added `DEC-0030`: no paid service/device/expert or recurring cost may be silently assumed.
+- Cost proposals must separate mandatory, deferrable, optional and scale-triggered spending and show current price,
+  billing period, currency/tax uncertainty, free path, overage/hard-cap behavior and exit.
+- Verified current store baseline: Apple Developer Program USD 99/year; Google Play Console USD 25 one-time. If both are
+  used in the same first publication year, USD 124 is only their arithmetic total, not a joint package or third fee.
+  Store fees can be deferred until release preparation; Google Play account setup must precede its mandatory closed-test
+  window, and Apple membership can wait until TestFlight/App Store distribution is needed.
+- Exact budget ceiling, infrastructure/AI/device/domain/legal costs and publication order remain open. No technology selected.
+- Owner approved Google Play Console and Apple Developer Program fees as mandatory release costs. Purchase remains deferred
+  until the relevant store testing/release-preparation window; the approval is not a blanket approval for other subscriptions.
+
+### DEBATE-006 Common Comparison Fixture Proposed
+- Added `DEBATE-006__COMMON_FIXTURE_AND_OPERATING_ASSUMPTIONS.md` without code or framework selection.
+- Proposed equal device/OS, network/interruption, offline data, scale/workload, capability, privacy, AI-operability and
+  24-month staged-cost conditions for all five mobile candidates.
+- Luna Max independent review accepted the direction and identified missing workload/egress, phone-only, peak-installed-
+  size, real-device and external-cost controls; all were incorporated.
+- Fixture was initially recorded as `PROPOSED` pending user approval. No paid service, framework, provider, ADR or gate advancement occurred.
+- User approved the corrected common comparison fixture; recorded `DEC-0031` and froze equal conditions for all five
+  candidate dossiers. The approval does not select a framework, authorize code/paid services or advance Gate 4 -> 5.
+- Added the controlled equal candidate-dossier template covering exact snapshots, S1–S15 records, native/dependency
+  closure, accessibility, forced upgrades, AI-operability, 24-month TCO and exit evidence. Flutter and React Native/Expo
+  documentary research started with separate authorized Luna Max agents; no candidate result is accepted yet.
+- Research runs were stopped after exceeding the bounded closeout window. Flutter left a useful but incomplete dependency/
+  boundary draft; S1–S15, accessibility, TCO, exit and result sections are missing. React Native/Expo produced no accepted
+  dossier artifact. Neither is complete/reviewed, and no comparison result changed.
+- Bounded continuation completed Flutter's remaining sections: S1–S15, accessibility, forced events, AI-operability,
+  TCO, exit and candidate result. It remains unreviewed and `HELD` with 0 PASS / 15 HELD. React Native/Expo and KMP-native
+  sections 1–4 partial drafts were also added; neither is a complete candidate result.
+- Bounded continuation completed React Native/Expo and KMP-native sections 5–11. Both now have structurally complete,
+  unreviewed, no-code drafts with 0 PASS / 15 HELD. KMP-Compose sections 1–4 partial draft was added separately; no
+  candidate ranking or technology decision occurred.
+- Completed KMP-Compose sections 5–11 with 0 PASS / 15 HELD and created full-native sections 1–4 partial draft.
+- Independent equivalence audit found no critical issue and three blocking major format/fixture drifts: KMP workload
+  arithmetic, Flutter/KMP four-device coverage and Flutter TCO columns. All three were corrected; React Native/Expo
+  versioned citations and excluded-OTA label were normalized. Recheck and full-native completion remain pending.
+- Recheck passed Flutter, React Native/Expo and KMP-native; one KMP-Compose four-device omission was corrected and its
+  remaining structure passed. Full-native sections 5–11 were completed with 0 PASS / 15 HELD. Its equivalence review is next.
+- Full-native equivalence audit found one blocking ambiguous `both devices/platforms` phrase; all such references are now
+  bound to the four frozen cohorts. Monthly photo wording and native accessibility-column mapping were normalized.
+  All five dossiers are now structurally complete and equivalence-ready for two independent five-way critiques.
+- Completed two independent five-way critiques. Both rejected an unconditional total ordering and agreed on conditional
+  work-surface groups without scoring or technology selection.
+- Added five-way Judge synthesis: Flutter, React Native/Expo and KMP-Compose enter one equal no-code AI task simulation
+  first because shared presentation may reduce routine duplicate work under the solo AI-operated model. KMP-native and
+  full-native remain direct-platform/reference baselines. No code, provider, paid service, ADR or gate advancement.
+- Added controlled `TASK-SIM-MOB-001` fixture for one offline safety-critical step with optional photo, process death,
+  durable checkpoint, accessible revalidation, safe recovery and Android/iOS release evidence. Simulation is documentary
+  and cannot claim productivity, build/device success or framework selection.
+- Completed Flutter, RN/Expo and KMP-Compose simulations with 12 controlled work packets each. Equivalence audit found no
+  automatic failure; result language, KMP snapshot/common quantities and candidate-specific preview wording were normalized.
+- Two independent simulation critiques completed. Manager/Judge records Flutter + RN/Expo as conditional co-leaders,
+  KMP-Compose as expertise-conditional challenger, and KMP-native/full-native as reference baselines. Framework/ADR/gate
+  remain held pending owner resource facts and one final no-code dependency/rebuild/release closure exercise.
+
+### Android-First Release and Owner Resource Facts Recorded
+- Added `DEC-0032` after the owner confirmed a directly available Android phone, borrowed-iPhone test access, no need for
+  simultaneous store publication and a later TRY 2,000–3,000/month non-store planning ceiling.
+- Selected Android-first, iOS-later as the Phase-4 working publication sequence. This minimizes immediate external
+  dependencies while retaining iOS in scope.
+- The monthly figure is not immediate spend authorization. Every recurring service still requires a current priced,
+  capped and exit-safe proposal under `DEC-0030`.
+- No Mac access is yet confirmed. Hosted Mac build remains an unapproved future option; provider selection and the final
+  no-code native-dependency/rebuild/release tie-break remain open.
+- No code, framework, provider, subscription, ADR or gate advancement was authorized.
+
+### DEBATE-006 Final No-Code Tie-Break Completed
+- Added equal Flutter and RN/Expo dependency/rebuild/release closure records and a provider-independent hosted Mac/build
+  control review under the Android-first/iOS-later owner envelope.
+- Added two independent Luna Max adversarial reviews. One conditionally recommends Flutter for a narrower AI task/change
+  surface; the other keeps the technical result tied because no real build/device/provider evidence exists.
+- Manager/Judge reconciled the disagreement by separating strategic selection from later proof: Flutter is recommended
+  as the reversible Phase-4 working direction; RN/Expo remains first fallback and all real evidence gates stay held.
+- At this review point the recommendation was pending user approval; the following entry records the subsequent approval.
+  No framework ADR, provider, paid service, code, prototype or gate change occurred at the review point.
+
+### Flutter Working Direction User-Approved
+- The user explicitly approved Flutter after the complete DEBATE-006 no-code comparison and final Judge synthesis.
+- Added `DEC-0033`: Flutter is the consumer-mobile working direction; Android remains first and iOS later.
+- RN/Expo remains the documented first fallback. Switching requires recorded evidence and decision; it is not automatic.
+- Mandatory reversal triggers preserve plugin/native/generated reproducibility, provider independence, bounded cost,
+  real-device/accessibility/safety evidence and the no-owner-debug rule.
+- No code, Phase-5 ADR, hosted build/provider, subscription, OTA authority, real release pass or gate transition was approved.
+
+### DEBATE-007 Data Backbone Direction Prepared and Reviewed
+- Added repository requirements synthesis and official/primary-source data-architecture research.
+- Audited the user-supplied external report as evidence rather than instruction. Mechanism insights were accepted;
+  unsupported percentages, Flutter-Web assumptions and categorical provider/technology conclusions were excluded.
+- Added a provider-neutral manager proposal and two independent Luna Max adversarial reviews.
+- Incorporated critical controls for anti-resurrection restore, action-bound recall fences, closed offline manifests,
+  classification propagation, cross-plane operation/export consistency, privileged paths, protected audit, provider
+  failure/cost and bounded AI operations.
+- Judge result was `PASS_WITH_CHANGES — INCORPORATED / USER DECISION PENDING / ADR NOT READY`.
+- No engine, provider, code, prototype, paid plan, ADR or gate change.
+
+### DEBATE-007 Data Backbone Direction User-Approved
+- The user explicitly approved the corrected provider-neutral data-backbone and logical-boundary direction.
+- Added `DEC-0034`; the decision binds canonical authority, server-mediated sensitive access, online-authoritative
+  Internal Operations, closed scoped offline packages, protected history/audit/object separation and cross-plane recovery.
+- Anti-resurrection, classification propagation, provider/account/cost failure and no-owner-debug controls remain binding.
+- No engine, PostgreSQL/provider, BaaS, paid service, code, prototype, ADR, numeric recovery target or gate change was approved.
+
+### DEBATE-008 Concrete Stack Comparison Started
+- Added official/current candidate-cost research and equal architecture/failure walkthroughs for six backend families.
+- Preliminary finalists are Supabase behind a server/API authority boundary and modular managed relational + independent
+  API + object storage. Other candidates remain challenger/reference; no winner exists yet.
+- Supabase current breaking changes, explicit Data API exposure, RLS/privileged bypass, database-backup versus Storage
+  separation, PITR add-on cost and partial spend-cap semantics were included through the Supabase guidance workflow.
+- External deep research, equal finalist packets, independent review and user decision remain pending.
+- No code, provider account, paid plan, ADR or gate change.
+
+### DEBATE-008 Equal Finalist Review and Manager Synthesis
+- Audited the user's external backend report and separated verified mechanisms from weak, outdated or categorical claims.
+- Added the equal finalist fixture, Supabase and modular-managed dossiers, equivalence audit and two independent reviews.
+- Normalized hidden-service inventory, cost horizons, evidence labels, Internal Operations boundary and common hard fails.
+- Reviewers split between Supabase for solo-owner operability and Neon + Render + R2 for explicit recovery/exit boundaries.
+- Manager recommends a reversible Supabase-centered Phase-4 working direction with mandatory API mediation and independent
+  audit/object-recovery/anti-resurrection controls; modular managed remains the first fallback.
+- User decision is pending. No code, provider account, subscription, purchase, ADR or Gate 4 -> 5 change.
+
+### Supabase-Centered Backend Working Direction User-Approved
+- The user approved the DEBATE-008 manager synthesis under `DEC-0035`.
+- Managed Supabase-centered behind the mandatory Kavriva API boundary is now the reversible Phase-4 working direction;
+  Neon + independent API + R2 remains the first fallback.
+- RLS/provider panels are not sole authority; independent object recovery, protected audit/floor, anti-resurrection,
+  clean-room exit, cost hold and no-owner-debug controls remain mandatory.
+- No account, region, plan, subscription, PITR, purchase, code, production proof, ADR or gate change was authorized.
+
+### DEBATE-009 Offline Data and Sync Strategy Opened
+- Added repository-derived requirements, official/primary option research and Android/iOS/Flutter failure research.
+- The shared boundary covers scoped compact packages, durable local operations, reconciliation, wrong-base delta,
+  recall/suspension, restore, device loss, storage pressure, cellular consent and account-light migration.
+- Manager proposal conditionally favors app-owned Drift/SQLite + Kavriva API protocol; PowerSync remains first challenger,
+  and Supabase Realtime/cache is not accepted as durable offline sync authority.
+- Equal finalist dossiers, task simulation, independent reviews and user decision remain pending. No code, prototype,
+  provider account, subscription, purchase, ADR or gate change.
+
+### DEBATE-009 Equal Review and Corrected Judge Direction
+- Added equal Drift/custom and PowerSync finalist dossiers, one common no-code task simulation, equivalence audit and two
+  independent adversarial reviews.
+- Both candidates remain documentary 0 PASS / 36 HELD; no real-device, restore, accessibility or exit proof is claimed.
+- Reviews rejected Drift-as-sync and PowerSync-as-ready-safety assumptions. The Judge limits Drift to local persistence,
+  makes complete compact selected-task packages the first-release baseline and defers complex delta sync.
+- Durable user operations remain a separate Kavriva API contract; PowerSync is the first re-evaluation candidate.
+- User decision is pending. No code, package version, encryption mechanism, provider account, subscription, purchase,
+  ADR or gate change.
+
+### Flutter Offline Data and Sync Working Direction User-Approved
+- The user approved the corrected DEBATE-009 Judge synthesis under `DEC-0036`.
+- SQLite/Drift is the local-persistence direction; complete compact selected-task packages and a separate durable
+  operation/API ledger are the first-release planning baseline.
+- Complex delta is deferred; PowerSync is first re-evaluation candidate and Realtime/push is hint only.
+- No code, schema, version, encryption mechanism, provider service/account, subscription, purchase, ADR or gate change.
+
+### DEBATE-010 Identity, Session and Privileged Access Prepared and Reviewed
+- Added repository-derived identity requirements, current official provider comparison and 15 threat/recovery scenarios.
+- Added a manager proposal comparing one Supabase Auth composition with Supabase consumer + internal-only separate IdP.
+- Two independent Luna Max reviews found no privileged winner and kept both candidates documentary `HELD`.
+- Corrected Judge incorporated end-to-end revoke, protected audit-before-effect, separate account recovery versus
+  emergency-negative authority, two-issuer mapping, last-admin, safe-minimum cost and clean-room exit hard gates.
+- Consumer Supabase Auth + local-first account-light remains a conditional proposal; privileged production and user
+  approval remain pending. No provider/account/plan/factor/purchase/code/ADR/gate change.
+
+### DEBATE-010 Identity and Privileged Activation Direction User-Approved
+- The user approved the corrected DEBATE-010 Judge synthesis under `DEC-0037`.
+- Consumer Supabase Auth + local-first account-light is the reversible Phase-4 working direction.
+- Provider-qualified Kavriva principal/API/security epoch, end-to-end revoke, protected audit-before-effect, separate
+  recovery/negative authority, last-admin, owner-cost and exit gates remain binding.
+- Privileged Internal Operations has no provider winner and remains `HELD`; no account, plan, factor, purchase, code,
+  Phase-5 ADR or gate change was authorized.
+
+### DEBATE-011 API Runtime and Operations Prepared and Reviewed
+- Added runtime-independent API requirements, official/current candidate research and 18 failure/TCO scenarios.
+- Compared short DB-near Supabase Edge, managed container + worker, Cloudflare Workers, Cloud Run and self-managed/
+  reference paths without provider selection or executable work.
+- Added manager proposal and two independent Luna Max adversarial reviews; both finalists remain `HELD / NO WINNER`.
+- Corrected Judge incorporated protected audit receipt/precondition, complete commit-time authorization, durable long-job
+  gate, monotonic negative floors, end-to-end epoch, outage/emergency-negative behavior, direct-path/object/offline
+  controls, common state dictionary, owner/support, normalized safe BOM and clean-room exit.
+- Short DB-near Supabase Edge remains only a reversible Phase-4 hypothesis; managed container + worker is an equal-
+  evidence alternative, not an automatic fallback. User approval is pending.
+- No runtime, provider, language, framework, queue, worker, region, account, plan, subscription, purchase, code,
+  prototype, deployment, Phase-5 ADR or gate change.
+
+### DEBATE-011 API Runtime Direction User-Approved
+- The user approved the corrected DEBATE-011 Judge synthesis under `DEC-0038`.
+- Short DB-near Supabase Edge remains a reversible working hypothesis; managed container + worker remains the equal-
+  evidence alternative; both stay held with no production runtime winner.
+- Protected audit receipt, durable long-job gate, complete commit-time authorization, negative floors, end-to-end epoch,
+  no-owner-debug, normalized cost and clean-room exit are binding.
+- No provider account, plan, purchase, code, deployment, Phase-5 ADR or gate transition.
+
+### Unapproved Phase-4 Topic Expansion Withdrawn
+- After the user challenged the claimed remaining-topic count, the manager confirmed that the 11-topic roadmap and
+  proposed `DEBATE-012` assignment were newly inferred decompositions, not an existing approved project list.
+- Removed `PHASE_4_REMAINING_TOPICS.md`, the `DEBATE-012` assignment and all authority/status references to them.
+- `DEC-0038` remains valid. The repository's pre-existing open-scope records remain authoritative; no new debate is
+  active until selected from that scope with the user.
+
+### DEBATE-012 Internal Operations Web Prepared and Reviewed
+- User explicitly authorized continuing with the next existing Phase-4 area; DEBATE-012 was opened for the browser-based
+  Internal Operations web frontend and hosting direction.
+- Added requirements, official-primary research, failure/TCO analysis, two independent Luna Max reviews, common no-code
+  task simulation, four-way equivalence audit, component-ecosystem and render/hosting tie-breaks.
+- Withdrew the initial React conditional-leader/Angular fallback ordering after equal review. React/Next, Angular,
+  Vue/Nuxt and Svelte/SvelteKit remain `0 PASS / 0 REJECT / 4 HELD` with no framework winner.
+- Added corrected Judge synthesis: CSR-first static artifact/CDN + Kavriva API is the conditional simplest starting
+  direction; BFF, SSR/edge, container and privileged service worker require need-specific evidence.
+- User decision remains pending. No framework/provider/account/plan/purchase/code/prototype/deployment/ADR/gate change.
+
+### DEBATE-012 Internal Operations Web Direction User-Approved
+- The user approved the corrected DEBATE-012 Judge synthesis under `DEC-0039`.
+- CSR-first static artifact/CDN + Kavriva API is the reversible working direction; BFF, SSR/edge, container and
+  privileged service worker remain need-specific.
+- React/Next, Angular, Vue/Nuxt and Svelte/SvelteKit remain equal held with no framework winner.
+- No framework, component library, provider, account, plan, purchase, code, deployment, Phase-5 ADR or gate transition.
+
+### External AI Drive + GitHub Workflow Activated
+- Recorded the user direction under `DEC-0040`: external AIs use Google Drive and GitHub but do not access or depend on
+  the user's computer.
+- Created the Drive `KAVRIVA_AI_WORKSPACE` with source-of-truth, task queue, context, research, review, decision, handoff,
+  GitHub coordination, output, archive and template areas.
+- Added READY through DONE/BLOCKED/CANCELLED task-state folders plus native Google Docs for AI work protocol,
+  copy-paste prompts, source-of-truth index, GitHub protocol and TASK/REVIEW/HANDOFF templates.
+- Registered exact Drive links and the migration boundary in `00_CONTROL/EXTERNAL_AI_DRIVE_GITHUB_WORKFLOW.md`.
+- Existing local project truth was not silently bulk-uploaded or published to GitHub.
+
+### DEBATE-013 CMS and Controlled Publishing Opened
+- Selected the next topic from the repository's existing unresolved CMS/publishing scope.
+- Created Drive `CTX-P4-013 — CMS AND CONTROLLED PUBLISHING` and READY `TASK-001 — DEBATE-013 CMS AND PUBLISHING
+  PRIMARY RESEARCH`.
+- The task is official-primary, research-only and no-code; it compares product-owned, open-source headless, managed
+  headless and controlled-hybrid architecture families.
+- This is the first live external-AI task under `DEC-0040`. No sub-agent, provider account, trial, purchase, code,
+  deployment, ADR or gate transition was used or approved.
+
+### TASK-001 Research Delivery Accepted Into Independent Review
+- Verified the Drive research, handoff, task and independent-review documents directly.
+- TASK-001 is in `03_REVIEW`; the research is in `04_RESEARCH_INBOX`, handoff in `07_HANDOFFS` and REVIEW-001 in
+  `05_REVIEWS`.
+- Manager intake confirmed the expected research structure and boundary discipline but did not issue PASS.
+- DEBATE-013 and TSQ-016 remain open pending independent REVIEW-001; no provider, account, purchase, code, ADR or gate
+  transition was approved.
+
+### Parallel External-AI Dispatch Authorized
+- Recorded `DEC-0041`: the same canonical research or review prompt may be sent to multiple external AIs at the same
+  time without a numeric limit.
+- Each worker must create an isolated, separately identified output; parallel workers do not overwrite one Drive
+  document or GitHub path.
+- Manager synthesis compares evidence, contradictions and unique findings; majority agreement is not automatic PASS.
+- This does not change `DEC-0022` or authorize non-Luna Codex sub-agent models without user permission.
+
+### REVIEW-001 Requested Changes to TASK-001
+- Verified REVIEW-001 `CHANGES_REQUESTED` and its Major M1 finding directly in Drive.
+- M1 requires explicit state, safe hold, evidence, recovery owner, next action, cost impact and exit impact for every
+  S1–S12 × A–D failure-walkthrough row; the delivered matrix omits multiple fields.
+- Updated TASK-001 to `Status: CHANGES_REQUESTED` and moved it from `03_REVIEW` to `04_CHANGES_REQUESTED`.
+- The manager did not edit the research report or close the task. Independent re-review remains required after repair.
+
+### TASK-001 M1 Remediation Verified / REVIEW-002 Opened
+- Verified revised report §5 directly: 12 scenarios, 48 A–D rows, and all seven required fields in every row.
+- Verified updated handoff, TASK-001 `Status: REVIEW`, and its return to Drive `03_REVIEW`.
+- Preserved REVIEW-001 unchanged and created `REVIEW-002 — TASK-001 M1 REMEDIATION RE-REVIEW` in `05_REVIEWS`.
+- Structural completeness is not PASS; a new independent AI must judge substantive sufficiency and regression risk.
+
+### REVIEW-002 Passed / TASK-001 Closed
+- Verified independent REVIEW-002 PASS with no Critical, Major or Minor findings.
+- Closed TASK-001 as `DONE` and moved it to Drive `06_DONE` after readback verification.
+- Accepted the research package for manager synthesis; no CMS family/provider or DEBATE-013 direction was approved.
+- Next step is a nontechnical manager synthesis followed by explicit user direction.
+
+### DEBATE-013 Working Direction User-Approved
+- Recorded `DEC-0042` and added the canonical manager synthesis.
+- Kavriva retains technical truth/approval/release/recall/package/publication authority; CMS is optional authoring only.
+- No CMS product/provider or implementation/ADR/gate transition was approved.
+
+### GitHub Cross-Manager Continuity Package Added
+- Recorded `DEC-0043` after the user requested seamless continuation in any future manager AI chat.
+- Added root `AGENTS.md`, canonical `MANAGER_START_HERE.md`, single `NEXT_ACTION.md`, continuity checklist, repository map
+  and Drive artifact index.
+- Replaced the long duplicated new-manager handoff/prompt with short pointers to canonical state.
+- Added `.github/copilot-instructions.md` and a planning-repository `.gitignore`.

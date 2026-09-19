@@ -11,3 +11,17 @@ Guvenlik, mahremiyet, operasyon, gozlemlenebilirlik, maliyet ve surdurulebilirli
 
 ## Architect / Judge
 Uc uzmanin argumanlarini karsilastirir; celiskileri ve ortak noktalarini sentezler. Yeni kanit uydurmaz.
+
+## Independent Adversarial Review
+
+Phase-4 calismasi iki ayri model/rol tarafindan manager taslagindan sonra elestirilir:
+
+1. **Reviewer A — Architecture, Mobile & Scale**
+   - urun-framework uyumu, offline-first veri butunlugu, native entegrasyon, performans,
+     servis sinirlari, olceklenebilirlik ve geri donusu zor varsayimlari arar.
+2. **Reviewer B — Security, Operations & Failure Modes**
+   - guven sinirlari, yetki, yayinlama/recall, tedarik zinciri, operasyon yukleri,
+     maliyet, felaket senaryolari ve gizli bagimliliklari arar.
+
+Elestirmenler birbirlerinin cevabini gormeden ilk goruslerini uretir. Rollerin gorevi manager
+onerisini savunmak degil, yanlislanabilir kisimlarini ve eksik kaniti bulmaktir.

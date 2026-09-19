@@ -15,6 +15,9 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 
 ## Global Kontrol Kaynaklari
 
+- `/AGENTS.md` — repository-wide AI manager contract
+- `MANAGER_START_HERE.md` — canonical new-manager bootstrap
+- `NEXT_ACTION.md` — single current work pointer
 - `AI_START_HERE.md` — oturum bootstrap protokolu
 - `CURRENT_STATE.md` — guncel durum
 - `DECISION_LOG.md` — surec/proje karar kaydi
@@ -24,7 +27,9 @@ Bu belge hangi bilginin hangi otorite seviyesinde oldugunu tanimlar.
 - `DOCUMENT_REGISTRY.md` — kritik belge statuslari
 - `CHANGELOG.md` — degisiklik izi
 - `HANDOFF.md` — yeni AI devir ozeti
+- `DRIVE_ARTIFACT_INDEX.md` — Drive-only task/research/review evidence links
 - `PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md` — user-approved internal data/content operations requirement
+- `PROJECT_SCOPE_ADDENDUM_AI_NATIVE_EXECUTION_SYSTEM.md` — user-approved AI-safe task execution, Obsidian graph and completion-proof requirement
 - `NEW_MANAGER_CHAT_HANDOFF.md` — yeni ana proje-yonetici sohbetine kontrollu devir kilavuzu
 - `NEW_MANAGER_CHAT_PROMPT.md` — yeni ana proje-yonetici sohbetine yapistirilacak bootstrap promptu
 
@@ -85,6 +90,7 @@ Approved visual families:
 - `03_DESIGN/MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUAL_REFERENCES.md` -> `REF-LIFECYCLE-001`
 - `03_DESIGN/PROFILE_COLLABORATION_VISUAL_REFERENCES.md` -> `REF-PROFILE-001`
 - `03_DESIGN/COMMUNITY_VISUAL_REFERENCES.md` -> `REF-COMMUNITY-001`
+- `03_DESIGN/FIRST_USE_MOTORCYCLE_CONTEXT_VISUAL_REFERENCES.md` -> `REF-FIRSTUSE-001`
 
 Evidence/review layers:
 - `KAVRIVA_LOGO_01_HANDOFF.md`, `KAVRIVA_LOGO_REVIEW.md`
@@ -102,6 +108,15 @@ Evidence/review layers:
 - `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_01_HANDOFF.md`, `KAVRIVA_MOTORCYCLE_LIFECYCLE_ENTITLEMENT_VISUALS_REVIEW.md`
 - `KAVRIVA_PROFILE_COLLABORATION_VISUALS_01_HANDOFF.md`, `KAVRIVA_PROFILE_COLLABORATION_VISUALS_REVIEW.md`
 - `KAVRIVA_COMMUNITY_VISUALS_01_HANDOFF.md`, `KAVRIVA_COMMUNITY_VISUALS_REVIEW.md`
+
+Phase-3 user-approved working addendum for Internal Data & Content Operations:
+- `03_DESIGN/INTERNAL_DATA_CONTENT_OPERATIONS_REQUIREMENTS.md`
+- `03_DESIGN/INTERNAL_DATA_CONTENT_OPERATIONS_WORKFLOW_LIFECYCLE.md`
+- `03_DESIGN/INTERNAL_DATA_CONTENT_OPERATIONS_WORKSPACE_ARCHITECTURE.md`
+- `03_DESIGN/INTERNAL_DATA_CONTENT_OPERATIONS_REVIEW.md`
+
+SCR-004 accepted evidence:
+- `03_DESIGN/KAVRIVA_FIRST_USE_SCR004_CANDIDATE_01.md`
 
 ## Authority Boundaries
 
@@ -130,6 +145,143 @@ Ekran/gorsel otorite `REFERENCE_INDEX.md` icindeki APPROVED/LOCKED references il
 
 ### 04 Tech Strategy
 Tartisma/oneridir. Tek basina kesin teknoloji karari olamaz. Internal Data/Content Operations da mobil sistemle birlikte bu asamada teknoloji alternatifleri acisindan ele alinmalidir.
+
+Active reviewed strategy package:
+- `04_TECH_STRATEGY/EVALUATION_CRITERIA.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-001__CLIENT_SURFACE_STRATEGY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-001__REVIEW_A_ARCHITECTURE.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-001__REVIEW_B_SECURITY_OPERATIONS.md`
+- `04_TECH_STRATEGY/JUDGE_SUMMARY.md`
+- `04_TECH_STRATEGY/RISK_REGISTER.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-002__OFFLINE_SAFETY_RECALL_CLIENT_COMPATIBILITY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-002__REVIEW_A_PRODUCT_SAFETY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-002__REVIEW_B_PLATFORM_SECURITY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-003__APPROVAL_PUBLICATION_EMERGENCY_SUSPENSION.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-003__REVIEW_A_PROCESS_SAFETY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-003__REVIEW_B_SECURITY_RESILIENCE.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-004__IDENTITY_AUTHORIZATION_AUDIT_UNTRUSTED_INGESTION.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-004__REVIEW_A_GOVERNANCE_PRIVACY_OPERATIONS.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-004__REVIEW_B_IDENTITY_APPSEC_INGESTION.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-005__SOFTWARE_CONTENT_SUPPLY_CHAIN_RELEASE_GOVERNANCE.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-005__REVIEW_A_RELEASE_GOVERNANCE_OPERATIONS.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-005__REVIEW_B_SUPPLY_CHAIN_SECURITY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-006__MOBILE_TECHNOLOGY_EVIDENCE_TEAM_TCO.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-006__REVIEW_A_PRODUCT_DELIVERY_TCO.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-006__REVIEW_B_MOBILE_PLATFORM_MAINTENANCE.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__INTERNAL_WEB_REQUIREMENTS_SYNTHESIS.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__REVIEW_A_ARCHITECTURE_ACCESSIBILITY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__REVIEW_B_SECURITY_OPERABILITY.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__FOUR_WAY_EQUIVALENCE_AUDIT.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__RENDER_HOSTING_TIEBREAK.md`
+- `04_TECH_STRATEGY/DEBATES/DEBATE-012__JUDGE_SYNTHESIS.md`
+
+These documents authorize no framework/platform/provider. Their current authority is the compared alternatives,
+reviewed risks, required evidence and next-debate boundaries only.
+
+`DEC-0021` adds two binding working directions:
+- planning produces no application code, prototype, proof-of-concept or executable spike;
+- Internal Data & Content Operations is a browser-based web application.
+
+This fixes the internal client form, not its frontend framework, backend, data, identity or deployment technology.
+
+`DEC-0022` controls sub-agent model authorization: Luna Max (`gpt-5.6-luna`, `max`) is pre-authorized; every other
+sub-agent model requires explicit user permission before use.
+
+`DEC-0023` makes offline delivery data-efficient: packages are selected-motorcycle/task scoped, not full-library
+downloads. Compact safety/application/recovery completeness is mandatory; heavy media is optional/on-demand.
+
+`DEC-0024` approves the DEBATE-002 working direction: risk-tiered bounded offline eligibility, release/client
+compatibility context, fail-closed critical uncertainty, preserved task-specific safe recovery and online-authoritative
+Internal Operations mutations. Numeric limits and implementation technology remain open.
+
+`DEC-0025` approves the independently reviewed DEBATE-003 working direction: complete immutable approval/release
+meaning, fenced publication/suspension ordering, explicit unknown/partial states, independent narrow emergency negative
+authority, restore quarantine and protected audit. Numeric targets, detailed governance and implementation technology
+remain open.
+
+`DEC-0026` approves the independently reviewed DEBATE-004 working direction: hybrid scoped/contextual authorization,
+privileged account/session recovery, controlled policy administration, protected audit and quarantine-first layered
+file/URL ingestion. Numeric policies, detailed governance and implementation/provider technology remain open.
+
+`DEC-0027` approves the independently reviewed DEBATE-005 working direction: federated release authorities, exact
+immutable artifact promotion, trust-root/verifier independence, artifact-bound provenance/SBOM, scoped signing/deployment
+and a cross-domain compatibility/revocation graph. It does not approve an OTA channel or select a provider.
+
+`DEC-0031` approves the DEBATE-006 equal S1–S15 no-code method and corrected common device/data/scale/cost fixture.
+The fixture is comparison authority, not a final product limit.
+
+`DEC-0032` approves Android-first/iOS-later publication sequencing and records direct Android access, borrowed-iPhone
+access and the later TRY 2,000–3,000/month non-store planning ceiling.
+
+`DEC-0033` approves Flutter as the consumer-mobile working direction after the complete equal no-code comparison.
+RN/Expo is the first fallback. The decision is a Phase-5 ADR input, not code/build/device/release evidence or provider approval.
+
+`DEC-0034` approves the provider-neutral data-backbone direction: canonical authority per domain, server/API-mediated
+sensitive access, online-authoritative Internal Operations, bounded closed mobile packages, durable reconciliation,
+separate current/history/protected-audit and object/media meanings, and cross-plane anti-resurrection recovery/exit.
+It selects no engine, PostgreSQL/provider, BaaS, paid plan or physical architecture.
+
+`DEC-0035` approves managed Supabase-centered as the reversible Phase-4 physical backend working direction, always behind
+the Kavriva server/API authority boundary. RLS/Storage policies are defense in depth, Supabase Studio is not Internal
+Operations, and database backup does not cover object/audit/floor recovery. Neon + independent API + R2 remains first
+fallback. No account, region, plan, purchase, code, production proof or Phase-5 ADR is approved.
+
+`DEC-0036` approves SQLite/Drift as the Flutter local-persistence working direction, complete compact selected-task
+packages as the first-release offline baseline and a separate durable user-operation ledger through the Kavriva API.
+Complex delta is deferred; PowerSync is first re-evaluation candidate and Realtime/push is hint only. Encryption/key
+custody, versions, final limits and real evidence remain open; no code, service purchase or ADR is approved.
+
+`DEC-0037` approves consumer Supabase Auth and local-first account-light as the reversible Phase-4 identity working
+direction. Provider-qualified Kavriva principals, API authorization, security epoch, protected audit-before-effect,
+end-to-end revoke, separate privileged recovery/emergency-negative authority, last-admin, owner-cost and exit gates are
+binding. Privileged Internal Operations has no provider winner and remains held. No account, plan, factor, purchase,
+implementation, second recovery actor or Phase-5 ADR is approved.
+
+`DEC-0038` approves the corrected Kavriva API runtime working direction. Short DB-near Supabase Edge is a reversible
+working hypothesis; managed container + worker is the equal-evidence alternative; both remain `HELD` with no production
+runtime winner. Protected audit receipt/precondition, durable long-job semantics, complete commit-time authorization,
+monotonic negative floors, end-to-end epoch, owner/support, normalized cost, restore/anti-resurrection and clean-room
+exit are binding. No runtime/provider/plan/queue/account/code/deployment or Phase-5 ADR is approved.
+
+`DEC-0039` approves the corrected DEBATE-012 working direction. React/Next, Angular, Vue/Nuxt and Svelte/SvelteKit
+remain equal `HELD` with no framework winner. CSR-first static artifact/CDN + Kavriva API is the conditional Internal
+Operations render/hosting starting direction; BFF, SSR/edge, container and privileged service worker remain need-
+specific. This does not approve a framework, component library, host, provider, account, plan, code, deployment, ADR or
+Gate 4 -> 5 transition.
+
+`DEC-0040` establishes the external-AI operating boundary: Google Drive carries task/context/research/review/decision/
+handoff artifacts and GitHub carries repository-native work. External AIs do not receive or depend on the user's
+computer. Every job requires a task-addressed minimum context pack, explicit GitHub scope, acceptance evidence and
+independent review. Exact Drive links and queue structure are registered in
+`00_CONTROL/EXTERNAL_AI_DRIVE_GITHUB_WORKFLOW.md`.
+
+`DEC-0043` establishes the GitHub cross-manager continuity package. `/AGENTS.md` defines repository-wide AI behavior;
+`00_CONTROL/MANAGER_START_HERE.md` is the canonical bootstrap; `00_CONTROL/NEXT_ACTION.md` is the single volatile work
+pointer; `00_CONTROL/DRIVE_ARTIFACT_INDEX.md` links Drive-only evidence. Compatibility prompts/handoffs may point to
+these authorities but must not maintain a competing current-state copy.
+
+`DEBATE-013 — CMS and Controlled Publishing Mechanics` is a completed, user-approved Phase-4 working direction. Its Drive context pack
+`CTX-P4-013` and `TASK-001` route external research but do not themselves create decision authority. TASK-001 research
+and handoff were delivered, and `REVIEW-001` returned `CHANGES_REQUESTED`. Major M1 was remediated: manager readback
+verified S1–S12, 48 A–D rows and all seven required field labels per row. Independent REVIEW-002 then returned PASS
+with no Critical, Major or Minor findings. TASK-001 is DONE. The user then approved the manager synthesis under
+`DEC-0042`. No CMS architecture family/product/provider, account, plan, purchase, code or ADR is approved.
+
+`DEC-0042` approves the DEBATE-013 working direction: Kavriva owns technical truth, applicability, approval, immutable
+release, recall/suspension, package eligibility and final publication authority. A CMS may be evaluated later only as a
+bounded, replaceable authoring adjunct. No CMS/provider/product/account/plan/purchase/code/deployment or Phase-5 ADR is approved.
+
+`DEC-0028` establishes the project-wide AI-native execution requirement: Obsidian-compatible relationship graph,
+contract-governed task-addressable modules, minimum sufficient task context packs, bidirectional requirement/task/test
+closure, no-code task simulation, canonical multi-AI design rules and completion proof beyond `all tasks DONE`.
+
+`DEC-0029` establishes the operating model: a nontechnical product owner directs an AI-operated project. The user is not
+a developer/debugger; technical work and translation belong to the AI system, with independent evidence and explicit
+external dependencies where legal identity, store ownership or qualified human/organizational authority is unavoidable.
+
+`DEC-0030` establishes solo ownership and limited budget as a project constraint. Paid services, devices or experts may
+not be assumed; staged current pricing, free path, billing/overage and deferral must be shown before approval. Exact spend
+ceiling remains open and unaffordable mandatory assurance produces `HELD`, not a weaker hidden standard.
 
 ### 05 ADR
 Teknoloji/mimari kararlarinin gerekceli otoritesidir. APPROVED/LOCKED ADR'ler sonraki planlamayi baglar.

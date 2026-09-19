@@ -9,19 +9,25 @@ Calisma sistemi, source-of-truth, karar/varsayim/kisit/glossary mekanizmalari ha
 Urun kesfi yeterli kapsama ulasmali; ana urun ozeti, kullanici tipleri, yolculuklar, is kurallari ve non-goals sentezlenmis olmali.
 
 ## Gate 3 -> 4
-Ekran katalogu, navigasyon haritasi, onemli state'ler ve onayli referans indeksleri yeterli kapsama ulasmali.
+Ekran katalogu, navigasyon haritasi, onemli state'ler ve onayli referans indeksleri yeterli kapsama ulasmali. Approved project-scope addendum geregi Internal Data & Content Operations icin product requirements, workflow/lifecycle ve platform-independent screen/workspace architecture kapsami da teknoloji secmeden tamamlanmis olmali.
 
 ## Gate 4 -> 5
 Uzman AI gorusleri ve judge sentezi tamamlanmali; teknoloji alternatifleri, riskler ve trade-off'lar acik olmali.
 
 ## Gate 5 -> 6
-Gerekli teknoloji kararlarinin ADR kayitlari APPROVED/LOCKED durumda olmali.
+Gerekli teknoloji kararlarinin ADR kayitlari APPROVED/LOCKED durumda olmali. AI-safe modul/contract/repository
+topolojisi, graph metadata/kimlik ve dependency yonu kararlarini gerektiren ADR kapsami belirlenmis olmali.
 
 ## Gate 6 -> 7
 Epic, capability, feature, user flow ve atomik task haritasi ile bagimliliklar ve acceptance criteria yeterli olmali.
+Requirement-to-task-to-test izlenebilirligi iki yonlu kapanmali; yetim/gap/conflict taramasi ve no-code task/dependency/
+failure/rollback/closure simulasyonu gecmis olmali.
 
 ## Gate 7 -> 8
-AI-native mimari; context routing, modul sinirlari, contract, validation, migration, rollback ve change-control kurallariyla tamamlanmis olmali.
+AI-native mimari; context routing, minimum context pack, Obsidian-compatible graph metadata, modul sinirlari, public
+contract, dependency/design/change-control, validation, migration, rollback, completion evidence ve architecture-test
+kurallariyla tamamlanmis olmali.
 
 ## Gate 8 -> Development
-Bootstrap checklist tamamlanmali ve kurulan sistem dogrulanmali. Gercek kodlama ancak bundan sonra baslar.
+Bootstrap checklist tamamlanmali; repository + Obsidian graph + task registry + CI/architecture/design/traceability
+kontrolleri kurulup ornek gorevle dogrulanmali. Gercek kodlama ancak bundan sonra baslar.

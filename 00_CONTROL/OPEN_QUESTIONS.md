@@ -14,7 +14,7 @@ Bu dosya proje hafizasinda henuz kesinlesmemis urun sorularini tutar. Bir AI bur
 
 **Yok.** Batch 08 QC sonrasinda yeni 30-soruluk broad discovery batch'i gerektiren substantive product-definition gap tespit edilmedi.
 
-Bu durum Gate 2'nin otomatik gectigi anlamina gelmez. `02_DISCOVERY/GATE_2_REVIEW.md` user approval beklemektedir.
+Gate 2 user approval ile gecilmistir; canonical kayit `DEC-0009` ve `02_DISCOVERY/GATE_2_REVIEW.md` dosyasidir. Bu bolum yalnızca yeni broad product-definition sorusu bulunmadigini belirtir.
 
 ## Non-blocking Validation / Strategy Topics
 
@@ -25,6 +25,94 @@ Bunlar product definition'i eksik birakmayan fakat sonraki validation/strategy/f
 - Task categories boyunca `safe closure` acceptance criterion.
 - Exact price, quota, subscription/tier structure, willingness-to-pay ve business sustainability.
 - Real-world content coverage, reviewer availability, visual/physical-state recognition ve readiness-signal feasibility.
+
+## Active Phase-4 Strategy Questions
+
+These are not missing product-definition answers. They are controlled technology-strategy decisions opened by
+`DEBATE-001` and must not be silently answered by implementation:
+
+- `TSQ-001 ANSWERED AT WORKING-DIRECTION LEVEL` — Which consumer mobile framework should be recommended after no-code evidence comparison? Flutter,
+  React Native with a defined boundary, KMP-native, KMP-Compose and the native baseline remain equal S1–S15 dossier
+  comparison inputs. After complete equal dossiers and `TASK-SIM-MOB-001`, Flutter and React Native/Expo are conditional
+  co-leaders; KMP-Compose is an expertise-conditional challenger; KMP-native/full-native remain reference baselines.
+  Equal native-dependency/rebuild/release closure and two independent final critiques are complete. Manager/Judge now
+  recommended Flutter as a conditional, reversible working direction; the user approved it under `DEC-0033`. RN/Expo
+  remains first fallback. The Phase-5 ADR, Mac access and hosted-build acceptance remain open.
+- `TSQ-002 ANSWERED` — Internal Operations will be a browser-based web application. Desktop packaging is outside the
+  current direction unless the user explicitly reopens the decision (`DEC-0021`).
+- `TSQ-003 ANSWERED AT DIRECTION LEVEL` — Risk-tiered bounded offline eligibility, conservative time/restore handling
+  and preserved task-specific safe recovery approved by `DEC-0024`; exact taxonomy/windows remain narrower open work.
+- `TSQ-004 ANSWERED AT DIRECTION LEVEL` — User approved DEBATE-003 under `DEC-0025`: complete immutable approval/release
+  meaning, one fenced publication transition and independent narrow emergency suspension. Numeric targets, exact scope
+  lattice, role/quorum rules, common-mode failure matrix and technology remain narrower open work.
+- `TSQ-005 ANSWERED AT DIRECTION LEVEL` — Release/client capability context and fail-closed unknown critical semantics
+  approved by `DEC-0024`; exact support window/version matrix remains open.
+- `TSQ-006 ANSWERED AT DIRECTION LEVEL` — User approved DEBATE-004 under `DEC-0026`: hybrid base roles + server-authoritative
+  scoped/contextual policy, commit-time reauthorization, phishing-resistant privileged authentication, protected audit
+  and quarantine-first layered file/URL ingestion. Exact role matrix, numeric controls, retention/legal policy and technology remain open.
+- `TSQ-007 ANSWERED AT DIRECTION LEVEL` — User approved DEBATE-005 under `DEC-0027`: federated release authorities,
+  exact immutable promotion, independent verifier/trust-root controls, artifact-bound provenance/SBOM, scoped signing/
+  deployment and one cross-domain compatibility/revocation graph. No OTA channel is approved; exact tiers/formats/providers remain open.
+- `TSQ-008 PARTIALLY ANSWERED` — `DEC-0029` establishes AI-operated delivery with a nontechnical product owner and no
+  assumed human development team. `DEC-0031` freezes the corrected S1–S15 fixture and all five equivalent dossiers are
+  complete. `DEC-0032` records direct Android access, borrowed-iPhone access, Android-first staged publication and a later
+  TRY 2,000–3,000/month non-store planning ceiling. Still required: confirmed Mac access or approved capped hosted-build
+  route, detailed 12–24 month allocation and the final AI-operability/dependency closure.
+- `TSQ-009 ANSWERED FOR COMPARISON / FINAL LIMITS OPEN` — Under `DEC-0031`, equal dossier constants are 12 MB compact
+  transfer, separate optional media up to 150 MB, 25 MB cellular confirmation and 250 MB content cache. These are frozen
+  comparison fixtures, not final production/commercial limits; final limits require later evidence.
+- `TSQ-010 ANSWERED AT WORKING-DIRECTION LEVEL` — The data backbone will use canonical transactional
+  authority per domain, server/API-mediated sensitive access, online-authoritative Internal Operations, bounded closed
+  mobile offline packages, separate history/audit/object planes and cross-plane tested recovery/exit? DEBATE-007 research,
+  external-report intake, two independent reviews and corrected Judge synthesis are complete; the user approved the
+  direction under `DEC-0034`. Engine, provider, physical architecture and ADR remain open.
+- `TSQ-011 ANSWERED AT WORKING-DIRECTION LEVEL` — Under `DEC-0035`, Phase-4 continues with a managed Supabase-centered
+  backend behind the mandatory Kavriva API authority boundary. Neon + independent API + R2 remains the first fallback.
+  Exact region, API runtime, adjunct providers, plan, safe total cost, recovery objectives and real restore/exit evidence
+  remain open. No account, purchase, code, ADR or gate transition is authorized.
+- `TSQ-012 ANSWERED AT WORKING-DIRECTION LEVEL` — Under `DEC-0036`, Flutter local persistence uses the SQLite/Drift
+  direction; first release prefers complete compact selected-task packages plus a separate durable operation/API ledger.
+  Complex delta is deferred until necessary and safe; PowerSync is the first re-evaluation candidate. Exact encryption,
+  key custody, versions, final limits/windows and all real device/restore/exit evidence remain open. No code, purchase,
+  subscription, ADR or gate change is approved.
+- `TSQ-013 ANSWERED AT WORKING-DIRECTION LEVEL` — Which physical identity/session composition should carry the approved `DEC-0026`
+  security properties? DEBATE-010 requirements, official provider research, failure matrix, manager proposal, two
+  independent Luna Max reviews and corrected Judge synthesis are complete. The proposal keeps Supabase Auth as the
+  consumer-profile leader, local-first account-light use, and a provider-neutral Kavriva principal/API/security epoch.
+  Privileged Internal Operations has no provider winner: single-Supabase remains held on experimental passkey and common
+  failure-domain evidence; an internal-only external IdP remains held on two-issuer/recovery/cost evidence. The user
+  approved the corrected direction under `DEC-0037`. Exact provider/plan/factor/session/recovery actor, cost BOM, real
+  fixtures, code, purchase and ADR remain open.
+- `TSQ-014 ANSWERED AT WORKING-DIRECTION LEVEL` — Which runtime composition should carry the mandatory Kavriva API boundary?
+  DEBATE-011 requirements, current official-source research, 18 failure/TCO scenarios, manager proposal, two independent
+  Luna Max reviews and corrected Judge synthesis are complete. The corrected direction keeps Supabase Edge Functions
+  only as a reversible hypothesis for short DB-near requests and managed container API + worker as an equal-evidence
+  alternative; both remain `0 PASS / 16 HELD / 0 REJECT` with no runtime winner. Protected audit receipt/precondition,
+  durable long-job queue/worker semantics, complete commit-time authorization, monotonic negative floors, end-to-end
+  epoch, outage/negative authority, no-owner-debug, normalized cost and clean-room exit are hard gates. The user approved
+  the corrected direction under `DEC-0038`. Exact runtime/language/framework/queue/worker/region/plan, account, code,
+  real evidence and ADR remain open.
+- `TSQ-015 ANSWERED AT WORKING-DIRECTION LEVEL` — Which frontend and render/hosting direction should carry browser-based Internal
+  Operations? DEBATE-012 requirements, official-primary research, failure/TCO analysis, two independent Luna Max
+  reviews, equal four-family task/equivalence audit, component-ecosystem and render/hosting tie-breaks are complete.
+  React/Next, Angular, Vue/Nuxt and Svelte/SvelteKit remain equal `HELD` with no winner. Corrected Judge proposes
+  CSR-first static artifact/CDN + Kavriva API as the simplest conditional starting direction, while BFF, SSR/edge,
+  container and privileged service worker remain need-specific. The user approved this corrected direction under
+  `DEC-0039`. Exact framework/component/provider, account, plan, real evidence, code and ADR remain open.
+- `TSQ-016 ANSWERED AT WORKING-DIRECTION LEVEL` — Should Kavriva's controlled content workflow live inside the
+  canonical Kavriva backend, use a separate open-source or managed headless CMS, or use a hybrid in which Kavriva
+  retains technical truth, approval, immutable release, recall and offline-package authority? `DEBATE-013` is complete
+  at working-direction level under `DEC-0042`; no product/provider winner was selected.
+  REVIEW-001 returned `CHANGES_REQUESTED`; Major M1 was subsequently remediated. Manager readback found 12 scenarios,
+  48 A–D rows and all seven required fields in every row. Independent REVIEW-002 returned PASS with no findings, and
+  TASK-001 is DONE. Research conditionally supports keeping technical authority in Kavriva while treating a CMS as an
+  optional authoring adjunct. The user approved this direction under `DEC-0042`. Kavriva retains technical truth,
+  approval, immutable release, recall/suspension, package eligibility and final publication authority. Exact optional
+  CMS/provider, account, plan, trial, purchase, implementation and ADR remain open.
+
+Current status: `TSQ-002`–`TSQ-005` have user-approved direction-level answers where applicable. Remaining narrower
+questions and `TSQ-008`–`TSQ-009` stay open; TSQ-010–`TSQ-015` are answered at direction level while narrower
+implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open.
 
 ---
 

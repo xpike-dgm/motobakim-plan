@@ -1,0 +1,27 @@
+# Local/editor state
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.bak
+~$*
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated caches/build output (the planning repository should not need these)
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+*.pyc
+

@@ -6,7 +6,8 @@ Bu repository Motobakim mobil uygulamasinin kod deposu degildir. Uygulama kodlan
 
 Sohbet gecmisi source-of-truth degildir. Yeni bir AI oturumu proje baglamini bu repository'den yeniden kurar.
 
-Ilk okunacak belge: `00_CONTROL/AI_START_HERE.md`.
+Yeni bir AI veya yonetici icin ilk okunacak belge: `/AGENTS.md`; kanonik bootstrap:
+`00_CONTROL/MANAGER_START_HERE.md`.
 
 ## 8 Asamali Surec
 
@@ -30,4 +31,6 @@ Bir klasorun mevcut olmasi o asamanin tamamlandigi anlamina gelmez. Gecis kosull
 
 ## Mevcut Durum
 
-8 asamanin calisma iskeleti kuruldu. Urun kesfi, tasarim, teknoloji secimi, ADR, task parcala(ma), nihai mimari ve uygulama kodlama henuz yapilmadi.
+Phase 1 calisma sistemi, Phase 2 urun kesfi ve Phase 3 tasarim tamamlandi. Gate 3 -> 4 PASSED; Phase 4 teknoloji stratejisi ACTIVE. Planlama no-code'dur. Flutter, Android-first yayin sirasi, browser-based Internal Operations, API/data/offline/identity/runtime/web ve kontrollu CMS-yayin sinirlari Phase-4 working direction seviyesinde kayitlidir. Exact provider/framework/plan ve Phase-5 ADR'ler aciktir; Gate 4 -> 5 kapali kalir.
+
+Tek guncel devam noktasi: `00_CONTROL/NEXT_ACTION.md`.

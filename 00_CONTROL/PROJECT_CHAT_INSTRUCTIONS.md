@@ -11,7 +11,9 @@ Bu belge Motobakim projesindeki tum AI sohbetleri icin ortak baglam ve davranis 
 
 ## Zorunlu Davranis
 
-1. Repo erisimi varsa anlamli bir calismaya baslamadan once en az `00_CONTROL/AI_START_HERE.md`, `CURRENT_STATE.md`, `SOURCE_OF_TRUTH.md`, `DECISION_LOG.md`, `OPEN_QUESTIONS.md` ve aktif asamanin `README.md` dosyasini kontrol et.
+1. Repo erisimi varsa anlamli bir calismaya baslamadan once `/AGENTS.md` ve `00_CONTROL/MANAGER_START_HERE.md`
+   dosyalarini oku; oradaki zorunlu sirayla `NEXT_ACTION.md`, current/authority/decision/open/gate/registry/handoff ve
+   aktif asama kayitlarini kontrol et.
 2. Mevcut phase'i atlama. Sonraki asamaya kendiliginden gecme.
 3. Kullanici veya source-of-truth tarafindan verilmemis bilgiyi gercek gibi uydurma.
 4. Bilgiyi gerektiğinde `CONFIRMED`, `INFERRED` ve `ASSUMPTION` olarak ayir.
@@ -23,6 +25,22 @@ Bu belge Motobakim projesindeki tum AI sohbetleri icin ortak baglam ve davranis 
 10. Repository'ye yazma yetkisi ozel promptta acikca verilmediyse source-of-truth dosyalarini degistirme; ciktiyi ana proje yoneticisine teslim et.
 11. Gereksiz tekrar ve uzun girislerden kacın; ancak kritik belirsizlikleri ve celiskileri saklama.
 12. Varsayimla bosluk doldurmak yerine gerekli bilgiyi kullanicidan istemeyi veya `OPEN QUESTION` olarak isaretlemeyi tercih et.
+13. Alt ajan model yetkisi:
+    - `Luna Max` (`gpt-5.6-luna`, reasoning effort `max`) mevcut gorev kapsamina uygun oldugunda kullanicidan ek izin almadan calistirilabilir.
+    - Astra, Sol, Terra, GPT-5.5 veya Luna Max disindaki herhangi bir model alt ajan olarak calistirilmadan once kullanicidan acik izin alinmalidir.
+    - Harici Drive/GitHub AI calismalari bu alt-ajan sinirindan ayridir: ayni canonical prompt kullanici tarafindan
+      birden fazla AI'a ayni anda gonderilebilir (`DEC-0041`). Her AI ayri cikti uretir; ayni dosyayi paralel yazmaz.
+    - Bu kalici izin alt ajan kullanmayi zorunlu kilmaz ve gorev kapsamını genisletmez.
+    - Izinsiz model degistirme veya ikinci bir farkli model ekleme yapilamaz.
+14. `DEC-0028` geregi Phase 5–8/Development gorevleri minimum yeterli task context pack, allowed/forbidden scope,
+    contract/design/rule baglantilari ve completion evidence olmadan `READY` sayilamaz. AI tum projeyi bildigini varsayamaz;
+    Obsidian-compatible graph ve context router tarafindan verilen kapsam disina sessizce cikamaz.
+15. `DEC-0029` geregi kullanici nontechnical product/decision owner'dir. Kullanicidan kod yazmasi, build/debug logu
+    yorumlamasi, mimari tamir yapmasi veya aciklanmamis teknik secim vermesi beklenemez. AI teknik isi ve kaniti sahiplenir;
+    kullaniciya sonuc/risk/maliyet/geri-donulebilirlik sunar. Gercek insan/kurum yetkisi gerektiren dis bagimlilik ayrica bildirilir.
+16. `DEC-0030` geregi kullanici tek sahip ve kisitli butcelidir. Guncel fiyat, zorunlu/ertelenebilir/opsiyonel/scale-triggered
+    sinifi, free/capped yol ve overage/exit aciklanmadan ucretli arac veya servis varsayilamaz. Maliyet icin zorunlu kalite
+    dusurulmez; gerekiyorsa release/capability `HELD` kalir.
 
 ## Dil
 

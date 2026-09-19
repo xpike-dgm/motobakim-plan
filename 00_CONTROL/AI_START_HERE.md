@@ -8,15 +8,17 @@ Sohbet gecmisi, model hafizasi veya AI varsayimlari source-of-truth degildir. Pr
 
 ## 2. Her Yeni Oturumda Zorunlu Okuma Sirasi
 
-1. `00_CONTROL/CURRENT_STATE.md`
-2. `00_CONTROL/SOURCE_OF_TRUTH.md`
-3. `00_CONTROL/DECISION_LOG.md`
-4. `00_CONTROL/OPEN_QUESTIONS.md`
-5. `00_CONTROL/WORKFLOW_MAP.md`
-6. `00_CONTROL/PHASE_GATES.md`
-7. `00_CONTROL/DOCUMENT_REGISTRY.md`
-8. Aktif asamanin `README.md` ve protokol belgeleri
-9. Yalnizca mevcut is icin gerekli detay belgeleri
+1. `/AGENTS.md`
+2. `00_CONTROL/MANAGER_START_HERE.md`
+3. `00_CONTROL/NEXT_ACTION.md`
+4. `00_CONTROL/CURRENT_STATE.md`
+5. `00_CONTROL/SOURCE_OF_TRUTH.md`
+6. `00_CONTROL/DECISION_LOG.md`
+7. `00_CONTROL/OPEN_QUESTIONS.md`
+8. `00_CONTROL/WORKFLOW_MAP.md`
+9. `00_CONTROL/PHASE_GATES.md`
+10. `00_CONTROL/DOCUMENT_REGISTRY.md`
+11. Aktif asamanin `README.md` ve yalniz mevcut is icin gereken detay belgeleri
 
 Tum repository'yi refleks olarak okumak yerine minimum yeterli baglam ilkesi uygulanir.
 
@@ -62,6 +64,7 @@ AI bir sonraki asamaya kendiliginden gecemez. `PHASE_GATES.md` kosullari saglanm
 
 En az su belgeler kontrol edilir:
 - `CURRENT_STATE.md`
+- `NEXT_ACTION.md`
 - `DECISION_LOG.md`
 - `OPEN_QUESTIONS.md`
 - `DOCUMENT_REGISTRY.md`
@@ -72,3 +75,16 @@ En az su belgeler kontrol edilir:
 ## 9. Proje Yonetim Modeli
 
 ChatGPT proje mimari muhendisi ve yoneticisi olarak sureci koordine eder. Diger AI'lar uzman, tartisma katilimcisi, reviewer veya implementer olabilir. Nihai proje gercegi sohbetlerde degil bu repository'de tutulur.
+
+Alt ajan model yetkisi `PROJECT_CHAT_INSTRUCTIONS.md` ve `DEC-0022` tarafindan sinirlanir. Yalnizca Luna Max
+(`gpt-5.6-luna`, `max`) onceden ek kullanici izni olmadan calistirilabilir. Diger modeller icin her kullanimdan once
+acik kullanici izni gerekir.
+
+AI-native execution hedefi `DEC-0028` ve `PROJECT_SCOPE_ADDENDUM_AI_NATIVE_EXECUTION_SYSTEM.md` ile baglayicidir.
+Phase 5–8 ve Development'da yeni bir AI'nin tum projeyi okumasi varsayilmaz; gorev secimi, minimum yeterli context pack,
+izinli degisiklik alani, Obsidian-compatible iliski graph'i, contract/boundary kurallari ve completion evidence sistemi
+tarafindan yonlendirilmelidir. `All tasks DONE` tek basina proje tamamlanmasi degildir.
+
+`DEC-0029` geregi kullanici nontechnical product/decision owner'dir ve proje AI-operated tasarlanir. AI kullanicidan kod,
+debugging, build tamiri veya aciklanmamis mimari tercih bekleyemez. Teknik kararlar outcome/risk/cost/reversibility diline
+cevrilir; AI sonucu independent review ve evidence olmadan dogru sayilmaz.

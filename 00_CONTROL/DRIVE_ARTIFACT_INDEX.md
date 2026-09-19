@@ -1,0 +1,30 @@
+# Google Drive Artifact Index
+
+Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
+
+## Workspace
+
+- Root: https://drive.google.com/drive/folders/1EUAtVRdW6TWyQ_GbPTt5hcqs1EttbaK2
+- Operating model: `00_CONTROL/EXTERNAL_AI_DRIVE_GITHUB_WORKFLOW.md`
+
+## Canonical Protocol Documents
+
+- AI Work Protocol: https://docs.google.com/document/d/1c70SrA6Rsv09xnB-lkvUj1u19mgiC7YV8Sy_7IkBIPk
+- Copy-paste prompt: https://docs.google.com/document/d/1yZEMlLUy5CMlaqWxFm0p9j4n0Y8SjqeYPxs-PYRGssg
+- Drive/GitHub source index: https://docs.google.com/document/d/1DJACYKLViSRA37K_rqCptpydW8ls5nNA093opXQgR2g
+- GitHub work protocol: https://docs.google.com/document/d/13NKWB6VjlNVqPBYpTlo5p32hY4nvAkzkjCWbb8MDLcE
+
+## DEBATE-013 / TASK-001
+
+- Context: https://docs.google.com/document/d/11wnY4dmY-2oKvjFTZHv7PYzs1vMpyFuovp3tkF4gdKk
+- TASK-001 (DONE): https://docs.google.com/document/d/11aZjleCjpqmZG23yWEWz4eRB3oQwaCCjA5pOuURjQ9E
+- Research report: https://docs.google.com/document/d/1kGINXXnkLpf0Kus8LPnhc3FOj3sDI6B7yvUEf5pxK2Y
+- Handoff: https://docs.google.com/document/d/1HjTOEY8t0q-CbpzHNLOB5CBO_JfgsUhZyVFabONscqY
+- REVIEW-001 (CHANGES_REQUESTED history): https://docs.google.com/document/d/1JUHLQ3wjFnZzmv0oJrnQ2px9FQXNkvt4vf562IpkoBI
+- REVIEW-002 (PASS): https://docs.google.com/document/d/1q_PCt9mBH-3mY6oXzFx0g_Q27TS_ILe6kZ-axKZPfTQ
+
+## Rule
+
+Drive artifacts are evidence and work products. User-approved decisions must also be recorded in GitHub
+`DECISION_LOG.md` and the relevant phase synthesis before they become persistent project direction.
+
