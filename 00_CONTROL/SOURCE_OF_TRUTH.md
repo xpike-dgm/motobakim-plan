@@ -281,6 +281,12 @@ reversible Phase-4 architecture shape and a smaller Kavriva-owned measurement ba
 gates are not met. No analytics/observability provider, account/plan, SDK integration, final KPI, legal conclusion or
 Phase-5 ADR is approved.
 
+`DEC-0045` approves the DEBATE-015 mobile build/release working direction. Android release continuity remains active and
+independent of iOS/macOS readiness; split/hybrid is the reversible Phase-4 operating shape; iOS/macOS activation remains
+HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance, no-owner-debug recovery and
+clean-room rebuild are proven. No physical Mac/hosted-Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account, purchase,
+build, signing setup, final budget or Phase-5 ADR is approved.
+
 `DEC-0028` establishes the project-wide AI-native execution requirement: Obsidian-compatible relationship graph,
 contract-governed task-addressable modules, minimum sufficient task context packs, bidirectional requirement/task/test
 closure, no-code task simulation, canonical multi-AI design rules and completion proof beyond `all tasks DONE`.
