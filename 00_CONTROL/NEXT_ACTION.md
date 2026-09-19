@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-014 / TASK-002 INDEPENDENT REVIEW OPEN`
+Status: `DEBATE-014 / TASK-002 CHANGES_REQUESTED`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,35 +8,32 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-014 — Analytics and Measurement Strategy` remains active.
 
-Primary research delivery is complete:
-- Drive `DEBATE-014__ANALYTICS_MEASUREMENT_PRIMARY_RESEARCH`
-- Drive `HANDOFF-TASK-002`
-- TASK-002 is `REVIEW` in `02_TASK_QUEUE/03_REVIEW`
+Independent `REVIEW-003` returned `CHANGES_REQUESTED`:
+- Critical: none
+- Major: M-1
+- Minor: none
 
-Manager intake verified the structural contract:
-- four architecture families;
-- two candidate/reference mechanisms per family;
-- 30 official/primary source-ledger rows;
-- 16 mandatory scenarios × four families = 64 family/scenario rows;
-- all eight required failure-walkthrough fields are present;
-- unresolved evidence remains HELD;
-- no provider winner or forbidden execution was introduced.
+M-1 is narrowly scoped to Section 10, S15 `Clean-room provider replacement` / Family D. The row is not substantively
+complete across the mandatory eight fields: Next action, Privacy impact and Cost impact contain shifted/non-matching
+content, and Exit impact is literally `undefined`.
 
-Structural intake is not a substantive PASS.
+Required official-source spot checks found no material contradiction.
+
+TASK-002 is now `CHANGES_REQUESTED` in Drive `02_TASK_QUEUE/04_CHANGES_REQUESTED`. The research report itself has not
+been edited by the manager.
 
 ## Immediate Next Manager Action
 
-1. Dispatch `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` to a different external AI.
-2. Reviewer must not edit the research, TASK or handoff and must issue exactly PASS, CHANGES_REQUESTED or BLOCKED.
-3. If PASS, manager performs closure readback, moves TASK-002 to `06_DONE`, then prepares a nontechnical DEBATE-014 manager synthesis for owner decision.
-4. If CHANGES_REQUESTED, preserve REVIEW-003 and return TASK-002 to the changes-requested queue for scoped remediation.
+1. Dispatch the scoped M-1 remediation to the research-producing AI or another implementation-neutral research AI.
+2. Permit edits only to the S15 / Family-D failure row plus the handoff/completion evidence needed to record the repair.
+3. Preserve HELD semantics and all authority/privacy/safety boundaries; do not expand scope or select a provider/family winner.
+4. After remediation, return TASK-002 to `03_REVIEW` and open a fresh independent re-review. REVIEW-003 remains historical evidence.
 
 ## Hard Boundaries
 
-- no manager/self PASS before independent verdict;
+- no manager/self PASS;
+- no changes outside the scoped M-1 repair unless required for internal consistency and explicitly documented;
 - analytics/telemetry remains observation, not technical truth, safety, approval, entitlement, recall or protected-audit authority;
-- no code, pseudocode, SDK integration, prototype or executable spike;
-- no provider account, trial, plan, purchase or deployment;
-- no analytics provider winner or final KPI target;
-- no Phase-5 ADR and no Gate 4 -> 5 transition.
+- no code, pseudocode, event-schema implementation, SDK integration, account, trial, plan, purchase or deployment;
+- no provider winner, final KPI target, legal conclusion, Phase-5 ADR or Gate 4 -> 5 transition.
 
