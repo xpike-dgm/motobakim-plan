@@ -20,9 +20,10 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 - `DEBATE-016 — AI / LLM / Provider Strategy`
   - opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`,
-  - TASK-004 primary research and HANDOFF-TASK-004 are delivered; TASK-004 is in REVIEW,
-  - manager structural intake verified four operating-model families and 16 × 4 = 64 scenario/family rows with all eight mandatory fields; Recovery owner has 64 distinct values,
-  - `REVIEW-007 — TASK-004 INDEPENDENT REVIEW` is open for current-source, authority/privacy, prompt-injection/tool, lifecycle, TCO, fallback/eval and clean-exit review,
+  - TASK-004 primary research and HANDOFF-TASK-004 are delivered,
+  - independent `REVIEW-007` returned `CHANGES_REQUESTED`: Critical none, three Major findings and one Minor,
+  - M-1 requires scenario/family-specific Evidence in all 64 rows; M-2/M-3 correct Family-C privacy/retention and Bedrock lifecycle evidence; m-1 adds two pricing caveats,
+  - TASK-004 is in Drive `04_CHANGES_REQUESTED`; narrow remediation and a fresh independent re-review are required,
   - consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority remain separated,
   - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
 
