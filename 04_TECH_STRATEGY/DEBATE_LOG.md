@@ -513,3 +513,19 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   prompt injection/tool permissions, safe TCO, lifecycle/deprecation, fallback divergence, eval/change detection and
   clean-room provider/model exit.
 - Structural intake is not substantive PASS. No account/trial/purchase/code/integration/legal conclusion/ADR/gate change.
+
+## REVIEW-007 Returned CHANGES_REQUESTED
+
+- Independent REVIEW-007 issued `CHANGES_REQUESTED`: Critical none, Major M-1/M-2/M-3 and Minor m-1.
+- M-1: all 64 Section-17 `Evidence` fields mechanically exist but collapse to 12 repeated texts; each row now requires
+  scenario-specific and family-specific substantive official evidence and explicit HELD gaps.
+- M-2: Family-C privacy/data evidence must distinguish Amazon Bedrock retention modes and Microsoft Foundry Claude
+  Hosted-on-Azure versus Hosted-on-Anthropic data-processing/residency paths.
+- M-3: Bedrock lifecycle evidence must distinguish the current policy for models launched on/after 2026-09-07 from
+  the legacy lifecycle policy for earlier models.
+- Minor m-1: keep Safe-TCO arithmetic but label GPT-5.6 Sol pricing as promotional/time-sensitive and add the conditional
+  Anthropic 1.1× US-only inference pricing multiplier for Claude 4.6+.
+- Manager official-source spot-check confirmed the current-fact basis for M-2/M-3/m-1.
+- TASK-004 was moved to Drive `04_CHANGES_REQUESTED` with a narrow remediation contract. Research report and
+  HANDOFF-TASK-004 were not manager-edited. Fresh independent re-review is required after remediation.
+- No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
