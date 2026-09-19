@@ -1,35 +1,41 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-015 USER-APPROVED / NEXT PHASE-4 TOPIC NOT SELECTED`
+Status: `DEBATE-016 / TASK-004 READY FOR EXTERNAL RESEARCH`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
-## Most Recently Completed Topic
+## Current Topic
 
-`DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure` is complete at Phase-4
-working-direction level under `DEC-0045`.
+`DEBATE-016 — AI / LLM / Provider Strategy`
 
-Approved direction:
-- Android release continuity remains active and independent of iOS/macOS readiness;
-- split/hybrid is the approved reversible operating shape;
-- Android remains on a low-cost, replaceable lane when implementation is later authorized;
-- iOS/macOS activation remains HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance,
-  no-owner-debug recovery and clean-room rebuild are proven;
-- fixed Mac, hosted-Mac or paid macOS capacity is not committed before those gates require and justify it.
+This topic is opened by explicit owner instruction from the remaining main Phase-4 scope and is registered as
+`TSQ-018 — AI / LLM / Provider Operating Strategy`.
 
-TASK-003 is `DONE`; REVIEW-006 passed with no findings.
+Research package is ready:
+- GitHub requirements synthesis: `04_TECH_STRATEGY/DEBATES/DEBATE-016__AI_LLM_PROVIDER_REQUIREMENTS_SYNTHESIS.md`;
+- Drive context: `CTX-P4-016 — AI LLM PROVIDER AND MODEL STRATEGY`;
+- Drive task: `TASK-004 — DEBATE-016 AI LLM PROVIDER PRIMARY RESEARCH`;
+- TASK-004 is `READY` in Drive `02_TASK_QUEUE/00_READY`.
+
+Research must separate consumer AI Usta, Internal Operations AI assistance, project/company AI-operated delivery and
+non-AI authority; compare four provider operating-model families with current official/primary evidence; produce
+16 scenarios × four families = 64 substantive failure rows; and cover privacy/data handling, prompt injection/tool
+boundaries, model lifecycle, safe TCO, eval/change detection, fallback divergence and clean-room exit.
 
 ## Immediate Next Manager Action
 
-Do not invent or auto-open a new roadmap item.
+Dispatch TASK-004 to a fresh external research chat.
 
-The next Phase-4 topic must come from already-recorded unresolved scope and be explicitly selected with the owner before
-a new DEBATE/TASK package is opened.
+When the research worker finishes:
+1. verify the research report and HANDOFF-TASK-004;
+2. confirm TASK-004 moved to `03_REVIEW`;
+3. open a fresh independent review for a different external AI;
+4. do not synthesize or approve a working direction before independent review.
 
 ## Hard Boundaries
 
-- no physical Mac, hosted-Mac, general-CI, mobile-CI or Xcode Cloud provider/plan winner;
-- no provider/store account, trial, purchase, payment or store submission;
-- no build, signing setup, certificate/profile/key creation, CI config, code or executable spike;
-- no final budget commitment;
+- no provider/model/plan winner;
+- no code, production prompt, tool schema, agent workflow, API key or integration;
+- no provider account, trial, purchase, payment, model deployment, vector DB or fine-tune;
+- no final legal/privacy conclusion or budget commitment;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
