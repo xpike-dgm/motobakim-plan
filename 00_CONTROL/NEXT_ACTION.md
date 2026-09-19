@@ -1,38 +1,34 @@
 # Next Action — Single Current Work Pointer
 
-Status: `READY_FOR_NEW_MANAGER`
+Status: `DEBATE-014 ACTIVE / TASK-002 READY`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
-## Just Completed
+## Current Topic
 
-`DEBATE-013 — CMS and Controlled Publishing Mechanics` is user-approved under `DEC-0042`.
+`DEBATE-014 — Analytics and Measurement Strategy` is the active Phase-4 topic by explicit user direction.
 
-Approved working direction:
+The requirements boundary is recorded at:
+`04_TECH_STRATEGY/DEBATES/DEBATE-014__ANALYTICS_MEASUREMENT_REQUIREMENTS_SYNTHESIS.md`.
 
-- Kavriva owns technical truth, human approval, immutable release identity, recall/suspension generation, mobile-package
-  eligibility and final publication authority.
-- A headless CMS is optional and may later be evaluated only as a replaceable authoring convenience for bounded content.
-- CMS/provider publish, admin console, webhook or database bypass cannot create Kavriva-approved technical live state.
-- No CMS product, provider, account, plan, trial, purchase, code, deployment or Phase-5 ADR is approved.
-
-Evidence: Drive TASK-001 is DONE after REVIEW-001 changes and independent REVIEW-002 PASS. See
-`00_CONTROL/DRIVE_ARTIFACT_INDEX.md` and `04_TECH_STRATEGY/DEBATES/DEBATE-013__MANAGER_SYNTHESIS.md`.
+Drive research package:
+- `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY`
+- `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` — `READY` in `02_TASK_QUEUE/00_READY`
 
 ## Immediate Next Manager Action
 
-1. Confirm the repository bootstrap to the owner in plain Turkish.
-2. Do not reopen DEBATE-013 unless new evidence or the owner explicitly requests it.
-3. Audit the exact remaining Phase-4 open scope already recorded in `03_DESIGN/README.md`, `CURRENT_STATE.md` and
-   `OPEN_QUESTIONS.md`.
-4. Propose only the next existing unresolved topic in nontechnical language. Analytics/measurement and AI/provider
-   choices remain candidates, but do not invent a multi-topic roadmap or start one without user alignment.
+1. Dispatch TASK-002 to an external research AI using the frozen CTX-P4-014/TASK-002 scope.
+2. Research must use official/primary current sources and keep all four architecture families on equal evidence.
+3. When the research report and handoff arrive, move TASK-002 to review and open a separate independent review.
+4. Do not issue manager synthesis or ask for a user direction until the research package passes independent review.
 
-## Prohibited Next Steps
+## Hard Boundaries
 
-- no code, prototype or executable spike;
-- no Gate 4 -> 5 transition;
-- no provider account, purchase or deployment;
-- no fabricated list of remaining topics;
-- no assumption that a working direction is an ADR or production proof.
+- analytics/telemetry is observation, not technical truth, safety, approval, entitlement, recall or protected-audit authority;
+- no code, pseudocode, SDK integration, prototype or executable spike;
+- no provider account, trial, paid plan, purchase or deployment;
+- no analytics provider winner;
+- no final KPI target or legal conclusion;
+- no Phase-5 ADR and no Gate 4 -> 5 transition;
+- DEBATE-013 remains closed unless new evidence or explicit user direction reopens it.
 
