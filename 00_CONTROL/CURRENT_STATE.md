@@ -161,6 +161,7 @@ DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
 DEBATE-014 — Analytics and Measurement Strategy — is user-approved under `DEC-0044`; TASK-002 is DONE and no analytics/observability provider winner is selected.
 DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure — is user-approved under `DEC-0045`. Android release continuity remains active and independent; split/hybrid is the approved reversible Phase-4 operating shape; iOS/macOS activation remains HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven. TASK-003 is DONE. No Mac/CI/hosted-build provider, account, plan, purchase or implementation is approved.
+DEBATE-016 — AI / LLM / Provider Strategy — is ACTIVE. `TSQ-018` is open; the GitHub requirements synthesis, Drive CTX-P4-016 and READY TASK-004 research package are published. Consumer AI Usta, Internal Operations AI assistance, project/company AI-operated workflows and non-AI authority must remain separate. No provider/model/plan, account, code, integration or purchase is approved.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
