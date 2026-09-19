@@ -895,3 +895,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room
   rebuild are proven.
 - No provider/plan/account/purchase, build/signing setup, final budget, ADR or Gate 4 -> 5 transition.
+
+### DEBATE-015 Mobile Build/Release Working Direction User-Approved
+- Recorded `DEC-0045` after explicit user approval of the reviewed manager synthesis.
+- Android release continuity remains active and independent of iOS/macOS readiness.
+- Split/hybrid is the reversible Phase-4 operating shape.
+- iOS/macOS activation remains HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance,
+  no-owner-debug recovery and clean-room rebuild are proven.
+- Fixed Mac/hosted-Mac/paid macOS capacity is not committed before those gates require and justify it.
+- No Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account/trial/purchase, build/signing setup, final budget, ADR or
+  Gate 4 -> 5 transition was approved.
+- No new Phase-4 topic was auto-opened.
