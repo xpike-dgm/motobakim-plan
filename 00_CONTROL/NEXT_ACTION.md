@@ -1,36 +1,38 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-014 USER-APPROVED / NEXT PHASE-4 TOPIC NOT SELECTED`
+Status: `DEBATE-015 SELECTED / RESEARCH PACKAGE NOT YET OPENED`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
-## Most Recently Completed Topic
+## Current Topic
 
-`DEBATE-014 — Analytics and Measurement Strategy` is complete at Phase-4 working-direction level under `DEC-0044`.
+`DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
 
-Approved direction:
-- Kavriva-owned canonical operational coverage/data-quality metrics;
-- protected audit/security evidence remains outside analytics;
-- product analytics stays optional, minimized, non-authoritative and replaceable;
-- reliability/observability stays separate and provider-neutral where feasible;
-- split/hybrid is the reversible architecture shape;
-- smaller Kavriva-owned measurement baseline is the fallback if privacy, cost, offline, owner-operability or clean-exit
-  evidence gates are not met.
+This topic is selected from the already-recorded unresolved portion of `TSQ-008`.
 
-TASK-002 is `DONE`; REVIEW-004 passed with no findings.
+Scope to resolve at Phase-4 working-direction level:
+- confirmed Mac/iOS build access path or a capped hosted-build alternative;
+- Android-first / iOS-later build and release-operability consequences;
+- 12–24 month non-store cost allocation for build/release tooling and mandatory adjuncts;
+- AI-operability and dependency closure for a nontechnical solo owner;
+- owner-safe incident/recovery/escalation path without requiring local build-system debugging.
+
+Existing constraints remain:
+- direct Android access exists;
+- borrowed iPhone access can be arranged;
+- Android-first publication and iOS later remain the approved order;
+- the prior TRY 2,000–3,000/month non-store ceiling is planning context only, not a purchase authorization.
 
 ## Immediate Next Manager Action
 
-Do not invent or auto-open a new roadmap item.
-
-The next Phase-4 topic must come from an already-recorded unresolved scope and be explicitly selected with the owner
-before a new DEBATE/TASK package is opened.
+Prepare the minimum DEBATE-015 requirements/context package and a research-only external-AI task before any provider,
+hosted-build service, account, plan or purchase recommendation.
 
 ## Hard Boundaries
 
-- no analytics/observability provider winner;
-- no provider account, trial, plan, purchase or deployment;
-- no code, SDK integration, event-schema implementation or executable spike;
-- no final KPI target or legal conclusion;
+- no code, build, prototype, executable spike or store submission;
+- no Apple/Google/provider account creation or paid action;
+- no hosted-build/provider winner before equal evidence and independent review;
+- no final budget commitment;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
 
