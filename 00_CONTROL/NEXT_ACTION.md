@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-015 / TASK-003 CHANGES_REQUESTED`
+Status: `DEBATE-015 / TASK-003 REVIEW-006 OPEN`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,28 +8,32 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
 
-Independent REVIEW-005 returned `CHANGES_REQUESTED`:
-- Critical: none.
-- Major M-1: Section 12, all 64 failure rows — `Recovery owner` is boilerplate (two values repeated 53 + 11 times) and does not meet scenario-specific / family-specific substance.
-- Minor m-1: Section 2 clean-room exit trace pointer references Section 10 but should reference Section 11 + S13/S14.
-- Minor m-2: Codemagic Builds API evidence omits the official developer-preview / may-change-without-advance-notice lifecycle caveat.
+REVIEW-005 remediation has been completed and manager readback verified:
+- Section 12 still has 64 scenario/family rows;
+- all 64 `Recovery owner` fields changed and now contain 64 distinct values;
+- Drive revision comparison shows zero changes to the other seven mandatory row fields;
+- Section 2 clean-room trace now points to `Section 11 + S13/S14`;
+- Section 7 C1 and Section 16 R27 now state the Codemagic Builds API developer-preview / may-change-without-advance-notice caveat;
+- Kavriva-specific autonomous/no-owner-debug recovery remains HELD;
+- Family D remains conditional only; safe-TCO and other HELD boundaries are unchanged;
+- HANDOFF-TASK-003 and TASK-003 completion evidence record the remediation;
+- TASK-003 is back to `REVIEW` in Drive `03_REVIEW`;
+- no self-PASS was issued.
 
-Reviewer spot-check found no other material current-claim error affecting feasibility or safe TCO.
-
-TASK-003 is now `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`.
+`REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` is OPEN in Drive `05_REVIEWS`.
 
 ## Immediate Next Manager Action
 
-Dispatch a narrow remediation to the research-producing external AI:
-1. Rewrite only the `Recovery owner` field in all 64 Section-12 rows so every row identifies the actual scenario/family-specific recovery authority.
-2. Fix the Section-2 clean-room trace pointer to Section 11 + S13/S14.
-3. Add the Codemagic Builds API developer-preview / may-change-without-notice caveat to C1/R27 lifecycle and AI-operability evidence, while keeping Kavriva-specific autonomous recovery HELD.
-4. Preserve the other seven row fields, HELD states, TCO conclusions and conditional Family-D direction unless a narrow consistency correction is strictly required.
-5. Update HANDOFF-TASK-003 and TASK-003 completion evidence, return TASK-003 to REVIEW / 03_REVIEW and request a fresh independent re-review. No self-PASS.
+Dispatch REVIEW-006 to a fresh independent reviewer.
+
+The re-review must inspect all 64 Recovery owner fields, verify the zero-regression claim for the other seven fields,
+confirm both Minor fixes, preserve HELD/safe-TCO/Family-D boundaries and issue PASS / CHANGES_REQUESTED / BLOCKED.
+
+Do not close TASK-003 or synthesize a DEBATE-015 working direction before the independent verdict.
 
 ## Hard Boundaries
 
-- no provider/family winner or production-ready claim;
+- no provider/family/plan winner or production-ready claim;
 - no code, CI config/workflow YAML, build, signing setup, certificate/profile/secret generation;
 - no provider/store account, trial, plan, purchase, payment or store submission;
 - no final budget commitment;
