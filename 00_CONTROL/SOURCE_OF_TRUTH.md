@@ -274,6 +274,13 @@ with no Critical, Major or Minor findings. TASK-001 is DONE. The user then appro
 release, recall/suspension, package eligibility and final publication authority. A CMS may be evaluated later only as a
 bounded, replaceable authoring adjunct. No CMS/provider/product/account/plan/purchase/code/deployment or Phase-5 ADR is approved.
 
+`DEC-0044` approves the DEBATE-014 analytics/measurement working direction. Canonical operational coverage/data-quality
+metrics and protected evidence remain Kavriva-owned; product analytics remains optional, minimized, non-authoritative
+and replaceable; reliability/observability remains separate and provider-neutral where feasible; split/hybrid is the
+reversible Phase-4 architecture shape and a smaller Kavriva-owned measurement baseline is the fallback when evidence
+gates are not met. No analytics/observability provider, account/plan, SDK integration, final KPI, legal conclusion or
+Phase-5 ADR is approved.
+
 `DEC-0028` establishes the project-wide AI-native execution requirement: Obsidian-compatible relationship graph,
 contract-governed task-addressable modules, minimum sufficient task context packs, bidirectional requirement/task/test
 closure, no-code task simulation, canonical multi-AI design rules and completion proof beyond `all tasks DONE`.
