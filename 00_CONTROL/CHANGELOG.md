@@ -875,3 +875,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Moved TASK-003 from Drive `03_REVIEW` to `04_CHANGES_REQUESTED` and recorded the narrow repair contract.
 - Research report and HANDOFF-TASK-003 were not manager-edited; fresh independent re-review is required after remediation.
 - No provider/family winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or Gate 4 -> 5.
+
+### REVIEW-005 Remediation Verified / REVIEW-006 Opened
+- Verified all 64 Recovery owner fields were rewritten and now contain 64 distinct scenario/family-specific values.
+- Drive report revision comparison shows zero changes to the other seven mandatory fields across all 64 rows.
+- Verified the Section-2 clean-room pointer now targets Section 11 + S13/S14.
+- Verified C1/R27 now surface the Codemagic Builds API developer-preview / may-change-without-advance-notice lifecycle
+  caveat and keep Kavriva-specific autonomous/no-owner-debug recovery HELD.
+- Verified HANDOFF-TASK-003 and TASK-003 completion evidence, plus TASK-003 `Status: REVIEW` in Drive `03_REVIEW`.
+- Created `REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` for fresh independent re-review.
+- No provider/family/plan winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or Gate 4 -> 5.
