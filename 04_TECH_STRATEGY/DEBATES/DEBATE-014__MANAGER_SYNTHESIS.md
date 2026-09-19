@@ -1,17 +1,17 @@
 # DEBATE-014 — Analytics and Measurement Strategy Manager Synthesis
 
-Status: `USER DECISION PENDING / PHASE-4 WORKING-DIRECTION PROPOSAL / NO PROVIDER WINNER`
+Status: `USER-APPROVED PHASE-4 WORKING DIRECTION / DEC-0044 / NO PROVIDER WINNER`
 
-## Nontechnical Decision Proposal
+## Nontechnical Decision
 
 Kavriva measurement'ı ürünün gerçeği veya güvenlik otoritesi olarak değil, yalnızca gözlem katmanı olarak kullanmalı.
 
-Manager proposal: first release should preserve a split boundary in which Kavriva owns canonical operational metrics and
+First release should preserve a split boundary in which Kavriva owns canonical operational metrics and
 protected evidence, product analytics stays optional and replaceable, and reliability/observability remains a separate
 plane. If a dedicated product-analytics layer cannot meet privacy, cost, offline and clean-exit evidence gates, Kavriva
 should fall back to the smaller owned baseline rather than weakening those gates.
 
-## Proposed Phase-4 Working Direction
+## Binding Phase-4 Working Direction
 
 - Internal Operations coverage and data-quality metrics derive from Kavriva canonical records, not consumer telemetry.
 - Protected privileged-action audit/security evidence stays outside analytics.
@@ -97,13 +97,9 @@ Exact Drive links are registered in `00_CONTROL/DRIVE_ARTIFACT_INDEX.md`.
 - Provider-neutral mobile observability sufficiency.
 - Jurisdiction-specific legal/privacy applicability and final consent wording.
 
-## Owner Decision Requested
+## User Approval
 
-Approve or reject this Phase-4 working direction:
-
-> Keep canonical operational metrics and protected evidence Kavriva-owned; keep product analytics optional,
-> minimized and replaceable; keep observability separate/provider-neutral where feasible; use the split/hybrid boundary
-> as the conditional architecture shape, with the smaller owned baseline as the fallback when evidence gates are not met.
+The user explicitly approved this Phase-4 working direction under `DEC-0044`.
 
 ## Boundary
 
