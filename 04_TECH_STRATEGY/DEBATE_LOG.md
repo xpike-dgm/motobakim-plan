@@ -404,3 +404,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - No analytics/observability provider, account/plan/purchase, SDK integration, final KPI, legal conclusion, ADR or Gate
   4 -> 5 transition was approved.
 - No new Phase-4 topic was selected automatically.
+
+## DEBATE-015 Research Package Opened
+
+- Created `04_TECH_STRATEGY/DEBATES/DEBATE-015__MOBILE_BUILD_RELEASE_REQUIREMENTS_SYNTHESIS.md`.
+- Created Drive `CTX-P4-015 — MOBILE BUILD RELEASE ACCESS AND AI OPERABILITY`.
+- Created Drive `TASK-003 — DEBATE-015 MOBILE BUILD RELEASE PRIMARY RESEARCH` and placed it in `00_READY`.
+- TASK-003 compares four equal build/release operating-model families and requires 16 scenarios × four families = 64
+  substantive failure rows with expected state, safe hold, evidence, recovery owner, next action, security/signing
+  impact, cost impact and exit impact.
+- Research must cover Mac/iOS build access, Android-first continuity, signing/key custody, provider outage/quota/billing,
+  toolchain lifecycle, no-owner-debug AI-operability, 12/24-month safe TCO and clean-room exit.
+- No code, CI config, build, signing setup, account/trial/plan/purchase, store submission, provider winner, ADR or gate
+  transition was authorized.
