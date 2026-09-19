@@ -330,8 +330,10 @@ DEBATE-014 status:
 - primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields, but this is structural evidence only;
 - independent `REVIEW-003` returned `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1 limited to Section 10 S15 `Clean-room provider replacement` / Family D, where next-action/privacy/cost/exit fields are substantively misassigned and Exit impact is `undefined`;
 - required PostgreSQL, PostHog, Amplitude, Matomo, OpenTelemetry, Apple, Android and crash/observability spot-checks found no material contradiction;
-- TASK-002 is `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`; the manager did not edit the research report;
-- scoped M-1 remediation, fresh independent re-review and manager synthesis are still pending;
+- AI-001 remediated REVIEW-003 Major M-1 within the authorized narrow scope: only Section 10 S15 `Clean-room provider replacement` / Family D changed in the research report, and all eight mandatory fields are now explicit and scenario/family-specific;
+- unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD; HANDOFF-TASK-002 and TASK-002 completion evidence record the repair;
+- TASK-002 is back to `REVIEW` in Drive `03_REVIEW`; `REVIEW-004 — TASK-002 M-1 REMEDIATION RE-REVIEW` is open for independent AI-003;
+- fresh independent re-review and manager synthesis are still pending;
 - no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
