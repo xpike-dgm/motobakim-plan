@@ -949,3 +949,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Verified HANDOFF-TASK-004 and TASK-004 completion evidence, plus TASK-004 `Status: REVIEW` in Drive `03_REVIEW`.
 - Created `REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` for fresh independent re-review.
 - No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
+
+### REVIEW-008 Requested Seven-Row Evidence Repair
+- Verified REVIEW-008 `CHANGES_REQUESTED` with Critical none and residual Major M-1 only.
+- M-2, M-3 and m-1 are closed and excluded from further remediation.
+- Limited the repair to seven Evidence rows: S02-A, S02-C, S02-D, S03-A, S03-D, S09-C and S15-D.
+- Five rows require exact provenance-key correction; S09-C requires direct Family-C structured/tool sources; S15-D
+  requires exact managed-provider source-ledger identifiers instead of a generic provider-family phrase.
+- All other 57 Evidence fields and all other seven mandatory fields are frozen absent a new direct factual contradiction.
+- Moved TASK-004 to Drive `04_CHANGES_REQUESTED` and recorded the exact remediation contract.
+- No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
