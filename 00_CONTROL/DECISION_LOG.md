@@ -1385,3 +1385,56 @@ Binding direction:
 - a new manager reconstructs context from GitHub + Drive and does not require access to the owner's computer or old chat.
 
 This decision organizes planning truth; it does not authorize application code or advance Gate 4 -> 5.
+
+---
+
+## DEC-0044 — Analytics / Measurement Split-Boundary Working Direction
+**Date:** 2026-09-19
+**Status:** USER-APPROVED PHASE-4 WORKING DIRECTION
+
+After TASK-002 official-primary research, REVIEW-003 remediation and independent REVIEW-004 PASS, the user explicitly
+approved the DEBATE-014 manager synthesis.
+
+Binding direction:
+
+- measurement remains an observation layer, never technical truth, human approval, proof of repair/safety completion,
+  entitlement authority, recall/suspension authority, canonical product state or protected audit evidence;
+- Kavriva-owned canonical operational coverage/data-quality metrics derive from canonical records rather than consumer
+  telemetry;
+- protected privileged-action audit/security evidence remains outside analytics;
+- product analytics, when used, stays purpose-limited, minimized, anonymous/account-light by default, non-authoritative
+  and replaceable;
+- analytics consent denial, SDK/provider outage, quota/billing hold, late upload or telemetry deletion cannot disable
+  the safe core path or critical negative-safety/recall behavior;
+- reliability/crash/performance observability remains a separate plane and should stay provider-neutral where feasible;
+- store/platform vitals remain supporting signals only;
+- the split/hybrid boundary is the approved reversible Phase-4 architecture shape: Kavriva-owned operational metrics +
+  replaceable product analytics + separable observability;
+- if dedicated product analytics cannot meet privacy, owner-operability, safe-TCO, offline and clean-room-exit evidence
+  gates, first release falls back to the smaller Kavriva-owned measurement baseline rather than weakening those gates;
+- raw export alone is not clean-exit proof. Cross-provider identity/deletion-state fidelity, derived-object fidelity,
+  late-arrival handling and mobile-instrumentation portability remain HELD until separately proven.
+
+First-release capability direction:
+
+- mandatory at direction level: plane separation, canonical-record-derived Internal Operations coverage/data-quality
+  visibility, minimal purpose-limited product usage measurement where permitted/useful, crash/ANR/performance supporting
+  signals, consent/opt-out enforcement, telemetry-health visibility, old-client semantic compatibility,
+  retention/delete/export path and outage independence;
+- identified analytics profiles, anonymous-to-profile history merge, cross-device identity, advanced funnels/cohorts,
+  warehouse streaming and rich segmentation are deferrable;
+- session replay, heatmaps, broad autocapture, surveys and detailed device/location enrichment are optional and require
+  separate purpose/privacy justification;
+- dedicated collector tiers, warehouse/lake export, long raw retention, advanced sampling/cardinality controls,
+  multi-region analytics, paid SLA/support and automated spend controls are scale-triggered.
+
+Decision boundary:
+
+- no analytics/product-observability provider winner is selected;
+- no provider account, region, plan, trial, purchase, payment or deployment is approved;
+- no event schema, SDK integration, code, prototype or executable spike is approved;
+- no final KPI target or jurisdiction-specific legal/privacy conclusion is approved;
+- no Phase-5 ADR or Gate 4 -> 5 transition is approved.
+
+Canonical synthesis:
+`04_TECH_STRATEGY/DEBATES/DEBATE-014__MANAGER_SYNTHESIS.md`.
