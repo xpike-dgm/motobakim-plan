@@ -328,8 +328,10 @@ DEBATE-014 status:
 - Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `READY` in `00_READY`;
 - four equal families are in scope: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
 - primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields, but this is structural evidence only;
-- TASK-002 is `REVIEW` in Drive `03_REVIEW` and `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` is open for a different AI;
-- substantive independent review and manager synthesis are still pending;
+- independent `REVIEW-003` returned `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1 limited to Section 10 S15 `Clean-room provider replacement` / Family D, where next-action/privacy/cost/exit fields are substantively misassigned and Exit impact is `undefined`;
+- required PostgreSQL, PostHog, Amplitude, Matomo, OpenTelemetry, Apple, Android and crash/observability spot-checks found no material contradiction;
+- TASK-002 is `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`; the manager did not edit the research report;
+- scoped M-1 remediation, fresh independent re-review and manager synthesis are still pending;
 - no provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition is approved.
 
 Previously completed mobile strategy record:
