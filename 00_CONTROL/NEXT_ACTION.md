@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-015 / TASK-003 REVIEW-006 OPEN`
+Status: `DEBATE-015 MANAGER SYNTHESIS / USER DECISION PENDING`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,33 +8,34 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
 
-REVIEW-005 remediation has been completed and manager readback verified:
-- Section 12 still has 64 scenario/family rows;
-- all 64 `Recovery owner` fields changed and now contain 64 distinct values;
-- Drive revision comparison shows zero changes to the other seven mandatory row fields;
-- Section 2 clean-room trace now points to `Section 11 + S13/S14`;
-- Section 7 C1 and Section 16 R27 now state the Codemagic Builds API developer-preview / may-change-without-advance-notice caveat;
-- Kavriva-specific autonomous/no-owner-debug recovery remains HELD;
-- Family D remains conditional only; safe-TCO and other HELD boundaries are unchanged;
-- HANDOFF-TASK-003 and TASK-003 completion evidence record the remediation;
-- TASK-003 is back to `REVIEW` in Drive `03_REVIEW`;
-- no self-PASS was issued.
+TASK-003 research/review is complete:
+- REVIEW-005 returned CHANGES_REQUESTED with one Major M-1 across all 64 Recovery owner fields and two Minor findings;
+- the narrow remediation rewrote all 64 Recovery owner fields and corrected both Minor findings without changing the
+  other seven failure-row fields;
+- REVIEW-006 returned PASS with no Critical, Major or Minor findings and verified no regression;
+- manager readback closed TASK-003 as `DONE` and moved it to Drive `06_DONE`.
 
-`REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` is OPEN in Drive `05_REVIEWS`.
+Canonical proposal:
+`04_TECH_STRATEGY/DEBATES/DEBATE-015__MANAGER_SYNTHESIS.md`
 
 ## Immediate Next Manager Action
 
-Dispatch REVIEW-006 to a fresh independent reviewer.
+Present the DEBATE-015 Phase-4 working-direction proposal to the owner for explicit approve/reject/change instruction.
 
-The re-review must inspect all 64 Recovery owner fields, verify the zero-regression claim for the other seven fields,
-confirm both Minor fixes, preserve HELD/safe-TCO/Family-D boundaries and issue PASS / CHANGES_REQUESTED / BLOCKED.
+Proposed direction:
+- keep Android release continuity independent and active;
+- keep iOS/macOS activation HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance,
+  no-owner-debug recovery and clean-room rebuild are proven;
+- use a split/hybrid boundary so Android can stay on a low-cost replaceable path while macOS/iOS capacity is activated
+  only when needed;
+- avoid a fixed Mac/hosted-build/provider commitment before those activation gates are proven.
 
-Do not close TASK-003 or synthesize a DEBATE-015 working direction before the independent verdict.
+Do not create a decision record until the owner explicitly approves or changes the proposal.
 
 ## Hard Boundaries
 
-- no provider/family/plan winner or production-ready claim;
-- no code, CI config/workflow YAML, build, signing setup, certificate/profile/secret generation;
-- no provider/store account, trial, plan, purchase, payment or store submission;
+- no Mac/hosted-build/CI/mobile-CI provider or plan winner;
+- no provider/store account, trial, purchase, payment or store submission;
+- no build, signing setup, certificate/profile/key creation, CI config, code or executable spike;
 - no final budget commitment;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
