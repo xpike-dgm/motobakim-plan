@@ -337,6 +337,13 @@ Unless a newer explicit user decision changes the plan:
     hosted-build/CI/mobile-CI provider, account, plan, purchase, build, signing setup, final budget, ADR or gate
     transition is approved.
 
+39. The user approved the DEBATE-015 manager synthesis under `DEC-0045`. Android release continuity remains
+    active and independent of iOS/macOS readiness; split/hybrid is the reversible Phase-4 operating shape; iOS/macOS
+    activation remains HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance,
+    no-owner-debug recovery and clean-room rebuild are proven. No physical Mac/hosted-Mac/CI/mobile-CI/Xcode-Cloud
+    provider or plan, account, purchase, build, signing setup, final budget, ADR or Gate 4 -> 5 transition is approved.
+    No new Phase-4 topic is selected; do not invent or auto-open one.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
