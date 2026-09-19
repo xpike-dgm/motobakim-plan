@@ -160,7 +160,7 @@ DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is u
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
 DEBATE-014 — Analytics and Measurement Strategy — is user-approved under `DEC-0044`; TASK-002 is DONE and no analytics/observability provider winner is selected.
-DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure — is selected from the unresolved portion of `TSQ-008`; no research task or provider decision is opened yet.
+DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure — is active from the unresolved portion of `TSQ-008`; the GitHub requirements synthesis, Drive CTX-P4-015 and READY TASK-003 research package are published. No provider/build/account/plan decision is approved.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
