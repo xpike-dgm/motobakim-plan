@@ -959,3 +959,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - All other 57 Evidence fields and all other seven mandatory fields are frozen absent a new direct factual contradiction.
 - Moved TASK-004 to Drive `04_CHANGES_REQUESTED` and recorded the exact remediation contract.
 - No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
+
+### REVIEW-008 Residual M-1 Remediation Verified / REVIEW-009 Opened
+- Verified report revision 8 -> 9 changed exactly seven Evidence fields and nothing else in the 64-row mandatory field set.
+- Verified other 57 Evidence fields = 0 changes and Sections 6/8/9/12 = unchanged.
+- Verified undefined `KAVRIVA-CTX/AUI` and generic `OAI/ANTH/GOOG evidence` tokens are absent.
+- Verified S09-C now uses direct current Bedrock/Vertex tool/function evidence and retains parity/authorization HELD.
+- Verified S15-D uses exact defined managed/local source identifiers and retains behavioral-parity HELD.
+- M-2/M-3/m-1 remain closed.
+- TASK-004 is REVIEW in Drive `03_REVIEW`.
+- Created `REVIEW-009 — TASK-004 REVIEW-008 RESIDUAL M-1 RE-REVIEW`.
