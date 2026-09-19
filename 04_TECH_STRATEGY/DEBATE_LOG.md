@@ -369,3 +369,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Created Drive `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` for a different external AI. The reviewer must not edit the
   research or move/close TASK-002.
 - No provider/account/trial/plan/purchase, code, SDK integration, final KPI, ADR or gate transition was approved.
+
+## 2026-09-19 — REVIEW-003 Returned CHANGES_REQUESTED
+
+- Independent REVIEW-003 issued `CHANGES_REQUESTED`: Critical none, Major M-1, Minor none.
+- M-1 is limited to Section 10 / S15 `Clean-room provider replacement` / Family D. The mandatory eight-field contract
+  is not substantively met: Next action, Privacy impact and Cost impact contain shifted/non-matching content, and Exit
+  impact is literally `undefined`.
+- Required official-source spot-checks across PostgreSQL, PostHog, Amplitude, Matomo, OpenTelemetry, Apple, Android and
+  crash/observability found no material contradiction; those checks do not cure M-1.
+- The manager left the research report and handoff unchanged, changed TASK-002 to `CHANGES_REQUESTED`, appended the
+  scoped remediation contract to TASK-002 and moved it from Drive `03_REVIEW` to `04_CHANGES_REQUESTED`.
+- REVIEW-003 remains unchanged as historical review evidence. A fresh independent re-review is required after remediation.
+- No provider/family winner, account/trial/plan/purchase, code/SDK integration, KPI, ADR or gate transition was approved.
