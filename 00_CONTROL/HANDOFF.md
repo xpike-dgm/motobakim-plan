@@ -344,6 +344,14 @@ Unless a newer explicit user decision changes the plan:
     provider or plan, account, purchase, build, signing setup, final budget, ADR or Gate 4 -> 5 transition is approved.
     No new Phase-4 topic is selected; do not invent or auto-open one.
 
+40. DEBATE-016 — AI / LLM / Provider Strategy is open by explicit owner instruction and registered as
+    `TSQ-018`. GitHub requirements synthesis, Drive `CTX-P4-016` and READY `TASK-004 — DEBATE-016 AI LLM PROVIDER
+    PRIMARY RESEARCH` are published. Research must keep consumer AI Usta, bounded Internal Operations AI assistance,
+    project/company AI-operated delivery and non-AI authority separate; compare four equal provider operating-model
+    families; and cover 64 failure rows, privacy/data handling, prompt injection/tool authority, model lifecycle,
+    safe TCO, eval/change detection, fallback divergence and clean-room exit. No provider/model/plan winner, account,
+    code/integration, purchase, legal conclusion, ADR or Gate 4 -> 5 transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
