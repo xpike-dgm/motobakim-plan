@@ -916,3 +916,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   deterministic/non-AI authority; requires four equal operating-model families, 64 scenario/family rows, privacy/data
   handling, prompt-injection/tool boundaries, lifecycle, safe TCO, eval/change detection, fallback and clean exit.
 - No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
+
+### TASK-004 Research Delivered / REVIEW-007 Opened
+- Verified TASK-004 `Status: REVIEW` in Drive `03_REVIEW`, primary research in `04_RESEARCH_INBOX` and HANDOFF-TASK-004 in `07_HANDOFFS`.
+- Structural intake verified 64 mandatory scenario/family rows and all eight required fields for every row.
+- Recovery owner has 64 distinct scenario/family-specific values; consumer/Internal Ops/project/non-AI authority boundaries remain separated.
+- Created `REVIEW-007 — TASK-004 INDEPENDENT REVIEW` for a fresh external reviewer with explicit current-source,
+  privacy/authority, prompt-injection/tool, TCO, lifecycle, fallback/eval and clean-exit checks.
+- No substantive PASS, provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or gate transition.
