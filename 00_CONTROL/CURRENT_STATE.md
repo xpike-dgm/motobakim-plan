@@ -160,7 +160,7 @@ DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is u
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
 DEBATE-013 — CMS and Controlled Publishing Mechanics — is user-approved under `DEC-0042`.
 DEBATE-014 — Analytics and Measurement Strategy — is user-approved under `DEC-0044`; TASK-002 is DONE and no analytics/observability provider winner is selected.
-DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure — research/review is complete. REVIEW-006 returned PASS with no Critical, Major or Minor findings; manager readback closed TASK-003 as DONE in Drive `06_DONE`. The manager synthesis proposes Android-first continuity with a split/hybrid boundary and iOS/macOS activation HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven. Explicit user decision is pending. No Mac/CI/hosted-build provider, account, plan, purchase or implementation is approved.
+DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure — is user-approved under `DEC-0045`. Android release continuity remains active and independent; split/hybrid is the approved reversible Phase-4 operating shape; iOS/macOS activation remains HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven. TASK-003 is DONE. No Mac/CI/hosted-build provider, account, plan, purchase or implementation is approved.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
