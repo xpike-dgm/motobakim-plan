@@ -253,6 +253,13 @@ Unless a newer explicit user decision changes the plan:
     `MANAGER_CONTINUITY_CHECKLIST.md`, `GITHUB_REPOSITORY_MAP.md` and `DRIVE_ARTIFACT_INDEX.md`. A fresh manager must
     bootstrap from these files and GitHub/Drive, not the old chat or the owner's computer.
 
+26. The user selected Analytics / Measurement Strategy as the next Phase-4 topic. DEBATE-014 is ACTIVE.
+    GitHub requirements synthesis is published; Drive `CTX-P4-014` is active and `TASK-002` is READY in
+    `02_TASK_QUEUE/00_READY`. Research must keep telemetry non-authoritative, separate product analytics / operational
+    analytics / observability / protected audit, compare four equal architecture families and preserve privacy,
+    offline/account-light behavior, owner-operability, safe cost and clean-room exit. No provider/account/plan/code/
+    final KPI/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
