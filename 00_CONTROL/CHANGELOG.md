@@ -865,3 +865,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Created `REVIEW-005 — TASK-003 INDEPENDENT REVIEW` for a fresh external reviewer with explicit official-source,
   signing/security, TCO, AI-operability, lifecycle, outage and clean-room-exit checks.
 - No substantive PASS, provider winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or gate transition.
+
+### REVIEW-005 Requested TASK-003 Remediation
+- Verified REVIEW-005 `CHANGES_REQUESTED`: Critical none, Major M-1, two Minor findings.
+- Independently confirmed all 64 Recovery owner fields collapse to only two boilerplate values (53 + 11), failing the
+  scenario/family-specific field contract.
+- Scoped remediation to the Recovery owner field across all 64 rows, the Section-2 clean-room trace pointer, and the
+  Codemagic Builds API developer-preview lifecycle caveat.
+- Moved TASK-003 from Drive `03_REVIEW` to `04_CHANGES_REQUESTED` and recorded the narrow repair contract.
+- Research report and HANDOFF-TASK-003 were not manager-edited; fresh independent re-review is required after remediation.
+- No provider/family winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or Gate 4 -> 5.
