@@ -1438,3 +1438,58 @@ Decision boundary:
 
 Canonical synthesis:
 `04_TECH_STRATEGY/DEBATES/DEBATE-014__MANAGER_SYNTHESIS.md`.
+
+---
+
+## DEC-0045 — Android-First Split/Hybrid Mobile Build and Release Working Direction
+**Date:** 2026-09-19
+**Status:** USER-APPROVED PHASE-4 WORKING DIRECTION
+
+After TASK-003 official-primary research, REVIEW-005 remediation and independent REVIEW-006 PASS, the user explicitly
+approved the DEBATE-015 manager synthesis.
+
+Binding direction:
+
+- Android release continuity remains active and independent of iOS/macOS readiness;
+- borrowed iPhone access remains physical-device validation only and does not count as Mac/Xcode build access;
+- the approved Phase-4 architecture shape is split/hybrid: Android stays on a low-cost, replaceable build/release lane,
+  while iOS/macOS capacity is activated only when needed and remains separable from the Android lane;
+- iOS activation remains HELD until all of the following are separately proven:
+  - real Kavriva Mac/Xcode execution access;
+  - Apple signing certificate/profile/private-key custody, rotation/revocation/recovery and App Store Connect role boundaries;
+  - provider-neutral artifact provenance bound to canonical source/build/version/digest;
+  - no-owner-debug routine and incident recovery;
+  - clean-room rebuild/provider replacement without copying opaque provider state;
+- canonical source remains outside the build/CI provider;
+- build success does not equal release approval;
+- Android signing/upload-key custody and Google Play authority remain separate from CI execution;
+- future Apple signing/store authority remains separate from CI execution;
+- machine-readable build status, technical recovery ownership, spend/quota/billing visibility, safe hold and provider-exit
+  evidence are mandatory operating requirements;
+- the nontechnical owner handles only explicit business/payment/identity approvals and plain-language go/no-go decisions,
+  not terminal/raw-log/Xcode/Gradle/CI-config/signing/SSH/cache debugging;
+- fixed Mac, hosted-Mac or paid macOS capacity should not be committed before iOS activation gates require and justify it;
+- the TRY 2,000–3,000/month non-store figure remains planning context only and is not purchase authority.
+
+First-release capability direction:
+
+- mandatory for Android: Android continuity independent of iOS, canonical source outside provider, signing/Play authority
+  separation, artifact provenance, explicit release approval, machine-readable status and technical recovery ownership,
+  least-privilege secret handling, spend/quota/billing safe hold, and exportable artifact/evidence plus exit runbook;
+- deferrable until iOS activation: real Mac/Xcode execution, Apple signing/App Store Connect setup, any Xcode Cloud bootstrap,
+  borrowed-iPhone validation and iOS-specific store transport;
+- provider-managed signing, long provider retention, extra concurrency and provider AI/debug summaries remain optional and
+  require separate evidence;
+- paid Xcode Cloud compute, extra concurrency, annual/unlimited plans, dedicated Mac/host capacity, enterprise support/SLA
+  and a warm secondary provider are scale-triggered rather than current recommendations.
+
+Decision boundary:
+
+- no physical Mac purchase, hosted Mac, general CI, mobile CI or Xcode Cloud provider/plan winner is selected;
+- no provider/store account, trial, purchase, payment or store submission is approved;
+- no build, signing setup, certificate/profile/key creation, CI configuration, code, prototype or executable spike is approved;
+- no final budget commitment is approved;
+- no Phase-5 ADR or Gate 4 -> 5 transition is approved.
+
+Canonical synthesis:
+`04_TECH_STRATEGY/DEBATES/DEBATE-015__MANAGER_SYNTHESIS.md`.
