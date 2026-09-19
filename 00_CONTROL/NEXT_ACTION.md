@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-016 / TASK-004 CHANGES_REQUESTED`
+Status: `DEBATE-016 / TASK-004 REVIEW-008 OPEN`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,31 +8,34 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-016 — AI / LLM / Provider Strategy`
 
-Independent REVIEW-007 returned `CHANGES_REQUESTED`:
-- Critical: none.
-- Major M-1: Section 17 Evidence field across all 64 rows collapses to only 12 repeated texts and is not scenario-specific substantive evidence.
-- Major M-2: Family-C privacy/data evidence under-specifies Amazon Bedrock retention modes and Microsoft Foundry Claude hosting/data-processing/residency splits.
-- Major M-3: Bedrock lifecycle evidence omits the current policy split between models launched on/after 2026-09-07 and earlier legacy-policy models.
-- Minor m-1: Safe-TCO arithmetic is correct but must label GPT-5.6 Sol pricing as promotional/time-sensitive and add the conditional Anthropic 1.1× US-only inference multiplier for Claude 4.6+.
+REVIEW-007 remediation has been completed and manager readback verified:
+- Section 17 still contains exactly 64 scenario/family rows;
+- all 64 `Evidence` fields changed and now contain 64 distinct values;
+- Drive revision 6 -> 8 comparison shows zero changes to the other seven mandatory row fields;
+- Sections 6/8 now distinguish Bedrock `none/default/aws_review` retention behavior and Microsoft Foundry Claude Hosted-on-Azure versus Hosted-on-Anthropic data-processing/residency paths;
+- Sections 6/9 now distinguish current Bedrock lifecycle for models launched on/after 2026-09-07 from the separate legacy policy for earlier models;
+- Section 12 retains the existing arithmetic while adding GPT-5.6 Sol promotional/time-sensitive pricing and the conditional Anthropic 1.1× US-only inference modifier;
+- current official-source spot-check supports these remediation facts;
+- AI/non-AI authority boundaries, Family-D conditional status and HELD boundaries remain unchanged;
+- HANDOFF-TASK-004 and TASK-004 completion evidence record the remediation;
+- TASK-004 is back to `REVIEW` in Drive `03_REVIEW`;
+- no self-PASS was issued.
 
-Official-source manager spot-check confirmed these current-fact findings.
-
-TASK-004 is now `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`.
+`REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` is OPEN in Drive `05_REVIEWS`.
 
 ## Immediate Next Manager Action
 
-Dispatch a narrow remediation to the research-producing external AI:
-1. Rewrite only the Section-17 `Evidence` field across all 64 rows so every row has scenario-specific and family-specific substantive evidence and explicit HELD gaps.
-2. Update Sections 6/8 Family-C privacy evidence and only impacted Family-C rows for Bedrock retention modes and Microsoft Foundry Claude hosting/data-processing differences.
-3. Update Sections 6/9 and S08-C for the current/legacy Bedrock lifecycle policy split.
-4. Keep Section-12 arithmetic but add the GPT-5.6 Sol promotional-pricing caveat and the conditional Anthropic 1.1× US-only residency multiplier.
-5. Preserve the other seven row fields, AI/non-AI authority boundaries, HELD states and conditional Family-D direction unless a newly verified source forces a narrow factual correction.
-6. Update HANDOFF-TASK-004 and TASK-004 completion evidence, return TASK-004 to REVIEW / 03_REVIEW and request a fresh independent re-review. No self-PASS.
+Dispatch REVIEW-008 to a fresh independent reviewer.
+
+The re-review must inspect all 64 Evidence fields, verify zero regression in the other seven fields, confirm M-2/M-3/m-1
+with current official sources, preserve authority/HELD/Family-D boundaries and issue PASS / CHANGES_REQUESTED / BLOCKED.
+
+Do not close TASK-004 or synthesize a DEBATE-016 working direction before the independent verdict.
 
 ## Hard Boundaries
 
 - no provider/model/plan winner;
-- no code, prompt/tool implementation, agent workflow, API key or integration;
+- no code, production prompt/tool schema/agent workflow/API key/integration;
 - no provider account, trial, purchase, payment, model deployment, vector DB or fine-tune;
 - no final legal/privacy conclusion or budget commitment;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
