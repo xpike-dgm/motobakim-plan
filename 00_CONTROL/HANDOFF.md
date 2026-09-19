@@ -396,6 +396,17 @@ Unless a newer explicit user decision changes the plan:
     seven-row correction. No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR
     or gate transition is approved.
 
+47. REVIEW-008 residual M-1 remediation is complete and manager revision 8 -> 9 readback verified exact
+    scope: only S02-A/S02-C/S02-D/S03-A/S03-D/S09-C/S15-D Evidence changed; the other 57 Evidence fields, all other
+    seven mandatory fields, and Sections 6/8/9/12 show zero change. Undefined provenance shorthand is gone. S09-C now
+    uses direct current Bedrock/Vertex tool-function evidence and preserves Family-C parity HELD; S15-D uses exact
+    defined managed/local identifiers and preserves managed↔local behavioral parity HELD. M-2/M-3/m-1 remain closed.
+    TASK-004 is back to REVIEW in Drive `03_REVIEW`; no self-PASS was issued.
+
+48. `REVIEW-009 — TASK-004 REVIEW-008 RESIDUAL M-1 RE-REVIEW` is OPEN in Drive `05_REVIEWS`. Fresh independent
+    review must verify only residual-M-1 closure plus regression, with current official source checks for S09-C. Do not
+    close TASK-004 or synthesize DEBATE-016 before the verdict.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
