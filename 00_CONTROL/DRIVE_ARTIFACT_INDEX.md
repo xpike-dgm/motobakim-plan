@@ -23,6 +23,13 @@ Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
 - REVIEW-001 (CHANGES_REQUESTED history): https://docs.google.com/document/d/1JUHLQ3wjFnZzmv0oJrnQ2px9FQXNkvt4vf562IpkoBI
 - REVIEW-002 (PASS): https://docs.google.com/document/d/1q_PCt9mBH-3mY6oXzFx0g_Q27TS_ILe6kZ-axKZPfTQ
 
+## DEBATE-014 / TASK-002
+
+- Context: https://docs.google.com/document/d/1zPSQDxR294-La4KJ8-m8eYbgPcn2jcTbFUIItk7Exe0
+- TASK-002 (READY): https://docs.google.com/document/d/1X5CVipIEI0vNVWUPZriuBDFGqe5F74FD3w3-wf17yYM
+
+Research report, handoff and independent review links are added only after those artifacts exist.
+
 ## Rule
 
 Drive artifacts are evidence and work products. User-approved decisions must also be recorded in GitHub
