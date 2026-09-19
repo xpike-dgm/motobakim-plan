@@ -857,3 +857,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   substantive failure rows, signing/key-custody boundaries, AI-operability/no-owner-debug analysis, 12/24-month safe
   TCO, provider failure handling and clean-room exit.
 - No provider winner, account/trial/plan/purchase, build, signing setup, CI configuration, code, ADR or gate transition.
+
+### TASK-003 Research Delivered / REVIEW-005 Opened
+- Verified TASK-003 `Status: REVIEW` in Drive `03_REVIEW`, primary research in `04_RESEARCH_INBOX` and HANDOFF-TASK-003 in `07_HANDOFFS`.
+- Structural intake verified 64 mandatory scenario/family entries and all eight required fields for every row.
+- Preserved iOS/Mac HELD, borrowed-iPhone != Mac-build access, Android-first continuity, no-provider-winner and no-self-PASS boundaries.
+- Created `REVIEW-005 — TASK-003 INDEPENDENT REVIEW` for a fresh external reviewer with explicit official-source,
+  signing/security, TCO, AI-operability, lifecycle, outage and clean-room-exit checks.
+- No substantive PASS, provider winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or gate transition.
