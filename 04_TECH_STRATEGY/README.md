@@ -22,8 +22,8 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`,
   - TASK-004 primary research and HANDOFF-TASK-004 are delivered,
   - independent `REVIEW-007` returned `CHANGES_REQUESTED`: Critical none, three Major findings and one Minor,
-  - M-1 requires scenario/family-specific Evidence in all 64 rows; M-2/M-3 correct Family-C privacy/retention and Bedrock lifecycle evidence; m-1 adds two pricing caveats,
-  - TASK-004 is in Drive `04_CHANGES_REQUESTED`; narrow remediation and a fresh independent re-review are required,
+  - remediation is complete: all 64 Evidence fields are now distinct and scenario/family-specific; the other seven fields show zero revision changes; Family-C privacy/retention, Bedrock lifecycle and Safe-TCO caveats are corrected,
+  - TASK-004 is back in REVIEW and `REVIEW-008` is open for fresh independent re-review,
   - consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority remain separated,
   - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
 
