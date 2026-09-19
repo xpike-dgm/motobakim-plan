@@ -35,10 +35,10 @@ Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
 ## DEBATE-015 / TASK-003
 
 - Context: https://docs.google.com/document/d/1j1gfioNUQxlsLLJmVYmuvibGb8zlD_dz_xkIh8qZA3E
-- TASK-003 (REVIEW): https://docs.google.com/document/d/1XrKZDb1JvpUXx2rZK2mXnuiss9VHyE_MclGLqVjDFzc
+- TASK-003 (CHANGES_REQUESTED): https://docs.google.com/document/d/1XrKZDb1JvpUXx2rZK2mXnuiss9VHyE_MclGLqVjDFzc
 - Research report: https://docs.google.com/document/d/1Iz6SG93HOM-gLa1KCqlsRWr7eIg7nLS_ZZVUSzBFfq8
 - Handoff: https://docs.google.com/document/d/1ZCQQpIblY-PlrgXOHNx3PhL-t2JWQvNWacSe6Uh6tC4
-- REVIEW-005 (OPEN): https://docs.google.com/document/d/1rsWC_6XxdFHo8xsTAFbjhIE2rNa5zUlyC3WhEW6qxLA
+- REVIEW-005 (CHANGES_REQUESTED / Major M-1 + two Minor): https://docs.google.com/document/d/1rsWC_6XxdFHo8xsTAFbjhIE2rNa5zUlyC3WhEW6qxLA
 
 ## Rule
 
