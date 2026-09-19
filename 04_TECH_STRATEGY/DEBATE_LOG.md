@@ -529,3 +529,20 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - TASK-004 was moved to Drive `04_CHANGES_REQUESTED` with a narrow remediation contract. Research report and
   HANDOFF-TASK-004 were not manager-edited. Fresh independent re-review is required after remediation.
 - No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
+
+## REVIEW-007 Remediation Verified / REVIEW-008 Opened
+
+- Manager revision comparison verified Section 17 still contains all 64 S01-S16 family rows.
+- All 64 `Evidence` fields changed and now contain 64 distinct scenario/family-specific values; the other seven
+  mandatory row fields show zero changes between report revisions 6 and 8.
+- Family-C privacy/data evidence now separates Bedrock `none/default/aws_review` retention behavior and Microsoft
+  Foundry Claude Hosted-on-Azure versus Hosted-on-Anthropic processing/residency paths.
+- Bedrock lifecycle evidence now separates models launched on/after 2026-09-07 under the current Active/Legacy/EOL
+  policy from earlier models under the legacy Bedrock policy.
+- Safe-TCO arithmetic remains unchanged; GPT-5.6 Sol promotional/time-sensitive pricing and Anthropic Claude 4.6+
+  conditional 1.1× US-only inference pricing are explicit.
+- Current official-source manager spot-check supports the remediation facts.
+- HANDOFF-TASK-004 and TASK-004 completion evidence record the exact remediation; TASK-004 is back to REVIEW in Drive
+  `03_REVIEW`. No self-PASS was issued.
+- Created `REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` for fresh independent closure/regression review.
+- No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
