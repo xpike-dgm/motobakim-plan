@@ -266,6 +266,12 @@ Unless a newer explicit user decision changes the plan:
     substantive PASS. TASK-002 is REVIEW in Drive `03_REVIEW`; `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` is open for a
     different external AI. No provider/account/plan/code/SDK integration/final KPI/ADR/gate transition is approved.
 
+28. Independent REVIEW-003 returned `CHANGES_REQUESTED` for TASK-002: Critical none, Major M-1, Minor none.
+    M-1 is narrowly limited to Section 10 S15 clean-room provider replacement / Family D: Next action, Privacy impact
+    and Cost impact are substantively misassigned and Exit impact is `undefined`. Required official-source spot-checks
+    found no material contradiction. TASK-002 is now `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`; the manager
+    did not edit the research report or handoff. Only scoped M-1 remediation plus a fresh independent re-review is next.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
