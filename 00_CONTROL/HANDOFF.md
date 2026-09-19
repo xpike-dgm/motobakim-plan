@@ -290,6 +290,13 @@ Unless a newer explicit user decision changes the plan:
     met. No analytics/observability provider, account/plan, SDK integration, final KPI, legal conclusion, ADR or gate
     transition is approved. No new Phase-4 topic is selected; do not invent or auto-open one.
 
+32. DEBATE-015 research package is ready. GitHub requirements synthesis is published; Drive `CTX-P4-015`
+    and READY `TASK-003 — DEBATE-015 MOBILE BUILD RELEASE PRIMARY RESEARCH` are published. Research scope covers
+    Mac/iOS build access or capped hosted build, Android-first continuity, signing/key custody, provider failure,
+    no-owner-debug AI-operability, 12/24-month safe TCO and clean-room exit across four equal operating-model families.
+    TASK-003 requires 16 scenarios × four families = 64 substantive failure rows. No code/build/signing setup/account/
+    plan/purchase/provider winner/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
