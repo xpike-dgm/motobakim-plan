@@ -812,3 +812,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Created `REVIEW-003 — TASK-002 INDEPENDENT REVIEW` for a different external AI with explicit privacy, safety,
   authority-separation, TCO, clean-room-exit and source-spot-check requirements.
 - No provider winner, account/trial/plan/purchase, code/SDK integration, final KPI, ADR or gate transition was approved.
+
+### REVIEW-003 Requested Scoped Changes to TASK-002
+- Verified REVIEW-003 `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1.
+- M-1 is limited to Section 10 S15 `Clean-room provider replacement` / Family D; Next action, Privacy impact and Cost
+  impact are substantively misassigned and Exit impact is `undefined`.
+- Required official-primary spot-checks found no material contradiction.
+- The manager did not edit the research report or handoff. TASK-002 was updated to `Status: CHANGES_REQUESTED`, given a
+  narrow remediation note and moved from Drive `03_REVIEW` to `04_CHANGES_REQUESTED`.
+- A fresh independent re-review is required after remediation; REVIEW-003 remains historical evidence.
+- No provider/family winner, account/trial/plan/purchase, code/SDK integration, final KPI, ADR or Gate 4 -> 5 transition.
