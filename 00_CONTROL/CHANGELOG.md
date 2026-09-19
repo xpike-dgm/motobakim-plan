@@ -885,3 +885,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Verified HANDOFF-TASK-003 and TASK-003 completion evidence, plus TASK-003 `Status: REVIEW` in Drive `03_REVIEW`.
 - Created `REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` for fresh independent re-review.
 - No provider/family/plan winner, account/trial/plan/purchase, build/signing setup, code, final budget, ADR or Gate 4 -> 5.
+
+### REVIEW-006 Passed / TASK-003 Closed / DEBATE-015 Synthesis Ready
+- Verified REVIEW-006 PASS with no Critical, Major or Minor findings.
+- Manager readback confirmed all REVIEW-005 findings are closed and no remediation regression remains.
+- Changed TASK-003 to DONE and moved it to Drive 06_DONE.
+- Added DEBATE-015 manager synthesis as a Phase-4 proposal awaiting explicit user decision.
+- Proposal keeps Android-first continuity active, uses a split/hybrid operating boundary, and keeps iOS/macOS activation
+  HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room
+  rebuild are proven.
+- No provider/plan/account/purchase, build/signing setup, final budget, ADR or Gate 4 -> 5 transition.
