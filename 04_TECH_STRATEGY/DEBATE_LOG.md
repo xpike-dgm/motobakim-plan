@@ -471,3 +471,15 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   no-owner-debug recovery and clean-room rebuild are proven.
 - No Mac/hosted-build/CI/mobile-CI provider, plan, account, purchase, build, signing setup, final budget, ADR or gate
   transition was approved.
+
+## 2026-09-19 — DEBATE-015 Working Direction User-Approved
+
+- The user explicitly approved the reviewed DEBATE-015 manager synthesis under `DEC-0045`.
+- Android release continuity remains active and independent of iOS/macOS readiness.
+- Split/hybrid is the reversible Phase-4 operating shape; Android remains separable while macOS/iOS capacity activates
+  only when justified.
+- iOS/macOS activation remains HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance,
+  no-owner-debug recovery and clean-room rebuild are proven.
+- No physical Mac/hosted-Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account, purchase, build, signing setup, final
+  budget, ADR or Gate 4 -> 5 transition was approved.
+- No new Phase-4 topic was selected automatically.
