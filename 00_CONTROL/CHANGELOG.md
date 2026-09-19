@@ -906,3 +906,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - No Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account/trial/purchase, build/signing setup, final budget, ADR or
   Gate 4 -> 5 transition was approved.
 - No new Phase-4 topic was auto-opened.
+
+### DEBATE-016 AI / LLM / Provider Strategy Research Package Ready
+- Opened `TSQ-018 — AI / LLM / Provider Operating Strategy` by explicit owner instruction.
+- Added the DEBATE-016 GitHub requirements synthesis.
+- Created Drive `CTX-P4-016 — AI LLM PROVIDER AND MODEL STRATEGY`.
+- Created READY `TASK-004 — DEBATE-016 AI LLM PROVIDER PRIMARY RESEARCH`.
+- The research contract separates consumer AI Usta, Internal Operations AI assistance, project/company AI delivery and
+  deterministic/non-AI authority; requires four equal operating-model families, 64 scenario/family rows, privacy/data
+  handling, prompt-injection/tool boundaries, lifecycle, safe TCO, eval/change detection, fallback and clean exit.
+- No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
