@@ -386,6 +386,16 @@ Unless a newer explicit user decision changes the plan:
     Do not close TASK-004 or synthesize DEBATE-016 before the verdict. No provider/model/plan winner, account/trial/
     purchase, code/integration, legal conclusion, ADR or gate transition is approved.
 
+46. Independent REVIEW-008 returned CHANGES_REQUESTED with residual M-1 only. M-2, M-3 and m-1 are closed.
+    The remaining repair is Evidence-only for exactly seven Section-17 rows: S02-A/S02-C/S02-D/S03-A/S03-D must replace
+    the undefined `KAVRIVA-CTX/AUI` token with exact defined source-ledger identifiers; S09-C must cite direct
+    Family-C structured/tool primary evidence; S15-D must replace generic `OAI/ANTH/GOOG evidence` text with exact
+    managed-provider source identifiers. REVIEW-008 confirmed zero changes in the other seven mandatory fields. TASK-004
+    is CHANGES_REQUESTED in Drive `04_CHANGES_REQUESTED`. Closed M-2/M-3/m-1, Sections 6/8/9/12, authority boundaries,
+    HELD states and Family-D conditional status must not be reopened. Fresh independent re-review is required after the
+    seven-row correction. No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR
+    or gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
