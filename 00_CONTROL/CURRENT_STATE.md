@@ -153,8 +153,8 @@ Repository truth remains authoritative. New manager work should continue from Ph
 Gate 3 -> 4 PASSED on 2026-09-17.
 
 Phase 4 started on 2026-09-17 by explicit user instruction. DEBATE-007 is user-approved under `DEC-0034`.
-DEBATE-008 — Physical Data/Backend Stack and Provider Candidates — is active.
-DEBATE-009 — Flutter Offline Data, Package and Sync Strategy — is active.
+DEBATE-008 — Physical Data/Backend Stack and Provider Candidates — is user-approved under `DEC-0035`.
+DEBATE-009 — Flutter Offline Data, Package and Sync Strategy — is user-approved under `DEC-0036`.
 DEBATE-010 — Identity, Session, Account Recovery and Privileged Access — is user-approved under `DEC-0037`.
 DEBATE-011 — Kavriva API Runtime, Boundary Enforcement and Operations — is user-approved under `DEC-0038`.
 DEBATE-012 — Internal Operations Web Frontend and Hosting — is user-approved under `DEC-0039`.
@@ -169,6 +169,8 @@ External AI operating model:
 - GitHub now carries the canonical cross-manager planning package under `DEC-0043`; Drive-only task evidence is linked
   through `DRIVE_ARTIFACT_INDEX.md`.
 - the first controlled external research task, TASK-001, is DONE after REVIEW-002 PASS.
+- the first fresh-manager bootstrap test correctly detected stale live-status wording in `HANDOFF.md` and
+  `03_DESIGN/README.md`; those records were reconciled without rewriting historical decision evidence.
 
 Current user-approved working directions:
 - the entire planning process remains no-code; no prototype, proof-of-concept app or executable technology spike;
@@ -209,7 +211,7 @@ Still open:
   analytics and AI/provider choices;
 - consumer and internal logical/service boundary details.
 
-Active DEBATE-007 status:
+DEBATE-007 status:
 - repository requirements synthesis and official/primary mechanism research are complete;
 - the user supplied an external deep-research report; useful mechanisms were retained after controlled intake review,
   while unsupported numbers, Flutter-Web assumptions and categorical technology/provider conclusions were excluded;
@@ -219,7 +221,7 @@ Active DEBATE-007 status:
   privileged authorization, provider failure/cost and AI-operability corrections are incorporated;
 - the user approved the corrected DEBATE-007 working direction under `DEC-0034`; engine/provider/ADR remain open.
 
-Active DEBATE-008 status:
+DEBATE-008 status:
 - official/primary current-cost and candidate research is complete for Supabase, Firebase/Firestore, managed relational
   + independent API + object storage, Appwrite, Cloudflare Workers/D1/R2 and raw self-host baseline;
 - equal architecture-fit/failure walkthrough research is complete with candidate-specific hard fails;
@@ -239,7 +241,7 @@ Active DEBATE-008 status:
   remains the first fallback;
 - no Supabase account, region, plan, subscription, purchase, code, production proof, ADR or Gate 4 -> 5 transition is approved.
 
-Active DEBATE-009 status:
+DEBATE-009 status:
 - repository-derived offline/sync requirements, current official candidate research and Android/iOS/Flutter failure
   research are complete;
 - 18 product/data scenarios and 18 mobile-platform failure scenarios define the equal evidence boundary;
@@ -251,7 +253,7 @@ Active DEBATE-009 status:
 - no local database library, sync provider, encryption plugin, account, subscription, code, prototype, ADR or gate change
   is approved.
 
-Active DEBATE-010 status:
+DEBATE-010 status:
 - repository-derived identity requirements, current official provider research and 15 failure/threat scenarios are complete;
 - consumer Supabase Auth + local-first account-light is the corrected conditional working proposal, not an approved
   provider/account/plan;
@@ -264,7 +266,7 @@ Active DEBATE-010 status:
   `0 PASS / 15 HELD / 0 REJECT` and privileged production remains held;
 - no IdP, plan, account, SMTP/SMS, second recovery actor, code, purchase, ADR or gate change is approved.
 
-Active DEBATE-011 status:
+DEBATE-011 status:
 - repository-derived API/runtime requirements, current official-source research and 18 failure/TCO scenarios are complete;
 - Supabase Edge, managed container, Cloudflare Workers, Cloud Run and self-managed/reference paths were compared without
   code, prototype, provider account or purchase;
@@ -279,7 +281,7 @@ Active DEBATE-011 status:
   framework, queue, worker, provider region/plan/account, code, deployment, Phase-5 ADR or Gate 4 -> 5 transition is
   approved.
 
-Active DEBATE-012 status:
+DEBATE-012 status:
 - browser-based Internal Operations requirements, current official framework research and failure/TCO analysis are
   complete;
 - React/Next, Angular, Vue/Nuxt and Svelte/SvelteKit were subjected to common no-code task/equivalence, component-
@@ -293,7 +295,7 @@ Active DEBATE-012 status:
   account, plan, purchase, code, prototype,
   deployment, Phase-5 ADR or Gate 4 -> 5 transition is approved.
 
-Active DEBATE-013 status:
+DEBATE-013 status:
 - this topic comes from the already-recorded unresolved `database/CMS/API/sync` and publishing-mechanics scope; it is
   not a newly invented Phase-4 roadmap;
 - the question is whether Kavriva should own the content workflow inside its canonical backend, use a separate headless

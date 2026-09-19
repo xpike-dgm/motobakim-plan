@@ -20,8 +20,9 @@ Completed review package:
 - `04_TECH_STRATEGY/JUDGE_SUMMARY.md`
 
 Both reviewers returned `PASS_WITH_CHANGES`; critical changes were incorporated. The user then made two binding
-working-direction decisions: planning remains strictly no-code, and Internal Operations is browser-based. Mobile
-framework and service architecture remain open. Authority: `DEC-0021`.
+working-direction decisions: planning remains strictly no-code, and Internal Operations is browser-based. At that
+checkpoint the mobile framework and service architecture were still open. Flutter was later approved as the reversible
+Phase-4 mobile working direction under `DEC-0033`; service/provider details remain governed by later decisions.
 
 Sub-agent authorization: Luna Max (`gpt-5.6-luna`, `max`) may be used without additional permission. Any other
 sub-agent model requires explicit user permission before use. Authority: `DEC-0022`.
@@ -78,11 +79,12 @@ DEBATE-006 latest package:
 - `04_TECH_STRATEGY/DEBATES/DEBATE-006__REVIEW_A_PRODUCT_DELIVERY_TCO.md`
 - `04_TECH_STRATEGY/DEBATES/DEBATE-006__REVIEW_B_MOBILE_PLATFORM_MAINTENANCE.md`
 
-DEBATE-006 research, two independent Luna Max reviews and Judge synthesis are complete. User working-direction decision
-is pending. No finalist exists: all five options are `HELD` pending a frozen common fixture, product device/OS policy,
-AI-operability/external-dependency capacity and 12–24 month TCO evidence.
+The initial DEBATE-006 research, two independent Luna Max reviews and Judge synthesis left all five options `HELD` and
+requested equal evidence. That was an intermediate result, not the current decision state. Subsequent common-fixture,
+dossier, task-simulation, tie-break and closure work was completed; the user approved Flutter as the reversible Phase-4
+working direction under `DEC-0033`, with RN/Expo retained as first fallback. No Phase-5 ADR or implementation proof exists.
 
-## What Just Happened
+## Historical Phase-3 Closure Context
 
 The main-manager conversation visually inspected the latest FAM-01 screenshot batch.
 

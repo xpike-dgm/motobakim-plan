@@ -2,7 +2,7 @@
 
 Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved UX/visual direction'larini, ekran/state mimarisini, global navigation'i ve screen specifications'i kontrollu sirayla olusturmaktir.
 
-## Current Phase 3 Sequence
+## Completed Phase 3 Sequence — Historical Closure
 
 1. Brand naming + validation — **DONE**
 2. Kavriva approval — **DONE**
@@ -32,7 +32,8 @@ Amac: Discovery source-of-truth'undan Kavriva'nin marka kimligini, user-approved
 21. Internal Data & Content Operations requirements/workflow/screen-architecture addendum — **DONE / USER APPROVED WORKING ADDENDUM**
 22. Gate 3 -> 4 readiness review — **PASSED / USER APPROVED**
 
-Remaining Phase-3 work: **none**. Phase 4 has not been started automatically.
+Remaining Phase-3 work: **none**. Phase 4 later started by explicit user instruction on 2026-09-17 and is now active;
+this section preserves the completed Phase-3 sequence rather than the live project phase.
 
 Partial FAM-01 review record:
 - `03_DESIGN/KAVRIVA_FIRST_USE_VISUALS_01_REVIEW.md`
@@ -139,7 +140,7 @@ Phase-3 consumer-mobile visual coverage is complete at approved working-referenc
 
 `SCR-005 Garaj` remains already covered by R01.
 
-Phase 3 is complete and Gate 3 -> 4 passed. Phase 4 can begin under the user's next explicit task.
+Phase 3 is complete and Gate 3 -> 4 passed. Phase 4 began by explicit user instruction on 2026-09-17 and is active.
 
 ## Internal Data & Content Operations — Approved Requirement
 
@@ -148,7 +149,10 @@ Project scope includes an internal operational capability for motorcycle/technic
 Canonical requirement:
 `00_CONTROL/PROJECT_SCOPE_ADDENDUM_INTERNAL_DATA_OPERATIONS.md`
 
-Exact form is NOT decided: web vs desktop vs hybrid, database/CMS/API/sync, reviewer-role implementation, publishing mechanics, analytics stack and AI/provider choice remain later controlled decisions.
+The client form is now decided at working-direction level: browser-based web application (`DEC-0021`). Exact web
+framework/hosting remains open. Later Phase-4 decisions also established bounded working directions for backend/API,
+offline/sync, identity and controlled publishing; exact provider accounts, implementation evidence, analytics stack,
+AI/provider choices and Phase-5 ADRs remain open. See `00_CONTROL/CURRENT_STATE.md` for the live status.
 
 The targeted internal-operations requirements/workflow/platform-independent screen-workspace architecture addendum is complete and user-approved. Canonical files are `INTERNAL_DATA_CONTENT_OPERATIONS_REQUIREMENTS.md`, `INTERNAL_DATA_CONTENT_OPERATIONS_WORKFLOW_LIFECYCLE.md`, `INTERNAL_DATA_CONTENT_OPERATIONS_WORKSPACE_ARCHITECTURE.md` and `INTERNAL_DATA_CONTENT_OPERATIONS_REVIEW.md`. Final platform-specific internal visual design must wait for later platform/strategy selection.
 
@@ -181,4 +185,8 @@ Canonical: `SCREEN_FAMILY_SPECS.md`, `SCREEN_FAMILY_SPEC_REVIEW.md`, `REF-SPEC-0
 
 ## Scope Restrictions
 
-Phase 3 does not select technology/backend/database/API/auth/sync/framework, LLM/provider architecture, internal-tool platform, or final pricing/tier/quota. Gate 3 -> 4 passed because the required mobile visual coverage and internal-operations addendum are sufficiently covered; technology decisions remain Phase-4/5 work.
+Phase 3 did not select technology/backend/database/API/auth/sync/framework, LLM/provider architecture, internal-tool
+platform or final pricing/tier/quota. Gate 3 -> 4 passed because the required mobile visual coverage and internal-
+operations addendum were sufficiently covered. Subsequent Phase-4 working directions are recorded in
+`00_CONTROL/DECISION_LOG.md` and `00_CONTROL/CURRENT_STATE.md`; they do not retroactively turn this Phase-3 design record
+into an implementation authority.

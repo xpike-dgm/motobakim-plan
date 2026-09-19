@@ -4,6 +4,10 @@ Status: `REVIEW COMPLETE — USER WORKING-DIRECTION DECISION PENDING / NO-CODE /
 Date: 2026-09-17
 Decision level: Phase-4 recommendation only; not an ADR and not approved/locked
 
+Historical-status note: this header records the state of this initial evidence artifact. Subsequent equal-dossier,
+simulation, tie-break and closure work led to the user-approved Flutter working direction in `DEC-0033`. Use
+`00_CONTROL/CURRENT_STATE.md` for live status; no Phase-5 ADR or implementation proof exists.
+
 ## 1. Decision Question
 
 Which mobile implementation family should Kavriva carry toward Phase 5 after comparing the same real product

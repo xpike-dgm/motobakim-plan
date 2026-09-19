@@ -29,6 +29,8 @@
 - Update current state, next action, decision/open-question status, registry, phase record, changelog and handoff as applicable.
 - Record Drive/GitHub evidence links.
 - Run `git diff --check` and a consistency search for stale status wording.
+- In living files, search for old phrases such as `pending`, `not started`, `active`, `form not decided` and `no winner`;
+  compare them with later DEC records. Preserve genuine historical snapshots but label them explicitly as historical.
 - Commit a coherent checkpoint and push when authorized.
 
 ## Before Manager Handoff
@@ -38,4 +40,3 @@
 - `HANDOFF.md` contains the latest accepted evidence and hard boundaries.
 - `NEW_MANAGER_CHAT_PROMPT.md` still points to the canonical bootstrap rather than duplicating volatile state.
 - GitHub contains the latest commit; Drive-only artifacts are indexed.
-

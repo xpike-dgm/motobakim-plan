@@ -57,7 +57,10 @@ Bu requirement:
 - data-quality/coverage/operations analytics
 kapsamini zorunlu gelecek planlama girdisi yapar.
 
-It does NOT decide web vs desktop vs hybrid, database/CMS/API/sync architecture, exact publishing mechanics, AI provider/model, analytics stack or implementation technology.
+This requirement document did NOT itself decide web vs desktop vs hybrid, database/CMS/API/sync architecture, exact
+publishing mechanics, AI provider/model, analytics stack or implementation technology. Later decisions now control the
+live state: browser-based Internal Operations (`DEC-0021`) and the bounded Phase-4 directions indexed in
+`CURRENT_STATE.md`. The original addendum remains requirement authority, not current technology-status authority.
 
 ### 03 Design — Approved Working Authorities
 

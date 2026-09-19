@@ -784,3 +784,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   and Drive artifact index.
 - Replaced the long duplicated new-manager handoff/prompt with short pointers to canonical state.
 - Added `.github/copilot-instructions.md` and a planning-repository `.gitignore`.
+
+## 2026-09-19
+
+### First Fresh-Manager Continuity Test / Memory Drift Repaired
+- A fresh manager successfully reconstructed the project from GitHub and detected two stale live-status conflicts.
+- Reconciled the old DEBATE-006 interim `pending/no finalist` wording in `HANDOFF.md` with the later Flutter approval
+  under `DEC-0033`, while preserving the original research artifact as a labeled historical snapshot.
+- Reconciled the Phase-3 design README with active Phase 4 and browser-based Internal Operations under `DEC-0021`.
+- Added a continuity-check rule to distinguish stale living status from legitimate historical evidence.
+- No code, provider account, paid action, ADR or gate transition was performed.
