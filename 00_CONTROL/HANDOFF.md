@@ -272,6 +272,17 @@ Unless a newer explicit user decision changes the plan:
     found no material contradiction. TASK-002 is now `CHANGES_REQUESTED` in Drive `04_CHANGES_REQUESTED`; the manager
     did not edit the research report or handoff. Only scoped M-1 remediation plus a fresh independent re-review is next.
 
+29. REVIEW-003 Major M-1 was remediated within the narrow authorized S15 / Family-D scope. The row now has
+    substantive expected state, safe hold, evidence, recovery owner, next action, privacy impact, cost impact and exit
+    impact; unsupported identity/deletion/derived-object/mobile-instrumentation portability remains HELD. TASK-002
+    returned to REVIEW for a fresh independent re-review.
+
+30. Independent REVIEW-004 returned PASS with no Critical, Major or Minor findings and confirmed no regression. Manager
+    readback closed TASK-002 as DONE in Drive 06_DONE. DEBATE-014 manager synthesis now awaits explicit owner decision:
+    canonical operational metrics/protected evidence stay Kavriva-owned; product analytics stays optional, minimized and
+    replaceable; observability stays separate where feasible; split/hybrid is a conditional architecture shape with a
+    smaller owned baseline fallback. No provider/account/plan/code/final KPI/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
