@@ -329,6 +329,14 @@ Unless a newer explicit user decision changes the plan:
     both Minor fixes and preserve all HELD, safe-TCO and Family-D conditional boundaries. Do not close TASK-003 or
     synthesize DEBATE-015 before the verdict. No provider/build/account/plan/purchase/final-budget/ADR/gate transition.
 
+38. Independent REVIEW-006 returned PASS with no Critical, Major or Minor findings. Manager readback
+    closed TASK-003 as DONE in Drive `06_DONE`. DEBATE-015 manager synthesis now awaits explicit owner decision.
+    Proposed Phase-4 direction keeps Android release continuity independent and active, uses a split/hybrid operating
+    boundary to contain macOS/iOS cost and failure domains, and keeps iOS activation HELD until real Mac/Xcode access,
+    signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven. No Mac/
+    hosted-build/CI/mobile-CI provider, account, plan, purchase, build, signing setup, final budget, ADR or gate
+    transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
