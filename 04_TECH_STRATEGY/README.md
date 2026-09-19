@@ -18,27 +18,21 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-- `DEBATE-014 — Analytics and Measurement Strategy`
-  - opened from the existing unresolved analytics/measurement scope by explicit user direction,
-  - requirements synthesis is complete at research-contract level,
-  - Drive `CTX-P4-014` is published; primary research and HANDOFF-TASK-002 are complete and TASK-002 is DONE,
-  - manager intake verified four equal families, two mechanisms per family, a 30-row official-primary source ledger and 16 × 4 = 64 failure rows with all eight required fields,
-  - independent `REVIEW-003` returned `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1 limited to S15 clean-room replacement / Family D field substance; required official-source spot-checks found no material contradiction,
-  - the scoped S15-D remediation is complete; REVIEW-004 returned PASS with no findings and TASK-002 is in Drive `06_DONE`,
-  - research separates product analytics, operational analytics, observability and protected audit; manager synthesis is ready for explicit user decision and missing evidence remains HELD,
-  - no provider/account/plan/code/SDK integration/final KPI/ADR or Gate 4 -> 5 transition.
+No new Phase-4 topic is selected. Do not invent or auto-open one; the next topic must come from already-recorded
+unresolved scope and explicit owner selection.
 
 ## Most Recently Completed Topic
 
-- `DEBATE-013 — CMS and Controlled Publishing Mechanics`
-  - selected from the existing unresolved CMS/publishing scope,
-  - compares Kavriva-owned workflow, open-source headless CMS, managed headless CMS and a controlled hybrid,
-  - Drive research and handoff delivered; independent REVIEW-001 returned `CHANGES_REQUESTED`,
-  - Major M1 remediation now supplies 12 scenarios × four families = 48 rows, each with all seven required fields,
-  - independent REVIEW-002 returned PASS with no Critical/Major/Minor findings; TASK-001 is DONE,
-  - manager direction is user-approved under `DEC-0042`: Kavriva owns technical authority and CMS remains an optional,
-    replaceable authoring adjunct,
-  - no code, provider account, trial, purchase, deployment or ADR.
+- `DEBATE-014 — Analytics and Measurement Strategy`
+  - TASK-002 official-primary research and independent review are complete; REVIEW-004 returned PASS with no findings,
+  - the user approved the manager direction under `DEC-0044`,
+  - canonical operational coverage/data-quality metrics and protected evidence remain Kavriva-owned,
+  - product analytics stays optional, minimized, non-authoritative and replaceable,
+  - reliability/observability stays separate and provider-neutral where feasible,
+  - split/hybrid is the reversible Phase-4 architecture shape; a smaller Kavriva-owned baseline is the fallback when
+    privacy, cost, offline, owner-operability or clean-exit evidence gates are not met,
+  - unsupported cross-provider identity/deletion/derived-object/mobile-instrumentation portability remains HELD,
+  - no provider/account/plan/code/SDK integration/final KPI/legal conclusion/ADR or Gate 4 -> 5 transition.
 
 Earlier completed topics:
 
