@@ -19,15 +19,14 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 ## Active Topic
 
 - `DEBATE-016 — AI / LLM / Provider Strategy`
-  - opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`,
-  - TASK-004 primary research and HANDOFF-TASK-004 are delivered,
-  - independent `REVIEW-007` returned `CHANGES_REQUESTED`: Critical none, three Major findings and one Minor,
-  - remediation is complete: all 64 Evidence fields are now distinct and scenario/family-specific; the other seven fields show zero revision changes; Family-C privacy/retention, Bedrock lifecycle and Safe-TCO caveats are corrected,
-  - `REVIEW-008` returned `CHANGES_REQUESTED` with residual M-1 only; M-2/M-3/m-1 are closed,
-  - residual remediation is complete and manager revision 8→9 readback verified exactly seven Evidence changes, zero collateral row-field changes and unchanged Sections 6/8/9/12,
-  - TASK-004 is back in REVIEW and `REVIEW-009` is open for fresh independent re-review,
-  - consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority remain separated,
-  - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
+  - TASK-004 official-primary research and independent review are complete,
+  - REVIEW-007 returned CHANGES_REQUESTED with three Major findings and one Minor; REVIEW-008 closed M-2/M-3/m-1 and left residual M-1 in seven Evidence rows,
+  - residual remediation changed exactly those seven Evidence fields with zero collateral changes,
+  - REVIEW-009 returned PASS with no Critical, Major or Minor findings,
+  - TASK-004 is DONE in Drive `06_DONE`,
+  - manager synthesis proposes a Family-D-shaped authority split: deterministic/canonical systems remain primary authority; bounded managed AI operates behind a Kavriva-owned boundary; high-risk ambiguity/divergence safe-holds; multi-provider and open-weight/local paths remain optional evidence-driven extensions,
+  - explicit user decision is pending,
+  - no provider/model/plan winner, account, code/integration, purchase, final legal/privacy conclusion, final budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
