@@ -18,16 +18,20 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-- `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
-  - TASK-003 official-primary research and independent review are complete,
-  - REVIEW-005 returned CHANGES_REQUESTED with one Major M-1 across all 64 Recovery owner fields plus two Minor findings; remediation was narrow and revision-verified,
-  - REVIEW-006 returned PASS with no Critical, Major or Minor findings and confirmed no regression,
-  - TASK-003 is DONE in Drive `06_DONE`,
-  - manager synthesis proposes Android-first continuity, a split/hybrid operating boundary and iOS/macOS activation remaining HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven,
-  - explicit user decision is pending,
-  - no Mac/CI/hosted-build provider winner, account, plan, purchase, build, signing setup, code, final budget, ADR or gate transition is approved.
+No new Phase-4 topic is selected. Do not invent or auto-open one; the next topic must come from already-recorded
+unresolved scope and explicit owner selection.
 
 ## Most Recently Completed Topic
+
+- `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
+  - TASK-003 official-primary research and independent review are complete,
+  - REVIEW-006 returned PASS with no Critical, Major or Minor findings after narrow remediation,
+  - the user approved the manager direction under `DEC-0045`,
+  - Android release continuity remains active and independent of iOS/macOS readiness,
+  - split/hybrid is the reversible Phase-4 operating shape,
+  - iOS/macOS activation remains HELD until real Mac/Xcode access, signing custody, provider-neutral provenance,
+    no-owner-debug recovery and clean-room rebuild are proven,
+  - no Mac/CI/hosted-build provider winner, account, plan, purchase, build, signing setup, final budget, ADR or gate transition.
 
 - `DEBATE-014 — Analytics and Measurement Strategy`
   - TASK-002 official-primary research and independent review are complete; REVIEW-004 returned PASS with no findings,
