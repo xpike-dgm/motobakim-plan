@@ -794,3 +794,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Reconciled the Phase-3 design README with active Phase 4 and browser-based Internal Operations under `DEC-0021`.
 - Added a continuity-check rule to distinguish stale living status from legitimate historical evidence.
 - No code, provider account, paid action, ADR or gate transition was performed.
+
+### DEBATE-014 Analytics / Measurement Research Opened
+- User explicitly selected Analytics / Measurement Strategy as the next Phase-4 topic.
+- Added the canonical DEBATE-014 requirements synthesis and registered `TSQ-017` as active research.
+- Created Drive `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY`.
+- Created Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` and placed it in `00_READY`.
+- Research is provider-neutral and no-code; telemetry cannot become technical truth, safety, approval, protected audit,
+  entitlement or recall authority.
+- No provider account/trial/plan/purchase, SDK integration, final KPI, ADR or Gate 4 -> 5 transition was authorized.
