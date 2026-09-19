@@ -830,3 +830,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Added DEBATE-014 manager synthesis as a Phase-4 proposal awaiting explicit user decision.
 - The proposal keeps canonical operational metrics and protected evidence Kavriva-owned, product analytics optional/minimized/replaceable, observability separate where feasible, split/hybrid as a conditional architecture shape, and a smaller owned fallback.
 - No provider winner, account/trial/plan/purchase, code/SDK integration, final KPI, legal conclusion, ADR or Gate 4 -> 5 transition.
+
+### DEBATE-014 Analytics / Measurement Working Direction User-Approved
+- Recorded `DEC-0044` after explicit user approval of the reviewed manager synthesis.
+- Canonical operational coverage/data-quality metrics and protected evidence remain Kavriva-owned.
+- Product analytics remains optional, minimized, non-authoritative and replaceable; reliability/observability remains
+  separate and provider-neutral where feasible.
+- Split/hybrid is the reversible Phase-4 architecture shape; the smaller Kavriva-owned measurement baseline is the
+  fallback when privacy, cost, offline, owner-operability or clean-exit evidence gates are not met.
+- Unsupported cross-provider identity/deletion-state/derived-object/mobile-instrumentation portability remains HELD.
+- No analytics/observability provider, account/trial/plan/purchase, code/SDK integration, final KPI, legal conclusion,
+  Phase-5 ADR or Gate 4 -> 5 transition was approved.
+- No new Phase-4 topic was auto-opened.
