@@ -110,6 +110,8 @@ These are not missing product-definition answers. They are controlled technology
   approval, immutable release, recall/suspension, package eligibility and final publication authority. Exact optional
   CMS/provider, account, plan, trial, purchase, implementation and ADR remain open.
 
+- `TSQ-017 OPEN / ACTIVE RESEARCH` — What minimum analytics/measurement strategy should Kavriva carry into later architecture without turning telemetry into product authority? DEBATE-014 is opened by explicit user direction from the already-recorded analytics-stack gap. The research must separate consumer product analytics, Internal Operations coverage/data-quality metrics, reliability/observability and protected audit; preserve anonymous/account-light and offline behavior; minimize sensitive data; expose consent/retention/delete/export/cost/exit constraints; and compare owned, managed, self-hostable and split/hybrid families. Drive `CTX-P4-014` and `TASK-002` are ready. No provider, account, plan, code, production KPI, ADR or gate transition is approved.
+
 Current status: `TSQ-002`–`TSQ-005` have user-approved direction-level answers where applicable. Remaining narrower
 questions and `TSQ-008`–`TSQ-009` stay open; TSQ-010–`TSQ-015` are answered at direction level while narrower
 implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open.
