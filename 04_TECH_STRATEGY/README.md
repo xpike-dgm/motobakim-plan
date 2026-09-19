@@ -21,7 +21,9 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 - `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
   - selected from the already-recorded unresolved portion of `TSQ-008` by explicit owner instruction to choose the next topic,
   - scope is limited to Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure,
-  - no research task, provider winner, account, plan, purchase, build, code, ADR or gate transition has been opened yet.
+  - GitHub requirements synthesis, Drive `CTX-P4-015` and `TASK-003` are published; TASK-003 is READY for external primary research,
+  - research requires four equal operating-model families, 16 × 4 = 64 scenario/family rows, signing/key-custody analysis, AI-operability/no-owner-debug analysis and 12/24-month safe TCO,
+  - no provider winner, account, plan, purchase, build, signing setup, code, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
