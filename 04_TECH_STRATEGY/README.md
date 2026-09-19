@@ -21,9 +21,10 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 - `DEBATE-014 — Analytics and Measurement Strategy`
   - opened from the existing unresolved analytics/measurement scope by explicit user direction,
   - requirements synthesis is complete at research-contract level,
-  - Drive `CTX-P4-014` is published and `TASK-002` is READY for official-primary research,
-  - research separates product analytics, operational analytics, observability and protected audit,
-  - four equal architecture families are required and missing evidence remains HELD,
+  - Drive `CTX-P4-014` is published; primary research and HANDOFF-TASK-002 are delivered and TASK-002 is in REVIEW,
+  - manager intake verified four equal families, two mechanisms per family, a 30-row official-primary source ledger and 16 × 4 = 64 failure rows with all eight required fields,
+  - structural intake is not PASS; independent `REVIEW-003` is open and must judge evidence sufficiency, privacy/safety boundaries, safe TCO and clean-room exit,
+  - research separates product analytics, operational analytics, observability and protected audit; missing evidence remains HELD,
   - no provider/account/plan/code/SDK integration/final KPI/ADR or Gate 4 -> 5 transition.
 
 ## Most Recently Completed Topic
