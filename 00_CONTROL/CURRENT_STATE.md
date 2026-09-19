@@ -132,7 +132,7 @@ Still open:
 - exact web framework/provider and production architecture evidence,
 - exact database/provider/runtime/identity/sync products and Phase-5 ADRs,
 - CMS product choice, if authoring volume later proves one necessary,
-- analytics/measurement strategy — ACTIVE under DEBATE-014; no provider winner,
+- analytics/measurement strategy — user-approved at working-direction level under `DEC-0044`; no provider winner,
 - AI/provider choices.
 
 Do not finalize platform-specific internal visual design yet.
@@ -323,10 +323,10 @@ DEBATE-014 status:
 - opened from the already-recorded analytics-stack / operational-measurement gap after explicit user direction;
 - canonical requirements synthesis: `04_TECH_STRATEGY/DEBATES/DEBATE-014__ANALYTICS_MEASUREMENT_REQUIREMENTS_SYNTHESIS.md`;
 - measurement is explicitly non-authoritative: telemetry cannot become technical truth, human approval, physical-completion proof, safety readiness, entitlement, recall/suspension authority or protected audit;
-- research must separate consumer product analytics, Internal Operations coverage/data-quality metrics, reliability/observability, protected audit and supporting store/platform signals;
+- the approved direction separates consumer product analytics, Internal Operations coverage/data-quality metrics, reliability/observability, protected audit and supporting store/platform signals;
 - Drive `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY` is published;
-- Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `READY` in `00_READY`;
-- four equal families are in scope: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
+- Drive `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` is `DONE` in `06_DONE`;
+- four equal families were compared: minimal Kavriva-owned measurement, managed product analytics, self-hostable/open-source analytics and split/hybrid owned-metrics + replaceable analytics + provider-neutral observability;
 - primary research and handoff are delivered; manager intake verified four families, 30 source-ledger rows and a 64-row failure matrix with all eight required fields;
 - independent `REVIEW-003` returned `CHANGES_REQUESTED` with one Major M-1 limited to Section 10 S15 `Clean-room provider replacement` / Family D; required official-source spot-checks found no material contradiction;
 - AI-001 remediated M-1 within the authorized narrow scope; unsupported cross-provider identity/deletion/derived-object fidelity and mobile-instrumentation portability remain HELD;
