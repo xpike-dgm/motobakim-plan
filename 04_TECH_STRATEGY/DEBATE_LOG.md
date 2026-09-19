@@ -391,3 +391,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Added DEBATE-014 manager synthesis as a Phase-4 working-direction proposal awaiting explicit user decision.
 - Proposal keeps canonical operational metrics and protected evidence Kavriva-owned, product analytics optional/minimized/replaceable, observability separate where feasible, split/hybrid as a conditional architecture shape, and the smaller owned baseline as fallback.
 - No provider winner, account/plan/purchase, code/SDK integration, final KPI, legal conclusion, ADR or Gate 4 -> 5 transition was approved.
+
+## 2026-09-19 — DEBATE-014 Working Direction User-Approved
+
+- The user explicitly approved the reviewed DEBATE-014 manager synthesis under `DEC-0044`.
+- Approved Phase-4 direction keeps canonical operational coverage/data-quality metrics and protected evidence
+  Kavriva-owned; product analytics optional/minimized/non-authoritative/replaceable; observability separate and
+  provider-neutral where feasible.
+- Split/hybrid is the reversible architecture shape; a smaller Kavriva-owned measurement baseline is the fallback when
+  privacy, cost, offline, owner-operability or clean-exit evidence gates are not met.
+- Unsupported cross-provider identity/deletion-state/derived-object/mobile-instrumentation portability remains HELD.
+- No analytics/observability provider, account/plan/purchase, SDK integration, final KPI, legal conclusion, ADR or Gate
+  4 -> 5 transition was approved.
+- No new Phase-4 topic was selected automatically.
