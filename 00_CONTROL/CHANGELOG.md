@@ -937,3 +937,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Manager official-source spot-check confirmed the current basis for these findings.
 - Moved TASK-004 from Drive `03_REVIEW` to `04_CHANGES_REQUESTED` and recorded the narrow repair contract.
 - No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or Gate 4 -> 5.
+
+### REVIEW-007 Remediation Verified / REVIEW-008 Opened
+- Verified all 64 Evidence fields were rewritten and now contain 64 distinct scenario/family-specific values.
+- Drive report revision 6 -> 8 comparison shows zero changes to the other seven mandatory fields across all 64 rows.
+- Verified Family-C Bedrock retention and Microsoft Foundry Claude hosting/data-processing distinctions.
+- Verified current versus legacy Amazon Bedrock lifecycle policy split.
+- Verified GPT-5.6 Sol promotional/time-sensitive pricing and Anthropic Claude 4.6+ conditional 1.1× US-only inference
+  pricing caveats while preserving existing Safe-TCO arithmetic.
+- Current official-source manager spot-check supports the remediation facts.
+- Verified HANDOFF-TASK-004 and TASK-004 completion evidence, plus TASK-004 `Status: REVIEW` in Drive `03_REVIEW`.
+- Created `REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` for fresh independent re-review.
+- No provider/model/plan winner, account/trial/purchase, code/integration, final legal/privacy conclusion, ADR or Gate 4 -> 5.
