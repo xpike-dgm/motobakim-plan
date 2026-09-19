@@ -848,3 +848,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Topic: Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure.
 - Scope is limited to confirmed Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure.
 - No research task, provider winner, account/plan/purchase, build, code, ADR or gate transition was opened.
+
+### DEBATE-015 Research Package Ready
+- Added the DEBATE-015 GitHub requirements synthesis for Mobile Build/Release Access, Hosted Build Cost and AI Operability.
+- Created Drive `CTX-P4-015 — MOBILE BUILD RELEASE ACCESS AND AI OPERABILITY`.
+- Created READY `TASK-003 — DEBATE-015 MOBILE BUILD RELEASE PRIMARY RESEARCH`.
+- The research contract requires four equal operating-model families, current official-primary evidence, 16 × 4 = 64
+  substantive failure rows, signing/key-custody boundaries, AI-operability/no-owner-debug analysis, 12/24-month safe
+  TCO, provider failure handling and clean-room exit.
+- No provider winner, account/trial/plan/purchase, build, signing setup, CI configuration, code, ADR or gate transition.
