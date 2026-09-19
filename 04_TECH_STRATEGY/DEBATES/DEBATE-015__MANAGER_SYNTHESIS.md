@@ -1,13 +1,13 @@
 # DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Manager Synthesis
 
-Status: `USER DECISION PENDING / PHASE-4 WORKING-DIRECTION PROPOSAL / NO PROVIDER WINNER`
+Status: `USER-APPROVED PHASE-4 WORKING DIRECTION / DEC-0045 / NO PROVIDER WINNER`
 
-## Nontechnical Decision Proposal
+## Nontechnical Decision
 
 Kavriva should preserve Android-first delivery as the active release path and keep iOS activation HELD until a real
 Mac/Xcode access path, signing custody, artifact provenance, no-owner-debug recovery and clean-room exit are proven.
 
-The manager proposal is a split/hybrid operating boundary:
+The approved working direction is a split/hybrid operating boundary:
 - Android build/release continuity remains independent of iOS/macOS readiness;
 - Android should use a low-cost, replaceable Linux-capable build path when implementation is later authorized;
 - iOS/macOS capacity should be activated only when needed and only through a path that can be replaced without moving
@@ -28,7 +28,7 @@ The research and reviews support four core conclusions:
 4. Split/hybrid contains macOS cost, Xcode lifecycle and provider failures to the iOS lane while preserving Android
    continuity, provided shared Flutter dependencies do not force cross-lane migration.
 
-## Approved-on-Decision Boundary
+## Binding Phase-4 Working Direction
 
 If the owner approves this proposal, the Phase-4 working direction should be:
 
@@ -153,14 +153,9 @@ capability is activated or purchased.
 - REVIEW-006 returned PASS with no Critical, Major or Minor findings and verified no remediation regression.
 - TASK-003 is DONE after manager readback.
 
-## Owner Decision Requested
+## User Approval
 
-Approve or reject this Phase-4 working direction:
-
-> Keep Android release continuity independent and active; keep the iOS/macOS lane deferred until real Mac/Xcode,
-> signing-custody, provenance, no-owner-debug recovery and clean-exit evidence exists; use a split/hybrid boundary to
-> contain macOS cost and failure domains; avoid a fixed Mac/hosted-build/provider commitment until those activation gates
-> are proven.
+The user explicitly approved this Phase-4 working direction under `DEC-0045`.
 
 ## Boundary
 
