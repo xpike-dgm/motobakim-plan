@@ -431,3 +431,17 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   treatment, signing/key custody, AI-operability/no-owner-debug behavior, 12/24-month safe TCO, outage/quota/billing,
   toolchain lifecycle and clean-room exit.
 - Structural intake is not substantive PASS. No provider/account/plan/purchase/build/signing setup/code/ADR/gate change.
+
+## REVIEW-005 Returned CHANGES_REQUESTED
+
+- Independent REVIEW-005 issued `CHANGES_REQUESTED`: Critical none, Major M-1, two Minor findings.
+- M-1 covers Section 12 Recovery owner across all 64 scenario/family rows: only two boilerplate values are reused 53 + 11
+  times, so the field does not satisfy the scenario-specific / family-specific acceptance contract.
+- Minor m-1: Section 2 clean-room trace pointer must reference Section 11 + S13/S14.
+- Minor m-2: C1/R27 must surface the official Codemagic Builds API developer-preview / may-change-without-advance-notice
+  lifecycle limitation while keeping Kavriva-specific autonomous recovery HELD.
+- Reviewer rechecked current official pricing/toolchain/signing/TCO claims and found no additional material mismatch
+  affecting feasibility or safe TCO.
+- TASK-003 was moved to Drive `04_CHANGES_REQUESTED` with a narrow remediation note. Research report and handoff were not
+  manager-edited. Fresh independent re-review is required after remediation.
+- No provider/family winner, account/plan/purchase, build/signing setup, code, final budget, ADR or gate transition.
