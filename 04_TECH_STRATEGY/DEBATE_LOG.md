@@ -343,3 +343,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Kavriva owns technical content truth, approval, immutable release, recall/suspension, package eligibility and final
   publication authority; a CMS may later serve only as a bounded, replaceable authoring adjunct.
 - No CMS/provider/account/plan/trial/purchase/code/deployment/ADR or Gate 4 -> 5 transition was approved.
+
+## 2026-09-19 — DEBATE-014 Analytics and Measurement Opened via Drive Task
+
+- The user explicitly selected Analytics / Measurement Strategy as the next Phase-4 topic.
+- Opened from the already-recorded analytics-stack and operational-measurement gap; no new roadmap was invented.
+- Added `DEBATE-014__ANALYTICS_MEASUREMENT_REQUIREMENTS_SYNTHESIS.md`.
+- Created Drive minimum context pack `CTX-P4-014 — ANALYTICS AND MEASUREMENT STRATEGY`.
+- Created READY research task `TASK-002 — DEBATE-014 ANALYTICS AND MEASUREMENT PRIMARY RESEARCH` in `00_READY`.
+- The task compares owned, managed, self-hostable and split/hybrid measurement families with official primary sources,
+  privacy/minimization, offline/identity, failure, safe-TCO and clean-room-exit evidence.
+- Telemetry is explicitly non-authoritative and cannot replace technical truth, safety, approval, entitlement, recall or
+  protected audit.
+- No code, SDK integration, provider account/trial/plan/purchase, production KPI, ADR or gate transition.
