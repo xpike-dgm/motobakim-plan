@@ -16,6 +16,16 @@ Phase 4, 2026-09-17 tarihinde kullanicinin acik `tamamdir baslayalim` talimatiyl
 Internal Operations browser-based client formu `DEC-0021` ile user-approved working direction'dir. Bunun disindaki
 implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan `APPROVED/LOCKED` sayilmaz.
 
+## Active Topic
+
+- `DEBATE-014 — Analytics and Measurement Strategy`
+  - opened from the existing unresolved analytics/measurement scope by explicit user direction,
+  - requirements synthesis is complete at research-contract level,
+  - Drive `CTX-P4-014` is published and `TASK-002` is READY for official-primary research,
+  - research separates product analytics, operational analytics, observability and protected audit,
+  - four equal architecture families are required and missing evidence remains HELD,
+  - no provider/account/plan/code/SDK integration/final KPI/ADR or Gate 4 -> 5 transition.
+
 ## Most Recently Completed Topic
 
 - `DEBATE-013 — CMS and Controlled Publishing Mechanics`
