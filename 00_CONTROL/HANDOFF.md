@@ -283,6 +283,13 @@ Unless a newer explicit user decision changes the plan:
     replaceable; observability stays separate where feasible; split/hybrid is a conditional architecture shape with a
     smaller owned baseline fallback. No provider/account/plan/code/final KPI/ADR/gate transition is approved.
 
+31. The user approved the DEBATE-014 manager synthesis under `DEC-0044`. Canonical operational coverage/data-quality
+    metrics and protected evidence remain Kavriva-owned; product analytics stays optional, minimized, non-authoritative
+    and replaceable; observability stays separate/provider-neutral where feasible; split/hybrid is the reversible
+    Phase-4 architecture shape and the smaller owned measurement baseline is the fallback when evidence gates are not
+    met. No analytics/observability provider, account/plan, SDK integration, final KPI, legal conclusion, ADR or gate
+    transition is approved. No new Phase-4 topic is selected; do not invent or auto-open one.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
