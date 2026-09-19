@@ -53,10 +53,10 @@ These are not missing product-definition answers. They are controlled technology
 - `TSQ-007 ANSWERED AT DIRECTION LEVEL` — User approved DEBATE-005 under `DEC-0027`: federated release authorities,
   exact immutable promotion, independent verifier/trust-root controls, artifact-bound provenance/SBOM, scoped signing/
   deployment and one cross-domain compatibility/revocation graph. No OTA channel is approved; exact tiers/formats/providers remain open.
-- `TSQ-008 PARTIALLY ANSWERED / DEBATE-015 REVIEW PENDING` — `DEC-0029` establishes AI-operated delivery with a nontechnical product owner and no
+- `TSQ-008 PARTIALLY ANSWERED / DEBATE-015 CHANGES_REQUESTED` — `DEC-0029` establishes AI-operated delivery with a nontechnical product owner and no
   assumed human development team. `DEC-0031` freezes the corrected S1–S15 fixture and all five equivalent dossiers are
   complete. `DEC-0032` records direct Android access, borrowed-iPhone access, Android-first staged publication and a later
-  TRY 2,000–3,000/month non-store planning ceiling. TASK-003 primary research is delivered and REVIEW-005 is open; confirmed Mac access or an approved capped hosted-build route, final 12–24 month allocation and AI-operability/dependency closure remain unresolved until independent review and owner synthesis.
+  TRY 2,000–3,000/month non-store planning ceiling. TASK-003 primary research is delivered, but REVIEW-005 returned CHANGES_REQUESTED: all 64 Recovery owner fields need scenario/family-specific remediation, plus two narrow trace/lifecycle fixes. Confirmed Mac access or an approved capped hosted-build route, final 12–24 month allocation and AI-operability/dependency closure remain unresolved until remediation, fresh independent re-review and owner synthesis.
 - `TSQ-009 ANSWERED FOR COMPARISON / FINAL LIMITS OPEN` — Under `DEC-0031`, equal dossier constants are 12 MB compact
   transfer, separate optional media up to 150 MB, 25 MB cellular confirmation and 250 MB content cache. These are frozen
   comparison fixtures, not final production/commercial limits; final limits require later evidence.
