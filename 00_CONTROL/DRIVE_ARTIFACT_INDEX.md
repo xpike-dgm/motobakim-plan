@@ -26,9 +26,10 @@ Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
 ## DEBATE-014 / TASK-002
 
 - Context: https://docs.google.com/document/d/1zPSQDxR294-La4KJ8-m8eYbgPcn2jcTbFUIItk7Exe0
-- TASK-002 (READY): https://docs.google.com/document/d/1X5CVipIEI0vNVWUPZriuBDFGqe5F74FD3w3-wf17yYM
-
-Research report, handoff and independent review links are added only after those artifacts exist.
+- TASK-002 (REVIEW): https://docs.google.com/document/d/1X5CVipIEI0vNVWUPZriuBDFGqe5F74FD3w3-wf17yYM
+- Research report: https://docs.google.com/document/d/1LbtEfqYXNsWzTQb_UbhU-voXvNpZEU1QcxN9GNnSoX4
+- Handoff: https://docs.google.com/document/d/14Shhw8ov5MxFE7LPmrzXjtIzyMNs1LEhFrTJa4KDjN4
+- REVIEW-003 (OPEN): https://docs.google.com/document/d/15oaEH6Bp6jX5K3XNgjaHIIZRsR4uJF2BfIGf5RaYMZM
 
 ## Rule
 
