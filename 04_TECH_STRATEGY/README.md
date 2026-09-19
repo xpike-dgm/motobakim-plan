@@ -18,8 +18,10 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-No new Phase-4 topic is selected. Do not invent or auto-open one; the next topic must come from already-recorded
-unresolved scope and explicit owner selection.
+- `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
+  - selected from the already-recorded unresolved portion of `TSQ-008` by explicit owner instruction to choose the next topic,
+  - scope is limited to Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure,
+  - no research task, provider winner, account, plan, purchase, build, code, ADR or gate transition has been opened yet.
 
 ## Most Recently Completed Topic
 
