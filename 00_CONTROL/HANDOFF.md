@@ -308,6 +308,15 @@ Unless a newer explicit user decision changes the plan:
     safe TCO, failure behavior and clean-room exit. Do not close TASK-003 or synthesize a DEBATE-015 working direction
     before the independent verdict. No provider/account/plan/purchase/build/code/ADR/gate transition is approved.
 
+35. Independent REVIEW-005 returned CHANGES_REQUESTED for TASK-003: Critical none, Major M-1, two Minor
+    findings. M-1 requires all 64 Section-12 Recovery owner fields to identify scenario/family-specific recovery
+    authority instead of the two repeated boilerplate values. Minor m-1 corrects the clean-room trace pointer to
+    Section 11 + S13/S14. Minor m-2 adds the Codemagic Builds API developer-preview / may-change-without-advance-notice
+    caveat to C1/R27 while preserving autonomous/no-owner-debug recovery as HELD. Reviewer found no other material
+    current-claim error affecting feasibility or safe TCO. TASK-003 is now CHANGES_REQUESTED in Drive
+    `04_CHANGES_REQUESTED`; narrow remediation plus fresh independent re-review is next. No provider/build/account/
+    plan/purchase/final-budget/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
