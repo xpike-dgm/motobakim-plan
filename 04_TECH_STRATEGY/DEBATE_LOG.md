@@ -483,3 +483,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - No physical Mac/hosted-Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account, purchase, build, signing setup, final
   budget, ADR or Gate 4 -> 5 transition was approved.
 - No new Phase-4 topic was selected automatically.
+
+## DEBATE-016 AI / LLM / Provider Strategy Opened
+
+- Opened by explicit owner instruction from the remaining main Phase-4 scope and registered as `TSQ-018`.
+- Added `04_TECH_STRATEGY/DEBATES/DEBATE-016__AI_LLM_PROVIDER_REQUIREMENTS_SYNTHESIS.md`.
+- Created Drive `CTX-P4-016 — AI LLM PROVIDER AND MODEL STRATEGY`.
+- Created READY `TASK-004 — DEBATE-016 AI LLM PROVIDER PRIMARY RESEARCH`.
+- Research separates consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery
+  and non-AI authority.
+- Four equal provider operating-model families and 16 scenarios × four families = 64 substantive failure rows are
+  required, together with privacy/data handling, prompt-injection/tool boundaries, lifecycle/deprecation, normalized
+  safe TCO, eval/change detection, fallback divergence and clean-room provider/model exit.
+- No provider/model/plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition.
