@@ -41,6 +41,11 @@ Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
 - REVIEW-005 (CHANGES_REQUESTED / Major M-1 + two Minor): https://docs.google.com/document/d/1rsWC_6XxdFHo8xsTAFbjhIE2rNa5zUlyC3WhEW6qxLA
 - REVIEW-006 (PASS): https://docs.google.com/document/d/1i9sYwU7gS-7Dq-SPgJm4yznExwD6-gJ85GkPR5dMeTI
 
+## DEBATE-016 / TASK-004
+
+- Context: https://docs.google.com/document/d/136kZCNdBLwq3HKXqb66oXvkYxapthMAVAcD7GnokdrA
+- TASK-004 (READY): https://docs.google.com/document/d/1u4ehyRrHEbF8uYe3ot4RSGkTrfJsetgj5r4oRCyk96Y
+
 ## Rule
 
 Drive artifacts are evidence and work products. User-approved decisions must also be recorded in GitHub
