@@ -23,7 +23,8 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - TASK-004 primary research and HANDOFF-TASK-004 are delivered,
   - independent `REVIEW-007` returned `CHANGES_REQUESTED`: Critical none, three Major findings and one Minor,
   - remediation is complete: all 64 Evidence fields are now distinct and scenario/family-specific; the other seven fields show zero revision changes; Family-C privacy/retention, Bedrock lifecycle and Safe-TCO caveats are corrected,
-  - TASK-004 is back in REVIEW and `REVIEW-008` is open for fresh independent re-review,
+  - `REVIEW-008` returned `CHANGES_REQUESTED` with only residual M-1: seven Evidence rows need exact citation/provenance repair; M-2/M-3/m-1 are closed,
+  - TASK-004 is in Drive `04_CHANGES_REQUESTED`; remediation is Evidence-only and limited to those seven rows,
   - consumer AI Usta, bounded Internal Operations AI assistance, project/company AI-operated delivery and non-AI authority remain separated,
   - no provider/model/plan winner, account, code/integration, purchase, legal conclusion, ADR or gate transition is approved.
 
