@@ -842,3 +842,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - No analytics/observability provider, account/trial/plan/purchase, code/SDK integration, final KPI, legal conclusion,
   Phase-5 ADR or Gate 4 -> 5 transition was approved.
 - No new Phase-4 topic was auto-opened.
+
+### DEBATE-015 Selected from Existing TSQ-008 Scope
+- Selected the next Phase-4 topic from the already-recorded unresolved portion of `TSQ-008`.
+- Topic: Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure.
+- Scope is limited to confirmed Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure.
+- No research task, provider winner, account/plan/purchase, build, code, ADR or gate transition was opened.
