@@ -23,7 +23,8 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - requirements synthesis is complete at research-contract level,
   - Drive `CTX-P4-014` is published; primary research and HANDOFF-TASK-002 are delivered and TASK-002 is in REVIEW,
   - manager intake verified four equal families, two mechanisms per family, a 30-row official-primary source ledger and 16 × 4 = 64 failure rows with all eight required fields,
-  - structural intake is not PASS; independent `REVIEW-003` is open and must judge evidence sufficiency, privacy/safety boundaries, safe TCO and clean-room exit,
+  - independent `REVIEW-003` returned `CHANGES_REQUESTED`: no Critical/Minor findings and one Major M-1 limited to S15 clean-room replacement / Family D field substance; required official-source spot-checks found no material contradiction,
+  - TASK-002 is in `04_CHANGES_REQUESTED`; only the scoped S15-D remediation is pending before a fresh independent re-review,
   - research separates product analytics, operational analytics, observability and protected audit; missing evidence remains HELD,
   - no provider/account/plan/code/SDK integration/final KPI/ADR or Gate 4 -> 5 transition.
 
