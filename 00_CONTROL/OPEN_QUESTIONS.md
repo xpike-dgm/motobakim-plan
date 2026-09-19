@@ -110,11 +110,11 @@ These are not missing product-definition answers. They are controlled technology
   approval, immutable release, recall/suspension, package eligibility and final publication authority. Exact optional
   CMS/provider, account, plan, trial, purchase, implementation and ADR remain open.
 
-- `TSQ-017 OPEN / USER DECISION PENDING` — What minimum analytics/measurement strategy should Kavriva carry into later architecture without turning telemetry into product authority? DEBATE-014 research is complete. REVIEW-003 found one Major M-1 in S15 / Family D; AI-001 remediated it narrowly and REVIEW-004 returned PASS with no Critical, Major or Minor findings. TASK-002 is DONE. Manager synthesis proposes Kavriva-owned canonical operational metrics and protected evidence, optional/minimized/replaceable product analytics, separate/provider-neutral observability where feasible, a conditional split/hybrid architecture boundary, and a smaller owned baseline fallback when evidence gates are not met. Unsupported identity/deletion/derived-object/mobile-instrumentation portability remains HELD. No provider, account, plan, code, production KPI, ADR or gate transition is approved.
+- `TSQ-017 ANSWERED AT WORKING-DIRECTION LEVEL` — Under `DEC-0044`, Kavriva keeps canonical operational coverage/data-quality metrics and protected evidence outside product analytics; product analytics remains optional, minimized, non-authoritative and replaceable; observability remains separate/provider-neutral where feasible; split/hybrid is the reversible Phase-4 architecture shape, with a smaller Kavriva-owned measurement baseline fallback when privacy, cost, offline, owner-operability or clean-exit evidence gates are not met. Unsupported cross-provider identity/deletion-state/derived-object/mobile-instrumentation portability remains HELD. Exact provider/account/plan, event schema, SDK integration, final KPI, legal conclusion, real clean-exit proof and ADR remain open.
 
 Current status: `TSQ-002`–`TSQ-005` have user-approved direction-level answers where applicable. Remaining narrower
 questions and `TSQ-008`–`TSQ-009` stay open; TSQ-010–`TSQ-015` are answered at direction level while narrower
-implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open. `TSQ-017` is OPEN; research/review is complete and the manager working-direction proposal awaits explicit owner decision under DEBATE-014.
+implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open. `TSQ-017` is ANSWERED at working-direction level under `DEC-0044`; narrower provider/implementation/evidence questions remain open.
 
 ---
 
