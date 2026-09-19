@@ -352,6 +352,18 @@ Unless a newer explicit user decision changes the plan:
     safe TCO, eval/change detection, fallback divergence and clean-room exit. No provider/model/plan winner, account,
     code/integration, purchase, legal conclusion, ADR or Gate 4 -> 5 transition is approved.
 
+41. TASK-004 primary research and HANDOFF-TASK-004 are delivered. Manager intake verified TASK-004 is
+    REVIEW in Drive `03_REVIEW`, research/handoff are in their required folders, exactly 64 S01-S16 family rows exist,
+    all eight mandatory fields occur for all 64 rows, and Recovery owner has 64 distinct scenario/family-specific
+    values. Consumer AI Usta, bounded Internal Operations AI, project/company AI-operated delivery and non-AI authority
+    remain separated. This was structural intake, not substantive PASS.
+
+42. `REVIEW-007 — TASK-004 INDEPENDENT REVIEW` is open in Drive `05_REVIEWS` for a fresh external reviewer. It must
+    adversarially re-check current official provider/model claims, privacy/data handling, prompt-injection/tool
+    boundaries, equal-family treatment, safe TCO, lifecycle/deprecation, fallback divergence, eval/change detection and
+    clean-room exit. Do not close TASK-004 or synthesize DEBATE-016 before the independent verdict. No provider/model/
+    plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
