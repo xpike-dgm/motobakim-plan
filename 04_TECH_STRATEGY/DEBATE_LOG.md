@@ -417,3 +417,17 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   toolchain lifecycle, no-owner-debug AI-operability, 12/24-month safe TCO and clean-room exit.
 - No code, CI config, build, signing setup, account/trial/plan/purchase, store submission, provider winner, ADR or gate
   transition was authorized.
+
+## TASK-003 Research Delivered / REVIEW-005 Opened
+
+- Verified Drive TASK-003 is `REVIEW` in `03_REVIEW`; the primary research is in `04_RESEARCH_INBOX` and
+  HANDOFF-TASK-003 is in `07_HANDOFFS`.
+- Manager structural intake counted exactly 64 S01-S16 family entries and 64 occurrences of each mandatory field:
+  expected state, safe hold, evidence, recovery owner, next action, security/signing impact, cost impact and exit impact.
+- The report preserves borrowed-iPhone != Mac/Xcode access, Android-first continuity, iOS/Mac HELD, no-provider-winner
+  discipline and a conditional Family-D operating-model hypothesis only.
+- Created `REVIEW-005 — TASK-003 INDEPENDENT REVIEW` in Drive `05_REVIEWS`.
+- REVIEW-005 must re-check material current claims against official/primary sources and adversarially inspect equal-family
+  treatment, signing/key custody, AI-operability/no-owner-debug behavior, 12/24-month safe TCO, outage/quota/billing,
+  toolchain lifecycle and clean-room exit.
+- Structural intake is not substantive PASS. No provider/account/plan/purchase/build/signing setup/code/ADR/gate change.
