@@ -373,6 +373,19 @@ Unless a newer explicit user decision changes the plan:
     fresh independent re-review is next. No provider/model/plan winner, account/trial/purchase, code/integration, final
     legal/privacy conclusion, ADR or gate transition is approved.
 
+44. REVIEW-007 remediation is complete and manager readback verified the narrow scope. Drive revision
+    6 -> 8 comparison shows all 64 Evidence fields changed to 64 distinct scenario/family-specific values, with zero
+    changes to expected state, safe hold, recovery owner, next action, security/privacy/authority impact,
+    cost/latency impact and exit/fallback impact. Family-C Bedrock/Foundry privacy evidence, Bedrock lifecycle evidence
+    and Safe-TCO caveats are corrected and current official-source spot-check supports them. TASK-004 is back to REVIEW
+    in Drive `03_REVIEW`; no self-PASS was issued.
+
+45. `REVIEW-008 — TASK-004 REVIEW-007 REMEDIATION RE-REVIEW` is open in Drive `05_REVIEWS` for a fresh independent
+    reviewer. It must inspect all 64 Evidence fields, verify zero regression in the other seven fields, re-check M-2/M-3/
+    m-1 against current official sources and preserve all AI/non-AI authority, HELD and Family-D conditional boundaries.
+    Do not close TASK-004 or synthesize DEBATE-016 before the verdict. No provider/model/plan winner, account/trial/
+    purchase, code/integration, legal conclusion, ADR or gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
