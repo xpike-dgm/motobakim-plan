@@ -317,6 +317,18 @@ Unless a newer explicit user decision changes the plan:
     `04_CHANGES_REQUESTED`; narrow remediation plus fresh independent re-review is next. No provider/build/account/
     plan/purchase/final-budget/ADR/gate transition is approved.
 
+36. REVIEW-005 remediation is complete and manager readback verified the narrow scope. Drive revision
+    comparison shows all 64 Recovery owner fields changed to 64 distinct scenario/family-specific values, with zero
+    changes to expected state, safe hold, evidence, next action, security/signing impact, cost impact and exit impact.
+    Section 2 now points clean-room exit to Section 11 + S13/S14; C1/R27 now include the official Codemagic Builds API
+    developer-preview / may-change-without-advance-notice caveat while autonomous/no-owner-debug recovery remains HELD.
+    TASK-003 is back to REVIEW in Drive `03_REVIEW`; no self-PASS was issued.
+
+37. `REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` is open in Drive `05_REVIEWS` for a fresh independent
+    reviewer. It must inspect all 64 Recovery owner fields, verify zero regression in the other seven fields, confirm
+    both Minor fixes and preserve all HELD, safe-TCO and Family-D conditional boundaries. Do not close TASK-003 or
+    synthesize DEBATE-015 before the verdict. No provider/build/account/plan/purchase/final-budget/ADR/gate transition.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
