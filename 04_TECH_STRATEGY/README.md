@@ -19,14 +19,13 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 ## Active Topic
 
 - `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
-  - selected from the already-recorded unresolved portion of `TSQ-008` by explicit owner instruction to choose the next topic,
-  - scope is limited to Mac/iOS build access or capped hosted-build alternative, Android-first/iOS-later release operability, 12–24 month non-store cost allocation and final AI-operability/dependency closure,
-  - TASK-003 primary research and HANDOFF-TASK-003 are delivered,
-  - independent `REVIEW-005` returned `CHANGES_REQUESTED`: no Critical, Major M-1 across all 64 Recovery owner fields, plus two narrow Minor findings,
-  - remediation is complete: all 64 Recovery owner fields are now distinct and scenario/family-specific; the other seven fields show zero revision changes; the trace pointer and Codemagic preview caveat are corrected,
-  - TASK-003 is back in REVIEW and `REVIEW-006` is open for fresh independent re-review,
-  - Mac/Xcode execution and real Kavriva build/signing/no-owner-debug/clean-room proof remain HELD,
-  - no provider winner, account, plan, purchase, build, signing setup, code, ADR or gate transition is approved.
+  - TASK-003 official-primary research and independent review are complete,
+  - REVIEW-005 returned CHANGES_REQUESTED with one Major M-1 across all 64 Recovery owner fields plus two Minor findings; remediation was narrow and revision-verified,
+  - REVIEW-006 returned PASS with no Critical, Major or Minor findings and confirmed no regression,
+  - TASK-003 is DONE in Drive `06_DONE`,
+  - manager synthesis proposes Android-first continuity, a split/hybrid operating boundary and iOS/macOS activation remaining HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven,
+  - explicit user decision is pending,
+  - no Mac/CI/hosted-build provider winner, account, plan, purchase, build, signing setup, code, final budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
