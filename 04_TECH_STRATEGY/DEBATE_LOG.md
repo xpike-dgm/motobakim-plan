@@ -458,3 +458,16 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   `03_REVIEW`. No self-PASS was issued.
 - Created `REVIEW-006 — TASK-003 REVIEW-005 REMEDIATION RE-REVIEW` for fresh independent closure/regression review.
 - No provider/family/plan winner, account/plan/purchase, build/signing setup, code, final budget, ADR or gate transition.
+
+## REVIEW-006 PASS / TASK-003 Closed / Manager Synthesis Ready
+
+- Independent REVIEW-006 returned PASS with no Critical, Major or Minor findings.
+- REVIEW-005 Major M-1 and both Minor findings are fully remediated; all 64 Recovery owner fields are substantive and
+  the other seven failure-row fields show zero remediation regression.
+- Manager readback closed TASK-003 as DONE in Drive 06_DONE.
+- Added DEBATE-015 manager synthesis as a Phase-4 working-direction proposal awaiting explicit owner decision.
+- Proposal preserves Android-first continuity, uses a split/hybrid boundary to contain macOS/iOS cost and failure domains,
+  and keeps iOS activation HELD until real Mac/Xcode access, signing custody, provider-neutral provenance,
+  no-owner-debug recovery and clean-room rebuild are proven.
+- No Mac/hosted-build/CI/mobile-CI provider, plan, account, purchase, build, signing setup, final budget, ADR or gate
+  transition was approved.
