@@ -114,7 +114,7 @@ These are not missing product-definition answers. They are controlled technology
 
 Current status: `TSQ-002`–`TSQ-005` have user-approved direction-level answers where applicable. Remaining narrower
 questions and `TSQ-008`–`TSQ-009` stay open; TSQ-010–`TSQ-015` are answered at direction level while narrower
-implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open.
+implementation evidence remains open. `TSQ-016` is answered at working-direction level; exact product evidence remains open. `TSQ-017` is OPEN and active under DEBATE-014.
 
 ---
 
