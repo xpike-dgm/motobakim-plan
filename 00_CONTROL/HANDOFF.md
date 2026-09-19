@@ -364,6 +364,15 @@ Unless a newer explicit user decision changes the plan:
     clean-room exit. Do not close TASK-004 or synthesize DEBATE-016 before the independent verdict. No provider/model/
     plan winner, account/trial/purchase, code/integration, legal conclusion, ADR or gate transition is approved.
 
+43. Independent REVIEW-007 returned CHANGES_REQUESTED for TASK-004: Critical none, Major M-1/M-2/M-3 and
+    Minor m-1. M-1 requires all 64 Section-17 Evidence fields to become scenario/family-specific instead of 12 repeated
+    blocks. M-2 corrects Family-C Bedrock retention and Microsoft Foundry Claude hosting/data-processing privacy
+    evidence. M-3 adds the current/legacy Bedrock lifecycle policy split. Minor m-1 adds GPT-5.6 Sol promotional-pricing
+    and Anthropic Claude 4.6+ US-only inference pricing caveats. Manager official-source spot-check confirmed the
+    current-fact basis. TASK-004 is now CHANGES_REQUESTED in Drive `04_CHANGES_REQUESTED`; narrow remediation plus
+    fresh independent re-review is next. No provider/model/plan winner, account/trial/purchase, code/integration, final
+    legal/privacy conclusion, ADR or gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
