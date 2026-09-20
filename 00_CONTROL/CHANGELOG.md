@@ -1029,3 +1029,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Structural intake verified 64/64 rows and 12/12 fields per row.
 - Research keeps CON-005 and proposes Family D hybrid with provisional design targets; hard caps remain HELD.
 - Opened REVIEW-011 for fresh independent review.
+
+### REVIEW-011 CHANGES_REQUESTED
+- 64/64 rows and 12/12 mandatory fields passed structural review.
+- CON-005 passed with no cellular/roaming/MB-threshold confirmation regression.
+- Open findings: M-1 content-class/package mapping; M-2 numeric selection derivation; m-1 Android Auto Backup 25 MB quota caveat.
+- Narrow remediation required; TASK-006 remains REVIEW.
