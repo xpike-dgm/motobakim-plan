@@ -456,6 +456,12 @@ Unless a newer explicit user decision changes the plan:
     package/media/cache limits plus automatic prioritization/retry/storage/cost controls remain open. No TSQ-009 task has
     been opened yet; wait for explicit owner start instruction.
 
+55. Owner explicitly started TSQ-009. DEBATE-017 is ACTIVE with `CTX-P4-018` and READY `TASK-006`.
+    Binding `CON-005`: no cellular/mobile-data or byte-threshold download confirmation gate; the historical 25 MB
+    confirmation fixture must not be restored as final product behavior. Research must determine package/media/cache
+    limits, automatic transfer/retry/low-storage/eviction/TCO and exceptions across four policy families with 16 failure
+    scenarios. No final numeric limit/provider/code/purchase/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
