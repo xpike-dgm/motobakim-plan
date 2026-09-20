@@ -56,3 +56,8 @@ Status: `ACTIVE / GITHUB POINTER TO DRIVE EVIDENCE`
 Drive artifacts are evidence and work products. User-approved decisions must also be recorded in GitHub
 `DECISION_LOG.md` and the relevant phase synthesis before they become persistent project direction.
 
+## DEBATE-016 / Jev Addendum / TASK-005
+
+- Context: https://docs.google.com/document/d/1fCvDU8C0cylNREyC9iO_TNBJRtQp9r0S9EAQhmudflo
+- TASK-005 (READY): https://docs.google.com/document/d/1odbnn6eb8ZgH_gj6DDdlFhkddzCdQluKVSqhiij1o8U
+
