@@ -165,6 +165,8 @@ DEBATE-016 — AI / LLM / Provider Strategy — is user-approved at Phase-4 work
 
 TSQ-009 owner constraint update — `CON-005`: required Kavriva content/download flows must not ask the user for a cellular/mobile-data confirmation based on network type or byte threshold. Required content should continue over mobile data without an extra prompt. The historical 25 MB cellular-confirmation value remains comparison evidence only and is not a candidate final product behavior. Final package/media/cache sizes and internal automatic download/storage/cost controls remain open.
 
+DEBATE-017 / TSQ-009 production download/storage limits research is ACTIVE. `CTX-P4-018` and READY `TASK-006` are published. Research compares four policy families, numeric sensitivity for package/media/cache limits, automatic cellular behavior under CON-005, low-storage/eviction/retry/TCO and 16 failure scenarios. No final numeric limit, provider, code, purchase or ADR is approved.
+
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
 - `DEC-0041` permits the same canonical research/review prompt to be sent to multiple external AIs simultaneously;
