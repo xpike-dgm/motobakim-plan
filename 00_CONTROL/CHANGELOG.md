@@ -1002,3 +1002,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Updated DEBATE-016 synthesis to the owner-facing architecture: cheap/fast adequate model by default, AI clarification,
   neutral decision/routing layer, deterministic Kavriva final validation, stronger models only when necessary.
 - Explicit owner approval remains pending before DEC-0046.
+
+### DEC-0046 Approved / DEBATE-016 Closed
+- Owner explicitly approved the final AI/LLM working direction.
+- Recorded DEC-0046.
+- Closed DEBATE-016 at Phase-4 working-direction level after REVIEW-009 and REVIEW-010 PASS.
+- Approved cheapest/fastest adequate model by default, clarification by AI, neutral decision/routing layer, deterministic Kavriva final validation, stronger models only when needed, and Jev optional-later only.
+- No provider/model/plan/account/purchase/integration/final legal/privacy conclusion/final budget/ADR/Gate 4 -> 5.
+- NEXT_ACTION now points to recorded open TSQ-009 final production limits, pending explicit owner start instruction.
