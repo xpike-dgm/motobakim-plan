@@ -12,6 +12,7 @@ Bu dosya, degistirilmesi zor veya proje boyunca korunmasi gereken yuksek seviye 
 | CON-002 | Teknik degerler ve motosiklete ozel bilgiler uydurulamaz; urun dogrulanmis/guvenilir bilgi hedefini korumalidir. | USER | CONFIRMED | `Dogrulanmis bilgi` standardinin kaynagi ve seviyesi henuz tanimli degildir. |
 | CON-003 | Rehber deneyimi, ilgili risk ve guvenlik uyarilarini kullanicidan saklamamalidir. | USER | CONFIRMED | Uyari seviyeleri ve durdurma kosullari discovery/sonraki guvenlik planlamasinda netlesecek. |
 | CON-004 | Urunun ana rehber deneyimi, hic bilmeyen veya az deneyimli bir kullanicinin neyi neden yaptigini anlayabilecegi aciklik hedefini korumalidir. | USER | CONFIRMED | Bu hedef her islem turunun gercekte tek basina yapilabilir oldugu anlamina gelmez. |
+| CON-005 | Required Kavriva content/download flows must not ask the user for a cellular/mobile-data confirmation based on network type or byte threshold; required content should continue over mobile data without an extra prompt. | USER | CONFIRMED | This overrides the historical 25 MB cellular-confirmation comparison fixture for future product direction. Internal download prioritization, retry, storage and cost controls may exist, but they must not turn into a user confirmation gate solely because transport is cellular. |
 
 ## Classification Note
 
