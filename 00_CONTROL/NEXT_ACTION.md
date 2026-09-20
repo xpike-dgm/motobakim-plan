@@ -28,7 +28,11 @@ No provider/model/plan, account, purchase, integration, final legal/privacy conc
 
 `TSQ-009 — final production limits and exceptions policy`
 
-Current known values — 12 MB compact transfer, up to 150 MB optional media, 25 MB cellular confirmation and 250 MB content cache — are comparison fixtures only, not final production/commercial limits.
+Current known values — 12 MB compact transfer, up to 150 MB optional media, 25 MB cellular confirmation and 250 MB content cache — are historical comparison fixtures only, not final production/commercial limits.
+
+Owner constraint `CON-005` is already binding for the future product direction: **do not ask the user for download confirmation merely because the connection is cellular/mobile data or because a byte threshold is crossed; required content should continue over mobile data without that extra prompt.** The old 25 MB confirmation fixture must not be promoted into the final policy.
+
+TSQ-009 therefore needs to decide the remaining package/media/cache limits plus automatic prioritization, retry, storage and cost controls without introducing a cellular confirmation gate.
 
 Do not open a new research task or debate until the owner explicitly instructs the project to start this item.
 
