@@ -19,18 +19,13 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 ## Active Topic
 
 - `DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy`
-  - closes remaining TSQ-009 production-limit policy,
-  - owner explicitly started the topic,
-  - binding `CON-005`: no cellular/mobile-data or byte-threshold confirmation gate,
-  - historical 12 MB / 150 MB / 25 MB / 250 MB values remain comparison fixtures only,
-  - four policy families and numeric sensitivity must be compared equally,
-  - TASK-006 research is delivered with 4 equal families and 64 failure rows; TASK-006 is in REVIEW,
-  - research proposes Family D hybrid with ≤25 MB compact target, ≤100 MB required-media target, 500 MB normal soft cache and up to 1 GB opportunistic cache; hard caps and real-device proof remain HELD,
-  - REVIEW-011 returned CHANGES_REQUESTED on M-1/M-2/m-1; narrow remediation is now delivered,
-  - required safety media is defined as a subset of required compact core; exact MB/GB/% values are downgraded to HELD candidate sensitivity points; Android Auto Backup 25 MB quota caveat is added,
-  - manager revision diff found S03-D and S14-D also changed to propagate the M-1 rule; REVIEW-012 is OPEN to verify closure and regression/scope discipline,
-  - CON-005, 64/64 row structure, platform-mechanism direction, safety/truth invariants and TCO framing remain passed unless remediation directly regressed them,
-  - no final package/media/cache limit, provider, code, purchase, budget, ADR or gate transition is approved.
+  - TASK-006 research and REVIEW-011 remediation are complete,
+  - REVIEW-012 returned PASS with no Critical, Major or Minor findings,
+  - TASK-006 is DONE,
+  - final manager synthesis proposes qualitative Family D: complete verified required compact core, required safety media nested inside that core, only safety-nonrequired media on-demand, adaptive eviction of disposable/refetchable content, and CON-005 confirmation-free required transfer,
+  - exact MB/GB/% production limits remain HELD pending real corpus/device evidence,
+  - explicit owner approval is pending,
+  - no provider, account, purchase, code, device proof, budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
