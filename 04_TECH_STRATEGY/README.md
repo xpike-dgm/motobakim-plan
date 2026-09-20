@@ -26,7 +26,8 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - TASK-004 is DONE in Drive `06_DONE`,
   - manager synthesis proposes a Family-D-shaped authority split: deterministic/canonical systems remain primary authority; bounded managed AI operates behind a Kavriva-owned boundary; high-risk ambiguity/divergence safe-holds; multi-provider and open-weight/local paths remain optional evidence-driven extensions,
   - before approval, the owner requested a Jev-specific addendum: TypeSafe AI Jev must be evaluated for routing/classification/triage/scoring fit versus deterministic rules and normal LLM structured output,
-  - `CTX-P4-017` and READY `TASK-005 — DEBATE-016 JEV FIT PRIMARY RESEARCH` are published; final DEBATE-016 owner decision is paused until this addendum is independently reviewed,
+  - TASK-005 Jev research is delivered with owner-facing conclusion `KEEP AS OPTIONAL LATER`; TASK-005 is in REVIEW and `REVIEW-010` is open,
+  - owner preference is no Jev now, but a provider/model-neutral decision boundary so Jev-like bounded decision models can be added later without redesign; this optionality must not add Jev-specific first-release dependencies,
   - no Jev/provider/model/plan winner, account, code/integration, purchase, final legal/privacy conclusion, final budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
