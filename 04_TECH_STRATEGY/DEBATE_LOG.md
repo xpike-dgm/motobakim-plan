@@ -640,3 +640,13 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   - Jev not used now; Jev-like bounded decision models remain optional later if measured low-risk value justifies them.
 - No provider/model/plan winner, account, purchase, integration, final legal/privacy conclusion, final budget, ADR or Gate 4 -> 5 transition.
 - Next recorded unresolved Phase-4 item is TSQ-009 final production limits; no new task is opened without owner instruction.
+
+## DEBATE-017 Opened — TSQ-009 Production Limits
+
+- Owner explicitly instructed the project to start TSQ-009.
+- Added `DEBATE-017__PRODUCTION_DOWNLOAD_STORAGE_LIMITS_REQUIREMENTS.md`.
+- Created Drive `CTX-P4-018 — PRODUCTION DOWNLOAD STORAGE LIMITS AND AUTO-TRANSFER POLICY`.
+- Created READY `TASK-006 — DEBATE-017 PRODUCTION DOWNLOAD STORAGE LIMITS PRIMARY RESEARCH`.
+- Binding CON-005 removes cellular/byte-threshold confirmation from future product policy.
+- Research compares four policy families, numeric sensitivity, automatic transfer/retry/eviction/low-storage/TCO and 16 failure scenarios.
+- No final numeric policy, provider, code, account, purchase, ADR or Gate 4 -> 5 transition.
