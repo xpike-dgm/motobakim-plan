@@ -486,6 +486,15 @@ Unless a newer explicit user decision changes the plan:
     M-1 rule; REVIEW-012 is OPEN to judge whether those are necessary regression-free consistency fixes. CON-005 remains
     binding. Do not close TASK-006 or finalize TSQ-009 before REVIEW-012.
 
+59. REVIEW-012 returned PASS with no Critical, Major or Minor findings. REVIEW-011 M-1/M-2/m-1 are closed
+    and the revision-13 -> revision-15 remediation introduced no material regression. TASK-006 is manager-closed DONE
+    and moved to Drive 06_DONE. Final DEBATE-017 manager synthesis proposes qualitative Family D only: one verified
+    required compact core containing the full required-safety-media subset; only safety-nonrequired media may be
+    on-demand; adaptive storage/eviction removes disposable/refetchable content before active/durable/protected truth;
+    CON-005 keeps required transfer confirmation-free over cellular/roaming/byte thresholds. Exact MB/GB/% production
+    limits remain HELD pending real corpus/device evidence. Explicit owner approval is required before recording the
+    next Phase-4 decision. No provider/account/purchase/code/device proof/final budget/ADR/gate transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
