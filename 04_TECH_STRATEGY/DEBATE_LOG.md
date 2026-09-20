@@ -590,3 +590,14 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   optional evidence-driven extensions.
 - No provider/model/plan, account/trial/purchase, production prompt/tool schema/agent workflow, integration, final
   legal/privacy conclusion, final budget, ADR or gate transition was approved.
+
+## DEBATE-016 Jev Fit Addendum Opened
+
+- Before approving the pending DEBATE-016 manager synthesis, the owner requested evaluation of newly released TypeSafe AI Jev.
+- Added `DEBATE-016__JEV_FIT_REQUIREMENTS_ADDENDUM.md`.
+- Created Drive `CTX-P4-017 — JEV KAVRIVA FIT AND DECISION-LAYER RESEARCH`.
+- Created READY `TASK-005 — DEBATE-016 JEV FIT PRIMARY RESEARCH`.
+- Research tests Jev as a decision/routing/classification/triage/scoring layer against deterministic rules, normal managed
+  LLM structured output and a hybrid LLM + Jev + deterministic-authority shape.
+- Existing DEBATE-016 non-AI authority boundaries remain binding and are not reopened.
+- No TypeSafe account/waitlist/API key/credits/trial/payment/live API call/benchmark/code/integration/adoption decision.
