@@ -439,6 +439,16 @@ Unless a newer explicit user decision changes the plan:
     approval is still required before DEC-0046. No provider/model/plan/account/purchase/integration/ADR/gate transition
     is approved.
 
+53. The owner explicitly approved the final DEBATE-016 AI/LLM manager synthesis. `DEC-0046` is now the
+    canonical Phase-4 working direction: cheapest/fastest adequate conversational model by default; AI may ask
+    clarification questions; a Kavriva-owned provider/model-neutral bounded decision layer may propose route/guide
+    candidates; deterministic/canonical Kavriva systems retain final motorcycle-context, guide eligibility,
+    source/provenance, safety and authority checks; stronger/more expensive models only when needed. Jev is not used now
+    and creates no first-release dependency; Jev-like bounded decision models may be evaluated later only if measured
+    low-risk benefit justifies them. No provider/model/plan/account/purchase/integration/final legal or budget
+    commitment/ADR/gate transition is approved. DEBATE-016 is closed at Phase-4 working-direction level. Next recorded
+    unresolved item is TSQ-009 final production limits; wait for explicit owner instruction before opening new work.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
