@@ -57,9 +57,7 @@ These are not missing product-definition answers. They are controlled technology
   assumed human development team. `DEC-0031` freezes the corrected S1–S15 fixture and all five equivalent dossiers are
   complete. `DEC-0032` records direct Android access, borrowed-iPhone access, Android-first staged publication and a later
   TRY 2,000–3,000/month non-store planning ceiling. Under `DEC-0045`, Android release continuity remains active and independent of iOS/macOS readiness; split/hybrid is the approved reversible Phase-4 operating shape; iOS/macOS activation remains HELD until real Mac/Xcode access, signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven. No Mac/CI/hosted-build provider, plan or purchase is selected. Narrow activation/provider/implementation evidence remains open.
-- `TSQ-009 ANSWERED FOR COMPARISON / FINAL LIMITS OPEN` — Under `DEC-0031`, equal dossier constants are 12 MB compact
-  transfer, separate optional media up to 150 MB, 25 MB cellular confirmation and 250 MB content cache. These are frozen
-  comparison fixtures, not final production/commercial limits; final limits require later evidence.
+- `TSQ-009 ANSWERED FOR COMPARISON / FINAL LIMITS OPEN` — Under `DEC-0031`, equal dossier constants were 12 MB compact transfer, separate optional media up to 150 MB, 25 MB cellular confirmation and 250 MB content cache. These remain historical comparison fixtures only. New binding owner constraint `CON-005` supersedes the 25 MB confirmation behavior for future product direction: required downloads must not ask for confirmation merely because the connection is cellular/mobile data or because a byte threshold is crossed. Final package/media/cache limits and internal automatic download/storage/cost policy still require later evidence.
 - `TSQ-010 ANSWERED AT WORKING-DIRECTION LEVEL` — The data backbone will use canonical transactional
   authority per domain, server/API-mediated sensitive access, online-authoritative Internal Operations, bounded closed
   mobile offline packages, separate history/audit/object planes and cross-plane tested recovery/exit? DEBATE-007 research,
