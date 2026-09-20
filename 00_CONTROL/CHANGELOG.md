@@ -978,3 +978,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Proposal keeps deterministic/canonical authority outside AI, allows bounded managed AI behind a Kavriva-owned boundary,
   safe-holds high-risk ambiguity/divergence, and defers multi-provider/open-weight/local complexity until evidence justifies it.
 - No provider/model/plan, account/trial/purchase, implementation/integration, final legal/privacy conclusion, final budget, ADR or Gate 4 -> 5 transition.
+
+### DEBATE-016 Jev Fit Addendum Research Opened
+- Owner requested evaluation of TypeSafe AI Jev before approving the pending AI/LLM manager synthesis.
+- Added `DEBATE-016__JEV_FIT_REQUIREMENTS_ADDENDUM.md`.
+- Created `CTX-P4-017 — JEV KAVRIVA FIT AND DECISION-LAYER RESEARCH`.
+- Created READY `TASK-005 — DEBATE-016 JEV FIT PRIMARY RESEARCH`.
+- Research will test exact Kavriva fit, non-fit, privacy/data, accuracy/calibration claims, early-access/lifecycle,
+  pricing sustainability, outage/billing and clean-exit risk.
+- DEBATE-016 owner approval is paused until TASK-005 receives fresh independent review.
+- No TypeSafe account/waitlist/API key/credits/trial/payment/live call/benchmark/code/integration/adoption decision.
