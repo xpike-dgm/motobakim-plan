@@ -1016,3 +1016,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Required content should continue over mobile data without that extra prompt.
 - Historical 25 MB cellular-confirmation value remains a comparison fixture only and is superseded for future product direction.
 - TSQ-009 still needs final package/media/cache limits and internal automatic download/storage/cost policy; no new task opened yet.
+
+### DEBATE-017 / TASK-006 Opened
+- Owner started TSQ-009 final production download/storage policy work.
+- Added DEBATE-017 requirements.
+- Created CTX-P4-018 and READY TASK-006.
+- CON-005 is binding: no network/byte-threshold confirmation gate.
+- Four policy families, numeric sensitivity and 16 mandatory failure scenarios are required.
