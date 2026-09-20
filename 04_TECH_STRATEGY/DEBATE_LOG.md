@@ -659,3 +659,12 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Research proposes Family D hybrid; ≤25 MB compact design target; ≤100 MB required-media target; 500 MB normal soft cache; up to 1 GB opportunistic cache. Hard caps and real-device proof remain HELD.
 - Created `REVIEW-011 — TASK-006 PRODUCTION DOWNLOAD STORAGE LIMITS INDEPENDENT REVIEW`.
 - No final numeric policy, provider, account, purchase, code, ADR or Gate 4 -> 5 transition.
+
+## REVIEW-011 — CHANGES_REQUESTED
+
+- Independent review checked all 64 failure rows and 12/12 fields per row.
+- CON-005 passed; no cellular/mobile-data, roaming or byte-threshold confirmation was reintroduced.
+- Major M-1: required compact core vs required safety media vs active-task complete package needs one authoritative composition/eligibility mapping.
+- Major M-2: proposed 25/100/500 MB, 1 GB and 20/10/5% policy values need a selection trace against adjacent sensitivity points or must be downgraded to HELD/candidate.
+- Minor m-1: Android Auto Backup file-based 25 MB per-app-user quota caveat is missing from A6/S15 restore evidence.
+- Remediation scope is narrow; do not reopen passed family/row structure, CON-005, safety/truth invariants, platform main mechanisms or TCO framing unless directly regressed.
