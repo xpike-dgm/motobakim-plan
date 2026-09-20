@@ -1042,3 +1042,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - m-1 Android Auto Backup 25 MB quota caveat added.
 - Revision diff found S03-D and S14-D also changed for M-1 consistency; REVIEW-012 will test scope/regression.
 - TASK-006 remains REVIEW; no final numeric production policy is approved.
+
+### REVIEW-012 PASS / TASK-006 Closed
+- REVIEW-012 returned PASS with no findings.
+- REVIEW-011 M-1/M-2/m-1 closed with no material regression.
+- TASK-006 moved to DONE.
+- Added DEBATE-017 manager synthesis with qualitative Family D direction only.
+- Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
+- Explicit owner approval is pending before the next decision record.
