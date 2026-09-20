@@ -415,6 +415,14 @@ Unless a newer explicit user decision changes the plan:
     purchase, production prompt/tool schema/agent workflow, integration, final legal/privacy conclusion, final budget,
     ADR or Gate 4 -> 5 transition is approved.
 
+50. Before approving the pending DEBATE-016 manager synthesis, the owner requested a Kavriva-specific
+    investigation of newly released TypeSafe AI Jev. Added the Jev fit requirements addendum, Drive CTX-P4-017 and
+    READY TASK-005. The research must compare Jev decision/routing/classification/triage/scoring uses against
+    deterministic rules, normal managed-LLM structured output and a hybrid LLM+Jev+deterministic-authority shape.
+    Existing AI/non-AI authority boundaries remain binding. Final DEBATE-016 owner decision is paused until this addendum
+    is independently reviewed. No TypeSafe account/waitlist/API key/credits/trial/payment/live API call/benchmark/code/
+    integration/provider adoption is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
