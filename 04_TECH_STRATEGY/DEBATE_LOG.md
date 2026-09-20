@@ -676,3 +676,17 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - m-1 remediation: Android Auto Backup 25 MB file-based per-app-user quota caveat is added and separated from Kavriva download/cache/core limits.
 - Revision comparison shows all 64 rows remain; intended S01/S02/S07/S08/S15 rows changed, plus S03-D and S14-D were also changed to propagate the M-1 rule. REVIEW-012 must determine whether these extra changes are necessary and regression-free.
 - REVIEW-012 is OPEN. TASK-006 remains REVIEW. No final numeric policy/provider/code/purchase/ADR/gate transition is approved.
+
+## REVIEW-012 PASS / TASK-006 Closed / Final DEBATE-017 Synthesis Ready
+
+- REVIEW-012 returned PASS with no Critical, Major or Minor findings.
+- REVIEW-011 M-1/M-2/m-1 are closed and remediation introduced no material regression.
+- TASK-006 is manager-closed DONE and moved to Drive 06_DONE.
+- Final synthesis proposes qualitative Family D:
+  - one complete verified required compact core;
+  - required safety media nested inside the core, not an additive allowance;
+  - only safety-nonrequired media may be on-demand;
+  - adaptive storage/eviction removes disposable/refetchable content before active/durable/protected truth;
+  - CON-005 keeps required transfer confirmation-free over cellular/roaming/byte thresholds.
+- Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
+- Explicit owner approval is required before a new decision record is created.
