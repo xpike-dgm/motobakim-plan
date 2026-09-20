@@ -1035,3 +1035,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - CON-005 passed with no cellular/roaming/MB-threshold confirmation regression.
 - Open findings: M-1 content-class/package mapping; M-2 numeric selection derivation; m-1 Android Auto Backup 25 MB quota caveat.
 - Narrow remediation required; TASK-006 remains REVIEW.
+
+### REVIEW-011 Remediation Delivered / REVIEW-012 Open
+- M-1 composition ambiguity remediated by nesting required safety media inside required compact core.
+- M-2 exact numeric recommendations downgraded to HELD candidate sensitivity points.
+- m-1 Android Auto Backup 25 MB quota caveat added.
+- Revision diff found S03-D and S14-D also changed for M-1 consistency; REVIEW-012 will test scope/regression.
+- TASK-006 remains REVIEW; no final numeric production policy is approved.
