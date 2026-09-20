@@ -478,6 +478,14 @@ Unless a newer explicit user decision changes the plan:
     Auto Backup file-based 25 MB per-app-user quota caveat to A6/S15 without confusing it with the historical cellular
     fixture. TASK-006 remains REVIEW. Send remediation back to the original researcher, then run a fresh re-review.
 
+58. REVIEW-011 remediation is delivered while TASK-006 remains REVIEW. M-1 now maps required safety media
+    as a semantic subset of required compact core and active-task complete package as one verified core generation
+    including that subset. M-2 downgrades exact 25/50 MB, 100/150 MB, 500 MB/1 GB and 20/10/5% values to HELD candidate
+    sensitivity/test points. m-1 adds Android Auto Backup's 25 MB file-based per-app-user quota caveat and separates it
+    from Kavriva download/cache/core limits. Manager revision diff found S03-D and S14-D also changed to propagate the
+    M-1 rule; REVIEW-012 is OPEN to judge whether those are necessary regression-free consistency fixes. CON-005 remains
+    binding. Do not close TASK-006 or finalize TSQ-009 before REVIEW-012.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
