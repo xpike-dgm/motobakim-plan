@@ -1,45 +1,40 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-016 FINAL MANAGER SYNTHESIS / USER DECISION PENDING`
+Status: `PHASE 4 / NEXT RECORDED OPEN ITEM — TSQ-009 / OWNER START PENDING`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
-## Current Topic
+## Just Completed
 
 `DEBATE-016 — AI / LLM / Provider Strategy`
 
-Core AI research and Jev addendum are complete:
-- TASK-004 DONE after REVIEW-009 PASS;
-- TASK-005 DONE after REVIEW-010 PASS;
-- REVIEW-010 had no Critical, Major or Minor findings;
-- Jev conclusion: `KEEP AS OPTIONAL LATER`;
-- owner preference: no Jev now, but keep a provider/model-neutral decision boundary for future low-risk use.
+- TASK-004 core AI research is DONE after REVIEW-009 PASS.
+- TASK-005 Jev addendum is DONE after REVIEW-010 PASS.
+- The owner explicitly approved the final manager synthesis.
+- `DEC-0046 — AI / LLM Assistance, Decision-Layer and Jev Optionality Working Direction` is canonical.
 
-Final manager synthesis:
-`04_TECH_STRATEGY/DEBATES/DEBATE-016__MANAGER_SYNTHESIS.md`
-
-## Proposed Plain-Language Direction
-
-- default AI path uses the cheapest/fastest model that is good enough;
-- AI talks to the user and asks clarification questions;
-- a neutral decision/routing layer may propose which flow/guide family fits;
-- Kavriva deterministic/canonical rules perform final guide/safety/eligibility checks;
+Approved direction in plain language:
+- use the cheapest/fastest AI model that is good enough for the normal conversational task;
+- AI may ask clarification questions and collect observable information;
+- a provider/model-neutral decision layer may propose the appropriate flow/guide candidate;
+- Kavriva deterministic/canonical rules perform final guide eligibility, motorcycle-context, safety and authority checks;
 - stronger/more expensive models are used only when needed;
-- Jev is not added now;
-- Jev or a similar bounded decision model may later plug into the neutral decision layer if measured benefit justifies it;
-- future optionality must not create Jev-specific first-release complexity today.
+- Jev is not used now, but a Jev-like bounded decision model can later be evaluated as an optional low-risk adapter;
+- future optionality must not create Jev-specific first-release complexity.
 
-## Immediate Next Manager Action
+No provider/model/plan, account, purchase, integration, final legal/privacy conclusion, final AI budget, ADR or Gate 4 -> 5 transition is approved.
 
-Present this final Phase-4 working-direction proposal to the owner for explicit approve/change instruction.
+## Next Recorded Open Item
 
-Do not create DEC-0046 until explicit owner approval.
+`TSQ-009 — final production limits and exceptions policy`
+
+Current known values — 12 MB compact transfer, up to 150 MB optional media, 25 MB cellular confirmation and 250 MB content cache — are comparison fixtures only, not final production/commercial limits.
+
+Do not open a new research task or debate until the owner explicitly instructs the project to start this item.
 
 ## Hard Boundaries
 
-- no provider/model/plan winner;
-- no Jev/TypeSafe adoption now;
-- no account/API key/trial/credits/purchase/payment;
-- no code/pseudocode/integration;
-- no final legal/privacy conclusion or final budget;
-- no Phase-5 ADR and no Gate 4 -> 5 transition.
+- Phase 4 remains active and no-code;
+- Gate 4 -> 5 remains closed;
+- no implementation/provider/account/purchase is implied by DEC-0046;
+- do not invent additional roadmap items.
