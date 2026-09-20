@@ -18,31 +18,25 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-- `DEBATE-016 — AI / LLM / Provider Strategy`
-  - TASK-004 official-primary research and independent review are complete,
-  - REVIEW-007 returned CHANGES_REQUESTED with three Major findings and one Minor; REVIEW-008 closed M-2/M-3/m-1 and left residual M-1 in seven Evidence rows,
-  - residual remediation changed exactly those seven Evidence fields with zero collateral changes,
-  - REVIEW-009 returned PASS with no Critical, Major or Minor findings,
-  - TASK-004 is DONE in Drive `06_DONE`,
-  - manager synthesis proposes a Family-D-shaped authority split: deterministic/canonical systems remain primary authority; bounded managed AI operates behind a Kavriva-owned boundary; high-risk ambiguity/divergence safe-holds; multi-provider and open-weight/local paths remain optional evidence-driven extensions,
-  - before approval, the owner requested a Jev-specific addendum: TypeSafe AI Jev must be evaluated for routing/classification/triage/scoring fit versus deterministic rules and normal LLM structured output,
-  - TASK-005 Jev research is complete; REVIEW-010 returned PASS with no Critical, Major or Minor findings; TASK-005 is DONE,
-  - Jev conclusion is `KEEP AS OPTIONAL LATER`: no Jev now, but a provider/model-neutral bounded decision layer can later accept Jev-like models without redesign if measured low-risk value justifies it,
-  - final manager synthesis now proposes cheapest/fastest adequate conversational model by default, clarification by AI, route/guide-candidate selection through a neutral decision layer, and final deterministic/canonical Kavriva validation; stronger models only when needed,
-  - explicit owner approval is pending,
-  - no Jev/provider/model/plan winner, account, code/integration, purchase, final legal/privacy conclusion, final budget, ADR or gate transition is approved.
+No new research task is open.
+
+Next recorded unresolved Phase-4 item:
+- `TSQ-009 — final production limits and exceptions policy`;
+- current 12 MB / 150 MB / 25 MB / 250 MB values remain comparison fixtures only;
+- do not start a new debate/task until explicit owner instruction.
 
 ## Most Recently Completed Topic
 
-- `DEBATE-015 — Mobile Build/Release Access, Hosted Build Cost and AI Operability Closure`
-  - TASK-003 official-primary research and independent review are complete,
-  - REVIEW-006 returned PASS with no Critical, Major or Minor findings after narrow remediation,
-  - the user approved the manager direction under `DEC-0045`,
-  - Android release continuity remains active and independent of iOS/macOS readiness,
-  - split/hybrid is the reversible Phase-4 operating shape,
-  - iOS/macOS activation remains HELD until real Mac/Xcode access, signing custody, provider-neutral provenance,
-    no-owner-debug recovery and clean-room rebuild are proven,
-  - no Mac/CI/hosted-build provider winner, account, plan, purchase, build, signing setup, final budget, ADR or gate transition.
+- `DEBATE-016 — AI / LLM / Provider Strategy`
+  - TASK-004 core AI/provider research and TASK-005 Jev addendum are DONE,
+  - REVIEW-009 and REVIEW-010 both returned PASS with no open findings,
+  - the user approved the final manager synthesis under `DEC-0046`,
+  - default conversational AI uses the cheapest/fastest model adequate for the task,
+  - AI may ask clarification questions and a provider/model-neutral decision layer may propose route/guide candidates,
+  - Kavriva deterministic/canonical systems retain final motorcycle-context, guide eligibility, source/provenance, safety and authority checks,
+  - stronger/more expensive models are used only when needed,
+  - Jev is not used now and creates no first-release dependency; Jev-like bounded decision models may be evaluated later as optional low-risk adapters,
+  - no provider/model/plan winner, account, purchase, integration, final legal/privacy conclusion, final budget, ADR or gate transition is approved.
 
 - `DEBATE-014 — Analytics and Measurement Strategy`
   - TASK-002 official-primary research and independent review are complete; REVIEW-004 returned PASS with no findings,
