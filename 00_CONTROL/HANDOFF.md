@@ -449,6 +449,13 @@ Unless a newer explicit user decision changes the plan:
     commitment/ADR/gate transition is approved. DEBATE-016 is closed at Phase-4 working-direction level. Next recorded
     unresolved item is TSQ-009 final production limits; wait for explicit owner instruction before opening new work.
 
+54. Owner added binding product constraint `CON-005` for TSQ-009: Kavriva must not ask the user for
+    download confirmation merely because the connection is cellular/mobile data or because a byte threshold is crossed;
+    required content should continue over mobile data without that extra prompt. The historical 25 MB cellular
+    confirmation value remains comparison-fixture history only and must not become final product behavior. Final
+    package/media/cache limits plus automatic prioritization/retry/storage/cost controls remain open. No TSQ-009 task has
+    been opened yet; wait for explicit owner start instruction.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
