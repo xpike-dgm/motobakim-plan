@@ -650,3 +650,12 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Binding CON-005 removes cellular/byte-threshold confirmation from future product policy.
 - Research compares four policy families, numeric sensitivity, automatic transfer/retry/eviction/low-storage/TCO and 16 failure scenarios.
 - No final numeric policy, provider, code, account, purchase, ADR or Gate 4 -> 5 transition.
+
+## TASK-006 Research Delivered / REVIEW-011 Opened
+
+- TASK-006 research and HANDOFF-TASK-006 are delivered; TASK-006 is REVIEW in Drive 03_REVIEW.
+- Manager structural intake verified four policy families, 16 scenarios × 4 families = 64 rows and 12/12 mandatory fields per row.
+- CON-005 remains intact: no cellular/mobile-data, roaming or byte-threshold confirmation gate.
+- Research proposes Family D hybrid; ≤25 MB compact design target; ≤100 MB required-media target; 500 MB normal soft cache; up to 1 GB opportunistic cache. Hard caps and real-device proof remain HELD.
+- Created `REVIEW-011 — TASK-006 PRODUCTION DOWNLOAD STORAGE LIMITS INDEPENDENT REVIEW`.
+- No final numeric policy, provider, account, purchase, code, ADR or Gate 4 -> 5 transition.
