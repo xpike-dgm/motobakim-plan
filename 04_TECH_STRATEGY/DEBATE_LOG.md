@@ -626,3 +626,17 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   - do not add Jev now;
   - allow a future Jev-like bounded decision adapter only if measured low-risk value justifies it.
 - Explicit owner approval remains required before DEC-0046.
+
+## DEBATE-016 Closed — DEC-0046 User Approved
+
+- The owner explicitly approved the final DEBATE-016 manager synthesis.
+- Recorded `DEC-0046 — AI / LLM Assistance, Decision-Layer and Jev Optionality Working Direction`.
+- Approved Phase-4 direction:
+  - cheapest/fastest adequate conversational model by default;
+  - AI may ask clarification questions and collect observable information;
+  - a Kavriva-owned provider/model-neutral decision layer may propose route/guide candidates;
+  - deterministic/canonical Kavriva systems retain final motorcycle-context, guide eligibility, source/provenance, safety and authority checks;
+  - stronger/more expensive models only when needed;
+  - Jev not used now; Jev-like bounded decision models remain optional later if measured low-risk value justifies them.
+- No provider/model/plan winner, account, purchase, integration, final legal/privacy conclusion, final budget, ADR or Gate 4 -> 5 transition.
+- Next recorded unresolved Phase-4 item is TSQ-009 final production limits; no new task is opened without owner instruction.
