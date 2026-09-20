@@ -1010,3 +1010,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Approved cheapest/fastest adequate model by default, clarification by AI, neutral decision/routing layer, deterministic Kavriva final validation, stronger models only when needed, and Jev optional-later only.
 - No provider/model/plan/account/purchase/integration/final legal/privacy conclusion/final budget/ADR/Gate 4 -> 5.
 - NEXT_ACTION now points to recorded open TSQ-009 final production limits, pending explicit owner start instruction.
+
+### CON-005 — No Cellular Download Confirmation Gate
+- Owner explicitly required that Kavriva not ask for download confirmation merely because transport is cellular/mobile data or because a byte threshold is crossed.
+- Required content should continue over mobile data without that extra prompt.
+- Historical 25 MB cellular-confirmation value remains a comparison fixture only and is superseded for future product direction.
+- TSQ-009 still needs final package/media/cache limits and internal automatic download/storage/cost policy; no new task opened yet.
