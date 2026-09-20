@@ -462,6 +462,14 @@ Unless a newer explicit user decision changes the plan:
     limits, automatic transfer/retry/low-storage/eviction/TCO and exceptions across four policy families with 16 failure
     scenarios. No final numeric limit/provider/code/purchase/ADR/gate transition is approved.
 
+56. TASK-006 production download/storage research is delivered and structurally complete at manager intake:
+    four policy families, 64 failure rows and 12 mandatory fields per row. CON-005 remains intact. Research proposes
+    Family D hybrid with <=25 MB compact design target, <=100 MB required-media target, 500 MB normal soft cache and
+    up to 1 GB opportunistic cache; hard caps and real-device proof remain HELD. TASK-006 is REVIEW and
+    `REVIEW-011 — TASK-006 PRODUCTION DOWNLOAD STORAGE LIMITS INDEPENDENT REVIEW` is OPEN. Do not close TASK-006 or
+    finalize TSQ-009 before the independent verdict. No final numeric policy/provider/account/purchase/code/ADR/gate
+    transition is approved.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
