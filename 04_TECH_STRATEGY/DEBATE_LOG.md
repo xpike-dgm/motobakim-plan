@@ -668,3 +668,11 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
 - Major M-2: proposed 25/100/500 MB, 1 GB and 20/10/5% policy values need a selection trace against adjacent sensitivity points or must be downgraded to HELD/candidate.
 - Minor m-1: Android Auto Backup file-based 25 MB per-app-user quota caveat is missing from A6/S15 restore evidence.
 - Remediation scope is narrow; do not reopen passed family/row structure, CON-005, safety/truth invariants, platform main mechanisms or TCO framing unless directly regressed.
+
+## REVIEW-011 Remediation Delivered / REVIEW-012 Opened
+
+- M-1 remediation: required safety media is now a semantic subset of required compact core; active-task complete package is one verified compact-core generation including that subset.
+- M-2 remediation: 25/50 MB compact, 100/150 MB safety-media, 500 MB/1 GB cache and 20/10/5% free-space values are HELD candidate sensitivity/test points, not selected first-release numeric policy.
+- m-1 remediation: Android Auto Backup 25 MB file-based per-app-user quota caveat is added and separated from Kavriva download/cache/core limits.
+- Revision comparison shows all 64 rows remain; intended S01/S02/S07/S08/S15 rows changed, plus S03-D and S14-D were also changed to propagate the M-1 rule. REVIEW-012 must determine whether these extra changes are necessary and regression-free.
+- REVIEW-012 is OPEN. TASK-006 remains REVIEW. No final numeric policy/provider/code/purchase/ADR/gate transition is approved.
