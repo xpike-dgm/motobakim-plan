@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-017 / REVIEW-011 CHANGES_REQUESTED — TASK-006 REMEDIATION`
+Status: `DEBATE-017 / REVIEW-012 OPEN — REMEDIATION RE-REVIEW`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,36 +8,34 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `TSQ-009 — final production download/storage limits and automatic transfer policy`
 
-REVIEW-011 returned `CHANGES_REQUESTED`.
+TASK-006 narrow REVIEW-011 remediation is delivered.
 
-Review result:
-- Critical: none;
-- Major M-1: required compact core vs required safety media composition/eligibility mapping is ambiguous;
-- Major M-2: proposed 25/100/500 MB, 1 GB and 20/10/5% bands are correctly labeled as product policy but not sufficiently derived against adjacent sensitivity points;
-- Minor m-1: Android Auto Backup file-based 25 MB per-app-user quota caveat is missing from A6/S15 evidence.
+Remediation result:
+- M-1: required safety media is now a semantic subset of required compact core; it is not a second additive budget;
+- active-task complete package is one verified required-compact-core generation including all required-safety-media bytes;
+- M-2: exact 25/50 MB compact, 100/150 MB safety-media, 500 MB/1 GB cache and 20/10/5% free-space values were downgraded to HELD candidate sensitivity/test points because documentary evidence did not justify exact first-release numeric policy;
+- m-1: Android Auto Backup 25 MB file-based per-app-user quota caveat is added and explicitly separated from Kavriva download/cache/core limits;
+- CON-005 remains intact.
 
-What passed and must not be reopened unless remediation directly regresses it:
-- 4 equal policy families;
-- 16 × 4 = 64 failure rows;
-- 12/12 required fields in every row;
-- CON-005: no cellular/mobile-data, roaming or byte-threshold download confirmation;
-- core platform mechanism interpretation;
-- safety/truth invariants;
-- provider-neutral scenario-based TCO;
-- no production approval/provider/code/ADR/gate transition.
+Manager revision-diff note:
+- all 64 scenario rows remain present;
+- intended changed rows were S01/S02/S07/S08/S15 A–D;
+- S03-D and S14-D also changed to propagate the new M-1 rule that required-safety-media cannot be left to the on-demand lane;
+- Executive Finding was updated accordingly;
+- REVIEW-012 must decide whether these extra changes are necessary consistency corrections and regression-free.
+
+`REVIEW-012 — TASK-006 REVIEW-011 REMEDIATION RE-REVIEW` is OPEN in Drive `05_REVIEWS`.
 
 ## Immediate Next Manager Action
 
-Send the narrow REVIEW-011 remediation prompt back to the TASK-006 research chat.
+Dispatch REVIEW-012 to a fresh independent reviewer.
 
-Remediation must stay limited to M-1, M-2 and m-1 plus the minimum HANDOFF-TASK-006 / TASK-006 completion-evidence updates needed to record the remediation.
-
-After remediation, TASK-006 must remain/return to `REVIEW` for a fresh independent re-review.
+Do not close TASK-006 or synthesize a final TSQ-009 owner decision before the re-review verdict.
 
 ## Hard Boundaries
 
-- do not reintroduce a cellular/roaming/MB-threshold confirmation gate;
-- do not broaden into new implementation or provider research;
+- CON-005 remains binding: no cellular/mobile-data, roaming or byte-threshold confirmation gate;
+- exact numeric production limits remain unapproved/HELD;
 - no code, pseudocode, prototype or device test;
 - no provider account/trial/purchase/deployment;
 - no final provider selection or commercial budget;
