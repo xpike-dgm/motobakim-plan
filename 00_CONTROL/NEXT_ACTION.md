@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-016 MANAGER SYNTHESIS / USER DECISION PENDING`
+Status: `DEBATE-016 JEV ADDENDUM / TASK-005 READY`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
@@ -8,36 +8,37 @@ Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
 `DEBATE-016 — AI / LLM / Provider Strategy`
 
-TASK-004 research/review is complete:
-- REVIEW-007 returned CHANGES_REQUESTED with M-1/M-2/M-3 and Minor m-1;
-- the first remediation rewrote all 64 Evidence fields while leaving the other seven mandatory row fields unchanged;
-- REVIEW-008 closed M-2/M-3/m-1 and left residual M-1 in seven Evidence rows;
-- the residual remediation changed exactly those seven Evidence fields with zero collateral row-field or Sections 6/8/9/12 changes;
-- REVIEW-009 returned PASS with no Critical, Major or Minor findings;
-- manager readback closed TASK-004 as `DONE` and moved it to Drive `06_DONE`.
+The prior TASK-004 research/review is complete and REVIEW-009 passed. A manager working-direction proposal exists, but
+the owner introduced a newly released AI product — TypeSafe AI Jev — before approving that proposal.
 
-Canonical proposal:
-`04_TECH_STRATEGY/DEBATES/DEBATE-016__MANAGER_SYNTHESIS.md`
+The owner explicitly requested a Kavriva-specific Jev fit investigation before final DEBATE-016 approval.
+
+Addendum package:
+- GitHub: `04_TECH_STRATEGY/DEBATES/DEBATE-016__JEV_FIT_REQUIREMENTS_ADDENDUM.md`
+- Drive context: `CTX-P4-017 — JEV KAVRIVA FIT AND DECISION-LAYER RESEARCH`
+- Drive task: `TASK-005 — DEBATE-016 JEV FIT PRIMARY RESEARCH`
+- TASK-005 is `READY` in Drive `02_TASK_QUEUE/00_READY`.
 
 ## Immediate Next Manager Action
 
-Present the DEBATE-016 Phase-4 working-direction proposal to the owner for explicit approve/reject/change instruction.
+Dispatch TASK-005 to a fresh external research chat.
 
-Proposed direction:
-- deterministic/canonical Kavriva systems remain the authority plane;
-- managed AI may be used only for bounded probabilistic assistance behind a Kavriva-owned boundary;
-- high-risk ambiguity and material provider/model divergence safe-hold instead of auto-continuing;
-- a single managed provider may later be an operationally simple implementation shape, but no provider/model/plan is selected now;
-- multi-provider and open-weight/local complexity remain optional evidence-driven extensions;
-- provider/model changes require evaluation/change-detection gates;
-- privacy/data handling, prompt injection/tool permissions, spend visibility and clean exit remain mandatory operating boundaries.
+Research must determine:
+- what Jev actually is versus TypeSafe marketing;
+- whether its typed decision/probability model adds value over deterministic rules or normal LLM structured output;
+- exact Kavriva fit for intent routing, ambiguity/escalation, symptom/task classification, retrieval ranking, Internal Ops
+  triage, moderation flagging, project workflow routing, tool-selection proposals, divergence scoring and cost-aware routing;
+- exact forbidden authority uses;
+- privacy/telemetry/retention, early-access/lifecycle, pricing sustainability, billing/credits, outage and clean-exit risk;
+- whether the owner-facing conclusion should be USE NOW / KEEP AS OPTIONAL LATER / DO NOT USE / HELD PENDING EVIDENCE.
 
-Do not create a decision record until the owner explicitly approves or changes the proposal.
+The pending DEBATE-016 manager synthesis is paused until this addendum is independently reviewed.
 
 ## Hard Boundaries
 
+- no TypeSafe account, waitlist, API key, credits, trial, purchase or payment;
+- no live Jev API call or benchmark execution;
+- no code, pseudocode or integration;
 - no provider/model/plan winner;
-- no API key, account, trial, purchase or payment;
-- no production prompt/tool schema/agent workflow/model deployment/vector DB/fine-tune/integration;
-- no final legal/privacy conclusion or final budget commitment;
+- no final legal/privacy conclusion or final budget;
 - no Phase-5 ADR and no Gate 4 -> 5 transition.
