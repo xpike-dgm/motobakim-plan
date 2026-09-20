@@ -1,6 +1,6 @@
 # DEBATE-016 — AI / LLM / Provider Strategy Manager Synthesis
 
-Status: `USER DECISION PENDING / PHASE-4 WORKING-DIRECTION PROPOSAL / NO PROVIDER OR MODEL WINNER`
+Status: `USER-APPROVED PHASE-4 WORKING DIRECTION / DEC-0046 / NO PROVIDER OR MODEL WINNER`
 
 ## Plain-Language Proposal
 
@@ -229,9 +229,9 @@ Jev addendum:
 - REVIEW-010 -> PASS / no Critical, Major or Minor findings;
 - manager closure -> TASK-005 DONE.
 
-## Owner Decision Requested
+## Owner Decision
 
-Approve or change this Phase-4 working direction:
+The owner explicitly approved this Phase-4 working direction under `DEC-0046`:
 
 > Kavriva'nın kullanıcıyla konuşan AI'sı varsayılan olarak ucuz ve hızlı yeterli bir model kullansın. AI doğru soruları sorup bilgi toplasın. Ayrı provider/model-neutral karar katmanı uygun yol veya rehber adayını önerebilsin. Kavriva kendi deterministic/canonical kurallarıyla son kontrolü yapmadan kritik sonuç kullanılmasın. Jev şimdi eklenmesin; ama ileride düşük riskli routing/classification için gerçekten avantaj sağlarsa aynı karar katmanına takılabilsin. Daha güçlü/pahalı modeller yalnız gerektiğinde kullanılsın.
 
