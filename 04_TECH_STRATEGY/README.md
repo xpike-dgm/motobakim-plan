@@ -24,7 +24,9 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
   - binding `CON-005`: no cellular/mobile-data or byte-threshold confirmation gate,
   - historical 12 MB / 150 MB / 25 MB / 250 MB values remain comparison fixtures only,
   - four policy families and numeric sensitivity must be compared equally,
-  - CTX-P4-018 and TASK-006 are published; TASK-006 is READY,
+  - TASK-006 research is delivered with 4 equal families and 64 failure rows; TASK-006 is in REVIEW,
+  - research proposes Family D hybrid with ≤25 MB compact target, ≤100 MB required-media target, 500 MB normal soft cache and up to 1 GB opportunistic cache; hard caps and real-device proof remain HELD,
+  - REVIEW-011 is OPEN for fresh independent adversarial review,
   - no final package/media/cache limit, provider, code, purchase, budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
