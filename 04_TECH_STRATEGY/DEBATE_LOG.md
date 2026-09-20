@@ -601,3 +601,13 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   LLM structured output and a hybrid LLM + Jev + deterministic-authority shape.
 - Existing DEBATE-016 non-AI authority boundaries remain binding and are not reopened.
 - No TypeSafe account/waitlist/API key/credits/trial/payment/live API call/benchmark/code/integration/adoption decision.
+
+## TASK-005 Jev Research Delivered / REVIEW-010 Opened
+
+- TASK-005 Jev fit research and HANDOFF-TASK-005 are delivered; TASK-005 is REVIEW in Drive 03_REVIEW.
+- Manager structural intake verified all 10 candidate-use comparisons and all 12 mandatory failure scenarios with all required fields.
+- Research owner conclusion is `KEEP AS OPTIONAL LATER`.
+- Owner preference: do not add Jev now; keep Kavriva fully functional without Jev; preserve a provider/model-neutral bounded
+  decision extension point so Jev-like models can be evaluated later for low-risk routing/classification if evidence warrants it.
+- This future optionality must not create Jev-specific code/schema/account/data-store/provider dependency today.
+- Created `REVIEW-010 — TASK-005 JEV FIT INDEPENDENT REVIEW`.
