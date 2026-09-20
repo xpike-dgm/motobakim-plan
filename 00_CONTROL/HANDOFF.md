@@ -470,6 +470,14 @@ Unless a newer explicit user decision changes the plan:
     finalize TSQ-009 before the independent verdict. No final numeric policy/provider/account/purchase/code/ADR/gate
     transition is approved.
 
+57. REVIEW-011 returned CHANGES_REQUESTED after checking all 64 TASK-006 failure rows. Passed areas:
+    4 equal families, 64/64 rows, 12/12 fields, CON-005, main Android/Apple/Flutter mechanism interpretation,
+    safety/truth invariants and provider-neutral TCO framing. Narrow open findings only: M-1 define one authoritative
+    required-core / required-safety-media / active-task-package mapping; M-2 derive the exact 25/100/500 MB, 1 GB and
+    20/10/5% policy values against adjacent sensitivity points or downgrade unsupported exact values; m-1 add Android
+    Auto Backup file-based 25 MB per-app-user quota caveat to A6/S15 without confusing it with the historical cellular
+    fixture. TASK-006 remains REVIEW. Send remediation back to the original researcher, then run a fresh re-review.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
