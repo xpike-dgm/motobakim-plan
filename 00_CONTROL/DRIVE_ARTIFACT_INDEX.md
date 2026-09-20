@@ -64,3 +64,7 @@ Drive artifacts are evidence and work products. User-approved decisions must als
 - Handoff: https://docs.google.com/document/d/1ldpOSdQmSec3V7t0RVYvwlRgYNdLDzgq4qQ6CbvTzk4
 - REVIEW-010 (PASS): https://docs.google.com/document/d/108W8kLA2uY9Ac4qTKhyv9gQqn1Pfce2tn5NHtbQCe80
 
+## DEBATE-017 / TSQ-009 / TASK-006
+
+- Context: https://docs.google.com/document/d/1GABbraj2VXGHd1SngBUCBg0rnx7SJ4AqNzicDO0nWF8
+- TASK-006 (READY): https://docs.google.com/document/d/1Wdpg0H6foTNajE0l_Ht0PnHUkDBOMR-zvjQyLcRyH-c
