@@ -18,12 +18,14 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-No new research task is open.
-
-Next recorded unresolved Phase-4 item:
-- `TSQ-009 — final production limits and exceptions policy`;
-- current 12 MB / 150 MB / 25 MB / 250 MB values remain comparison fixtures only;
-- do not start a new debate/task until explicit owner instruction.
+- `DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy`
+  - closes remaining TSQ-009 production-limit policy,
+  - owner explicitly started the topic,
+  - binding `CON-005`: no cellular/mobile-data or byte-threshold confirmation gate,
+  - historical 12 MB / 150 MB / 25 MB / 250 MB values remain comparison fixtures only,
+  - four policy families and numeric sensitivity must be compared equally,
+  - CTX-P4-018 and TASK-006 are published; TASK-006 is READY,
+  - no final package/media/cache limit, provider, code, purchase, budget, ADR or gate transition is approved.
 
 ## Most Recently Completed Topic
 
