@@ -1493,3 +1493,79 @@ Decision boundary:
 
 Canonical synthesis:
 `04_TECH_STRATEGY/DEBATES/DEBATE-015__MANAGER_SYNTHESIS.md`.
+
+---
+
+## DEC-0046 — AI / LLM Assistance, Decision-Layer and Jev Optionality Working Direction
+**Date:** 2026-09-20
+**Status:** USER-APPROVED PHASE-4 WORKING DIRECTION
+
+After TASK-004 core AI/LLM/provider research, REVIEW-007/008 remediation, REVIEW-009 PASS, the Jev-specific TASK-005
+addendum and independent REVIEW-010 PASS, the user explicitly approved the final DEBATE-016 manager synthesis.
+
+Binding direction:
+
+- Kavriva uses AI as bounded assistance, not as canonical technical truth, motorcycle fit/readiness/safety authority,
+  publication/recall authority, privileged authorization, protected-audit truth, release/signing/deployment approval,
+  legal/privacy authority, billing/purchase authority or high-impact self-review authority;
+- the default conversational AI path should use the **cheapest/fastest model that is adequate for the task**;
+- the conversational AI may understand free text, ask clarification questions and collect observable evidence;
+- a Kavriva-owned, provider/model-neutral decision/routing boundary may propose a route, guide family or other bounded
+  candidate from controlled options;
+- Kavriva deterministic/canonical systems perform the final eligibility, source/provenance, motorcycle-context,
+  readiness/safety and authorization checks before critical results are used;
+- ambiguity, insufficient evidence, high-risk inputs or material model/provider divergence safe-hold rather than
+  inventing certainty or automatically accepting a fallback answer;
+- stronger/more expensive models may be used only when an allowed task actually requires them; model cost alone never
+  changes authority or safety boundaries;
+- deterministic rules remain preferable where explicit rules solve the problem reliably without probabilistic AI;
+- provider/model-specific behavior stays behind a replaceable boundary rather than being spread through product logic;
+  provider/model replacement therefore aims to be an adapter/configuration + revalidation exercise rather than a
+  product rewrite, while acknowledging that tools, schemas, privacy, context and lifecycle may still differ;
+- multi-provider routing/failover, open-weight/local inference, persistent AI memory and autonomous multi-agent behavior
+  are not first-release requirements and require separate evidence before activation.
+
+AI Usta direction:
+
+- user free text may be understood by a low-cost/fast conversational model;
+- the model may ask controlled clarification questions;
+- the bounded decision layer may propose states such as known task, symptom/diagnostic flow, more clarification needed,
+  unsupported/unknown or safety hold/escalation;
+- the proposed route/guide is not final until Kavriva verifies the correct motorcycle/variant, guide applicability,
+  approved/current status, prerequisites, safety/readiness and source/provenance;
+- if checks fail or evidence is insufficient, Kavriva asks for more information or holds safely.
+
+Jev-specific direction:
+
+- Jev is **not** adopted for the current/first-release direction;
+- Kavriva must remain fully functional without Jev;
+- no Jev/TypeSafe account, API key, production schema, data store, code path, contract or recurring dependency is created
+  merely to preserve future optionality;
+- Jev or a similar bounded decision model may later be evaluated as an optional adapter for low-risk routing,
+  classification, triage, scoring or approved-candidate ranking if measured benefit over deterministic rules and the
+  existing low-cost LLM path justifies the extra dependency;
+- Jev probability/confidence can never override Kavriva deterministic HOLD, safety, eligibility or authorization rules.
+
+Mandatory operating boundaries when AI is enabled:
+
+- canonical/approved-source truth remains outside the model;
+- structured output is semantically revalidated;
+- correct motorcycle/task context is isolated;
+- tool/action authority remains least-privilege and outside model output;
+- retrieved/web/community/document/media/tool content is untrusted data, not policy;
+- privacy/data minimization is feature/data-class specific;
+- provider/model/version identity and behavior changes are observable and re-evaluated;
+- retry/outage/cost behavior is bounded and critical journeys retain safe non-AI continuation;
+- high-impact project/company AI work cannot self-PASS and requires independent review.
+
+Decision boundary:
+
+- no OpenAI, Anthropic, Google, AWS, Microsoft, TypeSafe/Jev or other provider/model/plan winner is selected;
+- no provider account, API key, region, plan, trial, credits, purchase, payment, deployment or integration is approved;
+- no production prompt, tool schema, agent workflow, vector DB, fine-tune or executable implementation is approved;
+- no final jurisdiction-specific legal/privacy conclusion or final recurring AI budget is approved;
+- no Phase-5 ADR and no Gate 4 -> 5 transition is approved.
+
+Canonical synthesis:
+`04_TECH_STRATEGY/DEBATES/DEBATE-016__MANAGER_SYNTHESIS.md`.
+
