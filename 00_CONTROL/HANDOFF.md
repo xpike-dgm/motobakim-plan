@@ -423,6 +423,13 @@ Unless a newer explicit user decision changes the plan:
     is independently reviewed. No TypeSafe account/waitlist/API key/credits/trial/payment/live API call/benchmark/code/
     integration/provider adoption is approved.
 
+51. TASK-005 Jev research is delivered with `KEEP AS OPTIONAL LATER`; manager structural intake verified
+    all 10 candidate uses and all 12 mandatory failure scenarios. Owner preference is explicit: do not add Jev now,
+    but keep Kavriva's AI/decision boundary provider/model-neutral so Jev-like bounded decision models can be added later
+    for low-risk routing/classification if evidence justifies it. Do not add Jev-specific first-release code, schema,
+    account, data store or provider dependency merely to preserve optionality. `REVIEW-010 — TASK-005 JEV FIT
+    INDEPENDENT REVIEW` is OPEN. Final DEBATE-016 synthesis remains pending that review.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
