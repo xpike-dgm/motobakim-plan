@@ -555,6 +555,12 @@ Decision:
 
 This decision constrains offline content delivery but does not select a storage, CDN, media, compression or sync technology.
 
+**Supersession note — 2026-09-20 / CON-005:** The older requirement that large cellular/background downloads require
+network-based explicit user confirmation is superseded for future product direction. Kavriva must not ask the user for
+download confirmation merely because transport is cellular/mobile data or because a byte threshold is crossed. The rest
+of DEC-0023 remains binding: downloads stay selected-motorcycle/task scoped and data-efficient; unrelated/full-library
+content is not downloaded by default; safety essentials cannot be removed merely to reduce bytes.
+
 ---
 
 ## DEC-0024 — DEBATE-002 Working Direction Approved
