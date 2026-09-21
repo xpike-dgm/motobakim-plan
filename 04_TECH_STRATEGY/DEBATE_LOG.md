@@ -690,3 +690,13 @@ Uzman gorusleri, itirazlar, cevaplar ve cozulmeyen teknik strateji sorulari bura
   - CON-005 keeps required transfer confirmation-free over cellular/roaming/byte thresholds.
 - Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
 - Explicit owner approval is required before a new decision record is created.
+
+## DEBATE-017 Closed — DEC-0047 User Approved
+
+- Owner explicitly approved the final qualitative DEBATE-017 manager synthesis.
+- Recorded `DEC-0047 — Production Download, Storage and Automatic Transfer Working Direction`.
+- Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
+- Phase-4 strategy question set TSQ-001–TSQ-018 is now answered at direction level where applicable.
+- No new technology debate is opened.
+- Next controlled work is a fresh-manager Phase-4 closure / Gate 4 -> 5 readiness audit.
+- Gate 4 -> 5 remains CLOSED and Phase 5 is not authorized without explicit owner approval.
