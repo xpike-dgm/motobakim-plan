@@ -1098,3 +1098,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both are PROPOSED; neither is APPROVED/LOCKED and neither authorizes account/plan/purchase/code/proof.
 - ADR scope independently cross-checked via sub-agent (15-ADR coverage of DEC-0023–DEC-0047 confirmed).
 - Owner per-ADR approval pending; no further ADR will be written before these two are decided.
+
+### ADR-001 + ADR-002 Approved
+- Owner approved both ADRs (`ADR-01 VE 02 onaylıyorum`, 2026-09-21).
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no account/plan/purchase/code/proof authorized.
+- Next batch (ADR-003 + ADR-004) and GitHub push await explicit owner approval.

@@ -1,6 +1,6 @@
 # ADR-001 — Canonical Data Authority and Logical Service Boundaries
 
-Status: PROPOSED
+Status: APPROVED
 Date: 2026-09-21
 Owners: Kavriva AI manager (draft) / product owner (approval pending)
 
@@ -126,4 +126,4 @@ None.
 
 ## Superseded By
 
-None (PROPOSED — owner approval pending).
+None (APPROVED — owner approval 2026-09-21, see CHANGELOG).

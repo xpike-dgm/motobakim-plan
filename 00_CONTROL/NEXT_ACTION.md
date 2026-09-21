@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 5 STARTED / ADR-001 + ADR-002 PROPOSED / OWNER APPROVAL PENDING`
+Status: `PHASE 5 / ADR-001 + ADR-002 APPROVED / NEXT BATCH PENDING APPROVAL`
 Phase: `PHASE 5 — ADR (TECHNOLOGY / ARCHITECTURE DECISIONS)`
 Gate: `3 -> 4 PASSED / 4 -> 5 PASSED under DEC-0048`
 
@@ -16,10 +16,9 @@ Phase-4 closure/readiness audit, recorded as `DEC-0048` on 2026-09-21.
 
 ## Immediate Next Manager Action
 
-1. ADR-001 + ADR-002 are drafted as PROPOSED and presented to the owner: await per-ADR approval decisions.
-2. On approval, mark the approved ADR(s) APPROVED/LOCKED in `05_ADR/ADR_INDEX.md` and continue with the next
-   approved batch (proposed: ADR-003 + ADR-004).
-3. On rejection/changes, revise only the affected ADR and re-present; do not silently advance it.
+1. ADR-001 + ADR-002 are APPROVED by the owner (2026-09-21); index and records updated.
+2. Await owner approval to start the next batch (proposed: ADR-003 + ADR-004) and to push the local records to GitHub.
+3. On any later rejection/changes, revise only the affected ADR and re-present; do not silently advance it.
 
 Do not invent technology beyond the approved Phase-4 working directions when scoping ADRs.
 
