@@ -1216,3 +1216,23 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - No task execution, prototype, account, purchase or code authorized (code starts only after Gate 8).
 - HANDOFF duplication from the gate edit repaired (double item 61).
 - Push of these records awaits explicit owner authorization.
+
+### Record Integrity Incident — ADR-003 Restored (2026-09-21)
+- Independent Phase-6 epic-coverage verification found `ADR-003__APPROVAL_PUBLICATION_EMERGENCY_SUSPENSION.md`
+  holding a duplicate of the ADR-004 text (title line included).
+- Cause: an earlier tooling write fault reported success while writing ADR-004 content to the ADR-003 path,
+  after the genuine ADR-003 text had been written. All other 14 ADR files verified clean by title-line audit.
+- Fix: genuine ADR-003 text restored exactly as presented to and approved by the owner, plus a visible integrity
+  note inside the file. No decision changed; E6 epic mapping unaffected; duplicate content removed, not merged.
+- Owner is asked to confirm the restored ADR-003 before further pushes.
+- Lesson recorded: verify ADR file title/content on disk after every write batch, not just directory listing.
+
+### ADR-003 Restoration Confirmed / Epic Catalog Approved (+ Push)
+- Owner confirmed the restored ADR-003, approved the corrected epic catalog and authorized push + E3/E10 start.
+- `EPIC_CATALOG.md` marked APPROVED; coverage verdict COMPLETE-WITH-NOTES stands, no new epic.
+- Step 2 (E3 + E10 capability breakdown) started; capabilities will be presented for approval before catalog write.
+
+### Phase-6 Work Plan Approved / Step 1 Started
+- Owner approved the 6-step Phase-6 plan (`uygun`) and starting with Step 1 (`adım 1 ile başlayalım`).
+- Epic candidate list derived from approved product synthesis, design families and ADR-001–ADR-015 presented for
+  selection; nothing written to `06_DELIVERY_PLANNING/EPIC_CATALOG.md` before owner selection.

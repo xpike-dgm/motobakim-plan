@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `GATE 5 -> 6 PASSED / PHASE 6 AUTHORIZED`
+Status: `PHASE 6 / STEP 1 COMPLETE / STEP 2 E3+E10 CAPABILITIES IN PROGRESS`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
@@ -15,10 +15,10 @@ APPROVED, recorded as `DEC-0050` on 2026-09-21. Phase 5 is closed.
 
 ## Immediate Next Manager Action
 
-1. Push the Phase-5 closure / DEC-0050 records with explicit authorization.
-2. Present the Phase-6 work plan (epic -> capability -> feature -> flow -> task, dependencies, acceptance,
-   traceability, no-code simulation) to the owner before starting delivery planning.
-3. Begin Phase-6 work only after the owner confirms the plan; no task execution or code in Phase 6.
+1. ADR-003 restoration confirmed by the owner; epic catalog APPROVED; records pushed with authorization.
+2. Step 2 in progress: E3 + E10 capability breakdown drafted and presented — await owner approval before
+   writing to `06_DELIVERY_PLANNING/CAPABILITY_CATALOG.md`.
+3. After approval, continue epic-by-epic (proposed order: E5 + E6, then E4 + E9, then E1 + E2, then E7 + E8).
 
 ## Hard Boundaries
 
