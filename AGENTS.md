@@ -10,7 +10,8 @@ owner to repeat project history that is already recorded here.
 ## Repository Purpose
 
 This is the canonical no-code planning and project-memory repository for Kavriva. It is not the application source-code
-repository. Phase 4 Technology Strategy is active; Gate 4 -> 5 is closed.
+repository. Phase 4 Technology Strategy working-direction coverage is complete across the recorded TSQ set; Gate 4 -> 5
+is still closed pending a fresh-manager closure/readiness audit and explicit owner approval.
 
 ## Non-Negotiable Manager Rules
 
@@ -24,6 +25,9 @@ repository. Phase 4 Technology Strategy is active; Gate 4 -> 5 is closed.
 8. Multiple external AIs may receive the same frozen prompt in parallel, but they write separate outputs. Agreement is not an automatic PASS.
 9. Codex may use Luna Max sub-agents without renewed permission. Any other sub-agent model requires explicit user permission.
 10. Do not mark a task DONE without its acceptance evidence and required independent review.
+11. When the recorded strategy-question set is complete, do not invent another debate merely to continue work and do not
+    auto-start the next phase. Perform the applicable phase-gate readiness audit, separate legitimate later-phase HELD
+    evidence from true current-phase blockers, and require explicit owner approval before advancing the gate.
 
 ## Required Memory Refresh After Material Work
 
