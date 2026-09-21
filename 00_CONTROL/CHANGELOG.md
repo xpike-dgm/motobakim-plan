@@ -1209,3 +1209,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   Phase 8 bootstrap. No repo created, no account action taken.
 - Gate 5 -> 6 readiness: all required ADR records are APPROVED/LOCKED including the ADR-015 topology/graph/
   dependency scope — presented to the owner for explicit gate approval. No Phase-6 work before the gate passes.
+
+### DEC-0050 — Gate 5 -> 6 Passed / Phase 6 Authorized
+- Owner explicitly approved the transition (`onaylıyorum`) with ADR-001–ADR-015 APPROVED.
+- Recorded DEC-0050: Gate 5 -> 6 PASSED; Phase 5 closed; Phase 6 (delivery planning) authorized.
+- No task execution, prototype, account, purchase or code authorized (code starts only after Gate 8).
+- HANDOFF duplication from the gate edit repaired (double item 61).
+- Push of these records awaits explicit owner authorization.

@@ -36,6 +36,7 @@ kontrolleri kurulup ornek gorevle dogrulanmali. Gercek kodlama ancak bundan sonr
 - Gate 3 -> 4: PASSED.
 - Phase 4 Technology Strategy: working-direction question set `TSQ-001`–`TSQ-018` completed at direction level.
 - Gate 4 -> 5: **PASSED under `DEC-0048` on 2026-09-21** after the fresh-manager closure/readiness audit and explicit owner approval.
-- Phase 5 (ADR) is authorized to begin. No ADR is created by the gate passage itself; each ADR requires its own explicit owner approval.
-- HELD provider/numeric/device/implementation/production evidence was classified during the audit as legitimate later-phase evidence, not Phase-4 blockers; it must still not be silently forced into premature provider/implementation decisions.
+- Phase 5 (ADR) is complete: ADR-001–ADR-015 APPROVED, including the ADR-015 topology/graph/dependency scope.
+- Gate 5 -> 6: **PASSED under `DEC-0050` on 2026-09-21** with explicit owner approval. Phase 6 (delivery planning) is
+  authorized; no task execution or code is authorized (code starts only after Gate 8).
 

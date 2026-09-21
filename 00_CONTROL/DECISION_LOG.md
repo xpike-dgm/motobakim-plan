@@ -1679,3 +1679,27 @@ Decision:
 - this delegation covers internal sub-agents and does not change the separate external-AI parallelism rule
   (`DEC-0041`).
 
+---
+
+## DEC-0050 — Gate 5 -> 6 Passed / Phase 6 Delivery Planning Authorized
+**Date:** 2026-09-21
+**Status:** APPROVED
+
+The owner explicitly approved the Gate 5 -> 6 transition with all 15 ADRs APPROVED:
+
+> onaylıyorum
+
+Gate criterion check:
+
+- all required technology/architecture ADR records are APPROVED, including the ADR-015 AI-safe
+  module/contract/topology, graph metadata/identity and dependency-direction scope;
+- no ADR was skipped, silently advanced or left PROPOSED.
+
+Effect:
+
+- Gate 5 -> 6 is PASSED; Phase 5 is closed;
+- Phase 6 (epic -> capability -> feature -> flow -> task, dependencies, acceptance criteria,
+  bidirectional traceability, no-code task simulation) is authorized to begin;
+- no task execution, prototype, account, purchase or code is authorized by this gate passage
+  (code starts only after Gate 8 -> Development).
+

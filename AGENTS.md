@@ -11,7 +11,7 @@ owner to repeat project history that is already recorded here.
 
 This is the canonical no-code planning and project-memory repository for Kavriva. It is not the application source-code
 repository. Phase 4 Technology Strategy working-direction coverage is complete across the recorded TSQ set; Gate 4 -> 5
-PASSED under `DEC-0048` on 2026-09-21 and Phase 5 (ADR) is complete with ADR-001 through ADR-015 APPROVED. Gate 5 -> 6 is pending explicit owner approval.
+PASSED under `DEC-0048` on 2026-09-21 and Phase 5 (ADR) is complete with ADR-001 through ADR-015 APPROVED. Gate 5 -> 6 PASSED under `DEC-0050` on 2026-09-21; Phase 6 (delivery planning) is authorized.
 
 ## Non-Negotiable Manager Rules
 

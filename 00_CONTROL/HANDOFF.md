@@ -511,9 +511,15 @@ Unless a newer explicit user decision changes the plan:
     remaining HELD items are legitimate Phase-5 evidence. The owner explicitly approved the transition
     (`onaylıyorum`), recorded as `DEC-0048`. Gate 4 -> 5 is PASSED; Phase 5 (ADR) is authorized; no ADR exists yet.
 
+62. All 15 ADRs APPROVED by the owner across five batches, each pushed after explicit authorization. Implementation
+    code repo deferred to Phase 8 bootstrap (`kavriva-app` preferred name, private). Owner explicitly approved
+    Gate 5 -> 6, recorded as `DEC-0050`. Phase 5 is closed; Phase 6 (delivery planning) is authorized; no task
+    execution or code.
+
 ## Gate Status
 
-Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Phase 5 (ADR) is authorized.
+Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Gate 5 -> 6 PASSED on
+2026-09-21 under `DEC-0050`. Phase 6 (delivery planning) is authorized.
 
 ## Last Updated
 2026-09-21

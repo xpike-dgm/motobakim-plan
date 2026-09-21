@@ -12,7 +12,7 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 | Tasarim | `03_DESIGN/*` | APPROVED |
 | Teknoloji tartismasi | `04_TECH_STRATEGY/*` | APPROVED (Gate 4 -> 5 PASSED under DEC-0048; strategy level closed, no new debate) |
 | ADR | `05_ADR/*` | APPROVED (Phase 5 complete; ADR-001–ADR-015 APPROVED 2026-09-21; Gate 5 -> 6 pending) |
-| Teslimat planlama | `06_DELIVERY_PLANNING/*` | EMPTY |
+| Teslimat planlama | `06_DELIVERY_PLANNING/*` | ACTIVE (Phase 6 authorized under DEC-0050; no epic/task records yet) |
 | AI-native mimari | `07_AI_ARCHITECTURE/*` | EMPTY |
 | Repository bootstrap | `08_REPOSITORY_BOOTSTRAP/*` | EMPTY |
 
