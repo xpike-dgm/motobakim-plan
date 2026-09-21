@@ -1,6 +1,6 @@
 # DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy — Manager Synthesis
 
-Status: `USER DECISION PENDING / PHASE-4 WORKING-DIRECTION PROPOSAL / NUMERIC LIMITS HELD`
+Status: `USER-APPROVED PHASE-4 WORKING DIRECTION / DEC-0047 / NUMERIC LIMITS HELD`
 
 ## Plain-Language Proposal
 
@@ -198,9 +198,9 @@ Concrete large durable-data restore strategy and real-device restore proof remai
 - S03-D and S14-D changes were accepted as necessary M-1 consistency corrections with no material regression.
 - TASK-006 is manager-closed DONE.
 
-## Owner Decision Requested
+## Owner Decision
 
-Approve or change this Phase-4 working direction:
+The owner explicitly approved this Phase-4 working direction under `DEC-0047`:
 
 > Kavriva selected motorcycle/task için bütün gerekli safety/recovery içeriğini tek verified offline core içinde otomatik hazırlasın. Safety için gereken media bu core'un içinde sayılsın; ayrı ikinci bir bütçe olmasın. Cellular/mobile data, roaming veya MB threshold nedeniyle kullanıcıdan indirme onayı istenmesin. Safety için zorunlu olmayan media on-demand gelebilsin. Uygulama cihaz alanını adaptif yönetsin ve önce refetchable/nonessential içeriği temizlesin; active-task package ile durable/protected user/authority data otomatik silinmesin. Şimdilik hiçbir exact MB/GB/% production limiti seçmeyelim; gerçek corpus ve device evidence gelene kadar sayıları HELD tutalım.
 
