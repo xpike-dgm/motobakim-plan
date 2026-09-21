@@ -32,19 +32,48 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 ## Current Snapshot
 
 - Phase 1, Phase 2 and Phase 3 are complete.
-- Gate 3 -> 4 passed. Phase 4 Technology Strategy is active. Gate 4 -> 5 is closed.
+- Gate 3 -> 4 passed.
+- Phase 4 Technology Strategy working-direction coverage is complete for the recorded `TSQ-001`–`TSQ-018` set.
+- Gate 4 -> 5 is **CLOSED / readiness audit pending**. Phase 5 has not started.
 - Planning remains no-code.
-- Consumer mobile working direction: Flutter (`DEC-0033`); Android-first, iOS later (`DEC-0032`).
-- Managed Supabase-centered data direction behind the Kavriva API: `DEC-0035`; no purchased plan/account is authorized.
-- Offline direction: SQLite/Drift + compact complete selected-task packages + durable API operation path (`DEC-0036`).
-- Consumer identity direction: Supabase Auth + local-first account-light (`DEC-0037`); privileged identity is still held.
-- API runtime: short DB-near Edge is a reversible hypothesis; managed container + worker remains equal-evidence (`DEC-0038`).
-- Internal Operations: browser-based, CSR-first static artifact/CDN + Kavriva API direction (`DEC-0039`); framework held.
-- CMS/publishing: Kavriva retains technical truth, approval, immutable release, recall/suspension, package eligibility and
-  publication authority; a CMS may later be evaluated only as a replaceable authoring adjunct (`DEC-0042`). No CMS/provider is selected.
-- Analytics/measurement: canonical operational coverage/data-quality metrics and protected evidence remain Kavriva-owned; product analytics stays optional/minimized/non-authoritative/replaceable; observability stays separate/provider-neutral where feasible; split/hybrid is the reversible Phase-4 shape with a smaller owned fallback (`DEC-0044`). No analytics/observability provider is selected.
-- Mobile build/release: Android continuity remains independent and active; split/hybrid is the reversible Phase-4 operating shape; iOS/macOS activation stays HELD until real Mac/Xcode access, Apple signing custody, provider-neutral provenance, no-owner-debug recovery and clean-room rebuild are proven (`DEC-0045`). No Mac/CI/hosted-build provider or plan is selected.
-- External AI work uses Drive + GitHub, not the owner's computer (`DEC-0040`); parallel independent external AI work is allowed (`DEC-0041`).
+- Consumer mobile: Android-first / iOS-later; Flutter working direction (`DEC-0032`, `DEC-0033`).
+- Data/backend/offline: canonical data boundary + managed Supabase-centered backend + SQLite/Drift local direction
+  (`DEC-0034`–`DEC-0036`).
+- Identity/API/Internal Ops: consumer Supabase Auth/local-first direction; privileged identity remains held; API runtime has
+  no final winner; Internal Operations is CSR-first browser/static+API at direction level (`DEC-0037`–`DEC-0039`).
+- External AI project work uses Drive + GitHub and supports isolated parallel research/review (`DEC-0040`, `DEC-0041`).
+- CMS/publishing authority remains Kavriva-owned with optional replaceable authoring adjunct (`DEC-0042`).
+- Analytics/measurement uses a split/hybrid, minimized, non-authoritative and replaceable analytics direction
+  (`DEC-0044`).
+- Mobile build/release uses the split/hybrid Android-continuity direction; iOS/macOS activation remains HELD on real
+  access/custody/recovery/clean-room evidence (`DEC-0045`).
+- AI/LLM direction: cheapest/fastest adequate conversational model by default; provider/model-neutral decision layer;
+  deterministic/canonical final validation; Jev optional-later only (`DEC-0046`).
+- Download/storage direction: one verified required compact core containing all required-safety-media; no
+  cellular/roaming/byte-threshold confirmation; safety-nonrequired media may be on-demand; adaptive eviction protects
+  active/durable/protected truth; exact MB/GB/% limits remain HELD (`DEC-0047`).
+- No provider/model/plan/account/purchase/code/deployment/production proof is authorized merely by these Phase-4 working
+  directions.
+
+## Manager Transition — Immediate Duty
+
+This file is being handed to a fresh manager after `DEC-0047`.
+
+The next manager must **not**:
+- invent a new Phase-4 technology topic;
+- treat HELD later-phase numeric/provider/device evidence as automatically requiring another debate;
+- start Phase 5 or create ADRs;
+- mark Gate 4 -> 5 passed without owner approval.
+
+The next manager must first perform the closure/readiness audit named in `00_CONTROL/NEXT_ACTION.md`:
+
+1. reconcile `TSQ-001`–`TSQ-018`, user decisions, research/review/judge evidence and registries;
+2. verify the Gate 4 -> 5 criterion in `PHASE_GATES.md`;
+3. classify each remaining HELD item as legitimate later-phase evidence or a real missing Phase-4 blocker;
+4. repair only canonical-memory drift found by the audit;
+5. if blockers remain, keep Gate 4 -> 5 CLOSED and state the exact missing evidence;
+6. if ready, explain the closure evidence to the nontechnical owner and request explicit Gate 4 -> 5 approval;
+7. only after explicit owner approval may Phase 5 / ADR work begin.
 
 ## Owner and Communication Contract
 
