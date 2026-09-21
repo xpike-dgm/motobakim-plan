@@ -1703,3 +1703,28 @@ Effect:
 - no task execution, prototype, account, purchase or code is authorized by this gate passage
   (code starts only after Gate 8 -> Development).
 
+---
+
+## DEC-0051 — Mixed Execution Model (Path C) as Default for Development
+**Date:** 2026-09-21
+**Status:** APPROVED OPERATING DIRECTION (takes effect in Development; mechanism design in Phase 7–8)
+
+User context: the owner will develop using existing subscriptions (Claude/Codex/Antigravity/OpenCode),
+whichever has quota; asked how chats are controlled, what the control software is, and what full API
+automation (Path B) costs. After a staged estimate (mid-tier model orbit: low-hundreds USD total;
+cheap tier: tens; flagship: $1,000+; stuck-agent and price-volatility caveats recorded in chat),
+the owner chose Path C (`yol c ile devam edelim`).
+
+Decision:
+
+- Default Development execution is mixed: pack generation and quality gates automated (free: templates +
+  GitHub automation, built in Phase 7–8); opening chats and carrying pack text stays manual with the owner.
+- No paid API automation without a separate current cost sheet and explicit approval (`DEC-0030`); current
+  unit prices were surveyed 2026-09-21 and must be re-verified at decision time.
+- Subscription quotas rotate across tools; implementer/reviewer separation aligns with quota rotation
+  (a different chat reviews).
+- Owner never carries technical content; AI-to-AI communication uses structured records (task/reject/evidence
+  cards); the owner sees status lines and BLOCKED options only.
+- This constrains Phase-7 router/harness design: it must work with manual carrying (copy-paste packs);
+  API actuation of chats is an optional later upgrade, never an assumption.
+

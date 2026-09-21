@@ -1232,6 +1232,24 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `EPIC_CATALOG.md` marked APPROVED; coverage verdict COMPLETE-WITH-NOTES stands, no new epic.
 - Step 2 (E3 + E10 capability breakdown) started; capabilities will be presented for approval before catalog write.
 
+### DEC-0051 — Mixed Execution (Path C) Chosen
+- Owner chose Path C after Path A/B/C explanation and a current-price Path B estimate.
+- Recorded DEC-0051: free automated packs/gates + manual carrying as default; paid API automation only with
+  a future cost sheet + explicit approval; quota rotation across existing subscriptions.
+- Constrains Phase-7 design; no account, key, purchase or mechanism built now.
+
+### E3+E10 Capabilities Approved (+ Push)
+- Owner approved the 15-row E3+E10 capability breakdown (`onay verildi`, push authorized).
+- `06_DELIVERY_PLANNING/CAPABILITY_CATALOG.md` written as PROPOSED (E3 + E10 approved; rest pending).
+- Next proposed group: E5 + E6 capabilities; owner go-ahead pending.
+
+### File Visibility (a) + Capsule Rule Retained
+- Owner chose visibility option (a): every file's purpose visible via module manifest line + auto path index +
+  task evidence; no mandatory longhand Obsidian note per small file.
+- Owner challenged ultra-micro-modularity ("what if an AI changes something else mid-task?"); manager retained
+  the approved capsule rule with the layered-defense explanation below. No ADR change.
+- E3 + E10 capability proposal presented; owner approval pending before catalog write.
+
 ### Phase-6 Work Plan Approved / Step 1 Started
 - Owner approved the 6-step Phase-6 plan (`uygun`) and starting with Step 1 (`adım 1 ile başlayalım`).
 - Epic candidate list derived from approved product synthesis, design families and ADR-001–ADR-015 presented for
