@@ -1336,3 +1336,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation: 7 NEW flows (FL1.0.2, FL1.3.2/3.3, FL1.6.2/6.3, FL2.2.2, FL2.3.2) + global guards + seam fixes +
   SCR cites + planned-HELD views. Narrow re-review `PASS` (all F1..F8 closed, no regression).
 - 23 features + 30 flows written to catalogs as PROPOSED. Push pending explicit authorization.
+
+### E7+E8 Feature/Flow Review Cycle (Final Group)
+- E7 + E8 draft (11 features + 11 flows) reviewed against ADR-013/011/012 rules + seams + schemas.
+- First verdict `CHANGES_REQUESTED`: 7 findings (2 Critical: invented build execution + short bypass list;
+  5 Major/Minor incl. over-merged authority, missing deps, duplicate hold, genericized gates, missing seams).
+- Remediation applied; narrow re-review `CHANGES_REQUESTED` once more (single open noun: outage independence
+  in F8.5.1); micro re-review `PASS`. No invented scope at any stage.
+- 11 features + 11 flows written to catalogs as PROPOSED. Feature/flow layer COMPLETE: 95 features + 103 flows.
+- Push pending explicit authorization; next: Step 4 traceability + simulation proposal.

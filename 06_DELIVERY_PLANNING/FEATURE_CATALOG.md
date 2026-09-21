@@ -43,6 +43,17 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F9.5.1 | C9.5 | Allowed-help (Decision-5 items 1–10 verbatim) | İzinli 10 kalem birebir | C9.5 | PROPOSED |
 | F9.6.1 | C9.6 | Never-authority (Decision-6 items 1–15 verbatim) | Yasak 15 kalem birebir; belirsizlikte HOLD | C9.6 | PROPOSED |
 | F9.7.1 | C9.7 | Project AI discipline (ref F10.7.1) | Disiplin referansı; DEC-0028/0029; bağımlılık C10.7 | C9.7, C10.7 | PROPOSED |
+| F7.1.1 | C7.1 | Android lane continuity (execution-only) | Bağımsız şerit; kaynak dışarıda; derleme≠onay; imza ayrı; E6 politikasının şerit uygulaması; harcama görünürlüğü + çıkış koşu kitabı | C7.1, E6, E3 | PROPOSED |
+| F7.2.1 | C7.2 | iOS activation gate package | 5 kanıt ayrı ayrı (gerçek Mac, Apple emaneti+roller, bağımsız geçmiş, sahipsiz-kurtarma, temiz oda); taahhüt yok | C7.2 | PROPOSED |
+| F7.3.1 | C7.3 | Separation of powers execution (only) | Güçler ayrı; sağlayıcı çalıştırır sahip olamaz; anahtar-kayıp E6 senaryosu (politika E6'da) | C7.3, E6 | PROPOSED |
+| F7.4.1 | C7.4 | Classification lists | Zorunlu/ertelenebilir/opsiyonel/ölçek listeleri güncel | C7.4 | PROPOSED |
+| F7.5.1 | C7.5 | Cost reading (read-only) | Bant-değerlendirme TRY bağlamında; mağaza ayrı; tutma E3/E6 referanslı | C7.5, E3 | PROPOSED |
+| F8.1.1 | C8.1 | Technical authority enforcement (reference-only) | 8-isim referansı; 6-vektör baypas engeli; yeniden-üretilebilirlik denetimi (sahiplik E3/E6'da) | C8.1, E3, E6 | PROPOSED |
+| F8.2.1 | C8.2 | Adjunct evaluation gate | 4-yazarlık sınırı + 5-çıkarılabilirlik kanıtı + ölçülen-yük tetiği; ilk sürümde CMS yok | C8.2 | PROPOSED |
+| F8.3.1 | C8.3 | Plane split enforcement | Kayıt-türevi sayaçlar; denetim dışarıda; gözlem ayrı (kayıt E3'te, E8 türetir, E2 gösterir) | C8.3 | PROPOSED |
+| F8.4.1 | C8.4 | Analytics discipline (verbatim) | Yasak listesi birebir; sınıf-başı amaç/saklama; kesinti-bağımsızlık + değişim-taşınmazlık | C8.4 | PROPOSED |
+| F8.5.1 | C8.5 | Measurement capability lists (9 mandatory) | 8 kalem + kesinti-bağımsızlığı (9.); ertele/opsiyonel/ölçek listeleri | C8.5 | PROPOSED |
+| F8.6.1 | C8.6 | Fallback + exit honesty | 5-kapı denetimi; zayıflatmadan taban; 4-HELD taşınabilirlik kanıtı | C8.6 | PROPOSED |
 | F1.0.1 | C1.0 | App shell + tabs | 5 sekme + sorumluluklar; aktif-iş korunumu (alt-bar HELD); Türkçe/birim/erişilebilirlik (sunum; gerçeklik dışarıda; kanıt yok) | C1.0 | PROPOSED |
 | F1.1.1 | C1.1 | First-value entry + add motorcycle | SCR-001/002 giriş ve motor ekleme (sunum; gerçeklik dışarıda; kanıt yok) | C1.1 | PROPOSED |
 | F1.1.2 | C1.1 | Variant resolution + fit states | SCR-003/004 ayrım + uygunluk halleri (sunum; gerçeklik dışarıda; kanıt yok) | C1.1 | PROPOSED |

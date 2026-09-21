@@ -44,6 +44,17 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL9.5.1 | F9.5.1 | User/system | Ranking/summary requested | Only eligible ranked; verification by E3, render by E1 | AI Usta screens (E1 renders per C1.10) | PROPOSED |
 | FL9.6.1 | F9.6.1 | System | Unsupported/risky request | HOLD with reason; verification by E3, render by E1; no invention | AI Usta screens (E1 renders per C1.10) | PROPOSED |
 | FL9.7.1 | F9.7.1 | Reviewer (different chat) | High-impact AI work submitted | Independent review assigned; no self-PASS | — (planned review view, mechanism HELD Phase 7-8 per E10) | PROPOSED |
+| FL7.1.1 | F7.1.1 | Release task | Android lane-readiness evaluated | Checklist + provenance check recorded; HELD unless E6 decides; NO build/signing/submission | — (API surface; execution E6-gated, none authorized here) | PROPOSED |
+| FL7.2.1 | F7.2.1 | Audit task | iOS gate evaluated | Five proofs checked separately; HELD until all pass; no commitment | — (API surface) | PROPOSED |
+| FL7.3.1 | F7.3.1 | Security task | Signing-custody policy check requested | Separation recorded; no key handling; key-loss refers to E6 playbook | — (API surface; execution E6-gated, none authorized here) | PROPOSED |
+| FL7.4.1 | F7.4.1 | Planning task | Capability classified | Listed in correct band; scale triggers explicit | — (API surface) | PROPOSED |
+| FL7.5.1 | F7.5.1 | Owner/system (read-only) | Lane spend range read vs TRY context | Range evaluated, store fees separate; holds by E3/E6 reference only | Owner-view (HELD; no commitment) | PROPOSED |
+| FL8.1.1 | F8.1.1 | System | Bypass attempt (6 vectors) | Blocked; passes ADR-003/004 gate only: (a) 8-isim referansı, (b) 6-vektör engeli, (c) yeniden-üretilebilirlik | — (API surface) | PROPOSED |
+| FL8.2.1 | F8.2.1 | Planning task | CMS proposal submitted | Boundedness + removability evaluated; HELD without measured burden | — (API surface; workspace in E2 per C2.8/F2.8.1, gate-only) | PROPOSED |
+| FL8.3.1 | F8.3.1 | System | Telemetry near truth path | Kept out; planes separated; renders in E2 per C2.5, E8 derives/checks | — (API surface) | PROPOSED |
+| FL8.4.1 | F8.4.1 | System | Collection attempt | Checked vs exclusion list; purpose/retention enforced | — (API surface; renders in E2 per C2.7/C2.11, E8 checks) | PROPOSED |
+| FL8.5.1 | F8.5.1 | Planning task | Capability classified | Listed per bands; outage-independence separate pass/HELD check | — (API surface) | PROPOSED |
+| FL8.6.1 | F8.6.1 | System | Analytics gate failure | Baseline fallback without weakening; exit honesty preserved | — (API surface; renders in E2 per C2.7/C2.11, E8 checks) | PROPOSED |
 | FL1.0.1 | F1.0.1 | User | Tab switched mid-repair | Preservation objective; bottom-bar HELD, no behavior locked | SCR-005 + tabs | PROPOSED |
 | FL1.0.2 | F1.0.1 | User | Garage opened/switched | Selected context displayed/switched; lifecycle entry; no dashboard hub | SCR-005/SCR-008 | PROPOSED |
 | FL1.1.1 | F1.1.1 | New user | First launch | Value before account; bike added | SCR-001/002 screens | PROPOSED |
