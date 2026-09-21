@@ -505,9 +505,15 @@ Unless a newer explicit user decision changes the plan:
     `AGENTS.md`, `MANAGER_START_HERE.md`, `NEW_MANAGER_CHAT_PROMPT.md` and `NEXT_ACTION.md` were updated for this
     transition.
 
+61. Fresh-manager bootstrap completed after a `git pull` fast-forward to canonical HEAD. The closure/readiness audit
+    compared all canonical records, repaired drift (SOURCE_OF_TRUTH `DEC-0046`/`DEC-0047`, CURRENT_STATE refresh),
+    and found no Phase-4 blocker: every `TSQ-001`–`TSQ-018` has review-PASS/user-approved direction evidence and all
+    remaining HELD items are legitimate Phase-5 evidence. The owner explicitly approved the transition
+    (`onaylıyorum`), recorded as `DEC-0048`. Gate 4 -> 5 is PASSED; Phase 5 (ADR) is authorized; no ADR exists yet.
+
 ## Gate Status
 
-Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
+Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Phase 5 (ADR) is authorized.
 
 ## Last Updated
 2026-09-21

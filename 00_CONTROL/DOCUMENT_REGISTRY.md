@@ -10,8 +10,8 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 | Calisma sistemi | `01_WORKSPACE/*` | APPROVED |
 | Urun kesfi | `02_DISCOVERY/*` | APPROVED |
 | Tasarim | `03_DESIGN/*` | APPROVED |
-| Teknoloji tartismasi | `04_TECH_STRATEGY/*` | ACTIVE |
-| ADR | `05_ADR/*` | EMPTY |
+| Teknoloji tartismasi | `04_TECH_STRATEGY/*` | APPROVED (Gate 4 -> 5 PASSED under DEC-0048; strategy level closed, no new debate) |
+| ADR | `05_ADR/*` | ACTIVE (Phase 5 authorized under DEC-0048; no ADR records yet) |
 | Teslimat planlama | `06_DELIVERY_PLANNING/*` | EMPTY |
 | AI-native mimari | `07_AI_ARCHITECTURE/*` | EMPTY |
 | Repository bootstrap | `08_REPOSITORY_BOOTSTRAP/*` | EMPTY |
@@ -185,7 +185,7 @@ These files exist because the prior main-manager conversation became context-hea
 - `04_TECH_STRATEGY/DEBATE_LOG.md` — ACTIVE
 
 Internal Operations browser-based client form and the no-code planning boundary are user-approved working directions
-under `DEC-0021`. No implementation framework/backend/provider is approved or locked. Gate 4 -> 5 remains closed.
+under `DEC-0021`. No implementation framework/backend/provider is approved or locked. Gate 4 -> 5 PASSED under `DEC-0048`; Phase 5 ADR scoping is the next controlled work.
 
 Approved working design authorities include:
 - `BRAND_NAME.md` — Kavriva
@@ -257,7 +257,8 @@ DEBATE-002, DEBATE-003 and DEBATE-004 have user-approved working directions unde
 user-approved under `DEC-0031`, Android-first sequencing under `DEC-0032`, and Flutter consumer-mobile working direction
 under `DEC-0033`. Provider-neutral data boundaries, Supabase-centered backend, Flutter offline data and consumer identity/
 privileged-activation directions are user-approved under `DEC-0034`–`DEC-0037`. No Phase-5 ADR, provider account,
-purchase or implementation is approved and Gate 4 -> 5 remains closed.
+purchase or implementation is approved. (Update 2026-09-21: Gate 4 -> 5 has since PASSED under `DEC-0048`; see the
+Phase-4 section above for `DEC-0044`–`DEC-0047`.)
 
 Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
 

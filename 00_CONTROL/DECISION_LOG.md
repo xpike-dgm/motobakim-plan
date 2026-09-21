@@ -514,7 +514,8 @@ this user direction is binding input to that ADR.
 
 ## DEC-0022 — Sub-Agent Model Authorization Boundary
 **Date:** 2026-09-17
-**Status:** APPROVED OPERATING RULE
+**Status:** SUPERSEDED
+**Superseded By:** DEC-0049 (model-choice restriction relaxed; Luna Max default retained as preferred sub-agent)
 
 User instruction, verbatim:
 
@@ -1626,4 +1627,55 @@ Decision boundary:
 
 Canonical synthesis:
 `04_TECH_STRATEGY/DEBATES/DEBATE-017__MANAGER_SYNTHESIS.md`.
+
+---
+
+## DEC-0048 — Gate 4 -> 5 Passed / Phase 5 ADR Authorized
+**Date:** 2026-09-21
+**Status:** APPROVED
+
+The owner explicitly approved the Gate 4 -> 5 transition after the fresh-manager Phase-4 closure/readiness audit:
+
+> onaylıyorum
+
+Audit basis:
+
+- `TSQ-001`–`TSQ-018` have direction-level answers with requirements/research/failure-scenario/independent-review/
+  manager-synthesis/user-decision evidence;
+- Drive `TASK-001`–`TASK-006` are DONE with independent PASS reviews and no open `CHANGES_REQUESTED`;
+- remaining HELD items (provider/model winners, exact numeric limits, device/production proof, iOS/macOS and
+  privileged-identity activation) classify as legitimate Phase-5 ADR/implementation evidence, not Phase-4 blockers.
+
+Effect:
+
+- Gate 4 -> 5 is PASSED; Phase 4 Technology Strategy is closed at strategy level;
+- Phase 5 (ADR — technology/architecture decisions) is authorized to begin;
+- no ADR is created by this decision itself; each Phase-5 ADR requires its own explicit owner approval before
+  becoming APPROVED/LOCKED, consistent with `DEC-0005`;
+- no code, prototype, provider account, purchase, deployment or production proof is authorized by this gate passage.
+
+Canonical audit record:
+`00_CONTROL/CHANGELOG.md` — `2026-09-21 / Fresh-Manager Bootstrap / Phase-4 Closure Readiness Audit`.
+
+---
+
+## DEC-0049 — Sub-Agent Model Choice Delegated to Manager
+**Date:** 2026-09-21
+**Status:** APPROVED OPERATING RULE
+**Supersedes:** DEC-0022 (model-choice restriction; Luna Max definition retained as preferred default)
+
+User instruction, verbatim:
+
+> phase 5 e başlayabiliriz altajanlarını istediğin gibi kullanabilirsin
+
+Decision:
+
+- the manager may use any available sub-agent model within the active task scope without requesting per-use
+  permission;
+- guardrails remain: sub-agent use stays inside the active user task and does not expand scope, permit code
+  during no-code planning, or override phase/change-control rules;
+- high-impact AI work still requires separate implementer/reviewer roles and independent evidence (`DEC-0028`,
+  `DEC-0029`);
+- this delegation covers internal sub-agents and does not change the separate external-AI parallelism rule
+  (`DEC-0041`).
 

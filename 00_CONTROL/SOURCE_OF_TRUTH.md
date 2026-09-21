@@ -287,6 +287,19 @@ HELD until real Mac/Xcode access, Apple signing custody, provider-neutral proven
 clean-room rebuild are proven. No physical Mac/hosted-Mac/CI/mobile-CI/Xcode-Cloud provider or plan, account, purchase,
 build, signing setup, final budget or Phase-5 ADR is approved.
 
+`DEC-0046` approves the DEBATE-016 AI/LLM working direction. The default conversational path uses the cheapest/fastest
+adequate model; AI may ask clarification questions; a Kavriva-owned provider/model-neutral decision layer may propose
+route/guide candidates; deterministic/canonical Kavriva systems retain final motorcycle-context, guide eligibility,
+source/provenance, safety and authority validation; stronger models only when needed. Jev is not adopted now and creates
+no first-release dependency; Jev-like bounded decision models remain optional later-only adapters. No provider/model/plan,
+account, integration, final legal/privacy conclusion, final budget or Phase-5 ADR is approved.
+
+`DEC-0047` approves the DEBATE-017 production download/storage/automatic-transfer working direction. One verified
+required compact core contains the full required-safety-media subset; only safety-nonrequired media may be on-demand;
+adaptive eviction removes disposable/refetchable content before active/durable/protected truth; `CON-005` keeps required
+transfer confirmation-free over cellular/roaming/byte thresholds. Exact MB/GB/% production limits remain HELD pending
+measured corpus/device evidence. No provider/account/purchase/code/device proof/final budget or Phase-5 ADR is approved.
+
 `DEC-0028` establishes the project-wide AI-native execution requirement: Obsidian-compatible relationship graph,
 contract-governed task-addressable modules, minimum sufficient task context packs, bidirectional requirement/task/test
 closure, no-code task simulation, canonical multi-AI design rules and completion proof beyond `all tasks DONE`.

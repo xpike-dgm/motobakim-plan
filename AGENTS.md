@@ -11,7 +11,7 @@ owner to repeat project history that is already recorded here.
 
 This is the canonical no-code planning and project-memory repository for Kavriva. It is not the application source-code
 repository. Phase 4 Technology Strategy working-direction coverage is complete across the recorded TSQ set; Gate 4 -> 5
-is still closed pending a fresh-manager closure/readiness audit and explicit owner approval.
+PASSED under `DEC-0048` on 2026-09-21 and Phase 5 (ADR) is authorized. No ADR is recorded yet.
 
 ## Non-Negotiable Manager Rules
 

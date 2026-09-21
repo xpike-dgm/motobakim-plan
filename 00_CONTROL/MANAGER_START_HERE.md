@@ -34,7 +34,7 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 - Phase 1, Phase 2 and Phase 3 are complete.
 - Gate 3 -> 4 passed.
 - Phase 4 Technology Strategy working-direction coverage is complete for the recorded `TSQ-001`–`TSQ-018` set.
-- Gate 4 -> 5 is **CLOSED / readiness audit pending**. Phase 5 has not started.
+- Gate 4 -> 5 **PASSED under `DEC-0048` on 2026-09-21**. Phase 5 (ADR) is authorized; no ADR is recorded yet.
 - Planning remains no-code.
 - Consumer mobile: Android-first / iOS-later; Flutter working direction (`DEC-0032`, `DEC-0033`).
 - Data/backend/offline: canonical data boundary + managed Supabase-centered backend + SQLite/Drift local direction
@@ -57,23 +57,20 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 
 ## Manager Transition — Immediate Duty
 
-This file is being handed to a fresh manager after `DEC-0047`.
+This file was handed to a fresh manager after `DEC-0047` for the closure/readiness audit; that audit is complete and
+Gate 4 -> 5 PASSED under `DEC-0048` on 2026-09-21 with explicit owner approval.
 
 The next manager must **not**:
-- invent a new Phase-4 technology topic;
-- treat HELD later-phase numeric/provider/device evidence as automatically requiring another debate;
-- start Phase 5 or create ADRs;
-- mark Gate 4 -> 5 passed without owner approval.
+- invent a new Phase-4 technology topic or reopen closed debates without new evidence;
+- write an ADR without an explicitly approved ADR plan and per-ADR owner approval;
+- start code, prototype, deployment, provider account or purchase work.
 
-The next manager must first perform the closure/readiness audit named in `00_CONTROL/NEXT_ACTION.md`:
+The next controlled work is Phase-5 ADR scoping, as named in `00_CONTROL/NEXT_ACTION.md`:
 
-1. reconcile `TSQ-001`–`TSQ-018`, user decisions, research/review/judge evidence and registries;
-2. verify the Gate 4 -> 5 criterion in `PHASE_GATES.md`;
-3. classify each remaining HELD item as legitimate later-phase evidence or a real missing Phase-4 blocker;
-4. repair only canonical-memory drift found by the audit;
-5. if blockers remain, keep Gate 4 -> 5 CLOSED and state the exact missing evidence;
-6. if ready, explain the closure evidence to the nontechnical owner and request explicit Gate 4 -> 5 approval;
-7. only after explicit owner approval may Phase 5 / ADR work begin.
+1. derive the ADR list from the Phase-4 working directions (`DEC-0021`–`DEC-0047`) and propose a writing order;
+2. present the ADR plan to the nontechnical owner in plain language before writing any ADR;
+3. write ADRs only after plan approval; each ADR needs its own explicit owner approval to become APPROVED/LOCKED;
+4. preserve HELD boundaries and owner constraints (especially `CON-005`) until their ADR/proof closes them.
 
 ## Owner and Communication Contract
 

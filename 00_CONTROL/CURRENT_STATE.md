@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-`PHASE-4 / TECHNOLOGY STRATEGY — ACTIVE / NO-CODE / INTERNAL WEB DIRECTION APPROVED`
+`PHASE-5 / ADR — AUTHORIZED / NO ADR RECORDED YET / NO-CODE PLANNING CONTINUES`
 
 ## Approved Working References
 
@@ -167,7 +167,7 @@ TSQ-009 owner constraint update — `CON-005`: required Kavriva content/download
 
 DEBATE-017 / TSQ-009 is user-approved at Phase-4 working-direction level under `DEC-0047`. REVIEW-012 passed with no findings; TASK-006 is DONE. Approved direction: one verified required compact core including the entire required-safety-media subset; only safety-nonrequired media may be on-demand; adaptive storage/eviction removes disposable/refetchable content before active/durable/protected truth; CON-005 keeps required transfer confirmation-free over cellular/roaming/byte thresholds. Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
 
-Phase-4 strategy-state summary — `TSQ-001` through `TSQ-018` now have direction-level answers where applicable. Phase 4 is not yet closed: Gate 4 -> 5 remains CLOSED pending a fresh manager closure/readiness audit and explicit owner gate approval. No Phase-5 ADR work is authorized yet.
+Phase-4 strategy-state summary — `TSQ-001` through `TSQ-018` now have direction-level answers where applicable. Phase 4 is closed at strategy level: Gate 4 -> 5 PASSED under `DEC-0048` on 2026-09-21 with explicit owner approval. Phase 5 (ADR) is authorized; no ADR is recorded yet and each ADR requires its own explicit owner approval.
 Fresh-manager handoff is prepared: `AGENTS.md`, `MANAGER_START_HERE.md`, `NEW_MANAGER_CHAT_PROMPT.md`, `NEW_MANAGER_CHAT_HANDOFF.md`, `NEXT_ACTION.md` and `PHASE_GATES.md` all direct the next manager to perform the closure/readiness audit before any gate or phase transition.
 
 External AI operating model:
@@ -216,10 +216,13 @@ Current user-approved working directions:
   final publication authority; a CMS is an optional replaceable authoring adjunct only (`DEC-0042`).
 - GitHub `/AGENTS.md` + `MANAGER_START_HERE.md` + `NEXT_ACTION.md` are the canonical new-manager continuity chain (`DEC-0043`).
 
-Still open:
-- exact web framework, production runtime/provider, physical data/identity/sync products, optional CMS product,
-  analytics and AI/provider choices;
-- consumer and internal logical/service boundary details.
+Still open (narrower Phase-5/implementation evidence, not Phase-4 strategy gaps):
+- exact web framework, production runtime winner, physical data/identity/sync products, optional CMS product,
+  analytics provider/SDK/KPI, AI provider/model/plan and build/CI provider choices (directions approved under
+  `DEC-0039`, `DEC-0044`–`DEC-0046`; winners belong to Phase-5 ADR);
+- exact MB/GB/% download/storage limits pending measured corpus/device evidence (`DEC-0047`);
+- iOS/macOS and privileged-identity activation evidence; real-device/restore/clean-room-exit proof;
+- consumer and internal logical/service boundary details for ADR work.
 
 DEBATE-007 status:
 - repository requirements synthesis and official/primary mechanism research are complete;
@@ -374,7 +377,7 @@ Prior DEBATE-002/003/004/005 directions remain user-approved under `DEC-0024`–
 Two independent adversarial reviews completed with `PASS_WITH_CHANGES`; the manager incorporated the critical
 corrections and the Architect/Judge synthesis is complete. The user then approved the no-code planning boundary and
 browser-based Internal Operations direction. Flutter is approved under `DEC-0033` and the provider-neutral data-backbone
-direction under `DEC-0034`; other architecture topics remain open. Gate 4 -> 5 is closed.
+direction under `DEC-0034`; other architecture topics remain open. (Historical note: Gate 4 -> 5 has since PASSED under `DEC-0048`.)
 
 Review records:
 - `04_TECH_STRATEGY/DEBATES/DEBATE-006__REVIEW_A_PRODUCT_DELIVERY_TCO.md`
@@ -385,4 +388,4 @@ Review records:
 
 ## Last Refreshed
 
-2026-09-19
+2026-09-21
