@@ -1245,6 +1245,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Owner authorized push + next group in the same loop (`push et ve sıradakine geçebilirsin aynı dögüde`).
 - E4 + E9 draft sent to independent review (draft → review → record per DEC-0052).
 
+### E4+E9 Independent Review Cycle
+- First verdict `CHANGES_REQUESTED`: 8 findings (CON-005 remainder; nonessential-media handling; ledger
+  lookup/version/never-list/anti-resurrection; tool-authority separation; proposal taxonomy + verify list;
+  4 dropped allowed items; R6/R2/R4/R8 qualifiers + exact HELD numbers; seams/count/qualifiers). No invented rows.
+- Remediation applied to affected rows only; narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
+- 15 remediated rows written to `CAPABILITY_CATALOG.md` as PROPOSED. Push pending explicit authorization.
+
 ### DEC-0051 — Mixed Execution (Path C) Chosen
 - Owner chose Path C after Path A/B/C explanation and a current-price Path B estimate.
 - Recorded DEC-0051: free automated packs/gates + manual carrying as default; paid API automation only with
