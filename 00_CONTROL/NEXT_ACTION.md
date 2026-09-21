@@ -1,43 +1,44 @@
 # Next Action — Single Current Work Pointer
 
-Status: `DEBATE-017 FINAL MANAGER SYNTHESIS / USER DECISION PENDING`
+Status: `PHASE 4 WORKING-DIRECTION SET COMPLETE / GATE 4 -> 5 READINESS AUDIT PENDING`
 Phase: `PHASE 4 — TECHNOLOGY STRATEGY`
 Gate: `3 -> 4 PASSED / 4 -> 5 CLOSED`
 
-## Current Topic
+## Just Completed
 
-`TSQ-009 — production download/storage policy`
+`DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy`
 
-TASK-006 research/review is complete:
-- REVIEW-011 -> CHANGES_REQUESTED;
-- narrow M-1/M-2/m-1 remediation completed;
 - REVIEW-012 -> PASS / no Critical, Major or Minor findings;
-- TASK-006 -> DONE in Drive `06_DONE`.
+- TASK-006 -> DONE;
+- owner explicitly approved the final qualitative direction;
+- `DEC-0047 — Production Download, Storage and Automatic Transfer Working Direction` is canonical;
+- exact MB/GB/% production limits remain HELD pending later measured corpus/device evidence.
 
-Final manager synthesis:
-`04_TECH_STRATEGY/DEBATES/DEBATE-017__MANAGER_SYNTHESIS.md`
+## Phase-4 State
 
-## Proposed Plain-Language Direction
-
-- selected motorcycle/task gets one complete verified offline core;
-- every safety-required visual/video/media byte is inside that core, not a separate additive budget;
-- required content downloads without cellular/mobile-data, roaming or MB-threshold confirmation;
-- only safety-nonrequired media may be on-demand/outside package completeness;
-- storage handling is adaptive: disposable/refetchable content is evicted before active/protected data;
-- active-task package, durable user data and protected authority/audit truth are not routine cache;
-- stage -> verify -> atomic promote remains the package transition;
-- exact MB/GB/% production limits remain HELD pending real corpus/device evidence.
+The recorded Phase-4 strategy question set `TSQ-001` through `TSQ-018` now has direction-level answers where applicable.
+This does **not** mean Phase 5 has started and does **not** mean implementation/production proof exists.
 
 ## Immediate Next Manager Action
 
-Present the final Phase-4 working-direction proposal to the owner for explicit approve/change instruction.
+A fresh manager must perform a **Phase-4 closure / Gate 4 -> 5 readiness audit** against the canonical repository before proposing any phase transition.
 
-Do not create the next decision record until explicit owner approval.
+Minimum audit duties:
+
+1. Verify every Phase-4 strategy question has the required research/review/judge/user-decision evidence or an explicitly acceptable HELD boundary.
+2. Verify all user-approved Phase-4 working directions are recorded in `DECISION_LOG.md` and reflected consistently in `CURRENT_STATE.md`, `OPEN_QUESTIONS.md`, `DOCUMENT_REGISTRY.md` and the Phase-4 README.
+3. Distinguish legitimate Phase-5 implementation/ADR evidence from unresolved Phase-4 strategy gaps. Do not force provider/model/numeric/implementation decisions merely because they are HELD for later measured evidence.
+4. Check Gate 4 -> 5 against `PHASE_GATES.md`: expert AI views/judge synthesis completed; alternatives, risks and trade-offs visible.
+5. If the gate is not ready, identify only the concrete missing Phase-4 closure evidence and keep Gate 4 -> 5 CLOSED.
+6. If the gate appears ready, present the evidence and recommendation to the owner. **Do not open Phase 5 or mark Gate 4 -> 5 passed without explicit owner approval.**
+
+Do not invent a new technology debate merely to continue activity.
 
 ## Hard Boundaries
 
-- no exact numeric production limit approved;
-- CON-005 remains binding;
-- no provider/account/purchase/code/deployment;
-- no final commercial budget;
-- no Phase-5 ADR and no Gate 4 -> 5 transition.
+- Gate 4 -> 5 remains CLOSED until explicit owner approval;
+- no Phase-5 ADR work before the gate is passed;
+- no code/prototype/deployment/provider account/purchase;
+- HELD production/device/provider/numeric evidence may remain for later phases when it is not a Phase-4 strategy blocker;
+- preserve the owner constraints, especially `CON-005`;
+- owner is nontechnical and must not be made responsible for debugging or architecture repair.
