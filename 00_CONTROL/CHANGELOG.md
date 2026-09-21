@@ -1103,3 +1103,21 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Owner approved both ADRs (`ADR-01 VE 02 onaylıyorum`, 2026-09-21).
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no account/plan/purchase/code/proof authorized.
 - Next batch (ADR-003 + ADR-004) and GitHub push await explicit owner approval.
+
+### ADR-001/002 Approval Pushed
+- Committed and pushed `03ccaeb` (DEC-0048/DEC-0049 records, ADR-001/ADR-002 APPROVED) after explicit owner approval.
+
+### ADR-003 + ADR-004 Drafted (PROPOSED)
+- Owner approved starting the ADR-003 + ADR-004 batch.
+- Drafted `05_ADR/RECORDS/ADR-003__APPROVAL_PUBLICATION_EMERGENCY_SUSPENSION.md` (from DEC-0025/DEBATE-003)
+  and `05_ADR/RECORDS/ADR-004__IDENTITY_AUTHORIZATION_SESSION_RECOVERY_AND_PRIVILEGED_ACTIVATION.md`
+  (from DEC-0026/DEC-0037, DEBATE-004/DEBATE-010).
+- Both are PROPOSED; neither selects a vendor/product, sets numeric policy, nor authorizes account/purchase/code.
+- ADR-004 deliberately locks the privileged activation gate without forcing a provider winner.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-003 + ADR-004 Approved (+ Push)
+- Owner approved both (`ikisinide onaylıyorum`) with push authorization.
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no vendor/product selected, no numeric policy set,
+  no account/purchase/code/proof authorized; ADR-004 privileged winner stays held behind the activation gate.
+- Next batch (ADR-005 + ADR-006) awaits explicit owner approval.
