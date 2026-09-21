@@ -71,4 +71,15 @@ Status: PROPOSED (E3 + E10 owner-approved 2026-09-21; remaining epics pending)
 | C2.9 | E2 | Varyant/uygulanabilirlik sınırı | WS-02: motosiklet/varyant kapsam çiti | E3, E5 | PROPOSED |
 | C2.10 | E2 | Sürüm geçmişi/soy | WS-08: sürüm zinciri ve türeme soyu görünürlüğü | E3, E5 | PROPOSED |
 | C2.11 | E2 | Denetim/değişim geçmişi | WS-10: denetim izi görünürlüğü (kasa E5'te) | E3, E5 | PROPOSED |
+| C7.1 | E7 | Android şeridi sürekliliği | Bağımsız düşük maliyetli şerit; kaynak dışarıda; derleme≠onay; imza/mağaza CI'dan ayrı; köken bağlama (E6 politikasının şerit uygulaması); harcama görünürlüğü + çıkış koşu kitabı (YÜRÜTME; politika E6'da) | E3, E6 | PROPOSED |
+| C7.2 | E7 | iOS aktivasyon kapısı | 5 kanıt ayrı ayrı (gerçek Mac, Apple emaneti, bağımsız geçmiş, sahipsiz-kurtarma, temiz oda); kapılar istemeden sabit/barındırma/ücretli taahhüt yok | E3, E6 | PROPOSED |
+| C7.3 | E7 | Yetki ayrılığı | Derleme/imza/köken/onay/mağaza/taşıma/doğrulama ayrı; sağlayıcı çalıştırır ama sahip olamaz; anahtar kaybı = iptal/değiştir/yeniden kur (YÜRÜTME; politika E6'da) | E3, E6 | PROPOSED |
+| C7.4 | E7 | Kabiliyet sınıflandırması | Zorunlu/ertelenebilir/opsiyonel/ölçek-tetikli listeler | E3, E6 | PROPOSED |
+| C7.5 | E7 | Maliyet okuması | Linux ucuz; macOS dar bantta uyar; sabit donanım uzun vadede; TRY plan bağlamı, alım yetkisi değil; mağaza ücreti ayrı | E3, E6 | PROPOSED |
+| C8.1 | E8 | Kavriva teknik otoritesi (birebir) | Kaynak/iddia ilişkileri, varyant uygulanabilirliği, değişmez anlık-görüntü onayı, sürüm kimliği, askı kuşakları, paket uygunluğu + bağımlılık kapanışı, son yayın yetkisi (sahiplik E3/E6'da; E8 tanımlamaz); baypas listesi kapalı, CMS dahil projeksiyonlar yeniden-üretilebilir | E3 | PROPOSED |
+| C8.2 | E8 | Yazarlık-sınırlı ek | Sınırlı yazım/düzen/çeviri/medya; onay/yayın/geri alma/yetki veremez; çıkarılabilirlik kapısı; ölçülen yükte yeniden değerlendirme; ilk sürümde CMS yok | E3 | PROPOSED |
+| C8.3 | E8 | Ölçüm düzlem ayrılığı | Kayıt-türevi sayaçlar; denetim analitik dışında; gözlem ayrı; mağaza sinyali destek (kayıt/şema E3'te; E8 türetir; E2 yalnız gösterir) | E3 | PROPOSED |
+| C8.4 | E8 | Analitik disiplini + azaltma (birebir) | Amaçlı/en-az/anonim/değiştirilebilir; geç yükleme/kota/faturalama/silme güvenli yolu bozamaz; sağlayıcı değişimi kayıt/denetim/sayaçları taşıyamaz; yasak listesi birebir; sınıf başına amaçlı saklama | E3 | PROPOSED |
+| C8.5 | E8 | İlk-sürüm ölçüm yeteneği | İç operasyon görünürlüğü, en-az kullanım, çökme sinyalleri, rıza denetimi, telemetri sağlığı, eski-istemci uyumu, saklama yolu, kesinti bağımsızlığı | E3 | PROPOSED |
+| C8.6 | E8 | Yedek kural + çıkış dürüstlüğü | Gizlilik/işletilebilirlik/maliyet/çevrimdışı/çıkış kapısı geçemezse küçük öz tabana dön, zayıflatma yok; ham dışa aktarma çıkış kanıtı değil | E3 | PROPOSED |
 |---|---|---|---|---|---|

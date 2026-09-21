@@ -1283,5 +1283,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation: narrowed/expanded rows + 5 NEW rows (C1.0 shell, C2.8 authoring, C2.9 variant, C2.10 lineage,
   C2.11 audit trail). Narrow re-review verdict `PASS` (all F1..F10 closed, no regression).
 - 22 rows written to `CAPABILITY_CATALOG.md` as PROPOSED (67 total). Push pending explicit authorization.
+
+### E7+E8 Independent Review Cycle (Final Capability Group)
+- E7 + E8 draft (11 rows) reviewed against ADR-013/011/012 rule lines + epic seams.
+- First verdict `CHANGES_REQUESTED`: no invented scope; 8 exactness/seam findings (ADR-011 nouns, bypass list,
+  ADR-012 R2/R3/R4 qualifiers, E6-vs-E7 execution guard, E3/E8/E2 + E7/E1 seams, fallback gate list).
+- Remediation applied to affected rows only; narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
+- 11 rows written to `CAPABILITY_CATALOG.md` as PROPOSED (78 total). Capability layer complete.
+- Push pending explicit authorization; next: Step 3 feature/flow breakdown proposal.
 - Repair note: the four blocks above (Work Plan, File Visibility, DEC-0051, E3+E10) were found filed after newer
   entries due to anchor-based appends; moved here in true chronological order with content byte-unchanged.
