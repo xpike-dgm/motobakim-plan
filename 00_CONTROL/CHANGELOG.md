@@ -1121,3 +1121,18 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no vendor/product selected, no numeric policy set,
   no account/purchase/code/proof authorized; ADR-004 privileged winner stays held behind the activation gate.
 - Next batch (ADR-005 + ADR-006) awaits explicit owner approval.
+
+### ADR-005 + ADR-006 Drafted (PROPOSED)
+- Owner approved starting the ADR-005 + ADR-006 batch (`devam et`).
+- Drafted `05_ADR/RECORDS/ADR-005__PROTECTED_AUDIT_CUSTODY_RETENTION_AND_INVESTIGATION.md`
+  (from DEC-0026/DEC-0038 audit-custody parts) and `05_ADR/RECORDS/ADR-006__KAVRIVA_API_RUNTIME_AND_DURABLE_LONG_JOBS.md`
+  (from DEC-0038/DEBATE-011).
+- Both are PROPOSED; no product/vendor selected, no numeric policy set, no account/purchase/code/proof authorized.
+- ADR-006 deliberately locks the runtime-independent protocol + equal-evidence transition rule instead of a winner.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-005 + ADR-006 Approved
+- Owner approved both (`tamamdır ar 5 ve 6 yı onaylıyorum`, 2026-09-21).
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/vendor selected, no numeric policy set,
+  no account/purchase/code/proof authorized; ADR-006 locks protocol + transition rule with no runtime winner.
+- Next batch (ADR-007 + ADR-008) and GitHub push await explicit owner approval.
