@@ -1293,3 +1293,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Push pending explicit authorization; next: Step 3 feature/flow breakdown proposal.
 - Repair note: the four blocks above (Work Plan, File Visibility, DEC-0051, E3+E10) were found filed after newer
   entries due to anchor-based appends; moved here in true chronological order with content byte-unchanged.
+
+### E3 Feature/Flow Review Cycle (Step 3)
+- E3 draft (14 features + 14 flows) reviewed against ADR-001/002/006 rules + catalog schemas.
+- First verdict `CHANGES_REQUESTED`: 8 findings (2 Critical: invented provisioning/selection + orphaned ADR rules;
+  6 Major incl. missing flow, invented numerics, incomplete gate, custody gap, E6 theft, schema/actor defects).
+- Remediation: renamed F3.3.1 to readiness, added F3.1.4/F3.5.2/FL3.1.3/FL3.1.4, expanded + narrowed rows, filled
+  all Dependencies/Status/actors. Narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
+- 16 features + 16 flows written to `FEATURE_CATALOG.md` / `USER_FLOW_CATALOG.md` as PROPOSED.
+- Push pending explicit authorization; next: E10 feature/flow loop.
