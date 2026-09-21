@@ -1302,3 +1302,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   all Dependencies/Status/actors. Narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
 - 16 features + 16 flows written to `FEATURE_CATALOG.md` / `USER_FLOW_CATALOG.md` as PROPOSED.
 - Push pending explicit authorization; next: E10 feature/flow loop.
+
+### E10 Feature/Flow Review Cycle
+- E10 draft (7 features + 8 flows) reviewed against ADR-015 rules, addendum §§0/3-8, DEC-0051/0052, schemas.
+- First verdict `CHANGES_REQUESTED`: 8 findings (2 Critical: broken flow ref + homeless topology rule; 6 Major/Minor
+  incl. pared relation list, dropped §7 items, unnamed layers, dishonest screens, invented router, missing guards).
+- Remediation applied (renames, enumerations, seam guards, HELD-mechanism notes); narrow re-review `PASS`
+  (all F1..F8 closed, no regression).
+- 7 features + 8 flows written to catalogs as PROPOSED. Push pending explicit authorization.

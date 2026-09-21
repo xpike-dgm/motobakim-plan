@@ -20,4 +20,11 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F3.6.2 | C3.6 | Clean-room exit rehearsal | Sabit kimlikler + normal-hesap-dışı mantıksal dışa aktarma; boşluklar açık | C3.3, C3.5 | PROPOSED |
 | F3.7.1 | C3.7 | Cost BOM skeleton | Sınıflı iskelet (zorunlu/ertelenebilir/opsiyonel/ölçek); eşikler HELD; tutamama kuralı | C3.7 | PROPOSED |
 | F3.8.1 | C3.8 | Environment separation + promotion plumbing | Ortam kimlik/gizli ayrılığı, ortamlarda yeniden-derleme yok; E6 kontrollerine referans | C3.3 | PROPOSED |
+| F10.1.1 | C10.1 | Graph schema + identity standard | Sabit kimlik + denetlenebilir üstveri (birebir liste); 7 kalem kapı tespiti | C10.1 | PROPOSED |
+| F10.2.1 | C10.2 | Capsule topology + dependency rules + repo topology | Kapsüller, stabilite-yönlü bağımlılık, sızıntısız sınırlar; plan/kod bağlantısı, yönetilen adresler, yetim-dosya-yok | C10.2 | PROPOSED |
+| F10.3.1 | C10.3 | Task-pack schema + registry (manual-carrying compatible) | En-az paket + kayıt durumları; elle taşıma uyumlu, otomatik çalıştırma HELD | C10.3 | PROPOSED |
+| F10.4.1 | C10.4 | Closure matrix (10 layers enumerated) | 10 katman + çift yönlü iz; yetim görev/kayıp gereksinim reddedilir | C10.3 | PROPOSED |
+| F10.5.1 | C10.5 | Simulation set + excess-work scan | Senaryo tatbikatları + fazla-iş taraması | C10.4 | PROPOSED |
+| F10.6.1 | C10.6 | Design gate (full §7) | Tek kaynak tasarım sistemi; kontrollü değişiklik kapısı; tam kanıt seti | — | PROPOSED |
+| F10.7.1 | C10.7 | Review protocol + adversarial + DEC-0041 | Rol ayrılığı, ters-görüş, dış-bağımlılık bildirimi, ayrı çıktılar | C10.3 | PROPOSED |
 |---|---|---|---|---|---|

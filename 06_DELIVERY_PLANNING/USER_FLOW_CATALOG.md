@@ -20,4 +20,12 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL3.6.2 | F3.6.2 | Recovery task | Exit rehearsal | Floors/truth preserved; gaps explicit PARTIAL/QUARANTINE | — (API surface) | PROPOSED |
 | FL3.7.1 | F3.7.1 | System | HELD threshold policy evaluated (no numeric) | Owner-readable HELD; capability held not weakened | Owner-view | PROPOSED |
 | FL3.8.1 | F3.8.1 | Release task | Promote staging artifact to production | Promotion HELD unless E6 artifact checks pass (reference) | — (API surface) | PROPOSED |
+| FL10.1.1 | F10.1.1 | System/task author | New record created | Node with stable identity + metadata; gates detect orphans/broken links | — (planning graph, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.2.1 | F10.2.1 | Architect task | Module boundary declared | Capsule + contracts recorded; forbidden edge rejected | — (planning graph, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.3.1 | F10.3.1 | Planning selection rule (manual carrying default) | AI signals ready | Next READY selected; minimum pack handed over, nothing outside authorized | — (planned task-registry view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.3.2 | F10.3.1 | AI worker | Task state change | Transitions with evidence links; out-of-scope forces BLOCKED/change-request | — (planned task-registry view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.4.1 | F10.4.1 | Audit task | Closure audit requested | All 10 named layers evaluated; orphans/gaps stay visible | — (planned audit view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.5.1 | F10.5.1 | Planning task | Simulation requested | Scenarios over documents incl. excess-work scan; no false PASS | — (planned audit view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.6.1 | F10.6.1 | Design task | Screen submitted | Token/catalog/rules + Turkish/contracts/reference/shell compliance | — (planned design-review view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL10.7.1 | F10.7.1 | Reviewer (different chat) | Work submitted | Independent + adversarial review; verdict recorded; no self-PASS | — (planned review view, mechanism HELD Phase 7-8) | PROPOSED |
 |---|---|---|---|---|---|---|

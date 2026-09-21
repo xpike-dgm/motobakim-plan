@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / E10 FEATURE/FLOW DRAFT + REVIEW IN PROGRESS`
+Status: `PHASE 6 / E5+E6 FEATURE/FLOW DRAFT + REVIEW IN PROGRESS`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
