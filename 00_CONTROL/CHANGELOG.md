@@ -1153,3 +1153,21 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no tool/provider/registry/signing product selected,
   no OTA approved, no code/build/device/store action authorized; ADR-008 fallback and triggers locked.
 - Next batch (ADR-009 + ADR-010) awaits explicit owner approval.
+
+### ADR-007/008 Approval Pushed
+- Committed and pushed `c02564a` (ADR-007/ADR-008 APPROVED) after explicit owner approval.
+
+### ADR-009 + ADR-010 Drafted (PROPOSED)
+- Owner approved starting the ADR-009 + ADR-010 batch (`devam et`).
+- Drafted `05_ADR/RECORDS/ADR-009__MOBILE_OFFLINE_PACKAGE_LEDGER_AND_TRANSFER.md`
+  (from DEC-0023/DEC-0024/DEC-0036/DEC-0047, CON-005) and
+  `05_ADR/RECORDS/ADR-010__INTERNAL_WEB_FRAMEWORK_RENDER_AND_HOSTING.md` (from DEC-0021/DEC-0039).
+- Both are PROPOSED; no library/encryption/sync product, numeric limit, framework, host or account selected;
+  no code/purchase/device proof authorized. Exact MB/GB/% limits and the web framework winner stay HELD.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-009 + ADR-010 Approved (+ Push)
+- Owner approved both (`onaylıyorum`, push authorized) on 2026-09-21.
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/version/account selected, no numeric
+  policy set, no code/purchase/device proof authorized; exact limits and framework winner stay HELD.
+- Next batch (ADR-011 + ADR-012) awaits explicit owner approval.
