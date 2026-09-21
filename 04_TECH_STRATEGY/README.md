@@ -18,27 +18,29 @@ implementation platform/framework/service/provider onerileri Phase 5 ADR olmadan
 
 ## Active Topic
 
-- `DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy`
-  - TASK-006 research and REVIEW-011 remediation are complete,
-  - REVIEW-012 returned PASS with no Critical, Major or Minor findings,
-  - TASK-006 is DONE,
-  - final manager synthesis proposes qualitative Family D: complete verified required compact core, required safety media nested inside that core, only safety-nonrequired media on-demand, adaptive eviction of disposable/refetchable content, and CON-005 confirmation-free required transfer,
-  - exact MB/GB/% production limits remain HELD pending real corpus/device evidence,
-  - explicit owner approval is pending,
-  - no provider, account, purchase, code, device proof, budget, ADR or gate transition is approved.
+No new technology debate is open.
+
+Phase-4 working-direction question set `TSQ-001`–`TSQ-018` is complete at the intended strategy level. The next
+controlled work is a **Phase-4 closure / Gate 4 -> 5 readiness audit** by the fresh manager.
+
+Gate 4 -> 5 remains CLOSED. Do not start Phase-5 ADR work until:
+- the canonical Phase-4 evidence/decision set is audited for completeness and consistency; and
+- the owner explicitly approves the gate transition.
+
+HELD provider/model/numeric/device/production evidence does not automatically mean Phase 4 failed; the audit must decide
+whether each HELD item is legitimately deferred to ADR/implementation/proof or is still a missing Phase-4 strategy input.
 
 ## Most Recently Completed Topic
 
-- `DEBATE-016 — AI / LLM / Provider Strategy`
-  - TASK-004 core AI/provider research and TASK-005 Jev addendum are DONE,
-  - REVIEW-009 and REVIEW-010 both returned PASS with no open findings,
-  - the user approved the final manager synthesis under `DEC-0046`,
-  - default conversational AI uses the cheapest/fastest model adequate for the task,
-  - AI may ask clarification questions and a provider/model-neutral decision layer may propose route/guide candidates,
-  - Kavriva deterministic/canonical systems retain final motorcycle-context, guide eligibility, source/provenance, safety and authority checks,
-  - stronger/more expensive models are used only when needed,
-  - Jev is not used now and creates no first-release dependency; Jev-like bounded decision models may be evaluated later as optional low-risk adapters,
-  - no provider/model/plan winner, account, purchase, integration, final legal/privacy conclusion, final budget, ADR or gate transition is approved.
+- `DEBATE-017 — Production Download, Storage Limits and Automatic Transfer Policy`
+  - TASK-006 research/review is complete; REVIEW-012 returned PASS with no findings,
+  - owner approved the final qualitative direction under `DEC-0047`,
+  - required safety media is part of the single verified compact core,
+  - only safety-nonrequired media may be on-demand,
+  - CON-005 keeps required transfer free of cellular/roaming/byte-threshold confirmation,
+  - adaptive eviction removes disposable/refetchable content before active/durable/protected truth,
+  - exact MB/GB/% production limits remain HELD pending measured corpus/device evidence,
+  - no provider/account/purchase/code/device proof/final budget/ADR/gate transition is approved.
 
 - `DEBATE-014 — Analytics and Measurement Strategy`
   - TASK-002 official-primary research and independent review are complete; REVIEW-004 returned PASS with no findings,
