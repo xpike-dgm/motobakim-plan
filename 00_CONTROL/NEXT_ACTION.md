@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / STEP 2 E3+E10 APPROVED / NEXT GROUP PENDING`
+Status: `PHASE 6 / E4+E9 DRAFT + REVIEW IN PROGRESS`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
@@ -15,9 +15,11 @@ APPROVED, recorded as `DEC-0050` on 2026-09-21. Phase 5 is closed.
 
 ## Immediate Next Manager Action
 
-1. E3 + E10 capability breakdown APPROVED and written to `CAPABILITY_CATALOG.md` (PROPOSED); pushed.
-2. Await owner go-ahead for the next capability group (proposed: E5 + E6).
-3. No task execution or code in Phase 6; capabilities stay PROPOSED until their epic group is approved.
+1. E3 + E10 capabilities APPROVED and recorded (PROPOSED); E5 + E6 draft independently reviewed
+   (`CHANGES_REQUESTED` → remediated → re-review `PASS`), 15 rows recorded (PROPOSED) per `DEC-0052`.
+2. Await push authorization; then continue autonomously with the next group (proposed: E4 + E9) under the
+   draft → independent-review → record loop. Owner pre-approval per batch no longer required (`DEC-0052`).
+3. No task execution or code in Phase 6.
 
 ## Hard Boundaries
 

@@ -1232,6 +1232,19 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `EPIC_CATALOG.md` marked APPROVED; coverage verdict COMPLETE-WITH-NOTES stands, no new epic.
 - Step 2 (E3 + E10 capability breakdown) started; capabilities will be presented for approval before catalog write.
 
+### E5+E6 Independent Review Cycle (DEC-0052)
+- E5 + E6 draft reviewed by an independent general sub-agent against ADR-003/004/005/007 rule lines.
+- First verdict `CHANGES_REQUESTED`: 2 Critical (AI/OCR proposal-only homeless; fenced precedence homeless),
+  5 Major (restore quarantine + consumer contract; full epoch; promote-not-rebuild + non-collapse; C5.4/C6.3 split;
+  C5.5 enumeration). No invented scope. ADR-003 file integrity re-confirmed genuine.
+- Remediation applied to affected rows only (C5.3–C5.6, C6.1–C6.4, C6.6 + C5.4/C6.3 split).
+- Narrow re-review verdict `PASS`: all 7 findings closed, no regression, no new cycle/inversion.
+- 15 remediated rows written to `CAPABILITY_CATALOG.md` as PROPOSED. Push pending explicit authorization.
+
+### E5+E6 Pushed / E4+E9 Loop Started
+- Owner authorized push + next group in the same loop (`push et ve sıradakine geçebilirsin aynı dögüde`).
+- E4 + E9 draft sent to independent review (draft → review → record per DEC-0052).
+
 ### DEC-0051 — Mixed Execution (Path C) Chosen
 - Owner chose Path C after Path A/B/C explanation and a current-price Path B estimate.
 - Recorded DEC-0051: free automated packs/gates + manual carrying as default; paid API automation only with

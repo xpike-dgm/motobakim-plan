@@ -19,4 +19,19 @@ Status: PROPOSED (E3 + E10 owner-approved 2026-09-21; remaining epics pending)
 | C10.5 | E10 | Kodsuz simülasyon seti | Sıra/çakışma/arıza/geri alma tatbikat senaryoları hazır | C10.4 | PROPOSED |
 | C10.6 | E10 | Tasarım tutarlılık kapısı | Katalog zorunluluğu ve görsel+anlamsal regresyon kanıtı işler | — | PROPOSED |
 | C10.7 | E10 | Rol ayrılığı protokolü | Uygulayıcı/inceleyici ayrımı ve bağımsız inceleme kuralları çalışır | C10.3 | PROPOSED |
+| C5.1 | E5 | Tüketici kimliği | Hesapsız başlangıç, profiller, çakışmasız geçiş; Supabase yönü, satın alma yok | E3 | PROPOSED |
+| C5.2 | E5 | Hibrit yetkilendirme | Sunucuda her istekte karar; yayın yolunda da görev ayrılığı | E3 | PROPOSED |
+| C5.3 | E5 | Doğrulama + oturum + epoch | Oltalamaya dayanıklı giriş, ikinci doğrulama; epoch tüm uçları kapatır, indirilen kopya geri alınamaz (dürüst) | E3 | PROPOSED |
+| C5.4 | E5 | Kurtarma (yalnız) | İptal + taze giriş, çift kontrol/son-yönetici; kurtarma asla onay/yayın/yetki vermez | E3 | PROPOSED |
+| C5.5 | E5 | Denetim kasası (detaylı) | Olay kapsamı, asgari anlam, etki-öncesi bağ, bütünlük/uyarı, soruşturma zinciri, yönetim ayrılığı | E3 | PROPOSED |
+| C5.6 | E5 | Karantina + dışa aktarma + AI önerisi | Karantina hattı; dışa aktarma geri alınamaz kayıt; AI çıktısı öneri, asla onay değil | E3 | PROPOSED |
+| C5.7 | E5 | Ayrıcalıklı aktivasyon kapısı | 11 maddelik kanıt paketi geçilmeden kritik iç üretim açılmaz | E3 | PROPOSED |
+| C6.1 | E6 | Sürüm otoriteleri + çökmeme | 8 otorite ayrı; rol birleşemez, personel yoksa görünür BEKLEME | E3, E5 | PROPOSED |
+| C6.2 | E6 | Onay→yayın + çit kuralı | Mühürlü paket, tek kapı; yayın askı kuşağına bağlı, geri gidiş ölümcül hata; istemcide sözleşme denetlenebilir | E3, E5 | PROPOSED |
+| C6.3 | E6 | Acil fren + negatif kullanım | Normal yol çökse de durdurma; cam-kırma kullanımı, tatbikatlar | E3, E5 | PROPOSED |
+| C6.4 | E6 | Köken/SBOM/imza + yeniden-derleme-yok | Soy, doğrulama, kasa; üretime aynen terfi, sabit bağımlılıklar | E3, E5 | PROPOSED |
+| C6.5 | E6 | Ayar/bayrak/geçiş sürümleri | Yapılandırma ve veritabanı geçişleri sürüm disiplininde | E3, E5 | PROPOSED |
+| C6.6 | E6 | Kademeli dağıtım + geri alma + karantina | Kontrollü yayılım, yeni-olay geri dönüş; geri yüklenen sistem karantinada | E3, E5 | PROPOSED |
+| C6.7 | E6 | Olay müdahalesi + etki grafiği | Sızıntı haritası, müdahale yolu, kanıt koruma | E3, E5 | PROPOSED |
+| C6.8 | E6 | OTA ret kararı | Uzaktan kod kanalı kapalı; ilerde ayrı yetki ister | E3, E5 | PROPOSED |
 |---|---|---|---|---|---|

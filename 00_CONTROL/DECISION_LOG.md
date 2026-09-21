@@ -1728,3 +1728,28 @@ Decision:
 - This constrains Phase-7 router/harness design: it must work with manual carrying (copy-paste packs);
   API actuation of chats is an optional later upgrade, never an assumption.
 
+---
+
+## DEC-0052 — Capability Breakdowns Go Through Independent Review, Not Owner Pre-Approval
+**Date:** 2026-09-21
+**Status:** APPROVED OPERATING RULE
+
+User instruction, verbatim:
+
+> kırılımları yaptıktan sonra bana sormak yerine altajan açıp bağımsız incelet
+
+Decision:
+
+- Phase-6 breakdowns (capability/feature/flow/task drafts) are verified by an independent sub-agent
+  against their source ADRs/records BEFORE being written to planning catalogs — instead of asking the
+  owner to approve each draft.
+- Review verdict `PASS` (no findings) authorizes recording the breakdown as PROPOSED; `CHANGES_REQUESTED`
+  requires remediation and re-review of the affected rows only.
+- The owner no longer pre-approves every breakdown batch. The owner still: approves phase gates, decides
+  BLOCKED/escalation options, approves purchases/accounts/production, and may override or re-review any
+  recorded breakdown on request.
+- Each review is recorded (reviewer, verdict, findings, remediation) in `CHANGELOG.md`; push of new records
+  still requires explicit owner authorization per push.
+- First application: E5 + E6 capability draft reviewed `CHANGES_REQUESTED` (2 Critical, 5 Major, 0 invented
+  scope); remediation + narrow re-review pending before catalog write.
+
