@@ -495,9 +495,19 @@ Unless a newer explicit user decision changes the plan:
     limits remain HELD pending real corpus/device evidence. Explicit owner approval is required before recording the
     next Phase-4 decision. No provider/account/purchase/code/device proof/final budget/ADR/gate transition is approved.
 
+60. Owner approved DEBATE-017 under `DEC-0047`. Phase-4 recorded strategy questions `TSQ-001`–`TSQ-018`
+    now have direction-level answers where applicable. This does NOT pass Gate 4 -> 5. The next manager handoff is
+    explicitly a Phase-4 closure / Gate 4 -> 5 readiness audit. The fresh manager must reconcile all Phase-4
+    research/review/judge/user-decision evidence, classify remaining HELD items as legitimate later-phase evidence vs
+    true Phase-4 blockers, repair any memory drift, and then either keep the gate CLOSED with exact missing evidence or
+    present gate-readiness evidence to the owner for explicit approval. No new technology debate should be invented merely
+    to continue work. No Phase-5 ADR may begin before owner gate approval. Canonical fresh-manager entrypoints
+    `AGENTS.md`, `MANAGER_START_HERE.md`, `NEW_MANAGER_CHAT_PROMPT.md` and `NEXT_ACTION.md` were updated for this
+    transition.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Phase 4 is ACTIVE. Gate 4 -> 5 is not passed.
 
 ## Last Updated
-2026-09-19
+2026-09-21
