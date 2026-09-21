@@ -1136,3 +1136,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/vendor selected, no numeric policy set,
   no account/purchase/code/proof authorized; ADR-006 locks protocol + transition rule with no runtime winner.
 - Next batch (ADR-007 + ADR-008) and GitHub push await explicit owner approval.
+
+### ADR-005/006 Approval Pushed
+- Committed and pushed `efd8f30` (ADR-005/ADR-006 APPROVED) after explicit owner approval.
+
+### ADR-007 + ADR-008 Drafted (PROPOSED)
+- Owner approved starting the ADR-007 + ADR-008 batch (`push et ve devam et`, with push authorization).
+- Drafted `05_ADR/RECORDS/ADR-007__SUPPLY_CHAIN_AND_RELEASE_GOVERNANCE.md` (from DEC-0027/DEBATE-005)
+  and `05_ADR/RECORDS/ADR-008__CONSUMER_MOBILE_FRAMEWORK.md` (from DEC-0031–DEC-0033/DEBATE-006).
+- Both are PROPOSED; no provider/toolchain/registry/signing product selected, no OTA approved, no code/build/
+  device test/store submission authorized. ADR-008 keeps RN/Expo as defined fallback with reversal triggers.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-007 + ADR-008 Approved (+ Push)
+- Owner approved both (`onaylıyorum`, push authorized) on 2026-09-21.
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no tool/provider/registry/signing product selected,
+  no OTA approved, no code/build/device/store action authorized; ADR-008 fallback and triggers locked.
+- Next batch (ADR-009 + ADR-010) awaits explicit owner approval.
