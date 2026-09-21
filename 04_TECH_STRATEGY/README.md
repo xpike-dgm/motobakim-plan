@@ -23,7 +23,7 @@ No new technology debate is open.
 Phase-4 working-direction question set `TSQ-001`–`TSQ-018` is complete at the intended strategy level. The fresh-manager
 closure/readiness audit is complete and Gate 4 -> 5 PASSED under `DEC-0048` on 2026-09-21 with explicit owner approval.
 
-Phase-5 ADR work is in progress. ADR-001 through ADR-012 are APPROVED; per-ADR owner approval continues.
+Phase-5 ADR work is complete. ADR-001 through ADR-015 are APPROVED. Gate 5 -> 6 is pending explicit owner approval; no Phase-6 work before the gate passes.
 
 Gate 4 -> 5 PASSED. Do not reopen Phase-4 debates unless new evidence or the owner explicitly requests it.
 

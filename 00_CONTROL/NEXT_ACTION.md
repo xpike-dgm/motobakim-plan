@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 5 / ADR-001–ADR-012 APPROVED / NEXT BATCH PENDING APPROVAL`
+Status: `PHASE 5 COMPLETE / ADR-001–ADR-015 APPROVED / GATE 5 -> 6 APPROVAL PENDING`
 Phase: `PHASE 5 — ADR (TECHNOLOGY / ARCHITECTURE DECISIONS)`
 Gate: `3 -> 4 PASSED / 4 -> 5 PASSED under DEC-0048`
 
@@ -16,10 +16,10 @@ Phase-4 closure/readiness audit, recorded as `DEC-0048` on 2026-09-21.
 
 ## Immediate Next Manager Action
 
-1. ADR-001–ADR-012 are APPROVED by the owner (2026-09-21); index and records updated.
-2. Push the local records with the given authorization, then await owner approval to start the final batch
-   (proposed: ADR-013 + ADR-014 + ADR-015).
-3. On any later rejection/changes, revise only the affected ADR and re-present; do not silently advance it.
+1. All 15 ADRs are APPROVED by the owner (2026-09-21); index and records updated.
+2. Push the local records with the given authorization.
+3. Gate 5 -> 6 readiness is presented to the owner: all required ADR records APPROVED/LOCKED including the
+   ADR-015 topology/graph/dependency scope. Await explicit gate approval; no Phase-6 work before it passes.
 
 Do not invent technology beyond the approved Phase-4 working directions when scoping ADRs.
 

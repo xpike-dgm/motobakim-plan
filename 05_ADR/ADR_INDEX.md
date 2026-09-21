@@ -14,6 +14,9 @@
 | ADR-010 | Internal Operations Web Framework, Render and Hosting | APPROVED | 2026-09-21 | — | — |
 | ADR-011 | CMS Role and Controlled Publishing Mechanics | APPROVED | 2026-09-21 | — | — |
 | ADR-012 | Measurement Split: Canonical Metrics, Product Analytics, Observability | APPROVED | 2026-09-21 | — | — |
+| ADR-013 | Mobile Build, Signing and Split/Hybrid Release Operations | APPROVED | 2026-09-21 | — | — |
+| ADR-014 | AI/LLM Assistance Boundary, Decision Layer and Provider/Model Routing | APPROVED | 2026-09-21 | — | — |
+| ADR-015 | AI-Safe Module, Contract, Repository Topology and Project Graph | APPROVED | 2026-09-21 | — | — |
 |---|---|---|---|---|---|
 
 Status: PROPOSED / REVIEW / APPROVED / LOCKED / REJECTED / SUPERSEDED.

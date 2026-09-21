@@ -1188,3 +1188,24 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/provider/SDK/KPI/account selected,
   no integration/code/purchase authorized; CMS adoption and analytics provider stay HELD.
 - Final batch (ADR-013 + ADR-014 + ADR-015) awaits explicit owner approval.
+
+### ADR-011/012 Approval Pushed
+- Committed and pushed `ce0178c` (ADR-011/ADR-012 APPROVED) after explicit owner approval.
+
+### ADR-013 + ADR-014 + ADR-015 Drafted (PROPOSED)
+- Owner approved starting the final batch (`evet devam et`).
+- Drafted `05_ADR/RECORDS/ADR-013__MOBILE_BUILD_SIGNING_AND_RELEASE_OPERATIONS.md` (from DEC-0045/DEBATE-015),
+  `05_ADR/RECORDS/ADR-014__AI_LLM_ASSISTANCE_AND_DECISION_LAYER.md` (from DEC-0046/DEBATE-016) and
+  `05_ADR/RECORDS/ADR-015__AI_SAFE_MODULE_CONTRACT_TOPOLOGY_AND_GRAPH.md` (from DEC-0028/addendum + Gate 5->6).
+- All three are PROPOSED; no provider/plan/account, model/key/integration or mechanism selected; no purchase,
+  build, signing setup or code authorized. iOS lane, AI providers and Phase-7/8 mechanisms stay HELD.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-013 + ADR-014 + ADR-015 Approved (+ Push) / Phase 5 Complete
+- Owner approved all three (`adr 13 14 15 onaylandı`, push authorized) on 2026-09-21.
+- All 15 ADR records and `05_ADR/ADR_INDEX.md` marked APPROVED; no provider/account/purchase/code/proof authorized.
+- Implementation code repo decision: owner accepted the separate-repo principle (matches ADR-015 topology) but
+  deferred creating it (`o repo için şuanlık bekleyelim`); preferred name `kavriva-app`, private, revisited at
+  Phase 8 bootstrap. No repo created, no account action taken.
+- Gate 5 -> 6 readiness: all required ADR records are APPROVED/LOCKED including the ADR-015 topology/graph/
+  dependency scope — presented to the owner for explicit gate approval. No Phase-6 work before the gate passes.
