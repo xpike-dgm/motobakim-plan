@@ -1171,3 +1171,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/version/account selected, no numeric
   policy set, no code/purchase/device proof authorized; exact limits and framework winner stay HELD.
 - Next batch (ADR-011 + ADR-012) awaits explicit owner approval.
+
+### ADR-009/010 Approval Pushed
+- Committed and pushed `9007ba2` (ADR-009/ADR-010 APPROVED) after explicit owner approval.
+
+### ADR-011 + ADR-012 Drafted (PROPOSED)
+- Owner approved starting the ADR-011 + ADR-012 batch (`devam et`).
+- Drafted `05_ADR/RECORDS/ADR-011__CMS_ROLE_AND_CONTROLLED_PUBLISHING.md` (from DEC-0042/DEBATE-013)
+  and `05_ADR/RECORDS/ADR-012__MEASUREMENT_SPLIT_ANALYTICS_OBSERVABILITY.md` (from DEC-0044/DEBATE-014).
+- Both are PROPOSED; no CMS/provider, analytics/observability provider, SDK, KPI or account selected;
+  no schema/integration/code/purchase authorized. CMS adoption and analytics provider stay HELD behind gates.
+- Owner per-ADR approval pending; push of these drafts awaits explicit authorization.
+
+### ADR-011 + ADR-012 Approved (+ Push)
+- Owner approved both (`onaylıyorum`, push authorized) on 2026-09-21.
+- Both records and `05_ADR/ADR_INDEX.md` marked APPROVED; no product/provider/SDK/KPI/account selected,
+  no integration/code/purchase authorized; CMS adoption and analytics provider stay HELD.
+- Final batch (ADR-013 + ADR-014 + ADR-015) awaits explicit owner approval.

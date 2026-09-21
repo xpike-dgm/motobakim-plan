@@ -12,6 +12,8 @@
 | ADR-008 | Consumer Mobile Framework and Portable-Truth Separation | APPROVED | 2026-09-21 | — | — |
 | ADR-009 | Mobile Offline Package, Local Persistence, Durable Ledger and Transfer Policy | APPROVED | 2026-09-21 | — | — |
 | ADR-010 | Internal Operations Web Framework, Render and Hosting | APPROVED | 2026-09-21 | — | — |
+| ADR-011 | CMS Role and Controlled Publishing Mechanics | APPROVED | 2026-09-21 | — | — |
+| ADR-012 | Measurement Split: Canonical Metrics, Product Analytics, Observability | APPROVED | 2026-09-21 | — | — |
 |---|---|---|---|---|---|
 
 Status: PROPOSED / REVIEW / APPROVED / LOCKED / REJECTED / SUPERSEDED.
