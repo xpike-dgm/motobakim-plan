@@ -27,6 +27,22 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F10.5.1 | C10.5 | Simulation set + excess-work scan | Senaryo tatbikatları + fazla-iş taraması | C10.4 | PROPOSED |
 | F10.6.1 | C10.6 | Design gate (full §7) | Tek kaynak tasarım sistemi; kontrollü değişiklik kapısı; tam kanıt seti | — | PROPOSED |
 | F10.7.1 | C10.7 | Review protocol + adversarial + DEC-0041 | Rol ayrılığı, ters-görüş, dış-bağımlılık bildirimi, ayrı çıktılar | C10.3 | PROPOSED |
+| F4.1.1 | C4.1 | Package composition + safety-media nesting | Doğrulanmış çekirdek + iç içe güvenlik medyası; zorunlu-dışı ayrı (boyut önceden) | C4.1, E3 | PROPOSED |
+| F4.1.2 | C4.1 | Nonessential media on-demand | Ayrı/açık/iptal edilebilir/temizlenebilir/yeniden alınabilir; boyut önceden | C4.1 | PROPOSED |
+| F4.2.1 | C4.2 | Stage-verify-promote acceptance | Manifesto/özet/bağımlılık/uyumluluk; atomik yükseltme; tam-paket yedeği; zirve alan | C4.2, E3 | PROPOSED |
+| F4.3.1 | C4.3 | Automatic transfer CON-005 (required core only) | YALNIZ gerekli çekirdek otomatik; ağ-türü/MB diyaloğu yok; desteklenen yerde tekrar (HELD); tamamlanma≠yetki | C4.3 | PROPOSED |
+| F4.4.1 | C4.4 | Adaptive storage + eviction (enumerated) | Sıra: geçici→gereksiz→eski-önbellek→yeniden-üretilebilir; 6-sınıf asla-silme listesi | C4.4 | PROPOSED |
+| F4.5.1 | C4.5 | Durable local ledger via E3 API | Yerel kimlikli işlemler + haller; gönderim/sorgu E3 API (F3.1.2) ile; kabul E3'ün | C4.5 | PROPOSED |
+| F4.6.1 | C4.6 | Risk-tiered eligibility + cached suspension | Bilinmeyen/eski kritik kapalı; iç-operasyon değişikliği yalnız çevrimiçi-yetkili; E4 önbellek zemin uygular, gerçeklik E3/E6'da | C4.6 | PROPOSED |
+| F4.7.1 | C4.7 | No-plaintext enforcement gate (only) | Mekanizma/emanet HELD; düz-metin kapıdan geçemez | C4.7 | PROPOSED |
+| F4.8.1 | C4.8 | Numeric-policy HELD skeleton | Aday noktalar TEST NOKTASI; seçim, ölçüm kanıtında kabul kriteri (görev değil) | C4.8 | PROPOSED |
+| F9.1.1 | C9.1 | Assistant conversation flow | Anla→sor→5-aday→6-boyut-doğrula→göster/sor/beklet; E9 önerir, E1 gösterir, E3 doğrular | C9.1 | PROPOSED |
+| F9.2.1 | C9.2 | Model routing economy (skeleton) | İlke iskeleti; eşik/seçim HELD; gösterişsiz değerlendirme | C9.2 | PROPOSED |
+| F9.3.1 | C9.3 | Provider adapter boundary | Detay adaptörde; sürüm/davranış gözlemlenir; değişim yeniden değerlendirir | C9.3 | PROPOSED |
+| F9.4.1 | C9.4 | Least-privilege tools + cost observability | İçerik politika değil; yetki çıktı dışında; sınırlı tekrar + maliyet görünürlüğü; AI-dışı devam | C9.4 | PROPOSED |
+| F9.5.1 | C9.5 | Allowed-help (Decision-5 items 1–10 verbatim) | İzinli 10 kalem birebir | C9.5 | PROPOSED |
+| F9.6.1 | C9.6 | Never-authority (Decision-6 items 1–15 verbatim) | Yasak 15 kalem birebir; belirsizlikte HOLD | C9.6 | PROPOSED |
+| F9.7.1 | C9.7 | Project AI discipline (ref F10.7.1) | Disiplin referansı; DEC-0028/0029; bağımlılık C10.7 | C9.7, C10.7 | PROPOSED |
 | F5.1.1 | C5.1 | Consumer identity + account-light + migration | Yerel-başlangıç, profil, çakışmasız geçiş; Supabase yönü, satın alma yok | C5.1 | PROPOSED |
 | F5.2.1 | C5.2 | Hybrid authorization decision (E3 uygulamasına girdi) | Sunucuda tuple kararı + sebep; zemin/kuşak çitiyle E3 F3.1.1'e girdi | C5.2 | PROPOSED |
 | F5.2.2 | C5.2 | Separation-of-duties enforcement | Değişim başına uyumsuzluk engeli; küçük ekipte görünür BEKLEME | C5.2 | PROPOSED |

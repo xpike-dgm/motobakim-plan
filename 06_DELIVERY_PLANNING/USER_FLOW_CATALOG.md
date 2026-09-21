@@ -28,6 +28,22 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL10.5.1 | F10.5.1 | Planning task | Simulation requested | Scenarios over documents incl. excess-work scan; no false PASS | — (planned audit view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL10.6.1 | F10.6.1 | Design task | Screen submitted | Token/catalog/rules + Turkish/contracts/reference/shell compliance | — (planned design-review view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL10.7.1 | F10.7.1 | Reviewer (different chat) | Work submitted | Independent + adversarial review; verdict recorded; no self-PASS | — (planned review view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL4.1.1 | F4.1.1 | System | Package assembly requested | Verified core + nested safety media; manifest bound | — (API surface; generation owned by E3/E6 pipeline, E4 consumes) | PROPOSED |
+| FL4.1.2 | F4.1.2 | User | Optional media requested | Size shown; explicit fetch; cancelable; evictable | — (client logic, surfaced via E1 — E1 screen HELD per Step 3) | PROPOSED |
+| FL4.2.1 | F4.2.1 | System | Package update available | Verified promote or complete-package fallback; never partial | — (API surface; generation owned by E3/E6 pipeline, E4 consumes) | PROPOSED |
+| FL4.3.1 | F4.3.1 | System | Task requires required-core content | Auto-start any network; no dialog; Saver may delay; completion≠authority | — (client logic, surfaced via E1 — E1 screen HELD per Step 3) | PROPOSED |
+| FL4.4.1 | F4.4.1 | System | Storage pressure signal | Ordered eviction; protected truth intact; transfer held if needed | — (client logic, surfaced via E1 — E1 screen HELD per Step 3) | PROPOSED |
+| FL4.5.1 | F4.5.1 | User/system | Offline work created | Persisted locally; submitted/looked-up via E3 API; E3 acceptance authoritative | History screens (E1 renders per C1.6) | PROPOSED |
+| FL4.6.1 | F4.6.1 | System | Stale/unknown critical dependency | Fail closed inherited; safe-stop available; internal-ops online-only | — (client logic, surfaced via E1 — E1 screen HELD per Step 3) | PROPOSED |
+| FL4.7.1 | F4.7.1 | Security task | Gate evaluated, mechanism HELD | Proven or held; plaintext blocked at gate | — (API surface; gate check, mechanism HELD) | PROPOSED |
+| FL4.8.1 | F4.8.1 | Measurement task | HELD policy evaluated | No numbers selected; acceptance criterion noted | Owner-view (HELD) | PROPOSED |
+| FL9.1.1 | F9.1.1 | User | Free-text symptom/task described | Clarify; bounded proposal; verification by E3, render by E1 | AI Usta screens (E1 renders per C1.10) | PROPOSED |
+| FL9.2.1 | F9.2.1 | System | HELD policy evaluated (no numeric) | No model selected/logged | — (API surface) | PROPOSED |
+| FL9.3.1 | F9.3.1 | Platform task | Provider/model changed | Adapter + revalidation; product logic untouched | — (API surface) | PROPOSED |
+| FL9.4.1 | F9.4.1 | System | Tool call attempted | Authority check; bounded retry + cost visibility; safe continuation | — (API surface) | PROPOSED |
+| FL9.5.1 | F9.5.1 | User/system | Ranking/summary requested | Only eligible ranked; verification by E3, render by E1 | AI Usta screens (E1 renders per C1.10) | PROPOSED |
+| FL9.6.1 | F9.6.1 | System | Unsupported/risky request | HOLD with reason; verification by E3, render by E1; no invention | AI Usta screens (E1 renders per C1.10) | PROPOSED |
+| FL9.7.1 | F9.7.1 | Reviewer (different chat) | High-impact AI work submitted | Independent review assigned; no self-PASS | — (planned review view, mechanism HELD Phase 7-8 per E10) | PROPOSED |
 | FL5.1.1 | F5.1.1 | User | Profile creation/migration requested | Scope preview; conflicts held not merged; source preserved until accepted | Account screens (E1 renders) | PROPOSED |
 | FL5.2.1 | F5.2.1 | Operator/system | Sensitive action requested | Tuple evaluated; allow/deny/hold + reason | — (API surface) | PROPOSED |
 | FL5.2.2 | F5.2.2 | Operator | Self-approval attempt on own change | Blocked incompatible pair; visible HELD + escalation | — (API surface) | PROPOSED |

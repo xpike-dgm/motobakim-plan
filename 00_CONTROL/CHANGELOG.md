@@ -1318,3 +1318,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation: expanded rows + NEW F5.5.3/FL5.5.3 + splits/annotations/HELD-view marks; narrow re-review `PASS`
   (all F1..F8 closed, no regression).
 - 22 features + 22 flows written to catalogs as PROPOSED. Push pending explicit authorization.
+
+### E4+E9 Feature/Flow Review Cycle
+- E4 + E9 draft (16 features + 16 flows) reviewed against ADR-009/014 rules, CON-005, seams, schemas.
+- First verdict `CHANGES_REQUESTED`: 11 findings (2 Critical: builder surface + CON-005 stretch; 6 Major incl.
+  truth ownership, submit seam, verify collapse, deployable routing, measurement execution, shorthand lists;
+  3 Minor incl. screens, gate framing, E10 duplication).
+- Remediation applied (narrowing, seam notes, HELD framings, verbatim cites, E3 deps); narrow re-review `PASS`
+  (all F1..F11 closed, no regression).
+- 16 features + 16 flows written to catalogs as PROPOSED. Push pending explicit authorization.
