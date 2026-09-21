@@ -1327,3 +1327,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation applied (narrowing, seam notes, HELD framings, verbatim cites, E3 deps); narrow re-review `PASS`
   (all F1..F11 closed, no regression).
 - 16 features + 16 flows written to catalogs as PROPOSED. Push pending explicit authorization.
+
+### E1+E2 Feature/Flow Review Cycle
+- E1 + E2 draft (12+11 features, 12+11 flows) reviewed against screens/specs, A1, workspace arch, ADR-008/010/011.
+- First verdict `CHANGES_REQUESTED`: 8 findings (1 Critical: orphan SCR-016/017/027/028/029 + hidden SCR-013/024;
+  7 Major incl. SCR-005 homelessness, A1/seam gaps, WS/RQ overclaim, built-surface implication, unfillable screens,
+  closed bottom-bar rule, seam errors).
+- Remediation: 7 NEW flows (FL1.0.2, FL1.3.2/3.3, FL1.6.2/6.3, FL2.2.2, FL2.3.2) + global guards + seam fixes +
+  SCR cites + planned-HELD views. Narrow re-review `PASS` (all F1..F8 closed, no regression).
+- 23 features + 30 flows written to catalogs as PROPOSED. Push pending explicit authorization.

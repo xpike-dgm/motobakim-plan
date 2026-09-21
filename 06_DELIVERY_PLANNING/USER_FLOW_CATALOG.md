@@ -44,6 +44,36 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL9.5.1 | F9.5.1 | User/system | Ranking/summary requested | Only eligible ranked; verification by E3, render by E1 | AI Usta screens (E1 renders per C1.10) | PROPOSED |
 | FL9.6.1 | F9.6.1 | System | Unsupported/risky request | HOLD with reason; verification by E3, render by E1; no invention | AI Usta screens (E1 renders per C1.10) | PROPOSED |
 | FL9.7.1 | F9.7.1 | Reviewer (different chat) | High-impact AI work submitted | Independent review assigned; no self-PASS | — (planned review view, mechanism HELD Phase 7-8 per E10) | PROPOSED |
+| FL1.0.1 | F1.0.1 | User | Tab switched mid-repair | Preservation objective; bottom-bar HELD, no behavior locked | SCR-005 + tabs | PROPOSED |
+| FL1.0.2 | F1.0.1 | User | Garage opened/switched | Selected context displayed/switched; lifecycle entry; no dashboard hub | SCR-005/SCR-008 | PROPOSED |
+| FL1.1.1 | F1.1.1 | New user | First launch | Value before account; bike added | SCR-001/002 screens | PROPOSED |
+| FL1.1.2 | F1.1.2 | User | Ambiguous motorcycle | Variant clarified; fit or missing-distinction shown | SCR-003/004 screens | PROPOSED |
+| FL1.2.1 | F1.2.1 | User | Task sought | Fit/readiness evaluated, never bypassed; SCR-013 teaching-only labeled | SCR-009..013 screens | PROPOSED |
+| FL1.3.1 | F1.3.1 | User | Guide step executed | Truthful outcome incl. partial/unresolved/safe-stop; no continue-anyway | SCR-014..018 screens | PROPOSED |
+| FL1.3.2 | F1.3.1 | User | Interrupted work resumed | Revalidated vs current state; saved progress is not proof | SCR-016 screens | PROPOSED |
+| FL1.3.3 | F1.3.1 | User | Guide changed mid-repair | Remap required; no guessed continuation | SCR-017 screens | PROPOSED |
+| FL1.4.1 | F1.4.1 | User | Symptom described | E9-routed check; supported or unresolved outcome | SCR-019..021 screens | PROPOSED |
+| FL1.5.1 | F1.5.1 | User | Reminder due | Verified source shown; snooze≠completed; SCR-024 catch-up path | SCR-022..024 screens | PROPOSED |
+| FL1.6.1 | F1.6.1 | User | History/export requested | Provenance shown; E5 authorizes, E3 serves, E1 renders; gates server-side | SCR-025..030 screens | PROPOSED |
+| FL1.6.2 | F1.6.1 | User | Standalone record/dispute opened | SCR-027 preserved; SCR-028 reviewed, no-silent-winner | SCR-027/028 screens | PROPOSED |
+| FL1.6.3 | F1.6.1 | User | Correction with impact issued | SCR-029 reach-back by severity; survives inactive/entitlement | SCR-029 screens | PROPOSED |
+| FL1.7.1 | F1.7.1 | User | Lifecycle/entitlement event | Inactive/transfer/delete honored; gates server-side | SCR-008/031-033/037 screens | PROPOSED |
+| FL1.8.1 | F1.8.1 | User | Migration/collaboration action | Scope preview; no silent loss; revocable attribution | SCR-006/007/034 screens | PROPOSED |
+| FL1.9.1 | F1.9.1 | User | Community contribution/status check | Opt-in flows; status/repair paths; decisions in E2, acceptance≠verification | SCR-035/036/038 screens | PROPOSED |
+| FL1.10.1 | F1.10.1 | User | AI Usta opened | A1 split only; routes SCR-009/019; no third path/composer; propose=E9 verify=E3 | AI Usta root screen | PROPOSED |
+| FL2.1.1 | F2.1.1 | Operator | Workspace opened | Dense workspace + nav; a11y baseline active | — (planned shell view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.2.1 | F2.2.1 | Reviewer | Packet assigned | Evidence reviewed; independence checked; decision recorded | — (planned queue view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.2.2 | F2.2.1 | Reviewer | Conflict/gap detected | WS-05 conflict review with owner/reason/escalation | — (planned queue view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.3.1 | F2.3.1 | Operator | Release/recall action taken | Surface invokes; E6 authorizes/executes; display reconciled | — (planned ops view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.3.2 | F2.3.1 | Operator | Recall/suspension issued | WS-11 impact/reach-back case with scope, correction, re-entry | — (planned ops view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.4.1 | F2.4.1 | Operator | File/URL submitted | Quarantine + isolated preview; graph/withdrawal-impact + scope separation | — (planned quarantine view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.5.1 | F2.5.1 | Operator | Metrics checked | Record-derived metrics + drill-down; WS-01/WS-09; E3 owns, E8 derives, E2 shows | — (planned metrics view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.6.1 | F2.6.1 | Access admin | Grant/delegation/recertification action | Scoped change with approval; no self-grant path | — (planned access view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.7.1 | F2.7.1 | Moderator | Content flagged | Reasoned decision + audit; SCR-036 renders status; notify channel HELD | — (planned moderation view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.8.1 | F2.8.1 | Author | Draft created/edited | Bounded draft saved; never live without approval path | — (planned editor view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.9.1 | F2.9.1 | Operator | Scope rule changed | Variant fencing + matrix/duplicate/comparison; approved | — (planned scope view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.10.1 | F2.10.1 | Operator | Lineage queried | Version/derivation chain + rollback-candidate/correction links | — (planned lineage view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL2.11.1 | F2.11.1 | Investigator | Audit question | RQ-046 fields + RQ-047 separation; trail from E5 custody; access audited | — (planned audit view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL5.1.1 | F5.1.1 | User | Profile creation/migration requested | Scope preview; conflicts held not merged; source preserved until accepted | Account screens (E1 renders) | PROPOSED |
 | FL5.2.1 | F5.2.1 | Operator/system | Sensitive action requested | Tuple evaluated; allow/deny/hold + reason | — (API surface) | PROPOSED |
 | FL5.2.2 | F5.2.2 | Operator | Self-approval attempt on own change | Blocked incompatible pair; visible HELD + escalation | — (API surface) | PROPOSED |

@@ -43,6 +43,29 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F9.5.1 | C9.5 | Allowed-help (Decision-5 items 1–10 verbatim) | İzinli 10 kalem birebir | C9.5 | PROPOSED |
 | F9.6.1 | C9.6 | Never-authority (Decision-6 items 1–15 verbatim) | Yasak 15 kalem birebir; belirsizlikte HOLD | C9.6 | PROPOSED |
 | F9.7.1 | C9.7 | Project AI discipline (ref F10.7.1) | Disiplin referansı; DEC-0028/0029; bağımlılık C10.7 | C9.7, C10.7 | PROPOSED |
+| F1.0.1 | C1.0 | App shell + tabs | 5 sekme + sorumluluklar; aktif-iş korunumu (alt-bar HELD); Türkçe/birim/erişilebilirlik (sunum; gerçeklik dışarıda; kanıt yok) | C1.0 | PROPOSED |
+| F1.1.1 | C1.1 | First-value entry + add motorcycle | SCR-001/002 giriş ve motor ekleme (sunum; gerçeklik dışarıda; kanıt yok) | C1.1 | PROPOSED |
+| F1.1.2 | C1.1 | Variant resolution + fit states | SCR-003/004 ayrım + uygunluk halleri (sunum; gerçeklik dışarıda; kanıt yok) | C1.1 | PROPOSED |
+| F1.2.1 | C1.2 | Guide discovery/fit/preparation | SCR-009..013 hazırlık kapısı, atlama yok (sunum; gerçeklik dışarıda; kanıt yok) | C1.2 | PROPOSED |
+| F1.3.1 | C1.3 | Active execution + recovery | SCR-014..018 dürüst sonuçlar, devam-et-yok (sunum; gerçeklik dışarıda; kanıt yok) | C1.3 | PROPOSED |
+| F1.4.1 | C1.4 | Diagnosis via E9 | SCR-019..021 tehlike-öncelikli, tek kontrol, E9 yönlendirmeli (sunum; gerçeklik dışarıda; kanıt yok) | C1.4 | PROPOSED |
+| F1.5.1 | C1.5 | Maintenance/reminders | SCR-022..024 uydurma-aralık-yok, erteleme≠tamamlama (sunum; gerçeklik dışarıda; kanıt yok) | C1.5 | PROPOSED |
+| F1.6.1 | C1.6 | History/evidence + export | SCR-025..030; E1 gösterir, E3 sunar, E5 yetkilendirir (sunum; gerçeklik dışarıda; kanıt yok) | C1.6 | PROPOSED |
+| F1.7.1 | C1.7 | Lifecycle + entitlement gates | SCR-008/031..033/037; pasif≠silme; hak sunucuda (sunum; gerçeklik dışarıda; kanıt yok) | C1.7 | PROPOSED |
+| F1.8.1 | C1.8 | Profile/collab/migration | SCR-006/007/034; zorlamasız, sessiz-kayıpsız, ayrılabilir (sunum; gerçeklik dışarıda; kanıt yok) | C1.8 | PROPOSED |
+| F1.9.1 | C1.9 | Community consumer surface | SCR-035/036/038; karar E2'de, kabul≠doğrulama (sunum; gerçeklik dışarıda; kanıt yok) | C1.9 | PROPOSED |
+| F1.10.1 | C1.10 | AI Usta entry A1 | 1+1+2; üçüncü yol/yazışma yok; E9 önerir, E1 gösterir, E3 doğrular (sunum; gerçeklik dışarıda; kanıt yok) | C1.10 | PROPOSED |
+| F2.1.1 | C2.1 | Workspace shell | Yoğun tarayıcı alanı; erişilebilirlik temeli, duyarlı ertelendi (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.1 | PROPOSED |
+| F2.2.1 | C2.2 | Review/approval queues | Kanıtlı paketler; WS-06 + WS-05; bağımsızlık arayüzde (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.2 | PROPOSED |
+| F2.3.1 | C2.3 | Publication/recall operations | WS-07 + WS-11 yürütme yüzeyi; karar E6'da (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.3 | PROPOSED |
+| F2.4.1 | C2.4 | Source/quarantine view | WS-03; özel karantina özet/soy; API yetkisiyle etkinleşme (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.4 | PROPOSED |
+| F2.5.1 | C2.5 | Coverage/quality visibility only | WS-01 + WS-09; kayıt-türevi RQ-052..058; E8'i tüketir, yığın seçmez (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.5 | PROPOSED |
+| F2.6.1 | C2.6 | Access administration view | WS-12; kendine-yetki yok (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.6 | PROPOSED |
+| F2.7.1 | C2.7 | Moderation internal decisions | Sebepli işlem + denetim izi; SCR-036 arkası (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.7 | PROPOSED |
+| F2.8.1 | C2.8 | Authoring draft workspace | Sınırlı taslak RQ-017..024; taslak-asla-canlı (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.8 | PROPOSED |
+| F2.9.1 | C2.9 | Variant boundary admin | WS-02 kapsam çiti + matris/çoğaltma/karşılaştırma (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.9 | PROPOSED |
+| F2.10.1 | C2.10 | Lineage view | WS-08 zincir + geri-alma-adayı/düzeltme bağı (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.10 | PROPOSED |
+| F2.11.1 | C2.11 | Audit trail view | WS-10 RQ-046 alanları + RQ-047 ayrımı; kasa E5'te (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.11 | PROPOSED |
 | F5.1.1 | C5.1 | Consumer identity + account-light + migration | Yerel-başlangıç, profil, çakışmasız geçiş; Supabase yönü, satın alma yok | C5.1 | PROPOSED |
 | F5.2.1 | C5.2 | Hybrid authorization decision (E3 uygulamasına girdi) | Sunucuda tuple kararı + sebep; zemin/kuşak çitiyle E3 F3.1.1'e girdi | C5.2 | PROPOSED |
 | F5.2.2 | C5.2 | Separation-of-duties enforcement | Değişim başına uyumsuzluk engeli; küçük ekipte görünür BEKLEME | C5.2 | PROPOSED |

@@ -1,15 +1,15 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / E1+E2 FEATURE/FLOW DRAFT + REVIEW IN PROGRESS`
+Status: `PHASE 6 / E7+E8 FEATURE/FLOW DRAFT + REVIEW IN PROGRESS (FINAL GROUP)`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
 ## Just Completed
 
-Feature/flow layer in progress: E3 (16+16), E10 (7+8), E5+E6 (22+22) and E4+E9 (16+16) independently
-reviewed (`CHANGES_REQUESTED` → remediated → re-review `PASS`) and recorded as PROPOSED per `DEC-0052`.
+Feature/flow layer in progress: E3 (16+16), E10 (7+8), E5+E6 (22+22), E4+E9 (16+16) and E1+E2 (23+30)
+independently reviewed (`CHANGES_REQUESTED` → remediated → re-review `PASS`) and recorded as PROPOSED per `DEC-0052`.
 
-- 61 features + 62 flows recorded; remaining epic groups: E1+E2, E7+E8.
+- 84 features + 92 flows recorded; remaining epic group: E7+E8 (final).
 - No invented scope in any group; all findings closed with no regression.
 - No task execution, prototype, account, purchase or code authorized.
 
