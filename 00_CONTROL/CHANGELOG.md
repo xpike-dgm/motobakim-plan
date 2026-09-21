@@ -1310,3 +1310,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation applied (renames, enumerations, seam guards, HELD-mechanism notes); narrow re-review `PASS`
   (all F1..F8 closed, no regression).
 - 7 features + 8 flows written to catalogs as PROPOSED. Push pending explicit authorization.
+
+### E5+E6 Feature/Flow Review Cycle
+- E5 + E6 draft (21 features + 21 flows) reviewed against ADR-003/004/005/007 rules + schemas + seams.
+- First verdict `CHANGES_REQUESTED`: 8 findings (3 Critical: homeless audit rules, homeless promote-rule, invented
+  openability; 4 Major incl. homeless state model, epoch overlap, duplication seams, unfillable screens; 1 Minor).
+- Remediation: expanded rows + NEW F5.5.3/FL5.5.3 + splits/annotations/HELD-view marks; narrow re-review `PASS`
+  (all F1..F8 closed, no regression).
+- 22 features + 22 flows written to catalogs as PROPOSED. Push pending explicit authorization.

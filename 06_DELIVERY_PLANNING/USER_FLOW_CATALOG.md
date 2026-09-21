@@ -28,4 +28,26 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL10.5.1 | F10.5.1 | Planning task | Simulation requested | Scenarios over documents incl. excess-work scan; no false PASS | — (planned audit view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL10.6.1 | F10.6.1 | Design task | Screen submitted | Token/catalog/rules + Turkish/contracts/reference/shell compliance | — (planned design-review view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL10.7.1 | F10.7.1 | Reviewer (different chat) | Work submitted | Independent + adversarial review; verdict recorded; no self-PASS | — (planned review view, mechanism HELD Phase 7-8) | PROPOSED |
+| FL5.1.1 | F5.1.1 | User | Profile creation/migration requested | Scope preview; conflicts held not merged; source preserved until accepted | Account screens (E1 renders) | PROPOSED |
+| FL5.2.1 | F5.2.1 | Operator/system | Sensitive action requested | Tuple evaluated; allow/deny/hold + reason | — (API surface) | PROPOSED |
+| FL5.2.2 | F5.2.2 | Operator | Self-approval attempt on own change | Blocked incompatible pair; visible HELD + escalation | — (API surface) | PROPOSED |
+| FL5.3.1 | F5.3.1 | Operator | Privileged login / high-consequence action | Phishing-resistant auth + fresh step-up; session bounded | Login/step-up screens (E1 renders per C1.1/C1.3; E2 privileged view planned HELD) | PROPOSED |
+| FL5.3.2 | F5.3.2 | Security task | Suspected compromise | Identity-plane sweep; E3 F3.5.2 called for runtime edges | — (API surface) | PROPOSED |
+| FL5.4.1 | F5.4.1 | Recovery actor | Recovery requested | Sessions revoked, fresh auth; no approval/publish/grant | Recovery screens (E1 renders; E2 privileged view planned HELD) | PROPOSED |
+| FL5.5.1 | F5.5.1 | System (commit path) | High-consequence effect commits | Protected event first; else AUDIT_HELD; Acil istisna karantinalı/bilinmiyor; NO_EFFECT/ABORTED vs OUTCOME_UNKNOWN kapanışları | — (API surface) | PROPOSED |
+| FL5.5.2 | F5.5.2 | Investigator | Audit question | Chain reconstructed (E5 custody read); access itself audited | Audit view (E2 renders per C2.11) | PROPOSED |
+| FL5.5.3 | F5.5.3 | Audit task | Retention/redaction/policy-admin change | Change itself audited with before/after meaning; custody re-verified | — (API surface) | PROPOSED |
+| FL5.6.1 | F5.6.1 | Operator | File/URL submitted | Quarantine states (E5 policy); enforcement in E3 F3.2.3; isolated preview | Quarantine view (E2 renders per C2.4) | PROPOSED |
+| FL5.6.2 | F5.6.2 | Operator | Export requested | Preview + minimization; disclosure non-retractable | Export dialog (E1 renders per C1.6; E2 bulk view planned HELD) | PROPOSED |
+| FL5.6.3 | F5.6.3 | System | Extraction produced | Proposal linked; never auto-approved; hostile inert | — (API surface) | PROPOSED |
+| FL5.7.1 | F5.7.1 | Audit task | Activation evaluation requested | HELD with gap list; no open verdict from this feature | — (API surface) | PROPOSED |
+| FL6.1.1 | F6.1.1 | Release task | New authority registered | Distinctness + non-collapse verified; missing staffing → HELD | — (API surface) | PROPOSED |
+| FL6.2.1 | F6.2.1 | Operator | Publish candidate submitted | Preflight + guarded transition; states enumerated (HELD/FAILED/OUTCOME_UNKNOWN/PARTIAL_PROPAGATION/SUSPENDED/RECALL_OPEN…); idempotent result | Release view (E2 renders per C2.3) | PROPOSED |
+| FL6.2.2 | F6.2.2 | Consumer client/system | Release evaluation | Current/superseded/suspended/recall resolved; stale rejected | — (client logic) | PROPOSED |
+| FL6.3.1 | F6.3.1 | Emergency operator | Safety incident | Narrow negative hold; audit recorded; retrospective scheduled | Emergency view (E2 renders per C2.3) | PROPOSED |
+| FL6.4.1 | F6.4.1 | Verification task | Artifact submitted | Digest-equal promotion check; rebuild/tag rejected; trust-root verified | — (API surface) | PROPOSED |
+| FL6.5.1 | F6.5.1 | Operator | Config/flag/migration change | Release-treated with review; incompatible client held; suspension never cleared by config | Config view (E2 renders per C2.3) | PROPOSED |
+| FL6.6.1 | F6.6.1 | Release task | Rollout/rollback/restore event | Staged states; stop never downgrades; quarantine on restore; monotonic generations | Rollout view (E2 renders per C2.3) | PROPOSED |
+| FL6.7.1 | F6.7.1 | Incident task | Incident declared | Taxonomy + impact graph with protected copy; closure only on reconcile | Incident view (E2 renders per C2.3) | PROPOSED |
+| FL6.8.1 | F6.8.1 | Release task | OTA proposal submitted | Denied by default + reason; future envelope listed (no native-replace/widen/merge) | — (API surface) | PROPOSED |
 |---|---|---|---|---|---|---|
