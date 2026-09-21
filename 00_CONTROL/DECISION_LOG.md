@@ -1575,3 +1575,55 @@ Decision boundary:
 Canonical synthesis:
 `04_TECH_STRATEGY/DEBATES/DEBATE-016__MANAGER_SYNTHESIS.md`.
 
+---
+
+## DEC-0047 — Production Download, Storage and Automatic Transfer Working Direction
+**Date:** 2026-09-21
+**Status:** USER-APPROVED PHASE-4 WORKING DIRECTION
+
+After TASK-006 primary research, REVIEW-011 `CHANGES_REQUESTED`, narrow M-1/M-2/m-1 remediation and REVIEW-012
+`PASS` with no Critical, Major or Minor findings, the user explicitly approved the final DEBATE-017 manager synthesis.
+
+Binding direction:
+
+- Kavriva prepares one complete, verified offline core for the selected motorcycle/task before offline-start eligibility;
+- every visual/video/media byte required for safe understanding, required application or reachable safe-stop/recovery is
+  `required safety media` and is a semantic subset of the `required compact core`;
+- required safety media is not a separate/additive byte allowance and cannot be moved to the on-demand lane merely to
+  satisfy a size target;
+- the active-task complete package is exactly one verified required-compact-core generation including the full
+  required-safety-media subset;
+- safety-nonrequired/nonessential media may remain outside package completeness and may be fetched on demand;
+- `CON-005` remains binding: required selected-task content does not ask for download confirmation merely because the
+  path is cellular/mobile data, roaming or exceeds a byte/MB threshold;
+- storage handling is adaptive: invalid/orphan/temp staging data, nonessential media, old inactive refetchable content
+  and other rebuildable projections are removed before active/durable/protected truth;
+- active-task complete package, durable user history/notes/photos/evidence, durable pending/accepted operation truth,
+  protected audit/authority data and negative floors are not routine disposable cache;
+- package transition remains conceptually stage -> verify complete manifest/digest/dependencies/compatibility -> atomic
+  promote; partial/corrupt/mixed/stale/incompatible download never becomes actionable;
+- download completion alone is not current authorization, recall/suspension state or canonical technical truth;
+- background/network facilities are continuity helpers, not correctness authority.
+
+Numeric policy remains intentionally open:
+
+- no exact first-release MB/GB/% production limit is approved;
+- 5/12/25/50/100 MB compact points, 25/100/150/300/500 MB safety-media points,
+  100/250/500 MB/1 GB/2 GB refetchable-cache points and 20/10/5% free-space bands remain
+  `HELD CANDIDATE SENSITIVITY / TEST POINTS`;
+- exact compact/media hard caps, cache budgets/ceilings, free-space triggers/reserve, retry/backoff/chunk/partial-retention
+  settings and real-device proof require later measured corpus/device evidence;
+- Android Auto Backup's researched 25 MB file-based quota is a backup-service constraint only; it is not a Kavriva
+  download/cache/core limit and is unrelated to the historical cellular-confirmation fixture.
+
+Decision boundary:
+
+- no CDN/storage provider, provider account, plan, purchase or payment is selected;
+- no downloader/storage implementation, schema, deployment or production proof is approved;
+- no final commercial budget is approved;
+- no Phase-5 ADR is created;
+- Gate 4 -> 5 remains closed pending an explicit Phase-4 closure/readiness audit and owner gate approval.
+
+Canonical synthesis:
+`04_TECH_STRATEGY/DEBATES/DEBATE-017__MANAGER_SYNTHESIS.md`.
+
