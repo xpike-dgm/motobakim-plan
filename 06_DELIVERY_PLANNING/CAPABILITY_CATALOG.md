@@ -49,4 +49,26 @@ Status: PROPOSED (E3 + E10 owner-approved 2026-09-21; remaining epics pending)
 | C9.5 | E9 | İzinli AI yardımları | Anlama/soru/normalleştirme/sorgu/özet/sıralama/taslak/triyaj/proje-araştırma/sınırlı öneri (10 kalem) | E3, E1 | PROPOSED |
 | C9.6 | E9 | Asla-tek-yetki listesi | 15 kalem (nitelikli): desteksiz değer, kanonik gerçek, kesin teşhis, onay/yayın/geri alma, imza, faturalama vb. AI'ya ait değil | E3, E1 | PROPOSED |
 | C9.7 | E9 | Proje AI disiplini | Uygulayıcı/inceleyici ayrımı, kanıt, taklit yasağı (DEC-0028/0029) | E3, E1 | PROPOSED |
+| C1.0 | E1 | Uygulama kabuğu + sekmeler | 5 sekme (Garaj·Bakım·AI Usta·Geçmiş·Topluluk), aktif-iş korunumu, SCR-005 daraltılmış; Türkçe/birim/erişilebilirlik temeli (sunum katmanı; taşınabilir gerçeklik çerçeve dışında; derleme/cihaz kanıtı yok) | E3, E5, E4 | PROPOSED |
+| C1.1 | E1 | İlk kullanım + motosiklet bağlamı | SCR-001..005: giriş, motor ekleme, varyant ayrımı, uygunluk halleri | E3, E5, E4 | PROPOSED |
+| C1.2 | E1 | Rehber bulma/uygunluk/hazırlık | SCR-009..013; hazırlık kapısı, engelli-hazırlık atlaması yok | E3, E5, E4 | PROPOSED |
+| C1.3 | E1 | Aktif uygulama/güvenlik/kurtarma | SCR-014..018; dürüst kısmi/çözümsüz/güvenli-duruş sonuçları, devam-et-yok | E3, E5, E4 | PROPOSED |
+| C1.4 | E1 | Tanı akışları | SCR-019..021; tehlike-öncelikli, tek ayırt edici kontrol, E9 yönlendirmeli | E3, E5, E4 | PROPOSED |
+| C1.5 | E1 | Bakım/hatırlatıcı | SCR-022..024; uydurma aralık yok, erteleme≠tamamlama, yetişme özeti | E3, E5, E4 | PROPOSED |
+| C1.6 | E1 | Geçmiş/kanıt/güven + dışa aktarma | SCR-025..030; E1 gösterir, E3 sunar, E5 yetkilendirir/denetler; dışa aktarma paralı olamaz | E3, E5, E4 | PROPOSED |
+| C1.7 | E1 | Yaşam döngüsü + hak kapıları | SCR-008 + SCR-031..033 + SCR-037; pasif≠silme, transfer kapsamı; saklama politikası ertelendi, hak sunucuda denetlenir | E3, E5, E4 | PROPOSED |
+| C1.8 | E1 | Profil/işbirliği/geçiş | SCR-006/007/034; zorlamasız geçiş, sessiz kayıpsız çakışma incelemesi, ayrılabilir işbirliği | E3, E5, E4 | PROPOSED |
+| C1.9 | E1 | Topluluk yüzeyi (tüketici) | SCR-035/036/038; opt-in katkı, durum/sebep/düzeltme/itiraz yolları; karar E2'de | E3, E5, E4 | PROPOSED |
+| C1.10 | E1 | AI Usta girişi | A1 (1 bağlam + 1 soru + 2 yol); üçüncü yol/yazışma yok; uygunluk atlaması yok; E9 önerir, E1 gösterir, E3 doğrular | E3, E5, E4 | PROPOSED |
+| C2.1 | E2 | Çalışma alanı kabuğu | Yoğun masaüstü tarayıcı alanı + gezinme; erişilebilirlik temeli (duyarlı tasarım ertelendi); çatı seçimi yok, her hassas iş API'de yeniden yetkilendirilir | E3, E5 | PROPOSED |
+| C2.2 | E2 | İnceleme/onay kuyrukları | Kanıtlı paketler; WS-06 inceleme/onay + WS-05 açık/çakışma; bağımsızlık arayüzde zorlanır | E3, E5 | PROPOSED |
+| C2.3 | E2 | Yayın/geri çağırma operasyonu | WS-07 sürüm/yayın + WS-11 düzeltme/geri çağırma yürütme yüzeyi | E3, E5 | PROPOSED |
+| C2.4 | E2 | Kaynak/kanıt + karantina görünümü | WS-03 kaynak/köken; özel karantina (özet/soy/sınıf); etkinleşme yalnız API yetkisiyle | E3, E5 | PROPOSED |
+| C2.5 | E2 | Kapsama/kalite görünürlüğü (yalnız) | WS-01 araştırma + WS-09 kalite; kayıt-türevi ölçümler (RQ-052..058); E8 düzlemlerini tüketir, yığın seçmez | E3, E5 | PROPOSED |
+| C2.6 | E2 | Erişim yönetimi görünümü | WS-12: rol/kapsam, temsil, yeniden onay, iptal yüzeyleri; kendine-yetki yolu yok | E3, E5 | PROPOSED |
+| C2.7 | E2 | Topluluk moderasyonu (karar) | SCR-036 arkası iç karar: sebepli işlem + denetim izi; tüketici akışı yok | E3, E5 | PROPOSED |
+| C2.8 | E2 | Yazarlık taslağı | WS-04 sınırlı Kavriva-içi taslak (RQ-017..024); taslak-asla-canlı, kendi başına yayınlamaz | E3, E5 | PROPOSED |
+| C2.9 | E2 | Varyant/uygulanabilirlik sınırı | WS-02: motosiklet/varyant kapsam çiti | E3, E5 | PROPOSED |
+| C2.10 | E2 | Sürüm geçmişi/soy | WS-08: sürüm zinciri ve türeme soyu görünürlüğü | E3, E5 | PROPOSED |
+| C2.11 | E2 | Denetim/değişim geçmişi | WS-10: denetim izi görünürlüğü (kasa E5'te) | E3, E5 | PROPOSED |
 |---|---|---|---|---|---|

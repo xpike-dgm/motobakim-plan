@@ -1232,6 +1232,29 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - `EPIC_CATALOG.md` marked APPROVED; coverage verdict COMPLETE-WITH-NOTES stands, no new epic.
 - Step 2 (E3 + E10 capability breakdown) started; capabilities will be presented for approval before catalog write.
 
+### Phase-6 Work Plan Approved / Step 1 Started
+- Owner approved the 6-step Phase-6 plan (`uygun`) and starting with Step 1 (`adım 1 ile başlayalım`).
+- Epic candidate list derived from approved product synthesis, design families and ADR-001–ADR-015 presented for
+  selection; nothing written to `06_DELIVERY_PLANNING/EPIC_CATALOG.md` before owner selection.
+
+### File Visibility (a) + Capsule Rule Retained
+- Owner chose visibility option (a): every file's purpose visible via module manifest line + auto path index +
+  task evidence; no mandatory longhand Obsidian note per small file.
+- Owner challenged ultra-micro-modularity ("what if an AI changes something else mid-task?"); manager retained
+  the approved capsule rule with the layered-defense explanation below. No ADR change.
+- E3 + E10 capability proposal presented; owner approval pending before catalog write.
+
+### DEC-0051 — Mixed Execution (Path C) Chosen
+- Owner chose Path C after Path A/B/C explanation and a current-price Path B estimate.
+- Recorded DEC-0051: free automated packs/gates + manual carrying as default; paid API automation only with
+  a future cost sheet + explicit approval; quota rotation across existing subscriptions.
+- Constrains Phase-7 design; no account, key, purchase or mechanism built now.
+
+### E3+E10 Capabilities Approved (+ Push)
+- Owner approved the 15-row E3+E10 capability breakdown (`onay verildi`, push authorized).
+- `06_DELIVERY_PLANNING/CAPABILITY_CATALOG.md` written as PROPOSED (E3 + E10 approved; rest pending).
+- Next proposed group: E5 + E6 capabilities; owner go-ahead pending.
+
 ### E5+E6 Independent Review Cycle (DEC-0052)
 - E5 + E6 draft reviewed by an independent general sub-agent against ADR-003/004/005/007 rule lines.
 - First verdict `CHANGES_REQUESTED`: 2 Critical (AI/OCR proposal-only homeless; fenced precedence homeless),
@@ -1252,25 +1275,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation applied to affected rows only; narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
 - 15 remediated rows written to `CAPABILITY_CATALOG.md` as PROPOSED. Push pending explicit authorization.
 
-### DEC-0051 — Mixed Execution (Path C) Chosen
-- Owner chose Path C after Path A/B/C explanation and a current-price Path B estimate.
-- Recorded DEC-0051: free automated packs/gates + manual carrying as default; paid API automation only with
-  a future cost sheet + explicit approval; quota rotation across existing subscriptions.
-- Constrains Phase-7 design; no account, key, purchase or mechanism built now.
-
-### E3+E10 Capabilities Approved (+ Push)
-- Owner approved the 15-row E3+E10 capability breakdown (`onay verildi`, push authorized).
-- `06_DELIVERY_PLANNING/CAPABILITY_CATALOG.md` written as PROPOSED (E3 + E10 approved; rest pending).
-- Next proposed group: E5 + E6 capabilities; owner go-ahead pending.
-
-### File Visibility (a) + Capsule Rule Retained
-- Owner chose visibility option (a): every file's purpose visible via module manifest line + auto path index +
-  task evidence; no mandatory longhand Obsidian note per small file.
-- Owner challenged ultra-micro-modularity ("what if an AI changes something else mid-task?"); manager retained
-  the approved capsule rule with the layered-defense explanation below. No ADR change.
-- E3 + E10 capability proposal presented; owner approval pending before catalog write.
-
-### Phase-6 Work Plan Approved / Step 1 Started
-- Owner approved the 6-step Phase-6 plan (`uygun`) and starting with Step 1 (`adım 1 ile başlayalım`).
-- Epic candidate list derived from approved product synthesis, design families and ADR-001–ADR-015 presented for
-  selection; nothing written to `06_DELIVERY_PLANNING/EPIC_CATALOG.md` before owner selection.
+### E1+E2 Independent Review Cycle
+- E1 + E2 draft (17 rows) reviewed against screen catalog/specs, A1 structure, workspace arch, ADR-008/010/011.
+- First verdict `CHANGES_REQUESTED`: 10 findings (2 Critical: orphan SCR-006/007 + orphan workspaces WS-02/04/08/10;
+  6 Major incl. SCR-036 seam, C2.5/E8 seam, export seam, shell homelessness, ADR-008/010 qualifiers; 2 Minor).
+  No invented scope.
+- Remediation: narrowed/expanded rows + 5 NEW rows (C1.0 shell, C2.8 authoring, C2.9 variant, C2.10 lineage,
+  C2.11 audit trail). Narrow re-review verdict `PASS` (all F1..F10 closed, no regression).
+- 22 rows written to `CAPABILITY_CATALOG.md` as PROPOSED (67 total). Push pending explicit authorization.
+- Repair note: the four blocks above (Work Plan, File Visibility, DEC-0051, E3+E10) were found filed after newer
+  entries due to anchor-based appends; moved here in true chronological order with content byte-unchanged.
