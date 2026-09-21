@@ -1050,3 +1050,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Added DEBATE-017 manager synthesis with qualitative Family D direction only.
 - Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
 - Explicit owner approval is pending before the next decision record.
+
+### DEC-0047 Approved / Fresh Manager Handoff Prepared
+- Owner approved DEBATE-017 qualitative download/storage/automatic-transfer direction under DEC-0047.
+- TSQ-001–TSQ-018 now have direction-level answers where applicable.
+- Gate 4 -> 5 remains CLOSED; Phase 5 has not started.
+- NEXT_ACTION now requires a fresh-manager Phase-4 closure / Gate 4 -> 5 readiness audit.
+- Updated AGENTS.md, MANAGER_START_HERE.md, NEW_MANAGER_CHAT_PROMPT.md, NEW_MANAGER_CHAT_HANDOFF.md and PHASE_GATES.md for the transition.
+- Fresh manager must not invent another technology debate or start ADR work before closure audit and explicit owner gate approval.
