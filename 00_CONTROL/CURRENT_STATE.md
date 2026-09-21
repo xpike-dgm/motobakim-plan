@@ -168,6 +168,7 @@ TSQ-009 owner constraint update — `CON-005`: required Kavriva content/download
 DEBATE-017 / TSQ-009 is user-approved at Phase-4 working-direction level under `DEC-0047`. REVIEW-012 passed with no findings; TASK-006 is DONE. Approved direction: one verified required compact core including the entire required-safety-media subset; only safety-nonrequired media may be on-demand; adaptive storage/eviction removes disposable/refetchable content before active/durable/protected truth; CON-005 keeps required transfer confirmation-free over cellular/roaming/byte thresholds. Exact MB/GB/% production limits remain HELD pending measured corpus/device evidence.
 
 Phase-4 strategy-state summary — `TSQ-001` through `TSQ-018` now have direction-level answers where applicable. Phase 4 is not yet closed: Gate 4 -> 5 remains CLOSED pending a fresh manager closure/readiness audit and explicit owner gate approval. No Phase-5 ADR work is authorized yet.
+Fresh-manager handoff is prepared: `AGENTS.md`, `MANAGER_START_HERE.md`, `NEW_MANAGER_CHAT_PROMPT.md`, `NEW_MANAGER_CHAT_HANDOFF.md`, `NEXT_ACTION.md` and `PHASE_GATES.md` all direct the next manager to perform the closure/readiness audit before any gate or phase transition.
 
 External AI operating model:
 - `DEC-0040` directs external AI work through Google Drive + GitHub only;
