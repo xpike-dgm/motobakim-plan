@@ -1513,6 +1513,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   execution order G1 → G2 → G4 (interface freeze) → G5 → G3 last; G6 += scaffold README refresh.
 - Revised plan presented for owner approval; no group started before approval.
 
+### Phase-7 Group 3 Recorded (Context + Execution)
+- Draft reviewed: `CHANGES_REQUESTED` (8 findings: lifecycle states, DEC-0041 guards, free-automation/cards,
+  protocol Steps 6-7, 14-field reconciliation, blind-spot/impersonation, tie-break, dry-run guardrails).
+- Remediation + narrow re-review `PASS` (all F1..F8 closed, Path C preserved, no Group 4-6 smuggling).
+- Written as PROPOSED: `CONTEXT_ROUTING.md`, `CONTEXT_PACKS/PACK_STANDARD.md` (new), `AI_CODING_PROTOCOL.md`,
+  `TASK_EXECUTION_PROTOCOL.md`, `OWNER_STATUS_AND_ESCALATION.md` (new), `DRY_RUN_WALKTHROUGH.md` (new).
+- Push pending explicit authorization; next: Group 4 (validation) loop.
+
 ### Phase-7 Group 2 Recorded (Contracts)
 - Draft reviewed: `CHANGES_REQUESTED` (6 findings: template field gaps, version/supersedes conflation,
   ADR-003 misuse + dual-support mandate, missing seam contracts, underspecified enforceability, blurred pointers).
