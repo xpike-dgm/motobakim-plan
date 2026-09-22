@@ -25,11 +25,11 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E3-016 | FL3.3.2/F3.3.2 | RLS/storage defense policies | — | ADR-002 Option A + Decision 1 | Defense-only; never sole authority | PROPOSED |
 | T-E3-017 | FL3.3.2/F3.3.2 | Secret custody + rotation rules | T-E3-016 | ADR-002 Option A + Decision 1 | Server-only secrets; rotation procedure | PROPOSED |
 | T-E3-018 | FL3.3.2/F3.3.2 | Changelog/compat-hold procedure | T-E3-016 | ADR-002 Decision 7 | Dated changelog; hold on change | PROPOSED |
-| T-E3-019 | FL3.4.1/F3.4.1 | Queue/worker contract | T-E3-001 | ADR-006 Decision 5 | Lease/retry/DLQ/backpressure specified | PROPOSED |
+| T-E3-019 | FL3.4.1/F3.4.1 | Queue/worker contract | T-E3-001, T-E3-003, T-E3-004 | ADR-006 Decision 5 | Lease/retry/DLQ/backpressure specified; lease-expiry→OUTCOME_UNKNOWN/PARTIAL/RECONCILING | PROPOSED |
 | T-E3-020 | FL3.4.1/F3.4.1 | Job-family list skeleton | T-E3-019 | ADR-006 Decision 5 | All families listed | PROPOSED |
 | T-E3-020b | FL3.4.1/F3.4.1 | Per-family gate-conditions matrix | T-E3-020 | ADR-006 Decision 5 | Gate conditions per family | PROPOSED |
-| T-E3-021 | FL3.4.1/F3.4.1 | Poison/backpressure/cancel/drain handling | T-E3-019 | ADR-006 Decision 5 | Poison quarantined; drain on deploy | PROPOSED |
-| T-E3-022 | FL3.4.1/F3.4.1 | Owner-visible backlog + resolver | T-E3-019 | ADR-006 Decision 5 | Backlog readable; resolver assigned | PROPOSED |
+| T-E3-021 | FL3.4.1/F3.4.1 | Poison/backpressure/cancel/drain handling | T-E3-019 | ADR-006 Decision 5 | Poison→DLQ/OBJECT_QUARANTINE + PARTIAL/RECONCILING; re-drive budget owner named; drain on deploy | PROPOSED |
+| T-E3-022 | FL3.4.1/F3.4.1 | Owner-visible backlog + resolver | T-E3-019 | ADR-006 Decision 5 | Backlog readable; technical recovery owner named (never owner-debug); link T-E6-015 | PROPOSED |
 | T-E3-023 | FL3.5.1/F3.5.1 | Floors store + pre-commit re-read | T-E3-001 | ADR-006 Decision 6 | Newer/equal floor wins; ties hold | PROPOSED |
 | T-E3-024a | FL3.5.2/F3.5.2 | Epoch edge list | T-E3-023 | ADR-006 Decision 7 | All revocation edges listed | PROPOSED |
 | T-E3-024b | FL3.5.2/F3.5.2 | Per-edge revocation contract | T-E3-024a | ADR-006 Decision 7 | Revocation per edge + E4/E5/E6 call-outs | PROPOSED |
@@ -38,8 +38,8 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E3-027 | FL3.6.1/F3.6.1 | Manifest reconciliation checklist | T-E3-026 | ADR-002 Decisions 2+3 | Checklist closable with evidence | PROPOSED |
 | T-E3-028 | FL3.6.2/F3.6.2 | Stable-ID + logical-export format spec | T-E3-026 | ADR-002 Decision 4 | Spec only; no execution, no account | PROPOSED |
 | T-E3-029 | FL3.6.2/F3.6.2 | PARTIAL/QUARANTINE state handling | T-E3-028 | ADR-002 Decision 4 | Gaps explicit, never smoothed | PROPOSED |
-| T-E3-030 | FL3.7.1/F3.7.1 | Cost BOM skeleton with classification | — | ADR-006 Decision 11 | Slots classified; thresholds HELD | PROPOSED |
-| T-E3-031 | FL3.7.1/F3.7.1 | Hold-not-weaken + owner-readable HELD spec | T-E3-030 | ADR-006 Decision 11 | No numerics; no live metering | PROPOSED |
+| T-E3-030 | FL3.7.1/F3.7.1 | Cost BOM skeleton with classification | — | ADR-006 Decision 11 | Slots classified; thresholds HELD; drain-vs-hold edge to queue/rollout tasks | PROPOSED |
+| T-E3-031 | FL3.7.1/F3.7.1 | Hold-not-weaken + owner-readable HELD spec | T-E3-030 | ADR-006 Decision 11 | No numerics; no live metering; drain-vs-hold edge to queue/rollout tasks | PROPOSED |
 | T-E3-032 | FL3.8.1/F3.8.1 | Env identity/secret separation | T-E3-013 | ADR-007 env control | Separated identities/secrets per env | PROPOSED |
 | T-E3-033 | FL3.8.1/F3.8.1 | Promotion-gate reference stub | T-E3-032 | ADR-007 env control | HELD unless E6 checks pass; no logic | PROPOSED |
 | T-E3-034 | FL3.1.1/F3.1.1 | Durable-state category list | — | ADR-006 Decision 1 | Categories listed, no implementation | PROPOSED |
@@ -72,11 +72,11 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E5-007a | FL5.3.1/F5.3.1 | Auth method (phishing-resistant login) | — | ADR-004 R3; C5.3 | Specify method, no numerics, no implementation | PROPOSED |
 | T-E5-007b | FL5.3.1/F5.3.1 | Step-up + recovery-strength rules | T-E5-007a | ADR-004 R3; C5.3 | Fresh transaction-bound step-up; recovery not weaker | PROPOSED |
 | T-E5-008 | FL5.3.1/F5.3.1 | Session bounds/rotation/revocation | T-E5-007a | ADR-004 R3; C5.3 | Bounds specified; server revoke; no numerics | PROPOSED |
-| T-E5-009 | FL5.3.2/F5.3.2 | Identity-plane epoch sweep | T-E5-008 | ADR-004 R4; C5.3 + F3.5.2/T-E3-024b | Sessions/grants/pending revoked; runtime via E3 | PROPOSED |
+| T-E5-009 | FL5.3.2/F5.3.2 | Identity-plane epoch sweep | T-E5-008, T-E5-013, T-E5-014 | ADR-004 R4; C5.3 + F3.5.2/T-E3-024b | Sessions/grants/pending revoked; runtime via E3; quarantine/unknown binding on audit outage | PROPOSED |
 | T-E5-010 | FL5.3.2/F5.3.2 | Honest non-retraction marking | T-E5-009 | ADR-004 R4; C5.3 | Downloaded copies marked non-retractable | PROPOSED |
 | T-E5-011 | FL5.4.1/F5.4.1 | Recovery-only procedure | T-E5-008 | ADR-004 R5; C5.4 | Revoke + re-auth; never approve/publish/grant | PROPOSED |
 | T-E5-012 | FL5.4.1/F5.4.1 | Dual-control/last-admin path | T-E5-011 | ADR-004 R5; C5.4 | Dual control or governed break-glass | PROPOSED |
-| T-E5-013 | FL5.5.1/F5.5.1 | Custody store + fallback buffer | — | ADR-005 R3/R5; C5.5 | Append-only + independent fallback | PROPOSED |
+| T-E5-013 | FL5.5.1/F5.5.1 | Custody store + fallback buffer | — | ADR-005 R3/R5; C5.5 | Append-only + independent fallback; bounded-buffer size/overflow→HELD; dual-down reconciliation owner named (with T-E3-027/T-E5-015) | PROPOSED |
 | T-E5-014 | FL5.5.1/F5.5.1 | Before-effect linkage + integrity + R6 | T-E5-013 | ADR-005 R3/R5 + ADR-004 R6 | Receipt pre-effect; alerting; restore continuity | PROPOSED |
 | T-E5-015 | FL5.5.2/F5.5.2 | Investigation chain queries | T-E5-013 | ADR-005 R7; C5.5 | Object-centered chain; access audited | PROPOSED |
 | T-E5-016a | FL5.5.3/F5.5.3 | Event coverage R1 + minimum meaning R2 | T-E5-013 | ADR-005 R1/R2; C5.5 | Enumeration only | PROPOSED |
@@ -92,15 +92,15 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E6-004 | FL6.2.1/F6.2.1 | Guarded transition + fence (E3 floors consumed) | T-E6-003 | ADR-003 R2/R4 + T-E3-023 | Single transition; fenced precedence; backward fatal | PROPOSED |
 | T-E6-005 | FL6.2.1/F6.2.1 | State enumeration | T-E6-004 | ADR-003 R3; C6.2 | Full state model + branches | PROPOSED |
 | T-E6-006 | FL6.2.2/F6.2.2 | Consumer contract checks | T-E6-004 | ADR-003 R9; C6.2 | Client-side evaluability; stale rejected | PROPOSED |
-| T-E6-007a | FL6.3.1/F6.3.1 | Plane/credentials/paths | — | ADR-003 R5; C6.3 | Negative-only; independence; drilled paths | PROPOSED |
+| T-E6-007a | FL6.3.1/F6.3.1 | Plane/credentials/paths | T-E3-023, T-E5-013, T-E5-014, T-E3-005 | ADR-003 R5; C6.3 | Negative-only; independence; drilled paths; audit-precondition bound | PROPOSED |
 | T-E6-007b | FL6.3.1/F6.3.1 | Membership/bounds/confirmation | T-E6-007a | ADR-003 R5; C6.3 | Two-person/single-actor; time-bound; retros | PROPOSED |
 | T-E6-008 | FL6.3.1/F6.3.1 | Drills + retrospectives | T-E6-007a | ADR-003 R5; C6.3 | Drill records; mandatory retros | PROPOSED |
 | T-E6-009 | FL6.4.1/F6.4.1 | Provenance/SBOM/signing chain | — | ADR-007 R2/R4; C6.4 | Artifact-bound chain; independent verifier; no numerics | PROPOSED |
 | T-E6-010 | FL6.4.1/F6.4.1 | Custody + verification independence | T-E6-009 | ADR-007 R2/R4; C6.4 | Scoped dual-controlled custody | PROPOSED |
 | T-E6-011 | FL6.5.1/F6.5.1 | Config-as-release typing | — | ADR-007 R7; C6.5 | Typed/versioned/reviewed config; no numerics | PROPOSED |
-| T-E6-012 | FL6.5.1/F6.5.1 | Migration state machines | T-E6-011 | ADR-007 R7; C6.5 | Explicit states; forward recovery | PROPOSED |
-| T-E6-013 | FL6.6.1/F6.6.1 | Rollout states + stop | — | ADR-007 R8; C6.6 | Staged states; stop never downgrades | PROPOSED |
-| T-E6-014 | FL6.6.1/F6.6.1 | Rollback-as-event + quarantine | T-E6-013 | ADR-007 R8; C6.6 | New-event rollback; restore quarantine | PROPOSED |
+| T-E6-012 | FL6.5.1/F6.5.1 | Migration state machines | T-E6-011, T-E3-023, T-E3-026, T-E3-027, T-E6-014, T-E6-015 | ADR-007 R7; C6.5 | Explicit states; per-region PARTIAL rule; forward-only recovery owner; no binary rollback of valid data | PROPOSED |
+| T-E6-013 | FL6.6.1/F6.6.1 | Rollout states + stop | T-E3-023, T-E6-015, T-E6-016 | ADR-007 R8; C6.6 | Staged states; stop never downgrades; stop resolver named; offline residual disclosure via T-E1-013 | PROPOSED |
+| T-E6-014 | FL6.6.1/F6.6.1 | Rollback-as-event + quarantine | T-E6-013, T-E3-023, T-E6-015, T-E6-016 | ADR-007 R8; C6.6 | New-event rollback; restore quarantine; generations monotonic | PROPOSED |
 | T-E6-015 | FL6.7.1/F6.7.1 | Incident taxonomy + graph | — | ADR-007 R9; C6.7 | Taxonomy + protected-copy graph | PROPOSED |
 | T-E6-016 | FL6.7.1/F6.7.1 | Protected copy + closure rule | T-E6-015 | ADR-007 R9; C6.7 | Outside-plane copy; reconcile-to-close | PROPOSED |
 | T-E6-017 | FL6.8.1/F6.8.1 | OTA denial gate | — | ADR-007 R10; C6.8 | Default deny + future envelope listed | PROPOSED |
@@ -143,21 +143,21 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E1-006 | FL1.3.1/F1.3.1 | Active execution render (014/015/018 only) | T-E1-005b | SCR-014/015/018; C1.3 + guard | Truthful outcomes; safe closure not payable; no ignore-and-continue | PROPOSED |
 | T-E1-007 | FL1.3.2/F1.3.1 | Resume/revalidation render | T-E1-006 | SCR-016; C1.3 + guard | Revalidation; saved≠proof; bottom-bar HELD | PROPOSED |
 | T-E1-008 | FL1.3.3/F1.3.1 | Remap render | T-E1-006 | SCR-017; C1.3 + guard | Remap required; no guessed continuation; bottom-bar HELD | PROPOSED |
-| T-E1-009 | FL1.4.1/F1.4.1 | Diagnosis render via E9 | T-E1-001 | SCR-019..021; ADR-014 R1/R5/R6; C1.4 + guard | Check shown; E9 proposes/E1 renders/E3 verifies | PROPOSED |
+| T-E1-009 | FL1.4.1/F1.4.1 | Diagnosis render via E9 | T-E1-001 | SCR-019..021; ADR-014 R1/R5/R6; C1.4 + guard | Check shown; E9 proposes/E1 renders/E3 verifies; renders SCR-019..021 only; offline OUTCOME_UNKNOWN→E3 reconcile via T-E4-011b/T-E3-004 | PROPOSED |
 | T-E1-010 | FL1.5.1/F1.5.1 | Maintenance/reminder render | T-E1-001 | SCR-022..024; C1.5 + guard | Verified source; snooze≠completion; catch-up path | PROPOSED |
 | T-E1-011 | FL1.6.1/F1.6.1 | History render (025/026/030 only) | T-E1-001 | SCR-025/026/030; ADR-001/004/005; C1.6 + guard | Provenance; serve T-E3-010; authorize T-E5-013/019 | PROPOSED |
 | T-E1-012 | FL1.6.2/F1.6.1 | Record/dispute render | T-E1-011 | SCR-027/028; C1.6 + guard | Standalone preserved; no-silent-winner | PROPOSED |
 | T-E1-013 | FL1.6.3/F1.6.1 | Reach-back render | T-E1-011 | SCR-029; C1.6 + guard | Severity reach-back; survives inactive | PROPOSED |
-| T-E1-014a | FL1.7.1/F1.7.1 | Lifecycle render (031/032/033) | T-E1-001 | SCR-031/032/033; C1.7 + guard | States shown; excl. SCR-008 | PROPOSED |
-| T-E1-014b | FL1.7.1/F1.7.1 | Entitlement gate render (037) | T-E1-014a | SCR-037; C5.x/T-E5-003; C1.7 + guard | Gates shown; enforcement server-side | PROPOSED |
+| T-E1-014a | FL1.7.1/F1.7.1 | Lifecycle render (031/032/033) | T-E1-001 | SCR-031/032/033; C1.7 + guard | States shown; excl. SCR-008; DEC-0053 shape shown (1-free/3-subscribed/1-guide-selected) | PROPOSED |
+| T-E1-014b | FL1.7.1/F1.7.1 | Entitlement gate render (037) | T-E1-014a | SCR-037; C5.x/T-E5-003; C1.7 + guard | Gates shown incl. DEC-0053 shape; enforcement server-side (E3/E5) | PROPOSED |
 | T-E1-015 | FL1.8.1/F1.8.1 | Profile/collab/migration render | T-E1-001 | SCR-006/007/034; C1.8 + guard | Preview; no silent loss; revocable | PROPOSED |
 | T-E1-016 | FL1.9.1/F1.9.1 | Community surface render | T-E1-001 | SCR-035/036/038; C1.9 + guard | Opt-in flows; decisions in E2 | PROPOSED |
-| T-E1-017 | FL1.10.1/F1.10.1 | AI entry render (A1 verbatim) | T-E1-001 | AI_USTA DEC-0018; C1.10 + guard | 1+1+2; clutter/NL bounds; E9/E3 seam | PROPOSED |
+| T-E1-017 | FL1.10.1/F1.10.1 | AI entry render (A1 verbatim) | T-E1-001 | AI_USTA DEC-0018; C1.10 + guard | 1+1+2; clutter/NL bounds; E9/E3 seam; renders A1 root only | PROPOSED |
 | T-E2-001 | FL2.1.1/F2.1.1 | Workspace shell render | — | ADR-010 D2-D5; C2.1 + guard | Dense workspace; a11y baseline; responsive deferred | PROPOSED |
 | T-E2-002 | FL2.2.1/F2.2.1 | Review queue render | T-E2-001 | WS-06; C2.2 + guard | Packets; independence; review≠publication | PROPOSED |
 | T-E2-003 | FL2.2.2/F2.2.1 | Conflict review render | T-E2-002 | WS-05; C2.2 + guard | Conflict/gap with owner/reason/escalation | PROPOSED |
 | T-E2-004 | FL2.3.1/F2.3.1 | Publication ops surface render | T-E2-001 | WS-07; C2.3 + guard + ADR-003/007 | Invokes only; E6 authorizes/executes | PROPOSED |
-| T-E2-005 | FL2.3.1/F2.3.1 | Recall impact render | T-E2-004 | WS-11; C2.3 + guard + ADR-003/007 | Impact/reach-back; invoke only | PROPOSED |
+| T-E2-005 | FL2.3.2/F2.3.1 | Recall impact render | T-E2-004 | WS-11; C2.3 + guard + ADR-003/007 | Impact/reach-back; invoke only | PROPOSED |
 | T-E2-006 | FL2.4.1/F2.4.1 | Source/quarantine view render | T-E2-001 | WS-03; C2.4 + guard | States + isolated preview + classification | PROPOSED |
 | T-E2-007a | FL2.5.1/F2.5.1 | Coverage/research render (WS-01) | T-E2-001 | WS-01; C2.5 + guard + ADR-012 | Record-derived research queue | PROPOSED |
 | T-E2-007b | FL2.5.1/F2.5.1 | Quality signals render (WS-09) | T-E2-007a | WS-09; C2.5 + guard + ADR-012 | Coverage-vs-completeness; drill-down; no opaque score | PROPOSED |
@@ -167,6 +167,8 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E2-011 | FL2.9.1/F2.9.1 | Variant admin render | T-E2-001 | WS-02; C2.9 + guard | Fencing + matrix/duplicate/comparison | PROPOSED |
 | T-E2-012 | FL2.10.1/F2.10.1 | Lineage view render | T-E2-001 | WS-08; C2.10 + guard | Chain + rollback-candidate links | PROPOSED |
 | T-E2-013 | FL2.11.1/F2.11.1 | Audit trail view render | T-E2-001 | WS-10; RQ-046/047; C2.11 + guard | Full fields + separation; custody in E5 | PROPOSED |
+| T-E2-014 | FL2.7.1/F2.7.1 | Notify/status surfacing | T-E2-009 | SCR-036; C2.7 + guard | Contributor status/repair/appeal surfaced; channel HELD | PROPOSED |
+| T-E2-015 | FL2.7.1/F2.7.1 | Withdrawal re-review owner | T-E2-009 | Q-0049/0050; C2.7 + guard | Trigger owner named for dependent-claim re-review | PROPOSED |
 | T-E7-001 | FL7.1.1/F7.1.1 | Android lane checklist (8 nouns) | — | ADR-013 R1; C7.1 + E6-policy note | Recorded; HELD unless E6 decides; defines no policy | PROPOSED |
 | T-E7-002 | FL7.1.1/F7.1.1 | Provenance-binding check | T-E7-001 | ADR-013 R1; C7.1 + E6-policy note | Binding as E6-policy application | PROPOSED |
 | T-E7-003a | FL7.2.1/F7.2.1 | iOS proofs 1-2 (Mac, Apple custody) | — | ADR-013 R2; C7.2 + E6-policy note | Pass/HELD separately; no commitment | PROPOSED |
@@ -175,7 +177,7 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E7-004 | FL7.3.1/F7.3.1 | Separation check | — | ADR-013 R3; C7.3 + E6-policy note | Distinctness verified; no takeover | PROPOSED |
 | T-E7-005 | FL7.3.1/F7.3.1 | Key-loss path reference | T-E7-004 | ADR-013 R3; C7.3 + E6-policy note | Refers to E6 playbook; no handling here | PROPOSED |
 | T-E7-006 | FL7.4.1/F7.4.1 | Classification maintenance | — | ADR-013 R4; C7.4 + E6-policy note | Bands current; triggers explicit | PROPOSED |
-| T-E7-007 | FL7.5.1/F7.5.1 | Spend range evaluation (read-only) | — | ADR-013 R5; C7.5 + E6-policy note | TRY context only; holds by reference; no commitment | PROPOSED |
+| T-E7-007 | FL7.5.1/F7.5.1 | Spend range evaluation (read-only) | — | ADR-013 R5; C7.5 + E6-policy note | TRY context only; holds by reference; no commitment; BILLING_HELD declarant is E3/E6 hold tasks (owner: payment only) | PROPOSED |
 | T-E8-001 | FL8.1.1/F8.1.1 | 8-noun authority reference check | — | ADR-011 R1; C8.1 + E3/E6-ownership note | Reference present; E8 defines nothing | PROPOSED |
 | T-E8-002 | FL8.1.1/F8.1.1 | 6-vector bypass check | T-E8-001 | ADR-011 R3; C8.1 + E3/E6-ownership note | All six vectors blocked | PROPOSED |
 | T-E8-003 | FL8.1.1/F8.1.1 | Rebuildability check | T-E8-001 | ADR-011 R4; C8.1 + E3/E6-ownership note | Projections rebuildable-non-authoritative | PROPOSED |

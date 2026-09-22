@@ -39,6 +39,14 @@ Do NOT edit, delete or overwrite the old decision. Do NOT infer beyond what was 
 3. List every affected item with its ID and one-line reason. If an edge is ambiguous, list it as
    `UNVERIFIED` and include it — never silently drop a maybe-affected item.
 4. Count: affected tasks, affected records, re-review load.
+5. Term checklist (do not stop at keyword hits): screen IDs (SCR-xxx), navigation/tab/shell records, REF-xxx
+   visual authorities, DEC/TSQ/CON IDs, BR/Q business rules, IDCO-RQ-xxx requirements, community/moderation
+   surfaces (SCR-035/036/038, REF-COMMUNITY-001), shell/tab records (DEC-0017, five-tab, bottom-bar rule).
+   Splits that share a record (e.g. RQ-046/047 serving both moderation and audit views) must be divided, not
+   deleted wholesale.
+6. Map BLOCKED/REVIEW outcomes to `TASK_INDEX.md` vocabulary (PROPOSED-only states); order the independent
+   re-review (DEC-0052) after re-scoping, not before. Note Path C manual carrying: the executing chat receives
+   copy-paste packs, never implicit context.
 
 ### Step 3 — Mark (never erase)
 

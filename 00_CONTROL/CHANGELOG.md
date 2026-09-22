@@ -1292,7 +1292,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Three parallel sub-agents traced E1+E2 (product/screen/IDCO rules), E3+E5+E6 (ADR-numbered rules) and
   E4+E9+E7+E8+cross-cutting (ADR rules, CONs, TSQ narrow items) to features/flows/tasks.
 - Merged into `ACCEPTANCE_MATRIX.md` (~150 rows) + `DEPENDENCY_GRAPH.md` (epic edges + per-cycle acyclic verdicts).
-- Result: ORPHAN TASKS none (all 184 trace); COVERAGE GAPS listed (estimates UI, commerce neutrality, roadside mode,
+- Result: ORPHAN TASKS none (all 185 trace — corrected: E6 split had been undercounted as 184); COVERAGE GAPS listed (estimates UI, commerce neutrality, roadside mode,
   safe-closure content, Q-0066 window, media classification, RQ-060..062, CON-004, device proof, entitlement set,
   TSQ-001-narrow; validation NONE/test absent phase-wide by design); CONFLICTS none irreconcilable (4 managed
   tensions + 1 open entitlement decision for the owner); CROSS-LANE needs all resolve to existing rows.
@@ -1396,8 +1396,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - First verdict `CHANGES_REQUESTED`: 6 findings (wrong dep; incomplete seam; homeless R6/R1/R2/alerting + oversized
   task; missing citations + fence; 3 oversized tasks; Flow-only cells + missing guards).
 - Remediation: dep fix, seam call-outs, R6 addition, 016a/b split, citations, 007a/b + 007a/b splits, completed
-  cells, guards. Narrow re-review `PASS` (all F1..F6 closed, no regression). 40 tasks total.
-- 40 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
+  cells, guards. Narrow re-review `PASS` (all F1..F6 closed, no regression). 41 tasks total.
+- 41 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
 
 ### E4+E9 Atomic Tasks Review Cycle
 - E4 + E9 draft (27 tasks) reviewed against capabilities/features/flows + ADR rules + CON-005 + schema + atomicity.
@@ -1421,7 +1421,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   5 Major/Minor incl. over-merged authority, missing deps, duplicate hold, genericized gates, missing seams).
 - Remediation: readiness/policy-check wording, six-vector list, enforcement-only framing, deps, read-only holds,
   enumerations, render notes. Narrow re-review `PASS` (all F1..F7 closed, no regression).
-- 22 tasks written to `TASK_INDEX.md` as PROPOSED. Task layer COMPLETE: 184 tasks.
+- 22 tasks written to `TASK_INDEX.md` as PROPOSED. Task layer COMPLETE: 185 tasks (corrected count).
 - Push pending explicit authorization; next: Step 5 traceability + simulation proposal.
 
 ### DEC-0053 — Entitlement Shape Decided
@@ -1430,3 +1430,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Recorded DEC-0053 (tier shape APPROVED; prices/packages/billing/switch-rules HELD for commercial validation).
 - Preserved invariants untouched (unlocked records, safety reach-back, no mid-repair stranding).
 - Step 5 findings tension marked resolved; entitlement acceptance now has its shape.
+
+### Step 6 No-Code Simulation + Report Review
+- Mechanical DAG script over TASK_INDEX.md: 185 tasks (corrected from 184; E6 split undercounted), no duplicates,
+  global acyclic, topo length = count, max depth 6, all deps resolve; 103 flows with 1 real gap (FL2.3.2, fixed);
+  removal samples (T-E3-001→19, T-E1-001→19, T-E10-001→17, …).
+- Two scenario lanes (app: collision/contract/live-DEC-0053/walkthroughs/retry; platform: failure/rollback/outage/
+  removal/all-DONE/change-ripple) returned fix lists; all applied (state mappings, resolvers, floor/impact edges,
+  declarants, buffer ownership, seam notes, DEC-0053 shape, T-E2-014/015 new, entitlement matrix row).
+- New T-E2-014/T-E2-015 bring the total to 187; all counts corrected across records.
+- Wrote `06_DELIVERY_PLANNING/SIMULATION_REPORT.md`; independent report review `PASS` (11-item spot-check,
+  no overclaim, gate stays BLOCKED, Step 6 complete vs gate/ADR-015-Rule-7).
+- Push pending explicit authorization; next: Gate 6 -> 7 readiness audit.

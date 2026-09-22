@@ -183,13 +183,13 @@ simulation (no-code sim set). `test` is absent phase-wide by design (no code in 
 |---|---|---|---|---|
 | CON-004: beginner-comprehensible guide clarity | NONE | NONE | NONE | NONE |
 | ADR-008 R6: real-device proof (simulators never substitute) | NONE | NONE | NONE | NONE |
-| ENTITLEMENT SET Q-0020/0026/0046/0047/0065–0069: free core, unlocked records, one-active, no stranding, reach-back | NONE | NONE | NONE | NONE |
+| ENTITLEMENT SET Q-0020/0026/0046/0047/0065–0069 + DEC-0053: 1 bike free, paid slots, subscription → 3, full guide for 1 selected bike (moves, never stacks); prices/packages/switch-rules HELD | F1.7.1 | FL1.7.1 | T-E1-014a, T-E1-014b (+ server checks E3/E5) | gate |
 | TSQ-001-narrow: Flutter/Dart channels, plugin allowlist, device/OS matrix | NONE | NONE | NONE | NONE |
 
 ## Step 5 Findings (merged three lanes, 2026-09-21)
 
 - ORPHAN TASKS: none in any lane. All 184 tasks trace to at least one row above.
-- COVERAGE GAPS (content, not just validation): BR-063/064 estimates UI; BR-070/071/073 commerce neutrality; BR-074 roadside mode; safe-closure criteria content; Q-0066 replacement window; Q-0046 media classification rule; IDCO-RQ-060..062 resilience; CON-004 clarity; ADR-008 R6 device proof; ENTITLEMENT SET enforcement tasks; TSQ-001-narrow versions/matrix. Validation column is `NONE` phase-wide for E1/E2 (no review PASS recorded there) and `test` is absent phase-wide by design.
+- COVERAGE GAPS (content, not just validation): BR-063/064 estimates UI; BR-070/071/073 commerce neutrality; BR-074 roadside mode; safe-closure criteria content; Q-0066 replacement window; Q-0046 media classification rule; IDCO-RQ-060..062 resilience; CON-004 clarity; ADR-008 R6 device proof; TSQ-001-narrow versions/matrix. (ENTITLEMENT SET resolved under DEC-0053.) Validation column is `NONE` phase-wide for E1/E2 (no review PASS recorded there) and `test` is absent phase-wide by design.
 - CONFLICTS: none irreconcilable. Four managed tensions recorded with precedence (data-efficiency vs safety-closure: safety wins; cheapest-model vs safety: HOLD wins; Android-first vs iOS parity: conditional containment; CON-005 vs cost controls: never a user gate). The open entitlement tension is RESOLVED under `DEC-0053` (1 bike free, paid slots, subscription raises to 3, full guide for 1 selected bike; prices/packages HELD).
 - CROSS-LANE NEEDS: resolved by construction — every cross-lane pointer in the matrix names an existing row in another lane (server auth, truth/history, package materialization, AI propose/verify/render split, E2 consume-only, E6 decide-only). No dangling cross-lane reference found.
 - NEXT: Step 6 no-code simulation (dependency order, collision, failure/rollback, removal-gap, all-DONE re-evaluation), then Gate 6 -> 7 readiness audit.
