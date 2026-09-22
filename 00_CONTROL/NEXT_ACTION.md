@@ -1,22 +1,24 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / STEP 5 TRACEABILITY + GAP SCAN IN PROGRESS (3 LANES)`
+Status: `PHASE 6 / STEP 5 MATRIX+GRAPH RECORDED / PUSH + STEP 6 SIMULATION PENDING`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
 ## Just Completed
 
-Feature/flow layer COMPLETE (95 features + 103 flows, all groups review PASS) and pushed (`8d6e6a4`).
+Step 5 traceability + gap scan COMPLETE: three lanes traced all requirements/rules to features/flows/tasks,
+merged into `ACCEPTANCE_MATRIX.md` (~150 rows) + `DEPENDENCY_GRAPH.md` (epic edges + acyclic verdicts).
 
-- No invented scope in any group; all findings closed with no regression.
-- Task layer in progress: E3 (41), E10 (18), E5+E6 (40) and E4+E9 (29) recorded as PROPOSED per `DEC-0052`
-  (128 total); E1+E2 and E7+E8 task groups remain.
+- ORPHAN TASKS: none (all 184 trace). GAPS listed (content gaps + HELD/design absences, no silent drops).
+- CONFLICTS: none irreconcilable (4 managed tensions + 1 open entitlement decision for the owner).
+- Task layer COMPLETE sound: E3 (41), E10 (18), E5+E6 (40), E4+E9 (29), E1+E2 (34), E7+E8 (22) = 184 tasks.
 - No task execution, prototype, account, purchase or code authorized.
 
 ## Immediate Next Manager Action
 
-1. Await push authorization for the E7+E8 task records and memory updates.
-2. Then propose Step 5 (traceability matrix + gap/orphan/conflict scan) before starting it; simulation follows.
+1. Await push authorization for the matrix/graph records and memory updates.
+2. Then run Step 6 no-code simulation (dependency order, collision, failure/rollback, removal-gap, all-DONE
+   re-evaluation) before the Gate 6 -> 7 readiness audit.
 
 ## Hard Boundaries
 

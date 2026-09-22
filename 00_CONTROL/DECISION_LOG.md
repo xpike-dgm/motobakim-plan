@@ -1753,3 +1753,29 @@ Decision:
 - First application: E5 + E6 capability draft reviewed `CHANGES_REQUESTED` (2 Critical, 5 Major, 0 invented
   scope); remediation + narrow re-review pending before catalog write.
 
+---
+
+## DEC-0053 — Motorcycle Slot and Guide Entitlement Shape
+**Date:** 2026-09-21
+**Status:** APPROVED TIER SHAPE (prices, package names and billing periods remain open for commercial validation)
+
+User decision, verbatim:
+
+> 1 motor eklemek bedava üstü ücretli + pro vb bir abonelik alındığında ekleme hakkı 3 e çıkabilir ama rehber
+> kılavuz seçtiği 1 motora açılır
+
+Decision:
+
+- 1 motorcycle slot is free; additional slots are paid.
+- With a pro-or-similar subscription, total slots rise to 3.
+- The full-guide right opens for 1 selected motorcycle at a time; selecting another bike moves the right,
+  it does not stack.
+- Preserved invariants (unchanged, not negotiable by this decision): existing records are never locked;
+  critical safety reach-back and required rechecks continue independent of entitlement; started physical work
+  is never stranded mid-repair by an entitlement change; inactive history/evidence/export/correction access
+  is preserved; reactivation requires current-context revalidation.
+- This resolves the one-active vs multi-bike tension recorded in the Step 5 findings; entitlement tasks
+  (T-E1-014b and server-side checks) now have their shape. Exact prices, package names, billing periods,
+  selection-switch frequency/anti-abuse rules and trial/wrong-selection handling stay open on the commercial
+  validation track and remain HELD gates, not tasks.
+

@@ -1284,6 +1284,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   C2.11 audit trail). Narrow re-review verdict `PASS` (all F1..F10 closed, no regression).
 - 22 rows written to `CAPABILITY_CATALOG.md` as PROPOSED (67 total). Push pending explicit authorization.
 
+### E1+E2 Capabilities Approved (+ Push)
+- Owner authorized push + continuation (`push et ve devam et`); recorded as approval. Pushed `106a361`.
+- Next: final capability group E7+E8 loop.
+
+### Step 5 Traceability + Gap Scan (3 Lanes)
+- Three parallel sub-agents traced E1+E2 (product/screen/IDCO rules), E3+E5+E6 (ADR-numbered rules) and
+  E4+E9+E7+E8+cross-cutting (ADR rules, CONs, TSQ narrow items) to features/flows/tasks.
+- Merged into `ACCEPTANCE_MATRIX.md` (~150 rows) + `DEPENDENCY_GRAPH.md` (epic edges + per-cycle acyclic verdicts).
+- Result: ORPHAN TASKS none (all 184 trace); COVERAGE GAPS listed (estimates UI, commerce neutrality, roadside mode,
+  safe-closure content, Q-0066 window, media classification, RQ-060..062, CON-004, device proof, entitlement set,
+  TSQ-001-narrow; validation NONE/test absent phase-wide by design); CONFLICTS none irreconcilable (4 managed
+  tensions + 1 open entitlement decision for the owner); CROSS-LANE needs all resolve to existing rows.
+- Push pending explicit authorization; next: Step 6 no-code simulation.
+
 ### E7+E8 Independent Review Cycle (Final Capability Group)
 - E7 + E8 draft (11 rows) reviewed against ADR-013/011/012 rule lines + epic seams.
 - First verdict `CHANGES_REQUESTED`: no invented scope; 8 exactness/seam findings (ADR-011 nouns, bypass list,
@@ -1291,6 +1305,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation applied to affected rows only; narrow re-review verdict `PASS` (all F1..F8 closed, no regression).
 - 11 rows written to `CAPABILITY_CATALOG.md` as PROPOSED (78 total). Capability layer complete.
 - Push pending explicit authorization; next: Step 3 feature/flow breakdown proposal.
+
+### E7+E8 Capabilities Approved (+ Push)
+- Owner authorized push + continuation (`push et ve devam et`); recorded as approval. Pushed `31dee2a`.
+- Next: Step 3 feature/flow breakdown, starting with E3.
 - Repair note: the four blocks above (Work Plan, File Visibility, DEC-0051, E3+E10) were found filed after newer
   entries due to anchor-based appends; moved here in true chronological order with content byte-unchanged.
 
@@ -1405,3 +1423,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   enumerations, render notes. Narrow re-review `PASS` (all F1..F7 closed, no regression).
 - 22 tasks written to `TASK_INDEX.md` as PROPOSED. Task layer COMPLETE: 184 tasks.
 - Push pending explicit authorization; next: Step 5 traceability + simulation proposal.
+
+### DEC-0053 — Entitlement Shape Decided
+- Owner decided the open entitlement tension: 1 bike free, more bikes paid; subscription raises slots to 3;
+  full guide opens for 1 selected bike at a time (verbatim quote in DEC-0053).
+- Recorded DEC-0053 (tier shape APPROVED; prices/packages/billing/switch-rules HELD for commercial validation).
+- Preserved invariants untouched (unlocked records, safety reach-back, no mid-repair stranding).
+- Step 5 findings tension marked resolved; entitlement acceptance now has its shape.
