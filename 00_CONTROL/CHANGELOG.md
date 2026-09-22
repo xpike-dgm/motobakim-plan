@@ -1356,6 +1356,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - 41 tasks written to `TASK_INDEX.md` as PROPOSED (planned only; full pack enrichment in Phase 7).
 - Push pending explicit authorization; next: E10 atomic tasks loop.
 
+### E10 Atomic Tasks Review Cycle
+- E10 draft (16 tasks) reviewed against ADR-015 rules, addendum, schemas, topology.
+- First verdict `CHANGES_REQUESTED`: 8 findings (2 Critical: corrupted row + homeless flow; 6 Major/Minor incl.
+  homeless externals-notice, oversized tasks, underspecified pack, missing gate/audit items, overlap risks).
+- Remediation: rewritten row, 2 splits (003a/b, 011a/b), enumerations, seam guards, HELD-mechanism notes.
+- Narrow re-review `PASS` (all F1..F8 closed, no regression). 18 tasks written to `TASK_INDEX.md` as PROPOSED.
+- Push pending explicit authorization; next: E5+E6 atomic tasks loop.
+
 ### DECISION_CHANGE_PROTOCOL Added (Manager-Free Change Answer)
 - Owner's core demand restated: no dependence on any single AI including the manager; any fresh chat must pick
   up the next task; mid-flight decisions must propagate with AIs bound only to the task flow.
