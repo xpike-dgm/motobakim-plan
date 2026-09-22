@@ -2,7 +2,7 @@
 
 Status: REVIEWED PASS (independent 11-item spot-check + re-audit delta verification 2026-09-21; no overclaim; gate verdict recorded in re-audit, not here)
 Date: 2026-09-21
-Authority: ADR-015 Rule 7, DEC-0028 addendum §6, Gate 6 -> 7 criterion
+Authority: ADR-015 Decision 7, DEC-0028 addendum §6, Gate 6 -> 7 criterion
 
 ## 1. Mechanical DAG analysis (script, repo truth)
 

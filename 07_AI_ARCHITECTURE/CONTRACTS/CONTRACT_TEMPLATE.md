@@ -36,8 +36,8 @@ keys, purchases or code.
 
 - Change history is recorded; no silent edits.
 - Emergency contract change = new version + mandatory retrospective via Change Control (pointer only;
-  `CHANGE_CONTROL.md` is EMPTY). The ADR-003 emergency path is negative-only and is NOT invoked here.
-- Deprecation/migration pointers (policy defined under Change Control / Migration Policy, both EMPTY).
+  `CHANGE_CONTROL.md` is PROPOSED). The ADR-003 emergency path is negative-only and is NOT invoked here.
+- Deprecation/migration pointers (policy defined under Change Control / Migration Policy, both PROPOSED).
 - Support window + owner-readable impact note stated per contract; runtime dual-support is a per-capability
   implementation decision, not mandated here. No numeric window is set by this template.
 

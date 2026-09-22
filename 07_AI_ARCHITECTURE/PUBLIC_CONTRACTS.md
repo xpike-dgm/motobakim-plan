@@ -8,4 +8,4 @@ version; unlisted communication is a violation.
 
 Gate detectability (pointer): orphans, broken links, forbidden dependencies, cycles, ownerless public contracts,
 untested critical behavior, stale context packs. Classification/authority boundaries propagate across every edge.
-Detection implementation is Group-4-owned (see `ARCHITECTURE_TESTS.md`, EMPTY) — defined there, not here.
+Detection implementation is Group-4-owned (see `ARCHITECTURE_TESTS.md`, PROPOSED) — defined there, not here.

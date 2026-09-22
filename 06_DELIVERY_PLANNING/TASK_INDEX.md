@@ -45,24 +45,24 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E3-034 | FL3.1.1/F3.1.1 | Durable-state category list | — | ADR-006 Decision 1 | Categories listed, no implementation | PROPOSED |
 | T-E3-035 | FL3.1.2/F3.1.2 | Core-vs-effect + outbox-intent contract | T-E3-003 | ADR-006 Decision 3 | Deterministic intent specified | PROPOSED |
 | T-E3-036 | FL3.3.1/F3.3.1 | Transition-gate package (HELD) | T-E3-013 | ADR-006 Decision 10 | Evidence-gated; no migration | PROPOSED |
-| T-E10-001 | FL10.1.1/F10.1.1 | Graph node registration rule | — | ADR-015 Rule 3; C10.1 | Stable identity + metadata on every record | PROPOSED |
-| T-E10-002 | FL10.1.1/F10.1.1 | Identity/metadata convention (§3 relations only) | T-E10-001 | ADR-015 Rule 3; addendum §3 | 8-relation verbatim list | PROPOSED |
-| T-E10-003a | FL10.1.1/F10.1.1 | Structural detectors (4) | T-E10-002 | ADR-015 Rule 3 | Orphan/broken/cycle/forbidden specified | PROPOSED |
-| T-E10-003b | FL10.1.1/F10.1.1 | Governance detectors (3) | T-E10-003a | ADR-015 Rule 3 | Ownerless/untested/stale specified | PROPOSED |
-| T-E10-004 | FL10.2.1/F10.2.1 | Capsule declaration template | T-E10-001 | ADR-015 Rules 1+2; C10.2 | Purpose/surface/interior/deps/tests/change fields | PROPOSED |
-| T-E10-005 | FL10.2.1/F10.2.1 | Dependency direction rules | T-E10-004 | ADR-015 Rule 4; C10.2 | Toward-stability; no silent imports | PROPOSED |
-| T-E10-006 | FL10.2.1/F10.2.1 | Repo topology + governed addresses | T-E10-004 | ADR-015 Rule 2; C10.2 | Linkage, addresses, no-orphan rule, manifest coverage | PROPOSED |
-| T-E10-007 | FL10.3.1/F10.3.1 | Pack schema fields (14 enumerated) | T-E10-004 | ADR-015 Rule 5; addendum §4 | All field names listed; detail HELD Phase 7 | PROPOSED |
-| T-E10-008 | FL10.3.2/F10.3.1 | Registry states + transitions | T-E10-007 | ADR-015 Rule 5; addendum §4 | READY→…→DONE/BLOCKED + out-of-scope→BLOCKED | PROPOSED |
-| T-E10-009 | FL10.4.1/F10.4.1 | Closure matrix template (enumeration only) | T-E10-007 | ADR-015 Rule 6; addendum §5 | 10 layers + bidirectional trace shape | PROPOSED |
-| T-E10-010 | FL10.4.1/F10.4.1 | Traceability audit + gap/all-DONE tests | T-E10-009 | ADR-015 Rule 6 | Orphan/gap labels; removal-gap + all-DONE tests | PROPOSED |
-| T-E10-011a | FL10.5.1/F10.5.1 | Core checklists (document-level) | T-E10-009 | ADR-015 Rule 7; addendum §6 | Order/doc/failure checklists, no code | PROPOSED |
-| T-E10-011b | FL10.5.1/F10.5.1 | Cross-cutting checklists (document-level) | T-E10-011a | ADR-015 Rule 7; addendum §6 | Collision/compat/walkthrough checklists, no code | PROPOSED |
-| T-E10-012 | FL10.5.1/F10.5.1 | Excess-work scan rule | T-E10-011a | ADR-015 Rule 7 | Excess-work detection specified | PROPOSED |
-| T-E10-013 | FL10.6.1/F10.6.1 | Design gate checklist + controlled-change entry | T-E10-002 | ADR-015 Rule 8; addendum §7 | Full §7 set; new patterns via controlled change | PROPOSED |
-| T-E10-014 | FL10.6.1/F10.6.1 | Regression evidence rule | T-E10-013 | ADR-015 Rule 8 | Full/cross-screen/state/a11y evidence required | PROPOSED |
-| T-E10-015 | FL10.7.1/F10.7.1 | Review protocol + externals-notice template | T-E10-007 | ADR-015 Rule 9; addendum §0 | Role separation; nontechnical externals notice | PROPOSED |
-| T-E10-016 | FL10.7.1/F10.7.1 | DEC-0041 parallel-output guards | T-E10-015 | ADR-015 Rule 9; DEC-0041 | Separate outputs, no overwrite, no consensus-PASS | PROPOSED |
+| T-E10-001 | FL10.1.1/F10.1.1 | Graph node registration rule | — | ADR-015 Decision 3; C10.1 | Stable identity + metadata on every record | PROPOSED |
+| T-E10-002 | FL10.1.1/F10.1.1 | Identity/metadata convention (§3 relations only) | T-E10-001 | ADR-015 Decision 3; addendum §3 | 8-relation verbatim list | PROPOSED |
+| T-E10-003a | FL10.1.1/F10.1.1 | Structural detectors (4) | T-E10-002 | ADR-015 Decision 3 | Orphan/broken/cycle/forbidden specified | PROPOSED |
+| T-E10-003b | FL10.1.1/F10.1.1 | Governance detectors (3) | T-E10-003a | ADR-015 Decision 3 | Ownerless/untested/stale specified | PROPOSED |
+| T-E10-004 | FL10.2.1/F10.2.1 | Capsule declaration template | T-E10-001 | ADR-015 Decisions 1+2; C10.2 | Purpose/surface/interior/deps/tests/change fields | PROPOSED |
+| T-E10-005 | FL10.2.1/F10.2.1 | Dependency direction rules | T-E10-004 | ADR-015 Decision 4; C10.2 | Toward-stability; no silent imports | PROPOSED |
+| T-E10-006 | FL10.2.1/F10.2.1 | Repo topology + governed addresses | T-E10-004 | ADR-015 Decision 2; C10.2 | Linkage, addresses, no-orphan rule, manifest coverage | PROPOSED |
+| T-E10-007 | FL10.3.1/F10.3.1 | Pack schema fields (14 enumerated) | T-E10-004 | ADR-015 Decision 5; addendum §4 | All field names listed; detail HELD Phase 7 | PROPOSED |
+| T-E10-008 | FL10.3.2/F10.3.1 | Registry states + transitions | T-E10-007 | ADR-015 Decision 5; addendum §4 | READY→…→DONE/BLOCKED + out-of-scope→BLOCKED | PROPOSED |
+| T-E10-009 | FL10.4.1/F10.4.1 | Closure matrix template (enumeration only) | T-E10-007 | ADR-015 Decision 6; addendum §5 | 10 layers + bidirectional trace shape | PROPOSED |
+| T-E10-010 | FL10.4.1/F10.4.1 | Traceability audit + gap/all-DONE tests | T-E10-009 | ADR-015 Decision 6 | Orphan/gap labels; removal-gap + all-DONE tests | PROPOSED |
+| T-E10-011a | FL10.5.1/F10.5.1 | Core checklists (document-level) | T-E10-009 | ADR-015 Decision 7; addendum §6 | Order/doc/failure checklists, no code | PROPOSED |
+| T-E10-011b | FL10.5.1/F10.5.1 | Cross-cutting checklists (document-level) | T-E10-011a | ADR-015 Decision 7; addendum §6 | Collision/compat/walkthrough checklists, no code | PROPOSED |
+| T-E10-012 | FL10.5.1/F10.5.1 | Excess-work scan rule | T-E10-011a | ADR-015 Decision 7 | Excess-work detection specified | PROPOSED |
+| T-E10-013 | FL10.6.1/F10.6.1 | Design gate checklist + controlled-change entry | T-E10-002 | ADR-015 Decision 8; addendum §7 | Full §7 set; new patterns via controlled change | PROPOSED |
+| T-E10-014 | FL10.6.1/F10.6.1 | Regression evidence rule | T-E10-013 | ADR-015 Decision 8 | Full/cross-screen/state/a11y evidence required | PROPOSED |
+| T-E10-015 | FL10.7.1/F10.7.1 | Review protocol + externals-notice template | T-E10-007 | ADR-015 Decision 9; addendum §0 | Role separation; nontechnical externals notice | PROPOSED |
+| T-E10-016 | FL10.7.1/F10.7.1 | DEC-0041 parallel-output guards | T-E10-015 | ADR-015 Decision 9; DEC-0041 | Separate outputs, no overwrite, no consensus-PASS | PROPOSED |
 | T-E5-001 | FL5.1.1/F5.1.1 | Account-light start procedure | — | ADR-004 identity; C5.1 | Local-first default; no forced server account | PROPOSED |
 | T-E5-002 | FL5.1.1/F5.1.1 | Profile migration with preview + conflict hold | T-E5-001 | ADR-004 migration; C5.1 | Preview shown; conflicts held; source preserved | PROPOSED |
 | T-E5-003 | FL5.2.1/F5.2.1 | Tuple decision point | — | ADR-004 R1; C5.2 | Current-context allow/deny/hold + reason | PROPOSED |

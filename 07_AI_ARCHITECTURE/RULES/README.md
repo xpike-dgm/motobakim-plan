@@ -23,3 +23,9 @@ HELD until Phase 8; no API actuation).
 
 Every rule cites its source section; rules without a Group 1–3 source were removed. Group 5 may add
 change-invoked re-validation rules with reason (deferred note, not smuggled content).
+
+## Rule → enforcing-gate mapping
+
+- Per-task review gate: R-001, R-004, R-005, R-006, R-007, R-008, R-009, R-010, R-011, R-012.
+- Release gate: R-013, R-014.
+- Bootstrap gate (Phase 8): R-002, R-003 (auto-method rules; per-task review applies interim).

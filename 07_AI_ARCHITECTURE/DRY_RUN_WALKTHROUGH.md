@@ -1,6 +1,6 @@
 # DRY-RUN WALKTHROUGH (Path-C Manual-Carry Rehearsal)
 
-Status: PROPOSED (Group 3, reviewed PASS 2026-09-21; complementary to ADR-015 Rule 7 simulation, not a substitute)
+Status: PROPOSED (Group 3, reviewed PASS 2026-09-21; complementary to ADR-015 Decision 7 simulation, not a substitute)
 
 Scripted no-code rehearsal of one task end to end: pack → manual carry → implement → BLOCKED card →
 status line → owner decision → change-request → re-review.

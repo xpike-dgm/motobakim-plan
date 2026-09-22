@@ -5,9 +5,11 @@ Status: PROPOSED (Group 1, reviewed PASS 2026-09-21)
 ## Identity scheme
 
 - Type prefix + stable slug (e.g. `T-E3-001`): immutable once assigned.
-- Rename only through a `supersedes` chain; history is never rewritten.
-- Serialization format (YAML-frontmatter / JSON / filename convention) is HELD for Phase-7 detail;
-  no format selected here.
+- Slugs are proposed by the authoring task; uniqueness is verified at the review gate before record.
+  First claim wins; collisions are rejected, never merged; rename only through a `supersedes` chain.
+  Uniqueness scope covers IDs of the same type across planning truth (cross-type duplicates also rejected).
+- Serialization format (decided here, Phase-7 detail): Markdown records with YAML frontmatter carrying the
+  metadata fields (Obsidian-native); JSON allowed only for generated indexes. No other format selected.
 
 ## Metadata fields (minimum, verbatim)
 
