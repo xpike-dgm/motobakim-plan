@@ -1521,6 +1521,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   `TASK_EXECUTION_PROTOCOL.md`, `OWNER_STATUS_AND_ESCALATION.md` (new), `DRY_RUN_WALKTHROUGH.md` (new).
 - Push pending explicit authorization; next: Group 4 (validation) loop.
 
+### Phase-7 Group 5 Recorded (Change + Design + Migration + Rollback)
+- Draft reviewed: `CHANGES_REQUESTED` (9 findings: approval tiers, Step-2 drop, capture sequencing, emergency
+  conflation, vague canonical source, parallel allow/forbid, ADR redefinition, layering, guardrails).
+- Remediation + narrow re-review `CHANGES_REQUESTED` once (design-source pointer §8→§7); micro review refused
+  vapor (draft not yet on disk — correct call); files written, then file-based verification `PASS`.
+- Written as PROPOSED: `CHANGE_CONTROL.md`, `DESIGN_CONSISTENCY_AND_CHANGE.md` (new), `MIGRATION_POLICY.md`,
+  `ROLLBACK_STRATEGY.md`. No Group-6 content; Protocol/ADR primacy preserved.
+- Push pending explicit authorization; next: Group 6 (README + Gate 7→8 audit) loop.
+
 ### Phase-7 Group 4 Recorded (Validation + Closure + RULES)
 - Draft reviewed: `CHANGES_REQUESTED` (10 findings: tier authority, guardrails, conformance format, detection
   table, Phase-6 duplication, simulation creep, auto tags, trace gaps, handoff, loop sentence).
