@@ -1345,3 +1345,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   in F8.5.1); micro re-review `PASS`. No invented scope at any stage.
 - 11 features + 11 flows written to catalogs as PROPOSED. Feature/flow layer COMPLETE: 95 features + 103 flows.
 - Push pending explicit authorization; next: Step 4 traceability + simulation proposal.
+
+### DECISION_CHANGE_PROTOCOL Added (Manager-Free Change Answer)
+- Owner's core demand restated: no dependence on any single AI including the manager; any fresh chat must pick
+  up the next task; mid-flight decisions must propagate with AIs bound only to the task flow.
+- Manager answer: the loop is registry → pack → work → evidence → review → registry update, with every step's
+  instructions written down (no fixed AI anywhere); gap found and closed: no single executable change card existed.
+- Added `00_CONTROL/DECISION_CHANGE_PROTOCOL.md`: 7-step any-chat card (capture verbatim, mechanical impact query,
+  mark BLOCKED, owner options, apply-on-approval, independent verification, authorized push) + conflict rules.
+- Owner touchpoints: options + approval only. Push of card + memory updates pending authorization.
