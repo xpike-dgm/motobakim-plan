@@ -104,4 +104,33 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E6-015 | FL6.7.1/F6.7.1 | Incident taxonomy + graph | — | ADR-007 R9; C6.7 | Taxonomy + protected-copy graph | PROPOSED |
 | T-E6-016 | FL6.7.1/F6.7.1 | Protected copy + closure rule | T-E6-015 | ADR-007 R9; C6.7 | Outside-plane copy; reconcile-to-close | PROPOSED |
 | T-E6-017 | FL6.8.1/F6.8.1 | OTA denial gate | — | ADR-007 R10; C6.8 | Default deny + future envelope listed | PROPOSED |
+| T-E4-001 | FL4.1.1/F4.1.1 | Core composition check | — | ADR-009 R1; C4.1 | Verified core + nested safety; selected scope only; no full-library; essentials irremovable | PROPOSED |
+| T-E4-002 | FL4.1.1/F4.1.1 | Safety-media nesting check | T-E4-001 | ADR-009 R1; C4.1 | Never additive/on-demand-for-size | PROPOSED |
+| T-E4-003 | FL4.1.2/F4.1.2 | Nonessential on-demand rules | — | ADR-009 R1; C4.1 | Separate/explicit/cancelable/evictable/re-fetchable | PROPOSED |
+| T-E4-004 | FL4.1.2/F4.1.2 | Size-shown rule | T-E4-003 | DEC-0023; C4.1 | Size shown before download | PROPOSED |
+| T-E4-005 | FL4.2.1/F4.2.1 | Stage-verify-promote contract | — | ADR-009 R2; C4.2 | Verified; atomic; peak-space by eviction, never by deleting truth | PROPOSED |
+| T-E4-006 | FL4.2.1/F4.2.1 | Fallback rule | T-E4-005 | ADR-009 R2; C4.2 | Missing/stale delta → complete package | PROPOSED |
+| T-E4-007 | FL4.3.1/F4.3.1 | CON-005 auto-transfer (required only) | — | ADR-009 R3; CON-005; C4.3 | ONLY required core; no dialog; priority; completion≠authority | PROPOSED |
+| T-E4-008 | FL4.3.1/F4.3.1 | Retry-HELD + saver rule | T-E4-007 | ADR-009 R3; C4.3 | Where-supported retry; values HELD; saver delays, never gates | PROPOSED |
+| T-E4-009a | FL4.4.1/F4.4.1 | Eviction order | — | ADR-009 R4; C4.4 | Ordered eviction specified | PROPOSED |
+| T-E4-009b | FL4.4.1/F4.4.1 | Never-evict list (6-class) | T-E4-009a | ADR-009 R4; C4.4 | 6 classes protected | PROPOSED |
+| T-E4-010 | FL4.4.1/F4.4.1 | Hold-transfer rule | T-E4-009b | ADR-009 R4; C4.4 | Transfer held if staging cannot complete | PROPOSED |
+| T-E4-011a | FL4.5.1/F4.5.1 | Ledger states | — | ADR-009 R5; C4.5 | Explicit states enumerated | PROPOSED |
+| T-E4-011b | FL4.5.1/F4.5.1 | API reconcile via E3 | T-E4-011a | ADR-009 R5; C4.5; F3.1.2 | Submit/lookup via E3; E3 acceptance authoritative | PROPOSED |
+| T-E4-012 | FL4.5.1/F4.5.1 | Anti-resurrection + restore quarantine | T-E4-011b | ADR-009 R5; C4.5 | Cannot resurrect; restore enters quarantine first | PROPOSED |
+| T-E4-013 | FL4.6.1/F4.6.1 | Fail-closed gate + online-authoritative | — | ADR-009 R6; C4.6 | Fails closed inherited; internal-ops online-only; cached enforcement | PROPOSED |
+| T-E4-014 | FL4.6.1/F4.6.1 | Recovery-closure check | T-E4-013 | ADR-009 R6; C4.6 | Complete compact closure for offline start | PROPOSED |
+| T-E4-015 | FL4.7.1/F4.7.1 | No-plaintext gate | — | ADR-009 R7; C4.7 | Mechanism HELD; plaintext blocked at gate | PROPOSED |
+| T-E4-016 | FL4.8.1/F4.8.1 | Candidate-points HELD registry | — | ADR-009 R8; C4.8 | Verbatim TEST POINTS; selection deferred to evidence | PROPOSED |
+| T-E9-001 | FL9.1.1/F9.1.1 | 5-option proposal rule | — | ADR-014 R1; C9.1 | Exactly 5 bounded options | PROPOSED |
+| T-E9-002 | FL9.1.1/F9.1.1 | 6-dimension verify checklist | T-E9-001 | ADR-014 R1; C9.1 + verify-E3/render-E1 seam | All six dimensions checked | PROPOSED |
+| T-E9-003 | FL9.2.1/F9.2.1 | Economy skeleton | — | ADR-014 R2; C9.2 | Cheapest-adequate first; nothing selected/logged/budgeted | PROPOSED |
+| T-E9-004 | FL9.3.1/F9.3.1 | Adapter boundary rule | — | ADR-014 R3; C9.3 | Specifics behind adapters; change re-evaluates | PROPOSED |
+| T-E9-005 | FL9.3.1/F9.3.1 | Re-evaluation trigger | T-E9-004 | ADR-014 R3; C9.3 | Version/behavior change triggers review | PROPOSED |
+| T-E9-006 | FL9.4.1/F9.4.1 | Tool sandbox + cost visibility | — | ADR-014 R4; C9.4 | Authority outside output; bounded retry + cost seen | PROPOSED |
+| T-E9-007 | FL9.4.1/F9.4.1 | Non-AI continuation rule | T-E9-006 | ADR-014 R4; C9.4 | Safe deterministic path preserved | PROPOSED |
+| T-E9-008 | FL9.5.1/F9.5.1 | Allowed-10 reference | — | ADR-014 R5; C9.5 + verify-E3/render-E1 seam | Items 1–10 verbatim cited | PROPOSED |
+| T-E9-009 | FL9.6.1/F9.6.1 | Never-15 reference | — | ADR-014 R6; C9.6 + verify-E3/render-E1 seam | Items 1–15 verbatim cited; HOLD on ambiguity | PROPOSED |
+| T-E9-010 | FL9.6.1/F9.6.1 | HOLD-on-ambiguity rule | T-E9-009 | ADR-014 R6; C9.6 | No invented certainty or fallback answer | PROPOSED |
+| T-E9-011 | FL9.7.1/F9.7.1 | Role separation + externals notice | — | ADR-014 R7; C9.7; F10.7.1/C10.7; DEC-0028/0029 | Separation; nontechnical externals notice | PROPOSED |
 |---|---|---|---|---|---|---|

@@ -1380,3 +1380,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation: dep fix, seam call-outs, R6 addition, 016a/b split, citations, 007a/b + 007a/b splits, completed
   cells, guards. Narrow re-review `PASS` (all F1..F6 closed, no regression). 40 tasks total.
 - 40 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
+
+### E4+E9 Atomic Tasks Review Cycle
+- E4 + E9 draft (27 tasks) reviewed against capabilities/features/flows + ADR rules + CON-005 + schema + atomicity.
+- First verdict `CHANGES_REQUESTED`: 11 findings (2 Critical: scope sentence + online-authority gaps; 7 Major incl.
+  peak-space, restore entry, CON-005 remainder, E3 seam, verify seams, no-selection guard, oversized tasks;
+  2 Minor incl. pack cites + self-referential acceptance). No invented scope.
+- Remediation: acceptance amendments + 2 splits (009a/b, 011a/b). Narrow re-review `PASS` (all F1..F11 closed).
+- 29 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.

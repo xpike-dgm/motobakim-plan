@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / E4+E9 ATOMIC TASKS DRAFT + REVIEW IN PROGRESS`
+Status: `PHASE 6 / E1+E2 ATOMIC TASKS DRAFT + REVIEW IN PROGRESS`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
@@ -9,15 +9,15 @@ Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 Feature/flow layer COMPLETE (95 features + 103 flows, all groups review PASS) and pushed (`8d6e6a4`).
 
 - No invented scope in any group; all findings closed with no regression.
-- Owner Q&A round answered (manager-free execution, status visibility, Yol C cost, capsule rule, review tasks,
-  change propagation without a fixed AI).
-- `DECISION_CHANGE_PROTOCOL.md` added: any-chat executable change card (owner asked how mid-flight decisions
-  propagate with no fixed AI).
+- Task layer in progress: E3 (41), E10 (18), E5+E6 (40) and E4+E9 (29) recorded as PROPOSED per `DEC-0052`
+  (128 total); E1+E2 and E7+E8 task groups remain.
 - No task execution, prototype, account, purchase or code authorized.
 
 ## Immediate Next Manager Action
 
-1. Await push authorization for the protocol card + memory updates, and go-ahead for the E3 atomic-task group.
+1. Await push authorization for the E4+E9 task records and memory updates.
+2. Then continue autonomously with the next group (proposed: E1+E2 tasks) under the draft → independent-review →
+   record loop (`DEC-0052`).
 
 ## Hard Boundaries
 
