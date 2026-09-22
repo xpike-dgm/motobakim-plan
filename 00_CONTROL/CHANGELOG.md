@@ -1579,3 +1579,19 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   with template authority clarified.
 - Narrow verification `PASS`: all 4 blockers closed. Gate 7 -> 8 ready for owner approval.
 - Push pending explicit authorization; gate approval request next.
+
+### DEC-0057 — Gate 7 -> 8 Passed / Phase 8 Authorized
+- Owner explicitly approved the transition (`onaylıyorum`) after independent gate verification PASS.
+- Recorded DEC-0057: Gate 7 -> 8 PASSED; Phase 7 closed (23 design docs, all review PASS); Phase 8 authorized.
+- No application code, task execution, account, purchase, deployment or production proof authorized.
+- Post-passage doc audit: `07_AI_ARCHITECTURE/README.md` stale "Group 6 audit pending" status corrected
+  (PROPOSED material; no APPROVED/LOCKED content touched).
+
+### Phase 8 — Implementation Repo Created (Empty)
+- Owner created the empty implementation repository: `https://github.com/xpike-dgm/kavriva-app` (2026-09-22).
+- No setup started; Phase-8 work plan pending owner approval before any construction.
+
+### DEC-0058 — Phase-8 Plan Approved / Push Authorized
+- Owner explicitly approved (`onaylıyorum`) the 7-step bootstrap plan and the pending records push.
+- Step 1 (directory blueprint draft for `kavriva-app`) authorized; draft → review → PASS before installation.
+- Product feature code and deployment remain unauthorized.

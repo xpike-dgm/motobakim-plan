@@ -1839,3 +1839,51 @@ Decision:
 - This does not authorize scope expansion during remediation: fixes stay narrow to findings; new scope needs
   its own draft + review.
 
+---
+
+## DEC-0057 — Gate 7 -> 8 Passed / Phase 8 Bootstrap Authorized
+**Date:** 2026-09-21
+**Status:** APPROVED
+
+The owner explicitly approved the Gate 7 -> 8 transition (`onaylıyorum`) after independent gate verification PASS:
+
+- Phase 7 AI architecture complete: 23 design documents across Groups 1–6, each reviewed PASS with no open findings;
+  gate audit BLOCKED items (4) closed and verified; no mechanism/account/key/purchase/code selected.
+- Gate 7 -> 8 criterion fully met.
+
+Effect:
+
+- Gate 7 -> 8 is PASSED; Phase 7 is closed;
+- Phase 8 (repository bootstrap: physical repository + Obsidian graph + task registry + CI/architecture/design/
+  traceability checks, validated by an example task that must not become product-code development) is authorized
+  to begin;
+- no application code, task execution beyond the bootstrap proof task, account, purchase, deployment or production
+  proof is authorized by this gate passage.
+
+---
+
+## DEC-0058 — Phase-8 Bootstrap Plan Approved / Records Push Authorized
+**Date:** 2026-09-22
+**Status:** APPROVED
+
+The owner explicitly approved (`onaylıyorum`) both:
+
+(a) pushing the pending records batch (DEC-0057 gate records, corrected 07 README, repo link);
+
+(b) the Phase-8 bootstrap work plan, in order with draft → independent review → PASS → setup per step and
+  per-step push authorization:
+
+1. directory blueprint draft for `kavriva-app` (approved form installed afterwards);
+2. physical module boundaries + public-contract skeleton;
+3. validation commands + architecture tests;
+4. CI quality gates;
+5. task registry + traceability/graph checks;
+6. migration/rollback applicability;
+7. proof-task validation + fresh-AI-session bootstrap test + Gate 8 readiness audit.
+
+Effect:
+
+- Phase-8 Step 1 (directory blueprint draft) is authorized to begin; no construction beyond the approved plan;
+- product feature code and deployment remain unauthorized; the proof task must not become product development;
+- implementation repository is owner-created empty at `https://github.com/xpike-dgm/kavriva-app`.
+

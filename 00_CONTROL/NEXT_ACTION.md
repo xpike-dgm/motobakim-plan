@@ -1,23 +1,25 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 7 COMPLETE / GATE 7->8 APPROVAL PENDING`
-Phase: `PHASE 7 — AI ARCHITECTURE (ROUTER/PACKS/GATES/GRAPH MECHANISMS)`
-Gate: `5 -> 6 PASSED under DEC-0050 / 6 -> 7 PASSED under DEC-0055`
+Status: `PHASE 8 PLAN APPROVED / STEP 1 AUTHORIZED`
+Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
+Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
 
 ## Just Completed
 
-Gate 6 -> 7 is PASSED. The owner explicitly approved the transition (`geçir`) with push authorization after
-re-audit verification PASS, recorded as `DEC-0055` on 2026-09-21. Phase 6 is closed.
+Gate 7 -> 8 is PASSED. The owner explicitly approved the transition (`onaylıyorum`) after independent gate
+verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
 
-- 10 epics, 78 capabilities, 101 features, 110 flows, 199 tasks; closed trace; passed simulation.
-- No code, task execution, account, purchase, deployment or production proof authorized.
+- 23 design documents across Groups 1–6, each reviewed PASS; gate audit BLOCKED items closed and verified.
+- No mechanism/account/key/purchase/code selected in Phase 7.
+- No application code, task execution, account, purchase, deployment or production proof authorized.
+- Owner approved the Phase-8 bootstrap work plan + records push (`onaylıyorum`), recorded as `DEC-0058`
+  on 2026-09-22. Implementation repo `https://github.com/xpike-dgm/kavriva-app` created empty by owner.
 
 ## Immediate Next Manager Action
 
-1. Push the gate records with the given authorization.
-2. Then present the Phase-7 work plan (context routing, pack standard, graph metadata, module capsules,
-   contracts, validation, change-control, architecture tests) before starting design; no mechanism built
-   without an approved plan.
+1. Push the approved records batch with the given authorization.
+2. Then draft the Phase-8 Step-1 directory blueprint for `kavriva-app` (draft → independent review → PASS
+   before any installation); no construction beyond the approved plan.
 
 ## Hard Boundaries
 

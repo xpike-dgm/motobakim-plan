@@ -9,7 +9,7 @@ modul kapsulleri; minimum yeterli context pack; allowed/forbidden change scope; 
 completion evidence tasarlamak zorundadir. Hedef rastgele dosya kucultmek degil, kucuk degisiklik yuzeyi ve enforce
 edilen sinirlardir.
 
-Status: PROPOSED (Groups 1–5 recorded 2026-09-21; Group 6 audit pending)
+Status: PROPOSED (Groups 1–6 recorded and reviewed PASS 2026-09-21; Gate 7 → 8 PASSED under DEC-0057)
 
 ## Document map (all PROPOSED unless noted)
 
@@ -24,4 +24,4 @@ Status: PROPOSED (Groups 1–5 recorded 2026-09-21; Group 6 audit pending)
   `COMPLETION_EVIDENCE_AND_CLOSURE_MATRIX.md`, `RULES/README.md` (R-001..R-014).
 - Group 5: `CHANGE_CONTROL.md`, `DESIGN_CONSISTENCY_AND_CHANGE.md`, `MIGRATION_POLICY.md`,
   `ROLLBACK_STRATEGY.md`.
-- Group 6 (this loop): this refresh + Gate 7 → 8 readiness audit. Physical construction belongs to Phase 8.
+- Group 6 (closed loop): this refresh + Gate 7 → 8 readiness audit, independently verified PASS. Physical construction belongs to Phase 8.

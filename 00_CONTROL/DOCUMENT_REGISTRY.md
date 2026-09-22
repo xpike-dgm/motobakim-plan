@@ -13,8 +13,8 @@ Status degerleri: `EMPTY`, `DRAFT`, `REVIEW`, `APPROVED`, `LOCKED`, `SUPERSEDED`
 | Teknoloji tartismasi | `04_TECH_STRATEGY/*` | APPROVED (Gate 4 -> 5 PASSED under DEC-0048; strategy level closed, no new debate) |
 | ADR | `05_ADR/*` | APPROVED (Phase 5 complete; ADR-001–ADR-015 APPROVED 2026-09-21; Gate 5 -> 6 pending) |
 | Teslimat planlama | `06_DELIVERY_PLANNING/*` | APPROVED (Phase 6 complete; 101/110/199 verified; Gate 6 -> 7 PASSED under DEC-0055) |
-| AI-native mimari | `07_AI_ARCHITECTURE/*` | ACTIVE (Phase 7 authorized under DEC-0055; no design records yet) |
-| Repository bootstrap | `08_REPOSITORY_BOOTSTRAP/*` | EMPTY |
+| AI-native mimari | `07_AI_ARCHITECTURE/*` | APPROVED (Phase 7 complete; 23 docs reviewed PASS; Gate 7 -> 8 PASSED under DEC-0057) |
+| Repository bootstrap | `08_REPOSITORY_BOOTSTRAP/*` | ACTIVE (Phase 8 authorized under DEC-0057; impl repo `https://github.com/xpike-dgm/kavriva-app` created empty 2026-09-22; no setup records yet) |
 
 `01_WORKSPACE` approved; Gate 1 -> 2 tamamlandi.
 
