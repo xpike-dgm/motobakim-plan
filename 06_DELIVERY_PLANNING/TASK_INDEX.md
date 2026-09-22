@@ -122,6 +122,8 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E4-014 | FL4.6.1/F4.6.1 | Recovery-closure check | T-E4-013 | ADR-009 R6; C4.6 | Complete compact closure for offline start | PROPOSED |
 | T-E4-015 | FL4.7.1/F4.7.1 | No-plaintext gate | — | ADR-009 R7; C4.7 | Mechanism HELD; plaintext blocked at gate | PROPOSED |
 | T-E4-016 | FL4.8.1/F4.8.1 | Candidate-points HELD registry | — | ADR-009 R8; C4.8 | Verbatim TEST POINTS; selection deferred to evidence | PROPOSED |
+| T-E4-017 | FL4.9.1/F4.9.1 | Classification table | T-E4-001, T-E4-003 | Q-0046/BR-131..133; C4.1 + guard | Criteria + Q156/Q157 examples recorded; rule only, mechanism in F4.1.1/F4.1.2 | PROPOSED |
+| T-E2-016 | FL2.12.1/F2.12.1 | Failed-state render | T-E2-004, T-E2-005 | RQ-060..062; C2.3 + guard | Failed states shown recoverable + resolver named (E6 via T-E6-014/015 chain; T-E2-004/005 invoke-only); unsaved/partial distinguished; four-part explanation | PROPOSED |
 | T-E9-001 | FL9.1.1/F9.1.1 | 5-option proposal rule | — | ADR-014 R1; C9.1 | Exactly 5 bounded options | PROPOSED |
 | T-E9-002 | FL9.1.1/F9.1.1 | 6-dimension verify checklist | T-E9-001 | ADR-014 R1; C9.1 + verify-E3/render-E1 seam | All six dimensions checked | PROPOSED |
 | T-E9-003 | FL9.2.1/F9.2.1 | Economy skeleton | — | ADR-014 R2; C9.2 | Cheapest-adequate first; nothing selected/logged/budgeted | PROPOSED |
@@ -137,14 +139,14 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E1-002 | FL1.0.2/F1.0.1 | Garage context only (SCR-005/008) | T-E1-001 | SCR-005/008; C1.0 + guard | Display/switch; lifecycle entry; no hub | PROPOSED |
 | T-E1-003 | FL1.1.1/F1.1.1 | First-value + add-bike render | T-E1-001 | SCR-001/002; C1.1 + guard | Value before account; creation form | PROPOSED |
 | T-E1-004 | FL1.1.2/F1.1.2 | Variant resolution render | T-E1-003 | SCR-003/004; C1.1 + guard | Distinction + fit/missing states | PROPOSED |
-| T-E1-005a | FL1.2.1/F1.2.1 | Discovery render (009/010) | T-E1-004 | SCR-009/010; C1.2 + guard | Task find/select shown | PROPOSED |
-| T-E1-005b | FL1.2.1/F1.2.1 | Fit render (011/012) | T-E1-005a | SCR-011/012; C1.2 + guard | Fit evaluation shown | PROPOSED |
-| T-E1-005c | FL1.2.1/F1.2.1 | Preparation render (013 teaching-only) | T-E1-005b | SCR-013; C1.2 + guard | Labeled teaching-only, never active instruction | PROPOSED |
-| T-E1-006 | FL1.3.1/F1.3.1 | Active execution render (014/015/018 only) | T-E1-005b | SCR-014/015/018; C1.3 + guard | Truthful outcomes; safe closure not payable; no ignore-and-continue | PROPOSED |
-| T-E1-007 | FL1.3.2/F1.3.1 | Resume/revalidation render | T-E1-006 | SCR-016; C1.3 + guard | Revalidation; saved≠proof; bottom-bar HELD | PROPOSED |
-| T-E1-008 | FL1.3.3/F1.3.1 | Remap render | T-E1-006 | SCR-017; C1.3 + guard | Remap required; no guessed continuation; bottom-bar HELD | PROPOSED |
-| T-E1-009 | FL1.4.1/F1.4.1 | Diagnosis render via E9 | T-E1-001 | SCR-019..021; ADR-014 R1/R5/R6; C1.4 + guard | Check shown; E9 proposes/E1 renders/E3 verifies; renders SCR-019..021 only; offline OUTCOME_UNKNOWN→E3 reconcile via T-E4-011b/T-E3-004 | PROPOSED |
-| T-E1-010 | FL1.5.1/F1.5.1 | Maintenance/reminder render | T-E1-001 | SCR-022..024; C1.5 + guard | Verified source; snooze≠completion; catch-up path | PROPOSED |
+| T-E1-005a | FL1.2.1/F1.2.1 | Discovery render (009/010) | T-E1-004 | SCR-009/010; C1.2 + guard | Task find/select shown; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-005b | FL1.2.1/F1.2.1 | Fit render (011/012) | T-E1-005a | SCR-011/012; C1.2 + guard | Fit evaluation shown; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-005c | FL1.2.1/F1.2.1 | Preparation render (013 teaching-only) | T-E1-005b | SCR-013; C1.2 + guard | Labeled teaching-only, never active instruction; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-006 | FL1.3.1/F1.3.1 | Active execution render (014/015/018 only) | T-E1-005b | SCR-014/015/018; C1.3 + guard | Truthful outcomes; safe closure not payable; no ignore-and-continue; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-007 | FL1.3.2/F1.3.1 | Resume/revalidation render | T-E1-006 | SCR-016; C1.3 + guard | Revalidation; saved≠proof; bottom-bar HELD; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-008 | FL1.3.3/F1.3.1 | Remap render | T-E1-006 | SCR-017; C1.3 + guard | Remap required; no guessed continuation; bottom-bar HELD; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-009 | FL1.4.1/F1.4.1 | Diagnosis render via E9 | T-E1-001 | SCR-019..021; ADR-014 R1/R5/R6; C1.4 + guard | Check shown; E9 proposes/E1 renders/E3 verifies; renders SCR-019..021 only; offline OUTCOME_UNKNOWN→E3 reconcile via T-E4-011b/T-E3-004; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
+| T-E1-010 | FL1.5.1/F1.5.1 | Maintenance/reminder render | T-E1-001 | SCR-022..024; C1.5 + guard | Verified source; snooze≠completion; catch-up path; novice-comprehensible copy (CON-004; verified at F10.6.1 gate) | PROPOSED |
 | T-E1-011 | FL1.6.1/F1.6.1 | History render (025/026/030 only) | T-E1-001 | SCR-025/026/030; ADR-001/004/005; C1.6 + guard | Provenance; serve T-E3-010; authorize T-E5-013/019 | PROPOSED |
 | T-E1-012 | FL1.6.2/F1.6.1 | Record/dispute render | T-E1-011 | SCR-027/028; C1.6 + guard | Standalone preserved; no-silent-winner | PROPOSED |
 | T-E1-013 | FL1.6.3/F1.6.1 | Reach-back render | T-E1-011 | SCR-029; C1.6 + guard | Severity reach-back; survives inactive | PROPOSED |
@@ -153,6 +155,16 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E1-015 | FL1.8.1/F1.8.1 | Profile/collab/migration render | T-E1-001 | SCR-006/007/034; C1.8 + guard | Preview; no silent loss; revocable | PROPOSED |
 | T-E1-016 | FL1.9.1/F1.9.1 | Community surface render | T-E1-001 | SCR-035/036/038; C1.9 + guard | Opt-in flows; decisions in E2 | PROPOSED |
 | T-E1-017 | FL1.10.1/F1.10.1 | AI entry render (A1 verbatim) | T-E1-001 | AI_USTA DEC-0018; C1.10 + guard | 1+1+2; clutter/NL bounds; E9/E3 seam; renders A1 root only | PROPOSED |
+| T-E1-018 | FL1.2.2/F1.2.2 | Range display | T-E1-005a | BR-063/064; C1.2 + guard | Experience-dependent range + date shown | PROPOSED |
+| T-E1-019a | FL1.2.2/F1.2.2 | Split/exclusions render | T-E1-018 | BR-063/064; C1.2 + guard | Cost split + exclusions shown | PROPOSED |
+| T-E1-019b | FL1.2.2/F1.2.2 | Assumptions/no-fabrication rule | T-E1-019a | BR-063/064; C1.2 + guard | Assumptions shown; unknown never invented | PROPOSED |
+| T-E1-020 | FL1.9.2/F1.9.2 | Sponsored marking | T-E1-001 | BR-070/071/073; C1.9 + guard | Sponsored explicitly marked; hidden ads + alternatives visible | PROPOSED |
+| T-E1-021 | FL1.9.2/F1.9.2 | Ranking firewall | T-E1-020 | BR-070/071/073; C1.9 + guard | Listing never substitutes guide; sales-target blocked; fit-first; no analytics input | PROPOSED |
+| T-E1-022a | FL1.3.4/F1.3.2 | Condensed render | T-E1-006 | BR-074; C1.3 + guard | Short/fast shown | PROPOSED |
+| T-E1-022b | FL1.3.4/F1.3.2 | Uncertainty banner | T-E1-022a | BR-074; C1.3 + guard | Safety uncertainty persistent; E4 fail-closed seam | PROPOSED |
+| T-E1-023 | FL1.3.5/F1.3.3 | Criteria content per category | — | OPEN criterion + author role; C1.3 + guard | Content authored by domain expert + second review; E2 draft→E6 approve; validation HELD | PROPOSED |
+| T-E1-024 | FL1.3.5/F1.3.3 | Enforcement render | T-E1-023 | OPEN criterion; C1.3 + guard + E3/E6 refs | Checked per E3 verification, rendered by E1 | PROPOSED |
+| T-E1-025 | FL1.7.2/F1.7.1 | Replacement right render + server ref | T-E1-014a | Q222/Q227; C1.7 + guard | Pre-step correction + MAY-open; server decision cited; window HELD | PROPOSED |
 | T-E2-001 | FL2.1.1/F2.1.1 | Workspace shell render | — | ADR-010 D2-D5; C2.1 + guard | Dense workspace; a11y baseline; responsive deferred | PROPOSED |
 | T-E2-002 | FL2.2.1/F2.2.1 | Review queue render | T-E2-001 | WS-06; C2.2 + guard | Packets; independence; review≠publication | PROPOSED |
 | T-E2-003 | FL2.2.2/F2.2.1 | Conflict review render | T-E2-002 | WS-05; C2.2 + guard | Conflict/gap with owner/reason/escalation | PROPOSED |

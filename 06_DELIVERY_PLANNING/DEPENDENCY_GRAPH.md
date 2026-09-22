@@ -15,15 +15,14 @@ Epic-level edges (each verified acyclic, no E1<->E9 cycle, no E7→E1 dependency
 - E7: ← E3, E6 (E1 output is acceptance fixture only)
 - E8: ← E3 (E2 renders E8 outputs only)
 
-Task-level DAG verdicts (one per review cycle, all acyclic): E3 (41 tasks), E10 (18), E5+E6 (41), E4+E9 (29),
-E1+E2 (36 with T-E2-014/015), E7+E8 (22) = 187 total. Cross-epic edges are pack references only (seams), never hard
+Task-level DAG verdicts (one per review cycle, all acyclic): E3 (41 tasks), E10 (18), E5 (23) + E6 (18), E4 (19) + E9 (11),
+E1 (30) + E2 (17), E7 (9) + E8 (13) = 199 total. Cross-epic edges are pack references only (seams), never hard
 Depends On, except the above epic edges. No hidden dependencies outstanding; full machine-readable edge list in Phase 7.
 
-Step 6 simulation notes (mechanical DAG analysis 2026-09-21 over 185 task rows + 2 added = 187 total):
-- Global DAG acyclic: yes. Topological order length = task count. Max dependency depth 6. No duplicate IDs.
-  All Depends On references resolve; no dangling edges.
-- Removal-impact samples (transitive dependents): T-E3-001 → 19 tasks; T-E1-001 → 19; T-E10-001 → 17;
-  T-E2-001 → 13; T-E10-004 → 11; T-E10-007 → 8; T-E3-009 → 7; others ≤5. Blast radius is queryable pre-execution
+Step 6 simulation notes (mechanical DAG rerun 2026-09-21 over 199 task rows / 110 flows): acyclic yes,
+topo length = count, max depth 7, no duplicates, all deps resolve, zero flows without task.
+- Removal-impact samples (transitive dependents): T-E3-001 → 25; T-E1-001 → 27; T-E10-001 → 17;
+  T-E2-001 → 15; T-E10-004 → 11; T-E10-007 → 8; T-E5-013 → 9; T-E3-009 → 8; all others ≤5. Blast radius is queryable pre-execution
   via this graph + matrix (owner-readable through catalog rows, not raw IDs).
 - Collision rule: tasks sharing a scope (e.g. T-E1-009/T-E1-017 routing taxonomy, T-E1-011/012/013 history screens)
   require frozen pack revisions + distinct outputs for parallel runs; T-E1-012/013 are NOT READY until T-E1-011 DONE.

@@ -1439,6 +1439,78 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   removal/all-DONE/change-ripple) returned fix lists; all applied (state mappings, resolvers, floor/impact edges,
   declarants, buffer ownership, seam notes, DEC-0053 shape, T-E2-014/015 new, entitlement matrix row).
 - New T-E2-014/T-E2-015 bring the total to 187; all counts corrected across records.
+
+### Re-Audit Fixes Applied (Gate 6 -> 7 Second Pass)
+- Added 5 matrix requirement rows (estimates, commerce, roadside, safe-closure, Q-0066); reconciled E1/E2 NONE
+  vs validation assignment + test-claim wording; HELD labels + authority on device/TSQ rows.
+- Re-ran DAG on current data; refreshed report/graph/NEXT counts to 101 features + 110 flows + 199 tasks
+  (E4 19, E2 17 — earlier tallies had missed the final gap rows).
+- Push pending explicit authorization; gate approval request follows verification.
 - Wrote `06_DELIVERY_PLANNING/SIMULATION_REPORT.md`; independent report review `PASS` (11-item spot-check,
   no overclaim, gate stays BLOCKED, Step 6 complete vs gate/ADR-015-Rule-7).
 - Push pending explicit authorization; next: Gate 6 -> 7 readiness audit.
+
+### DEC-0054 — First-Release Completeness Decided
+- Owner decided all planned scope ships in first release (`önceden planlanmış herşey olsun ilk sürüm eksiksiz olmalı`).
+- Recorded DEC-0054: 8 content gaps become scope (estimates, commerce, roadside, safe-closure content, Q-0066,
+  media rule, RQ-060..062, CON-004); E1/E2 validation assignment included; no deferrals.
+- Execution: new rows via review loop, then matrix/sim update, then Gate 6 -> 7 re-audit.
+
+### Gap-Closure E1 Group (DEC-0054)
+- Draft (5 features + 5 flows + 9 tasks) reviewed: `CHANGES_REQUESTED` (7 findings: ID schema, authoring
+  authority, Q-0066 partial, commerce limbs, roadside trigger, feed owner, bundling/screens).
+- Remediation + narrow re-review `CHANGES_REQUESTED` once (flow ID collision FL1.3.2/3 taken); micro re-review
+  `PASS` (FL1.3.4/FL1.3.5 collision-free).
+- 4 features + 5 flows + 10 tasks written to catalogs as PROPOSED. Remaining gaps: media rule, RQ-060..062,
+  CON-004 (next group). Push pending explicit authorization.
+### Gate 6 -> 7 Readiness Audit — BLOCKED (2026-09-21)
+- Criterion (PHASE_GATES.md): maps + dependencies + acceptance sufficient; bidirectional traceability closed;
+  orphan/gap/conflict scan done; no-code task/dependency/failure/rollback/closure simulation passed.
+- HOLDS: maps complete (10 epics, 78 capabilities, 95 features, 103 flows, 187 tasks); deps acyclic (mechanical
+  proof); traceability matrix ~150 rows with zero orphan tasks; scans done; simulation mechanics passed
+  (SIMULATION_REPORT.md REVIEWED PASS).
+- BLOCKERS (exact missing evidence):
+  1. Content gaps with no feature/flow/task: BR-063/064 estimates UI; BR-070/071/073 commerce neutrality;
+     BR-074 roadside mode; safe-closure acceptance content; Q-0066 replacement window; Q-0046 media rule;
+     IDCO-RQ-060..062 resilience; CON-004 clarity wording.
+  2. Validation column unassigned for all E1/E2 rows (review/gate/simulation labels need assigning; no code needed).
+  3. Commerce/roadside/estimates need owner scoping answers first (in-scope now vs explicitly deferred?).
+- Gate stays BLOCKED. No Phase-7 work before remediation + re-audit + explicit gate approval.
+
+
+### Final Gap Group Closed (Media, Resilience, CON-004, Validation)
+- Draft (2 features + 2 flows + 2 tasks + amendments + validation rule) reviewed: `CHANGES_REQUESTED`
+  (6 findings: totality, RQ-061/062 homes, media seam, CON-004 scope, C2.3 home, surface label).
+- Remediation + narrow re-review `CHANGES_REQUESTED` once (F2.12.1 additive note); micro re-review `PASS`.
+- Recorded: F4.9.1/FL4.9.1/T-E4-017, F2.12.1/FL2.12.1/T-E2-016, CON-004 wording on 8 guide tasks, matrix rows,
+  validation rule (23 review + 17 simulation + 7 gate = 47 E1/E2 items, no test).
+- Totals now: 101 features, 110 flows, 199 tasks (E3 41, E10 18, E5 23, E6 18, E4 19, E9 11, E1 30, E2 17, E7 9, E8 13). All Gate 6 -> 7 content gaps CLOSED; HELD-by-design
+  (device proof, numerics, second human, test execution) explicitly remains HELD.
+- Push pending explicit authorization; next: Gate 6 -> 7 re-audit.
+
+### Re-Audit Round 2 — Stale Language Purged, Verdict PASS
+- Independent re-audit found the substance closed but 6 stale-wording/count blockers (old 184/187/103 tallies,
+  un-updated E1+E2 counts, BLOCKED-pending-review language, open-gap lists, T-E2-014/015-era notes).
+- Fixed: matrix gap rows + validation pointers + HELD labels + counts (101/110/199); graph per-epic split
+  (E4 19, E2 17) + depth 7 + fresh samples; report §1/§§3-4 refreshed; NEXT/CURRENT statuses refreshed.
+- Narrow verification `PASS`: all re-audit items closed. Gate 6 -> 7 ready for owner approval.
+- Push pending explicit authorization; gate approval request next.
+
+### Gate 6 -> 7 Re-Audit — PASS (2026-09-21)
+- First re-audit BLOCKED on stale counts/language; all fixed (per-epic splits everywhere, BLOCKED language
+  dated-or-removed, gap rows verified, HELD labels verified).
+- Final verification `PASS`: 101/110/199 with exact splits, zero stale strings, matrix/trace/scans/simulation green.
+- Gate ready for owner approval. No Phase-7 work before explicit gate approval + push authorization.
+
+### Re-Audit Fixes Applied (Gate 6 -> 7 Second Pass)
+- Added 5 matrix requirement rows (estimates, commerce, roadside, safe-closure, Q-0066).
+- Reconciled E1/E2 NONE vs validation assignment (section pointers) + test-claim wording (specified-not-executed).
+- HELD labels + authority on device/TSQ rows. DAG re-run on current data; report/graph/NEXT counts refreshed
+  to 101 features + 110 flows + 199 tasks (first run had used a stale snapshot).
+- Pending: narrow verification of this delta, then push + gate approval request.
+
+### DEC-0055 — Gate 6 -> 7 Passed / Phase 7 Authorized
+- Owner explicitly approved the transition (`geçir`) with push authorization, after re-audit verification PASS.
+- Recorded DEC-0055: Gate 6 -> 7 PASSED; Phase 6 closed (10/78/101/110/199, trace closed, simulation passed);
+  Phase 7 (AI architecture) authorized.
+- No code, task execution, account, purchase, deployment or production proof authorized.

@@ -37,6 +37,8 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL4.6.1 | F4.6.1 | System | Stale/unknown critical dependency | Fail closed inherited; safe-stop available; internal-ops online-only | — (client logic, surfaced via E1 — E1 screen HELD per Step 3) | PROPOSED |
 | FL4.7.1 | F4.7.1 | Security task | Gate evaluated, mechanism HELD | Proven or held; plaintext blocked at gate | — (API surface; gate check, mechanism HELD) | PROPOSED |
 | FL4.8.1 | F4.8.1 | Measurement task | HELD policy evaluated | No numbers selected; acceptance criterion noted | Owner-view (HELD) | PROPOSED |
+| FL4.9.1 | F4.9.1 | System | Media classified | Essential (core-nested) vs expanded (on-demand) per necessity test | — (planning table; no API/mechanism; consumed by F4.1.1/F4.1.2) | PROPOSED |
+| FL2.12.1 | F2.12.1 | Operator | Failed operation inspected | Inspectable recoverable state + resolver (unsaved/partial distinguished; what/why/who/next-action explained) | — (planned ops view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL9.1.1 | F9.1.1 | User | Free-text symptom/task described | Clarify; bounded proposal; verification by E3, render by E1 | AI Usta screens (E1 renders per C1.10) | PROPOSED |
 | FL9.2.1 | F9.2.1 | System | HELD policy evaluated (no numeric) | No model selected/logged | — (API surface) | PROPOSED |
 | FL9.3.1 | F9.3.1 | Platform task | Provider/model changed | Adapter + revalidation; product logic untouched | — (API surface) | PROPOSED |
@@ -72,6 +74,11 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | FL1.8.1 | F1.8.1 | User | Migration/collaboration action | Scope preview; no silent loss; revocable attribution | SCR-006/007/034 screens | PROPOSED |
 | FL1.9.1 | F1.9.1 | User | Community contribution/status check | Opt-in flows; status/repair paths; decisions in E2, acceptance≠verification | SCR-035/036/038 screens | PROPOSED |
 | FL1.10.1 | F1.10.1 | User | AI Usta opened | A1 split only; routes SCR-009/019; no third path/composer; propose=E9 verify=E3 | AI Usta root screen | PROPOSED |
+| FL1.2.2 | F1.2.2 | User | Estimate requested | Range + split + assumptions + date shown; unknown-as-unknown; feed HELD | SCR-TBD (new screen proposal, not approved) | PROPOSED |
+| FL1.9.2 | F1.9.2 | User | Commercial content shown | Sponsored marked; listing never substitutes guide; no analytics input | SCR-TBD (new screen proposal, not approved) | PROPOSED |
+| FL1.3.4 | F1.3.2 | User | Roadside mode entered (explicit) | Condensed steps; uncertainty banner persistent; E4 fail-closed seam | SCR-TBD (new screen proposal, not approved) | PROPOSED |
+| FL1.3.5 | F1.3.3 | User/system | Closure evaluated | Category criteria checked per E3 verification, rendered by E1 | Guide screens (E1 renders) | PROPOSED |
+| FL1.7.2 | F1.7.1 | User | Replacement selection requested | Q222 pre-step correction + Q227 MAY-open per server decision; window HELD | Lifecycle screens (E1 renders) | PROPOSED |
 | FL2.1.1 | F2.1.1 | Operator | Workspace opened | Dense workspace + nav; a11y baseline active | — (planned shell view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL2.2.1 | F2.2.1 | Reviewer | Packet assigned | Evidence reviewed; independence checked; decision recorded | — (planned queue view, mechanism HELD Phase 7-8) | PROPOSED |
 | FL2.2.2 | F2.2.1 | Reviewer | Conflict/gap detected | WS-05 conflict review with owner/reason/escalation | — (planned queue view, mechanism HELD Phase 7-8) | PROPOSED |

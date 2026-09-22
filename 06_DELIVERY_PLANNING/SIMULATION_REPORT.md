@@ -1,17 +1,17 @@
 # STEP 6 — NO-CODE SIMULATION REPORT
 
-Status: REVIEWED PASS (independent 11-item spot-check 2026-09-21; no overclaim; gate stays BLOCKED)
+Status: REVIEWED PASS (independent 11-item spot-check + re-audit delta verification 2026-09-21; no overclaim; gate verdict recorded in re-audit, not here)
 Date: 2026-09-21
 Authority: ADR-015 Rule 7, DEC-0028 addendum §6, Gate 6 -> 7 criterion
 
 ## 1. Mechanical DAG analysis (script, repo truth)
 
-- Total tasks: 187 (E3 41, E10 18, E5+E6 41, E4+E9 29, E1+E2 36, E7+E8 22). No duplicate IDs.
-- Global DAG acyclic: yes. Topological order length = task count. Max dependency depth 6.
+- Total tasks: 199 (E3 41, E10 18, E5 23, E6 18, E4 19, E9 11, E1 30, E2 17, E7 9, E8 13). No duplicate IDs. (Rerun 2026-09-21 on current data; earlier runs used stale snapshots.)
+- Global DAG acyclic: yes. Topological order length = task count. Max dependency depth 7.
 - All Depends On references resolve; no dangling edges.
-- Total flows: 103. One flow had no task at analysis time (FL2.3.2 — T-E2-005 mislabeled; fixed).
-- Removal-impact samples (transitive dependents): T-E3-001 → 19; T-E1-001 → 19; T-E10-001 → 17;
-  T-E2-001 → 13; T-E10-004 → 11; T-E10-007 → 8; T-E3-009 → 7; all others ≤5.
+- Total flows: 110. Zero flows without task (FL2.3.2 fixed; gap-closure flows covered).
+- Removal-impact samples (transitive dependents): T-E3-001 -> 25; T-E1-001 -> 27; T-E10-001 -> 17;
+  T-E2-001 -> 15; T-E10-004 -> 11; T-E10-007 -> 8; T-E5-013 -> 9; T-E3-009 -> 8; all others <=5.
 - Blast radius is queryable pre-execution via graph + matrix (owner-readable through catalog rows).
 
 ## 2. Scenario lanes (independent sub-agents, read-only)
@@ -38,9 +38,10 @@ Authority: ADR-015 Rule 7, DEC-0028 addendum §6, Gate 6 -> 7 criterion
 - S2 outage: positive-hold holds everywhere; audit-precondition bindings, failure-domain HELD note, drain-vs-hold
   edges, BILLING_HELD declarant and bounded-buffer/dual-down ownership added.
 - S3 removal: blast radius was review-discoverable only; now queryable via graph + matrix after seam/used_by notes.
-- S4 all-DONE re-evaluation: Gate 6 -> 7 would NOT pass on tasks alone — feature/flow/requirement/design/
-  architecture/data/release/scenario/gap layers, validation NONE, test absence, HELD numerics/device proofs,
-  open content gaps and second-human custody keep it BLOCKED. Correct per design: tasks ≠ completion.
+- S4 all-DONE re-evaluation (refreshed for re-audit): tasks alone still ≠ completion by design, but all
+  supporting layers are now recorded — feature/flow/requirement/design/architecture/data/release/scenario/gap
+  rows exist, validation is assigned (no test execution), content gaps are closed, HELD items explicitly HELD.
+  Gate verdict belongs to the re-audit, not this report.
 - S5 change ripple (drop-community drill): radius traced; protocol Step 2 found insufficient as written → Step 2
   extended with term checklist, split rules, vocab mapping, review ordering and Path C note.
 
@@ -54,12 +55,12 @@ Authority: ADR-015 Rule 7, DEC-0028 addendum §6, Gate 6 -> 7 criterion
 - Matrix entitlement HELD row replaced with DEC-0053 links + server rows.
 - Graph: collision rule, seam/used_by notes, manual-search note, removal samples.
 - Protocol Step 2: term checklist, split rules, vocab mapping, review ordering, Path C note.
-- Count corrections: true total was 185 at analysis (not 184 — E6 split undercounted), now 187 with T-E2-014/015.
+- Count corrections: totals corrected twice as new rows landed (E6 split, then gap-closure rows); current verified total above.
 
 ## 4. Remaining (not simulation defects)
 
-- Validation NONE / test absent phase-wide by design; HELD numerics/device proofs/second-human custody stay HELD.
-- Open content gaps from Step 5 stand (estimates UI, commerce neutrality, roadside mode, safe-closure content,
-  Q-0066, media rule, RQ-060..062, CON-004).
-- Gate 6 -> 7 stays BLOCKED pending this report's review + owner push authorization; simulation is necessary
-  but not sufficient for the gate.
+- Validation per E1/E2 assignment rule (review/simulation/gate lists, no test execution); HELD numerics/device proofs/second-human custody stay HELD with authority cites.
+- All 8 Step-5 content gaps CLOSED (estimates, commerce, roadside, safe-closure, Q-0066, media rule, RQ-060..062, CON-004); HELD-by-design items explicitly remain HELD.
+- Gate 6 -> 7 status now belongs to the re-audit verdict, not this report; simulation is necessary but not sufficient for the gate.
+
+- (Superseded by the refreshed §4 above during re-audit fixes; original text preserved in git history.)

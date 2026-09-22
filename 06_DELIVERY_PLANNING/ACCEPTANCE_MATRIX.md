@@ -1,10 +1,16 @@
 # ACCEPTANCE MATRIX
 
-Status: PROPOSED (Step 5 three-lane traceability merged 2026-09-21; orphans: none; open gaps listed at bottom)
+Status: PROPOSED (Step 5 three-lane traceability merged 2026-09-21 + gap-closure rows; orphans: none; all gaps closed except explicit HELD-by-design)
 
 Schema: Requirement / Rule | Covered By Feature | Covered By Flow | Covered By Task | Validation Method.
-Validation vocabulary: review (independent AI review), test (specified test), gate (HELD-acceptance evaluation),
-simulation (no-code sim set). `test` is absent phase-wide by design (no code in Phase 6); behavior proof is HELD-gate.
+Validation vocabulary: review (independent AI review), test (specified-but-unrun test), gate (HELD-acceptance
+evaluation), simulation (no-code sim set). No test is EXECUTED phase-wide by design (no code in Phase 6);
+`test` in this column means a specified test awaiting execution. Behavior proof is HELD-gate until then.
+
+## E1 — Consumer app (render only; enforcement cross-lane)
+
+Validation for rows in this section: see § Validation assignment (review/simulation/gate lists below); per-row
+NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-audit.)
 
 ## E1 — Consumer app (render only; enforcement cross-lane)
 
@@ -37,6 +43,9 @@ simulation (no-code sim set). `test` is absent phase-wide by design (no code in 
 | BR-126/127/Q-0045: active-repair a11y never drops safety | F1.0.1, F1.3.1 | FL1.0.1, FL1.3.1 | T-E1-001, T-E1-006 | NONE |
 
 ## E2 — Internal panel (browser view; truth cross-lane)
+
+Validation for rows in this section: see § Validation assignment (review/simulation/gate lists below); per-row
+NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-audit.)
 
 | Requirement / Rule | Feature | Flow | Task | Validation |
 |---|---|---|---|---|
@@ -181,15 +190,39 @@ simulation (no-code sim set). `test` is absent phase-wide by design (no code in 
 
 | Requirement / Rule | Feature | Flow | Task | Validation |
 |---|---|---|---|---|
-| CON-004: beginner-comprehensible guide clarity | NONE | NONE | NONE | NONE |
-| ADR-008 R6: real-device proof (simulators never substitute) | NONE | NONE | NONE | NONE |
+| CON-004: beginner-comprehensible guide copy, verified at F10.6.1 design gate | F1.2.1/F1.3.1/F1.4.1/F1.5.1 | FL1.2.1/FL1.3.1/FL1.4.1/FL1.5.1 | T-E1-005a/b/c, T-E1-006/007/008/009/010 | review |
+| Q-0046/BR-131..133: necessity-to-understand/prove test + inviolability (Q156 core, Q157 expanded) | F4.9.1 | FL4.9.1 | T-E4-017 | review |
+| IDCO-RQ-060/061/062: failed states inspectable + recoverable + resolver; unsaved/partial distinguished; four-part explanation | F2.12.1 | FL2.12.1 | T-E2-016 | review |
+| ADR-008 R6: real-device proof (simulators never substitute) | NONE (HELD by design; authority: ADR-008 R6 + DEC-0054 no-device-proof rule) | NONE | NONE | HELD |
 | ENTITLEMENT SET Q-0020/0026/0046/0047/0065–0069 + DEC-0053: 1 bike free, paid slots, subscription → 3, full guide for 1 selected bike (moves, never stacks); prices/packages/switch-rules HELD | F1.7.1 | FL1.7.1 | T-E1-014a, T-E1-014b (+ server checks E3/E5) | gate |
-| TSQ-001-narrow: Flutter/Dart channels, plugin allowlist, device/OS matrix | NONE | NONE | NONE | NONE |
+| TSQ-001-narrow: Flutter/Dart channels, plugin allowlist, device/OS matrix | NONE (HELD by design; authority: DEC-0054 + ADR-008 revisit triggers) | NONE | NONE | HELD |
+
+## Gap-closure additions (2026-09-21, all review PASS)
+
+| Requirement / Rule | Feature | Flow | Task | Validation |
+|---|---|---|---|---|
+| BR-063/064: duration-as-range + cost-split with exclusions/date/assumptions, no fabrication | F1.2.2 | FL1.2.2 | T-E1-018, T-E1-019a, T-E1-019b | review |
+| BR-070/071/073: sponsored marked, listing never substitutes guide, no sales-target manipulation, fit-first | F1.9.2 | FL1.9.2 | T-E1-020, T-E1-021 | review |
+| BR-074: user-invoked roadside mode, condensed steps, uncertainty persistent | F1.3.2 | FL1.3.4 | T-E1-022a, T-E1-022b | review |
+| OPEN safe-closure criteria: per-category content (expert + second review), E3-verified, E1-rendered | F1.3.3 | FL1.3.5 | T-E1-023, T-E1-024 | gate |
+| Q-0066/Q222/Q227: pre-step correction + MAY-open renewal per server decision, window HELD | F1.7.1 | FL1.7.2 | T-E1-025 | gate |
 
 ## Step 5 Findings (merged three lanes, 2026-09-21)
 
-- ORPHAN TASKS: none in any lane. All 184 tasks trace to at least one row above.
-- COVERAGE GAPS (content, not just validation): BR-063/064 estimates UI; BR-070/071/073 commerce neutrality; BR-074 roadside mode; safe-closure criteria content; Q-0066 replacement window; Q-0046 media classification rule; IDCO-RQ-060..062 resilience; CON-004 clarity; ADR-008 R6 device proof; TSQ-001-narrow versions/matrix. (ENTITLEMENT SET resolved under DEC-0053.) Validation column is `NONE` phase-wide for E1/E2 (no review PASS recorded there) and `test` is absent phase-wide by design.
+- ORPHAN TASKS: none in any lane. All 199 tasks trace to at least one row above.
+- COVERAGE GAPS (content, not just validation): ALL CLOSED 2026-09-21 — estimates/commerce/roadside/closure/Q-0066 via E1 gap rows; media rule via F4.9.1 row above; RQ-060..062 via F2.12.1 row above; CON-004 via guide-task wording + F10.6.1 gate. Remaining: ADR-008 R6 device proof + TSQ-001-narrow (HELD by design, implementation evidence). Validation column is `NONE` phase-wide for E1/E2 (no review PASS recorded there) and `test` is absent phase-wide by design.
 - CONFLICTS: none irreconcilable. Four managed tensions recorded with precedence (data-efficiency vs safety-closure: safety wins; cheapest-model vs safety: HOLD wins; Android-first vs iOS parity: conditional containment; CON-005 vs cost controls: never a user gate). The open entitlement tension is RESOLVED under `DEC-0053` (1 bike free, paid slots, subscription raises to 3, full guide for 1 selected bike; prices/packages HELD).
 - CROSS-LANE NEEDS: resolved by construction — every cross-lane pointer in the matrix names an existing row in another lane (server auth, truth/history, package materialization, AI propose/verify/render split, E2 consume-only, E6 decide-only). No dangling cross-lane reference found.
 - NEXT: Step 6 no-code simulation (dependency order, collision, failure/rollback, removal-gap, all-DONE re-evaluation), then Gate 6 -> 7 readiness audit.
+
+## Validation assignment — E1/E2 rows (2026-09-21, no `test` anywhere: Phase 6 has no code)
+
+- REVIEW features (15): F1.0.1, F1.1.1, F1.1.2, F1.2.1, F1.2.2, F1.5.1, F1.8.1, F1.9.1, F1.9.2, F1.10.1, F2.1.1, F2.4.1, F2.8.1, F2.9.1, F2.10.1.
+- SIMULATION features (10): F1.3.1, F1.3.2, F1.4.1, F1.6.1, F2.2.1, F2.3.1, F2.5.1, F2.7.1, F2.11.1, F2.12.1.
+- GATE features (3): F1.7.1, F1.3.3, F2.6.1. (28 = E1 16 + E2 12.)
+- REVIEW flows (16): FL1.0.1, FL1.0.2, FL1.1.1, FL1.1.2, FL1.2.1, FL1.2.2, FL1.5.1, FL1.8.1, FL1.9.1, FL1.9.2, FL1.10.1, FL2.1.1, FL2.4.1, FL2.8.1, FL2.9.1, FL2.10.1.
+- SIMULATION flows (16): FL1.3.1, FL1.3.2, FL1.3.3, FL1.3.4, FL1.4.1, FL1.6.1, FL1.6.2, FL1.6.3, FL2.2.1, FL2.2.2, FL2.3.1, FL2.3.2, FL2.5.1, FL2.7.1, FL2.11.1, FL2.12.1.
+- GATE flows (4): FL1.7.1, FL1.7.2, FL1.3.5, FL2.6.1. (36 = E1 22 + E2 14.)
+- REVIEW tasks (23): T-E1-001,002,003,004,005a,005b,005c,010,015,016,017,018,019a,019b,020,021,022a,022b; T-E2-001,002,006,010,011.
+- SIMULATION tasks (17): T-E1-006,007,008,009,011,012,013; T-E2-003,004,005,007a,007b,009,012,014,015,016.
+- GATE tasks (7): T-E1-014a,014b,023,024,025; T-E2-008,013. (47 = E1 30 + E2 17.)

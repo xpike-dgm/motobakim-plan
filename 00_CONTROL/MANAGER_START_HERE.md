@@ -34,7 +34,7 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 - Phase 1, Phase 2 and Phase 3 are complete.
 - Gate 3 -> 4 passed.
 - Phase 4 Technology Strategy working-direction coverage is complete for the recorded `TSQ-001`–`TSQ-018` set.
-- Gate 4 -> 5 **PASSED under `DEC-0048` on 2026-09-21**. Phase 5 (ADR) is complete; ADR-001 through ADR-015 are APPROVED. Gate 5 -> 6 **PASSED under `DEC-0050` on 2026-09-21**; Phase 6 (delivery planning) is authorized.
+- Gate 4 -> 5 **PASSED under `DEC-0048` on 2026-09-21**. Phase 5 (ADR) is complete; ADR-001 through ADR-015 are APPROVED. Gate 5 -> 6 **PASSED under `DEC-0050` on 2026-09-21**; Phase 6 (delivery planning) is complete with 101/110/199 maps verified. Gate 6 -> 7 **PASSED under `DEC-0055` on 2026-09-21**; Phase 7 (AI architecture) is authorized.
 - Planning remains no-code.
 - Consumer mobile: Android-first / iOS-later; Flutter working direction (`DEC-0032`, `DEC-0033`).
 - Data/backend/offline: canonical data boundary + managed Supabase-centered backend + SQLite/Drift local direction

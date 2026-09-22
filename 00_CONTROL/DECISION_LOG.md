@@ -1779,3 +1779,44 @@ Decision:
   selection-switch frequency/anti-abuse rules and trial/wrong-selection handling stay open on the commercial
   validation track and remain HELD gates, not tasks.
 
+---
+
+## DEC-0054 — First Release Ships Complete Planned Scope, Nothing Deferred
+**Date:** 2026-09-21
+**Status:** APPROVED SCOPE DIRECTION (prices/packages still HELD for commercial validation)
+
+User decision, verbatim:
+
+> önceden planlanmış herşey olsun ilk sürüm eksiksiz olmalı
+
+Decision:
+
+- All 8 Gate 6 -> 7 content gaps become first-release scope, none deferred: estimates UI (BR-063/064),
+  commerce neutrality (BR-070/071/073), roadside mode (BR-074), safe-closure acceptance content,
+  Q-0066 replacement window, Q-0046 media classification rule, IDCO-RQ-060..062 resilience, CON-004 clarity.
+- Each gap gets features/flows/tasks through the normal draft → independent-review → record loop, plus
+  E1/E2 validation assignment (review/gate/simulation labels, no code).
+- This does not authorize code, accounts, purchases, numeric proofs or device tests; HELD evidence stays HELD.
+- Commercial rule from DEC-0053 stands: shape locked, prices/packages HELD.
+
+---
+
+## DEC-0055 — Gate 6 -> 7 Passed / Phase 7 AI Architecture Authorized
+**Date:** 2026-09-21
+**Status:** APPROVED
+
+The owner explicitly approved the Gate 6 -> 7 transition (`geçir`) after the re-audit verification PASS:
+
+- Phase 6 delivery planning complete: 10 epics, 78 capabilities, 101 features, 110 flows, 199 tasks with
+  acyclic dependencies, closed bidirectional traceability, zero orphans, passed no-code simulation.
+- Gate 5 -> 6 criterion fully met; all prior BLOCKED items closed and verified.
+
+Effect:
+
+- Gate 6 -> 7 is PASSED; Phase 6 is closed;
+- Phase 7 (AI-native architecture: context routing, minimum context packs, Obsidian-compatible graph metadata,
+  module boundaries, public contracts, dependency/design/change-control, validation, migration, rollback,
+  completion evidence, architecture tests) is authorized to begin;
+- no code, task execution, account, purchase, deployment or production proof is authorized by this gate passage
+  (code starts only after Gate 8 -> Development).
+

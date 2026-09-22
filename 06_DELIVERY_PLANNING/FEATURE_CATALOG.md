@@ -36,6 +36,8 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F4.6.1 | C4.6 | Risk-tiered eligibility + cached suspension | Bilinmeyen/eski kritik kapalı; iç-operasyon değişikliği yalnız çevrimiçi-yetkili; E4 önbellek zemin uygular, gerçeklik E3/E6'da | C4.6 | PROPOSED |
 | F4.7.1 | C4.7 | No-plaintext enforcement gate (only) | Mekanizma/emanet HELD; düz-metin kapıdan geçemez | C4.7 | PROPOSED |
 | F4.8.1 | C4.8 | Numeric-policy HELD skeleton | Aday noktalar TEST NOKTASI; seçim, ölçüm kanıtında kabul kriteri (görev değil) | C4.8 | PROPOSED |
+| F4.9.1 | C4.1 | Media classification rule | Necessity-to-understand/prove test (BR-132) + inviolability: core/safety evidence never hidden/deleted (BR-133); Q156 core / Q157 expanded; authority owned E3/E6, E8 derives/checks only | C4.1 | PROPOSED |
+| F2.12.1 | C2.3 | Resilience states render | Failed validation/review/publication/rollback/recall shown inspectable + recoverable + resolver (RQ-060..062); unsaved/partial distinguished; four-part explanation; invoke only, E6 decides; additive overlay on C2.3, alters no F2.3.1 decision | C2.3 | PROPOSED |
 | F9.1.1 | C9.1 | Assistant conversation flow | Anla→sor→5-aday→6-boyut-doğrula→göster/sor/beklet; E9 önerir, E1 gösterir, E3 doğrular | C9.1 | PROPOSED |
 | F9.2.1 | C9.2 | Model routing economy (skeleton) | İlke iskeleti; eşik/seçim HELD; gösterişsiz değerlendirme | C9.2 | PROPOSED |
 | F9.3.1 | C9.3 | Provider adapter boundary | Detay adaptörde; sürüm/davranış gözlemlenir; değişim yeniden değerlendirir | C9.3 | PROPOSED |
@@ -66,6 +68,10 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pen
 | F1.8.1 | C1.8 | Profile/collab/migration | SCR-006/007/034; zorlamasız, sessiz-kayıpsız, ayrılabilir (sunum; gerçeklik dışarıda; kanıt yok) | C1.8 | PROPOSED |
 | F1.9.1 | C1.9 | Community consumer surface | SCR-035/036/038; karar E2'de, kabul≠doğrulama (sunum; gerçeklik dışarıda; kanıt yok) | C1.9 | PROPOSED |
 | F1.10.1 | C1.10 | AI Usta entry A1 | 1+1+2; üçüncü yol/yazışma yok; E9 önerir, E1 gösterir, E3 doğrular (sunum; gerçeklik dışarıda; kanıt yok) | C1.10 | PROPOSED |
+| F1.2.2 | C1.2 | Estimate display | Süre-aralığı + maliyet-ayrımı + istisna/tarih; veri-kaynağı HELD, bilinmeyen-bilinmiyor (sunum; gerçeklik dışarıda; kanıt yok) | C1.2 | PROPOSED |
+| F1.9.2 | C1.9 | Commerce neutrality | Sponsor işaretli; liste rehberin yerine geçmez; satış-hedefi oyunu engelli; uyum-öncelikli (sunum; gerçeklik dışarıda; kanıt yok) | C1.9 | PROPOSED |
+| F1.3.2 | C1.3 | Roadside mode | Kullanıcı-çağrılı kısa/hızlı kip; belirsizlik bandı kalıcı (sunum; gerçeklik dışarıda; kanıt yok) | C1.3 | PROPOSED |
+| F1.3.3 | C1.3 | Safe-closure criteria set | Kategori kriter içeriği (yazar: alan-uzmanı + ikinci inceleme; E2 taslak→E6 onay; doğrulama HELD) (sunum; gerçeklik dışarıda; kanıt yok) | C1.3 | PROPOSED |
 | F2.1.1 | C2.1 | Workspace shell | Yoğun tarayıcı alanı; erişilebilirlik temeli, duyarlı ertelendi (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.1 | PROPOSED |
 | F2.2.1 | C2.2 | Review/approval queues | Kanıtlı paketler; WS-06 + WS-05; bağımsızlık arayüzde (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.2 | PROPOSED |
 | F2.3.1 | C2.3 | Publication/recall operations | WS-07 + WS-11 yürütme yüzeyi; karar E6'da (tarayıcı; çatı/hesap/kod yok; CMS yetkisiz) | C2.3 | PROPOSED |
