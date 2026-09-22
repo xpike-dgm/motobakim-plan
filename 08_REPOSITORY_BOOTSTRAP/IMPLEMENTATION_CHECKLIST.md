@@ -2,7 +2,7 @@
 
 Status: EMPTY
 
-- [ ] Directory blueprint kuruldu
+- [x] Directory blueprint kuruldu (REVIEWED PASS + skeleton installed to kavriva-app 2026-09-22)
 - [ ] Module boundaries fiziksel olarak enforce edildi
 - [ ] Public contract yapisi kuruldu
 - [ ] Validation komutlari calisiyor

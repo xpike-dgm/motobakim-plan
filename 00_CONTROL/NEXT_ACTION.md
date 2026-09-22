@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 8 PLAN APPROVED / STEP 1 AUTHORIZED`
+Status: `PHASE 8 STEP 1 INSTALLED / STEP 2 DRAFT NEXT`
 Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
 Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
 
@@ -14,12 +14,14 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
 - No application code, task execution, account, purchase, deployment or production proof authorized.
 - Owner approved the Phase-8 bootstrap work plan + records push (`onaylıyorum`), recorded as `DEC-0058`
   on 2026-09-22. Implementation repo `https://github.com/xpike-dgm/kavriva-app` created empty by owner.
+- Step-1 directory blueprint REVIEWED PASS (2 review rounds) + skeleton installed to `kavriva-app`
+  (owner-approved `onaylandı` 2026-09-22).
 
 ## Immediate Next Manager Action
 
 1. Push the approved records batch with the given authorization.
-2. Then draft the Phase-8 Step-1 directory blueprint for `kavriva-app` (draft → independent review → PASS
-   before any installation); no construction beyond the approved plan.
+2. Then draft the Phase-8 Step-2 module manifests (capsule anatomy per module; draft → independent review →
+   PASS before installation); no construction beyond the approved plan.
 
 ## Hard Boundaries
 

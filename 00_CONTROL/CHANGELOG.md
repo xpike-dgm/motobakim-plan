@@ -1595,3 +1595,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Owner explicitly approved (`onaylıyorum`) the 7-step bootstrap plan and the pending records push.
 - Step 1 (directory blueprint draft for `kavriva-app`) authorized; draft → review → PASS before installation.
 - Product feature code and deployment remain unauthorized.
+
+### Phase 8 Step 1 — Blueprint REVIEWED PASS + Skeleton Installed
+- `DIRECTORY_BLUEPRINT.md`: round 1 independent review CHANGES_REQUESTED (6 findings, subagent session) →
+  narrow remediation (all 6 verified against sources) → round 2 independent re-review PASS, no open findings.
+- Review method note: reviewer was a separate subagent context with frozen brief, no file access for edits,
+  separate output (R-007 different-context rule applied as documented).
+- Owner approved push + skeleton install (`onaylandı`) 2026-09-22.
+- Skeleton installed to `https://github.com/xpike-dgm/kavriva-app`: full directory tree + landing README;
+  contents (manifests, records, CI) deferred to owning steps.
