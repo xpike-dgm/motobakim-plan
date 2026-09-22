@@ -167,4 +167,26 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E2-011 | FL2.9.1/F2.9.1 | Variant admin render | T-E2-001 | WS-02; C2.9 + guard | Fencing + matrix/duplicate/comparison | PROPOSED |
 | T-E2-012 | FL2.10.1/F2.10.1 | Lineage view render | T-E2-001 | WS-08; C2.10 + guard | Chain + rollback-candidate links | PROPOSED |
 | T-E2-013 | FL2.11.1/F2.11.1 | Audit trail view render | T-E2-001 | WS-10; RQ-046/047; C2.11 + guard | Full fields + separation; custody in E5 | PROPOSED |
+| T-E7-001 | FL7.1.1/F7.1.1 | Android lane checklist (8 nouns) | — | ADR-013 R1; C7.1 + E6-policy note | Recorded; HELD unless E6 decides; defines no policy | PROPOSED |
+| T-E7-002 | FL7.1.1/F7.1.1 | Provenance-binding check | T-E7-001 | ADR-013 R1; C7.1 + E6-policy note | Binding as E6-policy application | PROPOSED |
+| T-E7-003a | FL7.2.1/F7.2.1 | iOS proofs 1-2 (Mac, Apple custody) | — | ADR-013 R2; C7.2 + E6-policy note | Pass/HELD separately; no commitment | PROPOSED |
+| T-E7-003b | FL7.2.1/F7.2.1 | iOS proofs 3-4 (provenance, recovery) | — | ADR-013 R2; C7.2 + E6-policy note | Pass/HELD separately; no commitment | PROPOSED |
+| T-E7-003c | FL7.2.1/F7.2.1 | iOS proof 5 (clean-room rebuild) | — | ADR-013 R2; C7.2 + E6-policy note | Pass/HELD separately; no commitment | PROPOSED |
+| T-E7-004 | FL7.3.1/F7.3.1 | Separation check | — | ADR-013 R3; C7.3 + E6-policy note | Distinctness verified; no takeover | PROPOSED |
+| T-E7-005 | FL7.3.1/F7.3.1 | Key-loss path reference | T-E7-004 | ADR-013 R3; C7.3 + E6-policy note | Refers to E6 playbook; no handling here | PROPOSED |
+| T-E7-006 | FL7.4.1/F7.4.1 | Classification maintenance | — | ADR-013 R4; C7.4 + E6-policy note | Bands current; triggers explicit | PROPOSED |
+| T-E7-007 | FL7.5.1/F7.5.1 | Spend range evaluation (read-only) | — | ADR-013 R5; C7.5 + E6-policy note | TRY context only; holds by reference; no commitment | PROPOSED |
+| T-E8-001 | FL8.1.1/F8.1.1 | 8-noun authority reference check | — | ADR-011 R1; C8.1 + E3/E6-ownership note | Reference present; E8 defines nothing | PROPOSED |
+| T-E8-002 | FL8.1.1/F8.1.1 | 6-vector bypass check | T-E8-001 | ADR-011 R3; C8.1 + E3/E6-ownership note | All six vectors blocked | PROPOSED |
+| T-E8-003 | FL8.1.1/F8.1.1 | Rebuildability check | T-E8-001 | ADR-011 R4; C8.1 + E3/E6-ownership note | Projections rebuildable-non-authoritative | PROPOSED |
+| T-E8-004 | FL8.2.1/F8.2.1 | Boundedness evaluation | — | ADR-011 R2; C8.2 + workspace E2 note | 4 bounds checked; gate-only | PROPOSED |
+| T-E8-005a | FL8.2.1/F8.2.1 | Removability evaluation (R5) | T-E8-004 | ADR-011 R5; C8.2 | 5 proofs; no first-release CMS | PROPOSED |
+| T-E8-005b | FL8.2.1/F8.2.1 | Reconsideration trigger (R6) | T-E8-005a | ADR-011 R6; C8.2 | Measured-burden trigger specified | PROPOSED |
+| T-E8-006 | FL8.3.1/F8.3.1 | Plane split check | — | ADR-012 R1; C8.3 + E3-owns seam | Metrics from records; E2 renders only | PROPOSED |
+| T-E8-007 | FL8.4.1/F8.4.1 | Exclusion-list check | — | ADR-012 R2/R3; C8.4 + E2-render note | Verbatim nouns; per-class purpose/retention | PROPOSED |
+| T-E8-008 | FL8.4.1/F8.4.1 | Purpose/retention check | T-E8-007 | ADR-012 R3; C8.4 + E2-render note | Named purpose + bounded retention per class | PROPOSED |
+| T-E8-009 | FL8.5.1/F8.5.1 | Band classification | — | ADR-012 R4; C8.5 + E2-render note | Exact-qualifier bands incl. 9th outage item | PROPOSED |
+| T-E8-010 | FL8.5.1/F8.5.1 | Outage-independence check | T-E8-009 | ADR-012 R2/R4; C8.5 + E2-render note | Dedicated failure never disables safe core | PROPOSED |
+| T-E8-011 | FL8.6.1/F8.6.1 | 5-gate check | — | ADR-012 R5; C8.6 + E2-render note | Privacy/operability/TCO/offline/exit evaluated | PROPOSED |
+| T-E8-012 | FL8.6.1/F8.6.1 | Exit-honesty check | T-E8-011 | ADR-012 R6; C8.6 + E2-render note | Export≠proof; 4 HELD proofs listed | PROPOSED |
 |---|---|---|---|---|---|---|

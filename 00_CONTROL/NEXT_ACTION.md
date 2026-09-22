@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / E7+E8 ATOMIC TASKS DRAFT + REVIEW IN PROGRESS (FINAL GROUP)`
+Status: `PHASE 6 / STEP 5 TRACEABILITY + GAP SCAN IN PROGRESS (3 LANES)`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
@@ -15,9 +15,8 @@ Feature/flow layer COMPLETE (95 features + 103 flows, all groups review PASS) an
 
 ## Immediate Next Manager Action
 
-1. Await push authorization for the E1+E2 task records and memory updates.
-2. Then continue autonomously with the final group (E7+E8 tasks) under the draft → independent-review →
-   record loop (`DEC-0052`).
+1. Await push authorization for the E7+E8 task records and memory updates.
+2. Then propose Step 5 (traceability matrix + gap/orphan/conflict scan) before starting it; simulation follows.
 
 ## Hard Boundaries
 

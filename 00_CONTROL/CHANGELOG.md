@@ -1396,3 +1396,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Remediation: completed cells, global guards, 4 splits/narrows (005a/b/c, 014a/b, 007a/b), fencing, guard additions,
   pack seams, dep rebasing. Narrow re-review `PASS` (all F1..F8 closed, no regression). 34 tasks total.
 - 34 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
+
+### E7+E8 Atomic Tasks Review Cycle (Final Task Group)
+- E7 + E8 draft (19 tasks) reviewed against ADR-013/011/012 rules + seams + schemas.
+- First verdict `CHANGES_REQUESTED`: 7 findings (2 Critical: invented build execution + short bypass list;
+  5 Major/Minor incl. over-merged authority, missing deps, duplicate hold, genericized gates, missing seams).
+- Remediation: readiness/policy-check wording, six-vector list, enforcement-only framing, deps, read-only holds,
+  enumerations, render notes. Narrow re-review `PASS` (all F1..F7 closed, no regression).
+- 22 tasks written to `TASK_INDEX.md` as PROPOSED. Task layer COMPLETE: 184 tasks.
+- Push pending explicit authorization; next: Step 5 traceability + simulation proposal.
