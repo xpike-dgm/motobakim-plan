@@ -1,6 +1,48 @@
 # TASK INDEX
 
-Status: EMPTY
+Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro PASS; Status PROPOSED = planned, never executed in Phase 6; full context-pack enrichment in Phase 7)
 
 | Task ID | Flow/Feature | Objective | Depends On | Context Pack | Acceptance | Status |
+|---|---|---|---|---|---|---|
+| T-E3-001 | FL3.1.1/F3.1.1 | Enforce commit-time tuple decision point | — | ADR-006 Decision 2; C3.1 | Deny-by-default; cached claims rejected; reason-coded | PROPOSED |
+| T-E3-002 | FL3.1.1/F3.1.1 | Reason-coded deny/hold responses | T-E3-001 | ADR-006 Decision 2 | Stable reason category on every denial | PROPOSED |
+| T-E3-003 | FL3.1.2/F3.1.2 | Operation identity + idempotency store | T-E3-001 | ADR-006 Decision 4 | Same-retry-returns-result; different-payload CONFLICT | PROPOSED |
+| T-E3-004 | FL3.1.2/F3.1.2 | Status lookup + unknown reconciliation | T-E3-003 | ADR-006 Decision 4 | OUTCOME_UNKNOWN until canonical lookup resolves | PROPOSED |
+| T-E3-005 | FL3.1.3/F3.1.3 | State dictionary skeleton | T-E3-001 | ADR-006 Decision 8 | Verbatim tokens incl. CONFLICT/REJECTED | PROPOSED |
+| T-E3-005b | FL3.1.3/F3.1.3 | Per-state-block addenda | T-E3-005 | ADR-006 Decision 8 | Allowed/blocked/retry/resolver per state block | PROPOSED |
+| T-E3-006a | FL3.1.4/F3.1.4 | DB/RPC direct-path inventory | — | ADR-006 Decision 9 | Tables/views/functions/RPC inventoried | PROPOSED |
+| T-E3-006b | FL3.1.4/F3.1.4 | Storage/URLs/Studio inventory | — | ADR-006 Decision 9 | Storage/URLs/Studio surfaces inventoried | PROPOSED |
+| T-E3-006c | FL3.1.4/F3.1.4 | Browser contract rules | — | ADR-006 Decision 9 | Storage/origin/CSRF/step-up/lookup limits specified | PROPOSED |
+| T-E3-007 | FL3.1.4/F3.1.4 | Bypass negative-test suite | T-E3-006a, T-E3-006b, T-E3-006c | ADR-006 Decision 9 | Cross-tenant/console bypass tests fail closed | PROPOSED |
+| T-E3-008 | FL3.1.4/F3.1.4 | AI task-scope rules | T-E3-006a | ADR-002 Decision 6 | Narrow scope; no owner/billing creds | PROPOSED |
+| T-E3-009 | FL3.2.1/F3.2.1 | Domain authority registry + versioning | — | ADR-001 Decision 1 | One authority per domain, stable identity | PROPOSED |
+| T-E3-010 | FL3.2.2/F3.2.2 | History/provenance separation + convenience-copy rule | T-E3-009 | ADR-001 Decisions 2+6 | Copies never authority | PROPOSED |
+| T-E3-011 | FL3.2.3/F3.2.3 | Object boundary + classification propagation | T-E3-009 | ADR-001 Decision 4 | Lineage/digest/classification on derivatives | PROPOSED |
+| T-E3-012 | FL3.2.3/F3.2.3 | Quarantine activation gate | T-E3-011 | ADR-001 Decision 4 | Activation only after validation | PROPOSED |
+| T-E3-013 | FL3.3.1/F3.3.1 | Reversibility preconditions checklist | — | ADR-002 Decisions 1+2 | No selection; preconditions listed | PROPOSED |
+| T-E3-014 | FL3.3.1/F3.3.1 | API-boundary enforcement needs | T-E3-013 | ADR-002 Decisions 1+2 | Needs specified, no provisioning | PROPOSED |
+| T-E3-015 | FL3.3.1/F3.3.1 | Platform BOM inputs template | T-E3-013 | ADR-002 cost paragraph | Classification slots, no numbers | PROPOSED |
+| T-E3-016 | FL3.3.2/F3.3.2 | RLS/storage defense policies | — | ADR-002 Option A + Decision 1 | Defense-only; never sole authority | PROPOSED |
+| T-E3-017 | FL3.3.2/F3.3.2 | Secret custody + rotation rules | T-E3-016 | ADR-002 Option A + Decision 1 | Server-only secrets; rotation procedure | PROPOSED |
+| T-E3-018 | FL3.3.2/F3.3.2 | Changelog/compat-hold procedure | T-E3-016 | ADR-002 Decision 7 | Dated changelog; hold on change | PROPOSED |
+| T-E3-019 | FL3.4.1/F3.4.1 | Queue/worker contract | T-E3-001 | ADR-006 Decision 5 | Lease/retry/DLQ/backpressure specified | PROPOSED |
+| T-E3-020 | FL3.4.1/F3.4.1 | Job-family list skeleton | T-E3-019 | ADR-006 Decision 5 | All families listed | PROPOSED |
+| T-E3-020b | FL3.4.1/F3.4.1 | Per-family gate-conditions matrix | T-E3-020 | ADR-006 Decision 5 | Gate conditions per family | PROPOSED |
+| T-E3-021 | FL3.4.1/F3.4.1 | Poison/backpressure/cancel/drain handling | T-E3-019 | ADR-006 Decision 5 | Poison quarantined; drain on deploy | PROPOSED |
+| T-E3-022 | FL3.4.1/F3.4.1 | Owner-visible backlog + resolver | T-E3-019 | ADR-006 Decision 5 | Backlog readable; resolver assigned | PROPOSED |
+| T-E3-023 | FL3.5.1/F3.5.1 | Floors store + pre-commit re-read | T-E3-001 | ADR-006 Decision 6 | Newer/equal floor wins; ties hold | PROPOSED |
+| T-E3-024a | FL3.5.2/F3.5.2 | Epoch edge list | T-E3-023 | ADR-006 Decision 7 | All revocation edges listed | PROPOSED |
+| T-E3-024b | FL3.5.2/F3.5.2 | Per-edge revocation contract | T-E3-024a | ADR-006 Decision 7 | Revocation per edge + E4/E5/E6 call-outs | PROPOSED |
+| T-E3-025 | FL3.5.2/F3.5.2 | Non-retraction handling | T-E3-024b | ADR-006 Decision 7 | Downloaded copies marked non-retractable | PROPOSED |
+| T-E3-026 | FL3.6.1/F3.6.1 | 4-plane quarantine import procedure (document) | T-E3-009, T-E3-013, T-E3-016, T-E3-023 | ADR-002 Decisions 2+3 | Procedure + checklist document; independent custody | PROPOSED |
+| T-E3-027 | FL3.6.1/F3.6.1 | Manifest reconciliation checklist | T-E3-026 | ADR-002 Decisions 2+3 | Checklist closable with evidence | PROPOSED |
+| T-E3-028 | FL3.6.2/F3.6.2 | Stable-ID + logical-export format spec | T-E3-026 | ADR-002 Decision 4 | Spec only; no execution, no account | PROPOSED |
+| T-E3-029 | FL3.6.2/F3.6.2 | PARTIAL/QUARANTINE state handling | T-E3-028 | ADR-002 Decision 4 | Gaps explicit, never smoothed | PROPOSED |
+| T-E3-030 | FL3.7.1/F3.7.1 | Cost BOM skeleton with classification | — | ADR-006 Decision 11 | Slots classified; thresholds HELD | PROPOSED |
+| T-E3-031 | FL3.7.1/F3.7.1 | Hold-not-weaken + owner-readable HELD spec | T-E3-030 | ADR-006 Decision 11 | No numerics; no live metering | PROPOSED |
+| T-E3-032 | FL3.8.1/F3.8.1 | Env identity/secret separation | T-E3-013 | ADR-007 env control | Separated identities/secrets per env | PROPOSED |
+| T-E3-033 | FL3.8.1/F3.8.1 | Promotion-gate reference stub | T-E3-032 | ADR-007 env control | HELD unless E6 checks pass; no logic | PROPOSED |
+| T-E3-034 | FL3.1.1/F3.1.1 | Durable-state category list | — | ADR-006 Decision 1 | Categories listed, no implementation | PROPOSED |
+| T-E3-035 | FL3.1.2/F3.1.2 | Core-vs-effect + outbox-intent contract | T-E3-003 | ADR-006 Decision 3 | Deterministic intent specified | PROPOSED |
+| T-E3-036 | FL3.3.1/F3.3.1 | Transition-gate package (HELD) | T-E3-013 | ADR-006 Decision 10 | Evidence-gated; no migration | PROPOSED |
 |---|---|---|---|---|---|---|

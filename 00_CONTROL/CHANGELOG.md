@@ -1346,6 +1346,16 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - 11 features + 11 flows written to catalogs as PROPOSED. Feature/flow layer COMPLETE: 95 features + 103 flows.
 - Push pending explicit authorization; next: Step 4 traceability + simulation proposal.
 
+### E3 Atomic Tasks Review Cycle (Step 4 Start)
+- E3 draft (33 tasks) reviewed against capabilities/features/flows + ADR rules + TASK_INDEX schema + atomicity.
+- First verdict `CHANGES_REQUESTED`: 7 findings (2 Critical: mislabeled flow + 3 homeless rules; 5 Major/Minor incl.
+  incomplete deps, executed-proof acceptances, 4 multi-session tasks, invented cites, seam overclaims).
+- Remediation: relabel, 8 new tasks (034/035/036 R-homes; 006a/b/c, 024a/b, 020b, 005b splits), dep completion,
+  planning-artifact acceptances, exact cites, stub/matrix wordings. Narrow re-review `CHANGES_REQUESTED` once
+  (4 cites); micro re-review `PASS`.
+- 41 tasks written to `TASK_INDEX.md` as PROPOSED (planned only; full pack enrichment in Phase 7).
+- Push pending explicit authorization; next: E10 atomic tasks loop.
+
 ### DECISION_CHANGE_PROTOCOL Added (Manager-Free Change Answer)
 - Owner's core demand restated: no dependence on any single AI including the manager; any fresh chat must pick
   up the next task; mid-flight decisions must propagate with AIs bound only to the task flow.
