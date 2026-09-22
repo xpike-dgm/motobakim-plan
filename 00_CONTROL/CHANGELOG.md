@@ -1604,3 +1604,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Owner approved push + skeleton install (`onaylandı`) 2026-09-22.
 - Skeleton installed to `https://github.com/xpike-dgm/kavriva-app`: full directory tree + landing README;
   contents (manifests, records, CI) deferred to owning steps.
+
+### Phase 8 Step 2 — Manifests REVIEWED PASS + Installed
+- 10 module manifests drafted in `08_REPOSITORY_BOOTSTRAP/MANIFESTS_DRAFT/` (capsule anatomy × 10 epics,
+  links defined-by-reference, records `M-E1-001`..`M-E10-001` first-claimed).
+- Round 1 independent review CHANGES_REQUESTED (2 findings: undeclared E2←E6 edge, false E10 serve claim) →
+  narrow remediation verified against sources → round 2 independent re-review PASS, no open findings.
+- Process note: a bulk shell rewrite risked non-ASCII encoding; re-authored via safe path and verified at
+  byte level (arrows present, zero replacement chars). Bulk shell text rewrites now banned for content files.
+- Owner approved push + install (`onaylandı`) 2026-09-22; installed to `kavriva-app` as
+  `modules/eXX-*/MANIFEST.md` (`7dfe377`), byte-verified after copy.

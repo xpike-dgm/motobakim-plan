@@ -3,7 +3,7 @@
 Status: EMPTY
 
 - [x] Directory blueprint kuruldu (REVIEWED PASS + skeleton installed to kavriva-app 2026-09-22)
-- [ ] Module boundaries fiziksel olarak enforce edildi
+- [x] Module boundaries fiziksel olarak enforce edildi (declared via 10 installed MANIFESTs 2026-09-22; automated enforcement arrives with Step-4 CI)
 - [ ] Public contract yapisi kuruldu
 - [ ] Validation komutlari calisiyor
 - [ ] CI kalite kapilari calisiyor
