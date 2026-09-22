@@ -1513,6 +1513,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   execution order G1 → G2 → G4 (interface freeze) → G5 → G3 last; G6 += scaffold README refresh.
 - Revised plan presented for owner approval; no group started before approval.
 
+### Phase-7 Group 2 Recorded (Contracts)
+- Draft reviewed: `CHANGES_REQUESTED` (6 findings: template field gaps, version/supersedes conflation,
+  ADR-003 misuse + dual-support mandate, missing seam contracts, underspecified enforceability, blurred pointers).
+- Remediation + narrow re-review `PASS` (all F1..F6 closed, no Group 3-6 smuggling, no mechanism/account/code).
+- Written as PROPOSED: `CONTRACTS/CONTRACT_TEMPLATE.md` (new), `PUBLIC_CONTRACTS.md`,
+  `CONTRACTS/CONTRACT_CATALOG.md` (new index stub, 9 EMPTY entries + seam dispositions).
+- Push pending explicit authorization; next: Group 3 (context + execution) loop.
+
 ### DEC-0056 — Loop Until PASS Recorded / Group 1 Started
 - Owner ordered review-fix-review-fix until no findings remain, no round cap (`inceleme - düzeltme -
   inceleme - düzeltme sorun çıkamayana kadar`). Recorded DEC-0056 (extends DEC-0052; rounds autonomous,
