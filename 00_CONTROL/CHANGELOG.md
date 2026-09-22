@@ -1521,6 +1521,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   `TASK_EXECUTION_PROTOCOL.md`, `OWNER_STATUS_AND_ESCALATION.md` (new), `DRY_RUN_WALKTHROUGH.md` (new).
 - Push pending explicit authorization; next: Group 4 (validation) loop.
 
+### Phase-7 Group 4 Recorded (Validation + Closure + RULES)
+- Draft reviewed: `CHANGES_REQUESTED` (10 findings: tier authority, guardrails, conformance format, detection
+  table, Phase-6 duplication, simulation creep, auto tags, trace gaps, handoff, loop sentence).
+- Remediation + narrow re-review `PASS` (all F1..F10 closed, no Group 5-6 smuggling, Path C preserved).
+- Written as PROPOSED: `VALIDATION_STRATEGY.md`, `ARCHITECTURE_TESTS.md`,
+  `COMPLETION_EVIDENCE_AND_CLOSURE_MATRIX.md` (new), `RULES/README.md` (14 numbered rules + methods).
+- Push pending explicit authorization; next: Group 5 (change) loop.
+
 ### Phase-7 Group 2 Recorded (Contracts)
 - Draft reviewed: `CHANGES_REQUESTED` (6 findings: template field gaps, version/supersedes conflation,
   ADR-003 misuse + dual-support mandate, missing seam contracts, underspecified enforceability, blurred pointers).
