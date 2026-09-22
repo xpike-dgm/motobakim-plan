@@ -1372,3 +1372,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Added `00_CONTROL/DECISION_CHANGE_PROTOCOL.md`: 7-step any-chat card (capture verbatim, mechanical impact query,
   mark BLOCKED, owner options, apply-on-approval, independent verification, authorized push) + conflict rules.
 - Owner touchpoints: options + approval only. Push of card + memory updates pending authorization.
+
+### E5+E6 Atomic Tasks Review Cycle
+- E5 + E6 draft (38 tasks) reviewed against capabilities/features/flows + ADR rules + schema + atomicity + seams.
+- First verdict `CHANGES_REQUESTED`: 6 findings (wrong dep; incomplete seam; homeless R6/R1/R2/alerting + oversized
+  task; missing citations + fence; 3 oversized tasks; Flow-only cells + missing guards).
+- Remediation: dep fix, seam call-outs, R6 addition, 016a/b split, citations, 007a/b + 007a/b splits, completed
+  cells, guards. Narrow re-review `PASS` (all F1..F6 closed, no regression). 40 tasks total.
+- 40 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.

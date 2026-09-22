@@ -63,4 +63,45 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E10-014 | FL10.6.1/F10.6.1 | Regression evidence rule | T-E10-013 | ADR-015 Rule 8 | Full/cross-screen/state/a11y evidence required | PROPOSED |
 | T-E10-015 | FL10.7.1/F10.7.1 | Review protocol + externals-notice template | T-E10-007 | ADR-015 Rule 9; addendum §0 | Role separation; nontechnical externals notice | PROPOSED |
 | T-E10-016 | FL10.7.1/F10.7.1 | DEC-0041 parallel-output guards | T-E10-015 | ADR-015 Rule 9; DEC-0041 | Separate outputs, no overwrite, no consensus-PASS | PROPOSED |
+| T-E5-001 | FL5.1.1/F5.1.1 | Account-light start procedure | — | ADR-004 identity; C5.1 | Local-first default; no forced server account | PROPOSED |
+| T-E5-002 | FL5.1.1/F5.1.1 | Profile migration with preview + conflict hold | T-E5-001 | ADR-004 migration; C5.1 | Preview shown; conflicts held; source preserved | PROPOSED |
+| T-E5-003 | FL5.2.1/F5.2.1 | Tuple decision point | — | ADR-004 R1; C5.2 | Current-context allow/deny/hold + reason | PROPOSED |
+| T-E5-004 | FL5.2.1/F5.2.1 | Reason-coded responses | T-E5-003 | ADR-004 R1; C5.2 | Stable reason categories | PROPOSED |
+| T-E5-005 | FL5.2.2/F5.2.2 | Incompatible-pair blocking | T-E5-003 | ADR-004 SoD; C5.2 | Self-approval blocked per change | PROPOSED |
+| T-E5-006 | FL5.2.2/F5.2.2 | Small-team HELD + escalation | T-E5-005 | ADR-004 SoD; C5.2 | Visible HELD with owner/escalation | PROPOSED |
+| T-E5-007a | FL5.3.1/F5.3.1 | Auth method (phishing-resistant login) | — | ADR-004 R3; C5.3 | Specify method, no numerics, no implementation | PROPOSED |
+| T-E5-007b | FL5.3.1/F5.3.1 | Step-up + recovery-strength rules | T-E5-007a | ADR-004 R3; C5.3 | Fresh transaction-bound step-up; recovery not weaker | PROPOSED |
+| T-E5-008 | FL5.3.1/F5.3.1 | Session bounds/rotation/revocation | T-E5-007a | ADR-004 R3; C5.3 | Bounds specified; server revoke; no numerics | PROPOSED |
+| T-E5-009 | FL5.3.2/F5.3.2 | Identity-plane epoch sweep | T-E5-008 | ADR-004 R4; C5.3 + F3.5.2/T-E3-024b | Sessions/grants/pending revoked; runtime via E3 | PROPOSED |
+| T-E5-010 | FL5.3.2/F5.3.2 | Honest non-retraction marking | T-E5-009 | ADR-004 R4; C5.3 | Downloaded copies marked non-retractable | PROPOSED |
+| T-E5-011 | FL5.4.1/F5.4.1 | Recovery-only procedure | T-E5-008 | ADR-004 R5; C5.4 | Revoke + re-auth; never approve/publish/grant | PROPOSED |
+| T-E5-012 | FL5.4.1/F5.4.1 | Dual-control/last-admin path | T-E5-011 | ADR-004 R5; C5.4 | Dual control or governed break-glass | PROPOSED |
+| T-E5-013 | FL5.5.1/F5.5.1 | Custody store + fallback buffer | — | ADR-005 R3/R5; C5.5 | Append-only + independent fallback | PROPOSED |
+| T-E5-014 | FL5.5.1/F5.5.1 | Before-effect linkage + integrity + R6 | T-E5-013 | ADR-005 R3/R5 + ADR-004 R6 | Receipt pre-effect; alerting; restore continuity | PROPOSED |
+| T-E5-015 | FL5.5.2/F5.5.2 | Investigation chain queries | T-E5-013 | ADR-005 R7; C5.5 | Object-centered chain; access audited | PROPOSED |
+| T-E5-016a | FL5.5.3/F5.5.3 | Event coverage R1 + minimum meaning R2 | T-E5-013 | ADR-005 R1/R2; C5.5 | Enumeration only | PROPOSED |
+| T-E5-016b | FL5.5.3/F5.5.3 | Retention/legal/admin R6/R8 | T-E5-016a | ADR-005 R6/R8; C5.5 | Explicit policy; changes audited | PROPOSED |
+| T-E5-017 | FL5.6.1/F5.6.1 | Quarantine pipeline states | — | ADR-004 R7; C5.6 | Full state chain with branches | PROPOSED |
+| T-E5-018 | FL5.6.1/F5.6.1 | Isolated preview rules | T-E5-017 | ADR-004 R7; C5.6 | No creds/APIs/network in preview | PROPOSED |
+| T-E5-019 | FL5.6.2/F5.6.2 | Export disclosure record | — | ADR-004 R8; C5.6 | Minimization + non-retractable record + warnings | PROPOSED |
+| T-E5-020 | FL5.6.3/F5.6.3 | AI proposal-only tagging | T-E5-017 | ADR-004 R9; C5.6 | Provenance-linked; never approval; hostile inert | PROPOSED |
+| T-E5-021 | FL5.7.1/F5.7.1 | Activation gate checklist (skeleton only) | — | ADR-004 R10; C5.7; F5.7.1 | 11 items evaluable; HELD default; evidence HELD Phase 7 | PROPOSED |
+| T-E6-001 | FL6.1.1/F6.1.1 | Authority registry (8 authorities) | — | ADR-007 R1; C6.1 | Distinct registered authorities | PROPOSED |
+| T-E6-002 | FL6.1.1/F6.1.1 | Non-collapse + HOLD rules + R8 | T-E6-001 | ADR-007 R1/R6 + ADR-003 R8 | Alias/service collapse blocked; per-change independence | PROPOSED |
+| T-E6-003 | FL6.2.1/F6.2.1 | Snapshot binding | T-E6-001 | ADR-003 R1; C6.2 | Exact immutable snapshot bound | PROPOSED |
+| T-E6-004 | FL6.2.1/F6.2.1 | Guarded transition + fence (E3 floors consumed) | T-E6-003 | ADR-003 R2/R4 + T-E3-023 | Single transition; fenced precedence; backward fatal | PROPOSED |
+| T-E6-005 | FL6.2.1/F6.2.1 | State enumeration | T-E6-004 | ADR-003 R3; C6.2 | Full state model + branches | PROPOSED |
+| T-E6-006 | FL6.2.2/F6.2.2 | Consumer contract checks | T-E6-004 | ADR-003 R9; C6.2 | Client-side evaluability; stale rejected | PROPOSED |
+| T-E6-007a | FL6.3.1/F6.3.1 | Plane/credentials/paths | — | ADR-003 R5; C6.3 | Negative-only; independence; drilled paths | PROPOSED |
+| T-E6-007b | FL6.3.1/F6.3.1 | Membership/bounds/confirmation | T-E6-007a | ADR-003 R5; C6.3 | Two-person/single-actor; time-bound; retros | PROPOSED |
+| T-E6-008 | FL6.3.1/F6.3.1 | Drills + retrospectives | T-E6-007a | ADR-003 R5; C6.3 | Drill records; mandatory retros | PROPOSED |
+| T-E6-009 | FL6.4.1/F6.4.1 | Provenance/SBOM/signing chain | — | ADR-007 R2/R4; C6.4 | Artifact-bound chain; independent verifier; no numerics | PROPOSED |
+| T-E6-010 | FL6.4.1/F6.4.1 | Custody + verification independence | T-E6-009 | ADR-007 R2/R4; C6.4 | Scoped dual-controlled custody | PROPOSED |
+| T-E6-011 | FL6.5.1/F6.5.1 | Config-as-release typing | — | ADR-007 R7; C6.5 | Typed/versioned/reviewed config; no numerics | PROPOSED |
+| T-E6-012 | FL6.5.1/F6.5.1 | Migration state machines | T-E6-011 | ADR-007 R7; C6.5 | Explicit states; forward recovery | PROPOSED |
+| T-E6-013 | FL6.6.1/F6.6.1 | Rollout states + stop | — | ADR-007 R8; C6.6 | Staged states; stop never downgrades | PROPOSED |
+| T-E6-014 | FL6.6.1/F6.6.1 | Rollback-as-event + quarantine | T-E6-013 | ADR-007 R8; C6.6 | New-event rollback; restore quarantine | PROPOSED |
+| T-E6-015 | FL6.7.1/F6.7.1 | Incident taxonomy + graph | — | ADR-007 R9; C6.7 | Taxonomy + protected-copy graph | PROPOSED |
+| T-E6-016 | FL6.7.1/F6.7.1 | Protected copy + closure rule | T-E6-015 | ADR-007 R9; C6.7 | Outside-plane copy; reconcile-to-close | PROPOSED |
+| T-E6-017 | FL6.8.1/F6.8.1 | OTA denial gate | — | ADR-007 R10; C6.8 | Default deny + future envelope listed | PROPOSED |
 |---|---|---|---|---|---|---|
