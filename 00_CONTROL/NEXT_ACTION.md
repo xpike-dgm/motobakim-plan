@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 6 / E1+E2 ATOMIC TASKS DRAFT + REVIEW IN PROGRESS`
+Status: `PHASE 6 / E7+E8 ATOMIC TASKS DRAFT + REVIEW IN PROGRESS (FINAL GROUP)`
 Phase: `PHASE 6 — DELIVERY PLANNING (EPIC -> TASK)`
 Gate: `4 -> 5 PASSED under DEC-0048 / 5 -> 6 PASSED under DEC-0050`
 
@@ -15,8 +15,8 @@ Feature/flow layer COMPLETE (95 features + 103 flows, all groups review PASS) an
 
 ## Immediate Next Manager Action
 
-1. Await push authorization for the E4+E9 task records and memory updates.
-2. Then continue autonomously with the next group (proposed: E1+E2 tasks) under the draft → independent-review →
+1. Await push authorization for the E1+E2 task records and memory updates.
+2. Then continue autonomously with the final group (E7+E8 tasks) under the draft → independent-review →
    record loop (`DEC-0052`).
 
 ## Hard Boundaries

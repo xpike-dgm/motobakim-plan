@@ -133,4 +133,38 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E9-009 | FL9.6.1/F9.6.1 | Never-15 reference | — | ADR-014 R6; C9.6 + verify-E3/render-E1 seam | Items 1–15 verbatim cited; HOLD on ambiguity | PROPOSED |
 | T-E9-010 | FL9.6.1/F9.6.1 | HOLD-on-ambiguity rule | T-E9-009 | ADR-014 R6; C9.6 | No invented certainty or fallback answer | PROPOSED |
 | T-E9-011 | FL9.7.1/F9.7.1 | Role separation + externals notice | — | ADR-014 R7; C9.7; F10.7.1/C10.7; DEC-0028/0029 | Separation; nontechnical externals notice | PROPOSED |
+| T-E1-001 | FL1.0.1/F1.0.1 | Shell + tabs only (excl. SCR-005 context) | — | ADR-008 D2+D8; C1.0 | Five tabs; bottom-bar HELD; no dashboard/KPI/card-stack | PROPOSED |
+| T-E1-002 | FL1.0.2/F1.0.1 | Garage context only (SCR-005/008) | T-E1-001 | SCR-005/008; C1.0 + guard | Display/switch; lifecycle entry; no hub | PROPOSED |
+| T-E1-003 | FL1.1.1/F1.1.1 | First-value + add-bike render | T-E1-001 | SCR-001/002; C1.1 + guard | Value before account; creation form | PROPOSED |
+| T-E1-004 | FL1.1.2/F1.1.2 | Variant resolution render | T-E1-003 | SCR-003/004; C1.1 + guard | Distinction + fit/missing states | PROPOSED |
+| T-E1-005a | FL1.2.1/F1.2.1 | Discovery render (009/010) | T-E1-004 | SCR-009/010; C1.2 + guard | Task find/select shown | PROPOSED |
+| T-E1-005b | FL1.2.1/F1.2.1 | Fit render (011/012) | T-E1-005a | SCR-011/012; C1.2 + guard | Fit evaluation shown | PROPOSED |
+| T-E1-005c | FL1.2.1/F1.2.1 | Preparation render (013 teaching-only) | T-E1-005b | SCR-013; C1.2 + guard | Labeled teaching-only, never active instruction | PROPOSED |
+| T-E1-006 | FL1.3.1/F1.3.1 | Active execution render (014/015/018 only) | T-E1-005b | SCR-014/015/018; C1.3 + guard | Truthful outcomes; safe closure not payable; no ignore-and-continue | PROPOSED |
+| T-E1-007 | FL1.3.2/F1.3.1 | Resume/revalidation render | T-E1-006 | SCR-016; C1.3 + guard | Revalidation; saved≠proof; bottom-bar HELD | PROPOSED |
+| T-E1-008 | FL1.3.3/F1.3.1 | Remap render | T-E1-006 | SCR-017; C1.3 + guard | Remap required; no guessed continuation; bottom-bar HELD | PROPOSED |
+| T-E1-009 | FL1.4.1/F1.4.1 | Diagnosis render via E9 | T-E1-001 | SCR-019..021; ADR-014 R1/R5/R6; C1.4 + guard | Check shown; E9 proposes/E1 renders/E3 verifies | PROPOSED |
+| T-E1-010 | FL1.5.1/F1.5.1 | Maintenance/reminder render | T-E1-001 | SCR-022..024; C1.5 + guard | Verified source; snooze≠completion; catch-up path | PROPOSED |
+| T-E1-011 | FL1.6.1/F1.6.1 | History render (025/026/030 only) | T-E1-001 | SCR-025/026/030; ADR-001/004/005; C1.6 + guard | Provenance; serve T-E3-010; authorize T-E5-013/019 | PROPOSED |
+| T-E1-012 | FL1.6.2/F1.6.1 | Record/dispute render | T-E1-011 | SCR-027/028; C1.6 + guard | Standalone preserved; no-silent-winner | PROPOSED |
+| T-E1-013 | FL1.6.3/F1.6.1 | Reach-back render | T-E1-011 | SCR-029; C1.6 + guard | Severity reach-back; survives inactive | PROPOSED |
+| T-E1-014a | FL1.7.1/F1.7.1 | Lifecycle render (031/032/033) | T-E1-001 | SCR-031/032/033; C1.7 + guard | States shown; excl. SCR-008 | PROPOSED |
+| T-E1-014b | FL1.7.1/F1.7.1 | Entitlement gate render (037) | T-E1-014a | SCR-037; C5.x/T-E5-003; C1.7 + guard | Gates shown; enforcement server-side | PROPOSED |
+| T-E1-015 | FL1.8.1/F1.8.1 | Profile/collab/migration render | T-E1-001 | SCR-006/007/034; C1.8 + guard | Preview; no silent loss; revocable | PROPOSED |
+| T-E1-016 | FL1.9.1/F1.9.1 | Community surface render | T-E1-001 | SCR-035/036/038; C1.9 + guard | Opt-in flows; decisions in E2 | PROPOSED |
+| T-E1-017 | FL1.10.1/F1.10.1 | AI entry render (A1 verbatim) | T-E1-001 | AI_USTA DEC-0018; C1.10 + guard | 1+1+2; clutter/NL bounds; E9/E3 seam | PROPOSED |
+| T-E2-001 | FL2.1.1/F2.1.1 | Workspace shell render | — | ADR-010 D2-D5; C2.1 + guard | Dense workspace; a11y baseline; responsive deferred | PROPOSED |
+| T-E2-002 | FL2.2.1/F2.2.1 | Review queue render | T-E2-001 | WS-06; C2.2 + guard | Packets; independence; review≠publication | PROPOSED |
+| T-E2-003 | FL2.2.2/F2.2.1 | Conflict review render | T-E2-002 | WS-05; C2.2 + guard | Conflict/gap with owner/reason/escalation | PROPOSED |
+| T-E2-004 | FL2.3.1/F2.3.1 | Publication ops surface render | T-E2-001 | WS-07; C2.3 + guard + ADR-003/007 | Invokes only; E6 authorizes/executes | PROPOSED |
+| T-E2-005 | FL2.3.1/F2.3.1 | Recall impact render | T-E2-004 | WS-11; C2.3 + guard + ADR-003/007 | Impact/reach-back; invoke only | PROPOSED |
+| T-E2-006 | FL2.4.1/F2.4.1 | Source/quarantine view render | T-E2-001 | WS-03; C2.4 + guard | States + isolated preview + classification | PROPOSED |
+| T-E2-007a | FL2.5.1/F2.5.1 | Coverage/research render (WS-01) | T-E2-001 | WS-01; C2.5 + guard + ADR-012 | Record-derived research queue | PROPOSED |
+| T-E2-007b | FL2.5.1/F2.5.1 | Quality signals render (WS-09) | T-E2-007a | WS-09; C2.5 + guard + ADR-012 | Coverage-vs-completeness; drill-down; no opaque score | PROPOSED |
+| T-E2-008 | FL2.6.1/F2.6.1 | Access admin view render | T-E2-001 | WS-12; C2.6 + guard | Scoped changes; no self-grant path | PROPOSED |
+| T-E2-009 | FL2.7.1/F2.7.1 | Moderation decision render | T-E2-001 | SCR-036; WS-06/WS-10; IDCO-RQ-045..047; C2.7 + guard | Reasoned decision + audit; custody in E5 | PROPOSED |
+| T-E2-010 | FL2.8.1/F2.8.1 | Authoring draft render | T-E2-001 | RQ-017..024; C2.8 + guard | Bounded draft; never live | PROPOSED |
+| T-E2-011 | FL2.9.1/F2.9.1 | Variant admin render | T-E2-001 | WS-02; C2.9 + guard | Fencing + matrix/duplicate/comparison | PROPOSED |
+| T-E2-012 | FL2.10.1/F2.10.1 | Lineage view render | T-E2-001 | WS-08; C2.10 + guard | Chain + rollback-candidate links | PROPOSED |
+| T-E2-013 | FL2.11.1/F2.11.1 | Audit trail view render | T-E2-001 | WS-10; RQ-046/047; C2.11 + guard | Full fields + separation; custody in E5 | PROPOSED |
 |---|---|---|---|---|---|---|

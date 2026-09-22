@@ -1388,3 +1388,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   2 Minor incl. pack cites + self-referential acceptance). No invented scope.
 - Remediation: acceptance amendments + 2 splits (009a/b, 011a/b). Narrow re-review `PASS` (all F1..F11 closed).
 - 29 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
+
+### E1+E2 Atomic Tasks Review Cycle
+- E1 + E2 draft (30 tasks) reviewed against screens/specs, A1, workspace arch, ADR-008/010/011/014 + seams.
+- First verdict `CHANGES_REQUESTED`: 8 findings (2 Critical: schema violation + assumed guards; 6 Major/Minor incl.
+  oversized tasks, double-homing, homeless guards, vague seams, precision/linearity).
+- Remediation: completed cells, global guards, 4 splits/narrows (005a/b/c, 014a/b, 007a/b), fencing, guard additions,
+  pack seams, dep rebasing. Narrow re-review `PASS` (all F1..F8 closed, no regression). 34 tasks total.
+- 34 tasks written to `TASK_INDEX.md` as PROPOSED. Push pending explicit authorization.
