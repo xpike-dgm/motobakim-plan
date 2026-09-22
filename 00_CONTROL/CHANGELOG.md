@@ -1496,6 +1496,30 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Narrow verification `PASS`: all re-audit items closed. Gate 6 -> 7 ready for owner approval.
 - Push pending explicit authorization; gate approval request next.
 
+### Phase-7 Group 1 Recorded (Principles + Boundaries + Graph Identity)
+- Draft reviewed: `CHANGES_REQUESTED` (6 findings: ID prefix, registry misstatement, dropped R1 elements,
+  dropped qualifiers, chain/seam drift, missing pre-decision guards).
+- Remediation + narrow re-review `PASS` (all F1..F6 closed, no Group 2-6 smuggling, no Phase-8 pre-decision).
+- Written as PROPOSED: `ARCHITECTURE_PRINCIPLES.md`, `MODULE_BOUNDARIES.md`, `DEPENDENCY_RULES.md`,
+  new `GRAPH_METADATA_AND_IDENTITY_STANDARD.md` (identity scheme, metadata fields, topology note, registry definition).
+- Push pending explicit authorization; next: Group 2 (contracts) loop.
+
+### Phase-7 Plan Independent Review
+- Draft 6-group plan reviewed: `CHANGES_REQUESTED` (2 Critical: graph metadata/identity + design-control homeless;
+  5 Major/Minor: closure-evidence home, RULES/README ownership, G3-before-rules ordering, owner-views/reviewer/
+  escalation/registry address, scope-creep guardrail). No mechanism/code/purchase promised — guardrail added anyway.
+- Plan revised: G1 += graph identity/metadata/topology + registry address/schema; G5 += design consistency/change doc;
+  G4 += closure-evidence matrix + RULES/ population; G3 += owner-status/escalation doc + dry-run walkthrough;
+  execution order G1 → G2 → G4 (interface freeze) → G5 → G3 last; G6 += scaffold README refresh.
+- Revised plan presented for owner approval; no group started before approval.
+
+### DEC-0056 — Loop Until PASS Recorded / Group 1 Started
+- Owner ordered review-fix-review-fix until no findings remain, no round cap (`inceleme - düzeltme -
+  inceleme - düzeltme sorun çıkamayana kadar`). Recorded DEC-0056 (extends DEC-0052; rounds autonomous,
+  owner sees final PASS + counts; no scope growth inside remediation).
+- Revised Phase-7 plan proceeds: Group 1 draft (principles + boundaries + graph identity + registry address)
+  sent to independent review under the unbounded loop.
+
 ### Gate 6 -> 7 Re-Audit — PASS (2026-09-21)
 - First re-audit BLOCKED on stale counts/language; all fixed (per-epic splits everywhere, BLOCKED language
   dated-or-removed, gap rows verified, HELD labels verified).

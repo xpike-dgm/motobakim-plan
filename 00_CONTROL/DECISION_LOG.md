@@ -1820,3 +1820,22 @@ Effect:
 - no code, task execution, account, purchase, deployment or production proof is authorized by this gate passage
   (code starts only after Gate 8 -> Development).
 
+---
+
+## DEC-0056 — Review Loop Runs Until PASS, No Round Cap
+**Date:** 2026-09-21
+**Status:** APPROVED OPERATING RULE (extends DEC-0052)
+
+User instruction, verbatim:
+
+> inceleme - düzeltme - inceleme - düzeltme sorun çıkamayana kadar
+
+Decision:
+
+- Every draft → independent-review → remediation cycle repeats (narrow re-review, then micro review if needed)
+  until the verdict is PASS with zero open findings. There is no round cap and no "good enough" acceptance.
+- Awaiting the owner is never part of the loop: rounds run autonomously; the owner sees only the final PASS
+  record plus honest counts (rounds used, findings closed).
+- This does not authorize scope expansion during remediation: fixes stay narrow to findings; new scope needs
+  its own draft + review.
+
