@@ -2,6 +2,8 @@
 
 Status: APPROVED (owner-approved 2026-09-21 after independent coverage verification; G1–G6 remediations applied)
 
+Row-status legend (clarification 2026-09-23, OUT-3 B-29 — semantics unchanged): row-level PROPOSED = planned-never-executed per Phase-6 convention (same as TASK_INDEX rows); document-level APPROVED = the catalog as planning artifact is closed and verified.
+
 | Epic ID | Name | Outcome | Dependencies | Status |
 |---|---|---|---|---|
 | E1 | Tüketici mobil uygulaması | 5 sekme ve rehber/tanı/bakım/geçmiş/topluluk akışları Flutter'da çalışır + SCR-030 export | E3, E5, E4 | PROPOSED |

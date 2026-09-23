@@ -22,8 +22,10 @@ Depends On, except the above epic edges. No hidden dependencies outstanding; ful
 Step 6 simulation notes (mechanical DAG rerun 2026-09-21 over 199 task rows / 110 flows): acyclic yes,
 topo length = count, max depth 7, no duplicates, all deps resolve, zero flows without task.
 - Removal-impact samples (transitive dependents): T-E3-001 → 25; T-E1-001 → 27; T-E10-001 → 17;
-  T-E2-001 → 15; T-E10-004 → 11; T-E10-007 → 8; T-E5-013 → 9; T-E3-009 → 8; all others ≤5. Blast radius is queryable pre-execution
+  T-E2-001 → 16; T-E10-004 → 11; T-E10-007 → 8; T-E5-013 → 9; T-E3-009 → 8; all others ≤5. Blast radius is queryable pre-execution
   via this graph + matrix (owner-readable through catalog rows, not raw IDs).
+  Recompute (2026-09-23 correction, OUT-3 B-28: T-E2-001 was 15, verified 16): parse TASK_INDEX.md Depends-On column,
+  reverse-graph BFS per task; the other seven samples re-verified unchanged (25/27/17/11/8/9/8).
 - Collision rule: tasks sharing a scope (e.g. T-E1-009/T-E1-017 routing taxonomy, T-E1-011/012/013 history screens)
   require frozen pack revisions + distinct outputs for parallel runs; T-E1-012/013 are NOT READY until T-E1-011 DONE.
 - Cross-epic seams (pack references, never hard deps): E1/E2/E4/E9 consume E3/E5/E6; all epics consume E10 pack

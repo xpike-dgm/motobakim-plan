@@ -1694,6 +1694,18 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - OUT-3 (BULGU-VAR, 36 findings, old SHAs plan `fcc0159` app `4d11ed6`): received; findings overlap fixed items (B-01 branch, B-02–05 checks, B-08 4-tasks ⊂ our 6, B-10 stale, B-27 separator, B-30 gates) + NEW items requiring batches (B-06 wikilinks, B-07 trace/design checks, B-09 KVKK scope, B-11 AGENTS/DEC-0049, B-12 push discipline = DEC-0061, B-13 reviewer identity, B-14 CLAIM, B-15 epic edges, B-16/17/18 seam gaps, B-19 dual-copy, B-21 migration proof, B-22 timestamps, B-23 secrets, B-24 line endings, B-25 HELD measurement, B-26 vague acceptance, B-28 dep count, B-29 status lines, B-31 CON-001..003, B-32 DENY list, B-33 external triggers, B-34 red-main history, B-35 INDEX merge, B-36 cost metering). Batching next; scope items (B-09 etc.) need owner approval before new capabilities.
 - Current SHAs this turn: plan `2301ec6`, app `73f050e`, both trees clean, CI green (run 35856588270 success).
 
+### OUT-3 Batch 1 Fixes (B-22/23/24/28/29/34 — pending independent review)
+- B-28: T-E2-001 transitive dependents 15→16 (recomputed all 8 samples; others unchanged) + recompute note.
+- B-29: three catalog status lines flipped to CLOSED (row-PROPOSED semantics clarified, unchanged) + EPIC legend line.
+- B-23: app `.gitignore` secrets rules (mirrors planning repo) + CI secret-pattern scan step.
+- B-24: app `.gitattributes` added (plan rules mirrored).
+- B-22: E-PR-001 timestamp/last_verified → 2026-09-23; PROOF_PACK fields 7/13 refreshed to closure state.
+- B-34: red-`main` incident record: three failed CI runs (35804326932, 35804351019, 35804379365) landed on `main`
+  pre-Pro (no enforcement possible then) and were closed by forward fix, not revert; no silent period — all runs
+  public in Actions history. Repo+CI rollback rule: red-`main` → `revert` the offending SHA, record here; owner: manager.
+- DEFERRED (need owner approval): B-09 KVKK/store capabilities, B-12 DEC-0061, B-16/17/18 seam+epic APPROVED changes,
+  B-25 measurement tasks, B-26 acceptance rewrites, B-33 external-trigger DEC, B-06 wikilink decision, B-07 new checks.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,

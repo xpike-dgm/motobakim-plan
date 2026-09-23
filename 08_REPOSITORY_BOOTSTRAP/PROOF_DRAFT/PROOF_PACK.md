@@ -22,13 +22,16 @@ Binding sources: `TASK_REGISTRY.md` + `ROUTING_AND_TRACEABILITY.md` (Step 5); St
    `kavriva-app/modules/e10-graph/MANIFEST.md` (M-E10-001 installed copy).
 5. allowed paths: `kavriva-app/vault/REGISTRY/T-E3-001.md`, `kavriva-app/vault/PACKS/P-PROOF-001.md`, `kavriva-app/vault/EVIDENCE/E-PR-001.md`. Nothing else.
 6. forbidden areas: every other path in both repos; product feature code; planning-truth edits.
-7. expected artifact changes: 3 new files (registry record, pack copy, evidence record). No modifications.
+7. expected artifact changes: 3 proof files (registry record, pack copy, evidence record) at run time; closure
+   phase later added review-driven artifacts (checks, contract records) under the same pack's change-request —
+   recorded here 2026-09-23 (OUT-3 B-22), not hidden.
 8. acceptance + negative cases: record carries 8 columns + `supersedes` planning row; pack copy identical to this pack; evidence carries 8 conformance fields. NEGATIVE: any 4th file touched, any planning edit, any product code → FAIL.
 9. validation / architecture / integration checks to run: check-identity (ID stable/reused, no collision), check-packs (14 fields present), check-links (all references resolve), check-orphans (3 files owned+linked).
 10. migration / rollback needs: rollback = delete the 3 files (fully reversible, no residue). Reason: proof-only artifacts.
 11. responsive / accessibility rules: N/A (no user surface; machine records only).
 12. evidence + handoff format: `E-PR-001` conformance record (8 fields) + this report section.
-13. graph-update records the task must write: `vault/INDEX/` regeneration note (deferred: no index builder yet — recorded as gap, not hidden).
+13. graph-update records the task must write: `vault/INDEX/` regeneration — CLOSED 2026-09-23 (OUT-3 B-22):
+   `build_index.py` + `routing_run.py` installed, `registry.json` + `routing.json` generated and CI-reproduced.
 14. escalation rules: any BLOCKED → change-request per R-009; proof failure blocks Gate 8 (no waiver).
 
 ## Proof report (filled during the run)

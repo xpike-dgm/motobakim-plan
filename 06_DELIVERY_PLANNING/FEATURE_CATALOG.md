@@ -1,6 +1,6 @@
 # FEATURE CATALOG
 
-Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS; rest pending)
+Status: CLOSED (all epics recorded + verified 2026-09-21; Gate 6 -> 7 PASSED under DEC-0055; row-level PROPOSED = planned-never-executed per Phase-6 convention, not pending work)
 
 | Feature ID | Capability | Name | Scope | Dependencies | Status |
 |---|---|---|---|---|---|

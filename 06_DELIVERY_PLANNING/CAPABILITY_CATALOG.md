@@ -1,6 +1,6 @@
 # CAPABILITY CATALOG
 
-Status: PROPOSED (E3 + E10 owner-approved 2026-09-21; remaining epics pending)
+Status: CLOSED (all epics recorded + verified 2026-09-21; Gate 6 -> 7 PASSED under DEC-0055; row-level PROPOSED = planned-never-executed per Phase-6 convention, not pending work)
 
 | Capability ID | Epic | Name | User/Product Outcome | Dependencies | Status |
 |---|---|---|---|---|---|
