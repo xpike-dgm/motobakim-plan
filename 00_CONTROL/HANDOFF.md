@@ -558,3 +558,6 @@ Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-00
 
 ## Last Updated
 2026-09-21
+
+69. OUT-1 audit CLOSED-current (2026-09-23): SİSTEM-SAĞLAM on plan `8981d5b` + app `1ca962d` after delta
+    verification (Wave-A/B entries, 34 records / 44 sessions). Re-opens on any future tree change.
