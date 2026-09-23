@@ -538,6 +538,14 @@ Unless a newer explicit user decision changes the plan:
     fully proven: fresh-session SUFFICIENT+MATCH, rollback byte-identical, suite green both modes, CI green,
     independent VERIFIED, Gate-8 re-audit round 2 PASS. Gate 8 approval pending owner; no product code.
 
+68. Owner transitions Development execution to another AI (2026-09-23). State at handoff: both repos synced
+    (planning `45dd48f`, app `4d11ed6`, CI green); Gate 8 NOT yet passed (approval + DEC pending — the next
+    AI takes over either by requesting it or recording it with the owner); checklist COMPLETE 9/9 with
+    Development deferrals recorded (198/199 rows, product CI, runner niceties). New AI entry points:
+    `00_CONTROL/NEXT_ACTION.md`, `08_REPOSITORY_BOOTSTRAP/PROOF_DRAFT/PROOF_PACK.md`,
+    `kavriva-app` README + `modules/e10-graph/checks/run_all.py`. Standing rules (review loop, honest
+    records, per-gate approval) bind the next AI unchanged.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Gate 5 -> 6 PASSED on
