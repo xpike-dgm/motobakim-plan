@@ -1624,3 +1624,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   `modules/e10-graph/checks/` (`66b9331`), byte-verified after copy.
 - Checklist honesty note: "Validation komutları / Architecture tests çalışıyor" boxes stay UNCHECKED until
   Step-4 CI wires the specs to execution.
+
+### Phase 8 Step 4 — CI Plan REVIEWED PASS + Installed
+- `CI_PLAN.md` (5 events × check sets, signal-based fail conditions, 5 merge gates, record `V-CI-001`):
+  round-1 CHANGES_REQUESTED (2 findings: FAIL/REJECT collision contradiction, unsourced reviewer authority) →
+  narrow remediation → round-2 re-review PASS, no open findings.
+- Owner approved push + install (`tamam devam et`) 2026-09-22; installed to `kavriva-app`
+  `.github/workflows/CI_PLAN.md` (`326fa9b`), byte-verified after copy (spec-only; runnable YAML wiring
+  arrives with later-step proof, per approved install definition).
+- "CI kalite kapıları çalışıyor" box stays UNCHECKED until YAML wiring is proven.
