@@ -51,9 +51,12 @@ explicitly (gap recorded, not hidden).
 
 - 2026-09-23 | ses_f2f74c304ffeaCqG60ReBecnDi (model: harness-undisclosed) | Regression fixes (exception revert + 5 log entries + 3H header), tree 9cdb505 | PASS | closed-0 open-0 | none
 
-- 2026-09-23 | ses_f2f6aab0bffe1DhUZkBOk9p1NO (model: harness-undisclosed) | B-13/B-34 regression verification (log entries, headers, exception revert) | PASS | closed-0 open-0 | OUT-3 B-13/B-34 verified shut
 
 - 2026-09-23 | ses_f2f653902ffer3seif05QTOLhY (model: harness-undisclosed) | Session-ID expansion verify (CHANGELOG citations resolve verbatim) | PASS | closed-0 open-0 | OUT-1 B-14 follow-up
+
+- 2026-09-23 | ses_f2f61c624ffeiJnYrNZzyRfS0p (model: harness-undisclosed) | Wave-A diff review (plan a11b61f, 6 files: leftovers, log append, binding, mapping, numbers) | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f2f61c610ffeQdEY59ZMiZ60cg (model: harness-undisclosed) | Wave-B diff review (app 1ca962d 5 files + plan 87b62d6 record; strictness, attribution, pin, digests) | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f2f6aab0bffe1DhUZkBOk9p1NO (model: harness-undisclosed) | INTERNAL micro-verify of B-13/B-34 fixes (manager-run, not an OUT-3 verdict) | PASS | closed-0 open-0 | none
 
 ## PROPOSED (pending owner approval, NOT in force)
 
