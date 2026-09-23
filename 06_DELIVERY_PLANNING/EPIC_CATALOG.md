@@ -7,7 +7,7 @@ Row-status legend (clarification 2026-09-23, OUT-3 B-29 — semantics unchanged)
 | Epic ID | Name | Outcome | Dependencies | Status |
 |---|---|---|---|---|
 | E1 | Tüketici mobil uygulaması | 5 sekme ve rehber/tanı/bakım/geçmiş/topluluk akışları Flutter'da çalışır + SCR-030 export | E3, E5, E4 | PROPOSED |
-| E2 | Şirket yönetim paneli | Tarayıcıda içerik/operasyon çalışma alanı: inceleme, onay, yayın, ölçüm görünürlüğü + topluluk moderasyon/appeal (SCR-036) | E3, E5 | PROPOSED |
+| E2 | Şirket yönetim paneli | Tarayıcıda içerik/operasyon çalışma alanı: inceleme, onay, yayın, ölçüm görünürlüğü + topluluk moderasyon/appeal (SCR-036) | E3, E5, E8 (outputs only) | PROPOSED |
 | E3 | Sunucu + veri omurgası | API kapısı, kanonik veri düzeni, platform kurulumu, ortamlar | — (temel) | PROPOSED |
 | E4 | Çevrimdışı paket + senkron | Seçili görev paketi iner, kullanıcı işleri defterle gider, CON-005 uyumlu | E3 | PROPOSED |
 | E5 | Giriş + yetki + denetim | Hesapsız başlangıç, profiller, hibrit yetkilendirme, denetim kasası, kurtarma yolları | E3 | PROPOSED |

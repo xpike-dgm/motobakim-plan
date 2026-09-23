@@ -197,6 +197,19 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | ENTITLEMENT SET Q-0020/0026/0046/0047/0065–0069 + DEC-0053: 1 bike free, paid slots, subscription → 3, full guide for 1 selected bike (moves, never stacks); prices/packages/switch-rules HELD | F1.7.1 | FL1.7.1 | T-E1-014a, T-E1-014b (+ server checks E3/E5) | gate |
 | TSQ-001-narrow: Flutter/Dart channels, plugin allowlist, device/OS matrix | NONE (HELD by design; authority: DEC-0054 + ADR-008 revisit triggers) | NONE | NONE | HELD |
 
+## Measure definitions + vagueness arbitration (2026-09-23, OUT-3 B-26 — pending independent review)
+
+- CON-004/F10.6.1 measure (covers the novice-copy family T-E1-005a/b/c, 006/007/008/009/010): a fixed reading-test
+  question set (what/why/next-step per screen, answered by a first-time-reader profile) + pass rule (all questions
+  answered without external help); the set itself is authored at Development start and review-gated. Until then the
+  cells invoke the gate by name — the method is fixed, only the set content is pending.
+- Adjectival cells fixed to observable predicates (no invented numbers; bounds stay HELD): T-E1-022a condensed
+  form differs from full form with step-count + render-duration measured per method; T-E2-001 panels render
+  without overlap at the baseline viewport; T-E8-011 per-gate pass/fail recorded, any fail shrinks to base.
+- Arbitration rule: if two reviewers disagree on an adjectival cell, the disagreement opens a change-request that
+  converts that cell to an observable predicate (one-shot, recorded here); DEC-0056 loops are therefore bounded
+  by conversion, not by re-vote.
+
 ## Gap-closure additions (2026-09-21, all review PASS)
 
 | Requirement / Rule | Feature | Flow | Task | Validation |

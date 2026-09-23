@@ -160,12 +160,12 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E1-019b | FL1.2.2/F1.2.2 | Assumptions/no-fabrication rule | T-E1-019a | BR-063/064; C1.2 + guard | Assumptions shown; unknown never invented | PROPOSED |
 | T-E1-020 | FL1.9.2/F1.9.2 | Sponsored marking | T-E1-001 | BR-070/071/073; C1.9 + guard | Sponsored explicitly marked; hidden ads + alternatives visible | PROPOSED |
 | T-E1-021 | FL1.9.2/F1.9.2 | Ranking firewall | T-E1-020 | BR-070/071/073; C1.9 + guard | Listing never substitutes guide; sales-target blocked; fit-first; no analytics input | PROPOSED |
-| T-E1-022a | FL1.3.4/F1.3.2 | Condensed render | T-E1-006 | BR-074; C1.3 + guard | Short/fast shown | PROPOSED |
+| T-E1-022a | FL1.3.4/F1.3.2 | Condensed render | T-E1-006 | BR-074; C1.3 + guard | Condensed form differs from full; step-count + render-duration measured per method (bounds HELD) | PROPOSED |
 | T-E1-022b | FL1.3.4/F1.3.2 | Uncertainty banner | T-E1-022a | BR-074; C1.3 + guard | Safety uncertainty persistent; E4 fail-closed seam | PROPOSED |
 | T-E1-023 | FL1.3.5/F1.3.3 | Criteria content per category | — | OPEN criterion + author role; C1.3 + guard | Content authored by domain expert + second review; E2 draft→E6 approve; validation HELD | PROPOSED |
 | T-E1-024 | FL1.3.5/F1.3.3 | Enforcement render | T-E1-023 | OPEN criterion; C1.3 + guard + E3/E6 refs | Checked per E3 verification, rendered by E1 | PROPOSED |
 | T-E1-025 | FL1.7.2/F1.7.1 | Replacement right render + server ref | T-E1-014a | Q222/Q227; C1.7 + guard | Pre-step correction + MAY-open; server decision cited; window HELD | PROPOSED |
-| T-E2-001 | FL2.1.1/F2.1.1 | Workspace shell render | — | ADR-010 D2-D5; C2.1 + guard | Dense workspace; a11y baseline; responsive deferred | PROPOSED |
+| T-E2-001 | FL2.1.1/F2.1.1 | Workspace shell render | — | ADR-010 D2-D5; C2.1 + guard | Panels render without overlap at baseline viewport; a11y baseline; responsive deferred | PROPOSED |
 | T-E2-002 | FL2.2.1/F2.2.1 | Review queue render | T-E2-001 | WS-06; C2.2 + guard | Packets; independence; review≠publication | PROPOSED |
 | T-E2-003 | FL2.2.2/F2.2.1 | Conflict review render | T-E2-002 | WS-05; C2.2 + guard | Conflict/gap with owner/reason/escalation | PROPOSED |
 | T-E2-004 | FL2.3.1/F2.3.1 | Publication ops surface render | T-E2-001 | WS-07; C2.3 + guard + ADR-003/007 | Invokes only; E6 authorizes/executes | PROPOSED |
@@ -201,5 +201,5 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E8-008 | FL8.4.1/F8.4.1 | Purpose/retention check | T-E8-007 | ADR-012 R3; C8.4 + E2-render note | Named purpose + bounded retention per class | PROPOSED |
 | T-E8-009 | FL8.5.1/F8.5.1 | Band classification | — | ADR-012 R4; C8.5 + E2-render note | Exact-qualifier bands incl. 9th outage item | PROPOSED |
 | T-E8-010 | FL8.5.1/F8.5.1 | Outage-independence check | T-E8-009 | ADR-012 R2/R4; C8.5 + E2-render note | Dedicated failure never disables safe core | PROPOSED |
-| T-E8-011 | FL8.6.1/F8.6.1 | 5-gate check | — | ADR-012 R5; C8.6 + E2-render note | Privacy/operability/TCO/offline/exit evaluated | PROPOSED |
+| T-E8-011 | FL8.6.1/F8.6.1 | 5-gate check | — | ADR-012 R5; C8.6 + E2-render note | Per-gate pass/fail recorded; any fail shrinks to base | PROPOSED |
 | T-E8-012 | FL8.6.1/F8.6.1 | Exit-honesty check | T-E8-011 | ADR-012 R6; C8.6 + E2-render note | Export≠proof; 4 HELD proofs listed | PROPOSED |
