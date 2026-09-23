@@ -1706,6 +1706,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - DEFERRED (need owner approval): B-09 KVKK/store capabilities, B-12 DEC-0061, B-16/17/18 seam+epic APPROVED changes,
   B-25 measurement tasks, B-26 acceptance rewrites, B-33 external-trigger DEC, B-06 wikilink decision, B-07 new checks.
 
+### OUT-3 Batch 1 CLOSED (review PASS + CI green)
+- Batch-1 review round 1 caught a REAL flaw of mine: secret scan would have echoed matches into CI logs → quiet mode.
+- CI then failed on a TRUE positive that was actually a FALSE positive (`task-registry` tripped `sk-` pattern) →
+  pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
+- App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
