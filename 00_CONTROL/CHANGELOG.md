@@ -1832,3 +1832,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - STALENESS NOTE (same rule as OUT-4): post-dates Batch-3F (plan `ffd03f3`, app `2eff825` - check rewrites,
   frontmatter conversion, link surgery, doc refreshes; all independently reviewed PASS + CI green). Verdict
   covers pre-3F tree; delta-verification of 3F requested from OUT-1 (not a full re-run).
+
+### OUT-1 Delta B-11/B-12 CLOSED (review PASS, 2026-09-23)
+- B-11 (frozen-pack blindness): E-PR-001.pack_digest guards P-PROOF-001 bytes (recomputed per run); any drift,
+  broken links included, FAILs without touching the frozen file.
+- B-12 (format-without-match): subject_file field added to both records; digests recomputed against subjects
+  (zero-digest + mismatch + path-escape probes all FAIL).
+- Independent review PASS with replicated attacks; only 3 files touched. App `65fc70f`.
