@@ -203,4 +203,3 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E8-010 | FL8.5.1/F8.5.1 | Outage-independence check | T-E8-009 | ADR-012 R2/R4; C8.5 + E2-render note | Dedicated failure never disables safe core | PROPOSED |
 | T-E8-011 | FL8.6.1/F8.6.1 | 5-gate check | — | ADR-012 R5; C8.6 + E2-render note | Privacy/operability/TCO/offline/exit evaluated | PROPOSED |
 | T-E8-012 | FL8.6.1/F8.6.1 | Exit-honesty check | T-E8-011 | ADR-012 R6; C8.6 + E2-render note | Export≠proof; 4 HELD proofs listed | PROPOSED |
-|---|---|---|---|---|---|---|

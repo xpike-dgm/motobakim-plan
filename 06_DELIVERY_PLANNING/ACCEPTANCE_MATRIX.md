@@ -207,9 +207,24 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | OPEN safe-closure criteria: per-category content (expert + second review), E3-verified, E1-rendered | F1.3.3 | FL1.3.5 | T-E1-023, T-E1-024 | gate |
 | Q-0066/Q222/Q227: pre-step correction + MAY-open renewal per server decision, window HELD | F1.7.1 | FL1.7.2 | T-E1-025 | gate |
 
+## Gap-closure additions 2 (2026-09-23, OUT-1 B-04 — pending independent review)
+
+Six tasks had no matrix row (orphan-trace gap against the Step-5 "none" claim corrected below):
+
+| Requirement / Rule | Feature | Flow | Task | Validation |
+|---|---|---|---|---|
+| SCR-036/C2.7: contributor status surfacing + repair paths | F2.7.1 | FL2.7.1 | T-E2-014 | simulation |
+| Q-0049/0050: withdrawal re-review owner trigger | F2.7.1 | FL2.7.1 | T-E2-015 | simulation |
+| ADR-002 cost paragraph: platform BOM inputs template | F3.3.1 | FL3.3.1 | T-E3-015 | review |
+| ADR-002 Option A + Decision 1: secret custody + rotation rules | F3.3.2 | FL3.3.2 | T-E3-017 | gate |
+| ADR-004 identity: account-light start procedure | F5.1.1 | FL5.1.1 | T-E5-001 | review |
+| ADR-004 migration: profile migration preview + conflict hold | F5.1.1 | FL5.1.1 | T-E5-002 | review |
+
 ## Step 5 Findings (merged three lanes, 2026-09-21)
 
-- ORPHAN TASKS: none in any lane. All 199 tasks trace to at least one row above.
+- ORPHAN TASKS: none in any lane (Step-5 claim) — CORRECTED 2026-09-23: OUT-1 B-04 proved 6 untraced tasks
+  (T-E2-014, T-E2-015, T-E3-015, T-E3-017, T-E5-001, T-E5-002); mapped in "Gap-closure additions 2" above, pending
+  independent review. Step-5 history preserved; this line records the correction, not an erasure.
 - COVERAGE GAPS (content, not just validation): ALL CLOSED 2026-09-21 — estimates/commerce/roadside/closure/Q-0066 via E1 gap rows; media rule via F4.9.1 row above; RQ-060..062 via F2.12.1 row above; CON-004 via guide-task wording + F10.6.1 gate. Remaining: ADR-008 R6 device proof + TSQ-001-narrow (HELD by design, implementation evidence). Validation column is `NONE` phase-wide for E1/E2 (no review PASS recorded there) and `test` is absent phase-wide by design.
 - CONFLICTS: none irreconcilable. Four managed tensions recorded with precedence (data-efficiency vs safety-closure: safety wins; cheapest-model vs safety: HOLD wins; Android-first vs iOS parity: conditional containment; CON-005 vs cost controls: never a user gate). The open entitlement tension is RESOLVED under `DEC-0053` (1 bike free, paid slots, subscription raises to 3, full guide for 1 selected bike; prices/packages HELD).
 - CROSS-LANE NEEDS: resolved by construction — every cross-lane pointer in the matrix names an existing row in another lane (server auth, truth/history, package materialization, AI propose/verify/render split, E2 consume-only, E6 decide-only). No dangling cross-lane reference found.

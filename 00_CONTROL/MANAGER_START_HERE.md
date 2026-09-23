@@ -55,22 +55,32 @@ Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically 
 - No provider/model/plan/account/purchase/code/deployment/production proof is authorized merely by these Phase-4 working
   directions.
 
-## Manager Transition — Immediate Duty
+## Manager Transition — Immediate Duty (refreshed 2026-09-23; OUT-1 B-05 closure, pending review)
 
-This file was handed to a fresh manager after `DEC-0047` for the closure/readiness audit; that audit is complete and
-Gate 4 -> 5 PASSED under `DEC-0048` on 2026-09-21 with explicit owner approval.
+Prior handoff notes below (DEC-0047/0048 era, Phase-5 scoping) are PRESERVED as history. Current truth:
+
+- Phase 7 closed (`DEC-0057`); Phase 8 authorized (`DEC-0058`) and EXECUTED Steps 1–7 under standing mandate
+  (`DEC-0059`); five-AI closure protocol active (`DEC-0060`).
+- Physical setup HAS begun (skeleton, manifests, specs, checks, proof row installed to `kavriva-app`; CI green);
+  product feature code has NOT begun. "NO-CODE" now means no product code, not no setup.
+- Single current pointer is ALWAYS `00_CONTROL/NEXT_ACTION.md`; this file's old "next work" paragraph is
+  superseded by it. Gate 8 approval pending owner; no product code or deployment without it.
+
+Standing duties (always in force, all phases):
 
 The next manager must **not**:
 - invent a new Phase-4 technology topic or reopen closed debates without new evidence;
 - write an ADR without an explicitly approved ADR plan and per-ADR owner approval;
 - start code, prototype, deployment, provider account or purchase work.
 
-The next controlled work is Phase-5 ADR scoping, as named in `00_CONTROL/NEXT_ACTION.md`:
+Superseded era instruction (PRESERVED as history — DO NOT FOLLOW; current pointer is `NEXT_ACTION.md`):
 
-1. derive the ADR list from the Phase-4 working directions (`DEC-0021`–`DEC-0047`) and propose a writing order;
-2. present the ADR plan to the nontechnical owner in plain language before writing any ADR;
-3. write ADRs only after plan approval; each ADR needs its own explicit owner approval to become APPROVED/LOCKED;
-4. preserve HELD boundaries and owner constraints (especially `CON-005`) until their ADR/proof closes them.
+> The next controlled work is Phase-5 ADR scoping, as named in `00_CONTROL/NEXT_ACTION.md`:
+>
+> 1. derive the ADR list from the Phase-4 working directions (`DEC-0021`–`DEC-0047`) and propose a writing order;
+> 2. present the ADR plan to the nontechnical owner in plain language before writing any ADR;
+> 3. write ADRs only after plan approval; each ADR needs its own explicit owner approval to become APPROVED/LOCKED;
+> 4. preserve HELD boundaries and owner constraints (especially `CON-005`) until their ADR/proof closes them.
 
 ## Owner and Communication Contract
 

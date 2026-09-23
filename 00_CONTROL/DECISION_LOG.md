@@ -1889,6 +1889,24 @@ Effect:
 
 ---
 
+## DEC-0060 — Five-AI Closure Protocol (Per-AI Fix-and-Return)
+**Date:** 2026-09-23
+**Status:** APPROVED (owner-defined workflow)
+
+Five independent AIs stress-test the plan. Operating loop, per AI output brought by the owner:
+
+1. Triage the delivering AI's findings against disk (confirm real vs invalid, no blind fixes).
+2. Fix that AI's confirmed issues (review loop intact for content/code changes).
+3. Return to the SAME AI session: if it was incomplete, it continues from where it stopped; if it was complete
+   with findings, it verifies whether its issues are closed.
+4. Completion accepted only when 5 AIs report no problems (agreement still ≠ automatic approval; each closure
+   is verified, not assumed).
+
+Effect: OUT-1 (partial, 7 findings) and OUT-5 (EKSİK-TARAMA, 5 findings) findings close per AI; Gate 8 stays
+pending until the protocol completes.
+
+---
+
 ## DEC-0059 — Standing Phase-8 Execution Mandate (Best-Judgment + Push)
 **Date:** 2026-09-22
 **Status:** APPROVED
