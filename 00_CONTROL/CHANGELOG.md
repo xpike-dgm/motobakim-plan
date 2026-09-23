@@ -1642,3 +1642,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   ("en iyi şekilde olsun"): specs installed to owner capsule `kavriva-app/modules/e10-graph/`
   (`dd2d4ab`), NOT inside `vault/` record folders (those receive real rows later); byte-verified after copy.
 - "Task registry/context routing çalışıyor" box stays UNCHECKED until rows are migrated + proven (Step 7).
+
+### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
+- Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
+  plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
+  account/purchase, Gate 8 still per-approval).
+- Step-6 matrix REVIEWED PASS (round 1, no findings) installed to `kavriva-app/modules/e10-graph/`
+  (`7f69457`), byte-verified after copy.

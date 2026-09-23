@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 8 STEP 5 INSTALLED / STEP 6 DRAFT NEXT`
+Status: `PHASE 8 STEP 6 INSTALLED / STEP 7 PROOF TASK NEXT`
 Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
 Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
 
@@ -26,12 +26,16 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
 - Step-5 registry specs REVIEWED PASS (round 1, no findings) + installed to `kavriva-app`
   `modules/e10-graph/` (`dd2d4ab`; push approved 2026-09-22, placement delegated to manager).
   Row migration + proof arrive in Step 7.
+- Standing mandate `DEC-0059` (2026-09-22): best-judgment execution + per-step push within Phase 8;
+  review loop never skipped.
+- Step-6 matrix REVIEWED PASS (round 1, no findings) + installed to `kavriva-app/modules/e10-graph/`
+  (`7f69457`) under standing mandate.
 
 ## Immediate Next Manager Action
 
-1. Push the approved records batch with the given authorization.
-2. Then draft the Phase-8 Step-6 migration/rollback applicability (draft → independent
-   review → PASS before installation); no construction beyond the approved plan.
+1. Push the records batch under the standing mandate.
+2. Then run the Phase-8 Step-7 proof task (controlled example task validating the machine end-to-end) +
+   Gate 8 readiness audit; Gate 8 passage itself needs explicit owner approval.
 
 ## Hard Boundaries
 

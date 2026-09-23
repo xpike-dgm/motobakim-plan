@@ -1887,3 +1887,21 @@ Effect:
 - product feature code and deployment remain unauthorized; the proof task must not become product development;
 - implementation repository is owner-created empty at `https://github.com/xpike-dgm/kavriva-app`.
 
+---
+
+## DEC-0059 — Standing Phase-8 Execution Mandate (Best-Judgment + Push)
+**Date:** 2026-09-22
+**Status:** APPROVED
+
+The owner (`en mantıklı kararları vererek bunları sen uygula ... en iyisi neyse ondan asla vazgeçme`,
+`push onayı da verildi`) grants a standing mandate for the remainder of Phase 8:
+
+- the manager decides placement/installation details by best judgment within the approved 7-step plan and
+  applies them without asking per micro-decision;
+- push to both repositories is authorized per completed step (no per-push re-ask inside Phase 8);
+- the review loop (draft → different-context review → narrow remediation → re-review → PASS) is NEVER
+  skipped or softened; no PASS, no install — no exceptions;
+- honest record-keeping continues ("çalışıyor" boxes only when proven; deferrals written, not hidden);
+- this mandate covers Phase 8 only; product code, deployment, account/purchase, and Gate 8 passage still
+  require explicit owner approval each.
+

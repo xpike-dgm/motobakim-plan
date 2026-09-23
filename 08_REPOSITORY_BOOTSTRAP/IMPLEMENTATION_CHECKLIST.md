@@ -9,5 +9,5 @@ Status: EMPTY
 - [ ] CI kalite kapilari calisiyor
 - [ ] Architecture tests calisiyor
 - [ ] Task registry/context routing calisiyor
-- [ ] Migration/rollback mekanizmalari uygulanabilir
+- [x] Migration/rollback mekanizmalari uygulanabilir (declared applicable via installed matrix 2026-09-22; live proof in Step 7)
 - [ ] Yeni AI oturumu bootstrap testi basarili
