@@ -533,6 +533,11 @@ Unless a newer explicit user decision changes the plan:
     pending records push, recorded as `DEC-0058` on 2026-09-22. Step 1 (directory blueprint draft) authorized;
     no product code or deployment.
 
+67. Standing mandate `DEC-0059` (2026-09-22): best-judgment execution + per-step push within Phase 8, review
+    loop never skipped. Steps 1–6 installed with reviews PASS. Step 7 proof task (P-PROOF-001: migrate T-E3-001)
+    fully proven: fresh-session SUFFICIENT+MATCH, rollback byte-identical, suite green both modes, CI green,
+    independent VERIFIED, Gate-8 re-audit round 2 PASS. Gate 8 approval pending owner; no product code.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Gate 5 -> 6 PASSED on

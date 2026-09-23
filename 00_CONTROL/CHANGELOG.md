@@ -1643,6 +1643,17 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   (`dd2d4ab`), NOT inside `vault/` record folders (those receive real rows later); byte-verified after copy.
 - "Task registry/context routing çalışıyor" box stays UNCHECKED until rows are migrated + proven (Step 7).
 
+### Phase 8 Step 7 — Proof Task Proven, Gate-8 Re-audit PASS
+- P-PROOF-001 (migrate T-E3-001): 3 files, pack byte-identical, 4/4 checks; fresh-session round 1
+  INSUFFICIENT → 5 issues fixed → round 2 SUFFICIENT+MATCH (hash-verified); rollback delete→clean→
+  byte-identical recreate (digests match).
+- Audit closure (6 items): 9 contract records + 30 module dirs + 3 template stubs installed; 12 stdlib-only
+  checks + CI wiring (`checks.yml`) green locally both modes AND in CI (runs 35804714028, 35805115980,
+  35805136516 success); INDEX/routing generated; E-PR-001 VERIFIED by independent session; re-audit round 2
+  PASS on committed SHAs. Two checker bugs of mine found by green runs (inverted skip, double count) — fixed.
+- App HEAD `e7c2034` (+VERIFIED `732fa9e`); planning `53d7977`; checklist COMPLETE 9/9 with evidence notes.
+- Standing-mandate note: placement/install/push decisions by manager (`DEC-0059`); review loop intact throughout.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
