@@ -1843,3 +1843,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Red-main incident 2 (2026-09-23): digest-guard push went red in CI on CRLF skew (digests over working-copy
   bytes, CI reads LF) — EXCEPTION under the amended rule (revert would reopen B-11/B-12 holes); forward-fix
   (LF-normalized recompute rule + digests) reviewed + CI green (run 35905794473 success).
+
+### OUT-3 Final Round Triage + Batch 3H (2026-09-23 - pending independent review)
+- 27/36 confirmed closed; residue worked: B-06 line-1 frontmatter on 13 records (anchored parser) +
+  E-PR-002 attribution corrected to corroborated-scope only; B-13 batch-2 entry added; B-31 CON-001
+  +T-E1-004/T-E1-005b (flows disk-verified); B-33 checkout pinned to server-verified fbc6f39 (node24);
+  B-07 binding sentence in PHASE_GATES Gate-8 block; B-02 timestamp-regex + zero-digest reject;
+  B-10 NEXT_ACTION protocol wording; B-19 MIGRATION title; off-list depth convention (8 nodes / 7 edges)
+  + full impact distribution; frontmatter YAML-strictness enforced (unquoted ": " + backticks FAIL);
+  wikilink edges counted separately (11 true wikilink vs 80 backticked); subject_file required on all records
+  (closes the valid-format-uncompared note prospectively).
+- B-01 governance + T3 activation remain owner questions (unchanged).
