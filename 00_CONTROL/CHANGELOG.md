@@ -1712,6 +1712,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
+### OUT-3 Batch 2 Fixes (B-11/13/14/19/21/32/35 — pending independent review)
+- B-11: AGENTS.md rule 9 rewritten to cite `DEC-0049` (supersedes DEC-0022); CURRENT_STATE line marked superseded;
+  HANDOFF entry 69; historical DEC-0022 sentences preserved as history.
+- B-13: `08_REPOSITORY_BOOTSTRAP/EVIDENCE/REVIEW_LOG.md` created (12 past reviews with session IDs; model field
+  honestly `harness-undisclosed`); future-entry format mandatory; T3 non-subagent leg PROPOSED pending owner.
+- B-14: T-E3-001 advanced READY→DONE (claimed_by/at added); routing_run excludes CLAIMED/IN_PROGRESS/REVIEW/DONE/
+  BLOCKED/CANCELLED explicitly + writes excluded map; E-PR-001 digest recomputed (`6793EA23…ABAB5`, prior preserved
+  in history); INDEX/routing regenerated.
+- B-19: 10 plan drafts frozen with superseded_by notes; 10 installed headers → INSTALLED.
+- B-21: matrix Verifier-coverage note (machine vs deferred mapping); checklist item 8 declaration-level recorded.
+- B-32: DENY += hot-update/hot update/code-push/code push (zero current matches, verified); never-list code patterns
+  deferred to product-code phase (no code to match yet; manual gates hold).
+- B-35: INDEX concurrency rule in TASK_REGISTRY (generated-only, regenerate-on-merge, no time/quota targets by design).
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,

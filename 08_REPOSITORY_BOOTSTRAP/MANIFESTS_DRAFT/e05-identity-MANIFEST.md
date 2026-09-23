@@ -1,6 +1,7 @@
 # MODULE MANIFEST — e05-identity (E5 Giriş + yetki + denetim)
 
 Status: REVIEWED PASS (round 1: CHANGES_REQUESTED 2 findings → narrow remediation; round 2: independent re-review PASS, no open findings, 2026-09-22; install address `modules/e05-identity/MANIFEST.md`)
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e05-identity/MANIFEST.md` is the single truth from here on; this draft is history, never edited.
 Record: `M-E5-001` (first claim in this draft; collisions rejected per identity standard)
 
 ## Purpose

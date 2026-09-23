@@ -187,7 +187,7 @@ Current user-approved working directions:
 - deep research and independent AI critique may be used;
 - Internal Data & Content Operations will be a browser-based web application;
 - desktop/desktop-wrapper form is outside the current direction unless the user explicitly reopens it.
-- Luna Max sub-agents may be used without additional permission; every other sub-agent model requires explicit user permission (`DEC-0022`).
+- Luna Max sub-agents may be used without additional permission; every other sub-agent model requires explicit user permission (`DEC-0022` — SUPERSEDED by `DEC-0049`, which delegates model choice to the manager; retained here as history).
 - external AIs prompted by the user may run in parallel without a numeric limit under `DEC-0041`; this does not expand
   the Codex sub-agent permission above.
 - offline downloads must be data-efficient and scoped to the selected motorcycle/task; heavy media is optional while compact safety/recovery content remains mandatory (`DEC-0023`).

@@ -1,6 +1,7 @@
 # MODULE MANIFEST — e10-graph (E10 Proje grafiği + görev altyapısı)
 
 Status: REVIEWED PASS (round 1: CHANGES_REQUESTED 2 findings → narrow remediation; round 2: independent re-review PASS, no open findings, 2026-09-22; install address `modules/e10-graph/MANIFEST.md`)
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/MANIFEST.md` is the single truth from here on; this draft is history, never edited.
 Record: `M-E10-001` (first claim in this draft; collisions rejected per identity standard)
 
 ## Purpose

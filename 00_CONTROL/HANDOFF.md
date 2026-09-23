@@ -546,6 +546,10 @@ Unless a newer explicit user decision changes the plan:
     `kavriva-app` README + `modules/e10-graph/checks/run_all.py`. Standing rules (review loop, honest
     records, per-gate approval) bind the next AI unchanged.
 
+69. OUT-3 B-11 closure (2026-09-23): `DEC-0049` (APPROVED, supersedes `DEC-0022`) delegates sub-agent model choice
+    to the manager; AGENTS.md rule 9 rewritten to cite it, CURRENT_STATE `DEC-0022` line marked superseded.
+    Historical `DEC-0022` sentences elsewhere in this log are preserved as history, not current authority.
+
 ## Gate Status
 
 Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-0048`. Gate 5 -> 6 PASSED on

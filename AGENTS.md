@@ -23,7 +23,7 @@ PASSED under `DEC-0048` on 2026-09-21 and Phase 5 (ADR) is complete with ADR-001
 6. Do not invent a roadmap. Select the next topic only from recorded open scope and identify the authority that makes it open.
 7. External AIs use GitHub + Google Drive, never the owner's computer. Each task has bounded context, deliverables, evidence and independent review.
 8. Multiple external AIs may receive the same frozen prompt in parallel, but they write separate outputs. Agreement is not an automatic PASS.
-9. Codex may use Luna Max sub-agents without renewed permission. Any other sub-agent model requires explicit user permission.
+9. Sub-agent model choice is delegated to the manager (`DEC-0049`, which supersedes `DEC-0022`); Luna Max remains the preferred default. Any other sub-agent model requires explicit user permission only where `DEC-0049` scope does not cover it.
 10. Do not mark a task DONE without its acceptance evidence and required independent review.
 11. When the recorded strategy-question set is complete, do not invent another debate merely to continue work and do not
     auto-start the next phase. Perform the applicable phase-gate readiness audit, separate legitimate later-phase HELD

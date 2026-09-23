@@ -1,6 +1,7 @@
 # MODULE MANIFEST — e08-content (E8 İçerik + ölçüm)
 
 Status: REVIEWED PASS (round 1: CHANGES_REQUESTED 2 findings → narrow remediation; round 2: independent re-review PASS, no open findings, 2026-09-22; install address `modules/e08-content/MANIFEST.md`)
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e08-content/MANIFEST.md` is the single truth from here on; this draft is history, never edited.
 Record: `M-E8-001` (first claim in this draft; collisions rejected per identity standard)
 
 ## Purpose
