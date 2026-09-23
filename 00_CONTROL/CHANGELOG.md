@@ -1666,6 +1666,17 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Recorded `E-PR-002` (app `1389a73`); owner-bypass push itself confirmed live gates ("Bypassed rule violations").
 - OPEN: B-02/03 code fixes + B-04/05/06/07 planning fixes (review loop required); OUT-2..5 pending; Gate 8 stays pending.
 
+### Retrospective Review: 10 Findings → All Closed PASS
+- Installed checks never had a formal review (spec-only PASS existed); independent retrospective review returned
+  CHANGES_REQUESTED (10): stale packs, DAG enforcement, T3 coverage, supersedes/surface, smoothing, basename
+  fallback (confirms OUT-1 B-03), cross-type IDs, exit-code overwrite (my bug), negation heuristic, CI triggers.
+- Narrow remediation: value-parsing conformance, unique-basename links, provision/runtime planes + unicode arrows +
+  section-scoped allowed, stale logic, active-row coverage, supersedes requirement, cross-type REJECT, max() codes,
+  same-clause negation, workflow types/schedule/t3-gate. Two content changes under change-request (e02 +1 arrow
+  sentence, E-PR-001 link precision) judged narrow/reasoned/consistent.
+- Suite green both modes locally; re-review PASS with adversarial probes all correct + CI green on HEAD.
+- App `73f050e`; my "false cycle" was a consumed-by attribution bug (self-loop ghost) — fixed with subject parsing.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
