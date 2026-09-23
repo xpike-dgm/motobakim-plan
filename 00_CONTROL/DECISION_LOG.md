@@ -1907,6 +1907,31 @@ pending until the protocol completes.
 
 ---
 
+## DEC-0061 — Push Discipline (Owner Bypass Audited, PR Default)
+**Date:** 2026-09-23
+**Status:** APPROVED (owner-approved under DEC-0062 mandate)
+
+Ruleset `main-gates` is ACTIVE on both repos (PR + 1 approval + dismiss-stale + required check + no-FF +
+no-deletion). Owner-role bypass exists and is used ONLY for manager pushes carrying explicit authorization
+(DEC-0059 standing mandate / DEC-0060 per-AI closures / DEC-0062 batch mandate); every bypass push logs the
+violations line remotely and lands as a recorded commit. All other changes go via pull request.
+Rationale: closes OUT-1 B-01-new and OUT-3 B-12 without breaking the manager loop; bypass without a covering
+authorization is a violation.
+
+---
+
+## DEC-0062 — Batch-3 Best-Judgment Mandate (Complete, No Corner-Cutting)
+**Date:** 2026-09-23
+**Status:** APPROVED (owner instruction: best professional judgment, complete option over convenient one)
+
+The manager decides and approves Batch-3 items by best judgment: sealed-doc edits (B-16/17/18 seam+epic, B-26
+acceptance criteria), scope additions (B-09 KVKK/store capabilities, B-25 measurement tasks), governance
+(B-12/DEC-0061, B-33 external triggers), new checks (B-07), wikilink conversion (B-06). The review loop
+(draft → different-context review → PASS) stays mandatory for every change; honest records continue; Gate 8
+passage still needs separate explicit approval.
+
+---
+
 ## DEC-0059 — Standing Phase-8 Execution Mandate (Best-Judgment + Push)
 **Date:** 2026-09-22
 **Status:** APPROVED

@@ -1712,7 +1712,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
-### OUT-3 Batch 2 CLOSED (review PASS + CI green)
+### OUT-3 Batch 3A CLOSED (B-06/07 review PASS + CI green)
+- 9 contract `used_by` lines (4 linked from declared consumption, 5 honest deferred); evidence_links wikilinked
+  (same targets; P-PROOF-001.md untouched — frozen run copy).
+- check_links parses `[[...]]` + edge count (102) + zero-edge FAIL; check_conformance strips brackets;
+  NEW check_trace + check_design, run_all 10/10 green both modes; installed spec copy carries the 2 rows.
+- Independent review PASS (adversarial probes correct; P-PROOF-001 vs planning-draft hash drift EXPECTED:
+  planning log is living, app copy frozen at run state — recorded, not hidden).
+- App `3d42879`.
 - Independent re-review PASS: digest recomputed-verified (`6793EA23…ABAB5`), routing excluded-map correct,
   zero DENY hits, full suite green; session IDs + counts verified against run records.
 - App `d0fb7fd`; planning `4ee7c1c`; CI green (run 35864045031 success).
