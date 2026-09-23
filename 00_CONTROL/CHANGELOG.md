@@ -1712,7 +1712,15 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
-### OUT-3 Batch 3C+3D (B-09/25 scope + B-33 governance — pending independent review)
+### OUT-5 Second Delivery Triage (EKSİK-TARAMA, SHAs plan `5f4c7ef` app `7e600f2`)
+- B-01 self-closed on their side (A: BULGU-YOK, `199/199`, `tail`=199) — separator fix confirmed by auditor.
+- B-02 unchanged informational (732 common-word hits) — non-defect, no action (recorded).
+- B-03/B-04 still BULGU-VAR on retired prompt premises (C2-empty, old G8 quotes) — hotfixed + confirmed since;
+  returned for re-evaluation with current prompt (no disk change needed).
+- B-05 still BULGU-VAR on spec-vs-wiring type difference — by design (spec ≠ implementation) + triggers since
+  added (types/schedule/t3-gate); returned with explanation, re-evaluate D.
+- Still EKSİK (9 unread globs) — round 2 continuation instructed, same session, current SHAs (plan `36d6645`,
+  app `d072427`).
 - New chains (capability→feature→flow→task→acceptance): C1.11/F1.11.1/FL1.11.1/T-E1-026 (account deletion, deps
   T-E1-015); C3.9/F3.9.1/FL3.9.1/T-E3-037 (billing gate, deps T-E3-001); C5.8/F5.8.1/FL5.8.1/T-E5-022 (KVKK rights,
   deps T-E5-001, HELD-acceptance expert review); C7.6/F7.6.1/FL7.6.1/T-E7-011 (store declarations, no deps);
