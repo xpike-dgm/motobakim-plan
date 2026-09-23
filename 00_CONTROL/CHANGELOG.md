@@ -1721,6 +1721,20 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   added (types/schedule/t3-gate); returned with explanation, re-evaluate D.
 - Still EKSİK (9 unread globs) — round 2 continuation instructed, same session, current SHAs (plan `36d6645`,
   app `d072427`).
+
+### OUT-1 B-01 Re-verified CLOSED (2026-09-23)
+- OUT-1 withdrew the zero-bypass expectation after verifying: `main-gates` ACTIVE both repos, non-owner direct
+  push rejected GH013 (run 4191120591), owner-bypass pushes logged remotely; E-PR-002 holds the rejection text;
+  DEC-0059 covers the authorization (DEC-0061 existed after its SHA — not counted by auditor, correctly).
+- OUT-1 status: 7/7 findings closed + B-01 re-verified; original A–Y battery still partial → continuation
+  instructed at current SHAs (plan `4b749f6`, app `d072427`).
+
+### OUT-4 Full Delivery Received — STALE, Re-run Required (2026-09-23)
+- OUT-4 delivered SİSTEM-SAĞLAM (0 open, full A–Y + inventory, zero unread) against OLD SHAs (plan `10caca6`,
+  app `73f050e`). Since then the tree changed materially: +6 tasks (199→205), +5 capabilities/features/flows,
+  +2 checks (8→10), seam stanza, epic cell, DONE-advanced proof row, wikilinks, secret-scan, triggers file.
+- A clean verdict on the old tree does not transfer. Returned for re-verification at current SHAs with RAW
+  Turkish quotes (its A-table paraphrased acceptances into English — fidelity unverifiable; raw quotes required).
 - New chains (capability→feature→flow→task→acceptance): C1.11/F1.11.1/FL1.11.1/T-E1-026 (account deletion, deps
   T-E1-015); C3.9/F3.9.1/FL3.9.1/T-E3-037 (billing gate, deps T-E3-001); C5.8/F5.8.1/FL5.8.1/T-E5-022 (KVKK rights,
   deps T-E5-001, HELD-acceptance expert review); C7.6/F7.6.1/FL7.6.1/T-E7-011 (store declarations, no deps);
