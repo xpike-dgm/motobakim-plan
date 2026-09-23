@@ -1723,7 +1723,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   brief frozen by design; recast as brief-maintenance note for the distributor (no disk change).
 - Batch 3E (B-08/09/10 + B-03 ruling) pending independent review.
 
-### OUT-1 Batch 3E CLOSED (review PASS + CI green)
+### OUT-1 B-10 Format Fix + OUT-5 Fourth Delivery Triage (2026-09-23)
+- B-10: all 18 REVIEW_LOG entries rewritten to strict 6-field shape with open counts (+ batch-3E entry added);
+  mechanical re-verification PASS (`ses_f311a3b16ffeGAhXoFZaOHmuvd`).
+- OUT-5 fourth delivery: full 206-task table, updated counts (83/106/115/206), new-check outputs recorded;
+  B-06 stands recast as brief-maintenance (no disk action); still EKSİK — round 2 continues same session.
 - B-08: DAG re-ran over 206 rows (acyclic, depth 8 via chain T-E1-001→…→T-E1-022b, samples 26/28/17/16/11/8/9/8).
 - B-09: manifest Links ranges extended (5 files, single-token diffs each).
 - B-10: 6 absent reviews appended (PROPOSED header verified ×1).
