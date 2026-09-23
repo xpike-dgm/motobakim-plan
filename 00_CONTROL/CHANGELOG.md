@@ -1817,3 +1817,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   account/purchase, Gate 8 still per-approval).
 - Step-6 matrix REVIEWED PASS (round 1, no findings) installed to `kavriva-app/modules/e10-graph/`
   (`7f69457`), byte-verified after copy.
+
+### OUT-1 Final Verdict Received: SISTEM-SAGLAM (valid for its SHAs, 2026-09-23)
+- Scope: plan `d19ebcc` + app `d65492e` (batch-3E era). B-01..B-10 closed, B-03-reopen withdrawn, 18 log entries
+  format-verified, 206th task acceptance confirmed. Zero unread claimed.
+- STALENESS NOTE (same rule as OUT-4): post-dates Batch-3F (plan `ffd03f3`, app `2eff825` - check rewrites,
+  frontmatter conversion, link surgery, doc refreshes; all independently reviewed PASS + CI green). Verdict
+  covers pre-3F tree; delta-verification of 3F requested from OUT-1 (not a full re-run).
