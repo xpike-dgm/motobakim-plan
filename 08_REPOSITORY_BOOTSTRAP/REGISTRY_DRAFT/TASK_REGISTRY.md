@@ -49,3 +49,4 @@ empty until the task produces evidence — never backfilled, never fabricated.
 2. Lifecycle states match protocol exactly, no invented state (manual check).
 3. No software/vendor/numeric selection (manual check).
 4. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/TASK_REGISTRY.md` is the single truth from here on; this draft is history, never edited.

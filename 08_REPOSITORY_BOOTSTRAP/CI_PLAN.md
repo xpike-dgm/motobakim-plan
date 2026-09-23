@@ -1,5 +1,4 @@
 # CI PLAN
 
-Status: EMPTY
-
-Hangi kalite kontrollerinin hangi event'lerde calisacagi, fail kosullari ve merge kapilari burada planlanir.
+Status: SUPERSEDED (binding content lives in `CI_DRAFT/CI_PLAN.md` + installed `kavriva-app/.github/workflows/`
+spec + runnable `checks.yml`; this stub kept as pointer only — OUT-3 B-30)

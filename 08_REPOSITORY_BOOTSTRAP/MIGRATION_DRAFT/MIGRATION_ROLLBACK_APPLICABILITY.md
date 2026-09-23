@@ -42,3 +42,4 @@ this file makes applicable — it writes no new module rule). Install address: `
 1. Every module owns exactly one matrix row pointing at its manifest + a policy (manual check — no orphan module).
 2. No rule redefined or contradicted (manual check vs the three Group-5 sources + DEC-0030).
 3. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/MIGRATION_ROLLBACK_APPLICABILITY.md` is the single truth from here on; this draft is history, never edited.

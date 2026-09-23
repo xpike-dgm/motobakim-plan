@@ -1,6 +1,6 @@
 # QUALITY GATES
 
-Status: PROPOSED (OUT-1 B-06 closure draft 2026-09-23; pending independent review; install record `Q-GATE-001`)
+Status: PROPOSED (OUT-1 B-06 closure draft 2026-09-23, declare-and-review verdict open; install record `Q-GATE-001`)
 
 Binding sources (single truth, not copied): Step-4 `CI_DRAFT/CI_PLAN.md` (events, fail conditions, merge gates);
 Step-3 `VALIDATION_DRAFT/VALIDATION_COMMANDS.md` (8 commands × tiers) + `ARCHITECTURE_TEST_SUITE.md` (signals

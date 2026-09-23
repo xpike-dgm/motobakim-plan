@@ -38,3 +38,4 @@ Companion: `TASK_REGISTRY.md` (this step). Install address: `modules/e10-graph/`
 2. Chain order + bidirectionality + open-link visibility match closure matrix (manual check).
 3. Manual-carry default + HELD actuation stated (manual check vs DEC-0051).
 4. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/ROUTING_AND_TRACEABILITY.md` is the single truth from here on; this draft is history, never edited.

@@ -10,3 +10,8 @@ Task-level safe return = ADR-015 §5 BLOCKED / change-request + Group-3 R-009 (n
 Layering: E6 executes release rollback (T-E6-013/014), E3 enforces restore quarantine and floors
 (T-E3-023/026/027); Phase-7 constrains, never operates; E3 restore quarantine stays consistent.
 No tool/vendor/CI selection, no numeric windows, no account/key/purchase/code/deployment.
+
+Repo + CI layer (added 2026-09-23, OUT-3 B-34 — under DEC-0062 mandate): red-`main` reverts the offending
+SHA (`git revert`, recorded here + CHANGELOG); forward-fix without revert is a rule violation and is
+recorded as such. Incident 2026-09-23: batch-1 push went red-bypassed and was forward-fixed — VIOLATION
+(recorded; cause: secret-scan fix urgency under active bypass; no recurrence: CI-required pushes stay green).

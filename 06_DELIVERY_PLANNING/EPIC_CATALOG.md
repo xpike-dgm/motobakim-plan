@@ -28,4 +28,3 @@ Row-status legend (clarification 2026-09-23, OUT-3 B-29 — semantics unchanged)
 - Dependency rules fixed per independent verification (2026-09-21): no E1↔E9 cycle (E9 proposes, E1 renders,
   E3 verifies); E4 is consumed by E1, not dependent on it; E7 builds against E3/E6 with E1 output validated in
   acceptance, not as a dependency; E6 owns signing custody policy, E7 owns lane execution; E2 consumes E8 outputs.
-|---|---|---|---|---|

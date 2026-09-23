@@ -45,3 +45,4 @@ shape fields); `RULES/README.md` (R-001..R-014 + rule→gate mapping, invoked ne
 2. Tiers cover all 10 epics' task classes with no epic unassigned (manual check vs `EPIC_CATALOG.md`).
 3. No vendor/number/implementation selection smuggled (manual check vs guardrails above).
 4. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/checks/VALIDATION_COMMANDS.md` is the single truth from here on; this draft is history, never edited.

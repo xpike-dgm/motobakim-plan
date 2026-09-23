@@ -6,8 +6,8 @@ Motobakim / consumer-facing working brand: Kavriva
 ## Persistent Memory
 `xpike-dgm/motobakim-plan`
 
-## Current Phase
-`PHASE-4 / TECHNOLOGY STRATEGY — ACTIVE / NO-CODE / INTERNAL WEB DIRECTION APPROVED`
+## Current Phase (refreshed 2026-09-23; OUT-3 B-10 — was Phase-4)
+`PHASE-8 / PROOF COMPLETE / GATE 8 PENDING ON FIVE-AI PROTOCOL (DEC-0060) / NO PRODUCT CODE`
 
 ## Latest Phase-4 Work
 

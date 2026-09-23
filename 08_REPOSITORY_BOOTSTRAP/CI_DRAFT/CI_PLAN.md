@@ -56,3 +56,4 @@ is installation after PASS + owner approval.
 2. Every T1/T2/T3 class has a blocking gate (manual check — no tier merges on lights alone where review required).
 3. No vendor-beyond-GitHub / numeric / implementation selection (manual check vs guardrails).
 4. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/.github/workflows/CI_PLAN.md` is the single truth from here on; this draft is history, never edited.

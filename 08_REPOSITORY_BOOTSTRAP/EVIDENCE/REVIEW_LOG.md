@@ -25,15 +25,15 @@ explicitly (gap recorded, not hidden).
 - 2026-09-22 | ses_f3446010cffeWk5teJ85XPJBqi / ses_f344385d7ffeCUBgF1hp24L25Q (model: harness-undisclosed) | Step-7 fresh-session round 1+2, PROOF_PACK | INSUFFICIENT(5) then SUFFICIENT+MATCH | closed-5 open-0 | n/a pre-B convention
 - 2026-09-22/23 | ses_f3441fd30ffe2Rji6DqZlzil1f / ses_f34325832ffe98kuVc6nGySj0T / ses_f342f31ffffeiXKmnBlHUjleDz (model: harness-undisclosed) | Gate-8 audit + re-audit round 2, bootstrap tree | BLOCKED(6) then PASS | closed-6 open-0 | n/a pre-B convention
 - 2026-09-23 | ses_f34347c5cffeMkLahY37SUDRtI (model: harness-undisclosed) | E-PR-001 verification, proof artifacts | VERIFIED 7/7 | closed-0 open-0 | none
-- 2026-09-23 | ses_f31f77862ffeAvL2IeZLN3 / ses_f31e82a51ffeEvCFSW9TsVSQdd (model: harness-undisclosed) | Retrospective checks review + re-review, checks x12 + workflow | CHANGES_REQUESTED(10) then PASS | closed-10 open-0 | R-01..R-10 review-local
+- 2026-09-23 | ses_f31f77862ffeAvL2IeZLN3 / ses_f31e82a51ffeEvCFSW9TsVSQdd (model: harness-undisclosed) | Retrospective checks review + re-review, checks x11 + workflow | CHANGES_REQUESTED(10) then PASS | closed-10 open-0 | R-01..R-10 review-local
 - 2026-09-23 | ses_f31d9fee8ffe8brqS3Jgp1qjLU (model: harness-undisclosed) | OUT-1 planning fixes B-04/05/06/07 | PASS | closed-0 open-0 | OUT-1 B-04..B-07 verified shut
 - 2026-09-23 | ses_f31b5a3ccffe79hbVS16YYnqH0 / ses_f31b38d04ffe7fAUCL37nCNYN4 (model: harness-undisclosed) | OUT-3 batch 1 B-22/23/24/28/29/34 | CHANGES_REQUESTED(1) then PASS | closed-1 open-0 | batch-local 1
-- 2026-09-23 | ses_f31e82a51ffeEvCFSW9TsVSQdd (model: harness-undisclosed) | Retrospective re-review, 10 check fixes | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f319dd499ffe5ge8frqi5CH2Hy (model: harness-undisclosed) | OUT-3 batch 3A B-06/07 wikilinks + trace/design | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f318e9efdffe7Lpbb61Dys3JrC / ses_f318ba89bffeiCuKf4QjOEhBTW (model: harness-undisclosed) | OUT-3 batch 3B B-16/17/18/26 sealed docs | CHANGES_REQUESTED(2) then PASS | closed-2 open-0 | batch-local 2
 - 2026-09-23 | ses_f3184ebcdffeWxxGdaR6PlL7tt / ses_f317f4769ffegEFNac3h2a50HN (model: harness-undisclosed) | OUT-3 batch 3C B-09/25/33 scope + triggers | CHANGES_REQUESTED(3) then PASS | closed-3 open-0 | batch-local 3
 - 2026-09-23 | ses_f31361f91ffefYdzXgazgeUmxY (model: harness-undisclosed) | OUT-3 batch 3D B-15/31/36 | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f312b0deaffeqeO8LLhL56pg6T (model: harness-undisclosed) | OUT-1 batch 3E B-08/09/10 | PASS | closed-0 open-0 | OUT-1 B-08..B-10 verified shut
+- 2026-09-23 | ses_f311a3b16ffeGAhXoFZaOHmuvd (model: harness-undisclosed) | REVIEW_LOG format re-verification | PASS | closed-0 open-0 | none
 
 ## PROPOSED (pending owner approval, NOT in force)
 

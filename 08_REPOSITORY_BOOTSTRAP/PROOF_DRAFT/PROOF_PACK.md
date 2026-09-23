@@ -48,3 +48,6 @@ Binding sources: `TASK_REGISTRY.md` + `ROUTING_AND_TRACEABILITY.md` (Step 5); St
 - [x] Gate 8 readiness audit round 1: BLOCKED on 3 procedural items only (uncommitted evidence) → closed:
   E-PR-001 VERIFIED committed+pushed (`732fa9e`), PROOF_PACK tracked here, checklist flipped with evidence;
   round 2 re-audit PASS (all items CLOSED on committed SHAs, CI green, deferrals recorded) — Gate 8 approval pending owner
+Record note (OUT-3 B-19, 2026-09-23): this file is the LIVING proof log (report section keeps growing);
+the installed copy at `kavriva-app/vault/PACKS/P-PROOF-001.md` is the FROZEN run artifact (byte-identical at run
+time). Two roles, no conflict: log lives here, evidence sleeps there.

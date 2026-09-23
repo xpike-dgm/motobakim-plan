@@ -1723,7 +1723,29 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   brief frozen by design; recast as brief-maintenance note for the distributor (no disk change).
 - Batch 3E (B-08/09/10 + B-03 ruling) pending independent review.
 
-### OUT-1 B-10 Format Fix + OUT-5 Fourth Delivery Triage (2026-09-23)
+### OUT-3 Batch 3F (code + docs — pending independent review)
+- Code: conformance verdict-set + digest-hex + orphan-nonrecord + trace test_id-match; links rewritten exact
+  (bare in-app-only, planning full-path, frozen-legacy triple); 16 files migrated to `planning <full-path>`;
+  set = full paths only + FROZEN_BARE triple; check_presence (25 addresses); check_design own-range; E-PR-002
+  digest/verdict fixed.
+- Docs: B-10 leftovers (README/registry/gates/date/handoff/next), B-13 append, label flips, B-19 (5 headers +
+  7 freezes + README), B-21 checklist align, B-22 sentence removed, B-27 (3 separators), B-30 (2 stubs),
+  B-34 (strategy layer + incident), B-33 Node acceptance, B-07 binding note.
+- Ruled (no disk change): B-29 legend, B-31 O-table (gate+arbitration), B-03 unique-basename by design.
+- Review round 1 (CHANGES_REQUESTED, 9 findings) remediation:
+  E-PR-002 digest recomputed over current bytes (CRLF cause noted); dead by_id removed; unprefixed-full-path
+  fallback deleted + 38 refs migrated to `planning <full-path>`; frozen skip restored for P-PROOF-001 only;
+  PHASE_GATES deduped (+ stale counts annotated, not rewritten); REVIEW_LOG deduped (19 unique); 3 label flips
+  reverted to pending until PASS; B-27 trio verified gone; "12 checks" claim absent from all files (11 checks;
+  reviewer miscount noted for re-verification).
+- Code: conformance verdict-set + digest-hex + orphan-nonrecord + trace test_id-match; links rewritten exact
+  (bare in-app-only, planning full-path, frozen-legacy triple); 16 files migrated to `planning <full-path>`;
+  set = full paths only + FROZEN_BARE triple; check_presence (25 addresses); check_design own-range; E-PR-002
+  digest/verdict fixed.
+- Docs: B-10 leftovers (README/registry/gates/date/handoff/next), B-13 append, label flips, B-19 (5 headers +
+  7 freezes + README), B-21 checklist align, B-22 sentence removed, B-27 (3 separators), B-30 (2 stubs),
+  B-34 (strategy layer + incident), B-33 Node acceptance, B-07 binding note.
+- Ruled (no disk change): B-29 legend, B-31 O-table (gate+arbitration), B-03 unique-basename by design.
 - B-10: all 18 REVIEW_LOG entries rewritten to strict 6-field shape with open counts (+ batch-3E entry added);
   mechanical re-verification PASS (`ses_f311a3b16ffeGAhXoFZaOHmuvd`).
 - OUT-5 fourth delivery: full 206-task table, updated counts (83/106/115/206), new-check outputs recorded;

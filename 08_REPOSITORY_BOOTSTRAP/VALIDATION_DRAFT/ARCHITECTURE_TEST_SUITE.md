@@ -44,3 +44,4 @@ Companion: `VALIDATION_COMMANDS.md` (this step; command addresses + tiers). Inst
 2. Conformance 8-field shape referenced, not redefined (manual check — no field-name drift).
 3. No implementation/vendor/number selection (manual check).
 4. Reviewer verdict PASS, zero open findings, different context (R-007).
+Superseded-by (OUT-3 B-19, 2026-09-23): frozen record — installed copy at `kavriva-app/modules/e10-graph/checks/ARCHITECTURE_TEST_SUITE.md` is the single truth from here on; this draft is history, never edited.

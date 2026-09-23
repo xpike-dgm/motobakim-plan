@@ -29,8 +29,8 @@ Destek klasorleri:
 
 Bir klasorun mevcut olmasi o asamanin tamamlandigi anlamina gelmez. Gecis kosullari `00_CONTROL/PHASE_GATES.md`, belge durumlari `00_CONTROL/DOCUMENT_REGISTRY.md` tarafindan izlenir.
 
-## Mevcut Durum
+## Mevcut Durum (2026-09-23; OUT-3 B-10 — eskiden Faz-4 diyordu)
 
-Phase 1 calisma sistemi, Phase 2 urun kesfi ve Phase 3 tasarim tamamlandi. Gate 3 -> 4 PASSED; Phase 4 teknoloji stratejisi ACTIVE. Planlama no-code'dur. Flutter, Android-first yayin sirasi, browser-based Internal Operations, API/data/offline/identity/runtime/web ve kontrollu CMS-yayin sinirlari Phase-4 working direction seviyesinde kayitlidir. Exact provider/framework/plan ve Phase-5 ADR'ler aciktir; Gate 4 -> 5 kapali kalir.
-
-Tek guncel devam noktasi: `00_CONTROL/NEXT_ACTION.md`.
+Phase 1–7 tamamlandi (Gate 7 -> 8 `DEC-0057` ile PASSED); Phase 8 repository bootstrap proof-complete
+(checklist 9/9 kanıtlı); Gate 8 onayı beş-AI kapanış protokolü (`DEC-0060`) bitimine bağlı olarak bekliyor.
+Planlama no-code'dur (ürün kodu yok). Tek guncel devam noktasi: `00_CONTROL/NEXT_ACTION.md`.

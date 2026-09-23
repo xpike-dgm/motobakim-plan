@@ -16,6 +16,11 @@ holds until re-verification PASS. Silence is not consent: an unlisted change ope
 | Google Drive loss (review evidence links) | DEC-0040 workflow + review evidence (REVIEW_LOG) | Mirror critical evidence into planning repo; new DEC if workflow changes |
 | Model/provider price or retirement (AI path) | C9.2/C9.3 + E9 manifest | Re-evaluate adapters; deterministic fallback carries users |
 
+Accepted-risk note (2026-09-23, OUT-3 B-33): CI emits a Node-20 deprecation warning on `actions/checkout@v4`.
+Action pinning needs a verified commit hash the manager does not hold and will not invent; `@v4` stays with
+this note until a trustworthy hash arrives (owner-provided or network-verified session). The trigger above
+stays armed: runtime removal reopens the CI gates immediately.
+
 ## DEC-0063 — External-Change Trigger Rule
 **Date:** 2026-09-23
 **Status:** APPROVED (under DEC-0062 mandate)
