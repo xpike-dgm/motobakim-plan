@@ -1877,3 +1877,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Delta verdict carries the full verdict forward; Wave-A/B entries verified (34/44, strict, cited).
 - Both trees verified clean at these SHAs. No open findings on OUT-1 side. Explicitly NOT Gate-8 approval.
 - OUT-1 DONE unless the tree changes (any future change re-opens delta duty per DEC-0060).
+
+### OUT-5 Fifth Delivery Triage (EKSIK-TARAMA, SHAs d19ebcc/d65492e, 2026-09-23)
+- B-07 (dirty-tree gate failure): artifact of uncommitted mid-batch state at audit time. The cited files are
+  committed since (HEAD app 1ca962d clean); suite green both modes + CI green (run 35907934904). CLOSED as
+  dirty-state artifact (verified, not argued). Bare-token verdict matching confirmed in committed code.
+- No missing commit: HEAD history verified complete (3c786d6 -> 2eff825 -> d642e00 -> 65fc70f -> 0e312a2 ->
+  1ca962d); remote HEAD matches local. Earlier batch-name confusion in messages acknowledged; SHAs authoritative.
+- Still EKSIK (unread ranges remain) - round 2 continues same session at current SHAs.
