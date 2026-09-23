@@ -1,6 +1,6 @@
 # Next Action — Single Current Work Pointer
 
-Status: `PHASE 8 STEP 4 INSTALLED / STEP 5 DRAFT NEXT`
+Status: `PHASE 8 STEP 5 INSTALLED / STEP 6 DRAFT NEXT`
 Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
 Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
 
@@ -23,11 +23,14 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
 - Step-4 CI plan REVIEWED PASS (2 rounds, 2 findings closed) + installed to `kavriva-app`
   `.github/workflows/CI_PLAN.md` (`326fa9b`, owner-approved `tamam devam et` 2026-09-22). Runnable YAML
   wiring arrives with later-step proof; "çalışıyor" boxes stay unchecked until then.
+- Step-5 registry specs REVIEWED PASS (round 1, no findings) + installed to `kavriva-app`
+  `modules/e10-graph/` (`dd2d4ab`; push approved 2026-09-22, placement delegated to manager).
+  Row migration + proof arrive in Step 7.
 
 ## Immediate Next Manager Action
 
 1. Push the approved records batch with the given authorization.
-2. Then draft the Phase-8 Step-5 task registry + context routing + traceability (draft → independent
+2. Then draft the Phase-8 Step-6 migration/rollback applicability (draft → independent
    review → PASS before installation); no construction beyond the approved plan.
 
 ## Hard Boundaries

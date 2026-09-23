@@ -1633,3 +1633,12 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   `.github/workflows/CI_PLAN.md` (`326fa9b`), byte-verified after copy (spec-only; runnable YAML wiring
   arrives with later-step proof, per approved install definition).
 - "CI kalite kapıları çalışıyor" box stays UNCHECKED until YAML wiring is proven.
+
+### Phase 8 Step 5 — Registry Specs REVIEWED PASS + Installed
+- `TASK_REGISTRY.md` (8-column schema, per-task records, migration/`supersedes` rule, `V-REG-001`) +
+  `ROUTING_AND_TRACEABILITY.md` (router rules, 10-layer bidirectional chain, `V-RT-001`): round-1
+  independent review PASS, no open findings.
+- Push approved by owner (`push onaylandı`) 2026-09-22; install placement delegated to manager
+  ("en iyi şekilde olsun"): specs installed to owner capsule `kavriva-app/modules/e10-graph/`
+  (`dd2d4ab`), NOT inside `vault/` record folders (those receive real rows later); byte-verified after copy.
+- "Task registry/context routing çalışıyor" box stays UNCHECKED until rows are migrated + proven (Step 7).
