@@ -1844,7 +1844,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   bytes, CI reads LF) — EXCEPTION under the amended rule (revert would reopen B-11/B-12 holes); forward-fix
   (LF-normalized recompute rule + digests) reviewed + CI green (run 35905794473 success).
 
-### OUT-3 Final Round Triage + Batch 3H (2026-09-23 - pending independent review)
+### OUT-3 Final Round Triage + Batch 3H (2026-09-23 — CLOSED final re-review PASS)
 - 27/36 confirmed closed; residue worked: B-06 line-1 frontmatter on 13 records (anchored parser) +
   E-PR-002 attribution corrected to corroborated-scope only; B-13 batch-2 entry added; B-31 CON-001
   +T-E1-004/T-E1-005b (flows disk-verified); B-33 checkout pinned to server-verified fbc6f39 (node24);

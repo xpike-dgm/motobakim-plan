@@ -43,6 +43,12 @@ explicitly (gap recorded, not hidden).
 
 - 2026-09-23 | ses_f3064501dffeGrQNDqN1u6np64 (model: harness-undisclosed) | OUT-1 delta B-11/B-12 digest guards | PASS | closed-0 open-0 | OUT-1 B-11/B-12 verified shut
 
+- 2026-09-23 | ses_f3054ca01ffe66Xct9n4jVUA1F (model: harness-undisclosed) | OUT-3 batch 3G docs wave, tree a11b61f/d642e00 | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f305f89b2ffeKDkFiFQ5XurO0I (model: harness-undisclosed) | Digest normalization (LF rule + digests), tree 0e312a2 | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f305d4a4fffeppSeaoIv8JAPfr (model: harness-undisclosed) | Rollback exception amendment verify | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f30bc23abffe8DH2SRIXjtaLmG (model: harness-undisclosed) | Flips + log-append micro-verify | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f2f7aa83affepX8xMYuL8oFsmt (model: harness-undisclosed) | OUT-1 delta log-entry verify | PASS | closed-0 open-0 | none
+
 ## PROPOSED (pending owner approval, NOT in force)
 
 T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
