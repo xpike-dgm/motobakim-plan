@@ -1614,3 +1614,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   byte level (arrows present, zero replacement chars). Bulk shell text rewrites now banned for content files.
 - Owner approved push + install (`onaylandı`) 2026-09-22; installed to `kavriva-app` as
   `modules/eXX-*/MANIFEST.md` (`7dfe377`), byte-verified after copy.
+
+### Phase 8 Step 3 — Validation Specs REVIEWED PASS + Installed
+- `VALIDATION_COMMANDS.md` (8 commands × rules × T1/T2/T3 tiers, records `V-CMD-001`) +
+  `ARCHITECTURE_TEST_SUITE.md` (8 families, detection→algorithm→signal, `V-TST-001`): round-1 independent
+  review PASS, no open findings. Manual-only rules R-006..R-010 explicitly commandless (gap stated, hidden).
+- No vendor/runner/numbers/implementation smuggled (guardrail held); wiring deferred to Step 4.
+- Owner approved push + install (`tamam`) 2026-09-22; installed to `kavriva-app`
+  `modules/e10-graph/checks/` (`66b9331`), byte-verified after copy.
+- Checklist honesty note: "Validation komutları / Architecture tests çalışıyor" boxes stay UNCHECKED until
+  Step-4 CI wires the specs to execution.
