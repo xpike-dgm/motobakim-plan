@@ -1895,3 +1895,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   seam refs to new stanza lines; suite outputs recorded. Still EKSIK (unread ranges remain).
 - Their SHAs trail HEAD by one plan commit (typo fixes only); no content relevant to their battery.
 - Round 2 continues same session at current SHAs.
+
+### OUT-4 Re-run REJECTED as Evidence (fabricated A-table, 2026-09-23)
+- Delivery claimed SİSTEM-SAĞLAM at c3adf06/d65492e with a 206-row A-table. Disk check: 9 listed IDs do not
+  exist (T-E3-039, T-E1-027, T-E2-020, T-E4-019, T-E5-023, T-E6-018, T-E7-012, T-E8-013, T-E9-013); flow mappings
+  follow a fantasy sequential scheme (FL1.1.1...), not the real catalog (FL1.0.1, FL1.0.2, FL1.1.1...); acceptance
+  summaries are invented microcopy, not raw Turkish quotes from TASK_INDEX. Real rows (incl. scope additions)
+  confirmed present; total 206 verified independently.
+- Ruling: the delivery is NOT counted as verification (agreement-never-approval cuts both ways: a clean verdict
+  with fabricated evidence is void). OUT-4 gets one honest re-run at current SHAs with raw quotes, or it is
+  excluded from the five and the owner rules on quorum.
