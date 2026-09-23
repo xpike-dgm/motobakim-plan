@@ -1905,3 +1905,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Ruling: the delivery is NOT counted as verification (agreement-never-approval cuts both ways: a clean verdict
   with fabricated evidence is void). OUT-4 gets one honest re-run at current SHAs with raw quotes, or it is
   excluded from the five and the owner rules on quorum.
+
+### OUT-5 Seventh Delivery: Evidence Quality FAIL (EKSIK stands, 2026-09-23)
+- Delivery claimed full inventory line counts; disk check: MODULE_BOUNDARIES 29 vs 28, ROLLBACK_STRATEGY 175 vs
+  20, TASK_EXECUTION_PROTOCOL 225 vs 15, AI_CODING_PROTOCOL 215 vs 26, VALIDATION_STRATEGY 160 vs 14.
+- Suite outputs show stale 10-check/102-edge era on a tree with 11 checks and 91 split edges.
+- A-table acceptances match disk (real work); counts right. Ruling: evidence unreliable - round 2 must carry
+  real command outputs at current SHAs. Same standard applied as OUT-4 rejection.
