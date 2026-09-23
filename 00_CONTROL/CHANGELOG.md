@@ -1860,3 +1860,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   FAILs on HEAD. Closed with evidence, not argument.
 - B-13: missing session entry added + micro-verified PASS; 24 strict entries, 34 unique sessions.
 - App unchanged (rule already in `1ca962d`); planning `ba54a01`.
+
+### OUT-1 FINAL VERDICT: SISTEM-SAGLAM (scoped plan a00c5e7 + app 1ca962d, 2026-09-23)
+- B-11/B-12 attacks replicated FAIL both modes on separate copies; B-13 logged (24 entries, 34 unique);
+  normal audits + CI green; red-run + exception recorded. Explicitly NOT a Gate-8 approval.
+- STALENESS NOTE: post-dates plan 9cdb505 (strategy exception revert, 5 log entries, 3H header flip;
+  reviewed ses_f2f74c30 except the 1-line header flip). App unchanged (1ca962d). Delta verification requested.
