@@ -1839,3 +1839,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - B-12 (format-without-match): subject_file field added to both records; digests recomputed against subjects
   (zero-digest + mismatch + path-escape probes all FAIL).
 - Independent review PASS with replicated attacks; only 3 files touched. App `65fc70f`.
+
+- Red-main incident 2 (2026-09-23): digest-guard push went red in CI on CRLF skew (digests over working-copy
+  bytes, CI reads LF) — EXCEPTION under the amended rule (revert would reopen B-11/B-12 holes); forward-fix
+  (LF-normalized recompute rule + digests) reviewed + CI green (run 35905794473 success).
