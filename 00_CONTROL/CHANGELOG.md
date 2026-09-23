@@ -1737,6 +1737,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   final re-review PASS (digests verified, both modes green at 92 edges, attack fails both modes, 22 strict log
   entries, labels flipped post-verdict only).
 - App `2eff825`; planning `0c83c02`; CI green (run 35893397204 success).
+- Post-verdict flips + log appends micro-verified PASS (`ses_f30bc23abffe8DH2SRIXjtaLmG`): 5 labels, 22 strict
+  entries (21 open-0 + round-1 open-9, 32 unique sessions).
 - B-10: all 18 REVIEW_LOG entries rewritten to strict 6-field shape with open counts (+ batch-3E entry added);
   mechanical re-verification PASS (`ses_f311a3b16ffeGAhXoFZaOHmuvd`).
 - OUT-5 fourth delivery: full 206-task table, updated counts (83/106/115/206), new-check outputs recorded;
