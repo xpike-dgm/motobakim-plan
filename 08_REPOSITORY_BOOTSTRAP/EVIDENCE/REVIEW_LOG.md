@@ -41,6 +41,8 @@ explicitly (gap recorded, not hidden).
 
 - 2026-09-23 | ses_f31a764e8ffe655qwpSncH98oF (model: harness-undisclosed) | OUT-3 batch 2 B-11/13/14/19/21/32/35 | PASS | closed-0 open-0 | none
 
+- 2026-09-23 | ses_f3064501dffeGrQNDqN1u6np64 (model: harness-undisclosed) | OUT-1 delta B-11/B-12 digest guards | PASS | closed-0 open-0 | OUT-1 B-11/B-12 verified shut
+
 ## PROPOSED (pending owner approval, NOT in force)
 
 T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
