@@ -34,6 +34,10 @@ explicitly (gap recorded, not hidden).
 - 2026-09-23 | ses_f31361f91ffefYdzXgazgeUmxY (model: harness-undisclosed) | OUT-3 batch 3D B-15/31/36 | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f312b0deaffeqeO8LLhL56pg6T (model: harness-undisclosed) | OUT-1 batch 3E B-08/09/10 | PASS | closed-0 open-0 | OUT-1 B-08..B-10 verified shut
 - 2026-09-23 | ses_f311a3b16ffeGAhXoFZaOHmuvd (model: harness-undisclosed) | REVIEW_LOG format re-verification | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f30dd231effeW0TBE45nS0XFRc (model: harness-undisclosed) | OUT-3 batch 3F code round 1 | CHANGES_REQUESTED(9) then remediation | closed-0 open-9 | 3F-code R-01..R-09
+- 2026-09-23 | ses_f30c91edfffeWvq513HeJwEeRd (model: harness-undisclosed) | OUT-3 batch 3F code round 2 (micro, 3 items) | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f30c5b567ffeej58JE6ArcrZ6D (model: harness-undisclosed) | OUT-3 batch 3F code round 3 (micro scope artifact) | PASS | closed-0 open-0 | none
+- 2026-09-23 | ses_f30c28ea9ffeuYSg4MrnIGV2Sq (model: harness-undisclosed) | OUT-3 batch 3F final re-review (12 items) | PASS | closed-9 open-0 | 3F R-01..R-09 + micro 3
 
 ## PROPOSED (pending owner approval, NOT in force)
 

@@ -16,7 +16,7 @@ declared in this table by the authoring task that first needs it, and pass indep
 undeclared seam use is a violation. New seams follow
 the same declare-and-review rule.
 
-Invoke/gate/reference stanza (added 2026-09-23 under DEC-0062, OUT-3 B-16/17 — declare-and-review verdict open;
+Invoke/gate/reference stanza (added 2026-09-23 under DEC-0062, OUT-3 B-16/17 — declare-and-review PASS 2026-09-23;
 NON-RUNTIME: these rows never enter the dependency DAG and are enforced by review R-007, not by cycle detection;
 prose form is deliberate — arrow syntax would falsely promote them to runtime edges):
 E2 invokes E6 flows invoke-only (E2 renders WS-07/WS-11 invoke surfaces T-E2-004/T-E2-005/T-E2-016; E6 authorizes and executes;

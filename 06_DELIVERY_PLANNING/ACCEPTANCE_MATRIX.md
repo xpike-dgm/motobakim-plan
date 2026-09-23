@@ -195,7 +195,7 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | ENTITLEMENT SET Q-0020/0026/0046/0047/0065–0069 + DEC-0053: 1 bike free, paid slots, subscription → 3, full guide for 1 selected bike (moves, never stacks); prices/packages/switch-rules HELD | F1.7.1 | FL1.7.1 | T-E1-014a, T-E1-014b (+ server checks E3/E5) | gate |
 | TSQ-001-narrow: Flutter/Dart channels, plugin allowlist, device/OS matrix | NONE (HELD by design; authority: DEC-0054 + ADR-008 revisit triggers) | NONE | NONE | HELD |
 
-## Measure definitions + vagueness arbitration (2026-09-23, OUT-3 B-26 — declare-and-review verdict open)
+## Measure definitions + vagueness arbitration (2026-09-23, OUT-3 B-26 — declare-and-review PASS 2026-09-23)
 
 - CON-004/F10.6.1 measure (covers the novice-copy family T-E1-005a/b/c, 006/007/008/009/010): a fixed reading-test
   question set (what/why/next-step per screen, answered by a first-time-reader profile) + pass rule (all questions
@@ -218,7 +218,7 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | OPEN safe-closure criteria: per-category content (expert + second review), E3-verified, E1-rendered | F1.3.3 | FL1.3.5 | T-E1-023, T-E1-024 | gate |
 | Q-0066/Q222/Q227: pre-step correction + MAY-open renewal per server decision, window HELD | F1.7.1 | FL1.7.2 | T-E1-025 | gate |
 
-## Gap-closure additions 2 (2026-09-21 OUT-1 B-04; 2026-09-23 OUT-3 B-16/17 — declare-and-review verdict open)
+## Gap-closure additions 2 (2026-09-21 OUT-1 B-04; 2026-09-23 OUT-3 B-16/17 — declare-and-review PASS 2026-09-23)
 
 Six tasks had no matrix row (orphan-trace gap against the Step-5 "none" claim corrected below):
 
@@ -253,7 +253,7 @@ Six tasks had no matrix row (orphan-trace gap against the Step-5 "none" claim co
 - SIMULATION tasks (17): T-E1-006,007,008,009,011,012,013; T-E2-003,004,005,007a,007b,009,012,014,015,016.
 - GATE tasks (7): T-E1-014a,014b,023,024,025; T-E2-008,013. (47 = E1 30 + E2 17.)
 
-## Gap-closure additions 3 (2026-09-23, OUT-3 B-09/B-25 — declare-and-review verdict open)
+## Gap-closure additions 3 (2026-09-23, OUT-3 B-09/B-25 — declare-and-review PASS 2026-09-23)
 
 Compliance + measurement scope (DEC-0062 mandate; legal outcomes never AI-decided per ADR-014):
 
