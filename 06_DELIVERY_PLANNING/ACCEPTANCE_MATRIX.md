@@ -154,8 +154,8 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | ADR-014 R6: never-15 verbatim + HOLD-on-ambiguity | F9.6.1 | FL9.6.1 | T-E9-009, T-E9-010 | review |
 | ADR-014 R7: project AI discipline + externals notice (ref F10.7.1) | F9.7.1 | FL9.7.1 | T-E9-011 | review |
 | CON-001: fit-specific info, generic never bike-specific | F9.1.1 | FL9.1.1 | T-E9-002 | review |
-| CON-002: no fabricated values | F9.6.1 | FL9.6.1 | T-E9-009, T-E9-010 | review |
-| CON-003: risk/safety warnings never hidden | F4.1.1, F9.6.1 | FL4.1.1, FL9.6.1 | T-E4-001, T-E9-009 | review |
+| CON-002: no fabricated values | F9.6.1, F1.2.2, F8.3.1 | FL9.6.1, FL1.2.2, FL8.3.1 | T-E9-009, T-E9-010, T-E1-019a, T-E8-006 | test |
+| CON-003: risk/safety warnings never hidden | F4.1.1, F9.6.1, F1.3.2 | FL4.1.1, FL9.6.1, FL1.3.4 | T-E4-001, T-E9-009, T-E1-022b | review |
 | ADR-013 R1: Android continuity checklist, execution-only | F7.1.1 | FL7.1.1 | T-E7-001, T-E7-002 | review |
 | ADR-013 R2 + TSQ-008-narrow: iOS 5-proof gate, no commitment | F7.2.1 | FL7.2.1 | T-E7-003a, T-E7-003b, T-E7-003c | gate |
 | ADR-013 R3: separation of powers; provider never owns | F7.3.1 | FL7.3.1 | T-E7-004, T-E7-005 | review |
@@ -267,3 +267,4 @@ Compliance + measurement scope (DEC-0062 mandate; legal outcomes never AI-decide
 | Store declarations (Data-Safety/privacy-label/age-gate) current | F7.6.1 | FL7.6.1 | T-E7-011 | review |
 | C4.8 HELD numbers closed by corpus + device-matrix measurement | F4.9.2 | FL4.9.2 | T-E4-018 | gate |
 | Measurement evidence inside 10-layer closure | F10.4.1 | FL10.4.1 | T-E10-017 | review |
+| Provider billing watch (weekly invoice reading; GitHub Pro carded) | F3.7.1 | FL3.7.1 | T-E3-038 | gate |

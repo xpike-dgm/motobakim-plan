@@ -209,3 +209,4 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E7-011 | FL7.6.1/F7.6.1 | Store declaration inventory | — | C7.6 + E6 refs | Declarations inventoried per store; drift re-checked on policy change | PROPOSED |
 | T-E4-018 | FL4.9.2/F4.9.2 | Corpus + device-matrix measurement | — | C4.9 + C4.8 HELD list | Corpus + matrix recorded; sizes/areas/durations measured as evidence closing C4.8 | PROPOSED |
 | T-E10-017 | FL10.4.1/F10.4.1 | Measurement-evidence closure | — | C10.4 closure; C4.8 evidence | Measurement evidence enters 10-layer closure; gaps stay visible | PROPOSED |
+| T-E3-038 | FL3.7.1/F3.7.1 | Weekly invoice reading + provider budget watch | T-E3-030 | C3.7 + DEC-0030 card | Invoices read weekly and logged; ceiling breach triggers safe stop; GitHub Pro cost carded under DEC-0030 | PROPOSED |

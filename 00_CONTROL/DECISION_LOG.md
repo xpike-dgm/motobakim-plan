@@ -796,6 +796,10 @@ Binding implications:
   assurance cannot be afforded, the affected release/capability remains `HELD` rather than silently reduced;
 - exact monthly/annual spend ceiling remains open until the user receives a concrete staged cost plan.
 
+Cost-card addendum (2026-09-23, OUT-3 B-36 — under DEC-0062 mandate; card facts, not new constraint):
+- GitHub Pro (private-repo rulesets + Actions minutes): carded; amount/period per current official pricing at
+  purchase time; weekly invoice-reading task T-E3-038 watches it with all other provider spend.
+
 Current verified baseline on 2026-09-17:
 
 - Apple Developer Program: USD 99 per membership year for App Store distribution

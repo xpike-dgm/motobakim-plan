@@ -1722,7 +1722,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Still EKSİK (9 unread globs) — round 2 continuation instructed, same session, current SHAs (plan `36d6645`,
   app `d072427`).
 
-### OUT-1 B-01 Re-verified CLOSED (2026-09-23)
+### OUT-3 Batch 3D (B-15/31/36 — pending independent review)
+- B-15: epic-edge migration rule in installed TASK_REGISTRY (root tasks gain epic-gate records at migration;
+  task-level paths satisfy gates without duplication).
+- B-31: CON-002 → +T-E1-019a (cost-split values) +T-E8-006 (metrics-from-records), Validation → `test`;
+  CON-003 → +T-E1-022b (uncertainty banner); E8-renders-nothing rationale recorded (E8 surfaces don't exist
+  per T-E8-001, warnings live in E1/E2 only).
+- B-36: T-E3-038 billing-watch task (deps T-E3-030) + acceptance row + DEC-0030 cost-card addendum (GitHub Pro).
+- Totals now 206 tasks.
 - OUT-1 withdrew the zero-bypass expectation after verifying: `main-gates` ACTIVE both repos, non-owner direct
   push rejected GH013 (run 4191120591), owner-bypass pushes logged remotely; E-PR-002 holds the rejection text;
   DEC-0059 covers the authorization (DEC-0061 existed after its SHA — not counted by auditor, correctly).
