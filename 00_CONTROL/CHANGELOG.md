@@ -1885,3 +1885,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - No missing commit: HEAD history verified complete (3c786d6 -> 2eff825 -> d642e00 -> 65fc70f -> 0e312a2 ->
   1ca962d); remote HEAD matches local. Earlier batch-name confusion in messages acknowledged; SHAs authoritative.
 - Still EKSIK (unread ranges remain) - round 2 continues same session at current SHAs.
+
+- Count correction on record (OUT-3 typos, 2026-09-23): f54ef32 commit message says "(33 entries)";
+  correct count at that tree was 34 entries / 44 unique sessions (mechanically verified). History is not
+  rewritten; this line is the correction. HANDOFF second "69." renumbered to 70.
