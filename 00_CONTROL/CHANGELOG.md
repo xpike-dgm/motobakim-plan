@@ -1712,7 +1712,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
-### OUT-3 Batch 2 Fixes (B-11/13/14/19/21/32/35 — pending independent review)
+### OUT-3 Batch 2 CLOSED (review PASS + CI green)
+- Independent re-review PASS: digest recomputed-verified (`6793EA23…ABAB5`), routing excluded-map correct,
+  zero DENY hits, full suite green; session IDs + counts verified against run records.
+- App `d0fb7fd`; planning `4ee7c1c`; CI green (run 35864045031 success).
 - B-11: AGENTS.md rule 9 rewritten to cite `DEC-0049` (supersedes DEC-0022); CURRENT_STATE line marked superseded;
   HANDOFF entry 69; historical DEC-0022 sentences preserved as history.
 - B-13: `08_REPOSITORY_BOOTSTRAP/EVIDENCE/REVIEW_LOG.md` created (12 past reviews with session IDs; model field
