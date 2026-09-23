@@ -1722,6 +1722,13 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - OUT-5 B-06 (frozen-brief counts stale after authorized +6 growth) RULED non-defect: growth under DEC-0062,
   brief frozen by design; recast as brief-maintenance note for the distributor (no disk change).
 - Batch 3E (B-08/09/10 + B-03 ruling) pending independent review.
+
+### OUT-1 Batch 3E CLOSED (review PASS + CI green)
+- B-08: DAG re-ran over 206 rows (acyclic, depth 8 via chain T-E1-001→…→T-E1-022b, samples 26/28/17/16/11/8/9/8).
+- B-09: manifest Links ranges extended (5 files, single-token diffs each).
+- B-10: 6 absent reviews appended (PROPOSED header verified ×1).
+- B-03-reopen ruled by-design (unique-basename rule in spec check_links.py:4-8/45-49); strict mode needs spec change.
+- App `d65492e`; planning `2a38d7d`; CI green (run 35880621469 success).
 - B-01 self-closed on their side (A: BULGU-YOK, `199/199`, `tail`=199) — separator fix confirmed by auditor.
 - B-02 unchanged informational (732 common-word hits) — non-defect, no action (recorded).
 - B-03/B-04 still BULGU-VAR on retired prompt premises (C2-empty, old G8 quotes) — hotfixed + confirmed since;
