@@ -28,6 +28,11 @@ explicitly (gap recorded, not hidden).
 - 2026-09-23 | Retrospective checks review + re-review | checks ×12 + workflow | CHANGES_REQUESTED(10)→PASS | ses_f31f77862ffeAvL2IeZLN3 / ses_f31e82a51ffeEvCFSW9TsVSQdd | model: harness-undisclosed
 - 2026-09-23 | OUT-1 planning fixes | B-04/05/06/07 | PASS | ses_f31d9fee8ffe8brqS3Jgp1qjLU | model: harness-undisclosed
 - 2026-09-23 | OUT-3 batch 1 | B-22/23/24/28/29/34 | CHANGES_REQUESTED(1)→PASS | ses_f31b5a3ccffe79hbVS16YYnqH0 / ses_f31b38d04ffe7fAUCL37nCNYN4 | model: harness-undisclosed
+- 2026-09-23 | Retrospective re-review | 10 check fixes | PASS | ses_f31e82a51ffeEvCFSW9TsVSQdd | model: harness-undisclosed
+- 2026-09-23 | OUT-3 batch 3A | B-06/07 wikilinks + trace/design | PASS | ses_f319dd499ffe5ge8frqi5CH2Hy | model: harness-undisclosed
+- 2026-09-23 | OUT-3 batch 3B | B-16/17/18/26 sealed docs | CHANGES_REQUESTED(2)→PASS | ses_f318e9efdffe7Lpbb61Dys3JrC / ses_f318ba89bffeiCuKf4QjOEhBTW | model: harness-undisclosed
+- 2026-09-23 | OUT-3 batch 3C | B-09/25/33 scope + triggers | CHANGES_REQUESTED(3)→PASS | ses_f3184ebcdffeWxxGdaR6PlL7tt / ses_f317f4769ffegEFNac3h2a50HN | model: harness-undisclosed
+- 2026-09-23 | OUT-3 batch 3D | B-15/31/36 | PASS | ses_f31361f91ffefYdzXgazgeUmxY | model: harness-undisclosed
 
 ## PROPOSED (pending owner approval, NOT in force)
 

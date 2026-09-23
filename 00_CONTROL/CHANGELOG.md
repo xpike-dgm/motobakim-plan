@@ -1712,7 +1712,16 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
-### OUT-5 Second Delivery Triage (EKSİK-TARAMA, SHAs plan `5f4c7ef` app `7e600f2`)
+### OUT-1 Full A–Y + OUT-5 Third Delivery Triage (2026-09-23)
+- OUT-1 full battery (BULGU-VAR, current SHAs, 205 tasks/115 flows/466 files): B-01 stays closed; B-03 REOPENED
+  (wrong-directory unique-basename link passes) — RULED by-design leniency (unique-match rule, reviewed PASS 3×;
+  exact-path-only would break legitimate bare refs; reproduced on disk); strict mode would need a spec change.
+- OUT-1 new B-08 (stale 199-dependency record) CONFIRMED: DAG re-ran over 206 rows (acyclic, depth 8, samples
+  26/28/17/16/11/8/9/8) + note refreshed. B-09 (5 new capabilities unlinked) CONFIRMED: manifest Links ranges
+  extended (C1.11/C3.9/C5.8/C7.6/C4.9). B-10 (missing session log) CONFIRMED: 6 absent reviews appended.
+- OUT-5 B-06 (frozen-brief counts stale after authorized +6 growth) RULED non-defect: growth under DEC-0062,
+  brief frozen by design; recast as brief-maintenance note for the distributor (no disk change).
+- Batch 3E (B-08/09/10 + B-03 ruling) pending independent review.
 - B-01 self-closed on their side (A: BULGU-YOK, `199/199`, `tail`=199) — separator fix confirmed by auditor.
 - B-02 unchanged informational (732 common-word hits) — non-defect, no action (recorded).
 - B-03/B-04 still BULGU-VAR on retired prompt premises (C2-empty, old G8 quotes) — hotfixed + confirmed since;
