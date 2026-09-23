@@ -1694,7 +1694,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - OUT-3 (BULGU-VAR, 36 findings, old SHAs plan `fcc0159` app `4d11ed6`): received; findings overlap fixed items (B-01 branch, B-02–05 checks, B-08 4-tasks ⊂ our 6, B-10 stale, B-27 separator, B-30 gates) + NEW items requiring batches (B-06 wikilinks, B-07 trace/design checks, B-09 KVKK scope, B-11 AGENTS/DEC-0049, B-12 push discipline = DEC-0061, B-13 reviewer identity, B-14 CLAIM, B-15 epic edges, B-16/17/18 seam gaps, B-19 dual-copy, B-21 migration proof, B-22 timestamps, B-23 secrets, B-24 line endings, B-25 HELD measurement, B-26 vague acceptance, B-28 dep count, B-29 status lines, B-31 CON-001..003, B-32 DENY list, B-33 external triggers, B-34 red-main history, B-35 INDEX merge, B-36 cost metering). Batching next; scope items (B-09 etc.) need owner approval before new capabilities.
 - Current SHAs this turn: plan `2301ec6`, app `73f050e`, both trees clean, CI green (run 35856588270 success).
 
-### OUT-3 Batch 1 Fixes (B-22/23/24/28/29/34 — pending independent review)
+### OUT-3 Batch 1 CLOSED (review PASS ses_f31b5a3c + re-review ses_f31b38d0, 2026-09-23)
 - B-28: T-E2-001 transitive dependents 15→16 (recomputed all 8 samples; others unchanged) + recompute note.
 - B-29: three catalog status lines flipped to CLOSED (row-PROPOSED semantics clarified, unchanged) + EPIC legend line.
 - B-23: app `.gitignore` secrets rules (mirrors planning repo) + CI secret-pattern scan step.
@@ -1721,7 +1721,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   extended (C1.11/C3.9/C5.8/C7.6/C4.9). B-10 (missing session log) CONFIRMED: 6 absent reviews appended.
 - OUT-5 B-06 (frozen-brief counts stale after authorized +6 growth) RULED non-defect: growth under DEC-0062,
   brief frozen by design; recast as brief-maintenance note for the distributor (no disk change).
-- Batch 3E (B-08/09/10 + B-03 ruling) pending independent review.
+- Batch 3E (B-08/09/10 + B-03 ruling) CLOSED re-review PASS ses_f312b0de (2026-09-23).
 
 ### OUT-3 Batch 3F (code + docs — CLOSED final re-review PASS 2026-09-23)
 - Code: conformance verdict-set + digest-hex + orphan-nonrecord + trace test_id-match; links rewritten exact
@@ -1757,7 +1757,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Still EKSİK (9 unread globs) — round 2 continuation instructed, same session, current SHAs (plan `36d6645`,
   app `d072427`).
 
-### OUT-3 Batch 3D (B-15/31/36 — pending independent review)
+### OUT-3 Batch 3D CLOSED (review PASS ses_f31361f9, 2026-09-23)
 - B-15: epic-edge migration rule in installed TASK_REGISTRY (root tasks gain epic-gate records at migration;
   task-level paths satisfy gates without duplication).
 - B-31: CON-002 → +T-E1-019a (cost-split values) +T-E8-006 (metrics-from-records), Validation → `test`;
@@ -1820,7 +1820,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 
 ### OUT-1 Final Verdict Received: SISTEM-SAGLAM (valid for its SHAs, 2026-09-23)
 
-### OUT-3 Final Verification Triage + Batch 3G (2026-09-23 — pending independent review)
+### OUT-3 Final Verification Triage + Batch 3G CLOSED (review PASS ses_f3054ca01, 2026-09-23)
 - 27/36 confirmed closed; 9 residue worked: B-01/T3 owner questions (below); B-06 line-1 frontmatter (13 files,
   anchored parser, digest chain 4th link `84249360…`); B-13 batch-2 entry added; B-31 CON-001 +T-E1-004/T-E1-005b;
   B-33 checkout pinned to server-verified `fbc6f39…`; B-07 gate binding in PHASE_GATES; B-02 timestamp-regex +
@@ -1841,7 +1841,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Independent review PASS with replicated attacks; only 3 files touched. App `65fc70f`.
 
 - Red-main incident 2 (2026-09-23): digest-guard push went red in CI on CRLF skew (digests over working-copy
-  bytes, CI reads LF) — EXCEPTION under the amended rule (revert would reopen B-11/B-12 holes); forward-fix
+  bytes, CI reads LF) — VIOLATION (amended rule reverted with this batch; strict revert rule restored); forward-fix
   (LF-normalized recompute rule + digests) reviewed + CI green (run 35905794473 success).
 
 ### OUT-3 Final Round Triage + Batch 3H (2026-09-23 — CLOSED final re-review PASS)

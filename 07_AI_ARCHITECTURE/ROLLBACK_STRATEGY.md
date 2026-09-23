@@ -14,7 +14,7 @@ No tool/vendor/CI selection, no numeric windows, no account/key/purchase/code/de
 Repo + CI layer (added 2026-09-23, OUT-3 B-34 — under DEC-0062 mandate): red-`main` reverts the offending
 SHA (`git revert`, recorded here + CHANGELOG); forward-fix without revert is a violation and is
 recorded as such. Incident 2026-09-23 (batch-1 push went red-bypassed and was forward-fixed — VIOLATION
-(recorded; cause: secret-scan fix urgency under active bypass; no recurrence: CI-required pushes stay green).
+(recorded; cause: secret-scan fix urgency under active bypass; any repeat is a further violation).
 Incident 2026-09-23 (digest-guard push went red on CRLF skew and was forward-fixed — VIOLATION (recorded;
 cause: normalization gap; a revert would have restored two verified evidence holes, which is mitigation,
 not permission — the rule stands strict; any exception model belongs to the pending B-01 governance decision).

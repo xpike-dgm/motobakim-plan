@@ -49,6 +49,10 @@ explicitly (gap recorded, not hidden).
 - 2026-09-23 | ses_f30bc23abffe8DH2SRIXjtaLmG (model: harness-undisclosed) | Flips + log-append micro-verify | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f2f7aa83affepX8xMYuL8oFsmt (model: harness-undisclosed) | OUT-1 delta log-entry verify | PASS | closed-0 open-0 | none
 
+- 2026-09-23 | ses_f2f74c304ffeaCqG60ReBecnDi (model: harness-undisclosed) | Regression fixes (exception revert + 5 log entries + 3H header), tree 9cdb505 | PASS | closed-0 open-0 | none
+
+- 2026-09-23 | ses_f2f6aab0bffe1DhUZkBOk9p1NO (model: harness-undisclosed) | B-13/B-34 regression verification (log entries, headers, exception revert) | PASS | closed-0 open-0 | OUT-3 B-13/B-34 verified shut
+
 ## PROPOSED (pending owner approval, NOT in force)
 
 T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
