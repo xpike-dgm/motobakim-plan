@@ -34,11 +34,13 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
   4/4 checks, fresh-session SUFFICIENT+MATCH, rollback byte-identical); 6 audit items closed (contracts,
   runnable checks, CI green ×3 runs, INDEX/routing, VERIFIED evidence); checklist COMPLETE 9/9.
 
-## Immediate Next Manager Action
+## Immediate Next Manager Action (refreshed 2026-09-23; OUT-3 B-10)
 
-1. Push the records batch under the standing mandate.
-2. Then request Gate 8 approval from the owner (explicit per-gate approval required — excluded from DEC-0059);
-   on approval record the DEC, update registries, and present the Development opening plan.
+1. Push the records batch under the standing mandate (DEC-0059/0060/0062; owner-bypass audited per DEC-0061).
+2. Then run the five-AI closure protocol to completion (DEC-0060); Gate 8 approval may be requested ONLY after
+   all five AIs report no open problems (agreement ≠ approval; each closure verified). On approval record the
+   DEC, update registries, and present the Development opening plan. Full bidirectional trace closure rides
+   with the Development row-migration per the G8-2 singular-example criterion (check_trace deferral bound here).
 
 ## Hard Boundaries
 

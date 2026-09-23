@@ -1819,6 +1819,14 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   (`7f69457`), byte-verified after copy.
 
 ### OUT-1 Final Verdict Received: SISTEM-SAGLAM (valid for its SHAs, 2026-09-23)
+
+### OUT-3 Final Verification Triage + Batch 3G (2026-09-23 — pending independent review)
+- 27/36 confirmed closed; 9 residue worked: B-01/T3 owner questions (below); B-06 line-1 frontmatter (13 files,
+  anchored parser, digest chain 4th link `84249360…`); B-13 batch-2 entry added; B-31 CON-001 +T-E1-004/T-E1-005b;
+  B-33 checkout pinned to server-verified `fbc6f39…`; B-07 gate binding in PHASE_GATES; B-02 timestamp-regex +
+  zero-digest reject; B-10 NEXT_ACTION protocol wording; B-19 MIGRATION title; off-list depth convention
+  (8 nodes / 7 edges) + full impact distribution (28/26/17/16/13/12/11/11/10/10/9/8…).
+- checks.yml pinned — Node warning accepted-risk note in TRIGGERS stands resolved by pinning.
 - Scope: plan `d19ebcc` + app `d65492e` (batch-3E era). B-01..B-10 closed, B-03-reopen withdrawn, 18 log entries
   format-verified, 206th task acceptance confirmed. Zero unread claimed.
 - STALENESS NOTE (same rule as OUT-4): post-dates Batch-3F (plan `ffd03f3`, app `2eff825` - check rewrites,

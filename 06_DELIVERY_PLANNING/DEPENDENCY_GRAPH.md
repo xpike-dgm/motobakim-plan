@@ -22,9 +22,11 @@ Depends On, except the above epic edges. No hidden dependencies outstanding; ful
 Step 6 simulation notes (mechanical DAG rerun 2026-09-21 over 199 task rows / 110 flows): acyclic yes,
 topo length = count, max depth 7, no duplicates, all deps resolve, zero flows without task.
 Refresh (2026-09-23, OUT-1 B-08 — mechanical rerun over 206 task rows / 115 flows): acyclic yes,
-max depth 8, no duplicates, all deps resolve. Removal-impact samples refreshed:
-T-E3-001 → 26 (+1 T-E3-037); T-E1-001 → 28 (+1 T-E1-026); T-E10-001 → 17;
-T-E2-001 → 16; T-E10-004 → 11; T-E10-007 → 8; T-E5-013 → 9; T-E3-009 → 8.
+max depth 8 nodes (7 edges) via chain T-E1-001→T-E1-003→T-E1-004→T-E1-005a→T-E1-005b→T-E1-006→T-E1-022a→T-E1-022b,
+no duplicates, all deps resolve. Removal-impact full distribution (recomputed 2026-09-23, OUT-3 off-list note —
+the old "all others ≤5" was wrong): T-E1-001 → 28; T-E3-001 → 26; T-E10-001 → 17; T-E2-001 → 16; T-E3-023 → 13;
+T-E1-003 → 12; T-E10-004 → 11; T-E1-004 → 11; T-E3-013 → 10; T-E1-005a → 10; T-E5-013 → 9; T-E3-009 → 8;
+8 → 2 tasks; 7 → 2; 6 → 2; 5 → 3; 4 → 8; 3 → 3; 2 → 20; 1 → 41; 0 → 114.
 - Removal-impact samples (transitive dependents): T-E3-001 → 25; T-E1-001 → 27; T-E10-001 → 17;
   T-E2-001 → 16; T-E10-004 → 11; T-E10-007 → 8; T-E5-013 → 9; T-E3-009 → 8; all others ≤5. Blast radius is queryable pre-execution
   via this graph + matrix (owner-readable through catalog rows, not raw IDs).

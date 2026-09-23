@@ -151,7 +151,7 @@ NONE = governed-by-assignment, not unassigned. (Reconciled 2026-09-21 per re-aud
 | ADR-014 R5: allowed-10 verbatim | F9.5.1 | FL9.5.1 | T-E9-008 | review |
 | ADR-014 R6: never-15 verbatim + HOLD-on-ambiguity | F9.6.1 | FL9.6.1 | T-E9-009, T-E9-010 | review |
 | ADR-014 R7: project AI discipline + externals notice (ref F10.7.1) | F9.7.1 | FL9.7.1 | T-E9-011 | review |
-| CON-001: fit-specific info, generic never bike-specific | F9.1.1 | FL9.1.1 | T-E9-002 | review |
+| CON-001: fit-specific info, generic never bike-specific | F9.1.1, F1.1.2, F1.2.1 | FL9.1.1, FL1.1.2, FL1.2.1 | T-E9-002, T-E1-004, T-E1-005b | review |
 | CON-002: no fabricated values | F9.6.1, F1.2.2, F8.3.1 | FL9.6.1, FL1.2.2, FL8.3.1 | T-E9-009, T-E9-010, T-E1-019a, T-E8-006 | test |
 | CON-003: risk/safety warnings never hidden | F4.1.1, F9.6.1, F1.3.2 | FL4.1.1, FL9.6.1, FL1.3.4 | T-E4-001, T-E9-009, T-E1-022b | review |
 | ADR-013 R1: Android continuity checklist, execution-only | F7.1.1 | FL7.1.1 | T-E7-001, T-E7-002 | review |
