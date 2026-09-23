@@ -1677,6 +1677,16 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Suite green both modes locally; re-review PASS with adversarial probes all correct + CI green on HEAD.
 - App `73f050e`; my "false cycle" was a consumed-by attribution bug (self-loop ghost) — fixed with subject parsing.
 
+### OUT-1 Full Closure (B-01..B-07) Under DEC-0060
+- B-01 branch protection (Pro rulesets both repos + GH013 rejection proof + E-PR-002).
+- B-02/03 code fixes reviewed PASS with adversarial probes + CI green.
+- B-04: 6 acceptance mappings added ("Gap-closure additions 2") + orphan-claim correction recorded (history preserved).
+- B-05: MSH Immediate-Duty refreshed (old Phase-5 instruction quoted as superseded history) + CURRENT_STATE updated.
+- B-06: QUALITY_GATES.md filled with 5 binding gates (defined-by-reference, redefines nothing).
+- B-07: trailing separator removed (199 data rows verified).
+- Planning batch reviewed PASS (independent session, no open findings), pushed `a62471a`.
+- Next per protocol: return closures to OUT-1 for verification + continuation of its incomplete battery.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
