@@ -1866,3 +1866,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   normal audits + CI green; red-run + exception recorded. Explicitly NOT a Gate-8 approval.
 - STALENESS NOTE: post-dates plan 9cdb505 (strategy exception revert, 5 log entries, 3H header flip;
   reviewed ses_f2f74c304ffeaCqG60ReBecnDi except the 1-line header flip). App unchanged (1ca962d). Delta verification requested.
+
+### OUT-1 FINAL VERDICT 2: SISTEM-SAGLAM (scoped plan f434340 + app 1ca962d, 2026-09-23)
+- B-14 closed; 8/8 cited sessions resolve verbatim in log; correct count 32 entries / 42 sessions at scope
+  (commit-message "42 entries" acknowledged wrong). Explicitly NOT a Gate-8 approval.
+- STALENESS NOTE: post-dates plan f54ef32 (Wave-A/B review entries only; app unchanged 1ca962d).
+  Delta verification requested (2 commits, log-only). Current log: 34 entries / 44 unique sessions.
