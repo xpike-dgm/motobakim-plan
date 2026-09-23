@@ -1654,6 +1654,18 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - App HEAD `e7c2034` (+VERIFIED `732fa9e`); planning `53d7977`; checklist COMPLETE 9/9 with evidence notes.
 - Standing-mandate note: placement/install/push decisions by manager (`DEC-0059`); review loop intact throughout.
 
+### OUT-1 Triage + B-01 Closure (Branch Protection on Pro)
+- OUT-1 partial delivery (BULGU-VAR, 7 findings, self-declared incomplete — not counted among 5) triaged against
+  disk: B-01/02/04/05/06/07 CONFIRMED real, B-03 plausible; my "178 duplicate ID" scare was my regex fault
+  (suffix IDs `T-E1-005a/b/c`), data clean 199/199.
+- Owner upgraded to GitHub Pro → ruleset `main-gates` ACTIVE on both repos (app id 23876055 with required check
+  `checks`; plan id 23876098 without status checks; PR + 1 approval + dismiss-stale + no-FF + no-deletion;
+  bypass = owner role only so the manager loop flows).
+- Rejection PROVEN: probe commit pushed with bypass removed → remote GH013 ("Changes must be made through a pull
+  request. Required status check checks is expected."); probe reset, bypass restored, no residue.
+- Recorded `E-PR-002` (app `1389a73`); owner-bypass push itself confirmed live gates ("Bypassed rule violations").
+- OPEN: B-02/03 code fixes + B-04/05/06/07 planning fixes (review loop required); OUT-2..5 pending; Gate 8 stays pending.
+
 ### DEC-0059 — Standing Phase-8 Mandate + Step 6 Installed
 - Owner granted standing mandate (`DEC-0059`, 2026-09-22): best-judgment placement/install within the approved
   plan, per-step push authorized, review loop never skipped; Phase 8 only (product code, deployment,
