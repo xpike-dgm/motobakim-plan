@@ -1854,3 +1854,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   wikilink edges counted separately (11 true wikilink vs 80 backticked); subject_file required on all records
   (closes the valid-format-uncompared note prospectively).
 - B-01 governance + T3 activation remain owner questions (unchanged).
+
+### OUT-1 Delta Round 2 CLOSED (2026-09-23)
+- B-12: auditor correct at pin (`if subj:` optional); mandatory rule landed after pin - replicated attack now
+  FAILs on HEAD. Closed with evidence, not argument.
+- B-13: missing session entry added + micro-verified PASS; 24 strict entries, 34 unique sessions.
+- App unchanged (rule already in `1ca962d`); planning `ba54a01`.
