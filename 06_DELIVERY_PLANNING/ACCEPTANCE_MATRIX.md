@@ -254,3 +254,16 @@ Six tasks had no matrix row (orphan-trace gap against the Step-5 "none" claim co
 - REVIEW tasks (23): T-E1-001,002,003,004,005a,005b,005c,010,015,016,017,018,019a,019b,020,021,022a,022b; T-E2-001,002,006,010,011.
 - SIMULATION tasks (17): T-E1-006,007,008,009,011,012,013; T-E2-003,004,005,007a,007b,009,012,014,015,016.
 - GATE tasks (7): T-E1-014a,014b,023,024,025; T-E2-008,013. (47 = E1 30 + E2 17.)
+
+## Gap-closure additions 3 (2026-09-23, OUT-3 B-09/B-25 — pending independent review)
+
+Compliance + measurement scope (DEC-0062 mandate; legal outcomes never AI-decided per ADR-014):
+
+| Requirement / Rule | Feature | Flow | Task | Validation |
+|---|---|---|---|---|
+| Account deletion + consent withdrawal (CON-001..004 observed) | F1.11.1 | FL1.11.1 | T-E1-026 | gate |
+| Store-billing gate: paid rights only with store receipt | F3.9.1 | FL3.9.1 | T-E3-037 | gate |
+| KVKK rights (deletion/access/objection) + cross-border assessment | F5.8.1 | FL5.8.1 | T-E5-022 | HELD-acceptance (expert legal review) |
+| Store declarations (Data-Safety/privacy-label/age-gate) current | F7.6.1 | FL7.6.1 | T-E7-011 | review |
+| C4.8 HELD numbers closed by corpus + device-matrix measurement | F4.9.2 | FL4.9.2 | T-E4-018 | gate |
+| Measurement evidence inside 10-layer closure | F10.4.1 | FL10.4.1 | T-E10-017 | review |

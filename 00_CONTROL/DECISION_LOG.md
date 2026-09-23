@@ -1932,6 +1932,16 @@ passage still needs separate explicit approval.
 
 ---
 
+## DEC-0063 — External-Change Trigger Rule
+**Date:** 2026-09-23
+**Status:** APPROVED (under DEC-0062 mandate)
+
+Binding trigger table lives in `00_CONTROL/EXTERNAL_CHANGE_TRIGGERS.md`: listed external changes (GitHub,
+Actions, Supabase, Flutter, stores, Apple, Drive, models) reopen the listed gates/decisions; unlisted changes
+open a change-request. Closes OUT-3 B-33.
+
+---
+
 ## DEC-0059 — Standing Phase-8 Execution Mandate (Best-Judgment + Push)
 **Date:** 2026-09-22
 **Status:** APPROVED

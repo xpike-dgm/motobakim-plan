@@ -82,4 +82,8 @@ Status: CLOSED (all epics recorded + verified 2026-09-21; Gate 6 -> 7 PASSED und
 | C8.4 | E8 | Analitik disiplini + azaltma (birebir) | Amaçlı/en-az/anonim/değiştirilebilir; geç yükleme/kota/faturalama/silme güvenli yolu bozamaz; sağlayıcı değişimi kayıt/denetim/sayaçları taşıyamaz; yasak listesi birebir; sınıf başına amaçlı saklama | E3 | PROPOSED |
 | C8.5 | E8 | İlk-sürüm ölçüm yeteneği | İç operasyon görünürlüğü, en-az kullanım, çökme sinyalleri, rıza denetimi, telemetri sağlığı, eski-istemci uyumu, saklama yolu, kesinti bağımsızlığı | E3 | PROPOSED |
 | C8.6 | E8 | Yedek kural + çıkış dürüstlüğü | Gizlilik/işletilebilirlik/maliyet/çevrimdışı/çıkış kapısı geçemezse küçük öz tabana dön, zayıflatma yok; ham dışa aktarma çıkış kanıtı değil | E3 | PROPOSED |
-|---|---|---|---|---|---|
+| C1.11 | E1 | Hesap silme + rıza yüzeyi | Kullanıcı hesabını ve rızasını uygulamadan başlatır, siler, geri çeker; E1 çizer, E3/E5 yürütür | E3, E5 | PROPOSED |
+| C3.9 | E3 | Mağaza-faturalama kapısı + rıza kayıtları | Ücretli hak yalnız mağaza makbuzuyla; rıza kayıtları sunucuda tutulur | — (temel) | PROPOSED |
+| C5.8 | E5 | KVKK hakları yürütme | Silme/erişim/itiraz başvuruları yürütülür; yurt-dışı aktarım değerlendirilir; hukuki metinler uzman incelemesine tabidir | E3 | PROPOSED |
+| C7.6 | E7 | Mağaza beyan envanteri | Data-Safety + gizlilik etiketi + yaş kapısı envanteri güncel tutulur; mağaza kuralı değişiminde yeniden denetlenir | E3, E6 | PROPOSED |
+| C4.9 | E4 | Paket ölçüm külliyatı | Sabit külliyat + cihaz matrisi üzerinde paket boyutu/alan/süre ölçülür; C4.8 HELD sayıları kanıtla kapanır | E3 | PROPOSED |

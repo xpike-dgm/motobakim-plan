@@ -114,4 +114,8 @@ Status: CLOSED (all epics recorded + verified 2026-09-21; Gate 6 -> 7 PASSED und
 | FL6.6.1 | F6.6.1 | Release task | Rollout/rollback/restore event | Staged states; stop never downgrades; quarantine on restore; monotonic generations | Rollout view (E2 renders per C2.3) | PROPOSED |
 | FL6.7.1 | F6.7.1 | Incident task | Incident declared | Taxonomy + impact graph with protected copy; closure only on reconcile | Incident view (E2 renders per C2.3) | PROPOSED |
 | FL6.8.1 | F6.8.1 | Release task | OTA proposal submitted | Denied by default + reason; future envelope listed (no native-replace/widen/merge) | — (API surface) | PROPOSED |
-|---|---|---|---|---|---|---|
+| FL1.11.1 | F1.11.1 | User | Account deletion requested | Identity removed end-to-end with audit receipt; consent withdrawn | — (screens at Development) | PROPOSED |
+| FL3.9.1 | F3.9.1 | System | Paid entitlement checked | Store receipt verified server-side; out-of-store digital sale refused | — (API surface) | PROPOSED |
+| FL5.8.1 | F5.8.1 | User | Rights request filed | Request fulfilled with receipt; transfer assessment recorded | — (screens at Development) | PROPOSED |
+| FL7.6.1 | F7.6.1 | Owner/system (read-only) | Store declarations inventoried | Per-store declarations current; drift flagged on policy change | — (lane surface) | PROPOSED |
+| FL4.9.2 | F4.9.2 | System | Corpus measurement run | Corpus + matrix recorded; measurements stored as evidence | — (lab surface) | PROPOSED |

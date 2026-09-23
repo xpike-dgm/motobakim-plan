@@ -203,3 +203,9 @@ Status: PROPOSED (E3 recorded 2026-09-21 after independent review PASS + micro P
 | T-E8-010 | FL8.5.1/F8.5.1 | Outage-independence check | T-E8-009 | ADR-012 R2/R4; C8.5 + E2-render note | Dedicated failure never disables safe core | PROPOSED |
 | T-E8-011 | FL8.6.1/F8.6.1 | 5-gate check | — | ADR-012 R5; C8.6 + E2-render note | Per-gate pass/fail recorded; any fail shrinks to base | PROPOSED |
 | T-E8-012 | FL8.6.1/F8.6.1 | Exit-honesty check | T-E8-011 | ADR-012 R6; C8.6 + E2-render note | Export≠proof; 4 HELD proofs listed | PROPOSED |
+| T-E1-026 | FL1.11.1/F1.11.1 | Account deletion + consent surface render | T-E1-015 | C1.11 + guard; E3/E5 refs | Deletion completes end-to-end with audit receipt; no orphaned identity rows on record query | PROPOSED |
+| T-E3-037 | FL3.9.1/F3.9.1 | Store-billing gate + consent records | T-E3-001 | ADR-002 billing; C3.9 | Paid entitlement only with store receipt; server-side check; no out-of-store digital sale | PROPOSED |
+| T-E5-022 | FL5.8.1/F5.8.1 | KVKK rights execution | T-E5-001 | ADR-004 rights; C5.8 | Rights requests fulfilled with receipt; transfer assessment recorded; legal text HELD until expert review | PROPOSED |
+| T-E7-011 | FL7.6.1/F7.6.1 | Store declaration inventory | — | C7.6 + E6 refs | Declarations inventoried per store; drift re-checked on policy change | PROPOSED |
+| T-E4-018 | FL4.9.2/F4.9.2 | Corpus + device-matrix measurement | — | C4.9 + C4.8 HELD list | Corpus + matrix recorded; sizes/areas/durations measured as evidence closing C4.8 | PROPOSED |
+| T-E10-017 | FL10.4.1/F10.4.1 | Measurement-evidence closure | — | C10.4 closure; C4.8 evidence | Measurement evidence enters 10-layer closure; gaps stay visible | PROPOSED |

@@ -1712,7 +1712,18 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   pattern tightened to `sk_live_/sk_test_` forms, local CLEAN, pushed `fe7a17b`, CI green (run 35862876433 success).
 - App `fe7a17b`; planning `5f4c7ef`. B-22/23/24/28/29/34 closed pending OUT-3 verification.
 
-### OUT-3 Batch 3A CLOSED (B-06/07 review PASS + CI green)
+### OUT-3 Batch 3C+3D (B-09/25 scope + B-33 governance — pending independent review)
+- New chains (capability→feature→flow→task→acceptance): C1.11/F1.11.1/FL1.11.1/T-E1-026 (account deletion, deps
+  T-E1-015); C3.9/F3.9.1/FL3.9.1/T-E3-037 (billing gate, deps T-E3-001); C5.8/F5.8.1/FL5.8.1/T-E5-022 (KVKK rights,
+  deps T-E5-001, HELD-acceptance expert review); C7.6/F7.6.1/FL7.6.1/T-E7-011 (store declarations, no deps);
+  C4.9/F4.9.2/FL4.9.2/T-E4-018 (measurement corpus, no deps; renumbered from C4.10 after review caught the
+  skipped C4.9; counts corrected to 83/106/115/205 after excluding catalog header rows the reviewer had counted); T-E10-017 under existing F10.4.1/FL10.4.1
+  (measurement closure, no deps). Totals now 83 capabilities / 106 features / 115 flows / 205 tasks (data rows;
+  catalog header rows excluded from counts).
+- Self-caught incident: fragment-match edit split the C8.6 row mid-write; repaired by line-index rewrite and
+  byte-verified (C8.6 intact ×1, 5 new rows, no trailing separator). Fragment matching on table rows is now
+  banned for this manager (python tail-rewrite only).
+- B-33: `00_CONTROL/EXTERNAL_CHANGE_TRIGGERS.md` + DEC-0063 (trigger→reopen mapping, change-request default).
 - 9 contract `used_by` lines (4 linked from declared consumption, 5 honest deferred); evidence_links wikilinked
   (same targets; P-PROOF-001.md untouched — frozen run copy).
 - check_links parses `[[...]]` + edge count (102) + zero-edge FAIL; check_conformance strips brackets;

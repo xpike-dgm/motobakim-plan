@@ -105,4 +105,8 @@ Status: CLOSED (all epics recorded + verified 2026-09-21; Gate 6 -> 7 PASSED und
 | F6.6.1 | C6.6 | Rollout + rollback + quarantine | Kademeli haller; durdurma düşürmez; geri yüklemede karantina; kuşaklar tekdüze | C6.6 | PROPOSED |
 | F6.7.1 | C6.7 | Incident + impact graph | Sınıflandırma, etki grafiği, korumalı kopya; uzlaşmadan kapanış yok | C6.7 | PROPOSED |
 | F6.8.1 | C6.8 | OTA denial gate | Varsayılan ret + gerekçe; gelecek listesi tam (yerli-değiştirme/genişletme/birleştirme yok) | C6.8 | PROPOSED |
-|---|---|---|---|---|---|
+| F1.11.1 | C1.11 | Account deletion + consent surface | Deletion/withdrawal renders; E1 renders, E3/E5 execute; audit receipt | C1.11 | PROPOSED |
+| F3.9.1 | C3.9 | Store-billing gate + consent store | Paid entitlement only with store receipt; server-side check; consent records server-held | C3.9 | PROPOSED |
+| F5.8.1 | C5.8 | KVKK rights execution | Deletion/access/objection requests with receipts; cross-border transfer assessed; legal text under expert review | C5.8 | PROPOSED |
+| F7.6.1 | C7.6 | Store declaration inventory | Data-Safety + privacy label + age gate inventoried; drift re-checked on store-policy change | C7.6 | PROPOSED |
+| F4.9.2 | C4.9 | Measurement corpus + device matrix | Fixed corpus + device matrix; sizes/areas/durations measured as evidence | C4.9 | PROPOSED |
