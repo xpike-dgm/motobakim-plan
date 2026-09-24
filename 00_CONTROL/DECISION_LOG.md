@@ -1993,3 +1993,17 @@ set approval count to 0, keep everything else (PR required, green `checks`, no-f
 zero bypass). Human approval for sensitive work remains as the T3 process rule (DEC-0064). Revisit when a
 second account exists. Proof: app PR #1 (E-PR-003) merged as `12b03ae` after green CI. Closes OUT-3 B-01
 (re-opened KRITIK) with merge evidence, not assertion.
+
+---
+
+## DEC-0066 — OUT-5 Round Closed Early (Owner Decision)
+**Date:** 2026-09-24
+**Status:** APPROVED (owner directive: OUT-1, OUT-3, OUT-4 seals suffice; close OUT-5)
+**Owner verbatim (2026-09-24):** “out 1 3 4 yeter 5 i kapatalım”
+
+OUT-5 round 2 closed without a TAMAM seal. Coverage at close: all findings closed/withdrawn with zero
+active records, 15/15 ADRs read, full task/flow/feature/capability chains verified, all unread groups except
+5 (CHANGELOG, DECISION_LOG, 02_DISCOVERY, 03_DESIGN, 04_DEBATES bodies) read with no new findings in 18
+deliveries. Residual risk accepted by owner: the 5 unread bodies were never OUT-5-read, but OUT-3 (36/36
+TAMAM, d025c45) and OUT-4 (SISTEM-SAGLAM, 21509f2) sealed the same tree independently. OUT-2 remains silent
+and out of scope for this decision.
