@@ -1994,3 +1994,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Delta verified against live disk: suite outputs identical (30 IDs, 35 files, 92 edges 12+80, 3 records,
   worst exit 0); line counts exact (1991/1995/70/29); app canonical 55; sealed file header at live SHAs
   with 206-row Table A intact. Verdict scoped to these SHAs; NOT Gate 8 approval.
+
+### OUT-5 Sixteenth Delivery Triage (EKSIK-TARAMA, plan pin e4f63dc, app 12b03ae current, 2026-09-24)
+- Unread list down to 5 groups (CHANGELOG, DECISION_LOG, 02_DISCOVERY, 03_DESIGN, 04_DEBATES). New full reads:
+  HANDOFF, all 15 ADRs, ACCEPTANCE_MATRIX, 9 manifest drafts plus 9 installed manifests.
+- No new findings; round 2 continues. (Plan HEAD has since moved to c038025 - OUT-4 seal record only.)
