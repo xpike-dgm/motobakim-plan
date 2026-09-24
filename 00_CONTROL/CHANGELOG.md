@@ -1930,3 +1930,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Pin note: plan HEAD has since moved to 93f357e (DEC-0064 + record only); verdicts unaffected, but T3 ACTIVE
   line must be re-read at round-2 close since it landed after this snapshot.
 - Still EKSIK (unread ranges remain) - round 2 continues same session.
+
+### OUT-4 Re-run Triage (SISTEM-SAGLAM claimed, pinned plan 898d1af / app 1ca962d, 2026-09-24)
+- REJECTED back to OUT-4: delivered A-table does not match live disk. Disk has T-E4-009a/b (no bare T-E4-009),
+  T-E4-011a/b (no bare T-E4-011), T-E1-022b (no bare T-E1-022), and T-E2-016 - the table shows the bare IDs
+  and omits T-E2-016. Table matches the pre-Batch-3C era, not the pinned or live tree.
+- Second defect: plan pin 898d1af is stale (HEAD is e50cef1); re-run must re-pin to current HEADs.
+- Transcript shows live-disk reads happened in scratch, so this reads as a stale paste, not fabrication -
+  same-session correction invited: re-emit A-table from live disk at current SHAs.
