@@ -1938,3 +1938,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Second defect: plan pin 898d1af is stale (HEAD is e50cef1); re-run must re-pin to current HEADs.
 - Transcript shows live-disk reads happened in scratch, so this reads as a stale paste, not fabrication -
   same-session correction invited: re-emit A-table from live disk at current SHAs.
+
+### OUT-5 Tenth Delivery Triage (EKSIK-TARAMA, pins current e50cef1/1ca962d, 2026-09-24)
+- Pin current; T3 ACTIVE lines re-read as requested (DECISION_LOG 1949-1961, REVIEW_LOG 63-66).
+- A-table now uses suffixed IDs (009a/b, 011a/b, 022a/b, T-E2-016 present) - matches disk; this corroborates
+  the OUT-4 stale-table rejection.
+- No new findings; still EKSIK (unread ranges remain) - round 2 continues same session.
