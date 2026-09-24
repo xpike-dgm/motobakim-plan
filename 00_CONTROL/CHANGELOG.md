@@ -2009,3 +2009,6 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 
 ### OUT-5 Seventeenth Delivery Triage (EKSIK-TARAMA, plan pin a6cab01, 2026-09-24)
 - HANDOFF fully read; P-battery extended; unread steady at 5 groups. No new findings; round 2 continues.
+
+### OUT-5 Eighteenth Delivery Triage (EKSIK-TARAMA, pins current 5434c0d/12b03ae, 2026-09-24)
+- All 15 ADRs now read; unread steady at 5 groups. No new findings; round 2 continues.
