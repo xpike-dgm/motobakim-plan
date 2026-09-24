@@ -1917,3 +1917,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Evidence quality restored: raw Turkish acceptances match disk, current-era suite outputs (11 checks,
   edges 91-split, presence 25), new stanza lines cited. No new findings; statuses unchanged.
 - Still EKSIK (unread ranges remain) - round 2 continues same session.
+
+### DEC-0064 Implemented (B-01 per-repo split + T3 active, 2026-09-23)
+- App ruleset main-gates (23876055): bypass_actors=[] (verified), enforcement active; owner empty-commit
+  direct-push probe REJECTED GH013, local reset clean (app HEAD 1ca962d).
+- Plan ruleset: RepositoryRole bypass retained for authorized manager pushes, enforcement active.
+- REVIEW_LOG T3 section flipped PROPOSED -> ACTIVE. Closes OUT-3 B-01; T3 binding from cf16664.
