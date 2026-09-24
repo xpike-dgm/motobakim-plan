@@ -1912,3 +1912,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Suite outputs show stale 10-check/102-edge era on a tree with 11 checks and 91 split edges.
 - A-table acceptances match disk (real work); counts right. Ruling: evidence unreliable - round 2 must carry
   real command outputs at current SHAs. Same standard applied as OUT-4 rejection.
+
+### OUT-5 Eighth Delivery Triage (EKSIK-TARAMA, SHAs 1636afc/1ca962d current, 2026-09-23)
+- Evidence quality restored: raw Turkish acceptances match disk, current-era suite outputs (11 checks,
+  edges 91-split, presence 25), new stanza lines cited. No new findings; statuses unchanged.
+- Still EKSIK (unread ranges remain) - round 2 continues same session.
