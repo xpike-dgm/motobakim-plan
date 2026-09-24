@@ -1984,7 +1984,8 @@ The owner (`en mantıklı kararları vererek bunları sen uygula ... en iyisi ne
 
 ## DEC-0065 — B-01 Deadlock Resolution (Approval Count 0, PR Plus CI Remain)
 **Date:** 2026-09-24
-**Status:** APPROVED (owner delegated the choice: “önerin nedir”; manager recommendation implemented)
+**Status:** APPROVED (owner-accepted manager recommendation)
+**Owner verbatim (2026-09-24):** “Kabul ediyorum” (on the stated recommendation: approval count 0, PR plus green CI locked, T3 second-eye continues)
 
 OUT-3 verification correctly found that `required_approving_review_count: 1` with a single authorized
 account deadlocks `kavriva-app` permanently (GitHub does not count self-approval). Manager recommendation:
