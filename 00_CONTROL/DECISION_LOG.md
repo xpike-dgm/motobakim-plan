@@ -1949,6 +1949,7 @@ open a change-request. Closes OUT-3 B-33.
 ## DEC-0064 — B-01 Per-Repo Enforcement Split + T3 Rule Activated
 **Date:** 2026-09-23
 **Status:** APPROVED (owner-approved both manager recommendations: per-repo split + T3 on)
+**Owner verbatim (2026-09-23):** “önerilerin doğrultusunda kabul ediyorum”
 
 B-01 governance: application repo (`kavriva-app`, future product code, high blast radius) runs with NO bypass —
 pull request + green CI + approval required for everyone including the owner. Planning repo (records, low blast

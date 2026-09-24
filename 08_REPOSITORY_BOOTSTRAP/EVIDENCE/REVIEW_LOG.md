@@ -1,7 +1,6 @@
 # REVIEW EVIDENCE LOG (OUT-3 B-13 closure, 2026-09-23)
 
-Status: ACTIVE (every future independent review appends one entry in this format; T3 rule below is PROPOSED
-pending owner approval — it tightens policy and is NOT in force until approved)
+Status: ACTIVE (every future independent review appends one entry in this format; T3 rule below is ACTIVE per DEC-0064 and in force)
 
 Binding sources: `DEC-0052`/`DEC-0056` (review loop until PASS), `TASK_EXECUTION_PROTOCOL.md` (different-chat rule),
 `RULES/README.md` R-007.
@@ -57,8 +56,6 @@ explicitly (gap recorded, not hidden).
 - 2026-09-23 | ses_f2f61c624ffeiJnYrNZzyRfS0p (model: harness-undisclosed) | Wave-A diff review (plan a11b61f, 6 files: leftovers, log append, binding, mapping, numbers) | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f2f61c610ffeQdEY59ZMiZ60cg (model: harness-undisclosed) | Wave-B diff review (app 1ca962d 5 files + plan 87b62d6 record; strictness, attribution, pin, digests) | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f2f6aab0bffe1DhUZkBOk9p1NO (model: harness-undisclosed) | INTERNAL micro-verify of B-13/B-34 fixes (manager-run, not an OUT-3 verdict) | PASS | closed-0 open-0 | none
-
-## PROPOSED (pending owner approval, NOT in force)
 
 ## ACTIVE (DEC-0064, 2026-09-23 — owner-approved; in force)
 
