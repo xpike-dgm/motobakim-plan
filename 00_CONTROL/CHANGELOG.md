@@ -1950,3 +1950,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Proof PR #1 `proof/b01-merge-path` -> merged `12b03ae` (E-PR-003, full conformance record, CI green).
 - First CI run on the PR failed by design (unlinked supporting note) and passed after E-PR-003 became a full
   record - the gate enforces, not decorates. Test branch deleted. B-01 CLOSED with evidence.
+
+### OUT-5 Eleventh Delivery Triage (EKSIK-TARAMA, pins 9906aa6/1ca962d pre-merge, 2026-09-24)
+- Snapshot predates DEC-0065 + PR #1 merge: live is now plan 07a899f / app 12b03ae (3 evidence records,
+  approval 0, REVIEW_LOG single-ACTIVE). Their Y note (old side-sentence) describes the state already fixed
+  in b23602f; G/W 2-record outputs match their pin, not live.
+- No new findings. Round-2 close must re-pin to current SHAs.
