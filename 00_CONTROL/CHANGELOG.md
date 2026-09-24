@@ -1976,3 +1976,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 ### OUT-5 Fourteenth Delivery Triage (EKSIK-TARAMA, pins current f4ef150/12b03ae, 2026-09-24)
 - Pins current on both repos; 5 B-13 entries counted, format kept; post-merge suite outputs steady.
 - No new findings; still EKSIK (unread ranges remain) - round 2 continues same session.
+
+### OUT-5 Fifteenth Delivery Triage (EKSIK-TARAMA, pins current e4f63dc/12b03ae, 2026-09-24)
+- Unread list shrinking: CURRENT_STATE, OPEN_QUESTIONS, DOCUMENT_REGISTRY, SOURCE_OF_TRUTH, AI_START_HERE,
+  6 ADR records, ASSUMPTIONS 18-36, ACCEPTANCE_MATRIX header, CHANGE_CONTROL, OWNER_STATUS now read.
+- New C detail (status counts) consistent with approved state. No new findings; round 2 continues.
