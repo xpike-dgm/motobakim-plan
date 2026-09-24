@@ -1956,3 +1956,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   approval 0, REVIEW_LOG single-ACTIVE). Their Y note (old side-sentence) describes the state already fixed
   in b23602f; G/W 2-record outputs match their pin, not live.
 - No new findings. Round-2 close must re-pin to current SHAs.
+
+### OUT-5 Twelfth Delivery Triage (EKSIK-TARAMA, pins current e3764e4/12b03ae, 2026-09-24)
+- Post-merge numbers internally coherent and matching the known change: 3 records, 30 IDs, 35 files,
+  edges 91 -> 92, suite green. Y confirms single-ACTIVE T3; E-PR-003 read.
+- No new findings; still EKSIK (unread ranges remain) - round 2 continues same session.
