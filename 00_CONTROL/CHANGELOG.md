@@ -1923,3 +1923,10 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   direct-push probe REJECTED GH013, local reset clean (app HEAD 1ca962d).
 - Plan ruleset: RepositoryRole bypass retained for authorized manager pushes, enforcement active.
 - REVIEW_LOG T3 section flipped PROPOSED -> ACTIVE. Closes OUT-3 B-01; T3 binding from cf16664.
+
+### OUT-5 Ninth Delivery Triage (EKSIK-TARAMA, pinned plan 4e6ddb7 / app 1ca962d, 2026-09-24)
+- No new findings; B-01..B-07 all closed/withdrawn/retired/design/maintenance, zero active records.
+- A-Y all BULGU-YOK; 206-task full list, edges 91, suite green outputs match disk.
+- Pin note: plan HEAD has since moved to 93f357e (DEC-0064 + record only); verdicts unaffected, but T3 ACTIVE
+  line must be re-read at round-2 close since it landed after this snapshot.
+- Still EKSIK (unread ranges remain) - round 2 continues same session.
