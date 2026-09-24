@@ -57,6 +57,13 @@ explicitly (gap recorded, not hidden).
 - 2026-09-23 | ses_f2f61c610ffeQdEY59ZMiZ60cg (model: harness-undisclosed) | Wave-B diff review (app 1ca962d 5 files + plan 87b62d6 record; strictness, attribution, pin, digests) | PASS | closed-0 open-0 | none
 - 2026-09-23 | ses_f2f6aab0bffe1DhUZkBOk9p1NO (model: harness-undisclosed) | INTERNAL micro-verify of B-13/B-34 fixes (manager-run, not an OUT-3 verdict) | PASS | closed-0 open-0 | none
 
+- 2026-09-24 | ses_f2f2c3ea4ffeMcmoG5pPhaO4hX (model: harness-undisclosed) | OUT-3 verification fixes (DEC-0064 owner verbatim plus REVIEW_LOG T3 single-ACTIVE), DECISION_LOG plus REVIEW_LOG diff | PASS | 0 | none
+- 2026-09-24 | ses_f2f262b09ffepVKXucYFjtMglZ (model: harness-undisclosed) | DEC-0065 plus B-01 re-closure record (approval 0, PR plus CI kept, merge proof 12b03ae), DECISION_LOG plus CHANGELOG diff, app log cross-check | PASS | 0 | none
+- 2026-09-24 | ses_f2f1cd41bffe8kHDUD3XXYs5Ky (model: harness-undisclosed) | DEC-0065 owner acceptance quote, DECISION_LOG diff only | PASS | 0 | none
+- 2026-09-24 | ses_f2f18fad9ffeibtLttzjGXpnSk (model: harness-undisclosed) | E-PR-003 post-merge audit on app main 12b03ae (frontmatter, digest recompute, ruleset live-check, conformance plus run_all green) | PASS | 0 | none
+
+- 2026-09-24 | ses_f2f16bf09ffe2OJVgp3L23ZfLy (model: harness-undisclosed) | B-13 log-append review (4 entries format plus scope plus integrity, REVIEW_LOG diff) | PASS | 0 | none
+
 ## ACTIVE (DEC-0064, 2026-09-23 — owner-approved; in force)
 
 T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
