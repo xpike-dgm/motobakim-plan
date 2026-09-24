@@ -2016,3 +2016,6 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 ### OUT-5 Round Closed Early (DEC-0066, 2026-09-24)
 - Owner closed OUT-5 without TAMAM seal; 18 deliveries, zero open findings, 5 bodies unread (risk accepted,
   covered by OUT-3/OUT-4 independent seals). Close notice sent to OUT-5 same session.
+
+### OUT-5 Close Acknowledged (2026-09-24)
+- OUT-5 confirmed closure (DEC-0066); no pending work; round shut.
