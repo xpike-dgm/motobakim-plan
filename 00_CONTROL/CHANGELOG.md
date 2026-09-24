@@ -1944,3 +1944,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - A-table now uses suffixed IDs (009a/b, 011a/b, 022a/b, T-E2-016 present) - matches disk; this corroborates
   the OUT-4 stale-table rejection.
 - No new findings; still EKSIK (unread ranges remain) - round 2 continues same session.
+
+### OUT-3 B-01 Re-closure (merge evidence, 2026-09-24)
+- App `main-gates`: required_approving_review_count 1 -> 0 (PR, green checks, no-FF, no-deletion, zero bypass kept).
+- Proof PR #1 `proof/b01-merge-path` -> merged `12b03ae` (E-PR-003, full conformance record, CI green).
+- First CI run on the PR failed by design (unlinked supporting note) and passed after E-PR-003 became a full
+  record - the gate enforces, not decorates. Test branch deleted. B-01 CLOSED with evidence.

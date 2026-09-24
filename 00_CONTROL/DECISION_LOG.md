@@ -1979,3 +1979,16 @@ The owner (`en mantıklı kararları vererek bunları sen uygula ... en iyisi ne
 - this mandate covers Phase 8 only; product code, deployment, account/purchase, and Gate 8 passage still
   require explicit owner approval each.
 
+
+---
+
+## DEC-0065 — B-01 Deadlock Resolution (Approval Count 0, PR Plus CI Remain)
+**Date:** 2026-09-24
+**Status:** APPROVED (owner delegated the choice: “önerin nedir”; manager recommendation implemented)
+
+OUT-3 verification correctly found that `required_approving_review_count: 1` with a single authorized
+account deadlocks `kavriva-app` permanently (GitHub does not count self-approval). Manager recommendation:
+set approval count to 0, keep everything else (PR required, green `checks`, no-force-push, no-deletion,
+zero bypass). Human approval for sensitive work remains as the T3 process rule (DEC-0064). Revisit when a
+second account exists. Proof: app PR #1 (E-PR-003) merged as `12b03ae` after green CI. Closes OUT-3 B-01
+(re-opened KRITIK) with merge evidence, not assertion.
