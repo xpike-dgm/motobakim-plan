@@ -1967,3 +1967,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   review entries, 49 unique sessions, no duplicate lines/IDs). Verdict scoped to these SHAs only.
 - Minor format note (non-blocking): new entries use bare 0 in findings-count; keep single style going forward.
 - NOT a Gate 8 approval: gate still waits for DEC-0060 completion plus explicit owner approval.
+
+### OUT-5 Thirteenth Delivery Triage (EKSIK-TARAMA, plan pin 1368179 pre-B-13-entries, 2026-09-24)
+- Snapshot predates d025c45 (5 review entries) and 9297208 (TAMAM record); live is 9297208/12b03ae.
+  Content consistent with pin; G outputs match pin era. No new findings.
+- Still EKSIK - round 2 continues same session; close must re-pin to live (incl. B-13 entries).
