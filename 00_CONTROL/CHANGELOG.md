@@ -1961,3 +1961,9 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Post-merge numbers internally coherent and matching the known change: 3 records, 30 IDs, 35 files,
   edges 91 -> 92, suite green. Y confirms single-ACTIVE T3; E-PR-003 read.
 - No new findings; still EKSIK (unread ranges remain) - round 2 continues same session.
+
+### OUT-3 TAMAM (36/36, plan d025c45 / app 12b03ae, 2026-09-24)
+- Full delivery: all 36 findings closed and verified (B-01 with merge evidence 12b03ae, B-13 with 5 logged
+  review entries, 49 unique sessions, no duplicate lines/IDs). Verdict scoped to these SHAs only.
+- Minor format note (non-blocking): new entries use bare 0 in findings-count; keep single style going forward.
+- NOT a Gate 8 approval: gate still waits for DEC-0060 completion plus explicit owner approval.
