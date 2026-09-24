@@ -1946,6 +1946,22 @@ open a change-request. Closes OUT-3 B-33.
 
 ---
 
+## DEC-0064 — B-01 Per-Repo Enforcement Split + T3 Rule Activated
+**Date:** 2026-09-23
+**Status:** APPROVED (owner-approved both manager recommendations: per-repo split + T3 on)
+
+B-01 governance: application repo (`kavriva-app`, future product code, high blast radius) runs with NO bypass —
+pull request + green CI + approval required for everyone including the owner. Planning repo (records, low blast
+radius) keeps owner-role bypass strictly for authorized manager pushes (DEC-0059/0060/0062), each landing as a
+recorded commit with a remote bypass-log line. Rationale: mechanical lock where the asset lives, audited flow
+where records live (OUT-3 B-01 closure condition).
+
+T3 rule (from REVIEW_LOG PROPOSED section): ACTIVE as of this decision. T3-class work (money/publish/identity)
+additionally requires a non-subagent review leg (owner check or second-model session); sub-agent review alone
+is insufficient for T3. Cost accepted by owner: T3 tasks wait for the second eye.
+
+---
+
 ## DEC-0059 — Standing Phase-8 Execution Mandate (Best-Judgment + Push)
 **Date:** 2026-09-22
 **Status:** APPROVED

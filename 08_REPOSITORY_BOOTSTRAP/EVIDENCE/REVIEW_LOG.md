@@ -60,5 +60,7 @@ explicitly (gap recorded, not hidden).
 
 ## PROPOSED (pending owner approval, NOT in force)
 
+## ACTIVE (DEC-0064, 2026-09-23 — owner-approved; in force)
+
 T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
 sub-agent review alone is insufficient for T3. Reason: OUT-3 B-13 (reviewer-context opacity).
