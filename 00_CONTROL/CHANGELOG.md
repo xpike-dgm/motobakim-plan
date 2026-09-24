@@ -2003,3 +2003,6 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 ### OUT-4 Seal Acknowledged (21509f2/12b03ae, 2026-09-24)
 - OUT-4 confirmed the SISTEM-SAGLAM seal and its record (c038025); both trees clean; scope limits restated.
 - No action required; OUT-4 round closed unless the tree changes.
+
+### OUT-4 Standby (2026-09-24)
+- OUT-4 confirmed standby; no tree change, no action.
