@@ -1999,3 +1999,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Unread list down to 5 groups (CHANGELOG, DECISION_LOG, 02_DISCOVERY, 03_DESIGN, 04_DEBATES). New full reads:
   HANDOFF, all 15 ADRs, ACCEPTANCE_MATRIX, 9 manifest drafts plus 9 installed manifests.
 - No new findings; round 2 continues. (Plan HEAD has since moved to c038025 - OUT-4 seal record only.)
+
+### OUT-4 Seal Acknowledged (21509f2/12b03ae, 2026-09-24)
+- OUT-4 confirmed the SISTEM-SAGLAM seal and its record (c038025); both trees clean; scope limits restated.
+- No action required; OUT-4 round closed unless the tree changes.
