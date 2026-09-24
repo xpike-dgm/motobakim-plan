@@ -1981,3 +1981,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - Unread list shrinking: CURRENT_STATE, OPEN_QUESTIONS, DOCUMENT_REGISTRY, SOURCE_OF_TRUTH, AI_START_HERE,
   6 ADR records, ASSUMPTIONS 18-36, ACCEPTANCE_MATRIX header, CHANGE_CONTROL, OWNER_STATUS now read.
 - New C detail (status counts) consistent with approved state. No new findings; round 2 continues.
+
+### OUT-4 Sealed Delivery Triage (pins d6eed1b/1ca962d, file read from disk, 2026-09-24)
+- Table A correction VERIFIED: 206 rows, exact live-disk ID sequence, suffixed IDs present, no phantoms,
+  closing line intact. Stale-paste defect cured.
+- Verdict SCOPE-QUEUED, not sealed: pins are stale (live plan 2a6468f, app 12b03ae). Post-pin changes in
+  OUT-4 scope: E-PR-003 (new evidence file), suite outputs (3 records / 30 IDs / 92 edges), REVIEW_LOG
+  T3-ACTIVE plus 5 entries, DEC-0064/0065, inventory line-count drift.
+- Invited: narrow delta at current SHAs (fresh suite run plus inventory of changed files only), then seal.
