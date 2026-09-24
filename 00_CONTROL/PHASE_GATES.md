@@ -49,8 +49,7 @@ kontrolleri kurulup ornek gorevle dogrulanmali. Gercek kodlama ancak bundan sonr
 - Gate 7 -> 8: **PASSED under `DEC-0057` on 2026-09-21** with explicit owner approval after independent gate
   verification PASS. Phase 8 (repository bootstrap) is authorized; no application code or deployment authorized.
 - Phase 8 bootstrap is proof-complete (checklist 9/9 evidenced; proof task verified).
-- Gate 8 -> Development: **PENDING** — awaits five-AI closure protocol completion (`DEC-0060`), then explicit
-  owner approval. No product code, task execution beyond the proof task, account, purchase or deployment until then.
+- Gate 8 -> Development: **PASSED under `DEC-0067` on 2026-09-24** with explicit owner approval. Development (real product coding) is authorized, governed by approved architecture, task registry, CI gates, T3 rule, and change control.
   The full bidirectional trace closure is bound to the Development row-migration by the G8-2 singular-example
   criterion above (OUT-3 B-07 binding: check_trace gates the example-task segment; the whole chain migrates with
   the rows, not before).

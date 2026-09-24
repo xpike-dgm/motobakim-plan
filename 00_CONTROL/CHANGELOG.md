@@ -2019,3 +2019,7 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 
 ### OUT-5 Close Acknowledged (2026-09-24)
 - OUT-5 confirmed closure (DEC-0066); no pending work; round shut.
+
+### DEC-0067 Gate 8 -> Development PASSED (2026-09-24)
+- Explicit owner approval recorded; Development authorized under approved architecture/registry/CI/T3/change-control.
+- Five-AI closure: OUT-1 DONE, OUT-3 TAMAM, OUT-4 SISTEM-SAGLAM, OUT-5 closed (DEC-0066), OUT-2 silent.

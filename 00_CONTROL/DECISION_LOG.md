@@ -2007,3 +2007,16 @@ active records, 15/15 ADRs read, full task/flow/feature/capability chains verifi
 deliveries. Residual risk accepted by owner: the 5 unread bodies were never OUT-5-read, but OUT-3 (36/36
 TAMAM, d025c45) and OUT-4 (SISTEM-SAGLAM, 21509f2) sealed the same tree independently. OUT-2 remains silent
 and out of scope for this decision.
+
+---
+
+## DEC-0067 — Gate 8 -> Development PASSED (Owner Approval)
+**Date:** 2026-09-24
+**Status:** APPROVED (explicit owner approval: “onaylandı”)
+**Owner verbatim (2026-09-24):** “onaylandı”
+
+Gate 8 -> Development is PASSED. Evidence: Phase-8 bootstrap proof-complete (checklist 9/9, P-PROOF-001
+verified), five-AI closure complete (OUT-1 DONE, OUT-3 TAMAM 36/36, OUT-4 SISTEM-SAGLAM, OUT-5 closed per
+DEC-0066; OUT-2 silent and out of scope), branch protection enforced on both repos with merge path proven
+(PR #1, E-PR-003), CI green, T3 rule in force. Development (real product coding) is authorized from here on,
+governed by the approved architecture, task registry, CI gates, T3 second-eye rule, and change control.
