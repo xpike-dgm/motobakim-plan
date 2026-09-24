@@ -1989,3 +1989,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
   OUT-4 scope: E-PR-003 (new evidence file), suite outputs (3 records / 30 IDs / 92 edges), REVIEW_LOG
   T3-ACTIVE plus 5 entries, DEC-0064/0065, inventory line-count drift.
 - Invited: narrow delta at current SHAs (fresh suite run plus inventory of changed files only), then seal.
+
+### OUT-4 SISTEM-SAGLAM sealed (plan 21509f2 / app 12b03ae, 2026-09-24)
+- Delta verified against live disk: suite outputs identical (30 IDs, 35 files, 92 edges 12+80, 3 records,
+  worst exit 0); line counts exact (1991/1995/70/29); app canonical 55; sealed file header at live SHAs
+  with 206-row Table A intact. Verdict scoped to these SHAs; NOT Gate 8 approval.
