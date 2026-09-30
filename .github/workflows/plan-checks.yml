@@ -1,0 +1,41 @@
+name: plan-checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out planning records
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 2
+      - name: Check changed-file whitespace
+        run: git diff --check HEAD^1 HEAD
+      - name: Check review-log entries
+        run: |
+          python3 - <<'PY'
+          from datetime import date
+          from pathlib import Path
+          import re
+
+          path = Path('08_REPOSITORY_BOOTSTRAP/EVIDENCE/REVIEW_LOG.md')
+          entries = [line for line in path.read_text(encoding='utf-8').splitlines()
+                     if line.startswith('- 20')]
+          if not entries:
+              raise SystemExit('review log has no entries')
+          for line in entries:
+              fields = [field.strip() for field in line[2:].split('|')]
+              if len(fields) != 6 or any(not field for field in fields):
+                  raise SystemExit(f'invalid review-log entry: {line}')
+              if not re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:/\d{2})?', fields[0]):
+                  raise SystemExit(f'invalid review date: {fields[0]}')
+              date.fromisoformat(fields[0][:10])
+          print(f'review log: {len(entries)} entries valid')
+          PY
