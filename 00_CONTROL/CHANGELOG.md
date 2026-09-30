@@ -2023,3 +2023,6 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 ### DEC-0067 Gate 8 -> Development PASSED (2026-09-24)
 - Explicit owner approval recorded; Development authorized under approved architecture/registry/CI/T3/change-control.
 - Five-AI closure: OUT-1 DONE, OUT-3 TAMAM, OUT-4 SISTEM-SAGLAM, OUT-5 closed (DEC-0066), OUT-2 silent.
+
+### DEC-0068 Batched slices, review at completion (2026-09-24)
+- Owner-approved: single-PRs per task, one independent review at DONE-gate, T3 unchanged, no per-slice reports.

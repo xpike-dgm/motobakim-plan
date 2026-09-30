@@ -2020,3 +2020,15 @@ verified), five-AI closure complete (OUT-1 DONE, OUT-3 TAMAM 36/36, OUT-4 SISTEM
 DEC-0066; OUT-2 silent and out of scope), branch protection enforced on both repos with merge path proven
 (PR #1, E-PR-003), CI green, T3 rule in force. Development (real product coding) is authorized from here on,
 governed by the approved architecture, task registry, CI gates, T3 second-eye rule, and change control.
+
+---
+
+## DEC-0068 — Batched Slices, Review at Task Completion (Owner Approval)
+**Date:** 2026-09-24
+**Status:** APPROVED (explicit owner approval: “onaylıyorum”)
+**Owner verbatim (2026-09-24):** “onaylıyorum” (on batching slices plus review-at-completion, T3 unchanged)
+
+Development slices within one task are batched into single PRs; per-slice status reports stop. Independent
+different-chat review moves from per-slice to task completion (before DONE). T3 second-eye rule (DEC-0064)
+is unchanged and still applies to money/publish/identity work. Reason: per-slice gating stalled T-E3-001
+through permission cycles without safety gain. Amends TASK_EXECUTION_PROTOCOL.md review cadence only.

@@ -13,3 +13,9 @@ CHANGES_REQUESTED→REVIEW transitions defined above. No silent state skips.
 Required context per pack standard; reviewer must be a different chat (DEC-0052/0041, five-guard parallel
 safeguards: same frozen brief, separately-identified outputs, no overwrite, disagreement preserved,
 agreement≠approval). High-impact work never self-PASSes.
+
+## Amendment (DEC-0068, 2026-09-24, owner-approved; history above preserved)
+
+Slices within one task are batched into single PRs. Independent different-chat review is required at task
+REVIEW (before DONE), not per slice. T3 second-eye (DEC-0064) still applies where triggered. Per-slice
+status reports to the owner stop; the owner is asked only for task-level approval and review verdicts.
