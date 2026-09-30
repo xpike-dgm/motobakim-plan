@@ -1,6 +1,6 @@
 # REVIEW EVIDENCE LOG (OUT-3 B-13 closure, 2026-09-23)
 
-Status: ACTIVE (every future independent review appends one entry in this format; T3 rule below is ACTIVE per DEC-0064 and in force)
+Status: ACTIVE (every future independent review appends one entry in this format; T3 rule amended by DEC-0069)
 
 Binding sources: `DEC-0052`/`DEC-0056` (review loop until PASS), `TASK_EXECUTION_PROTOCOL.md` (different-chat rule),
 `RULES/README.md` R-007.
@@ -66,7 +66,11 @@ explicitly (gap recorded, not hidden).
 
 - 2026-09-28 | 01a0e8c9-7f86-7a43-9ab4-bd7978e0da26 (model: harness-undisclosed; separate, non-subagent Codex chat) | kavriva-app PR #6 code head 20e7c5b, P-E3-001-R2 maintenance create/edit slice and E-DEV-004 | PASS (limited slice only; T-E3-001-R1 remains CHANGES_REQUESTED, no production claim) | 0 | none
 
-## ACTIVE (DEC-0064, 2026-09-23 — owner-approved; in force)
+- 2026-10-01 | /root/pr7_independent_review (model: gpt-6-luna, max; owner-accepted delegated context) | kavriva-app PR #7, initial head 04bbbf1 then corrected code head 687246e; later 66dd175 evidence-only; E-DEV-005 | CHANGES_REQUESTED(1) then PASS for PR scope; owner accepted T3 second-eye, no DONE or hosted-production claim | closed-1 open-0 | PR7-FLOOR-001
 
-T3-class work additionally requires a non-subagent review leg (human owner check or second-model session);
-sub-agent review alone is insufficient for T3. Reason: OUT-3 B-13 (reviewer-context opacity).
+## ACTIVE (DEC-0069, 2026-10-01 — owner-approved amendment)
+
+T3-class work requires a distinct second eye. An independent delegated sub-agent verdict counts when the
+owner explicitly accepts it and the context, model, exact head, scope and finding closure are recorded.
+Implementer self-review or an automatic gate alone never counts. The DEC-0064 non-subagent restriction is
+superseded by DEC-0069 only for this owner-accepted path.
