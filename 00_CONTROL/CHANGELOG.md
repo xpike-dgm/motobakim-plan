@@ -2026,3 +2026,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 
 ### DEC-0068 Batched slices, review at completion (2026-09-24)
 - Owner-approved: single-PRs per task, one independent review at DONE-gate, T3 unchanged, no per-slice reports.
+
+### DEC-0069 Owner-accepted delegated T3 review (2026-10-01)
+- The owner accepts PR #7's Luna Max sub-agent review as its T3 second eye. DEC-0064's blanket exclusion of
+  sub-agents is superseded when the owner accepts an identified, recorded independent verdict. PR and green CI
+  remain required; this does not mark the task DONE or activate production.

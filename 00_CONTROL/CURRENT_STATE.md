@@ -2,7 +2,12 @@
 
 ## Current Phase
 
-`PHASE-8 / PROOF COMPLETE / GATE 8 APPROVAL PENDING / FIVE-AI CLOSURE PROTOCOL ACTIVE (DEC-0060)`
+`DEVELOPMENT AUTHORIZED / GATE 8 PASSED (DEC-0067)`
+
+The detailed Phase-8 notes below preserve their earlier snapshot. Current Development review cadence is
+DEC-0068; DEC-0069 permits an independent delegated sub-agent T3 verdict when the owner explicitly accepts
+the recorded reviewer, code head, scope and finding closure. PR #7's scoped review is owner-accepted.
+This does not establish hosted production activation or T-E3-001-R1 DONE.
 
 ## Approved Working References
 

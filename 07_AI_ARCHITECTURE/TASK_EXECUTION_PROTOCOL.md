@@ -19,3 +19,13 @@ agreement≠approval). High-impact work never self-PASSes.
 Slices within one task are batched into single PRs. Independent different-chat review is required at task
 REVIEW (before DONE), not per slice. T3 second-eye (DEC-0064) still applies where triggered. Per-slice
 status reports to the owner stop; the owner is asked only for task-level approval and review verdicts.
+
+## Amendment (DEC-0069, 2026-10-01, owner-approved)
+
+The owner may accept an independent delegated sub-agent review as the T3 second-eye at task REVIEW. The
+reviewer must be separate from the implementer, receive a bounded task and exact code head, report findings
+and a verdict, and re-review fixes. Record the reviewer context/model, scope, head, finding closure and
+explicit owner acceptance. An automatic check or implementer self-review cannot substitute. This amends
+the non-subagent restriction in DEC-0064 and the different-chat wording above for owner-accepted
+sub-agent reviews; the PR, green CI and evidence requirements remain. Review approval does not itself
+prove production activation or advance a task to DONE.

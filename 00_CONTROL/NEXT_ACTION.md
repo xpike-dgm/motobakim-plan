@@ -4,6 +4,10 @@ Status: `GATE 8 PASSED / DEVELOPMENT AUTHORIZED (DEC-0067)`
 Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
 Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
 
+Current review rule (DEC-0069, 2026-10-01): the owner accepts PR #7's independent Luna Max sub-agent
+review as its T3 second eye. Future delegated T3 reviews require explicit owner acceptance and recorded
+scope, head and finding closure. PR, green CI and task evidence remain required. T-E3-001-R1 is not DONE.
+
 ## Just Completed
 
 Gate 7 -> 8 is PASSED. The owner explicitly approved the transition (`onaylıyorum`) after independent gate

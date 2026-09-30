@@ -2032,3 +2032,22 @@ Development slices within one task are batched into single PRs; per-slice status
 different-chat review moves from per-slice to task completion (before DONE). T3 second-eye rule (DEC-0064)
 is unchanged and still applies to money/publish/identity work. Reason: per-slice gating stalled T-E3-001
 through permission cycles without safety gain. Amends TASK_EXECUTION_PROTOCOL.md review cadence only.
+
+---
+
+## DEC-0069 — Owner Acceptance of Independent Sub-Agent T3 Review
+**Date:** 2026-10-01
+**Status:** APPROVED (explicit owner instruction)
+**Owner verbatim:** “tutuyor ben sahip olarak altajnı kabul ediyorum”
+
+The owner accepts the independent Luna Max sub-agent's PR #7 review as the T3 second-eye for that PR. This
+supersedes DEC-0064's categorical exclusion of sub-agent reviews; it does not remove T3 review. For future
+T3 tasks, a delegated reviewer in a separate agent context may satisfy the second eye when the owner
+explicitly accepts its identified verdict. Record the reviewer context, model, exact code head/scope, findings,
+remediation and re-review, green CI, and the owner's acceptance. Implementer self-review and automatic T3
+checks alone still do not satisfy the rule. DEC-0068's review-at-task-completion cadence remains active.
+
+PR #7's sub-agent first requested changes for the motorcycle negative-floor check, then returned PASS for
+corrected code head 687246ee3f6a865f86914743e3a5a5c2c423879d. The later 66dd175 evidence-only
+commit did not change executable code. Owner acceptance authorizes treating that review as the T3 leg for
+PR #7; it does not prove hosted production activation or mark T-E3-001-R1 DONE.
