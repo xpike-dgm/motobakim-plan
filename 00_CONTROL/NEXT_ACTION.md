@@ -8,6 +8,10 @@ Current review rule (DEC-0069, 2026-10-01): the owner accepts PR #7's independen
 review as its T3 second eye. Future delegated T3 reviews require explicit owner acceptance and recorded
 scope, head and finding closure. PR, green CI and task evidence remain required. T-E3-001-R1 is not DONE.
 
+## Active Development Mandate (DEC-0070, 2026-10-01)
+
+Continue eligible recorded Development tasks without repeated owner confirmation. The owner grants standing acceptance of bounded independent GPT-6 Luna Max PASS verdicts and authorized PR merges after exact-head green CI, until revoked. Record reviewer/head/scope/findings/re-review, CI and this owner mandate in each evidence record. Do not skip dependencies, independent review or proof before DONE. The earlier per-verdict timing note above is superseded by DEC-0070; operational activation/custody/recovery gates remain.
+
 ## Just Completed
 
 Gate 7 -> 8 is PASSED. The owner explicitly approved the transition (`onaylıyorum`) after independent gate

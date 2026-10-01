@@ -561,3 +561,8 @@ Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-00
 
 70. OUT-1 audit CLOSED-current (2026-09-23): SİSTEM-SAĞLAM on plan `8981d5b` + app `1ca962d` after delta
     verification (Wave-A/B entries, 34 records / 44 sessions). Re-opens on any future tree change.
+
+
+## 2026-10-01 — Standing Development Mandate (DEC-0070)
+
+The owner accepted PR #24's identified independent PASS and authorizes ongoing eligible Development tasks and bounded merges after independent GPT-6 Luna Max PASS plus applicable exact-head green CI, until revoked. Record the mandate with per-task reviewer/head/scope/finding closure/CI proof; no repeated confirmation. Preserve dependency eligibility, architecture, one task PR and operational HELD gates. T-E3-001-R1 is REVIEW, not the bootstrap proof-only DONE row. This current amendment supersedes older approval timing notes without altering historical snapshots.

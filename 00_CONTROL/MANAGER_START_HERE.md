@@ -29,6 +29,10 @@ Read these files before doing meaningful work:
 
 Do not bulk-read all 300+ artifacts unless a repository-wide audit specifically requires it.
 
+## Current Development Authorization (DEC-0070, 2026-10-01)
+
+Read the DEC-0070 standing owner mandate before executing Development tasks. Independent `gpt-6-luna` / `max` PASS plus applicable exact-head green CI and recorded scoped evidence authorize task PR merges without repeated owner confirmation, until revoked. Existing dependency, scope, phase and operational activation gates remain binding. The historical snapshot below is not a substitute for CURRENT_STATE/NEXT_ACTION.
+
 ## Current Snapshot
 
 - Phase 1, Phase 2 and Phase 3 are complete.
