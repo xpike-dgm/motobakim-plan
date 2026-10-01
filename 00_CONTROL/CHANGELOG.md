@@ -2036,3 +2036,11 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - The review log records the independent Luna Max findings, corrections, accepted verdicts and merged PRs for
   the E3 DB/RPC inventory and browser-rules specification. PR #8 leaves hosted DB inspection open;
   PR #9 completes only T-E3-006c's rules specification, not a browser runtime or hosted Storage proof.
+
+
+## 2026-10-01 — Standing Development Authorization
+
+- DEC-0070 records the owner's explicit continued-work and merge mandate until revoked, after independent GPT-6 Luna Max PASS and applicable exact-head green CI; repeated owner confirmations stop.
+- Entry point, NEXT_ACTION, CURRENT_STATE, HANDOFF and TASK_EXECUTION_PROTOCOL carry the amendment; DEC-0069 review evidence/finding closure, dependency/scope rules and operational activation gates remain.
+
+- Independent review of plan PR #4 initial head 3bbbfb2bf6e4e8004236f152d614f19c6c1cf3e4 requested M-1: stale bootstrap current pointers. NEXT_ACTION and HANDOFF now identify Development and the active dependency-eligible task, with old phase/gate instructions explicitly historical; the same independent GPT-6 Luna Max reviewer returned PASS at corrected 9a84991d6ec828d6ec93f49fdd1a9ebd58787cac with M-1 closed and exact-head CI green. Identified verdict and finding closure are recorded in REVIEW_LOG.

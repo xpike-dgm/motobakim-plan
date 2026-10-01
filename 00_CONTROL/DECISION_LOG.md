@@ -2051,3 +2051,17 @@ PR #7's sub-agent first requested changes for the motorcycle negative-floor chec
 corrected code head 687246ee3f6a865f86914743e3a5a5c2c423879d. The later 66dd175 evidence-only
 commit did not change executable code. Owner acceptance authorizes treating that review as the T3 leg for
 PR #7; it does not prove hosted production activation or mark T-E3-001-R1 DONE.
+
+
+---
+
+## DEC-0070 — Standing Owner Authorization for Reviewed Development
+**Date:** 2026-10-01
+**Status:** APPROVED (explicit owner instruction)
+**Owner verbatim:** “tüm hepsini kabul ediyorum ve onaylıyorum aksini söyleyene kadar sahip olarak tam onayın var ben zaten arkadan takip ediyorum sen durmadan çalış birşey olursa ben müdahale ederim”
+
+The owner accepts the identified PR #24 independent GPT-6 Luna Max verdict and grants standing authorization to continue recorded Development tasks and merge their bounded PRs after applicable exact-head green CI and independent review PASS, until the owner revokes or narrows this mandate. Repeated per-task owner confirmation is no longer required on this path. Reviewers use `gpt-6-luna` with `max`, as explicitly requested by the owner.
+
+This amends DEC-0069's per-verdict acceptance timing: each evidence record must cite this standing owner authorization together with the separate reviewer context/model, exact head and scope, findings, remediation/re-review, actual checks and bounded completion. A failed or missing review is never deemed accepted; implementer self-review and automated T3 cannot replace the independent second eye. One task PR, green CI, no direct main push, dependency eligibility and proof before DONE remain binding. Material findings are corrected and re-reviewed before merge; the owner receives plain-language progress without a repeated permission loop.
+
+The mandate operates within existing Development scope and approved product/architecture decisions. It does not itself establish production readiness, replace release/activation/custody/recovery evidence, select a provider/runtime, fill missing prices or budgets, or constitute a concrete purchase, publication or hosted activation. Those actions retain their applicable evidence and task/gate requirements. User steering takes effect immediately. T-E3-001-R1 remains REVIEW and unproven operational scope remains HELD.

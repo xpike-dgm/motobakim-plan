@@ -6,8 +6,15 @@ Motobakim / consumer-facing working brand: Kavriva
 ## Persistent Memory
 `xpike-dgm/motobakim-plan`
 
-## Current Phase (refreshed 2026-09-23; OUT-3 B-10 — was Phase-4)
+## Current Phase (2026-10-01)
+`DEVELOPMENT AUTHORIZED / GATE 8 PASSED (DEC-0067) / STANDING REVIEWED-WORK MANDATE (DEC-0070)`
+
+Current work: application T-E3-030 through PR #25, exact-head green CI, independent GPT-6 Luna Max review and bounded evidence. Follow NEXT_ACTION and the application registry/PR for changing task state; then select the next dependency-eligible recorded task. T-E3-001-R1 remains REVIEW and operational activation HELD.
+
+## Historical Bootstrap Phase Snapshot (2026-09-23; superseded by DEC-0067)
 `PHASE-8 / PROOF COMPLETE / GATE 8 PENDING ON FIVE-AI PROTOCOL (DEC-0060) / NO PRODUCT CODE`
+
+The snapshot and earlier phase sections below preserve historical context, not current gate instructions.
 
 ## Latest Phase-4 Work
 
@@ -561,3 +568,8 @@ Gate 3 -> 4 PASSED on 2026-09-17. Gate 4 -> 5 PASSED on 2026-09-21 under `DEC-00
 
 70. OUT-1 audit CLOSED-current (2026-09-23): SİSTEM-SAĞLAM on plan `8981d5b` + app `1ca962d` after delta
     verification (Wave-A/B entries, 34 records / 44 sessions). Re-opens on any future tree change.
+
+
+## 2026-10-01 — Standing Development Mandate (DEC-0070)
+
+The owner accepted PR #24's identified independent PASS and authorizes ongoing eligible Development tasks and bounded merges after independent GPT-6 Luna Max PASS plus applicable exact-head green CI, until revoked. Record the mandate with per-task reviewer/head/scope/finding closure/CI proof; no repeated confirmation. Preserve dependency eligibility, architecture, one task PR and operational HELD gates. T-E3-001-R1 is REVIEW, not the bootstrap proof-only DONE row. This current amendment supersedes older approval timing notes without altering historical snapshots.

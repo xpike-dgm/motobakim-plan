@@ -1,14 +1,24 @@
 # Next Action — Single Current Work Pointer
 
 Status: `GATE 8 PASSED / DEVELOPMENT AUTHORIZED (DEC-0067)`
-Phase: `PHASE 8 — REPOSITORY BOOTSTRAP (VAULT/GRAPH/REGISTRY/CI + PROOF TASK)`
-Gate: `6 -> 7 PASSED under DEC-0055 / 7 -> 8 PASSED under DEC-0057`
+Phase: `DEVELOPMENT — approved product task execution (DEC-0067)`
+Gate: `8 -> Development PASSED under DEC-0067; no replay of the bootstrap gate`
 
-Current review rule (DEC-0069, 2026-10-01): the owner accepts PR #7's independent Luna Max sub-agent
+Historical review timing (DEC-0069, superseded by DEC-0070, 2026-10-01): the owner accepts PR #7's independent Luna Max sub-agent
 review as its T3 second eye. Future delegated T3 reviews require explicit owner acceptance and recorded
 scope, head and finding closure. PR, green CI and task evidence remain required. T-E3-001-R1 is not DONE.
 
-## Just Completed
+## Active Development Mandate (DEC-0070, 2026-10-01)
+
+Continue eligible recorded Development tasks without repeated owner confirmation. The owner grants standing acceptance of bounded independent GPT-6 Luna Max PASS verdicts and authorized PR merges after exact-head green CI, until revoked. Record reviewer/head/scope/findings/re-review, CI and this owner mandate in each evidence record. Do not skip dependencies, independent review or proof before DONE. The earlier per-verdict timing note above is superseded by DEC-0070; operational activation/custody/recovery gates remain.
+
+## Immediate Next Manager Action (2026-10-01)
+
+Continue the active application task T-E3-030 (classified cost BOM skeleton) through PR #25, its independent GPT-6 Luna Max review, exact-head green CI and bounded evidence under DEC-0070. Application registry/evidence/PR state is the volatile task authority; after closure select the next eligible recorded task from TASK_INDEX and its dependencies. T-E3-019 is not eligible while T-E3-003/004 and product authorization remain unproved; do not use bootstrap-only T-E3-001 DONE as the product dependency. T-E3-001-R1 remains REVIEW and physical activation remains HELD. No new provider, price, purchase or deployment is selected by this pointer.
+
+## Historical Bootstrap Snapshot (through 2026-09-23; superseded current phase)
+
+The following records preserve their original time-specific statements; they do not limit the Development authorization in DEC-0067 or prescribe the current next action.
 
 Gate 7 -> 8 is PASSED. The owner explicitly approved the transition (`onaylıyorum`) after independent gate
 verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
@@ -38,7 +48,7 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
   4/4 checks, fresh-session SUFFICIENT+MATCH, rollback byte-identical); 6 audit items closed (contracts,
   runnable checks, CI green ×3 runs, INDEX/routing, VERIFIED evidence); checklist COMPLETE 9/9.
 
-## Immediate Next Manager Action (refreshed 2026-09-23; OUT-3 B-10)
+## Historical Bootstrap Next Action (2026-09-23; completed/superseded by DEC-0067)
 
 1. Push the records batch under the standing mandate (DEC-0059/0060/0062; owner-bypass audited per DEC-0061).
 2. Then run the five-AI closure protocol to completion (DEC-0060); Gate 8 approval may be requested ONLY after

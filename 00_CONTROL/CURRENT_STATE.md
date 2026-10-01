@@ -9,6 +9,10 @@ DEC-0068; DEC-0069 permits an independent delegated sub-agent T3 verdict when th
 the recorded reviewer, code head, scope and finding closure. PR #7's scoped review is owner-accepted.
 This does not establish hosted production activation or T-E3-001-R1 DONE.
 
+## Active Development Mandate (DEC-0070, 2026-10-01)
+
+The owner authorizes continued eligible Development work and bounded PR merges after separate GPT-6 Luna Max review PASS and applicable exact-head green CI, until revoked. DEC-0070 supersedes the repeated per-verdict owner-confirmation timing in DEC-0069; it preserves recorded independent evidence, finding closure, dependency eligibility and no direct main push. T-E3-001-R1 remains REVIEW; no production readiness or activation follows from this mandate.
+
 ## Approved Working References
 
 - Kavriva brand — APPROVED

@@ -29,3 +29,8 @@ explicit owner acceptance. An automatic check or implementer self-review cannot 
 the non-subagent restriction in DEC-0064 and the different-chat wording above for owner-accepted
 sub-agent reviews; the PR, green CI and evidence requirements remain. Review approval does not itself
 prove production activation or advance a task to DONE.
+
+
+## Amendment (DEC-0070, 2026-10-01, owner-approved)
+
+Within recorded Development scope, the owner grants standing acceptance of bounded independent GPT-6 Luna Max PASS verdicts and PR merges after applicable exact-head green CI until revoked. Repeated per-task owner confirmation is no longer required. Evidence records cite this mandate plus reviewer context/model, exact head/scope, findings and re-review, actual checks and bounded completion. Failed/missing review, self-review or automated T3 never satisfy the independent requirement. Dependencies, one task PR, no direct main push, evidence before DONE and applicable operational/release/activation gates remain unchanged.

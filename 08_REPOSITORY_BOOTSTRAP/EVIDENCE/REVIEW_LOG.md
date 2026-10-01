@@ -78,3 +78,10 @@ T3-class work requires a distinct second eye. An independent delegated sub-agent
 owner explicitly accepts it and the context, model, exact head, scope and finding closure are recorded.
 Implementer self-review or an automatic gate alone never counts. The DEC-0064 non-subagent restriction is
 superseded by DEC-0069 only for this owner-accepted path.
+
+
+- 2026-10-01 | /root/plan_pr4_independent_review (model: gpt-6-luna, max; independent delegated context) | motobakim-plan PR #4: initial 3bbbfb2bf6e4e8004236f152d614f19c6c1cf3e4 then corrected 9a84991d6ec828d6ec93f49fdd1a9ebd58787cac; DEC-0070 and current Development pointers | CHANGES_REQUESTED(1) then PASS; M-1 stale bootstrap pointers closed, no remaining findings; exact-head CI 36908510066 green; owner standing authorization recorded, no runtime or product DONE | closed-1 open-0 | M-1
+
+## ACTIVE (DEC-0070, 2026-10-01 — standing owner authorization)
+
+The owner grants standing acceptance of bounded independent GPT-6 Luna Max PASS verdicts and eligible Development PR merges after applicable exact-head green CI until revoked. This supersedes repeated per-verdict confirmation timing, not the distinct second eye, exact scope/head/finding closure or evidence gates. Failed/missing reviews and implementer/automatic self-approval never count. Operational readiness, activation and concrete financial decisions retain their applicable proof and authority.
