@@ -68,6 +68,10 @@ explicitly (gap recorded, not hidden).
 
 - 2026-10-01 | /root/pr7_independent_review (model: gpt-6-luna, max; owner-accepted delegated context) | kavriva-app PR #7, initial head 04bbbf1 then corrected code head 687246e; later 66dd175 evidence-only; E-DEV-005 | CHANGES_REQUESTED(1) then PASS for PR scope; owner accepted T3 second-eye, no DONE or hosted-production claim | closed-1 open-0 | PR7-FLOOR-001
 
+- 2026-10-01 | /root/pr8_independent_review (model: gpt-6-luna, max; owner-accepted delegated context) | kavriva-app PR #8, initial inventory head 2466ce4 then corrected code head f74c42d; later evidence-only commits; E-DEV-006 | CHANGES_REQUESTED(1) then PASS for repository DB/RPC inventory; owner accepted T3 second-eye; PR merged as 26a56e6; hosted inspection absent and T-E3-006a remains REVIEW | closed-1 open-0 | no reviewer ID assigned (graphql_public catalog omission)
+
+- 2026-10-01 | /root/pr9_independent_review (model: gpt-6-luna, max; owner-accepted delegated context) | kavriva-app PR #9, initial formal-contract heads 05dc052/9b2c01f then corrected browser-profile code head 07d84b7; later evidence-only commits; E-DEV-007 | CHANGES_REQUESTED(1) then PASS for T-E3-006c browser-rules specification; owner accepted T3 second-eye and authorized merge; PR merged as 7523d23; browser runtime and hosted Storage not proven | closed-1 open-0 | no reviewer ID assigned (tenth-contract classification)
+
 ## ACTIVE (DEC-0069, 2026-10-01 — owner-approved amendment)
 
 T3-class work requires a distinct second eye. An independent delegated sub-agent verdict counts when the

@@ -2031,3 +2031,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - The owner accepts PR #7's Luna Max sub-agent review as its T3 second eye. DEC-0064's blanket exclusion of
   sub-agents is superseded when the owner accepts an identified, recorded independent verdict. PR and green CI
   remain required; this does not mark the task DONE or activate production.
+
+### Owner-accepted PR #8 and PR #9 reviews (2026-10-01)
+- The review log records the independent Luna Max findings, corrections, accepted verdicts and merged PRs for
+  the E3 DB/RPC inventory and browser-rules specification. PR #8 leaves hosted DB inspection open;
+  PR #9 completes only T-E3-006c's rules specification, not a browser runtime or hosted Storage proof.
