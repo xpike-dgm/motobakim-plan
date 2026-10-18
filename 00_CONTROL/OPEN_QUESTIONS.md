@@ -201,3 +201,9 @@ ADR016 önerisi yalnız kapalı E2 kabuğu için React/TS/Viteyi gerekçelendiri
 
 
 T-E2-001 R1 CHANGES_REQUIRED/HOLD: iki P1 davranış ve Angular okuyucu P2si için dar onarım, yeni gerçek CI ve yeniden hüküm beklenir. Nuxt kaynak P2si için yeni resmi ham yanıt/tarih/SHA ADR016da kayıtlı; eski rapor silinmeden yeniden değerlendirilecek.
+
+## R2 bağımsız inceleme ve güncel onarım — 2026-10-18
+
+APP35723cc /PLAN0cef604 bütün görev R2 hükmü CHANGES_REQUIRED/HOLD. Önceki iki P1, eski240/0 ve Nuxt kaynak uyuşmazlığı kapandı; iki yeni P2 açık: tek t gezinmesinde güncel240ın iki ayrı konuşma satırında tekrarı ve çıkış takip kaydının geçici yazım hatasından sonra yenilemenin özel satır açması. Özgün R2 uygulama EDEV125te16410bayt /SHA256 e06b254750dfa5844338efbaed2395c798a6ede317a77c2fe0f6d09b77115bde; R1 değiştirilmedi.
+
+Kod öncesi f2577b2 ve onarım c202241723b95c37b7577f2d8720714d269dc1f9 aynı73adresi/130pini korur. Dört build,104browser ve11HTTP yerel başarılı. Görsel40/37 tam bayt eş; Root üç yeni özgünü açtı. Yeni gerçek Linux E2 [CI39132829963](https://github.com/xpike-dgm/kavriva-app/actions/runs/39132829963) ve diğer iş akışları bekleniyor; tamamlandığı varsayılmaz. Sonraki adım gerçek olay başına tek konuşma/çıkış onarımının CI ve bütün görev bağımsız yeniden hükmüdür. ADR016 PROPOSED, ADR010 değişmedi, T-E2-001 IN_PROGRESS;113/93/206 ve117 fiziksel kayıt aynı. Aşağıdaki önceki inceleme/kaynak durumları kendi tarihsel başlıklarını kapsar.
