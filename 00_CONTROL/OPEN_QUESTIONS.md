@@ -193,3 +193,23 @@ Detayli ham kanit `02_DISCOVERY/SESSIONS/` altinda, onceki resolution tarihcesi 
 
 ## Kullanim Kurali
 Yeni belirsizlik ayni formatta eklenir. Soru yalniz kullanici kaniti veya yetkili karar sureciyle `ANSWERED` yapilir. Genis bir soru kapaninca daha dar edge-case sorusu acilabilir; eski cevap sessizce silinmez.
+
+
+## T-E2-001 — sınırlı çatı kararı incelemesi (OPEN)
+
+ADR016 önerisi yalnız kapalı E2 kabuğu için React/TS/Viteyi gerekçelendirir; ADR010 halen bağlayıcıdır. Ürün gerçek okuyucu/CI39126947518 başarılı; Anguların iki konuşmasındaki birleşik240/0 başlığın değerlendirilmesi, bütün görev bağımsız gpt-6-luna/max incelemesi ve normal plan PR kararı beklenir. Bu teknik doğrulama sahibin debug yapmasını gerektirmez. Üretim yetki/host/harcama ayrıca HELD; öneri bunları cevaplamaz.
+
+
+T-E2-001 R1 CHANGES_REQUIRED/HOLD: iki P1 davranış ve Angular okuyucu P2si için dar onarım, yeni gerçek CI ve yeniden hüküm beklenir. Nuxt kaynak P2si için yeni resmi ham yanıt/tarih/SHA ADR016da kayıtlı; eski rapor silinmeden yeniden değerlendirilecek.
+
+## R2 bağımsız inceleme ve güncel onarım — 2026-10-18
+
+APP35723cc /PLAN0cef604 bütün görev R2 hükmü CHANGES_REQUIRED/HOLD. Önceki iki P1, eski240/0 ve Nuxt kaynak uyuşmazlığı kapandı; iki yeni P2 açık: tek t gezinmesinde güncel240ın iki ayrı konuşma satırında tekrarı ve çıkış takip kaydının geçici yazım hatasından sonra yenilemenin özel satır açması. Özgün R2 uygulama EDEV125te16410bayt /SHA256 e06b254750dfa5844338efbaed2395c798a6ede317a77c2fe0f6d09b77115bde; R1 değiştirilmedi.
+
+Kod öncesi f2577b2 ve onarım c202241723b95c37b7577f2d8720714d269dc1f9 aynı73adresi/130pini korur. Dört build,104browser ve11HTTP yerel başarılı. Görsel40/37 tam bayt eş; Root üç yeni özgünü açtı. Yeni gerçek Linux E2 [CI39132829963](https://github.com/xpike-dgm/kavriva-app/actions/runs/39132829963) ve diğer iş akışları bekleniyor; tamamlandığı varsayılmaz. Sonraki adım gerçek olay başına tek konuşma/çıkış onarımının CI ve bütün görev bağımsız yeniden hükmüdür. ADR016 PROPOSED, ADR010 değişmedi, T-E2-001 IN_PROGRESS;113/93/206 ve117 fiziksel kayıt aynı. Aşağıdaki önceki inceleme/kaynak durumları kendi tarihsel başlıklarını kapsar.
+
+## R3 bağımsız hüküm ve kabul metninin eşitlenmesi — 2026-10-18
+
+APPad5fee3 /PLANdfcd56d için R3 CHANGES_REQUIRED/HOLD: önceki kod bulguları kapandı; tek açık P2, genel reload güvencesiyle bilinen birleşik arıza sınırının tutarsızlığı. Özgün23304bayt rapor SHA256eb0d04bd9c7fa30f38648f9424bc9939050dce408844e674fc8192a65dae4e8e uygulama EDEV125te korunur. Genel güvence artık yalnız niyet kaydı başarıyla yazıldığında veya sunucu iptali doğrulandığında geçerlidir. Tek-seferlik veya sürekli yazım hatası + sunucuya ulaşmayan istek + retry öncesi tam kapanma/yenilemede yeni sayfa garantisi yoktur; gerçek karşı örnek PASS sayılmaz. Aynı sayfada kapalı kalma/güvenli retry ayrı kanıtlıdır. Metin uyumu için yeniden bağımsız hüküm beklenir; runtime/test/kilit/checker değişmedi.
+
+ad5fee3 için9/9 gerçek kaynak CI ve tam artifact doğrulaması başarılı; yeni metadata başlığının aynı-head sonucu değildir. PLANdfcd56d CI39132909790 da başarılı. ADR016 PROPOSED, ADR010 değişmedi, görev IN_PROGRESS, gerçek113/93/206 ve117 fiziksel kayıt aynı. Sonraki iş tek belgesel P2nin bağımsız kapanışı ve normal korumalı karar/PR sürecidir. Önceki inceleme/kaynak notları tarihsel olarak korunur.

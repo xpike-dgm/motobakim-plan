@@ -2036,3 +2036,33 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - The review log records the independent Luna Max findings, corrections, accepted verdicts and merged PRs for
   the E3 DB/RPC inventory and browser-rules specification. PR #8 leaves hosted DB inspection open;
   PR #9 completes only T-E3-006c's rules specification, not a browser runtime or hosted Storage proof.
+
+
+## 2026-10-18 — T-E2-001 karar önerisi kapsamı
+
+Aktif görev işaretçisi eski bootstrap sonraki adımlarından T-E2-001e taşındı; tarihsel bootstrap makbuzları korunur. Kod öncesi karar önerisi kapsamı ADR010un kayıtlı yeniden değerlendirme koşuluyla sınırlandı. İlk yazım yalnız taslak hazırlığıdır; çatı seçilmedi, task DONE yapılmadı, ana dal/sağlayıcı/üretim değiştirilmedi. Uygulama `bc05785` karşılaştırma CI ve `35525c0` kapalı kabuk adayı kaynakları görünür kaydedildi; yeni ürün CI ve görevsonu bağımsız inceleme beklenir.
+
+
+## 2026-10-18 — T-E2-001 sınırlı ADR016 önerisi
+
+ADR016 PROPOSED, ADR_INDEX, current/next/handoff/registry/open kayıtları güncellendi. Gerçek dört adayın bc05785 kanıtı ve ürün35525c0 okuyucu FAILi ayrıldı;2564b06 tekrar CI sonucu bekleniyor. ADR010 değişmedi, yeni karar onaylanmış veya görev DONE yazılmadı. Görev sonunda bağımsız inceleme ve normal PR/yeşil CI korunur.
+
+
+2564b06 /CI39126947518 ürün gerçek okuyucusu dahil dokuz iş akışı başarılı;13 gerçek konuşma/WAV doğrulandı. Angular ilk/eski-major birleşik240/0 caption açık gözlemi gizlenmeden görev incelemesine taşındı. ADR016 PROPOSED ve görev IN_PROGRESS kaldı. Plan PR5 ilk checks başarılı; yeni belgesel başlık da normal CIye gider.
+
+
+## 2026-10-18 — bütün görev R1 hükmü ve dar onarım
+
+Geçmişsiz gpt-6-luna/max isteğiyle R1 CHANGES_REQUIRED/HOLD alındı; iki P1, iki P2 açık. Gerçek rapor özeti, kaynak başlıkları ve tam rapor SHA REVIEW_LOG/ADR016da kayıtlı. Yeni fixture onarımının yerel92browser/11HTTP/build sonucu CI veya bağımsız kapanış yerine geçmez. Nuxt Q4 2026 ve4.6.2 resmi kaynakları yeniden okundu; eski R1 metni değişmedi. ADR010a dokunulmadı; ADR016 PROPOSED ve görev IN_PROGRESS.
+
+## R2 bağımsız inceleme ve güncel onarım — 2026-10-18
+
+APP35723cc /PLAN0cef604 bütün görev R2 hükmü CHANGES_REQUIRED/HOLD. Önceki iki P1, eski240/0 ve Nuxt kaynak uyuşmazlığı kapandı; iki yeni P2 açık: tek t gezinmesinde güncel240ın iki ayrı konuşma satırında tekrarı ve çıkış takip kaydının geçici yazım hatasından sonra yenilemenin özel satır açması. Özgün R2 uygulama EDEV125te16410bayt /SHA256 e06b254750dfa5844338efbaed2395c798a6ede317a77c2fe0f6d09b77115bde; R1 değiştirilmedi.
+
+Kod öncesi f2577b2 ve onarım c202241723b95c37b7577f2d8720714d269dc1f9 aynı73adresi/130pini korur. Dört build,104browser ve11HTTP yerel başarılı. Görsel40/37 tam bayt eş; Root üç yeni özgünü açtı. Yeni gerçek Linux E2 [CI39132829963](https://github.com/xpike-dgm/kavriva-app/actions/runs/39132829963) ve diğer iş akışları bekleniyor; tamamlandığı varsayılmaz. Sonraki adım gerçek olay başına tek konuşma/çıkış onarımının CI ve bütün görev bağımsız yeniden hükmüdür. ADR016 PROPOSED, ADR010 değişmedi, T-E2-001 IN_PROGRESS;113/93/206 ve117 fiziksel kayıt aynı. Aşağıdaki önceki inceleme/kaynak durumları kendi tarihsel başlıklarını kapsar.
+
+## R3 bağımsız hüküm ve kabul metninin eşitlenmesi — 2026-10-18
+
+APPad5fee3 /PLANdfcd56d için R3 CHANGES_REQUIRED/HOLD: önceki kod bulguları kapandı; tek açık P2, genel reload güvencesiyle bilinen birleşik arıza sınırının tutarsızlığı. Özgün23304bayt rapor SHA256eb0d04bd9c7fa30f38648f9424bc9939050dce408844e674fc8192a65dae4e8e uygulama EDEV125te korunur. Genel güvence artık yalnız niyet kaydı başarıyla yazıldığında veya sunucu iptali doğrulandığında geçerlidir. Tek-seferlik veya sürekli yazım hatası + sunucuya ulaşmayan istek + retry öncesi tam kapanma/yenilemede yeni sayfa garantisi yoktur; gerçek karşı örnek PASS sayılmaz. Aynı sayfada kapalı kalma/güvenli retry ayrı kanıtlıdır. Metin uyumu için yeniden bağımsız hüküm beklenir; runtime/test/kilit/checker değişmedi.
+
+ad5fee3 için9/9 gerçek kaynak CI ve tam artifact doğrulaması başarılı; yeni metadata başlığının aynı-head sonucu değildir. PLANdfcd56d CI39132909790 da başarılı. ADR016 PROPOSED, ADR010 değişmedi, görev IN_PROGRESS, gerçek113/93/206 ve117 fiziksel kayıt aynı. Sonraki iş tek belgesel P2nin bağımsız kapanışı ve normal korumalı karar/PR sürecidir. Önceki inceleme/kaynak notları tarihsel olarak korunur.
