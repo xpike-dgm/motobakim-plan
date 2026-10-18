@@ -284,3 +284,5 @@ Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
 - `05_ADR/RECORDS/ADR-016__INTERNAL_WORKSPACE_CLIENT_SELECTION.md` — PROPOSED / T-E2-001 / ADR010 kısmi ardıllığı önerisi; bağlayıcı seçim ve üretim kabulü değildir.
 
 ADR016 güncel inceleme durumu: R2 CHANGES_REQUIRED/HOLD; önceki dört bulgu kapandı, yeni iki P2 için c202241 onarımı/gerçek CI/yeni hüküm bekleniyor. Karar PROPOSED ve görev IN_PROGRESS.
+
+ADR016 R3: kod bulguları kapandı; tek P2 kabul/sınır metni eşitlendi, bağımsız yeniden hüküm bekleniyor. PROPOSED; kanonik kabul değildir.

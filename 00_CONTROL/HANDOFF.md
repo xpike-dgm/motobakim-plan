@@ -1,5 +1,12 @@
 # HANDOFF
 
+## R3 bağımsız hüküm ve kabul metninin eşitlenmesi — 2026-10-18
+
+APPad5fee3 /PLANdfcd56d için R3 CHANGES_REQUIRED/HOLD: önceki kod bulguları kapandı; tek açık P2, genel reload güvencesiyle bilinen birleşik arıza sınırının tutarsızlığı. Özgün23304bayt rapor SHA256eb0d04bd9c7fa30f38648f9424bc9939050dce408844e674fc8192a65dae4e8e uygulama EDEV125te korunur. Genel güvence artık yalnız niyet kaydı başarıyla yazıldığında veya sunucu iptali doğrulandığında geçerlidir. Tek-seferlik veya sürekli yazım hatası + sunucuya ulaşmayan istek + retry öncesi tam kapanma/yenilemede yeni sayfa garantisi yoktur; gerçek karşı örnek PASS sayılmaz. Aynı sayfada kapalı kalma/güvenli retry ayrı kanıtlıdır. Metin uyumu için yeniden bağımsız hüküm beklenir; runtime/test/kilit/checker değişmedi.
+
+ad5fee3 için9/9 gerçek kaynak CI ve tam artifact doğrulaması başarılı; yeni metadata başlığının aynı-head sonucu değildir. PLANdfcd56d CI39132909790 da başarılı. ADR016 PROPOSED, ADR010 değişmedi, görev IN_PROGRESS, gerçek113/93/206 ve117 fiziksel kayıt aynı. Sonraki iş tek belgesel P2nin bağımsız kapanışı ve normal korumalı karar/PR sürecidir. Önceki inceleme/kaynak notları tarihsel olarak korunur.
+
+
 ## R2 bağımsız inceleme ve güncel onarım — 2026-10-18
 
 APP35723cc /PLAN0cef604 bütün görev R2 hükmü CHANGES_REQUIRED/HOLD. Önceki iki P1, eski240/0 ve Nuxt kaynak uyuşmazlığı kapandı; iki yeni P2 açık: tek t gezinmesinde güncel240ın iki ayrı konuşma satırında tekrarı ve çıkış takip kaydının geçici yazım hatasından sonra yenilemenin özel satır açması. Özgün R2 uygulama EDEV125te16410bayt /SHA256 e06b254750dfa5844338efbaed2395c798a6ede317a77c2fe0f6d09b77115bde; R1 değiştirilmedi.
