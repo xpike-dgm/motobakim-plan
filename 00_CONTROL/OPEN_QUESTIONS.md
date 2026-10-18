@@ -193,3 +193,8 @@ Detayli ham kanit `02_DISCOVERY/SESSIONS/` altinda, onceki resolution tarihcesi 
 
 ## Kullanim Kurali
 Yeni belirsizlik ayni formatta eklenir. Soru yalniz kullanici kaniti veya yetkili karar sureciyle `ANSWERED` yapilir. Genis bir soru kapaninca daha dar edge-case sorusu acilabilir; eski cevap sessizce silinmez.
+
+
+## T-E2-001 — sınırlı çatı kararı incelemesi (OPEN)
+
+ADR016 önerisi yalnız kapalı E2 kabuğu için React/TS/Viteyi gerekçelendirir; ADR010 halen bağlayıcıdır. Ürün gerçek okuyucu/CI39126947518, bütün görev bağımsız gpt-6-luna/max incelemesi ve normal plan PR kararı beklenir. Bu teknik doğrulama sahibin debug yapmasını gerektirmez. Üretim yetki/host/harcama ayrıca HELD; öneri bunları cevaplamaz.

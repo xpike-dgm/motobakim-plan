@@ -2041,3 +2041,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 ## 2026-10-18 — T-E2-001 karar önerisi kapsamı
 
 Aktif görev işaretçisi eski bootstrap sonraki adımlarından T-E2-001e taşındı; tarihsel bootstrap makbuzları korunur. Kod öncesi karar önerisi kapsamı ADR010un kayıtlı yeniden değerlendirme koşuluyla sınırlandı. İlk yazım yalnız taslak hazırlığıdır; çatı seçilmedi, task DONE yapılmadı, ana dal/sağlayıcı/üretim değiştirilmedi. Uygulama `bc05785` karşılaştırma CI ve `35525c0` kapalı kabuk adayı kaynakları görünür kaydedildi; yeni ürün CI ve görevsonu bağımsız inceleme beklenir.
+
+
+## 2026-10-18 — T-E2-001 sınırlı ADR016 önerisi
+
+ADR016 PROPOSED, ADR_INDEX, current/next/handoff/registry/open kayıtları güncellendi. Gerçek dört adayın bc05785 kanıtı ve ürün35525c0 okuyucu FAILi ayrıldı;2564b06 tekrar CI sonucu bekleniyor. ADR010 değişmedi, yeni karar onaylanmış veya görev DONE yazılmadı. Görev sonunda bağımsız inceleme ve normal PR/yeşil CI korunur.

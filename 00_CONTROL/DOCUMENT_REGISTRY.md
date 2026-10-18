@@ -277,3 +277,8 @@ Bu tablo her gate gecisinde veya review-state degisiminde guncellenir.
 - `04_TECH_STRATEGY/DEBATES/DEBATE-017__MANAGER_SYNTHESIS.md` — USER-APPROVED PHASE-4 WORKING DIRECTION / DEC-0047 / NUMERIC LIMITS HELD
 
 - `DEC-0047 — Production Download, Storage and Automatic Transfer Working Direction` — USER-APPROVED PHASE-4 WORKING DIRECTION
+
+
+## Geliştirme karar önerisi — 2026-10-18
+
+- `05_ADR/RECORDS/ADR-016__INTERNAL_WORKSPACE_CLIENT_SELECTION.md` — PROPOSED / T-E2-001 / ADR010 kısmi ardıllığı önerisi; bağlayıcı seçim ve üretim kabulü değildir.

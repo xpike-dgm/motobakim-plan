@@ -17,4 +17,5 @@
 | ADR-013 | Mobile Build, Signing and Split/Hybrid Release Operations | APPROVED | 2026-09-21 | — | — |
 | ADR-014 | AI/LLM Assistance Boundary, Decision Layer and Provider/Model Routing | APPROVED | 2026-09-21 | — | — |
 | ADR-015 | AI-Safe Module, Contract, Repository Topology and Project Graph | APPROVED | 2026-09-21 | — | — |
+| ADR-016 | Yönetim çalışma alanı istemcisi için sınırlı seçim önerisi | PROPOSED | 2026-10-18 | Henüz yok; ADR010 için kısmi ardıllık önerisi | — |
 Status: PROPOSED / REVIEW / APPROVED / LOCKED / REJECTED / SUPERSEDED.

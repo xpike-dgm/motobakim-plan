@@ -1,5 +1,14 @@
 # HANDOFF
 
+## Güncel geliştirme kaydı — 2026-10-18 / T-E2-001
+
+Aktif görev T-E2-001: yönetim çalışma alanı kabuğu. Son kabul edilmiş uygulama tabanı PR126 /972622a;113 sınırlı DONE,93 kalan,206 toplam. Fiziksel uygulama registry satırı117; bu sayı tamamlanan görev sayısı değildir. Eski faz/bootstrap paragrafları tarihsel kayıttır; DEC0067 geliştirme ve DEC0068 görev sonu inceleme kuralları geçerlidir. Sahibin güncel talimatı sürekli devam ve bağımsız gpt-6-luna/max incelemesidir.
+
+ADR016 **PROPOSED**: dört eşit adayın bc05785 gerçek kanıtından sonra yalnız E2 kapalı kabuğu için React/TS/Vite önerisi. Angular destek ve SvelteKit çıktı avantajları korunur; Nuxt açıkları başka adayı otomatik kazandırmaz. ADR010 halen APPROVED ve değiştirilmedi. Yeni host/hesap/harcama/üretim kararı yok. Ayrı ürün35525c0 CI39086356023te gerçek okuyucu hizmetini başlatamadı;2564b06 /CI39126947518 onarımı sonuç bekliyor. Görev IN_PROGRESS; ürün okuyucu, exact-head CI ve bütün görev bağımsız incelemesi tamamlanmadan kabul veya çatı seçimi yok.
+
+Sonraki adım: `00_CONTROL/NEXT_ACTION.md`. Uygulama `vault/REGISTRY/T-E2-001.md` ve `vault/EVIDENCE/E-DEV-125.md` görev kanıtıdır. T-E3-001-R1, E5, üretim kimlik/yetki ve diğer HELD kapılar bu öneriyle kapanmaz.
+
+
 ## Project
 Motobakim / consumer-facing working brand: Kavriva
 
