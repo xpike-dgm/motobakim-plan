@@ -9,7 +9,7 @@ Task: T-E2-001 / C2.1 / F2.1.1 / FL2.1.1
 
 ADR-010 dört aile için eşit kanıt olmadan kazanan seçilmesini yasaklar. Kendi yeniden değerlendirme maddesi, gerçek uygulama denemesiyle bir ardıl karar hazırlanmasını açar. Bu belge o öneridir; APPROVED değildir ve ADR-010un hiçbir hükmünü henüz değiştirmez. Geliştirme yetkisi DEC-0067, tek görev PRı ve görev sonunda inceleme DEC-0068 kapsamındadır. Sahibin sürekli devam talimatı rutin yeniden izin döngüsünü kaldırır; yapılmamış inceleme, yeşil CI veya ürün kabulü yaratmaz.
 
-Uygulamanın kabul edilmiş tabanı PR126 / `972622acb2a9e3ea2f6b696a2b368bfeb11fba70`. Dört adayın tam karşılaştırma başlığı `bc057850192d8f27e9f22e22bfd87ac9542c5edd`; dokuz iş akışı başarılı. Ayrı kapalı ürün kabuğu `35525c004508f7a6cf1dfab5225a46c3298fb586` yerel sekiz tarayıcı testini geçti, ancak kendi Linux okuyucu kurulumu CI39086356023te başarısız oldu. Onarım başlığı `2564b06bbf9f46803d8d1eb81b654125d65eb411` / CI39126947518 halen sonuç bekliyor. İlk hata korunur; yeni başlık başarılı varsayılmaz.
+Uygulamanın kabul edilmiş tabanı PR126 / `972622acb2a9e3ea2f6b696a2b368bfeb11fba70`. Dört adayın tam karşılaştırma başlığı `bc057850192d8f27e9f22e22bfd87ac9542c5edd`; dokuz iş akışı başarılı. Ayrı kapalı ürün kabuğu `35525c004508f7a6cf1dfab5225a46c3298fb586` yerel sekiz tarayıcı testini geçti, ancak kendi Linux okuyucu kurulumu CI39086356023te başarısız oldu. Onarım başlığı `2564b06bbf9f46803d8d1eb81b654125d65eb411` / CI39126947518 ürün okuyucusu dahil dokuz iş akışıyla başarılı.13 konuşma/ses dosyası,22 alt komut ve46 kaynak özeti gerçek baytlarıyla doğrulandı. Anguların ilk/eski tur konuşmasındaki birleşik240/0 caption açık gözlem olarak ayrıldı; neden/etki henüz çözülmedi. İlk hata korunur; CI başarısı kusursuzluk veya bağımsız kabul değildir.
 
 ## Önerilen karar
 
@@ -46,7 +46,7 @@ Uygulama `vault/PACKS/P-E2-001.md`, `vault/PROFILES/workspace-framework-gate.md`
 | Temiz oda | Güncel sürüm ilk temiz CI checkout ve beş tam kilit; güncel helper fazı önceki çalışma dizininde gerçek yükseltme | Yükseltme fazı tamamen boş kurulum diye yazılmaz. |
 | Yetkinin dirilmemesi | API uyumsuzluğu/iptal birlikte kapalı; sonra uyumlu APIde eski epoch403, yazım/audit sıfır | İlk birleşik olumsuz tek başına yalnız API mismatch nedenini ayırmaz. |
 | AI ve tasarım | Sabit brief/yol sahipliği; dört gerçek kaynakta iki ayrı sentetik öneriye gerçek Git çakışması; doğal PNG okuma ve byte eşlikleri | İki bağımsız AI implementasyonu veya otomatik dosya kilidi çalıştırılmış değildir. Görev sonu ayrı inceleme beklenir. |
-| Ürün kabuğu | Ayrı paket/kilit/static sunucu; örnek model/kimlik ithali yok; yerel8 browser/klavye/axe/gerçek zoom | Üretim operatörü girişi veya gerçek kayıt incelemesi değildir. Yeni CI bekleniyor. |
+| Ürün kabuğu | Ayrı paket/kilit/static sunucu; örnek model/kimlik ithali yok; yerel8 browser/klavye/axe/gerçek zoom | Üretim operatörü girişi veya gerçek kayıt incelemesi değildir. 2564b06 ürün8 browser/zoom/Orca CI başarılı; bağımsız kabul bekleniyor. |
 
 İlk çalışmayan npm/peer, eski Kit yapılandırması, kesilen zoom görüntüleri, sunucu kapanışı ve ürün okuyucu kurulumu korunmuş retlerdir. Ölçüm veya test düzeltmesi ürün kabulü yerine geçmez. Eski olumlu kanıt yalnız kendi exact-head kaynağını kapsar.
 
@@ -64,7 +64,7 @@ Olaylarda örneğin kapalı durum/same-ID sorgusu teknik davranışı gösterir;
 
 ## Kabul için kalan kapılar
 
-1. Yeni ürün dahil exact-head dokuz CI ve gerçek ürün Orca konuşma/ses kanıtı.35525c0 başarısızlığı onarılmış diye silinmez.
+1. Kaynak2564b06 için ürün dahil dokuz CI ve gerçek ürün Orca kanıtı tamamlandı. Son metadata başlığında normal PR CI ayrıca gerekir.35525c0 FAILi ve Angular konuşma gözlemi korunur.
 2. Aynı tam görev/plan önerisi/20 soru/kanıtın geçmişsiz gpt-6-luna/max bağımsız incelemesi; gerçek bulguların giderilmesi ve yeniden hüküm. Model talebi çalıştırılmış inceleme değildir.
 3. Normal PR + yeşil plan CI ile bağlayıcı karar kaydı; ADR010un kısmi ardıllığı ancak o sırada açıkça güncellenir. İncelemesiz veya yönetici atlatmasıyla birleştirme yok.
 4. Ürün görevinin yalnız kendi kabul ölçütleri için kanıt ve sınırlı durum güncellemesi. Bu belge tek başına T-E2-001i DONE yapmaz.

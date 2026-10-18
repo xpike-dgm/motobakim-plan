@@ -2046,3 +2046,6 @@ Aktif görev işaretçisi eski bootstrap sonraki adımlarından T-E2-001e taşı
 ## 2026-10-18 — T-E2-001 sınırlı ADR016 önerisi
 
 ADR016 PROPOSED, ADR_INDEX, current/next/handoff/registry/open kayıtları güncellendi. Gerçek dört adayın bc05785 kanıtı ve ürün35525c0 okuyucu FAILi ayrıldı;2564b06 tekrar CI sonucu bekleniyor. ADR010 değişmedi, yeni karar onaylanmış veya görev DONE yazılmadı. Görev sonunda bağımsız inceleme ve normal PR/yeşil CI korunur.
+
+
+2564b06 /CI39126947518 ürün gerçek okuyucusu dahil dokuz iş akışı başarılı;13 gerçek konuşma/WAV doğrulandı. Angular ilk/eski-major birleşik240/0 caption açık gözlemi gizlenmeden görev incelemesine taşındı. ADR016 PROPOSED ve görev IN_PROGRESS kaldı. Plan PR5 ilk checks başarılı; yeni belgesel başlık da normal CIye gider.
