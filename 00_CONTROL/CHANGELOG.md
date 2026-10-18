@@ -2036,3 +2036,8 @@ Bu dosya proje hafizasi, source-of-truth ve planlama sistemindeki anlamli degisi
 - The review log records the independent Luna Max findings, corrections, accepted verdicts and merged PRs for
   the E3 DB/RPC inventory and browser-rules specification. PR #8 leaves hosted DB inspection open;
   PR #9 completes only T-E3-006c's rules specification, not a browser runtime or hosted Storage proof.
+
+
+## 2026-10-18 — T-E2-001 karar önerisi kapsamı
+
+Aktif görev işaretçisi eski bootstrap sonraki adımlarından T-E2-001e taşındı; tarihsel bootstrap makbuzları korunur. Kod öncesi karar önerisi kapsamı ADR010un kayıtlı yeniden değerlendirme koşuluyla sınırlandı. İlk yazım yalnız taslak hazırlığıdır; çatı seçilmedi, task DONE yapılmadı, ana dal/sağlayıcı/üretim değiştirilmedi. Uygulama `bc05785` karşılaştırma CI ve `35525c0` kapalı kabuk adayı kaynakları görünür kaydedildi; yeni ürün CI ve görevsonu bağımsız inceleme beklenir.

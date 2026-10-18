@@ -38,13 +38,17 @@ verification PASS, recorded as `DEC-0057` on 2026-09-21. Phase 7 is closed.
   4/4 checks, fresh-session SUFFICIENT+MATCH, rollback byte-identical); 6 audit items closed (contracts,
   runnable checks, CI green ×3 runs, INDEX/routing, VERIFIED evidence); checklist COMPLETE 9/9.
 
-## Immediate Next Manager Action (refreshed 2026-09-23; OUT-3 B-10)
+## Güncel sonraki iş — 2026-10-18 / T-E2-001
 
-1. Push the records batch under the standing mandate (DEC-0059/0060/0062; owner-bypass audited per DEC-0061).
-2. Then run the five-AI closure protocol to completion (DEC-0060); Gate 8 approval may be requested ONLY after
-   all five AIs report no open problems (agreement ≠ approval; each closure verified). On approval record the
-   DEC, update registries, and present the Development opening plan. Full bidirectional trace closure rides
-   with the Development row-migration per the G8-2 singular-example criterion (check_trace deferral bound here).
+Geçmiş bootstrap adımları yukarıda tarihsel olarak korunur; aktif çalışma Development içindeki T-E2-001dir. Uygulamanın son kabul edilmiş ana tabanı `972622acb2a9e3ea2f6b696a2b368bfeb11fba70` / PR126. Uygulama registry kaydı ve kanıtı görev durumunun güncel kaynağıdır; bu planın eski task satırları tamamlanmış ürün kanıtı değildir.
+
+1. Aynı dört altyapının karşılaştırması `bc057850192d8f27e9f22e22bfd87ac9542c5edd` başlığında dokuz CI ile doğrulandı. E2 CI39084979140 gerçek browser/klavye/zoom/Orca, iki major fazı ve eski dosyalara dönüş kanıtını içerir. Nuxt güvenlik bulguları açık; bir adayın sorunu başka adayın onayı değildir.
+2. Ayrı kapalı kabuk adayı `35525c004508f7a6cf1dfab5225a46c3298fb586`; yeni ürün E2 CI39086356023 halen çalışıyor. Kayıt/rol/onay/yayın bağlantısı yok; görev IN_PROGRESS. Yerel8 browser kontrolü/gerçek zoom ve bağımsız paket kurulumu/BOM/audit başarılı; gerçek ürün okuyucu sonucu beklenir.
+3. ADR010un kendi yeniden değerlendirme maddesi kapsamında ADR016 önerisini hazırla. İlk kapsam: ADR016, ADR_INDEX, ADR010un yalnız açıkça kaydedilen gelecek kısmi ardıllığı; CURRENT_STATE/NEXT_ACTION/HANDOFF/CHANGELOG/DOCUMENT_REGISTRY/OPEN_QUESTIONS/DECISION_LOG ve ancak gerçek inceleme varsa REVIEW_LOG. İlk taslak ADR010u veya ana dalı değiştirmez. Plan deposuna ürün kodu, sağlayıcı veya dağıtım eklenmez.
+4. Bütün görev, kaynak başlığı,20 sabit ilk okuma sorusu, karar gerekçesi ve kanıt tek görevsonu geçmişsiz gpt-6-luna/max incelemesine gider. Gerçek bulgular kapanmadan veya ilgili karar kaydı bağlayıcı olmadan uygulama kabuğunu kabul etme. Sonuçsuz test veya model isteği gerçek çalıştırma kanıtı değildir.
+5. Aynı görevin uygulama değişiklikleri tek PRda; gerekli plan kararı kendi deposunda bağlantılı PRla. Doğrudan main push, incelemesiz birleştirme veya CI atlatma yok. Şu anda yeni PR veya çatı seçimi yok; gerçek113 sınırlı DONE /93 kalan /206 görev değişmedi.
+
+Sahibin sürekli devam talimatı rutin izin döngüsü gerektirmez. Bu kayıt gelecekteki bir incelemeyi yapılmış, bir teknoloji önerisini onaylanmış veya üretim ortamını hazır göstermez. Üretim kimlik/yetki/host ve ayrı görevlerin açık sınırları korunur.
 
 ## Hard Boundaries
 
