@@ -78,3 +78,6 @@ T3-class work requires a distinct second eye. An independent delegated sub-agent
 owner explicitly accepts it and the context, model, exact head, scope and finding closure are recorded.
 Implementer self-review or an automatic gate alone never counts. The DEC-0064 non-subagent restriction is
 superseded by DEC-0069 only for this owner-accepted path.
+
+
+- 2026-10-18 | /root/e2001_whole_luna_max_r1 (requested gpt-6-luna/max; fresh context; runtime attestation not claimed) | T-E2-001 whole task APP c7f571ae272bc5c9d2dcd5a3d1c8053fcb8817cf; PLAN 7a1b2d51faef14788f09113e1ec9e84bba78952e; E-DEV-125 full report22469bytes SHA637cb5b8ed7f6bdc8fad31039b4bc1b08a6b213783a9bd30b1ed002e38056c22 | CHANGES_REQUIRED / HOLD; no acceptance or DONE | open4; remediation and new CI/re-review pending | P1 same-ID lost on refresh/reload; P1 unconfirmed logout success; P2 Angular Orca240/0; P2 Nuxt roadmap source/date; original verdict preserved

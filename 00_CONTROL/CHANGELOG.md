@@ -2049,3 +2049,8 @@ ADR016 PROPOSED, ADR_INDEX, current/next/handoff/registry/open kayıtları günc
 
 
 2564b06 /CI39126947518 ürün gerçek okuyucusu dahil dokuz iş akışı başarılı;13 gerçek konuşma/WAV doğrulandı. Angular ilk/eski-major birleşik240/0 caption açık gözlemi gizlenmeden görev incelemesine taşındı. ADR016 PROPOSED ve görev IN_PROGRESS kaldı. Plan PR5 ilk checks başarılı; yeni belgesel başlık da normal CIye gider.
+
+
+## 2026-10-18 — bütün görev R1 hükmü ve dar onarım
+
+Geçmişsiz gpt-6-luna/max isteğiyle R1 CHANGES_REQUIRED/HOLD alındı; iki P1, iki P2 açık. Gerçek rapor özeti, kaynak başlıkları ve tam rapor SHA REVIEW_LOG/ADR016da kayıtlı. Yeni fixture onarımının yerel92browser/11HTTP/build sonucu CI veya bağımsız kapanış yerine geçmez. Nuxt Q4 2026 ve4.6.2 resmi kaynakları yeniden okundu; eski R1 metni değişmedi. ADR010a dokunulmadı; ADR016 PROPOSED ve görev IN_PROGRESS.

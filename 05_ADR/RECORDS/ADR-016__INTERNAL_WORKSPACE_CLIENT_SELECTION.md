@@ -30,7 +30,7 @@ Aynı dondurulmuş 240 kayıt/20 sayfa örneği, model, stil, yirmi ilk okuma so
 
 React önerisinin gerekçesi aynı işlevi daha küçük bağımlılık ağacı ve özel framework sunucusu/adapteri gerektirmeyen doğrudan bileşen sınırıyla karşılamasıdır. En küçük çıktıyı verdiği, en uzun destek garantisinin olduğu veya çoklu AI üretimini kendiliğinden güvenli yaptığı iddia edilmez. Anguların daha açık destek takvimi ve SvelteKitin daha küçük çıktısı gerçek avantajlardır. Nuxtun açıkları başka adayı otomatik kazandırmaz. Dört adayda lisans alanı eksikliği sıfır; bu hukuki onay değildir. React/Angular/SvelteKit güncel yerel audit sonucu sıfır bulgudur; açık bulunmadığına dair sürekli garanti değildir.
 
-Resmi kaynaklar: [React sürüm politikası](https://react.dev/community/versioning-policy), [Angular destek tablosu](https://angular.dev/reference/releases), [Nuxt yol haritası](https://nuxt.com/docs/4.x/community/roadmap/), [SvelteKit3 göçü](https://svelte.dev/docs/kit/migrating-to-sveltekit-3). Okuma tarihi18Ekim2026. Nuxt5 Q4 tahmini yayımlanma kanıtı değildir; Nuxt3ün31Temmuz2026 destek sonu yalnız göç girdisinin riskidir.
+Resmi kaynaklar: [React sürüm politikası](https://react.dev/community/versioning-policy), [Angular destek tablosu](https://angular.dev/reference/releases), [Nuxt yol haritası](https://nuxt.com/docs/4.x/community/roadmap/), [SvelteKit3 göçü](https://svelte.dev/docs/kit/migrating-to-sveltekit-3). Okuma tarihi18Ekim2026. Nuxt5 için Q4 2026 tahmini yayımlanma kanıtı değildir; Nuxt3ün31Temmuz2026 destek sonu yalnız göç girdisinin riskidir.
 
 ## Kanıt matrisi ve gerçek sınırlar
 
@@ -82,3 +82,10 @@ Seçilen kilitte güvenlik açığı, destek politikasının değişmesi, gerçe
 ## Superseded By
 
 None.
+
+
+## Bağımsız R1 bulguları ve kaynak yeniden doğrulaması — 2026-10-18
+
+Geçmişsiz `/root/e2001_whole_luna_max_r1` (istenen gpt-6-luna/max profili) APPc7f571a /PLAN7a1b2d5 için CHANGES_REQUIRED/HOLD verdi. İki P1 fixture bulgusu aynı-IDnin normal yenileme/tam reload ile kaybı ve doğrulanmamış çıkışa başarı denmesidir. Angular gerçek okuyucu240/0 farkı P2dir. Tam özgün rapor uygulama EDEV125te22.469bayt /SHA256 637cb5b8ed7f6bdc8fad31039b4bc1b08a6b213783a9bd30b1ed002e38056c22 olarak korunur. Yeni onarımın yerel build/92browser/11HTTP sonucu tek başına bağımsız kapanış değildir; yeni gerçek LinuxCI ve yeniden hüküm gerekir. Bu ADR PROPOSED kalır.
+
+R1in diğer P2si resmi Nuxt görünümündeki Q1/4.6.0 ile buradaki Q4 ifadesinin uyuşmadığı yönündeydi. 18Ekim2026 12:56:54UTCde resmi yol haritası yeniden gerçek HTTP ile okundu: [resmi yönlenen Markdown](https://nuxt.com/raw/docs/4.x/community/roadmap.md),8.853bayt /SHA256 66cb5a6fa9b7a149b5c8064abc5b8418c728b170eea7fb56f71966bb80267d1d. Yanıt5.x için Q4 2026 estimated/scheduled;4.x stable ve5.x yayımlandıktan6ay sonra destek sonu diyor. [Resmi v4.6.2 kaydı](https://github.com/nuxt/nuxt/releases/tag/v4.6.2) ve GitHub releaseAPI published_at2026-10-16T17:21:23Z ile4.6.2 latest döndü. Böylece bu tekrar okumanın yılı/tarihi/kaynağı görünürdür; Q1/4.6.0 eski inceleme gözlemi silinmez. Yeni delille bulgunun kapanması veya geri çekilmesi bağımsız yeniden incelemede değerlendirilecektir. Q4 tahmini kesin yayın tarihi değildir ve Nuxt5 yayımlandı sonucu çıkarılmaz.

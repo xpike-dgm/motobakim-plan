@@ -198,3 +198,6 @@ Yeni belirsizlik ayni formatta eklenir. Soru yalniz kullanici kaniti veya yetkil
 ## T-E2-001 — sınırlı çatı kararı incelemesi (OPEN)
 
 ADR016 önerisi yalnız kapalı E2 kabuğu için React/TS/Viteyi gerekçelendirir; ADR010 halen bağlayıcıdır. Ürün gerçek okuyucu/CI39126947518 başarılı; Anguların iki konuşmasındaki birleşik240/0 başlığın değerlendirilmesi, bütün görev bağımsız gpt-6-luna/max incelemesi ve normal plan PR kararı beklenir. Bu teknik doğrulama sahibin debug yapmasını gerektirmez. Üretim yetki/host/harcama ayrıca HELD; öneri bunları cevaplamaz.
+
+
+T-E2-001 R1 CHANGES_REQUIRED/HOLD: iki P1 davranış ve Angular okuyucu P2si için dar onarım, yeni gerçek CI ve yeniden hüküm beklenir. Nuxt kaynak P2si için yeni resmi ham yanıt/tarih/SHA ADR016da kayıtlı; eski rapor silinmeden yeniden değerlendirilecek.
